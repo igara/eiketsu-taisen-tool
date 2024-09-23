@@ -56,7 +56,6 @@ export type Skill = {
 const main = async () => {
 	const result = await fetch("https://eiketsu-taisen.net/datalist/api/base");
 	const baseJSON: Base = await result.json();
-	fs.writeFileSync("base.json", JSON.stringify(baseJSON, null, 2));
 
 	const colors = baseJSON.color.map((color) => {
 		const c = color.split(",");
@@ -128,7 +127,7 @@ const main = async () => {
 
 	const generals = baseJSON.general.map((general) => {
 		const g = general.split(",");
-		const strat = strats[Number.parseInt(g[16])];
+		const strat = strats[Number.parseInt(g[22])];
 		const skill: Skill[] = [];
 
 		const skill1 = Number.parseInt(g[19]);
