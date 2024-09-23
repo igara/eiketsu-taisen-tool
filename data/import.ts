@@ -47,7 +47,7 @@ type Base = {
 	error_id: number;
 };
 
-type Skill = {
+export type Skill = {
 	name: string;
 	shortName: string;
 	description: string;
@@ -110,8 +110,8 @@ const main = async () => {
 	const strats = baseJSON.strat.map((strat) => {
 		const s = strat.split(",");
 		const category = Number.parseInt(s[5]);
-		const range = Number.parseInt(s[7]);
-		const time = Number.parseInt(s[6]);
+		const range = Number.parseInt(s[6]);
+		const time = Number.parseInt(s[7]);
 
 		return {
 			name: s[1],
