@@ -108,7 +108,10 @@ const main = async () => {
 
 	const strats = baseJSON.strat.map((strat) => {
 		const s = strat.split(",");
-		const category = Number.parseInt(s[5]);
+		const c = s[5].split(":");
+		const categories = c.map((category) => {
+			return Number.parseInt(category);
+		});
 		const range = Number.parseInt(s[6]);
 		const time = Number.parseInt(s[7]);
 
@@ -117,7 +120,7 @@ const main = async () => {
 			kanaName: s[2],
 			cost: s[3],
 			description: s[4],
-			category,
+			categories,
 			range,
 			time,
 		};
@@ -158,6 +161,10 @@ const main = async () => {
 			});
 		}
 
+		const categories = strat.categories.map((category) => {
+			return stratCategories[category];
+		});
+
 		return {
 			id: g[0],
 			detailImageId: g[1],
@@ -172,7 +179,7 @@ const main = async () => {
 				kanaName: strat.kanaName,
 				cost: strat.cost,
 				description: strat.description,
-				category: stratCategories[strat.category],
+				categories,
 				time: stratTimes[strat.time],
 				range: stratRanges[strat.range],
 			},
