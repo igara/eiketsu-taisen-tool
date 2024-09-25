@@ -103,7 +103,7 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refColorDetailsElement}>
 														<summary
 															onKeyDown={onClickColorDetails}
-															className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+															className="text-black text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															勢力
 														</summary>
@@ -112,7 +112,7 @@ export const GeneralTable: React.FC = () => {
 															{colors.map((color) => (
 																<div
 																	key={color}
-																	className="flex items-center gap-[4px]"
+																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 																>
 																	<input
 																		type="checkbox"
@@ -122,7 +122,7 @@ export const GeneralTable: React.FC = () => {
 																	/>
 																	<label
 																		htmlFor={`color_${color}`}
-																		className="text-white"
+																		className="text-black"
 																	>
 																		{color}
 																	</label>
@@ -134,7 +134,7 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refPeriodDetailsElement}>
 														<summary
 															onKeyDown={onClickPeriodDetails}
-															className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+															className="text-black text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															時代
 														</summary>
@@ -143,7 +143,7 @@ export const GeneralTable: React.FC = () => {
 															{periods.map((period) => (
 																<div
 																	key={period}
-																	className="flex items-center gap-[4px]"
+																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 																>
 																	<input
 																		type="checkbox"
@@ -153,7 +153,7 @@ export const GeneralTable: React.FC = () => {
 																	/>
 																	<label
 																		htmlFor={`period_${period}`}
-																		className="text-white"
+																		className="text-black"
 																	>
 																		{period}
 																	</label>
@@ -165,7 +165,7 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refCostDetailsElement}>
 														<summary
 															onKeyDown={onClickCostDetails}
-															className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+															className="text-black text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															コスト
 														</summary>
@@ -174,7 +174,7 @@ export const GeneralTable: React.FC = () => {
 															{costs.map((cost) => (
 																<div
 																	key={cost}
-																	className="flex items-center gap-[4px]"
+																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 																>
 																	<input
 																		type="checkbox"
@@ -184,7 +184,7 @@ export const GeneralTable: React.FC = () => {
 																	/>
 																	<label
 																		htmlFor={`cost_${cost}`}
-																		className="text-white"
+																		className="text-black"
 																	>
 																		{cost}
 																	</label>
@@ -196,7 +196,7 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refUnitTypeDetailsElement}>
 														<summary
 															onKeyDown={onClickUnitTypeDetails}
-															className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+															className="text-black text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															兵種
 														</summary>
@@ -205,7 +205,7 @@ export const GeneralTable: React.FC = () => {
 															{unitTypes.map((unitType) => (
 																<div
 																	key={unitType}
-																	className="flex items-center gap-[4px]"
+																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 																>
 																	<input
 																		type="checkbox"
@@ -215,7 +215,7 @@ export const GeneralTable: React.FC = () => {
 																	/>
 																	<label
 																		htmlFor={`unitType_${unitType}`}
-																		className="text-white"
+																		className="text-black"
 																	>
 																		{unitType}
 																	</label>
@@ -227,7 +227,7 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refSkillDetailsElement}>
 														<summary
 															onKeyDown={onClickSkillDetails}
-															className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+															className="text-black text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															特技
 														</summary>
@@ -236,7 +236,7 @@ export const GeneralTable: React.FC = () => {
 															{skills.map((skill) => (
 																<div
 																	key={skill.name}
-																	className="flex items-center gap-[4px]"
+																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 																>
 																	<input
 																		type="checkbox"
@@ -246,7 +246,7 @@ export const GeneralTable: React.FC = () => {
 																	/>
 																	<label
 																		htmlFor={`skill_${skill.name}`}
-																		className="text-white"
+																		className="text-black"
 																	>
 																		{skill.name}
 																	</label>
@@ -256,18 +256,18 @@ export const GeneralTable: React.FC = () => {
 													</details>
 												</div>
 
-												<div className="flex justify-end gap-[28px]">
+												<div className="flex justify-end gap-[28px] pr-[12px] pb-[12px]">
 													<button
 														type="button"
 														onClick={onClickReset}
-														className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+														className="text-white text-x bg-blue-600 p-[4px] border-2 border-white rounded-lg focus:outline-none"
 													>
-														Reset
+														リセット
 													</button>
 
 													<button
 														type="submit"
-														className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+														className="text-x bg-red-500 p-[4px] border-2 border-white rounded-lg focus:outline-none"
 													>
 														🔍
 													</button>
