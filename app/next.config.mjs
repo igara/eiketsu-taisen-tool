@@ -6,6 +6,7 @@ const nextConfig = {
 	experimental: {
 		typedRoutes: true,
 	},
+	basePath: "/eiketsu-taisen-tool",
 };
 
 export default nextConfig;
