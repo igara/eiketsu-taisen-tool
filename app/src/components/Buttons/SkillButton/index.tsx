@@ -1,22 +1,20 @@
 "use client";
 
 import type { Skill } from "@eiketsu-taisen-tool/data/import";
-import React from "react";
+import type React from "react";
+import { useLogic } from "./logic";
 
 type Props = {
 	skill: Skill;
 };
 
 export const SkillButton: React.FC<Props> = ({ skill }) => {
-	const [isDisplay, setIsDisplay] = React.useState(false);
-	const onClick = () => {
-		setIsDisplay(!isDisplay);
-	};
+	const { isDisplay, onClick } = useLogic();
 
 	return (
 		<span className="relative">
 			<span
-				className={`${isDisplay ? "" : "hidden"} absolute w-[50dvw] top-[28px] bg-white dark:bg-black border-black dark:border-white border-2 p-[4px]`}
+				className={`${isDisplay ? "" : "hidden"} bg-[#efe6cb] absolute w-[50dvw] top-[28px] border-black border-2 p-[4px]`}
 			>
 				{skill.description}
 			</span>
@@ -24,7 +22,7 @@ export const SkillButton: React.FC<Props> = ({ skill }) => {
 			<button
 				type="button"
 				onClick={onClick}
-				className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm p-[4px] dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+				className="text-black focus:outline-none font-medium rounded-lg p-[4px] bg-[#ffe600] hover:opacity-80 border-black border-2 text-xs"
 			>
 				{skill.name}
 			</button>

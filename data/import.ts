@@ -60,6 +60,8 @@ const main = async () => {
 	const colors = baseJSON.color.map((color) => {
 		const c = color.split(",");
 		return c[1];
+
+		// return { name: c[1], colorR: c[2], colorG: c[3], colorB: c[4] };
 	});
 	fs.writeFileSync("colors.json", JSON.stringify(colors, null, 2));
 
@@ -207,7 +209,7 @@ export type General = {
 		kanaName: string;
 		cost: string;
 		description: string;
-		category: string;
+		categories: string[];
 		time: string;
 		range: string;
 	};

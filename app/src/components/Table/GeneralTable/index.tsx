@@ -1,0 +1,288 @@
+"use client";
+
+import { GeneralTableBody } from "@/components/TableBody/GeneralTableBody";
+import type React from "react";
+import { FormProvider } from "react-hook-form";
+import { useLogic } from "./logic";
+
+export const GeneralTable: React.FC = () => {
+	const {
+		generals,
+		colors,
+		periods,
+		costs,
+		unitTypes,
+		skills,
+		formMethod,
+		onSubmit,
+		refColorDetailsElement,
+		refPeriodDetailsElement,
+		refCostDetailsElement,
+		refUnitTypeDetailsElement,
+		refSkillDetailsElement,
+		onClickColorDetails,
+		onClickPeriodDetails,
+		onClickCostDetails,
+		onClickUnitTypeDetails,
+		onClickSkillDetails,
+		onClickReset,
+		refTableScrollElement,
+	} = useLogic();
+
+	return (
+		<div
+			className="overflow-y-auto h-[100dvh] text-xs"
+			ref={refTableScrollElement}
+		>
+			<table className="w-full table-fixed border-collapse">
+				<thead className="text-white w-full sticky z-50 top-0 bg-gradient-to-b from-[#954d26] via-[#ae853a] to-[#b59d52]">
+					<tr>
+						<th className="w-[80px] text-left p-[4px]">
+							勢力
+							<br />
+							時代
+							<br />
+							【コスト】
+						</th>
+
+						<th className="w-[110px] text-left p-[4px]">
+							名前
+							<br />
+							武力 / 知力
+							<br />
+							特技
+						</th>
+
+						<th className="text-left p-[4px]">
+							計略名
+							<br />
+							効果時間
+							<br />
+							【必要士気】
+							<br />
+							説明
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<GeneralTableBody generals={generals} />
+				</tbody>
+
+				<tfoot className="sticky z-50 bottom-0 bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542]">
+					<tr>
+						<td className="p-[4px]" colSpan={3}>
+							<div className="flex flex-col gap-[4px]">
+								<div className="text-white flex gap-[4px]">
+									<div>検索件数: {generals.length}</div>
+									<div className="flex gap-[4px]">
+										選択条件:{" "}
+										{formMethod.getValues("color")?.map((c) => (
+											<span key={c}>{c}</span>
+										))}
+										{formMethod.getValues("period")?.map((p) => (
+											<span key={p}>{p}</span>
+										))}
+										{formMethod.getValues("cost")?.map((c) => (
+											<span key={c}>{c}</span>
+										))}
+										{formMethod.getValues("unitType")?.map((u) => (
+											<span key={u}>{u}</span>
+										))}
+										{formMethod.getValues("skill")?.map((s) => (
+											<span key={s}>{s}</span>
+										))}
+									</div>
+								</div>
+
+								<div>
+									<FormProvider {...formMethod}>
+										<form onSubmit={formMethod.handleSubmit(onSubmit)}>
+											<div className="flex flex-col gap-[4px]">
+												<div className="flex gap-[4px]">
+													<details ref={refColorDetailsElement}>
+														<summary
+															onKeyDown={onClickColorDetails}
+															className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+														>
+															勢力
+														</summary>
+
+														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
+															{colors.map((color) => (
+																<div
+																	key={color}
+																	className="flex items-center gap-[4px]"
+																>
+																	<input
+																		type="checkbox"
+																		value={color}
+																		id={`color_${color}`}
+																		{...formMethod.register("color")}
+																	/>
+																	<label
+																		htmlFor={`color_${color}`}
+																		className="text-white"
+																	>
+																		{color}
+																	</label>
+																</div>
+															))}
+														</div>
+													</details>
+
+													<details ref={refPeriodDetailsElement}>
+														<summary
+															onKeyDown={onClickPeriodDetails}
+															className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+														>
+															時代
+														</summary>
+
+														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
+															{periods.map((period) => (
+																<div
+																	key={period}
+																	className="flex items-center gap-[4px]"
+																>
+																	<input
+																		type="checkbox"
+																		value={period}
+																		id={`period_${period}`}
+																		{...formMethod.register("period")}
+																	/>
+																	<label
+																		htmlFor={`period_${period}`}
+																		className="text-white"
+																	>
+																		{period}
+																	</label>
+																</div>
+															))}
+														</div>
+													</details>
+
+													<details ref={refCostDetailsElement}>
+														<summary
+															onKeyDown={onClickCostDetails}
+															className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+														>
+															コスト
+														</summary>
+
+														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
+															{costs.map((cost) => (
+																<div
+																	key={cost}
+																	className="flex items-center gap-[4px]"
+																>
+																	<input
+																		type="checkbox"
+																		value={cost}
+																		id={`cost_${cost}`}
+																		{...formMethod.register("cost")}
+																	/>
+																	<label
+																		htmlFor={`cost_${cost}`}
+																		className="text-white"
+																	>
+																		{cost}
+																	</label>
+																</div>
+															))}
+														</div>
+													</details>
+
+													<details ref={refUnitTypeDetailsElement}>
+														<summary
+															onKeyDown={onClickUnitTypeDetails}
+															className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+														>
+															兵種
+														</summary>
+
+														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
+															{unitTypes.map((unitType) => (
+																<div
+																	key={unitType}
+																	className="flex items-center gap-[4px]"
+																>
+																	<input
+																		type="checkbox"
+																		value={unitType}
+																		id={`unitType_${unitType}`}
+																		{...formMethod.register("unitType")}
+																	/>
+																	<label
+																		htmlFor={`unitType_${unitType}`}
+																		className="text-white"
+																	>
+																		{unitType}
+																	</label>
+																</div>
+															))}
+														</div>
+													</details>
+
+													<details ref={refSkillDetailsElement}>
+														<summary
+															onKeyDown={onClickSkillDetails}
+															className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+														>
+															特技
+														</summary>
+
+														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
+															{skills.map((skill) => (
+																<div
+																	key={skill.name}
+																	className="flex items-center gap-[4px]"
+																>
+																	<input
+																		type="checkbox"
+																		value={skill.name}
+																		id={`skill_${skill.name}`}
+																		{...formMethod.register("skill")}
+																	/>
+																	<label
+																		htmlFor={`skill_${skill.name}`}
+																		className="text-white"
+																	>
+																		{skill.name}
+																	</label>
+																</div>
+															))}
+														</div>
+													</details>
+												</div>
+
+												<div className="flex gap-[32px]">
+													<button
+														type="button"
+														onClick={onClickReset}
+														className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+													>
+														Reset
+													</button>
+
+													<button
+														type="submit"
+														className="text-white focus:outline-none font-medium rounded-lg p-[4px] bg-gray-800 hover:bg-gray-700 focus:ring-gray-700 border-gray-700 text-xs"
+													>
+														🔍
+													</button>
+												</div>
+											</div>
+										</form>
+									</FormProvider>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	);
+};
+
+export default GeneralTable;
