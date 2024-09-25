@@ -34,7 +34,7 @@ export const GeneralTable: React.FC = () => {
 			className="overflow-y-auto h-[100dvh] text-xs"
 			ref={refTableScrollElement}
 		>
-			<table className="w-full table-fixed border-collapse">
+			<table className="w-full h-full table-fixed border-collapse">
 				<thead className="text-white w-full sticky z-50 top-0 bg-gradient-to-b from-[#954d26] via-[#ae853a] to-[#b59d52]">
 					<tr>
 						<th className="w-[80px] text-left p-[4px]">
