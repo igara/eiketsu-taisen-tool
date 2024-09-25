@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: (cd app && npm i)
       - name: export
-        run: (cd app && npm build)
+        run: (cd app && npm run build)
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
