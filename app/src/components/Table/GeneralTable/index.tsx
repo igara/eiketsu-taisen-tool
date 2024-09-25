@@ -256,7 +256,7 @@ export const GeneralTable: React.FC = () => {
 													</details>
 												</div>
 
-												<div className="flex gap-[32px]">
+												<div className="flex justify-end gap-[28px]">
 													<button
 														type="button"
 														onClick={onClickReset}
