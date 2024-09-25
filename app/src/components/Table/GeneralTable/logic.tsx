@@ -209,6 +209,13 @@ export const useLogic = () => {
 		if (refSkillDetailsElement.current !== null) {
 			refSkillDetailsElement.current.open = false;
 		}
+
+		const tableScrollElement = refTableScrollElement.current;
+
+		if (tableScrollElement !== null) {
+			tableScrollElement.scrollTop = 0;
+		}
+
 		router.push("/");
 	};
 
