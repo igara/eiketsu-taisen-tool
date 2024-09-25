@@ -41,14 +41,12 @@ export const GeneralTable: React.FC = () => {
 							勢力
 							<br />
 							時代
-							<br />
-							【コスト】
 						</th>
 
-						<th className="w-[110px] text-left p-[4px]">
-							名前
+						<th className="w-[120px] text-left p-[4px]">
+							名前【コスト】
 							<br />
-							武力 / 知力
+							【兵種】武力 / 知力
 							<br />
 							特技
 						</th>

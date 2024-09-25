@@ -15,27 +15,30 @@ export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
 				{general.color}
 				<br />
 				{general.period}
-				<br />【{general.cost}】
 			</td>
 
 			<td className="p-[4px]">
 				<div className="flex flex-col gap-[4px]">
-					<ruby>
-						<a
-							href={`https://eiketsu-taisen.net/datalist/?s=general&c=${general.id}`}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="underline"
-						>
-							{general.name}
-						</a>
-						<rp>(</rp>
-						<rt>{general.kanaName}</rt>
-						<rp>)</rp>
-					</ruby>
+					<div>
+						<ruby>
+							<a
+								href={`https://eiketsu-taisen.net/datalist/?s=general&c=${general.id}`}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="underline"
+							>
+								{general.name}
+							</a>
+							<rp>(</rp>
+							<rt>{general.kanaName}</rt>
+							<rp>)</rp>
+						</ruby>
+
+						<span>【{general.cost}】</span>
+					</div>
 
 					<p>
-						{general.power} / {general.intelligentzia}
+						【{general.unitType}】{general.power} / {general.intelligentzia}
 					</p>
 
 					<div className="flex gap-[4px]">
