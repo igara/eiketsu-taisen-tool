@@ -109,20 +109,20 @@ export const GeneralTable: React.FC = () => {
 														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
 															{colors.map((color) => (
 																<div
-																	key={color}
+																	key={color.name}
 																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 																>
 																	<input
 																		type="checkbox"
-																		value={color}
-																		id={`color_${color}`}
+																		value={color.name}
+																		id={`color_${color.name}`}
 																		{...formMethod.register("color")}
 																	/>
 																	<label
-																		htmlFor={`color_${color}`}
+																		htmlFor={`color_${color.name}`}
 																		className="text-black"
 																	>
-																		{color}
+																		{color.name}
 																	</label>
 																</div>
 															))}

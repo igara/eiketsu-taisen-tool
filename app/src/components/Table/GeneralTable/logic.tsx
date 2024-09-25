@@ -15,7 +15,7 @@ export const useLogic = () => {
 		let newGenerals: General[] = GeneralsJSON;
 		if (data.color?.length) {
 			newGenerals = newGenerals.filter((general) => {
-				return data.color?.some((c) => c === general.color);
+				return data.color?.some((c) => c === general.color.name);
 			});
 		}
 

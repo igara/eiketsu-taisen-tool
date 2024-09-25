@@ -59,9 +59,8 @@ const main = async () => {
 
 	const colors = baseJSON.color.map((color) => {
 		const c = color.split(",");
-		return c[1];
 
-		// return { name: c[1], colorR: c[2], colorG: c[3], colorB: c[4] };
+		return { name: c[1], r: c[2], g: c[3], b: c[4] };
 	});
 	fs.writeFileSync("colors.json", JSON.stringify(colors, null, 2));
 
@@ -200,7 +199,12 @@ export type General = {
 	detailImageId: string;
 	name: string;
 	kanaName: string;
-	color: string;
+	color: {
+		name: string;
+		r: string;
+		g: string;
+		b: string;
+	};
 	period: string;
 	cost: string;
 	unitType: string;

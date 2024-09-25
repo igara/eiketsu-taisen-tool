@@ -12,7 +12,7 @@ export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
 	return generals.map((general) => (
 		<tr key={general.id} className="border-b-white border-b-2 text-xs">
 			<td className="p-[4px]">
-				{general.color}
+				{general.color.name}
 				<br />
 				{general.period}
 			</td>
