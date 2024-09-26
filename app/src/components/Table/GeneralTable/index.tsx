@@ -27,6 +27,11 @@ export const GeneralTable: React.FC = () => {
 		onClickSkillDetails,
 		onClickReset,
 		refTableScrollElement,
+		defaultSelectedColors,
+		defaultSelectedPeriods,
+		defaultSelectedCosts,
+		defaultSelectedUnitTypes,
+		defaultSelectedSkills,
 	} = useLogic();
 
 	return (
@@ -75,19 +80,19 @@ export const GeneralTable: React.FC = () => {
 									<div>検索件数: {generals.length}</div>
 									<div className="flex gap-[4px]">
 										選択条件:{" "}
-										{formMethod.getValues("color")?.map((c) => (
+										{defaultSelectedColors.map((c) => (
 											<span key={c}>{c}</span>
 										))}
-										{formMethod.getValues("period")?.map((p) => (
+										{defaultSelectedPeriods.map((p) => (
 											<span key={p}>{p}</span>
 										))}
-										{formMethod.getValues("cost")?.map((c) => (
+										{defaultSelectedCosts.map((c) => (
 											<span key={c}>{c}</span>
 										))}
-										{formMethod.getValues("unitType")?.map((u) => (
+										{defaultSelectedUnitTypes.map((u) => (
 											<span key={u}>{u}</span>
 										))}
-										{formMethod.getValues("skill")?.map((s) => (
+										{defaultSelectedSkills.map((s) => (
 											<span key={s}>{s}</span>
 										))}
 									</div>

@@ -240,5 +240,10 @@ export const useLogic = () => {
 		onClickSkillDetails,
 		onClickReset,
 		refTableScrollElement,
+		defaultSelectedColors,
+		defaultSelectedPeriods,
+		defaultSelectedCosts,
+		defaultSelectedUnitTypes,
+		defaultSelectedSkills,
 	};
 };
