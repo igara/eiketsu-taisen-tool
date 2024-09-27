@@ -278,7 +278,7 @@ export const GeneralTable: React.FC = () => {
 														/>
 													</div>
 
-													<div className="flex justify-end gap-[28px] w-[100%] pr-[12px] pb-[12px]">
+													<div className="flex justify-end gap-[28px] w-[100%]">
 														<button
 															type="button"
 															onClick={onClickReset}
