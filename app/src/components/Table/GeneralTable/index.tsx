@@ -68,7 +68,7 @@ export const GeneralTable: React.FC = () => {
 					</tr>
 				</thead>
 
-				<tbody>
+				<tbody className="bg-white">
 					<GeneralTableBody generals={generals} />
 				</tbody>
 
@@ -106,7 +106,7 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refColorDetailsElement}>
 														<summary
 															onKeyDown={onClickColorDetails}
-															className="text-black text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															勢力
 														</summary>
@@ -115,20 +115,29 @@ export const GeneralTable: React.FC = () => {
 															{colors.map((color) => (
 																<div
 																	key={color.name}
-																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																	className="bg-white border-2 border-white rounded-lg focus:outline-none overflow-hidden"
 																>
-																	<input
-																		type="checkbox"
-																		value={color.name}
-																		id={`color_${color.name}`}
-																		{...formMethod.register("color")}
-																	/>
-																	<label
-																		htmlFor={`color_${color.name}`}
-																		className="text-black"
+																	<div
+																		className="flex items-center gap-[4px] p-[4px] text-xs"
+																		style={{
+																			background: `rgba(${color.r},${color.g},${color.b},0.2)`,
+																		}}
 																	>
-																		{color.name}
-																	</label>
+																		<input
+																			type="checkbox"
+																			value={color.name}
+																			id={`color_${color.name}`}
+																			{...formMethod.register("color")}
+																		/>
+																		<label
+																			htmlFor={`color_${color.name}`}
+																			style={{
+																				color: `rgb(${color.r},${color.g},${color.b})`,
+																			}}
+																		>
+																			{color.name}
+																		</label>
+																	</div>
 																</div>
 															))}
 														</div>
@@ -137,7 +146,7 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refPeriodDetailsElement}>
 														<summary
 															onKeyDown={onClickPeriodDetails}
-															className="text-black text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															時代
 														</summary>
@@ -146,7 +155,7 @@ export const GeneralTable: React.FC = () => {
 															{periods.map((period) => (
 																<div
 																	key={period}
-																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 																>
 																	<input
 																		type="checkbox"
@@ -168,7 +177,7 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refCostDetailsElement}>
 														<summary
 															onKeyDown={onClickCostDetails}
-															className="text-black text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															コスト
 														</summary>
@@ -177,7 +186,7 @@ export const GeneralTable: React.FC = () => {
 															{costs.map((cost) => (
 																<div
 																	key={cost}
-																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 																>
 																	<input
 																		type="checkbox"
@@ -199,7 +208,7 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refUnitTypeDetailsElement}>
 														<summary
 															onKeyDown={onClickUnitTypeDetails}
-															className="text-black text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															兵種
 														</summary>
@@ -208,7 +217,7 @@ export const GeneralTable: React.FC = () => {
 															{unitTypes.map((unitType) => (
 																<div
 																	key={unitType}
-																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 																>
 																	<input
 																		type="checkbox"
@@ -230,7 +239,7 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refSkillDetailsElement}>
 														<summary
 															onKeyDown={onClickSkillDetails}
-															className="text-black text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															特技
 														</summary>
@@ -239,7 +248,7 @@ export const GeneralTable: React.FC = () => {
 															{skills.map((skill) => (
 																<div
 																	key={skill.name}
-																	className="flex items-center gap-[4px] text-x p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 																>
 																	<input
 																		type="checkbox"
@@ -259,21 +268,32 @@ export const GeneralTable: React.FC = () => {
 													</details>
 												</div>
 
-												<div className="flex justify-end gap-[28px] pr-[12px] pb-[12px]">
-													<button
-														type="button"
-														onClick={onClickReset}
-														className="text-white text-x bg-blue-600 p-[4px] border-2 border-white rounded-lg focus:outline-none"
-													>
-														リセット
-													</button>
+												<div className="flex items-center pr-[12px] pb-[12px]">
+													<div className="flex items-center">
+														<input
+															type="text"
+															placeholder="名前or計略 スペースで複数選択"
+															className="w-[180px] p-[4px] text-xs rounded-lg"
+															{...formMethod.register("search_word")}
+														/>
+													</div>
 
-													<button
-														type="submit"
-														className="text-x bg-red-500 p-[4px] border-2 border-white rounded-lg focus:outline-none"
-													>
-														🔍
-													</button>
+													<div className="flex justify-end gap-[28px] w-[100%] pr-[12px] pb-[12px]">
+														<button
+															type="button"
+															onClick={onClickReset}
+															className="text-white text-xs bg-blue-600 p-[4px] border-2 border-white rounded-lg focus:outline-none"
+														>
+															リセット
+														</button>
+
+														<button
+															type="submit"
+															className="text-xs bg-red-500 p-[4px] border-2 border-white rounded-lg focus:outline-none"
+														>
+															🔍
+														</button>
+													</div>
 												</div>
 											</div>
 										</form>

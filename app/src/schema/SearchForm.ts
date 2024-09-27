@@ -7,6 +7,7 @@ export const SearchFormSchema = yup.object().shape({
 	cost: yup.array().of(yup.string()),
 	unitType: yup.array().of(yup.string()),
 	skill: yup.array().of(yup.string()),
+	search_word: yup.string().trim(),
 });
 
 export type SearchFormData = yup.InferType<typeof SearchFormSchema>;

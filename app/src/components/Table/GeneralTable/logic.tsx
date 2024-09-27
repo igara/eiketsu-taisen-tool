@@ -45,6 +45,24 @@ export const useLogic = () => {
 			});
 		}
 
+		const searchWords = data.search_word
+			? data.search_word.split(/[\u3000\u0020]+/)
+			: [];
+
+		for (const searchWord of searchWords) {
+			const regex = new RegExp(`${searchWord}`, "i");
+
+			newGenerals = newGenerals.filter((general) => {
+				return (
+					regex.test(general.name) ||
+					regex.test(general.kanaName) ||
+					regex.test(general.strat.name) ||
+					regex.test(general.strat.kanaName) ||
+					regex.test(general.strat.description)
+				);
+			});
+		}
+
 		return newGenerals;
 	};
 
@@ -56,6 +74,7 @@ export const useLogic = () => {
 	const defaultSelectedCosts = searchParams.getAll("cost[]");
 	const defaultSelectedUnitTypes = searchParams.getAll("unitType[]");
 	const defaultSelectedSkills = searchParams.getAll("skill[]");
+	const defaultSearchWord = searchParams.get("search_word");
 
 	const colors = ColorsJSON;
 	const periods = PeriodsJSON;
@@ -69,6 +88,7 @@ export const useLogic = () => {
 		cost: defaultSelectedCosts,
 		unitType: defaultSelectedUnitTypes,
 		skill: defaultSelectedSkills,
+		search_word: defaultSearchWord || "",
 	});
 
 	const refTableScrollElement = React.useRef<HTMLDivElement>(null);
@@ -86,6 +106,7 @@ export const useLogic = () => {
 			cost: defaultSelectedCosts,
 			unitType: defaultSelectedUnitTypes,
 			skill: defaultSelectedSkills,
+			search_word: defaultSearchWord || "",
 		},
 	});
 
@@ -162,6 +183,11 @@ export const useLogic = () => {
 			});
 		}
 
+		const searchWord = data.search_word;
+		if (searchWord) {
+			newURLSearchParams.append("search_word", searchWord);
+		}
+
 		const tableScrollElement = refTableScrollElement.current;
 
 		if (tableScrollElement !== null) {
@@ -193,6 +219,7 @@ export const useLogic = () => {
 		formMethod.setValue("cost", []);
 		formMethod.setValue("unitType", []);
 		formMethod.setValue("skill", []);
+		formMethod.setValue("search_word", "");
 
 		if (refColorDetailsElement.current !== null) {
 			refColorDetailsElement.current.open = false;

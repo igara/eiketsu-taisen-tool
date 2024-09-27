@@ -10,9 +10,21 @@ type Props = {
 
 export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
 	return generals.map((general) => (
-		<tr key={general.id} className="border-b-white border-b-2 text-xs">
+		<tr
+			key={general.id}
+			className="border-b-white border-b-2 text-xs"
+			style={{
+				background: `rgba(${general.color.r},${general.color.g},${general.color.b},0.2)`,
+			}}
+		>
 			<td className="p-[4px]">
-				{general.color.name}
+				<span
+					style={{
+						color: `rgb(${general.color.r},${general.color.g},${general.color.b})`,
+					}}
+				>
+					{general.color.name}
+				</span>
 				<br />
 				{general.period}
 			</td>
