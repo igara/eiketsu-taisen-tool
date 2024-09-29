@@ -1,11 +1,12 @@
 import { type SearchFormData, SearchFormResolver } from "@/schema/SearchForm";
-import ColorsJSON from "@eiketsu-taisen-tool/data/colors.json";
-import CostsJSON from "@eiketsu-taisen-tool/data/costs.json";
-import GeneralsJSON from "@eiketsu-taisen-tool/data/generals.json";
+import ColorsJSON from "@eiketsu-taisen-tool/data/data/json/colors.json";
+import CostsJSON from "@eiketsu-taisen-tool/data/data/json/costs.json";
+import GeneralsJSON from "@eiketsu-taisen-tool/data/data/json/generals.json";
+import PeriodsJSON from "@eiketsu-taisen-tool/data/data/json/periods.json";
+import SkillsJSON from "@eiketsu-taisen-tool/data/data/json/skills.json";
+import StratRangesJSON from "@eiketsu-taisen-tool/data/data/json/stratRanges.json";
+import UnitTypesJSON from "@eiketsu-taisen-tool/data/data/json/unitTypes.json";
 import type { General } from "@eiketsu-taisen-tool/data/import";
-import PeriodsJSON from "@eiketsu-taisen-tool/data/periods.json";
-import SkillsJSON from "@eiketsu-taisen-tool/data/skills.json";
-import UnitTypesJSON from "@eiketsu-taisen-tool/data/unitTypes.json";
 import { useRouter, useSearchParams } from "next/navigation";
 import React from "react";
 import { type SubmitHandler, useForm } from "react-hook-form";
@@ -45,6 +46,12 @@ export const useLogic = () => {
 			});
 		}
 
+		if (data.stratRange?.length) {
+			newGenerals = newGenerals.filter((general) => {
+				return data.stratRange?.some((sr) => sr === general.strat.range);
+			});
+		}
+
 		const searchWords = data.search_word
 			? data.search_word.split(/[\u3000\u0020]+/)
 			: [];
@@ -74,6 +81,7 @@ export const useLogic = () => {
 	const defaultSelectedCosts = searchParams.getAll("cost[]");
 	const defaultSelectedUnitTypes = searchParams.getAll("unitType[]");
 	const defaultSelectedSkills = searchParams.getAll("skill[]");
+	const defaultSelectedStratRanges = searchParams.getAll("stratRange[]");
 	const defaultSearchWord = searchParams.get("search_word");
 
 	const colors = ColorsJSON;
@@ -81,6 +89,7 @@ export const useLogic = () => {
 	const costs = CostsJSON;
 	const unitTypes = UnitTypesJSON;
 	const skills = SkillsJSON;
+	const stratRanges = StratRangesJSON;
 
 	const generals = genNewGenerals({
 		color: defaultSelectedColors,
@@ -88,6 +97,7 @@ export const useLogic = () => {
 		cost: defaultSelectedCosts,
 		unitType: defaultSelectedUnitTypes,
 		skill: defaultSelectedSkills,
+		stratRange: defaultSelectedStratRanges,
 		search_word: defaultSearchWord || "",
 	});
 
@@ -97,6 +107,7 @@ export const useLogic = () => {
 	const refCostDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refUnitTypeDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refSkillDetailsElement = React.useRef<HTMLDetailsElement>(null);
+	const refStratRangesDetailsElement = React.useRef<HTMLDetailsElement>(null);
 
 	const formMethod = useForm<SearchFormData>({
 		resolver: SearchFormResolver,
@@ -106,6 +117,7 @@ export const useLogic = () => {
 			cost: defaultSelectedCosts,
 			unitType: defaultSelectedUnitTypes,
 			skill: defaultSelectedSkills,
+			stratRange: defaultSelectedStratRanges,
 			search_word: defaultSearchWord || "",
 		},
 	});
@@ -144,43 +156,53 @@ export const useLogic = () => {
 				!refSkillDetailsElement.current.open;
 		}
 	};
+	const onClickStratRangesDetails: React.FormEventHandler<HTMLElement> = (
+		e,
+	) => {
+		e.preventDefault();
+		if (refStratRangesDetailsElement.current !== null) {
+			refStratRangesDetailsElement.current.open =
+				!refStratRangesDetailsElement.current.open;
+		}
+	};
 
 	const onSubmit: SubmitHandler<SearchFormData> = (data) => {
 		const newURLSearchParams = new URLSearchParams();
 
 		if (data.color?.length) {
-			// biome-ignore lint/complexity/noForEach: <explanation>
-			data.color.forEach((c) => {
+			for (const c of data.color) {
 				c && newURLSearchParams.append("color[]", c);
-			});
+			}
 		}
 
 		if (data.period?.length) {
-			// biome-ignore lint/complexity/noForEach: <explanation>
-			data.period.forEach((p) => {
+			for (const p of data.period) {
 				p && newURLSearchParams.append("period[]", p);
-			});
+			}
 		}
 
 		if (data.cost?.length) {
-			// biome-ignore lint/complexity/noForEach: <explanation>
-			data.cost.forEach((c) => {
+			for (const c of data.cost) {
 				c && newURLSearchParams.append("cost[]", c);
-			});
+			}
 		}
 
 		if (data.unitType?.length) {
-			// biome-ignore lint/complexity/noForEach: <explanation>
-			data.unitType.forEach((u) => {
+			for (const u of data.unitType) {
 				u && newURLSearchParams.append("unitType[]", u);
-			});
+			}
 		}
 
 		if (data.skill?.length) {
-			// biome-ignore lint/complexity/noForEach: <explanation>
-			data.skill.forEach((s) => {
+			for (const s of data.skill) {
 				s && newURLSearchParams.append("skill[]", s);
-			});
+			}
+		}
+
+		if (data.stratRange?.length) {
+			for (const sr of data.stratRange) {
+				sr && newURLSearchParams.append("stratRange[]", sr);
+			}
 		}
 
 		const searchWord = data.search_word;
@@ -209,6 +231,9 @@ export const useLogic = () => {
 		if (refSkillDetailsElement.current !== null) {
 			refSkillDetailsElement.current.open = false;
 		}
+		if (refStratRangesDetailsElement.current !== null) {
+			refStratRangesDetailsElement.current.open = false;
+		}
 
 		router.push(`/?${newURLSearchParams.toString()}`);
 	};
@@ -219,6 +244,7 @@ export const useLogic = () => {
 		formMethod.setValue("cost", []);
 		formMethod.setValue("unitType", []);
 		formMethod.setValue("skill", []);
+		formMethod.setValue("stratRange", []);
 		formMethod.setValue("search_word", "");
 
 		if (refColorDetailsElement.current !== null) {
@@ -235,6 +261,9 @@ export const useLogic = () => {
 		}
 		if (refSkillDetailsElement.current !== null) {
 			refSkillDetailsElement.current.open = false;
+		}
+		if (refStratRangesDetailsElement.current !== null) {
+			refStratRangesDetailsElement.current.open = false;
 		}
 
 		const tableScrollElement = refTableScrollElement.current;
@@ -253,6 +282,7 @@ export const useLogic = () => {
 		costs,
 		unitTypes,
 		skills,
+		stratRanges,
 		formMethod,
 		onSubmit,
 		refColorDetailsElement,
@@ -260,11 +290,13 @@ export const useLogic = () => {
 		refCostDetailsElement,
 		refUnitTypeDetailsElement,
 		refSkillDetailsElement,
+		refStratRangesDetailsElement,
 		onClickColorDetails,
 		onClickPeriodDetails,
 		onClickCostDetails,
 		onClickUnitTypeDetails,
 		onClickSkillDetails,
+		onClickStratRangesDetails,
 		onClickReset,
 		refTableScrollElement,
 		defaultSelectedColors,
@@ -272,5 +304,6 @@ export const useLogic = () => {
 		defaultSelectedCosts,
 		defaultSelectedUnitTypes,
 		defaultSelectedSkills,
+		defaultSelectedStratRanges,
 	};
 };

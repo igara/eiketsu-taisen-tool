@@ -53,7 +53,7 @@ export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
 						【{general.unitType}】{general.power} / {general.intelligentzia}
 					</p>
 
-					<div className="flex gap-[4px]">
+					<div className="flex gap-[4px] flex-wrap">
 						{general.skill.map((skill, index) => {
 							return (
 								// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
@@ -64,17 +64,29 @@ export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
 				</div>
 			</td>
 
-			<td className="p-[4px]">
-				<ruby>
-					{general.strat.name}
-					<rp>(</rp>
-					<rt>{general.strat.kanaName}</rt>
-					<rp>)</rp>
-				</ruby>
-				<br />
-				{general.strat.time}
-				<br />【{general.strat.cost}】
-				<br />
+			<td className=" pl-[4px]">
+				<div className="flex">
+					<div className="w-full pt-[4px]">
+						<ruby>
+							{general.strat.name}
+							<rp>(</rp>
+							<rt>{general.strat.kanaName}</rt>
+							<rp>)</rp>
+						</ruby>
+						<p>{general.strat.time}</p>
+						<p>【{general.strat.cost}】</p>
+					</div>
+
+					<div>
+						<img
+							src={`/eiketsu-taisen-tool/images/stratRange/${general.strat.range}.png`}
+							alt={general.strat.name}
+							width={50}
+							height={60}
+						/>
+					</div>
+				</div>
+
 				<p
 					// biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
 					// biome-ignore lint/security/noDangerouslySetInnerHtmlWithChildren: <explanation>

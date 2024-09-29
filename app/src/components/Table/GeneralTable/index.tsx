@@ -13,6 +13,7 @@ export const GeneralTable: React.FC = () => {
 		costs,
 		unitTypes,
 		skills,
+		stratRanges,
 		formMethod,
 		onSubmit,
 		refColorDetailsElement,
@@ -20,11 +21,13 @@ export const GeneralTable: React.FC = () => {
 		refCostDetailsElement,
 		refUnitTypeDetailsElement,
 		refSkillDetailsElement,
+		refStratRangesDetailsElement,
 		onClickColorDetails,
 		onClickPeriodDetails,
 		onClickCostDetails,
 		onClickUnitTypeDetails,
 		onClickSkillDetails,
+		onClickStratRangesDetails,
 		onClickReset,
 		refTableScrollElement,
 		defaultSelectedColors,
@@ -43,27 +46,29 @@ export const GeneralTable: React.FC = () => {
 				<thead className="text-white w-full sticky z-50 top-0 bg-gradient-to-b from-[#954d26] via-[#ae853a] to-[#b59d52]">
 					<tr>
 						<th className="w-[80px] text-left p-[4px]">
-							勢力
-							<br />
-							時代
+							<p>勢力</p>
+							<p>時代</p>
 						</th>
 
 						<th className="w-[120px] text-left p-[4px]">
-							名前【コスト】
-							<br />
-							【兵種】武力 / 知力
-							<br />
-							特技
+							<p>名前【コスト】</p>
+							<p>【兵種】武力 / 知力</p>
+							<p>特技</p>
 						</th>
 
-						<th className="text-left p-[4px]">
-							計略名
-							<br />
-							効果時間
-							<br />
-							【必要士気】
-							<br />
-							説明
+						<th className="text-left pl-[4px]">
+							<div className="flex">
+								<div className="w-full pt-[4px]">
+									<p>計略名</p>
+									<p>効果時間</p>
+									<p>【必要士気】</p>
+								</div>
+								<div className="flex justify-center items-center w-[90px] border-l-2 border-b-2 border-white">
+									<p>効果範囲</p>
+								</div>
+							</div>
+
+							<p>説明</p>
 						</th>
 					</tr>
 				</thead>
@@ -261,6 +266,42 @@ export const GeneralTable: React.FC = () => {
 																		className="text-black"
 																	>
 																		{skill.name}
+																	</label>
+																</div>
+															))}
+														</div>
+													</details>
+
+													<details ref={refSkillDetailsElement}>
+														<summary
+															onKeyDown={onClickSkillDetails}
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+														>
+															計略効果範囲
+														</summary>
+
+														<div className="flex flex-wrap gap-[4px] w-[100px] pt-[8px]">
+															{stratRanges.map((stratRange) => (
+																<div
+																	key={stratRange}
+																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																>
+																	<input
+																		type="checkbox"
+																		value={stratRange}
+																		id={`stratRange_${stratRange}`}
+																		{...formMethod.register("stratRange")}
+																	/>
+																	<label
+																		htmlFor={`stratRange_${stratRange}`}
+																		className="text-black"
+																	>
+																		<img
+																			src={`/eiketsu-taisen-tool/images/stratRange/${stratRange}.png`}
+																			alt={stratRange}
+																			width={18}
+																			height={36}
+																		/>
 																	</label>
 																</div>
 															))}

@@ -54,6 +54,9 @@ export type Skill = {
 };
 
 const main = async () => {
+	fs.mkdirSync("data/json", { recursive: true });
+	fs.mkdirSync("../app/public/images/stratRange", { recursive: true });
+
 	const result = await fetch("https://eiketsu-taisen.net/datalist/api/base");
 	const baseJSON: Base = await result.json();
 
@@ -62,25 +65,28 @@ const main = async () => {
 
 		return { name: c[1], r: c[2], g: c[3], b: c[4] };
 	});
-	fs.writeFileSync("colors.json", JSON.stringify(colors, null, 2));
+	fs.writeFileSync("data/json/colors.json", JSON.stringify(colors, null, 2));
 
 	const periods = baseJSON.period.map((period) => {
 		const p = period.split(",");
 		return p[1];
 	});
-	fs.writeFileSync("periods.json", JSON.stringify(periods, null, 2));
+	fs.writeFileSync("data/json/periods.json", JSON.stringify(periods, null, 2));
 
 	const costs = baseJSON.cost.map((cost) => {
 		const c = cost.split(",");
 		return c[1];
 	});
-	fs.writeFileSync("costs.json", JSON.stringify(costs, null, 2));
+	fs.writeFileSync("data/json/costs.json", JSON.stringify(costs, null, 2));
 
 	const unitTypes = baseJSON.unitType.map((unitType) => {
 		const u = unitType.split(",");
 		return u[1];
 	});
-	fs.writeFileSync("unitTypes.json", JSON.stringify(unitTypes, null, 2));
+	fs.writeFileSync(
+		"data/json/unitTypes.json",
+		JSON.stringify(unitTypes, null, 2),
+	);
 
 	const skills = baseJSON.skill.map((skill) => {
 		const s = skill.split(",");
@@ -90,22 +96,40 @@ const main = async () => {
 			description: s[3],
 		};
 	});
-	fs.writeFileSync("skills.json", JSON.stringify(skills, null, 2));
+	fs.writeFileSync("data/json/skills.json", JSON.stringify(skills, null, 2));
 
 	const stratCategories = baseJSON.stratCategory.map((stratCategory) => {
 		const sc = stratCategory.split(",");
 		return sc[1];
 	});
 	fs.writeFileSync(
-		"stratCategories.json",
+		"data/json/stratCategories.json",
 		JSON.stringify(stratCategories, null, 2),
 	);
 
 	const stratRanges = baseJSON.stratRange;
-	fs.writeFileSync("stratRanges.json", JSON.stringify(stratRanges, null, 2));
+	fs.writeFileSync(
+		"data/json/stratRanges.json",
+		JSON.stringify(stratRanges, null, 2),
+	);
+
+	for (const stratRange of stratRanges) {
+		const iconUrl = `https://image.eiketsu-taisen.net/strat/range/icon/${stratRange}.png`;
+
+		const res = await fetch(iconUrl);
+		const arrayBuffer = await res.arrayBuffer();
+		const buffer = Buffer.from(arrayBuffer);
+		fs.writeFileSync(
+			`../app/public/images/stratRange/${stratRange}.png`,
+			buffer,
+		);
+	}
 
 	const stratTimes = baseJSON.stratTime;
-	fs.writeFileSync("stratTimes.json", JSON.stringify(stratTimes, null, 2));
+	fs.writeFileSync(
+		"data/json/stratTimes.json",
+		JSON.stringify(stratTimes, null, 2),
+	);
 
 	const strats = baseJSON.strat.map((strat) => {
 		const s = strat.split(",");
@@ -129,9 +153,12 @@ const main = async () => {
 	// const illusts = baseJSON.illust;
 	// const cv = baseJSON.cv;
 
+	const kabukies = baseJSON.kabuki[0].split(":");
+
 	const generals = baseJSON.general.map((general) => {
 		const g = general.split(",");
 		const strat = strats[Number.parseInt(g[22])];
+		const kabuki = kabukies[Number.parseInt(g[22])];
 		const skill: Skill[] = [];
 
 		const skill1 = Number.parseInt(g[19]);
@@ -187,10 +214,14 @@ const main = async () => {
 			power: g[17],
 			intelligentzia: g[18],
 			skill,
+			kabuki,
 		};
 	});
 
-	fs.writeFileSync("generals.json", JSON.stringify(generals, null, 2));
+	fs.writeFileSync(
+		"data/json/generals.json",
+		JSON.stringify(generals, null, 2),
+	);
 };
 main();
 
@@ -220,4 +251,5 @@ export type General = {
 	power: string;
 	intelligentzia: string;
 	skill: Skill[];
+	kabuki: string;
 };

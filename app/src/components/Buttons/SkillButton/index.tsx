@@ -14,7 +14,7 @@ export const SkillButton: React.FC<Props> = ({ skill }) => {
 	return (
 		<span className="relative">
 			<span
-				className={`${isDisplay ? "" : "hidden"} bg-[#efe6cb] absolute w-[50dvw] top-[28px] border-black border-2 p-[4px]`}
+				className={`${isDisplay ? "" : "hidden"} bg-[#efe6cb] absolute w-[50dvw] top-[28px] border-black border-2 p-[4px] mt-[4px] z-10`}
 			>
 				{skill.description}
 			</span>
