@@ -305,5 +305,6 @@ export const useLogic = () => {
 		defaultSelectedUnitTypes,
 		defaultSelectedSkills,
 		defaultSelectedStratRanges,
+		defaultSearchWord,
 	};
 };
