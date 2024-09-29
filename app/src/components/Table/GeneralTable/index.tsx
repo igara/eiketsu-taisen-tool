@@ -119,7 +119,7 @@ export const GeneralTable: React.FC = () => {
 									<FormProvider {...formMethod}>
 										<form onSubmit={formMethod.handleSubmit(onSubmit)}>
 											<div className="flex flex-col gap-[4px]">
-												<div className="flex gap-[4px]">
+												<div className="flex gap-[4px] flex-wrap">
 													<details ref={refColorDetailsElement}>
 														<summary
 															onKeyDown={onClickColorDetails}
@@ -287,12 +287,12 @@ export const GeneralTable: React.FC = () => {
 													<details ref={refStratRangesDetailsElement}>
 														<summary
 															onKeyDown={onClickStratRangesDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="w-[110px] text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															計略効果範囲
 														</summary>
 
-														<div className="flex flex-wrap gap-[4px] w-[100px] pt-[8px]">
+														<div className="flex flex-wrap gap-[4px] w-[110px] pt-[8px]">
 															{stratRanges.map((stratRange) => (
 																<div
 																	key={stratRange}
