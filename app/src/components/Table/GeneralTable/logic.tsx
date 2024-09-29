@@ -65,6 +65,8 @@ export const useLogic = () => {
 					regex.test(general.kanaName) ||
 					regex.test(general.strat.name) ||
 					regex.test(general.strat.kanaName) ||
+					regex.test(general.strat.time) ||
+					regex.test(JSON.stringify(general.strat.categories)) ||
 					regex.test(general.strat.description)
 				);
 			});
