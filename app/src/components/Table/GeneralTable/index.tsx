@@ -35,6 +35,8 @@ export const GeneralTable: React.FC = () => {
 		defaultSelectedCosts,
 		defaultSelectedUnitTypes,
 		defaultSelectedSkills,
+		defaultSelectedStratRanges,
+		defaultSearchWord,
 	} = useLogic();
 
 	return (
@@ -83,7 +85,7 @@ export const GeneralTable: React.FC = () => {
 							<div className="flex flex-col gap-[4px]">
 								<div className="text-white flex gap-[4px]">
 									<div>検索件数: {generals.length}</div>
-									<div className="flex gap-[4px]">
+									<div className="flex gap-[4px] flex-wrap">
 										選択条件:{" "}
 										{defaultSelectedColors.map((c) => (
 											<span key={c}>{c}</span>
@@ -100,6 +102,16 @@ export const GeneralTable: React.FC = () => {
 										{defaultSelectedSkills.map((s) => (
 											<span key={s}>{s}</span>
 										))}
+										{defaultSelectedStratRanges.map((sr) => (
+											<img
+												key={sr}
+												src={`/eiketsu-taisen-tool/images/stratRange/${sr}.png`}
+												alt={sr}
+												width={18}
+												height={36}
+											/>
+										))}
+										{defaultSearchWord && <span>キーワード検索</span>}
 									</div>
 								</div>
 
@@ -272,9 +284,9 @@ export const GeneralTable: React.FC = () => {
 														</div>
 													</details>
 
-													<details ref={refSkillDetailsElement}>
+													<details ref={refStratRangesDetailsElement}>
 														<summary
-															onKeyDown={onClickSkillDetails}
+															onKeyDown={onClickStratRangesDetails}
 															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 														>
 															計略効果範囲
