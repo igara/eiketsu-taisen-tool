@@ -16,11 +16,8 @@ jobs:
       - name: base.json import
         run: | 
           (cd data && npm i && npm run import)
-      - id: diff
-        run: echo "::set-output name=changed::$(git diff --name-only origin/main HEAD --relative ./data/ | wc -l)"
 
-      - if: ${{ steps.diff.outputs.changed != '0' }}
-        uses: peter-evans/create-pull-request@v7
+      - uses: peter-evans/create-pull-request@v7
         with:
           commit-message: Update base.json
           title: Update base.json
