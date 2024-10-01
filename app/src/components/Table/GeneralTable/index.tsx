@@ -310,7 +310,7 @@ export const GeneralTable: React.FC = () => {
 															計略効果範囲
 														</summary>
 
-														<div className="absolute bottom-[28px] w-[110px] flex flex-wrap gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														<div className="absolute bottom-[28px] w-[130px] flex flex-wrap gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
 															{stratRanges.map((stratRange) => (
 																<div
 																	key={stratRange}
