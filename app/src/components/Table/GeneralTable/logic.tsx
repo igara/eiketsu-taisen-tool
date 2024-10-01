@@ -277,6 +277,47 @@ export const useLogic = () => {
 		router.push("/");
 	};
 
+	React.useEffect(() => {
+		document.addEventListener("mousedown", handleClickOutside);
+		return () => document.removeEventListener("mousedown", handleClickOutside);
+	}, []);
+
+	const handleClickOutside = (e: MouseEvent) => {
+		const target = e.target as Node;
+		if (!target) return;
+
+		if (!refColorDetailsElement.current) return;
+		if (!refPeriodDetailsElement.current) return;
+		if (!refCostDetailsElement.current) return;
+		if (!refUnitTypeDetailsElement.current) return;
+		if (!refSkillDetailsElement.current) return;
+		if (!refStratRangesDetailsElement.current) return;
+
+		if (!refColorDetailsElement.current?.contains(target)) {
+			refColorDetailsElement.current.open = false;
+		}
+
+		if (!refPeriodDetailsElement.current?.contains(target)) {
+			refPeriodDetailsElement.current.open = false;
+		}
+
+		if (!refCostDetailsElement.current?.contains(target)) {
+			refCostDetailsElement.current.open = false;
+		}
+
+		if (!refUnitTypeDetailsElement.current?.contains(target)) {
+			refUnitTypeDetailsElement.current.open = false;
+		}
+
+		if (!refSkillDetailsElement.current?.contains(target)) {
+			refSkillDetailsElement.current.open = false;
+		}
+
+		if (!refStratRangesDetailsElement.current?.contains(target)) {
+			refStratRangesDetailsElement.current.open = false;
+		}
+	};
+
 	return {
 		generals,
 		colors,

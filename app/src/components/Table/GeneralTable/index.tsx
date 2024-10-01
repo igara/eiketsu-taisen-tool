@@ -120,7 +120,10 @@ export const GeneralTable: React.FC = () => {
 										<form onSubmit={formMethod.handleSubmit(onSubmit)}>
 											<div className="flex flex-col gap-[4px]">
 												<div className="flex gap-[4px] flex-wrap">
-													<details ref={refColorDetailsElement}>
+													<details
+														ref={refColorDetailsElement}
+														className="relative"
+													>
 														<summary
 															onKeyDown={onClickColorDetails}
 															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
@@ -128,7 +131,7 @@ export const GeneralTable: React.FC = () => {
 															勢力
 														</summary>
 
-														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
+														<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
 															{colors.map((color) => (
 																<div
 																	key={color.name}
@@ -160,7 +163,10 @@ export const GeneralTable: React.FC = () => {
 														</div>
 													</details>
 
-													<details ref={refPeriodDetailsElement}>
+													<details
+														ref={refPeriodDetailsElement}
+														className="relative"
+													>
 														<summary
 															onKeyDown={onClickPeriodDetails}
 															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
@@ -168,7 +174,7 @@ export const GeneralTable: React.FC = () => {
 															時代
 														</summary>
 
-														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
+														<div className="absolute bottom-[28px] w-[100px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
 															{periods.map((period) => (
 																<div
 																	key={period}
@@ -191,7 +197,10 @@ export const GeneralTable: React.FC = () => {
 														</div>
 													</details>
 
-													<details ref={refCostDetailsElement}>
+													<details
+														ref={refCostDetailsElement}
+														className="relative"
+													>
 														<summary
 															onKeyDown={onClickCostDetails}
 															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
@@ -199,7 +208,7 @@ export const GeneralTable: React.FC = () => {
 															コスト
 														</summary>
 
-														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
+														<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
 															{costs.map((cost) => (
 																<div
 																	key={cost}
@@ -222,7 +231,10 @@ export const GeneralTable: React.FC = () => {
 														</div>
 													</details>
 
-													<details ref={refUnitTypeDetailsElement}>
+													<details
+														ref={refUnitTypeDetailsElement}
+														className="relative"
+													>
 														<summary
 															onKeyDown={onClickUnitTypeDetails}
 															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
@@ -230,7 +242,7 @@ export const GeneralTable: React.FC = () => {
 															兵種
 														</summary>
 
-														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
+														<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
 															{unitTypes.map((unitType) => (
 																<div
 																	key={unitType}
@@ -253,7 +265,10 @@ export const GeneralTable: React.FC = () => {
 														</div>
 													</details>
 
-													<details ref={refSkillDetailsElement}>
+													<details
+														ref={refSkillDetailsElement}
+														className="relative"
+													>
 														<summary
 															onKeyDown={onClickSkillDetails}
 															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
@@ -261,7 +276,7 @@ export const GeneralTable: React.FC = () => {
 															特技
 														</summary>
 
-														<div className="flex flex-col gap-[4px] p-[4px] pt-[8px]">
+														<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
 															{skills.map((skill) => (
 																<div
 																	key={skill.name}
@@ -284,7 +299,10 @@ export const GeneralTable: React.FC = () => {
 														</div>
 													</details>
 
-													<details ref={refStratRangesDetailsElement}>
+													<details
+														ref={refStratRangesDetailsElement}
+														className="relative"
+													>
 														<summary
 															onKeyDown={onClickStratRangesDetails}
 															className="w-[110px] text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
@@ -292,7 +310,7 @@ export const GeneralTable: React.FC = () => {
 															計略効果範囲
 														</summary>
 
-														<div className="flex flex-wrap gap-[4px] w-[110px] pt-[8px]">
+														<div className="absolute bottom-[28px] w-[110px] flex flex-wrap gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
 															{stratRanges.map((stratRange) => (
 																<div
 																	key={stratRange}
