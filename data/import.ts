@@ -60,6 +60,12 @@ const main = async () => {
 	const result = await fetch("https://eiketsu-taisen.net/datalist/api/base");
 	const baseJSON: Base = await result.json();
 
+	const indexInitials = baseJSON.indexInitial;
+	fs.writeFileSync(
+		"data/json/indexInitials.json",
+		JSON.stringify(indexInitials, null, 2),
+	);
+
 	const colors = baseJSON.color.map((color) => {
 		const c = color.split(",");
 
@@ -157,6 +163,11 @@ const main = async () => {
 
 	const generals = baseJSON.general.map((general) => {
 		const g = general.split(",");
+
+		const indexInitial = Number.parseInt(g[10]);
+		const noIndex = Number.parseInt(g[12]);
+		const no = `${indexInitials[indexInitial]}${noIndex.toString().padStart(3, "0")}`;
+
 		const strat = strats[Number.parseInt(g[22])];
 		const kabuki = kabukies[Number.parseInt(g[22])];
 		const skill: Skill[] = [];
@@ -194,6 +205,7 @@ const main = async () => {
 		});
 
 		return {
+			no,
 			id: g[0],
 			detailImageId: g[1],
 			name: g[3],
@@ -226,6 +238,7 @@ const main = async () => {
 main();
 
 export type General = {
+	no: string;
 	id: string;
 	detailImageId: string;
 	name: string;
