@@ -18,29 +18,21 @@ export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
 			}}
 		>
 			<td className="p-[4px]">
-				<span
+				<p
 					style={{
 						color: `rgb(${general.color.r},${general.color.g},${general.color.b})`,
 					}}
 				>
 					{general.color.name}
-				</span>
-				<br />
-				{general.period}
+				</p>
+				<p>{general.period}</p>
 			</td>
 
 			<td className="p-[4px]">
 				<div className="flex flex-col gap-[4px]">
 					<div>
 						<ruby>
-							<a
-								href={`https://eiketsu-taisen.net/datalist/?s=general&c=${general.id}`}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="underline"
-							>
-								{general.name}
-							</a>
+							<p>{general.name}</p>
 							<rp>(</rp>
 							<rt>{general.kanaName}</rt>
 							<rp>)</rp>
@@ -94,6 +86,45 @@ export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
 						__html: general.strat.description,
 					}}
 				/>
+
+				<ul className="border-t-2 border-white">
+					{general.url.official && (
+						<li>
+							<a
+								href={general.url.official}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="underline"
+							>
+								公式
+							</a>
+						</li>
+					)}
+					{general.url.atWiki && (
+						<li>
+							<a
+								href={general.url.atWiki}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="underline"
+							>
+								英傑大戦wiki
+							</a>
+						</li>
+					)}
+					{general.url.gameWiki && (
+						<li>
+							<a
+								href={general.url.gameWiki}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="underline"
+							>
+								ゲームウィキ.jp
+							</a>
+						</li>
+					)}
+				</ul>
 			</td>
 		</tr>
 	));

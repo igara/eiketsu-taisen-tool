@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import DOMParser from "node-html-parser";
 
 type Base = {
 	data: string[];
@@ -57,8 +58,56 @@ const main = async () => {
 	fs.mkdirSync("data/json", { recursive: true });
 	fs.mkdirSync("../app/public/images/stratRange", { recursive: true });
 
-	const result = await fetch("https://eiketsu-taisen.net/datalist/api/base");
-	const baseJSON: Base = await result.json();
+	const gameWikiResult = await fetch("https://eiketsudb.gamewiki.jp/cardlist/");
+	const gameWikiHTML = await gameWikiResult.text();
+	const gameWikiDOM = DOMParser.parse(gameWikiHTML);
+
+	const gameWikiData = gameWikiDOM
+		.getElementsByTagName("table")[0]
+		.getElementsByTagName("tbody")[0]
+		.getElementsByTagName("tr")
+		.map((tr) => {
+			const tds = tr.getElementsByTagName("td");
+			const no = tds[0].innerText;
+			const url = tds[2].getElementsByTagName("a")[0].getAttribute("href");
+
+			return { no, url };
+		});
+
+	const atWikiResult = await fetch(
+		"https://w.atwiki.jp/eiketsu-taisen/pages/216.html",
+	);
+	const atWikiHTML = await atWikiResult.text();
+	const atWikiDOM = DOMParser.parse(atWikiHTML);
+	const atWikiData = atWikiDOM
+		.getElementsByTagName("table")[0]
+		.getElementsByTagName("tr")
+		.reduce(
+			(previousValue, tr) => {
+				const tds = tr.getElementsByTagName("td");
+
+				if (tds[0]) {
+					const no = tds[0].innerText;
+					let url = tds[4].getElementsByTagName("a")[0].getAttribute("href");
+					if (url) {
+						url = url.replace("//", "https://");
+					}
+
+					previousValue.push({
+						no,
+						url,
+					});
+				}
+
+				return previousValue;
+			},
+			[] as { no: string; url: string | undefined }[],
+		);
+
+	const baseJSONResult = await fetch(
+		"https://eiketsu-taisen.net/datalist/api/base",
+	);
+	const baseJSON: Base = await baseJSONResult.json();
 
 	const indexInitials = baseJSON.indexInitial;
 	fs.writeFileSync(
@@ -204,9 +253,11 @@ const main = async () => {
 			return stratCategories[category];
 		});
 
+		const id = g[0];
+
 		return {
 			no,
-			id: g[0],
+			id,
 			detailImageId: g[1],
 			name: g[3],
 			kanaName: g[4],
@@ -227,6 +278,11 @@ const main = async () => {
 			intelligentzia: g[18],
 			skill,
 			kabuki,
+			url: {
+				official: `https://eiketsu-taisen.net/datalist/?s=general&c=${id}`,
+				atWiki: atWikiData.find((d) => d.no === no)?.url,
+				gameWiki: gameWikiData.find((d) => d.no === no)?.url,
+			},
 		};
 	});
 
@@ -265,4 +321,9 @@ export type General = {
 	intelligentzia: string;
 	skill: Skill[];
 	kabuki: string;
+	url: {
+		official: string;
+		atWiki?: string;
+		gameWiki?: string;
+	};
 };

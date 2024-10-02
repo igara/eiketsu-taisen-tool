@@ -71,6 +71,10 @@ export const GeneralTable: React.FC = () => {
 							</div>
 
 							<p>説明</p>
+
+							<div className="border-t-2 border-white">
+								<p>外部リンク</p>
+							</div>
 						</th>
 					</tr>
 				</thead>
