@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import DOMParser from "node-html-parser";
+import type { Skill } from "./types";
 
 type Base = {
 	data: string[];
@@ -46,12 +47,6 @@ type Base = {
 	kabukiRank: string[];
 	message: null;
 	error_id: number;
-};
-
-export type Skill = {
-	name: string;
-	shortName: string;
-	description: string;
 };
 
 const main = async () => {
@@ -292,38 +287,3 @@ const main = async () => {
 	);
 };
 main();
-
-export type General = {
-	no: string;
-	id: string;
-	detailImageId: string;
-	name: string;
-	kanaName: string;
-	color: {
-		name: string;
-		r: string;
-		g: string;
-		b: string;
-	};
-	period: string;
-	cost: string;
-	unitType: string;
-	strat: {
-		name: string;
-		kanaName: string;
-		cost: string;
-		description: string;
-		categories: string[];
-		time: string;
-		range: string;
-	};
-	power: string;
-	intelligentzia: string;
-	skill: Skill[];
-	kabuki: string;
-	url: {
-		official: string;
-		atWiki?: string;
-		gameWiki?: string;
-	};
-};

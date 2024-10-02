@@ -6,7 +6,7 @@ import PeriodsJSON from "@eiketsu-taisen-tool/data/data/json/periods.json";
 import SkillsJSON from "@eiketsu-taisen-tool/data/data/json/skills.json";
 import StratRangesJSON from "@eiketsu-taisen-tool/data/data/json/stratRanges.json";
 import UnitTypesJSON from "@eiketsu-taisen-tool/data/data/json/unitTypes.json";
-import type { General } from "@eiketsu-taisen-tool/data/import";
+import type { General } from "@eiketsu-taisen-tool/data/types";
 import { useRouter, useSearchParams } from "next/navigation";
 import React from "react";
 import { type SubmitHandler, useForm } from "react-hook-form";

@@ -1,7 +1,7 @@
 "use client";
 
 import { SkillButton } from "@/components/Buttons/SkillButton";
-import type { General } from "@eiketsu-taisen-tool/data/import";
+import type { General } from "@eiketsu-taisen-tool/data/types";
 import type React from "react";
 
 type Props = {

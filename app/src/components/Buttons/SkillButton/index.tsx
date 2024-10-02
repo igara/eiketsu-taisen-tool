@@ -1,6 +1,6 @@
 "use client";
 
-import type { Skill } from "@eiketsu-taisen-tool/data/import";
+import type { Skill } from "@eiketsu-taisen-tool/data/types";
 import type React from "react";
 import { useLogic } from "./logic";
 
