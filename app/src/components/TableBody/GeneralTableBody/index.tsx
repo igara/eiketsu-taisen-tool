@@ -26,6 +26,7 @@ export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
 					{general.color.name}
 				</p>
 				<p>{general.period}</p>
+				<p>{general.no}</p>
 			</td>
 
 			<td className="p-[4px]">

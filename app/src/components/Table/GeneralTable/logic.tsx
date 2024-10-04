@@ -72,6 +72,12 @@ export const useLogic = () => {
 			});
 		}
 
+		if (data.no?.length) {
+			newGenerals = newGenerals.filter((general) => {
+				return data.no?.some((n) => n === general.no);
+			});
+		}
+
 		return newGenerals;
 	};
 
@@ -85,6 +91,7 @@ export const useLogic = () => {
 	const defaultSelectedSkills = searchParams.getAll("skill[]");
 	const defaultSelectedStratRanges = searchParams.getAll("stratRange[]");
 	const defaultSearchWord = searchParams.get("search_word");
+	const defaultSearchNos = searchParams.getAll("no[]");
 
 	const colors = ColorsJSON;
 	const periods = PeriodsJSON;
@@ -101,6 +108,7 @@ export const useLogic = () => {
 		skill: defaultSelectedSkills,
 		stratRange: defaultSelectedStratRanges,
 		search_word: defaultSearchWord || "",
+		no: defaultSearchNos,
 	});
 
 	const refTableScrollElement = React.useRef<HTMLDivElement>(null);
@@ -121,6 +129,7 @@ export const useLogic = () => {
 			skill: defaultSelectedSkills,
 			stratRange: defaultSelectedStratRanges,
 			search_word: defaultSearchWord || "",
+			no: defaultSearchNos,
 		},
 	});
 

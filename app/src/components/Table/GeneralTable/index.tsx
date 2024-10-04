@@ -50,6 +50,7 @@ export const GeneralTable: React.FC = () => {
 						<th className="w-[80px] text-left p-[4px]">
 							<p>勢力</p>
 							<p>時代</p>
+							<p>No</p>
 						</th>
 
 						<th className="w-[120px] text-left p-[4px]">
