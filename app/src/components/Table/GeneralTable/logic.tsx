@@ -372,6 +372,9 @@ export const useLogic = () => {
 		if (refResetDetailsElement.current !== null) {
 			refResetDetailsElement.current.open = false;
 		}
+		if (refDisplayDetailsElement.current !== null) {
+			refDisplayDetailsElement.current.open = false;
+		}
 
 		router.push(`/?${newURLSearchParams.toString()}`);
 	};
@@ -407,6 +410,9 @@ export const useLogic = () => {
 		}
 		if (refStratRangesDetailsElement.current !== null) {
 			refStratRangesDetailsElement.current.open = false;
+		}
+		if (refDisplayDetailsElement.current !== null) {
+			refDisplayDetailsElement.current.open = false;
 		}
 
 		const tableScrollElement = refTableScrollElement.current;
