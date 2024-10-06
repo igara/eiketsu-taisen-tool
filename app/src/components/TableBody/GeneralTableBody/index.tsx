@@ -10,9 +10,14 @@ import type { UseFormReturn } from "react-hook-form";
 type Props = {
 	generals: General[];
 	formMethod: UseFormReturn<SearchFormData>;
+	defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
 };
 
-export const GeneralTableBody: React.FC<Props> = ({ generals, formMethod }) => {
+export const GeneralTableBody: React.FC<Props> = ({
+	generals,
+	formMethod,
+	defaultSearchFavoriteNos,
+}) => {
 	return generals.map((general) => (
 		<tr
 			key={general.id}
@@ -134,7 +139,11 @@ export const GeneralTableBody: React.FC<Props> = ({ generals, formMethod }) => {
 					</ul>
 
 					<div className="w-[90px] flex items-center justify-end p-[4px]">
-						<FavoriteButton general={general} formMethod={formMethod} />
+						<FavoriteButton
+							general={general}
+							formMethod={formMethod}
+							defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+						/>
 					</div>
 				</div>
 			</td>

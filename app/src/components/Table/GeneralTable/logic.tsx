@@ -12,6 +12,17 @@ import React from "react";
 import { type SubmitHandler, useForm } from "react-hook-form";
 
 export const useLogic = () => {
+	const genNewFavoriteGenerals = (data: SearchFormData) => {
+		const newGenerals: General[] = GeneralsJSON;
+
+		if (data.favoriteNo?.length === 0) {
+			return [];
+		}
+		return newGenerals.filter((general) => {
+			return data.favoriteNo?.some((fn) => fn === general.no);
+		});
+	};
+
 	const genNewGenerals = (data: SearchFormData) => {
 		let newGenerals: General[] = GeneralsJSON;
 		if (data.color?.length) {
@@ -72,15 +83,6 @@ export const useLogic = () => {
 			});
 		}
 
-		if (data.isFavorite === "true") {
-			if (data.favoriteNo?.length === 0) {
-				return [];
-			}
-			newGenerals = newGenerals.filter((general) => {
-				return data.favoriteNo?.some((fn) => fn === general.no);
-			});
-		}
-
 		return newGenerals;
 	};
 
@@ -103,8 +105,21 @@ export const useLogic = () => {
 	const unitTypes = UnitTypesJSON;
 	const skills = SkillsJSON;
 	const stratRanges = StratRangesJSON;
+	const isFavorite = defaultIsFavorite === "true";
 
 	const generals = genNewGenerals({
+		color: defaultSelectedColors,
+		period: defaultSelectedPeriods,
+		cost: defaultSelectedCosts,
+		unitType: defaultSelectedUnitTypes,
+		skill: defaultSelectedSkills,
+		stratRange: defaultSelectedStratRanges,
+		searchWord: defaultSearchWord || "",
+		favoriteNo: defaultSearchFavoriteNos,
+		isFavorite: defaultIsFavorite === "true" ? "true" : undefined,
+	});
+
+	const favoriteGenerals = genNewFavoriteGenerals({
 		color: defaultSelectedColors,
 		period: defaultSelectedPeriods,
 		cost: defaultSelectedCosts,
@@ -187,10 +202,14 @@ export const useLogic = () => {
 		onChange: (e) => {
 			const favoriteNo = e.target.value;
 			const newURLSearchParams = new URLSearchParams(window.location.search);
-			const favoriteNos = newURLSearchParams.getAll("favoriteNo[]");
 
-			if (favoriteNos.includes(favoriteNo)) {
-				newURLSearchParams.delete("favoriteNo[]");
+			if (defaultSearchFavoriteNos.includes(favoriteNo)) {
+				const selectedFavorite = defaultSearchFavoriteNos.filter(
+					(fn) => fn !== favoriteNo,
+				);
+				for (const fn of selectedFavorite) {
+					newURLSearchParams.append("favoriteNo[]", fn);
+				}
 			} else {
 				newURLSearchParams.append("favoriteNo[]", favoriteNo);
 			}
@@ -336,12 +355,18 @@ export const useLogic = () => {
 			tableScrollElement.scrollTop = 0;
 		}
 
+		const newURLSearchParams = new URLSearchParams();
 		if (defaultSearchFavoriteNos.length) {
-			const newURLSearchParams = new URLSearchParams();
 			for (const fn of defaultSearchFavoriteNos) {
 				newURLSearchParams.append("favoriteNo[]", fn);
 			}
+		}
 
+		if (defaultIsFavorite === "true") {
+			newURLSearchParams.append("isFavorite", "true");
+		}
+
+		if (defaultSearchFavoriteNos.length || defaultIsFavorite === "true") {
 			router.push(`/?${newURLSearchParams.toString()}`);
 			return;
 		}
@@ -390,8 +415,16 @@ export const useLogic = () => {
 		}
 	};
 
+	const MAX_COST = 9;
+	const favoriteCostCount = favoriteGenerals.reduce(
+		(acc, cur) => acc + +cur.cost,
+		0,
+	);
+
 	return {
+		isFavorite,
 		generals,
+		favoriteGenerals,
 		colors,
 		periods,
 		costs,
@@ -421,5 +454,8 @@ export const useLogic = () => {
 		defaultSelectedSkills,
 		defaultSelectedStratRanges,
 		defaultSearchWord,
+		defaultSearchFavoriteNos,
+		MAX_COST,
+		favoriteCostCount,
 	};
 };

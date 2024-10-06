@@ -9,10 +9,15 @@ import { useLogic } from "./logic";
 type Props = {
 	general: General;
 	formMethod: UseFormReturn<SearchFormData>;
+	defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
 };
 
-export const FavoriteButton: React.FC<Props> = ({ general, formMethod }) => {
-	const { isFavorite } = useLogic({ general, formMethod });
+export const FavoriteButton: React.FC<Props> = ({
+	general,
+	formMethod,
+	defaultSearchFavoriteNos,
+}) => {
+	const { isFavorite } = useLogic({ general, defaultSearchFavoriteNos });
 
 	return (
 		<div>
