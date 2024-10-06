@@ -11,12 +11,14 @@ type Props = {
 	generals: General[];
 	formMethod: UseFormReturn<SearchFormData>;
 	defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
+	isDisableOption: boolean;
 };
 
 export const GeneralTableBody: React.FC<Props> = ({
 	generals,
 	formMethod,
 	defaultSearchFavoriteNos,
+	isDisableOption,
 }) => {
 	return generals.map((general) => (
 		<tr
@@ -26,7 +28,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 				background: `rgba(${general.color.r},${general.color.g},${general.color.b},0.2)`,
 			}}
 		>
-			<td className="p-[4px]">
+			<td className="w-[80px] p-[4px]">
 				<p
 					style={{
 						color: `rgb(${general.color.r},${general.color.g},${general.color.b})`,
@@ -38,7 +40,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 				<p>{general.no}</p>
 			</td>
 
-			<td className="p-[4px]">
+			<td className="w-[120px] p-[4px]">
 				<div className="flex flex-col gap-[4px]">
 					<div>
 						<ruby>
@@ -98,7 +100,9 @@ export const GeneralTableBody: React.FC<Props> = ({
 					className="pb-[4px]"
 				/>
 
-				<div className="flex py-[4px] border-t-2 border-white">
+				<div
+					className={`flex py-[4px] border-t-2 border-white ${isDisableOption ? "hidden" : ""}`}
+				>
 					<ul className="w-full">
 						{general.url.official && (
 							<li>

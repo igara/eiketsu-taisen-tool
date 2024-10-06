@@ -97,7 +97,9 @@ export const useLogic = () => {
 	const defaultSelectedStratRanges = searchParams.getAll("stratRange[]");
 	const defaultSearchWord = searchParams.get("searchWord");
 	const defaultSearchFavoriteNos = searchParams.getAll("favoriteNo[]");
-	const defaultIsFavorite = searchParams.get("isFavorite");
+	const defaultIsDisplayFavorite = searchParams.get("isDisplayFavorite");
+	const defaultIsDisableHeader = searchParams.get("isDisableHeader");
+	const defaultIsDisableOption = searchParams.get("isDisableOption");
 
 	const colors = ColorsJSON;
 	const periods = PeriodsJSON;
@@ -105,7 +107,10 @@ export const useLogic = () => {
 	const unitTypes = UnitTypesJSON;
 	const skills = SkillsJSON;
 	const stratRanges = StratRangesJSON;
-	const isFavorite = defaultIsFavorite === "true";
+
+	const isDisplayFavorite = defaultIsDisplayFavorite === "true";
+	const isDisableHeader = defaultIsDisableHeader === "true";
+	const isDisableOption = defaultIsDisableOption === "true";
 
 	const generals = genNewGenerals({
 		color: defaultSelectedColors,
@@ -116,7 +121,9 @@ export const useLogic = () => {
 		stratRange: defaultSelectedStratRanges,
 		searchWord: defaultSearchWord || "",
 		favoriteNo: defaultSearchFavoriteNos,
-		isFavorite: defaultIsFavorite === "true" ? "true" : undefined,
+		isDisplayFavorite: isDisplayFavorite ? "true" : undefined,
+		isDisableHeader: isDisableHeader ? "true" : undefined,
+		isDisableOption: isDisableOption ? "true" : undefined,
 	});
 
 	const favoriteGenerals = genNewFavoriteGenerals({
@@ -128,7 +135,9 @@ export const useLogic = () => {
 		stratRange: defaultSelectedStratRanges,
 		searchWord: defaultSearchWord || "",
 		favoriteNo: defaultSearchFavoriteNos,
-		isFavorite: defaultIsFavorite === "true" ? "true" : undefined,
+		isDisplayFavorite: isDisplayFavorite ? "true" : undefined,
+		isDisableHeader: isDisableHeader ? "true" : undefined,
+		isDisableOption: isDisableOption ? "true" : undefined,
 	});
 
 	const refTableScrollElement = React.useRef<HTMLFormElement>(null);
@@ -138,6 +147,8 @@ export const useLogic = () => {
 	const refUnitTypeDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refSkillDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refStratRangesDetailsElement = React.useRef<HTMLDetailsElement>(null);
+	const refResetDetailsElement = React.useRef<HTMLDetailsElement>(null);
+	const refDisplayDetailsElement = React.useRef<HTMLDetailsElement>(null);
 
 	const formMethod = useForm<SearchFormData>({
 		resolver: SearchFormResolver,
@@ -150,7 +161,9 @@ export const useLogic = () => {
 			stratRange: defaultSelectedStratRanges,
 			searchWord: defaultSearchWord || "",
 			favoriteNo: defaultSearchFavoriteNos,
-			isFavorite: defaultIsFavorite === "true" ? "true" : undefined,
+			isDisplayFavorite: isDisplayFavorite ? "true" : undefined,
+			isDisableHeader: isDisableHeader ? "true" : undefined,
+			isDisableOption: isDisableOption ? "true" : undefined,
 		},
 	});
 
@@ -197,6 +210,20 @@ export const useLogic = () => {
 				!refStratRangesDetailsElement.current.open;
 		}
 	};
+	const onClickResetDetails: React.FormEventHandler<HTMLElement> = (e) => {
+		e.preventDefault();
+		if (refResetDetailsElement.current !== null) {
+			refResetDetailsElement.current.open =
+				!refResetDetailsElement.current.open;
+		}
+	};
+	const onClickDisplayDetails: React.FormEventHandler<HTMLElement> = (e) => {
+		e.preventDefault();
+		if (refDisplayDetailsElement.current !== null) {
+			refDisplayDetailsElement.current.open =
+				!refDisplayDetailsElement.current.open;
+		}
+	};
 
 	formMethod.register("favoriteNo", {
 		onChange: (e) => {
@@ -218,15 +245,45 @@ export const useLogic = () => {
 		},
 	});
 
-	formMethod.register("isFavorite", {
+	formMethod.register("isDisplayFavorite", {
 		onChange: (e) => {
 			const checked: boolean = e.target.checked;
 			const newURLSearchParams = new URLSearchParams(window.location.search);
 
 			if (checked) {
-				newURLSearchParams.append("isFavorite", "true");
+				newURLSearchParams.append("isDisplayFavorite", "true");
 			} else {
-				newURLSearchParams.delete("isFavorite");
+				newURLSearchParams.delete("isDisplayFavorite");
+			}
+
+			router.push(`/?${newURLSearchParams.toString()}`);
+		},
+	});
+
+	formMethod.register("isDisableHeader", {
+		onChange: (e) => {
+			const checked: boolean = e.target.checked;
+			const newURLSearchParams = new URLSearchParams(window.location.search);
+
+			if (checked) {
+				newURLSearchParams.delete("isDisableHeader");
+			} else {
+				newURLSearchParams.append("isDisableHeader", "true");
+			}
+
+			router.push(`/?${newURLSearchParams.toString()}`);
+		},
+	});
+
+	formMethod.register("isDisableOption", {
+		onChange: (e) => {
+			const checked: boolean = e.target.checked;
+			const newURLSearchParams = new URLSearchParams(window.location.search);
+
+			if (checked) {
+				newURLSearchParams.delete("isDisableOption");
+			} else {
+				newURLSearchParams.append("isDisableOption", "true");
 			}
 
 			router.push(`/?${newURLSearchParams.toString()}`);
@@ -283,9 +340,9 @@ export const useLogic = () => {
 			}
 		}
 
-		const isFavorite = data.isFavorite;
+		const isFavorite = data.isDisplayFavorite;
 		if (isFavorite === "true") {
-			newURLSearchParams.append("isFavorite", "true");
+			newURLSearchParams.append("isDisplayFavorite", "true");
 		}
 
 		const tableScrollElement = refTableScrollElement.current;
@@ -312,11 +369,14 @@ export const useLogic = () => {
 		if (refStratRangesDetailsElement.current !== null) {
 			refStratRangesDetailsElement.current.open = false;
 		}
+		if (refResetDetailsElement.current !== null) {
+			refResetDetailsElement.current.open = false;
+		}
 
 		router.push(`/?${newURLSearchParams.toString()}`);
 	};
 
-	const onClickReset: React.FormEventHandler<HTMLButtonElement> = () => {
+	const onClickSearchReset: React.FormEventHandler<HTMLButtonElement> = () => {
 		formMethod.setValue("color", []);
 		formMethod.setValue("period", []);
 		formMethod.setValue("cost", []);
@@ -326,8 +386,8 @@ export const useLogic = () => {
 		formMethod.setValue("searchWord", "");
 		formMethod.setValue("favoriteNo", defaultSearchFavoriteNos);
 		formMethod.setValue(
-			"isFavorite",
-			defaultIsFavorite === "true" ? "true" : undefined,
+			"isDisplayFavorite",
+			defaultIsDisplayFavorite === "true" ? "true" : undefined,
 		);
 
 		if (refColorDetailsElement.current !== null) {
@@ -362,13 +422,58 @@ export const useLogic = () => {
 			}
 		}
 
-		if (defaultIsFavorite === "true") {
-			newURLSearchParams.append("isFavorite", "true");
+		if (defaultIsDisplayFavorite === "true") {
+			newURLSearchParams.append("isDisplayFavorite", "true");
 		}
 
-		if (defaultSearchFavoriteNos.length || defaultIsFavorite === "true") {
+		if (
+			defaultSearchFavoriteNos.length ||
+			defaultIsDisplayFavorite === "true"
+		) {
 			router.push(`/?${newURLSearchParams.toString()}`);
 			return;
+		}
+
+		router.push("/");
+	};
+
+	const onClickAllReset: React.FormEventHandler<HTMLButtonElement> = () => {
+		formMethod.setValue("color", []);
+		formMethod.setValue("period", []);
+		formMethod.setValue("cost", []);
+		formMethod.setValue("unitType", []);
+		formMethod.setValue("skill", []);
+		formMethod.setValue("stratRange", []);
+		formMethod.setValue("searchWord", "");
+		formMethod.setValue("favoriteNo", []);
+		formMethod.setValue("isDisplayFavorite", undefined);
+
+		if (refColorDetailsElement.current !== null) {
+			refColorDetailsElement.current.open = false;
+		}
+		if (refPeriodDetailsElement.current !== null) {
+			refPeriodDetailsElement.current.open = false;
+		}
+		if (refCostDetailsElement.current !== null) {
+			refCostDetailsElement.current.open = false;
+		}
+		if (refUnitTypeDetailsElement.current !== null) {
+			refUnitTypeDetailsElement.current.open = false;
+		}
+		if (refSkillDetailsElement.current !== null) {
+			refSkillDetailsElement.current.open = false;
+		}
+		if (refStratRangesDetailsElement.current !== null) {
+			refStratRangesDetailsElement.current.open = false;
+		}
+		if (refDisplayDetailsElement.current !== null) {
+			refDisplayDetailsElement.current.open = false;
+		}
+
+		const tableScrollElement = refTableScrollElement.current;
+
+		if (tableScrollElement !== null) {
+			tableScrollElement.scrollTop = 0;
 		}
 
 		router.push("/");
@@ -389,6 +494,8 @@ export const useLogic = () => {
 		if (!refUnitTypeDetailsElement.current) return;
 		if (!refSkillDetailsElement.current) return;
 		if (!refStratRangesDetailsElement.current) return;
+		if (!refResetDetailsElement.current) return;
+		if (!refDisplayDetailsElement.current) return;
 
 		if (!refColorDetailsElement.current?.contains(target)) {
 			refColorDetailsElement.current.open = false;
@@ -413,6 +520,14 @@ export const useLogic = () => {
 		if (!refStratRangesDetailsElement.current?.contains(target)) {
 			refStratRangesDetailsElement.current.open = false;
 		}
+
+		if (!refResetDetailsElement.current?.contains(target)) {
+			refResetDetailsElement.current.open = false;
+		}
+
+		if (!refDisplayDetailsElement.current?.contains(target)) {
+			refDisplayDetailsElement.current.open = false;
+		}
 	};
 
 	const MAX_COST = 9;
@@ -422,7 +537,9 @@ export const useLogic = () => {
 	);
 
 	return {
-		isFavorite,
+		isDisplayFavorite,
+		isDisableHeader,
+		isDisableOption,
 		generals,
 		favoriteGenerals,
 		colors,
@@ -439,13 +556,18 @@ export const useLogic = () => {
 		refUnitTypeDetailsElement,
 		refSkillDetailsElement,
 		refStratRangesDetailsElement,
+		refResetDetailsElement,
+		refDisplayDetailsElement,
 		onClickColorDetails,
 		onClickPeriodDetails,
 		onClickCostDetails,
 		onClickUnitTypeDetails,
 		onClickSkillDetails,
 		onClickStratRangesDetails,
-		onClickReset,
+		onClickResetDetails,
+		onClickDisplayDetails,
+		onClickSearchReset,
+		onClickAllReset,
 		refTableScrollElement,
 		defaultSelectedColors,
 		defaultSelectedPeriods,

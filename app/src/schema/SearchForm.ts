@@ -10,7 +10,9 @@ export const SearchFormSchema = yup.object().shape({
 	stratRange: yup.array().of(yup.string()),
 	searchWord: yup.string().trim(),
 	favoriteNo: yup.array().of(yup.string()),
-	isFavorite: yup.string<"true">().trim(),
+	isDisplayFavorite: yup.string<"true">().trim(),
+	isDisableHeader: yup.string<"true">().trim(),
+	isDisableOption: yup.string<"true">().trim(),
 });
 
 export type SearchFormData = yup.InferType<typeof SearchFormSchema>;

@@ -7,7 +7,9 @@ import { useLogic } from "./logic";
 
 export const GeneralTable: React.FC = () => {
 	const {
-		isFavorite,
+		isDisplayFavorite,
+		isDisableHeader,
+		isDisableOption,
 		generals,
 		favoriteGenerals,
 		colors,
@@ -24,13 +26,18 @@ export const GeneralTable: React.FC = () => {
 		refUnitTypeDetailsElement,
 		refSkillDetailsElement,
 		refStratRangesDetailsElement,
+		refResetDetailsElement,
+		refDisplayDetailsElement,
 		onClickColorDetails,
 		onClickPeriodDetails,
 		onClickCostDetails,
 		onClickUnitTypeDetails,
 		onClickSkillDetails,
 		onClickStratRangesDetails,
-		onClickReset,
+		onClickResetDetails,
+		onClickDisplayDetails,
+		onClickSearchReset,
+		onClickAllReset,
 		refTableScrollElement,
 		defaultSelectedColors,
 		defaultSelectedPeriods,
@@ -52,7 +59,9 @@ export const GeneralTable: React.FC = () => {
 				ref={refTableScrollElement}
 			>
 				<table className="w-full h-full table-fixed border-collapse">
-					<thead className="text-white w-full sticky z-50 top-0 bg-gradient-to-b from-[#954d26] via-[#ae853a] to-[#b59d52]">
+					<thead
+						className={`text-white w-full sticky z-50 top-0 bg-gradient-to-b from-[#954d26] via-[#ae853a] to-[#b59d52] ${isDisableHeader ? "hidden" : ""}`}
+					>
 						<tr>
 							<th className="w-[80px] text-left p-[4px]">
 								<p>勢力</p>
@@ -95,9 +104,10 @@ export const GeneralTable: React.FC = () => {
 
 					<tbody className="bg-white">
 						<GeneralTableBody
-							generals={isFavorite ? favoriteGenerals : generals}
+							generals={isDisplayFavorite ? favoriteGenerals : generals}
 							formMethod={formMethod}
 							defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+							isDisableOption={isDisableOption}
 						/>
 					</tbody>
 
@@ -105,7 +115,7 @@ export const GeneralTable: React.FC = () => {
 						<tr>
 							<td className="p-[4px]" colSpan={3}>
 								<div className="flex flex-col gap-[4px]">
-									{!isFavorite && (
+									{!isDisplayFavorite && (
 										<div className="text-white flex gap-[4px]">
 											<div>検索件数: {generals.length}</div>
 											<div className="flex gap-[4px] flex-wrap">
@@ -156,7 +166,7 @@ export const GeneralTable: React.FC = () => {
 
 									<div>
 										<div className="flex flex-col gap-[4px]">
-											{!isFavorite && (
+											{!isDisplayFavorite && (
 												<div className="flex gap-[4px] flex-wrap">
 													<details
 														ref={refColorDetailsElement}
@@ -378,7 +388,7 @@ export const GeneralTable: React.FC = () => {
 												</div>
 											)}
 
-											{!isFavorite && (
+											{!isDisplayFavorite && (
 												<div className="flex items-center">
 													<input
 														type="text"
@@ -391,15 +401,61 @@ export const GeneralTable: React.FC = () => {
 
 											<div className="flex items-center pr-[12px] pb-[12px]">
 												<div className="flex justify-end gap-[28px] w-[100%]">
+													<details
+														ref={refDisplayDetailsElement}
+														className="relative"
+													>
+														<summary
+															onKeyDown={onClickDisplayDetails}
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+														>
+															表示切り替え
+														</summary>
+
+														<div className="absolute bottom-[28px] w-[100px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+															<div className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]">
+																<input
+																	type="checkbox"
+																	value="true"
+																	id="isDisableHeader"
+																	{...formMethod.register("isDisableHeader")}
+																	checked={!isDisableHeader}
+																/>
+																<label
+																	htmlFor="isDisableHeader"
+																	className="text-black"
+																>
+																	ヘッダー
+																</label>
+															</div>
+
+															<div className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]">
+																<input
+																	type="checkbox"
+																	value="true"
+																	id="isDisableOption"
+																	{...formMethod.register("isDisableOption")}
+																	checked={!isDisableOption}
+																/>
+																<label
+																	htmlFor="isDisableOption"
+																	className="text-black"
+																>
+																	外部リンク
+																</label>
+															</div>
+														</div>
+													</details>
+
 													<div className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]">
 														<input
 															type="checkbox"
 															value="true"
-															id="isFavorite"
-															{...formMethod.register("isFavorite")}
+															id="isDisplayFavorite"
+															{...formMethod.register("isDisplayFavorite")}
 														/>
 														<label
-															htmlFor="isFavorite"
+															htmlFor="isDisplayFavorite"
 															className="flex gap-[4px] text-black"
 														>
 															<span className="flex items-center justify-center w-[16px] h-[16px] p-[2px] text-xs rounded-full cursor-pointer text-[#eb4926] bg-[#f3b33e]">
@@ -409,15 +465,37 @@ export const GeneralTable: React.FC = () => {
 														</label>
 													</div>
 
-													{!isFavorite && (
+													{!isDisplayFavorite && (
 														<>
-															<button
-																type="button"
-																onClick={onClickReset}
-																className="text-white text-xs bg-blue-600 p-[4px] border-2 border-white rounded-lg focus:outline-none"
+															<details
+																ref={refResetDetailsElement}
+																className="relative"
 															>
-																リセット
-															</button>
+																<summary
+																	onKeyDown={onClickResetDetails}
+																	className="text-white text-xs bg-blue-600 p-[4px] border-2 border-white rounded-lg focus:outline-none"
+																>
+																	リセット
+																</summary>
+
+																<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+																	<button
+																		type="button"
+																		onClick={onClickSearchReset}
+																		className="text-white text-xs bg-blue-600 p-[4px] border-2 border-white rounded-lg focus:outline-none"
+																	>
+																		検索条件のみ
+																	</button>
+
+																	<button
+																		type="button"
+																		onClick={onClickAllReset}
+																		className="text-white text-xs bg-red-500 p-[4px] border-2 border-white rounded-lg focus:outline-none"
+																	>
+																		リスト&検索条件
+																	</button>
+																</div>
+															</details>
 
 															<button
 																type="submit"
