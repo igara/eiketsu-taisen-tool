@@ -52,8 +52,8 @@ export const useLogic = () => {
 			});
 		}
 
-		const searchWords = data.search_word
-			? data.search_word.split(/[\u3000\u0020]+/)
+		const searchWords = data.searchWord
+			? data.searchWord.split(/[\u3000\u0020]+/)
 			: [];
 
 		for (const searchWord of searchWords) {
@@ -72,9 +72,12 @@ export const useLogic = () => {
 			});
 		}
 
-		if (data.no?.length) {
+		if (data.isFavorite === "true") {
+			if (data.favoriteNo?.length === 0) {
+				return [];
+			}
 			newGenerals = newGenerals.filter((general) => {
-				return data.no?.some((n) => n === general.no);
+				return data.favoriteNo?.some((fn) => fn === general.no);
 			});
 		}
 
@@ -90,8 +93,9 @@ export const useLogic = () => {
 	const defaultSelectedUnitTypes = searchParams.getAll("unitType[]");
 	const defaultSelectedSkills = searchParams.getAll("skill[]");
 	const defaultSelectedStratRanges = searchParams.getAll("stratRange[]");
-	const defaultSearchWord = searchParams.get("search_word");
-	const defaultSearchNos = searchParams.getAll("no[]");
+	const defaultSearchWord = searchParams.get("searchWord");
+	const defaultSearchFavoriteNos = searchParams.getAll("favoriteNo[]");
+	const defaultIsFavorite = searchParams.get("isFavorite");
 
 	const colors = ColorsJSON;
 	const periods = PeriodsJSON;
@@ -107,11 +111,12 @@ export const useLogic = () => {
 		unitType: defaultSelectedUnitTypes,
 		skill: defaultSelectedSkills,
 		stratRange: defaultSelectedStratRanges,
-		search_word: defaultSearchWord || "",
-		no: defaultSearchNos,
+		searchWord: defaultSearchWord || "",
+		favoriteNo: defaultSearchFavoriteNos,
+		isFavorite: defaultIsFavorite === "true" ? "true" : undefined,
 	});
 
-	const refTableScrollElement = React.useRef<HTMLDivElement>(null);
+	const refTableScrollElement = React.useRef<HTMLFormElement>(null);
 	const refColorDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refPeriodDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refCostDetailsElement = React.useRef<HTMLDetailsElement>(null);
@@ -128,8 +133,9 @@ export const useLogic = () => {
 			unitType: defaultSelectedUnitTypes,
 			skill: defaultSelectedSkills,
 			stratRange: defaultSelectedStratRanges,
-			search_word: defaultSearchWord || "",
-			no: defaultSearchNos,
+			searchWord: defaultSearchWord || "",
+			favoriteNo: defaultSearchFavoriteNos,
+			isFavorite: defaultIsFavorite === "true" ? "true" : undefined,
 		},
 	});
 
@@ -177,6 +183,37 @@ export const useLogic = () => {
 		}
 	};
 
+	formMethod.register("favoriteNo", {
+		onChange: (e) => {
+			const favoriteNo = e.target.value;
+			const newURLSearchParams = new URLSearchParams(window.location.search);
+			const favoriteNos = newURLSearchParams.getAll("favoriteNo[]");
+
+			if (favoriteNos.includes(favoriteNo)) {
+				newURLSearchParams.delete("favoriteNo[]");
+			} else {
+				newURLSearchParams.append("favoriteNo[]", favoriteNo);
+			}
+
+			router.push(`/?${newURLSearchParams.toString()}`);
+		},
+	});
+
+	formMethod.register("isFavorite", {
+		onChange: (e) => {
+			const checked: boolean = e.target.checked;
+			const newURLSearchParams = new URLSearchParams(window.location.search);
+
+			if (checked) {
+				newURLSearchParams.append("isFavorite", "true");
+			} else {
+				newURLSearchParams.delete("isFavorite");
+			}
+
+			router.push(`/?${newURLSearchParams.toString()}`);
+		},
+	});
+
 	const onSubmit: SubmitHandler<SearchFormData> = (data) => {
 		const newURLSearchParams = new URLSearchParams();
 
@@ -216,9 +253,20 @@ export const useLogic = () => {
 			}
 		}
 
-		const searchWord = data.search_word;
+		const searchWord = data.searchWord;
 		if (searchWord) {
-			newURLSearchParams.append("search_word", searchWord);
+			newURLSearchParams.append("searchWord", searchWord);
+		}
+
+		if (data.favoriteNo?.length) {
+			for (const fn of data.favoriteNo) {
+				fn && newURLSearchParams.append("favoriteNo[]", fn);
+			}
+		}
+
+		const isFavorite = data.isFavorite;
+		if (isFavorite === "true") {
+			newURLSearchParams.append("isFavorite", "true");
 		}
 
 		const tableScrollElement = refTableScrollElement.current;
@@ -256,7 +304,12 @@ export const useLogic = () => {
 		formMethod.setValue("unitType", []);
 		formMethod.setValue("skill", []);
 		formMethod.setValue("stratRange", []);
-		formMethod.setValue("search_word", "");
+		formMethod.setValue("searchWord", "");
+		formMethod.setValue("favoriteNo", defaultSearchFavoriteNos);
+		formMethod.setValue(
+			"isFavorite",
+			defaultIsFavorite === "true" ? "true" : undefined,
+		);
 
 		if (refColorDetailsElement.current !== null) {
 			refColorDetailsElement.current.open = false;
@@ -281,6 +334,16 @@ export const useLogic = () => {
 
 		if (tableScrollElement !== null) {
 			tableScrollElement.scrollTop = 0;
+		}
+
+		if (defaultSearchFavoriteNos.length) {
+			const newURLSearchParams = new URLSearchParams();
+			for (const fn of defaultSearchFavoriteNos) {
+				newURLSearchParams.append("favoriteNo[]", fn);
+			}
+
+			router.push(`/?${newURLSearchParams.toString()}`);
+			return;
 		}
 
 		router.push("/");

@@ -1,14 +1,18 @@
 "use client";
 
+import { FavoriteButton } from "@/components/Buttons/FavoriteButton";
 import { SkillButton } from "@/components/Buttons/SkillButton";
+import type { SearchFormData } from "@/schema/SearchForm";
 import type { General } from "@eiketsu-taisen-tool/data/types";
 import type React from "react";
+import type { UseFormReturn } from "react-hook-form";
 
 type Props = {
 	generals: General[];
+	formMethod: UseFormReturn<SearchFormData>;
 };
 
-export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
+export const GeneralTableBody: React.FC<Props> = ({ generals, formMethod }) => {
 	return generals.map((general) => (
 		<tr
 			key={general.id}
@@ -57,7 +61,7 @@ export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
 				</div>
 			</td>
 
-			<td className=" pl-[4px]">
+			<td className="pl-[4px]">
 				<div className="flex">
 					<div className="w-full pt-[4px]">
 						<ruby>
@@ -86,46 +90,53 @@ export const GeneralTableBody: React.FC<Props> = ({ generals }) => {
 					dangerouslySetInnerHTML={{
 						__html: general.strat.description,
 					}}
+					className="pb-[4px]"
 				/>
 
-				<ul className="border-t-2 border-white">
-					{general.url.official && (
-						<li>
-							<a
-								href={general.url.official}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="underline"
-							>
-								公式
-							</a>
-						</li>
-					)}
-					{general.url.atWiki && (
-						<li>
-							<a
-								href={general.url.atWiki}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="underline"
-							>
-								英傑大戦wiki
-							</a>
-						</li>
-					)}
-					{general.url.gameWiki && (
-						<li>
-							<a
-								href={general.url.gameWiki}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="underline"
-							>
-								ゲームウィキ.jp
-							</a>
-						</li>
-					)}
-				</ul>
+				<div className="flex py-[4px] border-t-2 border-white">
+					<ul className="w-full">
+						{general.url.official && (
+							<li>
+								<a
+									href={general.url.official}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="underline"
+								>
+									公式
+								</a>
+							</li>
+						)}
+						{general.url.atWiki && (
+							<li>
+								<a
+									href={general.url.atWiki}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="underline"
+								>
+									英傑大戦wiki
+								</a>
+							</li>
+						)}
+						{general.url.gameWiki && (
+							<li>
+								<a
+									href={general.url.gameWiki}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="underline"
+								>
+									ゲームウィキ.jp
+								</a>
+							</li>
+						)}
+					</ul>
+
+					<div className="w-[90px] flex items-center justify-end p-[4px]">
+						<FavoriteButton general={general} formMethod={formMethod} />
+					</div>
+				</div>
 			</td>
 		</tr>
 	));

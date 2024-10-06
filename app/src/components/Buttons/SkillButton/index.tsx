@@ -22,7 +22,7 @@ export const SkillButton: React.FC<Props> = ({ skill }) => {
 			<button
 				type="button"
 				onClick={onClick}
-				className="text-black focus:outline-none font-medium rounded-lg p-[4px] bg-[#ffe600] hover:opacity-80 border-black border-2 text-xs"
+				className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 			>
 				{skill.name}
 			</button>
