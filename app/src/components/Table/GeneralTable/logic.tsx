@@ -545,6 +545,15 @@ export const useLogic = () => {
 		0,
 	);
 
+	const favoritePowerCount = favoriteGenerals.reduce(
+		(acc, cur) => acc + +cur.power,
+		0,
+	);
+	const favoriteIntelligentziaCount = favoriteGenerals.reduce(
+		(acc, cur) => acc + +cur.intelligentzia,
+		0,
+	);
+
 	return {
 		isDisplayFavorite,
 		isDisableHeader,
@@ -588,5 +597,7 @@ export const useLogic = () => {
 		defaultSearchFavoriteNos,
 		MAX_COST,
 		favoriteCostCount,
+		favoritePowerCount,
+		favoriteIntelligentziaCount,
 	};
 };

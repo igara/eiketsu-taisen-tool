@@ -49,6 +49,8 @@ export const GeneralTable: React.FC = () => {
 		defaultSearchFavoriteNos,
 		MAX_COST,
 		favoriteCostCount,
+		favoritePowerCount,
+		favoriteIntelligentziaCount,
 	} = useLogic();
 
 	return (
@@ -161,7 +163,7 @@ export const GeneralTable: React.FC = () => {
 
 										<div className="text-white flex gap-[4px]">
 											<div>リスト件数: {favoriteGenerals.length}</div>
-											<div className="flex gap-[4px] flex-wrap">
+											<div>
 												総コスト:
 												<span
 													className={
@@ -172,6 +174,8 @@ export const GeneralTable: React.FC = () => {
 												</span>{" "}
 												/ {MAX_COST}
 											</div>
+											<div>総武力: {favoritePowerCount}</div>
+											<div>総知力: {favoriteIntelligentziaCount}</div>
 										</div>
 
 										<div>
