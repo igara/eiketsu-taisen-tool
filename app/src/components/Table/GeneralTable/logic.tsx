@@ -227,18 +227,21 @@ export const useLogic = () => {
 
 	formMethod.register("favoriteNo", {
 		onChange: (e) => {
+			const checked: boolean = e.target.checked;
 			const favoriteNo = e.target.value;
 			const newURLSearchParams = new URLSearchParams(window.location.search);
 
-			if (defaultSearchFavoriteNos.includes(favoriteNo)) {
-				const selectedFavorite = defaultSearchFavoriteNos.filter(
-					(fn) => fn !== favoriteNo,
-				);
-				for (const fn of selectedFavorite) {
-					newURLSearchParams.append("favoriteNo[]", fn);
+			newURLSearchParams.delete("favoriteNo[]");
+			if (checked) {
+				if (!defaultSearchFavoriteNos.includes(favoriteNo)) {
+					newURLSearchParams.append("favoriteNo[]", favoriteNo);
 				}
-			} else {
-				newURLSearchParams.append("favoriteNo[]", favoriteNo);
+			}
+			for (const fn of defaultSearchFavoriteNos) {
+				if (fn === favoriteNo && !checked) {
+					continue;
+				}
+				newURLSearchParams.append("favoriteNo[]", fn);
 			}
 
 			router.push(`/?${newURLSearchParams.toString()}`);

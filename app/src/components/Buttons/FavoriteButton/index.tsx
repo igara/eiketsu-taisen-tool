@@ -27,7 +27,7 @@ export const FavoriteButton: React.FC<Props> = ({
 				id={`favoriteNo_${general.no}`}
 				{...formMethod.register("favoriteNo")}
 				className="opacity-0 absolute"
-				defaultChecked={isFavorite}
+				checked={isFavorite}
 			/>
 			<label
 				htmlFor={`favoriteNo_${general.no}`}
