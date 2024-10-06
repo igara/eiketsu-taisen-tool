@@ -244,7 +244,9 @@ export const useLogic = () => {
 				newURLSearchParams.append("favoriteNo[]", fn);
 			}
 
-			router.push(`/?${newURLSearchParams.toString()}`);
+			router.push(`/?${newURLSearchParams.toString()}`, {
+				scroll: false,
+			});
 		},
 	});
 
@@ -259,7 +261,9 @@ export const useLogic = () => {
 				newURLSearchParams.delete("isDisplayFavorite");
 			}
 
-			router.push(`/?${newURLSearchParams.toString()}`);
+			router.push(`/?${newURLSearchParams.toString()}`, {
+				scroll: false,
+			});
 		},
 	});
 

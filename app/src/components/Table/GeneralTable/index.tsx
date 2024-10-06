@@ -57,11 +57,11 @@ export const GeneralTable: React.FC = () => {
 		<FormProvider {...formMethod}>
 			<form
 				onSubmit={formMethod.handleSubmit(onSubmit)}
-				className="h-[100dvh] text-xs"
+				className="h-[100dvh] w-[100dvw] text-xs"
 				ref={refTableScrollElement}
 			>
 				<div>
-					<table className="h-[100dvh] table-fixed border-collapse">
+					<table className="h-[100dvh] w-[100dvw] table-fixed border-collapse">
 						<thead
 							className={`text-white w-full sticky z-50 top-0 bg-gradient-to-b from-[#954d26] via-[#ae853a] to-[#b59d52] ${isDisableHeader ? "hidden" : ""}`}
 						>
