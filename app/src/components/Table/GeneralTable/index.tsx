@@ -102,9 +102,18 @@ export const GeneralTable: React.FC = () => {
 						</tr>
 					</thead>
 
-					<tbody className="bg-white">
+					<tbody className={`bg-white ${isDisplayFavorite ? "hidden" : ""}`}>
 						<GeneralTableBody
-							generals={isDisplayFavorite ? favoriteGenerals : generals}
+							generals={generals}
+							formMethod={formMethod}
+							defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+							isDisableOption={isDisableOption}
+						/>
+					</tbody>
+
+					<tbody className={`bg-white ${isDisplayFavorite ? "" : "hidden"}`}>
+						<GeneralTableBody
+							generals={favoriteGenerals}
 							formMethod={formMethod}
 							defaultSearchFavoriteNos={defaultSearchFavoriteNos}
 							isDisableOption={isDisableOption}
@@ -115,39 +124,39 @@ export const GeneralTable: React.FC = () => {
 						<tr>
 							<td className="p-[4px]" colSpan={3}>
 								<div className="flex flex-col gap-[4px]">
-									{!isDisplayFavorite && (
-										<div className="text-white flex gap-[4px]">
-											<div>検索件数: {generals.length}</div>
-											<div className="flex gap-[4px] flex-wrap">
-												選択条件:{" "}
-												{defaultSelectedColors.map((c) => (
-													<span key={c}>{c}</span>
-												))}
-												{defaultSelectedPeriods.map((p) => (
-													<span key={p}>{p}</span>
-												))}
-												{defaultSelectedCosts.map((c) => (
-													<span key={c}>{c}</span>
-												))}
-												{defaultSelectedUnitTypes.map((u) => (
-													<span key={u}>{u}</span>
-												))}
-												{defaultSelectedSkills.map((s) => (
-													<span key={s}>{s}</span>
-												))}
-												{defaultSelectedStratRanges.map((sr) => (
-													<img
-														key={sr}
-														src={`/eiketsu-taisen-tool/images/stratRange/${sr}.png`}
-														alt={sr}
-														width={18}
-														height={36}
-													/>
-												))}
-												{defaultSearchWord && <span>キーワード検索</span>}
-											</div>
+									<div
+										className={`text-white flex gap-[4px] ${isDisplayFavorite ? "hidden" : ""}`}
+									>
+										<div>検索件数: {generals.length}</div>
+										<div className="flex gap-[4px] flex-wrap">
+											選択条件:{" "}
+											{defaultSelectedColors.map((c) => (
+												<span key={c}>{c}</span>
+											))}
+											{defaultSelectedPeriods.map((p) => (
+												<span key={p}>{p}</span>
+											))}
+											{defaultSelectedCosts.map((c) => (
+												<span key={c}>{c}</span>
+											))}
+											{defaultSelectedUnitTypes.map((u) => (
+												<span key={u}>{u}</span>
+											))}
+											{defaultSelectedSkills.map((s) => (
+												<span key={s}>{s}</span>
+											))}
+											{defaultSelectedStratRanges.map((sr) => (
+												<img
+													key={sr}
+													src={`/eiketsu-taisen-tool/images/stratRange/${sr}.png`}
+													alt={sr}
+													width={18}
+													height={36}
+												/>
+											))}
+											{defaultSearchWord && <span>キーワード検索</span>}
 										</div>
-									)}
+									</div>
 
 									<div className="text-white flex gap-[4px]">
 										<div>リスト件数: {favoriteGenerals.length}</div>
@@ -166,238 +175,238 @@ export const GeneralTable: React.FC = () => {
 
 									<div>
 										<div className="flex flex-col gap-[4px]">
-											{!isDisplayFavorite && (
-												<div className="flex gap-[4px] flex-wrap">
-													<details
-														ref={refColorDetailsElement}
-														className="relative"
+											<div
+												className={`flex gap-[4px] flex-wrap ${isDisplayFavorite ? "hidden" : ""}`}
+											>
+												<details
+													ref={refColorDetailsElement}
+													className="relative"
+												>
+													<summary
+														onKeyDown={onClickColorDetails}
+														className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 													>
-														<summary
-															onKeyDown={onClickColorDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
-														>
-															勢力
-														</summary>
+														勢力
+													</summary>
 
-														<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
-															{colors.map((color) => (
+													<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														{colors.map((color) => (
+															<div
+																key={color.name}
+																className="bg-white border-2 border-white rounded-lg focus:outline-none overflow-hidden"
+															>
 																<div
-																	key={color.name}
-																	className="bg-white border-2 border-white rounded-lg focus:outline-none overflow-hidden"
+																	className="flex items-center gap-[4px] p-[4px] text-xs"
+																	style={{
+																		background: `rgba(${color.r},${color.g},${color.b},0.2)`,
+																	}}
 																>
-																	<div
-																		className="flex items-center gap-[4px] p-[4px] text-xs"
+																	<input
+																		type="checkbox"
+																		value={color.name}
+																		id={`color_${color.name}`}
+																		{...formMethod.register("color")}
+																	/>
+																	<label
+																		htmlFor={`color_${color.name}`}
 																		style={{
-																			background: `rgba(${color.r},${color.g},${color.b},0.2)`,
+																			color: `rgb(${color.r},${color.g},${color.b})`,
 																		}}
 																	>
-																		<input
-																			type="checkbox"
-																			value={color.name}
-																			id={`color_${color.name}`}
-																			{...formMethod.register("color")}
-																		/>
-																		<label
-																			htmlFor={`color_${color.name}`}
-																			style={{
-																				color: `rgb(${color.r},${color.g},${color.b})`,
-																			}}
-																		>
-																			{color.name}
-																		</label>
-																	</div>
-																</div>
-															))}
-														</div>
-													</details>
-
-													<details
-														ref={refPeriodDetailsElement}
-														className="relative"
-													>
-														<summary
-															onKeyDown={onClickPeriodDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
-														>
-															時代
-														</summary>
-
-														<div className="absolute bottom-[28px] w-[100px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
-															{periods.map((period) => (
-																<div
-																	key={period}
-																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
-																>
-																	<input
-																		type="checkbox"
-																		value={period}
-																		id={`period_${period}`}
-																		{...formMethod.register("period")}
-																	/>
-																	<label
-																		htmlFor={`period_${period}`}
-																		className="text-black"
-																	>
-																		{period}
+																		{color.name}
 																	</label>
 																</div>
-															))}
-														</div>
-													</details>
+															</div>
+														))}
+													</div>
+												</details>
 
-													<details
-														ref={refCostDetailsElement}
-														className="relative"
+												<details
+													ref={refPeriodDetailsElement}
+													className="relative"
+												>
+													<summary
+														onKeyDown={onClickPeriodDetails}
+														className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 													>
-														<summary
-															onKeyDown={onClickCostDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
-														>
-															コスト
-														</summary>
+														時代
+													</summary>
 
-														<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
-															{costs.map((cost) => (
-																<div
-																	key={cost}
-																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+													<div className="absolute bottom-[28px] w-[100px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														{periods.map((period) => (
+															<div
+																key={period}
+																className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															>
+																<input
+																	type="checkbox"
+																	value={period}
+																	id={`period_${period}`}
+																	{...formMethod.register("period")}
+																/>
+																<label
+																	htmlFor={`period_${period}`}
+																	className="text-black"
 																>
-																	<input
-																		type="checkbox"
-																		value={cost}
-																		id={`cost_${cost}`}
-																		{...formMethod.register("cost")}
-																	/>
-																	<label
-																		htmlFor={`cost_${cost}`}
-																		className="text-black"
-																	>
-																		{cost}
-																	</label>
-																</div>
-															))}
-														</div>
-													</details>
+																	{period}
+																</label>
+															</div>
+														))}
+													</div>
+												</details>
 
-													<details
-														ref={refUnitTypeDetailsElement}
-														className="relative"
+												<details
+													ref={refCostDetailsElement}
+													className="relative"
+												>
+													<summary
+														onKeyDown={onClickCostDetails}
+														className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 													>
-														<summary
-															onKeyDown={onClickUnitTypeDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
-														>
-															兵種
-														</summary>
+														コスト
+													</summary>
 
-														<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
-															{unitTypes.map((unitType) => (
-																<div
-																	key={unitType}
-																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+													<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														{costs.map((cost) => (
+															<div
+																key={cost}
+																className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															>
+																<input
+																	type="checkbox"
+																	value={cost}
+																	id={`cost_${cost}`}
+																	{...formMethod.register("cost")}
+																/>
+																<label
+																	htmlFor={`cost_${cost}`}
+																	className="text-black"
 																>
-																	<input
-																		type="checkbox"
-																		value={unitType}
-																		id={`unitType_${unitType}`}
-																		{...formMethod.register("unitType")}
-																	/>
-																	<label
-																		htmlFor={`unitType_${unitType}`}
-																		className="text-black"
-																	>
-																		{unitType}
-																	</label>
-																</div>
-															))}
-														</div>
-													</details>
+																	{cost}
+																</label>
+															</div>
+														))}
+													</div>
+												</details>
 
-													<details
-														ref={refSkillDetailsElement}
-														className="relative"
+												<details
+													ref={refUnitTypeDetailsElement}
+													className="relative"
+												>
+													<summary
+														onKeyDown={onClickUnitTypeDetails}
+														className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 													>
-														<summary
-															onKeyDown={onClickSkillDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
-														>
-															特技
-														</summary>
+														兵種
+													</summary>
 
-														<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
-															{skills.map((skill) => (
-																<div
-																	key={skill.name}
-																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+													<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														{unitTypes.map((unitType) => (
+															<div
+																key={unitType}
+																className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															>
+																<input
+																	type="checkbox"
+																	value={unitType}
+																	id={`unitType_${unitType}`}
+																	{...formMethod.register("unitType")}
+																/>
+																<label
+																	htmlFor={`unitType_${unitType}`}
+																	className="text-black"
 																>
-																	<input
-																		type="checkbox"
-																		value={skill.name}
-																		id={`skill_${skill.name}`}
-																		{...formMethod.register("skill")}
-																	/>
-																	<label
-																		htmlFor={`skill_${skill.name}`}
-																		className="text-black"
-																	>
-																		{skill.name}
-																	</label>
-																</div>
-															))}
-														</div>
-													</details>
+																	{unitType}
+																</label>
+															</div>
+														))}
+													</div>
+												</details>
 
-													<details
-														ref={refStratRangesDetailsElement}
-														className="relative"
+												<details
+													ref={refSkillDetailsElement}
+													className="relative"
+												>
+													<summary
+														onKeyDown={onClickSkillDetails}
+														className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
 													>
-														<summary
-															onKeyDown={onClickStratRangesDetails}
-															className="w-[110px] text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
-														>
-															計略効果範囲
-														</summary>
+														特技
+													</summary>
 
-														<div className="absolute bottom-[28px] w-[130px] flex flex-wrap gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
-															{stratRanges.map((stratRange) => (
-																<div
-																	key={stratRange}
-																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+													<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														{skills.map((skill) => (
+															<div
+																key={skill.name}
+																className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															>
+																<input
+																	type="checkbox"
+																	value={skill.name}
+																	id={`skill_${skill.name}`}
+																	{...formMethod.register("skill")}
+																/>
+																<label
+																	htmlFor={`skill_${skill.name}`}
+																	className="text-black"
 																>
-																	<input
-																		type="checkbox"
-																		value={stratRange}
-																		id={`stratRange_${stratRange}`}
-																		{...formMethod.register("stratRange")}
-																	/>
-																	<label
-																		htmlFor={`stratRange_${stratRange}`}
-																		className="text-black"
-																	>
-																		<img
-																			src={`/eiketsu-taisen-tool/images/stratRange/${stratRange}.png`}
-																			alt={stratRange}
-																			width={18}
-																			height={36}
-																		/>
-																	</label>
-																</div>
-															))}
-														</div>
-													</details>
-												</div>
-											)}
+																	{skill.name}
+																</label>
+															</div>
+														))}
+													</div>
+												</details>
 
-											{!isDisplayFavorite && (
-												<div className="flex items-center">
-													<input
-														type="text"
-														placeholder="名前or計略 スペースで複数選択"
-														className="w-[180px] p-[4px] text-xs rounded-lg"
-														{...formMethod.register("searchWord")}
-													/>
-												</div>
-											)}
+												<details
+													ref={refStratRangesDetailsElement}
+													className="relative"
+												>
+													<summary
+														onKeyDown={onClickStratRangesDetails}
+														className="w-[110px] text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+													>
+														計略効果範囲
+													</summary>
+
+													<div className="absolute bottom-[28px] w-[130px] flex flex-wrap gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														{stratRanges.map((stratRange) => (
+															<div
+																key={stratRange}
+																className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															>
+																<input
+																	type="checkbox"
+																	value={stratRange}
+																	id={`stratRange_${stratRange}`}
+																	{...formMethod.register("stratRange")}
+																/>
+																<label
+																	htmlFor={`stratRange_${stratRange}`}
+																	className="text-black"
+																>
+																	<img
+																		src={`/eiketsu-taisen-tool/images/stratRange/${stratRange}.png`}
+																		alt={stratRange}
+																		width={18}
+																		height={36}
+																	/>
+																</label>
+															</div>
+														))}
+													</div>
+												</details>
+											</div>
+
+											<div
+												className={`flex items-center ${isDisplayFavorite ? "hidden" : ""}`}
+											>
+												<input
+													type="text"
+													placeholder="名前or計略 スペースで複数選択"
+													className="w-[180px] p-[4px] text-xs rounded-lg"
+													{...formMethod.register("searchWord")}
+												/>
+											</div>
 
 											<div className="flex items-center pr-[12px] pb-[12px]">
 												<div className="flex justify-end gap-[28px] w-[100%]">
@@ -441,7 +450,7 @@ export const GeneralTable: React.FC = () => {
 																	htmlFor="isDisableOption"
 																	className="text-black"
 																>
-																	外部リンク
+																	外部リンク/リスト登録
 																</label>
 															</div>
 														</div>
@@ -465,46 +474,46 @@ export const GeneralTable: React.FC = () => {
 														</label>
 													</div>
 
-													{!isDisplayFavorite && (
-														<>
-															<details
-																ref={refResetDetailsElement}
-																className="relative"
+													<div
+														className={`flex gap-[28px] ${isDisplayFavorite ? "hidden" : ""}`}
+													>
+														<details
+															ref={refResetDetailsElement}
+															className="relative"
+														>
+															<summary
+																onKeyDown={onClickResetDetails}
+																className="text-white text-xs bg-blue-600 p-[4px] border-2 border-white rounded-lg focus:outline-none"
 															>
-																<summary
-																	onKeyDown={onClickResetDetails}
+																リセット
+															</summary>
+
+															<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+																<button
+																	type="button"
+																	onClick={onClickSearchReset}
 																	className="text-white text-xs bg-blue-600 p-[4px] border-2 border-white rounded-lg focus:outline-none"
 																>
-																	リセット
-																</summary>
+																	検索条件のみ
+																</button>
 
-																<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
-																	<button
-																		type="button"
-																		onClick={onClickSearchReset}
-																		className="text-white text-xs bg-blue-600 p-[4px] border-2 border-white rounded-lg focus:outline-none"
-																	>
-																		検索条件のみ
-																	</button>
+																<button
+																	type="button"
+																	onClick={onClickAllReset}
+																	className="text-white text-xs bg-red-500 p-[4px] border-2 border-white rounded-lg focus:outline-none"
+																>
+																	リスト&検索条件
+																</button>
+															</div>
+														</details>
 
-																	<button
-																		type="button"
-																		onClick={onClickAllReset}
-																		className="text-white text-xs bg-red-500 p-[4px] border-2 border-white rounded-lg focus:outline-none"
-																	>
-																		リスト&検索条件
-																	</button>
-																</div>
-															</details>
-
-															<button
-																type="submit"
-																className="text-xs bg-red-500 p-[4px] border-2 border-white rounded-lg focus:outline-none"
-															>
-																🔍
-															</button>
-														</>
-													)}
+														<button
+															type="submit"
+															className="text-xs bg-red-500 p-[4px] border-2 border-white rounded-lg focus:outline-none"
+														>
+															🔍
+														</button>
+													</div>
 												</div>
 											</div>
 										</div>
