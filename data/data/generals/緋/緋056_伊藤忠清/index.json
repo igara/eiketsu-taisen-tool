@@ -1,0 +1,36 @@
+{
+  "no": "緋056",
+  "id": "12a0d1bc5ebece29a4e32a4f8643af06",
+  "detailImageId": "c8011f46412eb3ab9f5ce0ca10074e4e",
+  "name": "伊藤忠清",
+  "kanaName": "いとうただきよ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "反逆の狼煙",
+    "kanaName": "はんぎゃくののろし",
+    "cost": "4",
+    "description": "自身を除く範囲内の味方一人が撤退し、自身の武力が上がる。ただし範囲内に味方がいない場合、効果が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=12a0d1bc5ebece29a4e32a4f8643af06",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/704.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_490"
+  }
+}

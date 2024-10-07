@@ -1,0 +1,48 @@
+{
+  "no": "蒼113",
+  "id": "8b3bba915ce240baf94b353eb2c8fe07",
+  "detailImageId": "43502f468d328f3429813f4412e43b7a",
+  "name": "孫武",
+  "kanaName": "そんぶ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "孫子兵法",
+    "kanaName": "そんしのへいほう",
+    "cost": "7",
+    "description": "選択した流派に応じて蒼の味方の武力が上がり、さらに以下の効果を得る<br>部隊：知力が上がり兵力が回復する<br>士気：効果終了時に自身が撤退していない場合、自軍の士気が上がる<br>城塞：敵を撃破すると敵城にダメージを与える<br>兵種：兵種アクションを当てた敵の武力を一定時間下げる",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "11",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8b3bba915ce240baf94b353eb2c8fe07",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1551.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2117"
+  }
+}

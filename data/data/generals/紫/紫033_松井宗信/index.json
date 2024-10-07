@@ -1,0 +1,37 @@
+{
+  "no": "紫033",
+  "id": "3576503e97cba3695b6cc0f0062d387d",
+  "detailImageId": "1cf02a2cf205751b6d6d8a7840917b3e",
+  "name": "松井宗信",
+  "kanaName": "まついむねのぶ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "忠節の奮戦",
+    "kanaName": "ちゅうせつのふんせん",
+    "cost": "3",
+    "description": "武力が上がり、効果終了時に兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3576503e97cba3695b6cc0f0062d387d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/640.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_517"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "玄017",
+  "id": "af1cf2645d4c2beef00fd8584a06fe4f",
+  "detailImageId": "396fb9a5c9a25b1f9998b06392ea0d2f",
+  "name": "陳宮",
+  "kanaName": "ちんきゅう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "破滅的な献策",
+    "kanaName": "はめつてきなけんさく",
+    "cost": "3",
+    "description": "最も武力の高い味方の武力が上がる。ただし自城にダメージを受ける",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "1",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=af1cf2645d4c2beef00fd8584a06fe4f",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/92.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_243"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "玄082",
+  "id": "f4bd60090534241441a4d1622bf044a2",
+  "detailImageId": "4cfbcb1289ffc3d8d8bb2381d1661f81",
+  "name": "新宮行家",
+  "kanaName": "しんぐうゆきいえ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "冥冥たる戦",
+    "kanaName": "めいめいたるいくさ",
+    "cost": "5",
+    "description": "玄の味方の武力が上がる。この効果は対象の兵力が多いほど大きい",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "4",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f4bd60090534241441a4d1622bf044a2",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1003.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1283"
+  }
+}

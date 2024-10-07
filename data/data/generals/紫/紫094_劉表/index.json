@@ -1,0 +1,41 @@
+{
+  "no": "紫094",
+  "id": "a90694d12b3175999f0b444b8e2f8b81",
+  "detailImageId": "808a6ae5e7ae63994b4871e10d76e916",
+  "name": "劉表",
+  "kanaName": "りゅうひょう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "弱体化の小計",
+    "kanaName": "じゃくたいかのしょうけい",
+    "cost": "2",
+    "description": "最も武力の高い敵の武力を下げる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a90694d12b3175999f0b444b8e2f8b81",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2308"
+  }
+}

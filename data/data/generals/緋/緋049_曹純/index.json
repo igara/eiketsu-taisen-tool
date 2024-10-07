@@ -1,0 +1,42 @@
+{
+  "no": "緋049",
+  "id": "f41f0e4472c2f00618e8665466e07908",
+  "detailImageId": "ec580d2b20793eaf9128f81767a2a35c",
+  "name": "曹純",
+  "kanaName": "そうじゅん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "刹那の神速行",
+    "kanaName": "せつなのしんそくこう",
+    "cost": "3",
+    "description": "武力と移動速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f41f0e4472c2f00618e8665466e07908",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/512.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_379"
+  }
+}

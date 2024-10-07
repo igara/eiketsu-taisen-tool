@@ -1,0 +1,43 @@
+{
+  "no": "紫087",
+  "id": "045b15160556aa12d69e5c685bfca19e",
+  "detailImageId": "606855411122dacd514e5c90118e3550",
+  "name": "大塩平八郎",
+  "kanaName": "おおしおへいはちろう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "救民の砲弾",
+    "kanaName": "きゅうみんのほうだん",
+    "cost": "6",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力と弾数の回復速度が上がる。一定以上武力が上がると、さらにカードの向いている方向に射撃を行うと、代わりに武力ダメージを与える砲弾を発射し、砲弾が命中した位置を起点とした範囲に、敵に武力ダメージを与える爆風を発生させる。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=045b15160556aa12d69e5c685bfca19e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2240"
+  }
+}

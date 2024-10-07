@@ -1,0 +1,36 @@
+{
+  "no": "PL066",
+  "id": "44320dde83321294f8fd52597ca5d67c",
+  "detailImageId": "eccab255d51dde07d4e9a04e20545102",
+  "name": "土方歳三",
+  "kanaName": "ひじかたとしぞう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "怨讐の武士",
+    "kanaName": "おんしゅうのさぶらい",
+    "cost": "6",
+    "description": "武力が上がり、斬撃を行うと向いている方向にランダムで追加の斬撃を発生させるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "11",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=44320dde83321294f8fd52597ca5d67c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1675.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2216"
+  }
+}

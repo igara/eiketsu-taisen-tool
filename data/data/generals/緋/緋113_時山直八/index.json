@@ -1,0 +1,42 @@
+{
+  "no": "緋113",
+  "id": "53010d00dcd52676114db46603ae1d6c",
+  "detailImageId": "60e2eb3d22032d4c2b871eeeff88d157",
+  "name": "時山直八",
+  "kanaName": "ときやまなおはち",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "猛攻の奇兵",
+    "kanaName": "もうこうのきへい",
+    "cost": "4",
+    "description": "武力と移動速度が上がり、乱戦中の移動速度減少が小さくなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=53010d00dcd52676114db46603ae1d6c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1564.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2142"
+  }
+}

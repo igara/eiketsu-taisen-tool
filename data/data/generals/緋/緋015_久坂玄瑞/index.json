@@ -1,0 +1,42 @@
+{
+  "no": "緋015",
+  "id": "1d7a44cc14b55d82bd4b4f7edc06beec",
+  "detailImageId": "379ba6e707332222aba320ea58d853c3",
+  "name": "久坂玄瑞",
+  "kanaName": "くさかげんずい",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "御楯の烈士",
+    "kanaName": "みたてのれっし",
+    "cost": "7",
+    "description": "敵に知力によるダメージを与える。ダメージは互いの知力で上下する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1d7a44cc14b55d82bd4b4f7edc06beec",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/270.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_209"
+  }
+}

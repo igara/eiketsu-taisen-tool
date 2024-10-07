@@ -1,0 +1,42 @@
+{
+  "no": "碧113",
+  "id": "5f8cbd84a651d421d1d6612f703f0a7d",
+  "detailImageId": "b231fa327cb7c22eff86e3e2147f3d24",
+  "name": "日向内記",
+  "kanaName": "ひなたないき",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "集結の糸口",
+    "kanaName": "しゅうけつのいとぐち",
+    "cost": "3",
+    "description": "武力が上がり、特技「忍」の効果が上がる。さらに隠密状態中の移動速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5f8cbd84a651d421d1d6612f703f0a7d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1576.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2152"
+  }
+}

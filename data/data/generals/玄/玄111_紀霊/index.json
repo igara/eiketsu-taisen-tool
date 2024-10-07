@@ -1,0 +1,43 @@
+{
+  "no": "玄111",
+  "id": "b54c4a15db5697c30a944706327daab9",
+  "detailImageId": "00b8a4adce629319a2a118483924fd87",
+  "name": "紀霊",
+  "kanaName": "きれい",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "轅門の号令",
+    "kanaName": "えんもんのごうれい",
+    "cost": "6",
+    "description": "味方の武力が上がる。対象の味方部隊数が一定以上の場合、さらに自身の武力が上がり兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "32",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b54c4a15db5697c30a944706327daab9",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1583.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2160"
+  }
+}

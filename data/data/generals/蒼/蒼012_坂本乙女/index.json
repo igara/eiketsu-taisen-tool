@@ -1,0 +1,43 @@
+{
+  "no": "蒼012",
+  "id": "eac52664b75f5aad574181475926c3e1",
+  "detailImageId": "8810ee22b07b6f8af3db68d0a71bfd53",
+  "name": "坂本乙女",
+  "kanaName": "さかもとおとめ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "奮激車輪戦法",
+    "kanaName": "ふんげきしゃりんせんぽう",
+    "cost": "4",
+    "description": "武力が上がり、兵力が回復する。さらに全方向に槍の無敵攻撃を行う",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eac52664b75f5aad574181475926c3e1",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/112.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_177"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "蒼004",
+  "id": "802c6981301bb74d17bfd94231eb0bb5",
+  "detailImageId": "eeb756b9f215e4a4822c665adb6cb6dd",
+  "name": "お市の方",
+  "kanaName": "おいちのかた",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "撃流の祈り",
+    "kanaName": "げきりゅうのいのり",
+    "cost": "4",
+    "description": "最も武力の高い蒼の味方の武力が上がり、流派ゲージが上昇する。さらに敵を撃破するたびに流派ゲージが上昇する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=802c6981301bb74d17bfd94231eb0bb5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/208.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_254"
+  }
+}

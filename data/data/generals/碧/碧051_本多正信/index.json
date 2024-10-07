@@ -1,0 +1,36 @@
+{
+  "no": "碧051",
+  "id": "a830e376d22db4e2994b6910efe5c1f6",
+  "detailImageId": "e7871b28e2724cc2f3a000d4e89fe982",
+  "name": "本多正信",
+  "kanaName": "ほんだまさのぶ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "参謀の毒爪",
+    "kanaName": "さんぼうのどくそう",
+    "cost": "4",
+    "description": "敵の兵力を徐々に減少させる。この効果は城に戻ると終了する",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a830e376d22db4e2994b6910efe5c1f6",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/458.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_397"
+  }
+}

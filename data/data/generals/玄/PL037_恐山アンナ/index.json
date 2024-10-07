@@ -1,0 +1,44 @@
+{
+  "no": "PL037",
+  "id": "4427ae0a07cfca6d86b4bd64ce4aa915",
+  "detailImageId": "f5daa56db92f1356a69e45e2633a2393",
+  "name": "恐山アンナ",
+  "kanaName": "きょうやまアンナ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "式神前鬼・後鬼",
+    "kanaName": "しきがみぜんき・ごき",
+    "cost": "6",
+    "description": "【式神】（使用すると移動と兵種アクションができなくなり、一定時間後に式神を召喚する。式神は同時に複数召喚できず、反計されない。召喚中は自身の代わりに式神を操作でき、自身が撤退すると式神は消滅する）<br>式神が接触した敵に一定時間ごとにダメージを与える",
+    "categories": [
+      "特殊",
+      "ため計略",
+      "式神"
+    ],
+    "time": "固定時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4427ae0a07cfca6d86b4bd64ce4aa915",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1046.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1313"
+  }
+}

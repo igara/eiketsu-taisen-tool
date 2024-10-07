@@ -1,0 +1,36 @@
+{
+  "no": "EX008",
+  "id": "8ad2901f19c1ee7698f9f18d67ebff9d",
+  "detailImageId": "89273b9cf09df61fcec47b8275aa5f3f",
+  "name": "平井加尾",
+  "kanaName": "ひらいかお",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "溌剌娘の激励",
+    "kanaName": "はつらつむすめのげきれい",
+    "cost": "7",
+    "description": "蒼の味方の武力が上がる。この計略は城内にいる時のみ使用できる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8ad2901f19c1ee7698f9f18d67ebff9d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/542.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_426"
+  }
+}

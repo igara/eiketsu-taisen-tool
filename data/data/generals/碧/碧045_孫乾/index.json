@@ -1,0 +1,36 @@
+{
+  "no": "碧045",
+  "id": "1be0465d6efe7e65644d8bc574cb4eb3",
+  "detailImageId": "3f325010c9c4a3cd9b294e0180731f2f",
+  "name": "孫乾",
+  "kanaName": "そんけん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "的確な援兵",
+    "kanaName": "てきかくなえんぺい",
+    "cost": "3",
+    "description": "最も武力の高い味方の兵力が回復する",
+    "categories": [
+      "回復"
+    ],
+    "time": "一瞬",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "22",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1be0465d6efe7e65644d8bc574cb4eb3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/505.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_391"
+  }
+}

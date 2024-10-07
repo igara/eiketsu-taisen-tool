@@ -1,0 +1,36 @@
+{
+  "no": "EX058",
+  "id": "aaf07683589c9f77a9c6138a06d004f0",
+  "detailImageId": "73648975c47fd44d89b348ec6ac9e890",
+  "name": "徳川信康",
+  "kanaName": "とくがわのぶやす",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "幻の旅路",
+    "kanaName": "まぼろしのたびじ",
+    "cost": "4",
+    "description": "武力と移動速度が上がる。ただし敵を撃破すると自身は撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aaf07683589c9f77a9c6138a06d004f0",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1459.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2076"
+  }
+}

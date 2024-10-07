@@ -1,0 +1,43 @@
+{
+  "no": "EX084",
+  "id": "3a2594398a0f83707b8e1a16449d80e0",
+  "detailImageId": "042695318e4f3905c81ab4380e9ef802",
+  "name": "東郷重位",
+  "kanaName": "とうごうしげかた",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "示現の祖",
+    "kanaName": "じげんのそ",
+    "cost": "6",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>武力と移動速度と乱戦中の攻撃速度が上がる。ただし戦場にいる最も武力の高い敵の方向に強制的に移動する",
+    "categories": [
+      "強化",
+      "ため計略"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3a2594398a0f83707b8e1a16449d80e0",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1689.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2224"
+  }
+}

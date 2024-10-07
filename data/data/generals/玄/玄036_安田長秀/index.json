@@ -1,0 +1,42 @@
+{
+  "no": "玄036",
+  "id": "eac90f11275ce9b09ef7ca2009114ea0",
+  "detailImageId": "55cef0c277122504f2d86ea803a5b9df",
+  "name": "安田長秀",
+  "kanaName": "やすだながひで",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "安田・特攻！",
+    "kanaName": "やすだとっこう",
+    "cost": "4",
+    "description": "知力と移動速度と攻城力が上がり、武力によるダメージを軽減する。ただし効果終了時に撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eac90f11275ce9b09ef7ca2009114ea0",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/180.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_170"
+  }
+}

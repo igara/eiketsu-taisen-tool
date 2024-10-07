@@ -1,0 +1,48 @@
+{
+  "no": "EX055",
+  "id": "3f6eb0509e9d2a2f3e479d76d57c9182",
+  "detailImageId": "0028c446cadff92b0a2a5a3b866f8f68",
+  "name": "平徳子",
+  "kanaName": "たいらのとくこ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "夢幻の都",
+    "kanaName": "むげんのみやこ",
+    "cost": "10",
+    "description": "撤退中の平安の味方が復活する。さらに武力が上がり、兵力が徐々に回復する",
+    "categories": [
+      "回復",
+      "復活"
+    ],
+    "time": "知力時間",
+    "range": "6eb8e47f0679d32604f502b2c3eb3b0d"
+  },
+  "power": "1",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3f6eb0509e9d2a2f3e479d76d57c9182",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1127.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1350"
+  }
+}

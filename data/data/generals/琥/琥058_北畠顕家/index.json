@@ -1,0 +1,41 @@
+{
+  "no": "琥058",
+  "id": "32a8a939d67f14d6e54e8ffe279261e8",
+  "detailImageId": "27e87803bed4173d04250b3ecf235b36",
+  "name": "北畠顕家",
+  "kanaName": "きたばたけあきいえ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "破軍の陵王",
+    "kanaName": "はぐんのりょうおう",
+    "cost": "5",
+    "description": "琥の味方の武力と移動速度が上がる。さらに効果終了時に自身が撤退していない場合、琥煌ゲージが増加する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=32a8a939d67f14d6e54e8ffe279261e8",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2315"
+  }
+}

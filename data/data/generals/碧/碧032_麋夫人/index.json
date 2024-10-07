@@ -1,0 +1,43 @@
+{
+  "no": "碧032",
+  "id": "5bc6bf0bbba5df5b33743babf8414dbc",
+  "detailImageId": "1d11feee87ba5c3f3c40a118fe4eb072",
+  "name": "麋夫人",
+  "kanaName": "びふじん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "挺身の身代わり",
+    "kanaName": "ていしんのみがわり",
+    "cost": "4",
+    "description": "撤退中の最も武力の高い味方が復活し、武力が上がる。ただし自身は撤退する",
+    "categories": [
+      "強化",
+      "復活"
+    ],
+    "time": "知力時間",
+    "range": "6eb8e47f0679d32604f502b2c3eb3b0d"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5bc6bf0bbba5df5b33743babf8414dbc",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/171.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_225"
+  }
+}

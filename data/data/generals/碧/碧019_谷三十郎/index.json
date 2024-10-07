@@ -1,0 +1,42 @@
+{
+  "no": "碧019",
+  "id": "c26d4137c4dddec7b066f371cc189ce2",
+  "detailImageId": "b961c140ebd62a3d31fce7ad421772f9",
+  "name": "谷三十郎",
+  "kanaName": "たにさんじゅうろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "長槍戦法",
+    "kanaName": "ながやりせんぽう",
+    "cost": "3",
+    "description": "武力が上がり、槍が長くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c26d4137c4dddec7b066f371cc189ce2",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/166.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_216"
+  }
+}

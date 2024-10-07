@@ -1,0 +1,48 @@
+{
+  "no": "紫036",
+  "id": "e26624b602da8bdd96e5b0dfd4eda157",
+  "detailImageId": "e6e28ee39f0bf799c1ff633f3b40b5a9",
+  "name": "朝倉義景",
+  "kanaName": "あさくらよしかげ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "一乗谷の栄華",
+    "kanaName": "いちじょうだにのえいが",
+    "cost": "4",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>敵の武力と攻城力を下げる",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "2",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e26624b602da8bdd96e5b0dfd4eda157",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/939.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1287"
+  }
+}

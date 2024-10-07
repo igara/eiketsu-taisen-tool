@@ -1,0 +1,42 @@
+{
+  "no": "PL025",
+  "id": "64dbfeb6d31acf28f61b5517a3eeade6",
+  "detailImageId": "3e29b0b85e119f4ef05e58df0363a2a7",
+  "name": "佐野万次郎",
+  "kanaName": "さのまんじろう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "無敵のマイキー",
+    "kanaName": "むてきのまいきー",
+    "cost": "8",
+    "description": "武力と移動速度が上がる。さらに効果中に一度だけ斬撃を行えるようになり、斬撃を当てた敵の兵種アクションを一定時間封印する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "22",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=64dbfeb6d31acf28f61b5517a3eeade6",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/826.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_537"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "no": "碧119",
+  "id": "082a606ec2f2d9ed775d7872e13d9b22",
+  "detailImageId": "b3f6d3858be1a588f37ef2f228185a4b",
+  "name": "市村鉄之助",
+  "kanaName": "いちむらてつのすけ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "勝気なる加勢",
+    "kanaName": "かちきなるかせい",
+    "cost": "3",
+    "description": "自身を除く最も武力の高い碧の味方の武力が上がり、特技「気合」を得る",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "2",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=082a606ec2f2d9ed775d7872e13d9b22",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2279"
+  }
+}

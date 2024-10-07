@@ -1,0 +1,42 @@
+{
+  "no": "EX037",
+  "id": "02474d6792e833983799ee97fc24e84e",
+  "detailImageId": "8f5459a4b77b136a5e28f2e86fe62e2f",
+  "name": "松殿伊子",
+  "kanaName": "まつどのいし",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "青松の心",
+    "kanaName": "せいしょうのこころ",
+    "cost": "2",
+    "description": "最も武力の高い碧の味方にかかっている全ての計略効果を消す",
+    "categories": [
+      "回復"
+    ],
+    "time": "一瞬",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=02474d6792e833983799ee97fc24e84e",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1080.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1318"
+  }
+}

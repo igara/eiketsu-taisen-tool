@@ -1,0 +1,42 @@
+{
+  "no": "碧035",
+  "id": "d3d587eb383a59a0dae7fab0369c2695",
+  "detailImageId": "1e9e6c2e5aba9729a4103c9daa19cac8",
+  "name": "松原忠司",
+  "kanaName": "まつばらちゅうじ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "今弁慶の指揮",
+    "kanaName": "いまべんけいのしき",
+    "cost": "4",
+    "description": "碧の味方の武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d3d587eb383a59a0dae7fab0369c2695",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/175.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_297"
+  }
+}

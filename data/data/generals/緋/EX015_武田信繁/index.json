@@ -1,0 +1,47 @@
+{
+  "no": "EX015",
+  "id": "5b98ccda38ad042fadb65e4db2b4fc5b",
+  "detailImageId": "8109b7f9282a40e32ecf0a7d0c5e1e01",
+  "name": "武田信繁",
+  "kanaName": "たけだのぶしげ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "典厩の采配",
+    "kanaName": "てんきゅうのさいはい",
+    "cost": "5",
+    "description": "緋の味方の武力と知力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5b98ccda38ad042fadb65e4db2b4fc5b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/773.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_554"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "no": "玄050",
+  "id": "49fb71ee57ff8b6c81e03268d3ec32e4",
+  "detailImageId": "82d0a1cdc698d8c3918ec2e7d1a894d0",
+  "name": "源頼国",
+  "kanaName": "みなもとのよりくに",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "身命なる武",
+    "kanaName": "しんみょうなるぶ",
+    "cost": "3",
+    "description": "武力が上がる。ただし兵力が減少する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=49fb71ee57ff8b6c81e03268d3ec32e4",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/479.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_411"
+  }
+}

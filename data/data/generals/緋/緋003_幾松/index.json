@@ -1,0 +1,42 @@
+{
+  "no": "緋003",
+  "id": "318ce1a00e5cf8653392452086249dc1",
+  "detailImageId": "7abba52e8f73de0756ba01cc72c7fb9f",
+  "name": "幾松",
+  "kanaName": "いくまつ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "良妻の祈り",
+    "kanaName": "りょうさいのいのり",
+    "cost": "3",
+    "description": "最も武力の高い剣豪の味方の武力が上がり、斬撃の範囲が広くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=318ce1a00e5cf8653392452086249dc1",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/288.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_269"
+  }
+}

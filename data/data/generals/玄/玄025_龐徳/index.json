@@ -1,0 +1,42 @@
+{
+  "no": "玄025",
+  "id": "b1800a08b1962f1d86de47cbe507d16c",
+  "detailImageId": "c955203061ecefa36c533b86a3fb3867",
+  "name": "龐徳",
+  "kanaName": "ほうとく",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "涼州の勇士",
+    "kanaName": "りょうしゅうのゆうし",
+    "cost": "6",
+    "description": "武力と移動速度と突撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b1800a08b1962f1d86de47cbe507d16c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/95.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_163"
+  }
+}

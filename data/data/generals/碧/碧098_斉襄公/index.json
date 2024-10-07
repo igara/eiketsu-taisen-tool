@@ -1,0 +1,42 @@
+{
+  "no": "碧098",
+  "id": "21214a7f8bbe3302477a578df9934e5a",
+  "detailImageId": "2574d113ebaecd26cc5427f24fc282d1",
+  "name": "斉襄公",
+  "kanaName": "せいのじょうこう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "真の凶悪",
+    "kanaName": "しんのきょうあく",
+    "cost": "4",
+    "description": "自身を除く範囲内の最も武力の低い味方が撤退し、自身の武力と乱戦中の攻撃速度が上がる。ただし斬撃ができなくなり、範囲内に味方がいない場合、効果が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21214a7f8bbe3302477a578df9934e5a",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1224.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1419"
+  }
+}

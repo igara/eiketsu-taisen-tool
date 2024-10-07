@@ -1,0 +1,36 @@
+{
+  "no": "緋078",
+  "id": "d56522ff199fc86659e8c0dcc5b539c2",
+  "detailImageId": "792d6f725f184837518a1b9bcc9d361b",
+  "name": "平滋子",
+  "kanaName": "たいらのしげこ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "栄華の祈り",
+    "kanaName": "えいがのいのり",
+    "cost": "4",
+    "description": "最も武力の高い味方の武力が上がる。この効果は士気が多いほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "3",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d56522ff199fc86659e8c0dcc5b539c2",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/947.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1258"
+  }
+}

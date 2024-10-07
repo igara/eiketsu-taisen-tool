@@ -1,0 +1,42 @@
+{
+  "no": "PL054",
+  "id": "d0cde12abd006bb639321e7ee3753b09",
+  "detailImageId": "d9b12c704181393d25cf3316559bb2b5",
+  "name": "孫権仲謀",
+  "kanaName": "そんけんちゅうぼう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "特殊",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "龍の覚醒",
+    "kanaName": "りゅうのかくせい",
+    "cost": "4",
+    "description": "戦場にいる間武力と射程距離が徐々に上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "2",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d0cde12abd006bb639321e7ee3753b09",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1479.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2095"
+  }
+}

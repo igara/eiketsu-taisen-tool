@@ -1,0 +1,37 @@
+{
+  "no": "琥023",
+  "id": "f71b8172f1d34586558a02690ba306a0",
+  "detailImageId": "e4e8fa7100ab02099736197c3de47a15",
+  "name": "石買",
+  "kanaName": "せきばい",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "我は大将軍",
+    "kanaName": "われはだいしょうぐん",
+    "cost": "5",
+    "description": "味方の武力が上がる。さらに自身の武力と乱戦中の攻撃速度が上がり、兵種が弓兵になる。さらに走射した方向に瞬間移動するようになる",
+    "categories": [
+      "全体強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f71b8172f1d34586558a02690ba306a0",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1300.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1469"
+  }
+}

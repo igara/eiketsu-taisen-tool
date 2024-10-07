@@ -1,0 +1,36 @@
+{
+  "no": "緋033",
+  "id": "9b9e5eaf16f3fcca6ba1ca170119ca55",
+  "detailImageId": "98a85d2e385aa2c5b8921cab7e345eed",
+  "name": "諸角虎定",
+  "kanaName": "もろずみとらさだ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "貫通射撃",
+    "kanaName": "かんつうしゃげき",
+    "cost": "3",
+    "description": "武力が上がり、敵を貫通して射撃できるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b9e5eaf16f3fcca6ba1ca170119ca55",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/232.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_207"
+  }
+}

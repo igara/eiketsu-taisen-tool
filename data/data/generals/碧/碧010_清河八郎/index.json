@@ -1,0 +1,36 @@
+{
+  "no": "碧010",
+  "id": "67221d24d65d8d9a2a0f7383fd5b57a4",
+  "detailImageId": "83e42bcac6cdadef26cb808677dc0ae1",
+  "name": "清河八郎",
+  "kanaName": "きよかわはちろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "維新の魁",
+    "kanaName": "いしんのさきがけ",
+    "cost": "5",
+    "description": "江戸･幕末の味方の武力と移動速度が上がる。ただし効果終了時に自身は撤退する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=67221d24d65d8d9a2a0f7383fd5b57a4",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/235.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_230"
+  }
+}

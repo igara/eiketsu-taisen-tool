@@ -1,0 +1,36 @@
+{
+  "no": "玄048",
+  "id": "aa5789c495a9592735a8f7e2726f10ec",
+  "detailImageId": "1f647e4acd46edd1c4f3e7ff814b4fda",
+  "name": "馬玩",
+  "kanaName": "ばがん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "遠弓戦法",
+    "kanaName": "えんきゅうせんぽう",
+    "cost": "3",
+    "description": "武力と射程距離が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aa5789c495a9592735a8f7e2726f10ec",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/464.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_409"
+  }
+}

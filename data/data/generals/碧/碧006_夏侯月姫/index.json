@@ -1,0 +1,42 @@
+{
+  "no": "碧006",
+  "id": "5ce8bfe127df0eba11ebe049c1bef793",
+  "detailImageId": "32a810ae04a6ce1ea00498b961c840cf",
+  "name": "夏侯月姫",
+  "kanaName": "かこうげっき",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "落雷",
+    "kanaName": "らくらい",
+    "cost": "6",
+    "description": "いずれかの敵に知力によるダメージを３回与える。ダメージは互いの知力で上下する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5ce8bfe127df0eba11ebe049c1bef793",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/179.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_285"
+  }
+}

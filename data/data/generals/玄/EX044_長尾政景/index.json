@@ -1,0 +1,42 @@
+{
+  "no": "EX044",
+  "id": "6ff23cf23356e846a807334ce8c1d2a8",
+  "detailImageId": "0ad9d822e914f51cbd8085fdd2e91786",
+  "name": "長尾政景",
+  "kanaName": "ながおまさかげ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "宿業の采配",
+    "kanaName": "しゅくごうのさいはい",
+    "cost": "6",
+    "description": "味方の武力が上がる。ただし知力が下がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6ff23cf23356e846a807334ce8c1d2a8",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1102.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1340"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "no": "紫002",
+  "id": "eb5a1c6371506ec1defbc82076897a07",
+  "detailImageId": "c16dfb8cc2f415154fd0ff622a3b09bd",
+  "name": "蘆屋道満",
+  "kanaName": "あしやどうまん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "式神・太陰",
+    "kanaName": "しきがみ・たいいん",
+    "cost": "5",
+    "description": "【式神】（使用すると移動と兵種アクションができなくなり、一定時間後に式神を召喚する。式神は同時に複数召喚できず、反計されない。召喚中は自身の代わりに式神を操作でき、自身が撤退すると式神は消滅する）<br>式神が接触した敵の武力と移動速度を一定時間下げる",
+    "categories": [
+      "特殊",
+      "ため計略",
+      "式神"
+    ],
+    "time": "固定時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eb5a1c6371506ec1defbc82076897a07",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/651.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_455"
+  }
+}

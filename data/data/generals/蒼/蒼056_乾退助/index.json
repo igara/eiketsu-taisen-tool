@@ -1,0 +1,42 @@
+{
+  "no": "蒼056",
+  "id": "f415782273760f2ce383bc8714c9c510",
+  "detailImageId": "7692ecce0c13d01cf300f2c93ee533ed",
+  "name": "乾退助",
+  "kanaName": "いぬいたいすけ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "迅衝隊の指揮",
+    "kanaName": "じんしょうたいのしき",
+    "cost": "7",
+    "description": "味方の武力が上がる。さらに鉄砲隊であれば射程距離が上がり、特技「狙撃」を得る。既に特技「狙撃」を持っている場合は「狙撃」の効果が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f415782273760f2ce383bc8714c9c510",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/628.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_437"
+  }
+}

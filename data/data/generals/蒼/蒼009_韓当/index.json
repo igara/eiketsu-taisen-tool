@@ -1,0 +1,36 @@
+{
+  "no": "蒼009",
+  "id": "6e281cde50d2d7da4a62bde72a92301c",
+  "detailImageId": "39be41ae873c3231d3b0f76fc3c69979",
+  "name": "韓当",
+  "kanaName": "かんとう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "宿将の意地",
+    "kanaName": "しゅくしょうのいじ",
+    "cost": "4",
+    "description": "武力と走射中の弓攻撃のダメージが上がる。ただし効果終了時に撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6e281cde50d2d7da4a62bde72a92301c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/203.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_190"
+  }
+}

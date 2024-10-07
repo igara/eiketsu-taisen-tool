@@ -1,0 +1,42 @@
+{
+  "no": "碧031",
+  "id": "f1df488e278b5aeab3fa60c759e43c14",
+  "detailImageId": "7610238447c0d28c829dbc97e7419cd6",
+  "name": "土方歳三",
+  "kanaName": "ひじかたとしぞう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "局中法度",
+    "kanaName": "きょくちゅうはっと",
+    "cost": "6",
+    "description": "碧の味方の武力が上がる。ただし戦場にいる対象ではない味方が撤退する。この効果は撤退した味方の武将コストの合計値が高いほど大きい。一定以上武力が上がると、さらに移動速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f1df488e278b5aeab3fa60c759e43c14",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/93.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_224"
+  }
+}

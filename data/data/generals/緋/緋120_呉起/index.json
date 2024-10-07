@@ -1,0 +1,35 @@
+{
+  "no": "緋120",
+  "id": "4676cfd678fa2506b9b23af363918790",
+  "detailImageId": "694d6fa0db0b94a870611e1b22f3e300",
+  "name": "呉起",
+  "kanaName": "ごき",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "呉子兵法",
+    "kanaName": "ごしのへいほう",
+    "cost": "6",
+    "description": "緋の味方の武力が上がる。さらに対象が自身より武将コストの高い味方であれば兵種アクションによるダメージを軽減し、兵種アクションによる弾き効果を受けなくなり、武将コストが低い味方であれば移動速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "9",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4676cfd678fa2506b9b23af363918790",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2255"
+  }
+}

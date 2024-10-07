@@ -1,0 +1,42 @@
+{
+  "no": "EX021",
+  "id": "11de00e83297938010c2954791828888",
+  "detailImageId": "c6699c1195045782e9a4d9a8cddf39ec",
+  "name": "孫権",
+  "kanaName": "そんけん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "若虎の手腕",
+    "kanaName": "わかとらのしゅわん",
+    "cost": "6",
+    "description": "蒼の味方の武力が上がる。さらに武力が徐々に上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=11de00e83297938010c2954791828888",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/856.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_543"
+  }
+}

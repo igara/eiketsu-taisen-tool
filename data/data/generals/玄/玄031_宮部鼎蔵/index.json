@@ -1,0 +1,47 @@
+{
+  "no": "玄031",
+  "id": "ed8023b00ae5354de5e565243ae031c6",
+  "detailImageId": "f62bfe2f30100bf4cd9b2311277b02b3",
+  "name": "宮部鼎蔵",
+  "kanaName": "みやべていぞう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "死なばもろとも",
+    "kanaName": "しなばもろとも",
+    "cost": "4",
+    "description": "武力と斬撃ダメージが上がる。ただし斬撃を行うと自身は撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ed8023b00ae5354de5e565243ae031c6",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/294.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_167"
+  }
+}

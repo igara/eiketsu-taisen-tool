@@ -1,0 +1,43 @@
+{
+  "no": "PL026",
+  "id": "f14d5b717e3d31e515897cbeaf5f9cdc",
+  "detailImageId": "fe412eb18bd79a44cbaa575d66c6f086",
+  "name": "龍宮寺堅",
+  "kanaName": "りゅうぐうじけん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "万夫不当",
+    "kanaName": "ばんぷふとう",
+    "cost": "6",
+    "description": "武力が上がり、兵力が一定量減るたびに武力が上がる。さらに敵を倒すたびに兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f14d5b717e3d31e515897cbeaf5f9cdc",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/827.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_538"
+  }
+}

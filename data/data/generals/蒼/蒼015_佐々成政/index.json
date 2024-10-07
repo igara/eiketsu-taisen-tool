@@ -1,0 +1,36 @@
+{
+  "no": "蒼015",
+  "id": "89e1fb2c05b087dd31f946d2ee656b66",
+  "detailImageId": "37fdd11b4d659ad453a71356514ed706",
+  "name": "佐々成政",
+  "kanaName": "さっさなりまさ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "貫通射撃",
+    "kanaName": "かんつうしゃげき",
+    "cost": "3",
+    "description": "武力が上がり、敵を貫通して射撃できるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=89e1fb2c05b087dd31f946d2ee656b66",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/236.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_179"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "玄039",
+  "id": "377ee7955b5ceea02255079055fd22c9",
+  "detailImageId": "78c836546785125e64ee51f0e0690dfb",
+  "name": "上杉憲政",
+  "kanaName": "うえすぎのりまさ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "関東管領職譲渡",
+    "kanaName": "かんとうかんれいしきじょうと",
+    "cost": "10",
+    "description": "最も武力の高い味方の武力が上がる。ただし自身は撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "1",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=377ee7955b5ceea02255079055fd22c9",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/490.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_400"
+  }
+}

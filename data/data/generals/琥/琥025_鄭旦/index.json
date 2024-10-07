@@ -1,0 +1,43 @@
+{
+  "no": "琥025",
+  "id": "237c112c93a8bed69b39357d55a262de",
+  "detailImageId": "87c7de84140b9ad3394a263f28d0edc2",
+  "name": "鄭旦",
+  "kanaName": "ていたん",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "短計・弾飛",
+    "kanaName": "たんけい・だんひ",
+    "cost": "2",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>接触している敵を弾く。この短計は敵と接触している時のみ使用できる",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=237c112c93a8bed69b39357d55a262de",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1302.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1471"
+  }
+}

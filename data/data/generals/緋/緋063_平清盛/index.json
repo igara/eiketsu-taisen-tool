@@ -1,0 +1,42 @@
+{
+  "no": "緋063",
+  "id": "d44dd1dfece8edbd4c5469a579ab3837",
+  "detailImageId": "11c0e7035f03e1a06109dd571f9d08d1",
+  "name": "平清盛",
+  "kanaName": "たいらのきよもり",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "栄耀栄華",
+    "kanaName": "えいようえいが",
+    "cost": "7",
+    "description": "平安の味方の武力と移動速度が上がり、全ての士気を消費する。この効果は消費した士気が多いほど大きい",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d44dd1dfece8edbd4c5469a579ab3837",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/709.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_439"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "碧071",
+  "id": "45fd5c4ad488bad3c74087771aa51f9c",
+  "detailImageId": "9008aba859e5e0b44c011d12cf1a7b6d",
+  "name": "今井兼平",
+  "kanaName": "いまいかねひら",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "一蓮托生",
+    "kanaName": "いちれんたくしょう",
+    "cost": "4",
+    "description": "自身と、自身を除く最も武力の高い碧の味方の武力が上がる。ただし対象のいずれかの味方が撤退すると、対象の味方全てが撤退する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=45fd5c4ad488bad3c74087771aa51f9c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/959.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1267"
+  }
+}

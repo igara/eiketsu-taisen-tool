@@ -1,0 +1,53 @@
+{
+  "no": "PL002",
+  "id": "9351584021a1755c16e1b0b9157f0314",
+  "detailImageId": "830ecc98cf2d68b950d82574a70027be",
+  "name": "嬴政",
+  "kanaName": "えいせい",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "中華統一への道",
+    "kanaName": "ちゅうかとういつへのみち",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>蒼の味方の武力が上がり、武力によるダメージを軽減する",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "6",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9351584021a1755c16e1b0b9157f0314",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/313.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_311"
+  }
+}

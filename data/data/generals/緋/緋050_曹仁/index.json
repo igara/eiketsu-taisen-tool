@@ -1,0 +1,42 @@
+{
+  "no": "緋050",
+  "id": "e14ccebb90944c0d501351175bf89c60",
+  "detailImageId": "c4d9f5a3b06bc9328a44244082ca5d90",
+  "name": "曹仁",
+  "kanaName": "そうじん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "難攻不落",
+    "kanaName": "なんこうふらく",
+    "cost": "4",
+    "description": "緋の味方の武力が上がり、武力によるダメージを軽減する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e14ccebb90944c0d501351175bf89c60",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/484.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_380"
+  }
+}

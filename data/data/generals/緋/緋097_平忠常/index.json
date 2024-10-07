@@ -1,0 +1,36 @@
+{
+  "no": "緋097",
+  "id": "371b67ef4df9e72aa9f980794cea30ae",
+  "detailImageId": "a5bb6f706b1653ea9876cd55d34b9eb2",
+  "name": "平忠常",
+  "kanaName": "たいらのただつね",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "傍若無人",
+    "kanaName": "ぼうじゃくぶじん",
+    "cost": "5",
+    "description": "武力と移動速度が上がる。さらに敵を撃破するたびに自軍の士気が上がる。この効果は撃破した敵のコストが高いほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=371b67ef4df9e72aa9f980794cea30ae",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1256.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1405"
+  }
+}

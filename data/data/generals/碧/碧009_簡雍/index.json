@@ -1,0 +1,42 @@
+{
+  "no": "碧009",
+  "id": "12b1698f072f74a85c7c6a10521c6131",
+  "detailImageId": "10ad7ad66b32a7fa3bc3d01ed7bbc146",
+  "name": "簡雍",
+  "kanaName": "かんよう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "無血開城",
+    "kanaName": "むけつかいじょう",
+    "cost": "2",
+    "description": "知力と攻城力が上がる。ただし武力が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=12b1698f072f74a85c7c6a10521c6131",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/206.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_288"
+  }
+}

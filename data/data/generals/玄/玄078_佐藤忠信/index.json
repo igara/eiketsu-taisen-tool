@@ -1,0 +1,36 @@
+{
+  "no": "玄078",
+  "id": "e18721eca7d2ba8bc0793770fa315c35",
+  "detailImageId": "d4428a80705c5c099e2de01b7f0195fa",
+  "name": "佐藤忠信",
+  "kanaName": "さとうただのぶ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "身命の剛剣",
+    "kanaName": "しんみょうのごうけん",
+    "cost": "3",
+    "description": "武力と斬撃ダメージが上がる。ただし兵力が減少する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "4",
+  "intelligentzia": "1",
+  "skill": [],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e18721eca7d2ba8bc0793770fa315c35",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/999.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1280"
+  }
+}

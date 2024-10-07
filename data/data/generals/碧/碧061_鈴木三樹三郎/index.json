@@ -1,0 +1,36 @@
+{
+  "no": "碧061",
+  "id": "78bfb5f0642b9a16d3965c082519fb1f",
+  "detailImageId": "3a138a920f104f8823532ae1affa31cf",
+  "name": "鈴木三樹三郎",
+  "kanaName": "すずきみきさぶろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "雪辱の目覚め",
+    "kanaName": "せつじょくのめざめ",
+    "cost": "3",
+    "description": "武力が上がる。撤退中の味方の最大武将コストが一定以上の場合、さらに武力が上がり、射撃時の攻撃間隔が短くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=78bfb5f0642b9a16d3965c082519fb1f",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/711.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_479"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "no": "緋042",
+  "id": "f6ba912d99bba99fce9ccabd7731aee6",
+  "detailImageId": "4df698c5486a1318630de9c65274cf9a",
+  "name": "楽進",
+  "kanaName": "がくしん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "魏武の走射術",
+    "kanaName": "ぎぶのそうしゃじゅつ",
+    "cost": "4",
+    "description": "武力が上がり、走射時間が延びる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f6ba912d99bba99fce9ccabd7731aee6",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/497.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_372"
+  }
+}

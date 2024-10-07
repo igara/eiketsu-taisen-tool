@@ -1,0 +1,43 @@
+{
+  "no": "琥040",
+  "id": "73d90506871b6d9a0947fad41c406a30",
+  "detailImageId": "9fff402c2ba33b9026a1184842b14159",
+  "name": "介子推",
+  "kanaName": "かいしすい",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "春秋戦国",
+  "cost": "3.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "閃光の進撃",
+    "kanaName": "せんこうのしんげき",
+    "cost": "7",
+    "description": "武力と攻城力が上がり、戦闘により兵力が０になった時に一度だけ兵力が回復する。さらに兵力が一定量減るたびに武力が上がる",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "11",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=73d90506871b6d9a0947fad41c406a30",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1525.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2178"
+  }
+}

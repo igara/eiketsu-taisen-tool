@@ -1,0 +1,42 @@
+{
+  "no": "緋001",
+  "id": "390e3c8d3057de04d260a1528a51b476",
+  "detailImageId": "11b15c1c1244a7425f6f300bc9ed0ad3",
+  "name": "赤禰武人",
+  "kanaName": "あかねたけと",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "不忠不義の至り",
+    "kanaName": "ふちゅうふぎのいたり",
+    "cost": "4",
+    "description": "敵と味方の武力と知力を下げる。ただし自身は撤退する",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "1",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=390e3c8d3057de04d260a1528a51b476",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/88.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_268"
+  }
+}

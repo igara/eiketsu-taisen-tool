@@ -1,0 +1,36 @@
+{
+  "no": "碧062",
+  "id": "67e0fba6c8a53ea18fb6c726f7b04e2c",
+  "detailImageId": "5d8b819505e38502037fe0ec87e68a29",
+  "name": "富山弥兵衛",
+  "kanaName": "とみやまやへえ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "気骨の銃弾",
+    "kanaName": "きこつのじゅうだん",
+    "cost": "3",
+    "description": "戦場にいる敵の武力の最大値が大きいほど武力が上がる。一定以上武力が上がると、さらに射撃時の攻撃回数が増える",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=67e0fba6c8a53ea18fb6c726f7b04e2c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/691.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_500"
+  }
+}

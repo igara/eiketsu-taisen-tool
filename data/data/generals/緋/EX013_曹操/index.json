@@ -1,0 +1,52 @@
+{
+  "no": "EX013",
+  "id": "a672581c6080dc49d30fab840fd22b41",
+  "detailImageId": "b2c338f6b7428247353d211588f6ce0c",
+  "name": "曹操",
+  "kanaName": "そうそう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "魏武の大号令",
+    "kanaName": "ぎぶのだいごうれい",
+    "cost": "7",
+    "description": "緋の味方の武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a672581c6080dc49d30fab840fd22b41",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/771.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_552"
+  }
+}

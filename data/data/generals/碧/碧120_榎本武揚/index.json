@@ -1,0 +1,44 @@
+{
+  "no": "碧120",
+  "id": "51912d0bd7cf2e0851b3d17c7650da29",
+  "detailImageId": "44cc607e4e68a85aaeb47b1f5a13ba22",
+  "name": "榎本武揚",
+  "kanaName": "えのもとたけあき",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "3.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "五稜郭の戦",
+    "kanaName": "ごりょうかくのいくさ",
+    "cost": "8",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>碧の味方の武力が上がり、敵の武力を下げる。さらに対象の敵が計略を発動するたびに範囲内の敵の兵力を減少させる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "ダメージ",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "9",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=51912d0bd7cf2e0851b3d17c7650da29",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2280"
+  }
+}

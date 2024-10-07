@@ -1,0 +1,42 @@
+{
+  "no": "EX006",
+  "id": "cc89a7ae70f8821c33261663687ee679",
+  "detailImageId": "db6f7e054aeaa2255f4761c2fd7be5d2",
+  "name": "村松殿",
+  "kanaName": "むらまつどの",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "六文銭の祈り",
+    "kanaName": "ろくもんせんのいのり",
+    "cost": "2",
+    "description": "最も武力の高い味方の武力が上がり、敵の計略の対象にならなくなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cc89a7ae70f8821c33261663687ee679",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/543.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_424"
+  }
+}

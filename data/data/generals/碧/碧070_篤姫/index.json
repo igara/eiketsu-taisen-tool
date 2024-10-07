@@ -1,0 +1,42 @@
+{
+  "no": "碧070",
+  "id": "c6b4515a3a1ee001213c955097e4544d",
+  "detailImageId": "836fdb359b35295f745fd6236f99eb5e",
+  "name": "篤姫",
+  "kanaName": "あつひめ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "穿弾の祈り",
+    "kanaName": "せんだんのいのり",
+    "cost": "3",
+    "description": "最も武力の高い鉄砲隊の味方の武力が上がり、敵を貫通して射撃できるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "3",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c6b4515a3a1ee001213c955097e4544d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/958.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1228"
+  }
+}

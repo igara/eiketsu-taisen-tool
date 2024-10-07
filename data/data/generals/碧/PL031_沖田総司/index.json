@@ -1,0 +1,42 @@
+{
+  "no": "PL031",
+  "id": "ecad46979048b5e6e45a0d92faec5b1b",
+  "detailImageId": "d9d5ee328f0523233e44716912b00fb7",
+  "name": "沖田総司",
+  "kanaName": "おきたそうじ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "命花の剣",
+    "kanaName": "めいかのけん",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、斬撃の範囲が広くなる。ただし斬撃を行うたびに兵力が減少する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ecad46979048b5e6e45a0d92faec5b1b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/881.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_561"
+  }
+}

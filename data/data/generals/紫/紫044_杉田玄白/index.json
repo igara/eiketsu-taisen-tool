@@ -1,0 +1,48 @@
+{
+  "no": "紫044",
+  "id": "e00448a0e59846532e839074ff5410a5",
+  "detailImageId": "45217b2a902ce8ae8db9a0ed35a54b8b",
+  "name": "杉田玄白",
+  "kanaName": "すぎたげんぱく",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "解体新書",
+    "kanaName": "かいたいしんしょ",
+    "cost": "3",
+    "description": "最も武力の高い紫の味方の兵力が徐々に回復し、効果中に撤退すると復活時間が減少する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "1",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "48",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e00448a0e59846532e839074ff5410a5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/985.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1294"
+  }
+}

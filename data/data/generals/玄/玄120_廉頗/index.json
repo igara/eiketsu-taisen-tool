@@ -1,0 +1,43 @@
+{
+  "no": "玄120",
+  "id": "36fb967494160fc3b7f2b120f5a7e726",
+  "detailImageId": "868c143b1c37eb42b9f88bc839d5c703",
+  "name": "廉頗",
+  "kanaName": "れんぱ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "春秋戦国",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "驚天動地の戦",
+    "kanaName": "きょうてんどうちのいくさ",
+    "cost": "5",
+    "description": "戦場にいる敵の武力の最大値が大きいほど武力が上がる。一定以上武力が上がると、さらに兵力が回復し、全方向に槍の無敵攻撃を行う",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=36fb967494160fc3b7f2b120f5a7e726",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1591.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2125"
+  }
+}

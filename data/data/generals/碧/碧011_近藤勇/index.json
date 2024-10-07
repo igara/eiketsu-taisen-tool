@@ -1,0 +1,36 @@
+{
+  "no": "碧011",
+  "id": "672806edc36fc2e77ab2cefc2e4d1f8a",
+  "detailImageId": "c70dd9842643aa5bcd27ebbad98dc949",
+  "name": "近藤勇",
+  "kanaName": "こんどういさみ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "3.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "壬生狼の号令",
+    "kanaName": "みぶろのごうれい",
+    "cost": "7",
+    "description": "碧の味方の武力が上がり、剣豪であれば斬撃ができるまでの時間が短くなる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "10",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=672806edc36fc2e77ab2cefc2e4d1f8a",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/137.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_289"
+  }
+}

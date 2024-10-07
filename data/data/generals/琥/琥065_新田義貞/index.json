@@ -1,0 +1,42 @@
+{
+  "no": "琥065",
+  "id": "78c0903be8c8cb989d9ac8d3390b759c",
+  "detailImageId": "b38a63bd24442b2ae547329cf6c97dce",
+  "name": "新田義貞",
+  "kanaName": "にったよしさだ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "地龍走破",
+    "kanaName": "ちりゅうそうは",
+    "cost": "7",
+    "description": "【琥煌：最大消費６】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力と移動速度が上がる<br>３消費：さらに突撃ダメージが上がる<br>６消費：さらに迎撃ダメージと迎撃・斬撃による速度低下を受けなくなり、突撃を敵に当てるたびに覇道が前進する",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=78c0903be8c8cb989d9ac8d3390b759c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2244"
+  }
+}

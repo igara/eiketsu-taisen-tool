@@ -1,0 +1,47 @@
+{
+  "no": "蒼087",
+  "id": "15754d4186e319e61d7f5d5741d5b926",
+  "detailImageId": "50d951f06ced8ec9227bab53ef8ff42b",
+  "name": "和田義盛",
+  "kanaName": "わだよしもり",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "奉武の双弓",
+    "kanaName": "ほうぶのそうきゅう",
+    "cost": "4",
+    "description": "武力が上がり、同時に弓攻撃できる部隊数が増える。味方の陣形の効果を受けている時、この計略の必要士気が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=15754d4186e319e61d7f5d5741d5b926",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/935.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1300"
+  }
+}

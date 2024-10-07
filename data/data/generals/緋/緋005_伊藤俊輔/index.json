@@ -1,0 +1,36 @@
+{
+  "no": "緋005",
+  "id": "0bf6221b320174267639866c6779a747",
+  "detailImageId": "d3d127999d58a9ee007ceb96e601f254",
+  "name": "伊藤俊輔",
+  "kanaName": "いとうしゅんすけ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "積水成淵",
+    "kanaName": "せきすいせいえん",
+    "cost": "5",
+    "description": "戦場にいる間武力と知力が徐々に上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0bf6221b320174267639866c6779a747",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/121.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_193"
+  }
+}

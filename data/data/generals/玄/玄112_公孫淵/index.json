@@ -1,0 +1,42 @@
+{
+  "no": "玄112",
+  "id": "1e8beacb4999e5971f23cc4d49e80f2c",
+  "detailImageId": "f389e0e0f8a3b4f038b9a48aac8e4089",
+  "name": "公孫淵",
+  "kanaName": "こうそんえん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "火事場戦法",
+    "kanaName": "かじばせんぽう",
+    "cost": "3",
+    "description": "武力が上がる。この効果は自城ゲージが少ないほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1e8beacb4999e5971f23cc4d49e80f2c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1584.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2161"
+  }
+}

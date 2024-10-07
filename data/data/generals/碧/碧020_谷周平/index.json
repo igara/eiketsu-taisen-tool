@@ -1,0 +1,47 @@
+{
+  "no": "碧020",
+  "id": "4fbe12e951ed34f419239246cb38d59f",
+  "detailImageId": "27749cf0e517d3c27307833dc412196e",
+  "name": "谷周平",
+  "kanaName": "たにしゅうへい",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "弾斬戦法",
+    "kanaName": "だんざんせんぽう",
+    "cost": "3",
+    "description": "武力が上がり、斬撃による弾き距離が伸びる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4fbe12e951ed34f419239246cb38d59f",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/167.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_293"
+  }
+}

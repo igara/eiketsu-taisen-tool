@@ -1,0 +1,49 @@
+{
+  "no": "紫070",
+  "id": "d3ef1dee657b78a4d184d421af579081",
+  "detailImageId": "ab91f1ac726d177e4bcebfa2f16660d0",
+  "name": "蕭何",
+  "kanaName": "しょうか",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "兵站の極み",
+    "kanaName": "へいたんのきわみ",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>春秋戦国の味方の武力が徐々に上がり、兵力が徐々に回復する陣形を設置する。この計略は城内にいる時のみ使用できる",
+    "categories": [
+      "全体強化",
+      "回復",
+      "陣形"
+    ],
+    "time": "固定時間",
+    "range": "84add373fd45131ded301f72967b093a"
+  },
+  "power": "1",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d3ef1dee657b78a4d184d421af579081",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1594.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2169"
+  }
+}

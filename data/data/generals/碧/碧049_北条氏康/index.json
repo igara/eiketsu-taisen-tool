@@ -1,0 +1,42 @@
+{
+  "no": "碧049",
+  "id": "e9e416811a7f105ebed66394f0b1e1f5",
+  "detailImageId": "d1d6855210779ee0fa5565afbc904ba7",
+  "name": "北条氏康",
+  "kanaName": "ほうじょううじやす",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "獅子の王道",
+    "kanaName": "ししのおうどう",
+    "cost": "7",
+    "description": "碧の味方の武力が上がり、槍兵であれば全方向に槍の無敵攻撃を行う。この効果は対象の部隊数が少ないほど大きい",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e9e416811a7f105ebed66394f0b1e1f5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/441.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_395"
+  }
+}

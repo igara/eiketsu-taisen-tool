@@ -1,0 +1,43 @@
+{
+  "no": "紫007",
+  "id": "b3316f2e15500339d89d851304372bbb",
+  "detailImageId": "ef75f24b82d167201fb04c268c39f909",
+  "name": "今川義元",
+  "kanaName": "いまがわよしもと",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "海道の支配者",
+    "kanaName": "かいどうのしはいしゃ",
+    "cost": "6",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>紫の味方の武力が上がる。一定以上武力が上がると、さらに知力が上がる",
+    "categories": [
+      "全体強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b3316f2e15500339d89d851304372bbb",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/757.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_450"
+  }
+}

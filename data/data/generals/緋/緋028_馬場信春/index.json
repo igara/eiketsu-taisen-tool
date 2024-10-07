@@ -1,0 +1,37 @@
+{
+  "no": "緋028",
+  "id": "8f1549cadc177a5de458bcca03657124",
+  "detailImageId": "cf05a23df585b7f78ec647cef46972da",
+  "name": "馬場信春",
+  "kanaName": "ばばのぶはる",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "不死身の鬼美濃",
+    "kanaName": "ふじみのおにみの",
+    "cost": "5",
+    "description": "武力が上がり、戦闘により兵力が０になった時に一度だけ兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8f1549cadc177a5de458bcca03657124",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/185.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_205"
+  }
+}

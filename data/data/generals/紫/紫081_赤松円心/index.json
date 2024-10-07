@@ -1,0 +1,44 @@
+{
+  "no": "紫081",
+  "id": "3a41646fa51f43f7bc65fd48f8808565",
+  "detailImageId": "4f4c36d43ef883ff75ee23a10e6101a4",
+  "name": "赤松円心",
+  "kanaName": "あかまつえんしん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "赤松の戦陣",
+    "kanaName": "せきしょうのせんじん",
+    "cost": "6",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>紫の味方の武力が上がる陣形を設置する。一定以上武力が上がると、さらに知力が上がり、兵力が徐々に回復する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "陣形",
+      "渾身"
+    ],
+    "time": "固定時間",
+    "range": "17292188368f5be2f97facc14cc393a0"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3a41646fa51f43f7bc65fd48f8808565",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2297"
+  }
+}

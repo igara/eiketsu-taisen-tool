@@ -1,0 +1,44 @@
+{
+  "no": "蒼006",
+  "id": "7ebcff977fb0762a4dcdcd0edf8bcb90",
+  "detailImageId": "f7af84623d1f3d433e31dca4115b588f",
+  "name": "岡田以蔵",
+  "kanaName": "おかだいぞう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "3.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "天誅",
+    "kanaName": "てんちゅう",
+    "cost": "7",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力と移動速度と斬撃ダメージが上がり、敵の移動速度を下げる",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "10",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "40",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7ebcff977fb0762a4dcdcd0edf8bcb90",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/151.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_255"
+  }
+}

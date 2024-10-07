@@ -1,0 +1,36 @@
+{
+  "no": "緋043",
+  "id": "34b27f3587921ac61f82fdd4df4efa92",
+  "detailImageId": "676f6f3e2166d547e6886ac62f2fc4d9",
+  "name": "河上弥市",
+  "kanaName": "かわかみやいち",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "剛槍戦法",
+    "kanaName": "ごうそうせんぽう",
+    "cost": "3",
+    "description": "武力と槍撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=34b27f3587921ac61f82fdd4df4efa92",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/511.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_373"
+  }
+}

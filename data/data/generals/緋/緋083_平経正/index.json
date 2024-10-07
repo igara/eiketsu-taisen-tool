@@ -1,0 +1,36 @@
+{
+  "no": "緋083",
+  "id": "f33b7ee4ecb506613a7e56973acada4d",
+  "detailImageId": "91ef8cb92b91a327c3a38839ee6d7844",
+  "name": "平経正",
+  "kanaName": "たいらのつねまさ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "栄華の継援",
+    "kanaName": "えいがのけいえん",
+    "cost": "5",
+    "description": "平安の味方の兵力が徐々に回復する。この効果は士気が多いほど大きい",
+    "categories": [
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "3",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f33b7ee4ecb506613a7e56973acada4d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/952.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1263"
+  }
+}

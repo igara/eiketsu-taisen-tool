@@ -1,0 +1,36 @@
+{
+  "no": "EX045",
+  "id": "b09e59b487c9df999f8946800e5a38c2",
+  "detailImageId": "7b960da820b20444181957689aa7aeb9",
+  "name": "斎藤朝信",
+  "kanaName": "さいとうとものぶ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "鍾馗の銃弾",
+    "kanaName": "しょうきのじゅうだん",
+    "cost": "5",
+    "description": "武力と射程距離が上がり、射撃時の攻撃回数が増える。さらに敵を貫通して射撃できるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b09e59b487c9df999f8946800e5a38c2",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1103.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1341"
+  }
+}

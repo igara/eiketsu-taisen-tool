@@ -1,0 +1,36 @@
+{
+  "no": "緋020",
+  "id": "2249624926089a509c3c98b3ca5f6853",
+  "detailImageId": "f6bc6b53eba91d6559b87e3bbd7059ab",
+  "name": "曹休",
+  "kanaName": "そうきゅう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "特攻戦法",
+    "kanaName": "とっこうせんぽう",
+    "cost": "4",
+    "description": "武力と攻城力が上がり、強制的に前進する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2249624926089a509c3c98b3ca5f6853",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/228.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_199"
+  }
+}

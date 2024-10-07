@@ -1,0 +1,36 @@
+{
+  "no": "ST002",
+  "id": "a0ba25ae25f9100439c5ed224a3a8a57",
+  "detailImageId": "e9e737bed29b05f75e9351c6928bff78",
+  "name": "曹操",
+  "kanaName": "そうそう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "指揮",
+    "kanaName": "しき",
+    "cost": "5",
+    "description": "味方の武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "48",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a0ba25ae25f9100439c5ed224a3a8a57",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/177.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_149"
+  }
+}

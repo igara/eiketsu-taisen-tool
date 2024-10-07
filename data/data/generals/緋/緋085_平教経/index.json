@@ -1,0 +1,42 @@
+{
+  "no": "緋085",
+  "id": "2bfd3577db9c6a5325e988bb0ebbe266",
+  "detailImageId": "e2088c8044eb2607d059a96ab88523bb",
+  "name": "平教経",
+  "kanaName": "たいらののりつね",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "3.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "王城の羅刹",
+    "kanaName": "おうじょうのらせつ",
+    "cost": "5",
+    "description": "武力と乱戦中の攻撃速度が上がる。ただし兵力が徐々に減少し、射程距離が短くなり、効果中に撤退すると自軍の士気が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2bfd3577db9c6a5325e988bb0ebbe266",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/954.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1260"
+  }
+}

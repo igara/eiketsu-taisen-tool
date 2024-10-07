@@ -1,0 +1,36 @@
+{
+  "no": "玄010",
+  "id": "02a78593290a7fa14a347c5e411cded9",
+  "detailImageId": "adf185bf6448a511a5ba4b8d758541b1",
+  "name": "北条高広",
+  "kanaName": "きたじょうたかひろ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "凶漢の進攻",
+    "kanaName": "きょうかんのしんこう",
+    "cost": "4",
+    "description": "武力と攻城力が上がり、乱戦中も攻城ゲージが増えるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=02a78593290a7fa14a347c5e411cded9",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/124.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_155"
+  }
+}

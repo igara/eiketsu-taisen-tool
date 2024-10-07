@@ -1,0 +1,43 @@
+{
+  "no": "琥035",
+  "id": "1c53bd501e8a2861b8538576bdb52d38",
+  "detailImageId": "12237717075161f2b503d90256baf121",
+  "name": "村田新八",
+  "kanaName": "むらたしんぱち",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "琥煌の大車輪",
+    "kanaName": "ここうのだいしゃりん",
+    "cost": "4",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がり、全方向に槍の無敵攻撃を行う<br>３消費：さらに槍の無敵攻撃のダメージが上がる",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1c53bd501e8a2861b8538576bdb52d38",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1336.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1479"
+  }
+}

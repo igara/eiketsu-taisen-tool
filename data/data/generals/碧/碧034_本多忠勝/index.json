@@ -1,0 +1,42 @@
+{
+  "no": "碧034",
+  "id": "9a9624863c506ec0c497f8b608aedd37",
+  "detailImageId": "fd5cf22c6ca61ced7af7f3f0266475c9",
+  "name": "本多忠勝",
+  "kanaName": "ほんだただかつ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "3.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "名槍・蜻蛉切",
+    "kanaName": "めいそうとんぼきり",
+    "cost": "7",
+    "description": "武力と移動速度と槍撃ダメージが上がる。さらに敵を撃破するたびに武力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "11",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9a9624863c506ec0c497f8b608aedd37",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/143.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_296"
+  }
+}

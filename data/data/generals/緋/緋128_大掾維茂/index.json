@@ -1,0 +1,46 @@
+{
+  "no": "緋128",
+  "id": "21bad4145e0de440b7768452d757af30",
+  "detailImageId": "240fbc687eb5e6cf76874afcc9a453af",
+  "name": "大掾維茂",
+  "kanaName": "だいじょうこれもち",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "余五将軍の号令",
+    "kanaName": "よごしょうぐんのごうれい",
+    "cost": "7",
+    "description": "平安の味方の武力と移動速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21bad4145e0de440b7768452d757af30",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2274"
+  }
+}

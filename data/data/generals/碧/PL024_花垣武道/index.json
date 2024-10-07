@@ -1,0 +1,49 @@
+{
+  "no": "PL024",
+  "id": "1574669c3037f4446e39c4f4144419f4",
+  "detailImageId": "b8748e49f0a2bd864b59d026b31c8f33",
+  "name": "花垣武道",
+  "kanaName": "はながきたけみち",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "時間跳躍",
+    "kanaName": "タイムリープ",
+    "cost": "4",
+    "description": "武力が上がる。さらに効果中に撤退すると、発動時の位置に発動時の武力と知力で復活し、移動速度が上がる",
+    "categories": [
+      "強化",
+      "復活",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1574669c3037f4446e39c4f4144419f4",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/825.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_536"
+  }
+}

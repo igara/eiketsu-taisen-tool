@@ -1,0 +1,36 @@
+{
+  "no": "ST003",
+  "id": "5b1192b83fc197ef647cdc1ff7d27f68",
+  "detailImageId": "6cbb99ada66790776319e59ffd1a8f2a",
+  "name": "土方歳三",
+  "kanaName": "ひじかたとしぞう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "3.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "指揮",
+    "kanaName": "しき",
+    "cost": "5",
+    "description": "味方の武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "48",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5b1192b83fc197ef647cdc1ff7d27f68",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/89.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_150"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "no": "蒼092",
+  "id": "e3e09716d7209575738640191853819f",
+  "detailImageId": "5cbe6ec7ab7c17806f2356ddd7acfed1",
+  "name": "胡傷",
+  "kanaName": "こしょう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "覇進戦法",
+    "kanaName": "はしんせんぽう",
+    "cost": "2",
+    "description": "武力が上がり、覇道が前進する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e3e09716d7209575738640191853819f",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1234.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1388"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "玄098",
+  "id": "a9eae0e2cd5ad32c0f8b688a5b4579fd",
+  "detailImageId": "6e73d85a995a3876d50630f8c7c6a337",
+  "name": "土橋守重",
+  "kanaName": "つちばしもりしげ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "阿修羅の銃弾",
+    "kanaName": "あしゅらのじゅうだん",
+    "cost": "6",
+    "description": "武力が上がり、射撃時の攻撃回数が増える。さらに射撃幅が広くなり、狙撃状態になるまでの時間が短くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a9eae0e2cd5ad32c0f8b688a5b4579fd",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1272.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1433"
+  }
+}

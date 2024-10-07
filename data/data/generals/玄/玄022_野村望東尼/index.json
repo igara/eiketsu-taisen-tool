@@ -1,0 +1,42 @@
+{
+  "no": "玄022",
+  "id": "58c384988788ad2c20d36cc9b7843b1c",
+  "detailImageId": "f49987f3c79c9a02160694cc3fe5f8c2",
+  "name": "野村望東尼",
+  "kanaName": "のむらぼうとうに",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "的確な援兵",
+    "kanaName": "てきかくなえんぺい",
+    "cost": "3",
+    "description": "最も武力の高い味方の兵力が回復する",
+    "categories": [
+      "回復"
+    ],
+    "time": "一瞬",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "22",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=58c384988788ad2c20d36cc9b7843b1c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/225.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_245"
+  }
+}

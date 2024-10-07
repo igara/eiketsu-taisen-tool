@@ -1,0 +1,43 @@
+{
+  "no": "緋012",
+  "id": "9bf4de1d0ce883dcdf3ed64fca932cbb",
+  "detailImageId": "43c6abf9fb548ab36d18889415b1e3f2",
+  "name": "夏侯惇",
+  "kanaName": "かこうとん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "隻眼の睨み",
+    "kanaName": "せきがんのにらみ",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>敵の武力と知力を下げる",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9bf4de1d0ce883dcdf3ed64fca932cbb",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/115.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_197"
+  }
+}

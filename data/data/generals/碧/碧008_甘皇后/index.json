@@ -1,0 +1,43 @@
+{
+  "no": "碧008",
+  "id": "7e0cf43df13490bf780024cfa95ab574",
+  "detailImageId": "d401b01c6b467a99b4395deadb258318",
+  "name": "甘皇后",
+  "kanaName": "かんこうごう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "回復の舞い",
+    "kanaName": "かいふくのまい",
+    "cost": "7",
+    "description": "【舞い】（発動すると移動と兵種アクションができなくなる。自身は自身の舞いの効果を受けない）<br>味方の兵力が徐々に回復する",
+    "categories": [
+      "回復",
+      "舞い"
+    ],
+    "time": "撤退するまで",
+    "range": "4d3caffa4b65d477e2065a8e4524774e"
+  },
+  "power": "1",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7e0cf43df13490bf780024cfa95ab574",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/170.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_287"
+  }
+}

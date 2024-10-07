@@ -1,0 +1,43 @@
+{
+  "no": "琥055",
+  "id": "48160731e69d37c401cfae49f88d4ba0",
+  "detailImageId": "ffcd9777ca046b9ae41ac2a6756cf22e",
+  "name": "大山巌",
+  "kanaName": "おおやまいわお",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "弥助砲",
+    "kanaName": "やすけほう",
+    "cost": "5",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がる。さらにカードの向いている方向に射撃を行うと、代わりに武力ダメージを与える砲弾を発射し、砲弾が命中した位置を起点とした範囲に、敵に武力ダメージを与える爆風を発生させる。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=48160731e69d37c401cfae49f88d4ba0",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2312"
+  }
+}

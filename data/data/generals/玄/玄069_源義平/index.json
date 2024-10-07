@@ -1,0 +1,42 @@
+{
+  "no": "玄069",
+  "id": "7bfc47e8cccfd1f2682fda4416092f5c",
+  "detailImageId": "47d1f2b336db2d5cb4b26e8bb766dc2b",
+  "name": "源義平",
+  "kanaName": "みなもとのよしひら",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "身命の雷爪",
+    "kanaName": "しんみょうのらいそう",
+    "cost": "5",
+    "description": "武力と移動速度と槍撃ダメージが上がる。ただし兵力が減少する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bfc47e8cccfd1f2682fda4416092f5c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/763.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_460"
+  }
+}

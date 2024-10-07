@@ -1,0 +1,37 @@
+{
+  "no": "蒼029",
+  "id": "bdbc38c2330be609f1a565b2c955602a",
+  "detailImageId": "3ba1e60680be146c69f22473678d35e4",
+  "name": "ねね",
+  "kanaName": "ねね",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "賢妻の加護",
+    "kanaName": "けんさいのかご",
+    "cost": "5",
+    "description": "蒼の味方の兵力が回復し、武力によるダメージを軽減する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=bdbc38c2330be609f1a565b2c955602a",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/132.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_264"
+  }
+}

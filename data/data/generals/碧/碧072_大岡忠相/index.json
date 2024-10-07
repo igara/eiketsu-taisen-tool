@@ -1,0 +1,43 @@
+{
+  "no": "碧072",
+  "id": "8f36ee4762ae91887a8d813d69305b1a",
+  "detailImageId": "10df1b58ab1067a9c45905fdb395cdbc",
+  "name": "大岡忠相",
+  "kanaName": "おおおかただすけ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "大岡裁き",
+    "kanaName": "おおおかさばき",
+    "cost": "4",
+    "description": "碧の味方の武力が上がり、効果終了時に兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8f36ee4762ae91887a8d813d69305b1a",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/960.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1268"
+  }
+}

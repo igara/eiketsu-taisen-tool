@@ -1,0 +1,42 @@
+{
+  "no": "PL001",
+  "id": "211be2cf1f90abee29b7837278399076",
+  "detailImageId": "f918e8595b67222822d7c65f576608fe",
+  "name": "信",
+  "kanaName": "しん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "本能型の才",
+    "kanaName": "ほんのうがたのさい",
+    "cost": "5",
+    "description": "武力が上がる。さらに味方が撤退するたびに武力が上がる。この効果は撤退した味方の武将コストが高いほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=211be2cf1f90abee29b7837278399076",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/312.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_310"
+  }
+}

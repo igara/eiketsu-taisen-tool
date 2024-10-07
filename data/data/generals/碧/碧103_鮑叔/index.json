@@ -1,0 +1,42 @@
+{
+  "no": "碧103",
+  "id": "38afe0c242b8f7c2219ce70d73bb3db7",
+  "detailImageId": "e93948cb103857a9f78a9438060089ba",
+  "name": "鮑叔",
+  "kanaName": "ほうしゅく",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "揺るぎなき推挙",
+    "kanaName": "ゆるぎなきすいきょ",
+    "cost": "4",
+    "description": "碧の味方の武力が上がり、最も知力の高い碧の味方の知力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=38afe0c242b8f7c2219ce70d73bb3db7",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1228.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1423"
+  }
+}

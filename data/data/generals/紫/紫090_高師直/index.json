@@ -1,0 +1,47 @@
+{
+  "no": "紫090",
+  "id": "ecac852a20a2b48e56de86b96b512ca6",
+  "detailImageId": "1e093e21245dea0fd7c202a2ce6a6e8d",
+  "name": "高師直",
+  "kanaName": "こうのもろなお",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "疾風怒濤",
+    "kanaName": "しっぷうどとう",
+    "cost": "6",
+    "description": "武力と移動速度と槍撃ダメージが上がり、兵力が回復する。さらに敵を撃破するたびに自軍の士気が上がる。ただし効果終了時に自軍の士気が下がる",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ecac852a20a2b48e56de86b96b512ca6",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2304"
+  }
+}

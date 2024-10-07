@@ -1,0 +1,36 @@
+{
+  "no": "緋011",
+  "id": "783cdada259d78941cfd4ce8ce8c8514",
+  "detailImageId": "21ee73bd0f36718aa9e2c14cb0accd93",
+  "name": "夏侯淵",
+  "kanaName": "かこうえん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "怒涛の追撃",
+    "kanaName": "どとうのついげき",
+    "cost": "4",
+    "description": "武力と射程距離が上がる。さらに敵を撃破するたびに武力と射程距離が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=783cdada259d78941cfd4ce8ce8c8514",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/168.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_272"
+  }
+}

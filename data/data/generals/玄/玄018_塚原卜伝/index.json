@@ -1,0 +1,36 @@
+{
+  "no": "玄018",
+  "id": "4a79050da126eb1314026cb0495034b3",
+  "detailImageId": "e5dec9e4ab8f96c09d477558eefea512",
+  "name": "塚原卜伝",
+  "kanaName": "つかはらぼくでん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "一之太刀",
+    "kanaName": "ひとつのたち",
+    "cost": "6",
+    "description": "武力が上がり、斬撃を当てた敵を自身の方向に引き寄せる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4a79050da126eb1314026cb0495034b3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/279.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_159"
+  }
+}

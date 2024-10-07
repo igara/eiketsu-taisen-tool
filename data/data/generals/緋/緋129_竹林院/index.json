@@ -1,0 +1,41 @@
+{
+  "no": "緋129",
+  "id": "fcd4541e43e0b5dc8d3d778c3c6537bc",
+  "detailImageId": "5a67e71823a8cda7ee2df72ca9efd2e1",
+  "name": "竹林院",
+  "kanaName": "ちくりんいん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "天弓の目覚め",
+    "kanaName": "てんきゅうのめざめ",
+    "cost": "4",
+    "description": "戦場にいる緋の味方の武力の最大値が大きいほど武力が上がる。一定以上武力が上がると、旋回操作を行うことで一定時間移動できなくなり、射程内の敵部隊全てにダメージの上がった弓攻撃を行うようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fcd4541e43e0b5dc8d3d778c3c6537bc",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2247"
+  }
+}

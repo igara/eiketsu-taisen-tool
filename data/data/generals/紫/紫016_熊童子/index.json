@@ -1,0 +1,42 @@
+{
+  "no": "紫016",
+  "id": "453227c8c3fec0a69e63f94560cac58e",
+  "detailImageId": "3dacf2b0dba14974b8ebcd6910f61adc",
+  "name": "熊童子",
+  "kanaName": "くまどうじ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "悪鬼一閃",
+    "kanaName": "あっきいっせん",
+    "cost": "5",
+    "description": "敵に武力によるダメージを与える。ダメージは互いの武力で上下する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "9",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=453227c8c3fec0a69e63f94560cac58e",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/676.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_511"
+  }
+}

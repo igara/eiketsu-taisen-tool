@@ -1,0 +1,42 @@
+{
+  "no": "碧097",
+  "id": "92060290919e46a00ed454308bb334e3",
+  "detailImageId": "a177351ca13ecffe7416de792711dafe",
+  "name": "斉桓公",
+  "kanaName": "せいのかんこう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "天斉の霸者",
+    "kanaName": "てんせいのはしゃ",
+    "cost": "6",
+    "description": "碧の味方の武力と移動速度が上がる。ただし最も知力の高い碧の味方の知力が徐々に下がり、一定の知力を下回ると撤退する。最も知力の高い碧の味方への効果が終了した時、この計略の全ての効果は終了する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=92060290919e46a00ed454308bb334e3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1193.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1365"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "蒼002",
+  "id": "11f8c08f5540e5d93173b6ca78204861",
+  "detailImageId": "a13de7fb7704a9aa9e43a6a584aae3ce",
+  "name": "池田恒興",
+  "kanaName": "いけだつねおき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "烈火遠射",
+    "kanaName": "れっかえんしゃ",
+    "cost": "4",
+    "description": "武力と射程距離が上がり、射撃時の攻撃間隔が短くなる。ただし移動できなくなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=11f8c08f5540e5d93173b6ca78204861",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/99.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_252"
+  }
+}

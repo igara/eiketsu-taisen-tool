@@ -1,0 +1,42 @@
+{
+  "no": "緋089",
+  "id": "1294f638b14f6cc8bc65ca0d7494b114",
+  "detailImageId": "d48bfc3e4a081c46eedbe65e64aef832",
+  "name": "王淩",
+  "kanaName": "おうりょう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "魏国への忠誠",
+    "kanaName": "ぎこくへのちゅうせい",
+    "cost": "5",
+    "description": "戦場にいる味方の兵種数が多いほど武力と移動速度が上がる。一定以上武力が上がると、さらに槍撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1294f638b14f6cc8bc65ca0d7494b114",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1248.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1398"
+  }
+}

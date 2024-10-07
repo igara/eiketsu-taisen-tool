@@ -1,0 +1,42 @@
+{
+  "no": "玄121",
+  "id": "2769987af7fa6f722aead9a9d73254d1",
+  "detailImageId": "c40b37c6ad1adbd3c14a4fc98d34a074",
+  "name": "鬼庭綱元",
+  "kanaName": "おににわつなもと",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "竜の共撃",
+    "kanaName": "りゅうのきょうげき",
+    "cost": "5",
+    "description": "【竜騎馬】（移動しながら扇状の範囲に射撃を行うようになる。この射撃は突撃でキャンセルされない）<br>自身と、自身を除く最も武力の高い玄の味方の武力と移動速度が上がる。さらに自身の兵種が竜騎馬になる",
+    "categories": [
+      "全体強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2769987af7fa6f722aead9a9d73254d1",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2288"
+  }
+}

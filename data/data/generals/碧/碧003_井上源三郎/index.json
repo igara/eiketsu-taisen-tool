@@ -1,0 +1,36 @@
+{
+  "no": "碧003",
+  "id": "9906d428b3412421efc25fa6a725fe1a",
+  "detailImageId": "8dd5bb7bee53d2af1c295252105ba8e7",
+  "name": "井上源三郎",
+  "kanaName": "いのうえげんざぶろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "壬生狼の源",
+    "kanaName": "みぶろのげん",
+    "cost": "3",
+    "description": "武力が上がる。この効果は兵力が少ないほど大きい。一定以上武力が上がると、さらに斬撃が発生するまでの時間を短縮する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "4",
+  "intelligentzia": "1",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9906d428b3412421efc25fa6a725fe1a",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/109.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_213"
+  }
+}

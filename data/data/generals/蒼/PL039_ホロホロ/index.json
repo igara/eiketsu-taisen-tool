@@ -1,0 +1,43 @@
+{
+  "no": "PL039",
+  "id": "4152830c5358d2e38b753673c53b8783",
+  "detailImageId": "c8e960aae7d8531b073a3ef901db80d1",
+  "name": "ホロホロ",
+  "kanaName": "ホロホロ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "荒くれ者の雹",
+    "kanaName": "カウカウプリウェンペ",
+    "cost": "6",
+    "description": "敵に武力によるダメージを与える。ダメージは互いの武力で上下する。さらに自身の武力と移動速度が上がり、接触している敵の移動速度を下げる",
+    "categories": [
+      "強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4152830c5358d2e38b753673c53b8783",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1058.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1315"
+  }
+}

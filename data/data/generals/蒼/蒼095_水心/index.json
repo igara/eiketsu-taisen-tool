@@ -1,0 +1,43 @@
+{
+  "no": "蒼095",
+  "id": "f3c08fe8670efa6d83f85697fbcf9fe0",
+  "detailImageId": "3840369e59888e84a245c16627791d21",
+  "name": "水心",
+  "kanaName": "すいしん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "水の御心",
+    "kanaName": "みずのみこころ",
+    "cost": "5",
+    "description": "蒼の味方にかかっている全ての計略効果を消し、武力が上がる。計略効果を消した場合、さらに武力が上がり、兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3c08fe8670efa6d83f85697fbcf9fe0",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1211.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1363"
+  }
+}

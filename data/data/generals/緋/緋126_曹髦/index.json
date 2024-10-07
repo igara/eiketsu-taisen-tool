@@ -1,0 +1,41 @@
+{
+  "no": "緋126",
+  "id": "a22f4057350457a49f77ca0ef5e17ab2",
+  "detailImageId": "9bb4d3bfe3ef1c2cb1115eb120ffe1bc",
+  "name": "曹髦",
+  "kanaName": "そうぼう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "潜龍の覚醒",
+    "kanaName": "せんりゅうのかくせい",
+    "cost": "3",
+    "description": "武力が上がる。さらに移動していない間武力が徐々に上がる。ただしこの計略の効果で一定以上武力が上がると、効果が終了する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a22f4057350457a49f77ca0ef5e17ab2",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2272"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "no": "紫025",
+  "id": "80aecc9820f8960b5c3ffe8f1c8bf3fc",
+  "detailImageId": "aab2e268c180cb3ff4ceed9e66d30696",
+  "name": "茶々",
+  "kanaName": "ちゃちゃ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "流転の命運",
+    "kanaName": "るてんのめいうん",
+    "cost": "3",
+    "description": "最も武力の高い味方にかかっている全ての計略効果を消し、武力が上がる。計略効果を消した場合、さらに武力が上がり、兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80aecc9820f8960b5c3ffe8f1c8bf3fc",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/761.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_480"
+  }
+}

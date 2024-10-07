@@ -1,0 +1,41 @@
+{
+  "no": "琥062",
+  "id": "2d1440aefce52cee7dd3ff1b52dace6c",
+  "detailImageId": "f3363de549fa9db22fb4285006834260",
+  "name": "千種忠顕",
+  "kanaName": "ちくさただあき",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "短計・破城",
+    "kanaName": "たんけい・はじょう",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>敵城にダメージを与える。この短計は敵城に接触している時のみ使用できる",
+    "categories": [
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "01655e4edbfb63a1665379c0ee154700"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2d1440aefce52cee7dd3ff1b52dace6c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2318"
+  }
+}

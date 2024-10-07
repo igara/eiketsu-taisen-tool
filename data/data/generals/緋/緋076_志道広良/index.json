@@ -1,0 +1,47 @@
+{
+  "no": "緋076",
+  "id": "bb5dae5e3688f6100c301f198e2f2deb",
+  "detailImageId": "af2ba5d2b6855b7ffef5cd68e79a603e",
+  "name": "志道広良",
+  "kanaName": "しじひろよし",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "名宰相の導き",
+    "kanaName": "めいさいしょうのみちびき",
+    "cost": "3",
+    "description": "敵の武力を上げ、自城方向に向かってくるようにする",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "08ddb89408245f5b48f45563e7519d38"
+  },
+  "power": "4",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=bb5dae5e3688f6100c301f198e2f2deb",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/945.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1256"
+  }
+}

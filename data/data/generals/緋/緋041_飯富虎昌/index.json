@@ -1,0 +1,43 @@
+{
+  "no": "緋041",
+  "id": "2ef65c09ea5a755d8b20e5fc5c883025",
+  "detailImageId": "9dd5fc32b338e19f975de15568d35aa7",
+  "name": "飯富虎昌",
+  "kanaName": "おぶとらまさ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "奮激戦法",
+    "kanaName": "ふんげきせんぽう",
+    "cost": "3",
+    "description": "武力が上がり、兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ef65c09ea5a755d8b20e5fc5c883025",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/468.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_349"
+  }
+}

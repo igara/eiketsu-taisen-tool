@@ -1,0 +1,37 @@
+{
+  "no": "EX070",
+  "id": "2e5e6ef4ad7c90cc7a03736c308888cf",
+  "detailImageId": "e08064335f1e52eeca05f7b9d765dc7f",
+  "name": "夏姫",
+  "kanaName": "かき",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "連鎖する悲恋",
+    "kanaName": "れんさするひれん",
+    "cost": "4",
+    "description": "撤退中の最も武力の高い味方が復活し、武力と移動速度が上がる。この効果は対象の味方が復活するまでの時間が多いほど大きい。ただし効果終了時に対象の味方は撤退する",
+    "categories": [
+      "強化",
+      "復活"
+    ],
+    "time": "知力時間",
+    "range": "6eb8e47f0679d32604f502b2c3eb3b0d"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2e5e6ef4ad7c90cc7a03736c308888cf",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1502.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2101"
+  }
+}

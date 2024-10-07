@@ -1,0 +1,43 @@
+{
+  "no": "紫075",
+  "id": "09a4f482efb9c153631e04c963068e65",
+  "detailImageId": "538bd030cf275c80f2edf23d5815963f",
+  "name": "樊噲",
+  "kanaName": "はんかい",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "春秋戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "鴻門之会",
+    "kanaName": "こうもんのかい",
+    "cost": "5",
+    "description": "武力が上がり、武力によるダメージを軽減する。さらに最も武力の高い敵を自身に向かってくるようにする",
+    "categories": [
+      "強化",
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "9",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=09a4f482efb9c153631e04c963068e65",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1599.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2173"
+  }
+}

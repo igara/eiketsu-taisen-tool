@@ -1,0 +1,42 @@
+{
+  "no": "PL004",
+  "id": "6b78a0627cdd4dbda08c9004f8749753",
+  "detailImageId": "89e32a83a3f1d15b26f082ddda7c02a3",
+  "name": "羌瘣",
+  "kanaName": "きょうかい",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "巫舞",
+    "kanaName": "みぶ",
+    "cost": "5",
+    "description": "武力と移動速度と斬撃ダメージが上がる。ただし効果終了時に兵力が減少する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "11",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b78a0627cdd4dbda08c9004f8749753",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/315.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_313"
+  }
+}

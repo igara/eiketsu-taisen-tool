@@ -1,0 +1,36 @@
+{
+  "no": "緋114",
+  "id": "4ad486ba4aec5c1074253f7f7d3976ce",
+  "detailImageId": "e74c0c5a1d0d1b43d7dea0be0998a51e",
+  "name": "范増",
+  "kanaName": "はんぞう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "鴻門玉決",
+    "kanaName": "こうもんぎょっけつ",
+    "cost": "5",
+    "description": "敵の武力と移動速度を下げる。さらに対象の敵が撤退すると自城が回復する。ただし対象の敵部隊数に応じて自城にダメージを受ける。この効果による城ダメージで流派ゲージは上昇しない",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "7",
+  "intelligentzia": "10",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ad486ba4aec5c1074253f7f7d3976ce",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1565.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2143"
+  }
+}

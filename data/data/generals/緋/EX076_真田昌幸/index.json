@@ -1,0 +1,43 @@
+{
+  "no": "EX076",
+  "id": "d8f540ae60b8f0982ea21d6260d05b35",
+  "detailImageId": "89f34b9b881120ce4263a7b24319ab46",
+  "name": "真田昌幸",
+  "kanaName": "さなだまさゆき",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "表裏比興の炯眼",
+    "kanaName": "ひょうりひきょうのけいがん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>敵の武力を下げる。さらに対象の敵が計略を発動するたびに範囲内の敵の武力を一定時間下げる",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "17292188368f5be2f97facc14cc393a0"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d8f540ae60b8f0982ea21d6260d05b35",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1682.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2221"
+  }
+}

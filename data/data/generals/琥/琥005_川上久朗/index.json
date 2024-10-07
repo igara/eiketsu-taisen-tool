@@ -1,0 +1,38 @@
+{
+  "no": "琥005",
+  "id": "9ecdc963cf46d64918f9d04b1df54144",
+  "detailImageId": "07d1fa87318ac24346023d8af468a231",
+  "name": "川上久朗",
+  "kanaName": "かわかみひさあき",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "座禅の陣",
+    "kanaName": "ざぜんのじん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力が上がり、移動しながら射撃できるようになる。さらに敵の移動速度を下げる。ただし効果終了時に撤退する",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9ecdc963cf46d64918f9d04b1df54144",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1295.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1455"
+  }
+}

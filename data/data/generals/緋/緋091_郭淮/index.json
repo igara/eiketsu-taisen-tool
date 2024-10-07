@@ -1,0 +1,36 @@
+{
+  "no": "緋091",
+  "id": "cf6ea349f9cd32f1c26ae844a1d19b49",
+  "detailImageId": "fdfe7f8a715eb5347a3553354a71ad58",
+  "name": "郭淮",
+  "kanaName": "かくわい",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "兵装・宜為将",
+    "kanaName": "へいそう・ぎいしょう",
+    "cost": "5",
+    "description": "武力と移動速度と走射中の弓攻撃のダメージが上がる。さらに敵を撃破するたびに覇道が前進する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cf6ea349f9cd32f1c26ae844a1d19b49",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1250.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1400"
+  }
+}

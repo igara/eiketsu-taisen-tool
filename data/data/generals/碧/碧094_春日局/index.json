@@ -1,0 +1,49 @@
+{
+  "no": "碧094",
+  "id": "ef452d93e5be96ad23fa860edd545954",
+  "detailImageId": "0be5207986cc9363a56e6bb2c5fb800e",
+  "name": "春日局",
+  "kanaName": "かすがのつぼね",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "大奥の後楯",
+    "kanaName": "おおおくのうしろだて",
+    "cost": "6",
+    "description": "碧の味方の武力が上がる。さらに計略効果中に自軍の士気を消費することで再度計略を発動できる。再度計略を発動した場合、碧の味方の武力が上がり、兵力が回復する。さらに範囲内の敵に一定時間ごとに武力によるダメージを与える。ダメージは互いの武力で上下する。ただし自身は移動と兵種アクションができなくなる",
+    "categories": [
+      "全体強化",
+      "回復",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "6",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ef452d93e5be96ad23fa860edd545954",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1194.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1364"
+  }
+}

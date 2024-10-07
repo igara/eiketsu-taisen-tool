@@ -1,0 +1,42 @@
+{
+  "no": "玄029",
+  "id": "4827aea5826224ed0de2114a1c1a27ef",
+  "detailImageId": "5035f4f47e363ddad3312adec9928cb6",
+  "name": "松永久秀",
+  "kanaName": "まつながひさひで",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "平蜘蛛の釜",
+    "kanaName": "ひらぐものかま",
+    "cost": "4",
+    "description": "敵に知力によるダメージを与える。ダメージは互いの知力によって上下する。ただし自身は撤退する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "9",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4827aea5826224ed0de2114a1c1a27ef",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/113.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_248"
+  }
+}

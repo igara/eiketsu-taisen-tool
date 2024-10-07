@@ -1,0 +1,42 @@
+{
+  "no": "玄073",
+  "id": "dc390b461a23ef69429b60a2c2a1329f",
+  "detailImageId": "5b21bb466880fc5fe7d7fa797ae8a356",
+  "name": "尼子誠久",
+  "kanaName": "あまごまさひさ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "多勢戦法",
+    "kanaName": "たぜいせんぽう",
+    "cost": "4",
+    "description": "戦場にいる味方部隊数が多いほど武力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dc390b461a23ef69429b60a2c2a1329f",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/992.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1223"
+  }
+}

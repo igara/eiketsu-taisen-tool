@@ -1,0 +1,43 @@
+{
+  "no": "碧025",
+  "id": "96905e7df352c02a544b0c697445f0f5",
+  "detailImageId": "6afc4c4d41e6b90228427379f1052960",
+  "name": "徳川家康",
+  "kanaName": "とくがわいえやす",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "葵紋の采配",
+    "kanaName": "あおいもんのさいはい",
+    "cost": "6",
+    "description": "碧の味方の武力が上がり、兵力が徐々に回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=96905e7df352c02a544b0c697445f0f5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/183.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_220"
+  }
+}

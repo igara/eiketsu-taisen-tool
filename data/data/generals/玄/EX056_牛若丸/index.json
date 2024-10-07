@@ -1,0 +1,42 @@
+{
+  "no": "EX056",
+  "id": "09f712a65d83e5048b9e475adee3e2db",
+  "detailImageId": "f85db4673ca6c9f27e01a6dd153c2885",
+  "name": "牛若丸",
+  "kanaName": "うしわかまる",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "五条橋の小天狗",
+    "kanaName": "ごじょうばしのこてんぐ",
+    "cost": "5",
+    "description": "武力が上がる。この効果は兵力が少ないほど大きい。一定以上武力が上がるとさらに移動速度と突撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=09f712a65d83e5048b9e475adee3e2db",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1128.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1351"
+  }
+}

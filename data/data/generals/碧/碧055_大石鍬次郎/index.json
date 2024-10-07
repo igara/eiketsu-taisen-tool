@@ -1,0 +1,42 @@
+{
+  "no": "碧055",
+  "id": "fbd21bfc92b770e4895151ab57984afc",
+  "detailImageId": "04ab939af3cd81fed30514b8421d6e94",
+  "name": "大石鍬次郎",
+  "kanaName": "おおいしくわじろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "暗殺の太刀",
+    "kanaName": "あんさつのたち",
+    "cost": "4",
+    "description": "武力と斬撃ダメージが上がる。ただし斬撃の範囲が狭くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fbd21bfc92b770e4895151ab57984afc",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/690.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_495"
+  }
+}

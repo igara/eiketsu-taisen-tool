@@ -1,0 +1,42 @@
+{
+  "no": "碧038",
+  "id": "64845409223cd3e2fd0ff086b434b1f9",
+  "detailImageId": "3497aed26fddb305dd2f52d19a3977f9",
+  "name": "劉備",
+  "kanaName": "りゅうび",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "義兄弟の誓い",
+    "kanaName": "ぎきょうだいのちかい",
+    "cost": "7",
+    "description": "碧の味方の武力が上がる。ただし対象のいずれかの味方が撤退すると、対象の味方全てが撤退する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "40",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=64845409223cd3e2fd0ff086b434b1f9",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/146.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_233"
+  }
+}

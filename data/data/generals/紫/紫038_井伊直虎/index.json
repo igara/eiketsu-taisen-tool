@@ -1,0 +1,43 @@
+{
+  "no": "紫038",
+  "id": "6714eadc47077e7612e38a12373e9997",
+  "detailImageId": "a9375ab2359cebfce509bbcebd3e6fb9",
+  "name": "井伊直虎",
+  "kanaName": "いいなおとら",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "女城主の采配",
+    "kanaName": "おんなじょうしゅのさいはい",
+    "cost": "5",
+    "description": "紫の味方の武力が上がり、兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6714eadc47077e7612e38a12373e9997",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/979.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1239"
+  }
+}

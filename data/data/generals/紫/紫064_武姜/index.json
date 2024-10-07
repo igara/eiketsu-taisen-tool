@@ -1,0 +1,37 @@
+{
+  "no": "紫064",
+  "id": "5c4cc8bbe213c87d92d6c3b99d6541c1",
+  "detailImageId": "238abe01dc13a1ea00cc5fe76cf5b84c",
+  "name": "武姜",
+  "kanaName": "ぶきょう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "短計・回槍",
+    "kanaName": "たんけい・かいそう",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>無敵攻撃のダメージが上がった槍を一周させる",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5c4cc8bbe213c87d92d6c3b99d6541c1",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1292.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1450"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "紫032",
+  "id": "122c51216bdb6dea86ef2555bb842871",
+  "detailImageId": "189b8dd4fc20fe0ae1b25ba53a2aa522",
+  "name": "星熊童子",
+  "kanaName": "ほしくまどうじ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "鬼出電入",
+    "kanaName": "きしゅつでんにゅう",
+    "cost": "3",
+    "description": "移動速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=122c51216bdb6dea86ef2555bb842871",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/639.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_515"
+  }
+}

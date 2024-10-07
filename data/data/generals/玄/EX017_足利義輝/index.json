@@ -1,0 +1,42 @@
+{
+  "no": "EX017",
+  "id": "4ab26089f255cc114cbb9fcc5750fa0d",
+  "detailImageId": "e0d0e6c68676d3f9c5f99d876e04a337",
+  "name": "足利義輝",
+  "kanaName": "あしかがよしてる",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "最期の剣",
+    "kanaName": "さいごのけん",
+    "cost": "5",
+    "description": "武力と斬撃ダメージが上がる。ただし効果終了時に撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ab26089f255cc114cbb9fcc5750fa0d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/775.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_556"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "碧090",
+  "id": "cfc01f021a459ac1dc4259af6f621c3e",
+  "detailImageId": "8448a3f9d5f5d00222707eb30a9f7d5f",
+  "name": "落合兼行",
+  "kanaName": "おちあいかねゆき",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "寡兵戦法",
+    "kanaName": "かへいせんぽう",
+    "cost": "3",
+    "description": "武力が上がる。この効果は兵力が少ないほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cfc01f021a459ac1dc4259af6f621c3e",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1204.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1413"
+  }
+}

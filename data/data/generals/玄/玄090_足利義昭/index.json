@@ -1,0 +1,48 @@
+{
+  "no": "玄090",
+  "id": "5a689360d404420a621d6f4fc59957f3",
+  "detailImageId": "ce4cb853b5fb2a4bfdd35737ea6012f5",
+  "name": "足利義昭",
+  "kanaName": "あしかがよしあき",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "信長包囲網",
+    "kanaName": "のぶながほういもう",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の武力と知力が上がる。この効果は範囲内の味方勢力数が多いほど大きい",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "4",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5a689360d404420a621d6f4fc59957f3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1264.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1425"
+  }
+}

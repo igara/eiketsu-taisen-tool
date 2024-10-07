@@ -1,0 +1,42 @@
+{
+  "no": "碧116",
+  "id": "c8e0e93d0239dd3ee452061192ce29b5",
+  "detailImageId": "cea07cde40a2ce79dc3225efa0c6f1e7",
+  "name": "山本覚馬",
+  "kanaName": "やまもとかくま",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "西洋式砲術",
+    "kanaName": "せいようしきほうじゅつ",
+    "cost": "4",
+    "description": "武力と射程距離が上がる。さらに射撃を当てた敵が一定時間知力による戦闘ダメージを受けるようにする",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c8e0e93d0239dd3ee452061192ce29b5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1535.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2155"
+  }
+}

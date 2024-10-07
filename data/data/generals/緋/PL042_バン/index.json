@@ -1,0 +1,52 @@
+{
+  "no": "PL042",
+  "id": "9f84e1b047a21d9a4ccea3dad5acd1c3",
+  "detailImageId": "dd6e60b60110a5d305a05a23ae8b0345",
+  "name": "バン",
+  "kanaName": "バン",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "特殊",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "“死神の一薙”",
+    "kanaName": "アサルト・ハント",
+    "cost": "6",
+    "description": "敵に武力によるダメージを与え、この計略で撃破した敵の復活時間が増加する。ダメージは互いの武力で上下する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "9",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9f84e1b047a21d9a4ccea3dad5acd1c3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1094.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1323"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "玄099",
+  "id": "8597c355085ddfb3628a7a4557ae4d74",
+  "detailImageId": "36462b44b22b2e8552b9da1200491c7c",
+  "name": "悼倡后",
+  "kanaName": "とうしょうこう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "主唱の毒",
+    "kanaName": "しゅしょうのどく",
+    "cost": "3",
+    "description": "最も武力の低い敵の兵力を徐々に減少させる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8597c355085ddfb3628a7a4557ae4d74",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1274.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1358"
+  }
+}

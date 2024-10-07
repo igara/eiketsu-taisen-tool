@@ -1,0 +1,42 @@
+{
+  "no": "紫011",
+  "id": "a45dc68f563fa521c1da59ad7c1affe2",
+  "detailImageId": "10e4d1cc1e4c55dfcbbda8902409a9ee",
+  "name": "岡部元信",
+  "kanaName": "おかべもとのぶ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "精鋭弱体斬撃",
+    "kanaName": "せいえいじゃくたいざんげき",
+    "cost": "4",
+    "description": "武力が上がり、斬撃を当てた敵の武力を一定時間下げる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a45dc68f563fa521c1da59ad7c1affe2",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/637.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_516"
+  }
+}

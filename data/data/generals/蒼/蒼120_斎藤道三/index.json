@@ -1,0 +1,47 @@
+{
+  "no": "蒼120",
+  "id": "44644993758e7a075312ee65950d227b",
+  "detailImageId": "ac113be9ad1e7d6dedbadbfae1344c2c",
+  "name": "斎藤道三",
+  "kanaName": "さいとうどうさん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "蛇神の牙城",
+    "kanaName": "かがちのがじょう",
+    "cost": "6",
+    "description": "【拠点】（発動すると弓攻撃を行う拠点が設置される。拠点は同時に複数設置できず、耐久力が０になると破壊される）<br>一定時間ごとに拠点から接触した敵の武力と知力を下げる波紋が発生する",
+    "categories": [
+      "妨害",
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "11",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=44644993758e7a075312ee65950d227b",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2257"
+  }
+}

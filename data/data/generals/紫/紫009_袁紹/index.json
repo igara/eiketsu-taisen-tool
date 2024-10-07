@@ -1,0 +1,44 @@
+{
+  "no": "紫009",
+  "id": "07a141dc82364d8878d9b5dab25ebaca",
+  "detailImageId": "cde9ef1d18f2e80914fb91d6a3c4fc66",
+  "name": "袁紹",
+  "kanaName": "えんしょう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "王者の驀進",
+    "kanaName": "おうじゃのばくしん",
+    "cost": "9",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>紫の味方の武力が上がり、兵力が回復する。一定以上武力が上がるとさらに移動速度が上がる",
+    "categories": [
+      "全体強化",
+      "回復",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=07a141dc82364d8878d9b5dab25ebaca",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/697.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_449"
+  }
+}

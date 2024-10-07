@@ -1,0 +1,36 @@
+{
+  "no": "PL015",
+  "id": "a2c04b2c284b32cc7019ea7af17747e0",
+  "detailImageId": "e09efbc16ae72b96fe632e7488f78bb8",
+  "name": "沖田総悟",
+  "kanaName": "おきたそうご",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "血風の剣客",
+    "kanaName": "けっぷうのけんかく",
+    "cost": "6",
+    "description": "武力と移動速度が上がり、斬撃ができるまでの時間が短くなる。さらに敵を撃破するたびに武力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "2",
+  "skill": [],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a2c04b2c284b32cc7019ea7af17747e0",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/424.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_327"
+  }
+}

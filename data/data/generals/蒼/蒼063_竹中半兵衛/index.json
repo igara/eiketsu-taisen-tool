@@ -1,0 +1,48 @@
+{
+  "no": "蒼063",
+  "id": "5763eb0fa21a7c62730746b5f4253259",
+  "detailImageId": "ed3bd7360a2dbf24df025bfd50acc85d",
+  "name": "竹中半兵衛",
+  "kanaName": "たけなかはんべえ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "今孔明の采配",
+    "kanaName": "いまこうめいのさいはい",
+    "cost": "6",
+    "description": "対象の味方部隊数に応じて効果が変わる<br>１部隊：武力と知力が上がり、武力によるダメージを軽減する<br>２部隊：武力と移動速度が上がる<br>３部隊以上：武力が上がり、兵力が徐々に回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "3",
+  "intelligentzia": "11",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5763eb0fa21a7c62730746b5f4253259",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/722.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_438"
+  }
+}

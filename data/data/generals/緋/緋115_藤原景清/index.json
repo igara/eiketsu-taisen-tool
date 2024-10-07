@@ -1,0 +1,42 @@
+{
+  "no": "緋115",
+  "id": "797e9f26e193e70cbcf5d89d3473a519",
+  "detailImageId": "7b731ed4c5171464dcf775fead3b250e",
+  "name": "藤原景清",
+  "kanaName": "ふじわらのかげきよ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "錣引き",
+    "kanaName": "しころびき",
+    "cost": "5",
+    "description": "武力が上がり、斬撃を当てた敵の武力を一定時間下げ、乱戦中も斬撃ができるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=797e9f26e193e70cbcf5d89d3473a519",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1566.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2144"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "no": "緋017",
+  "id": "69587b8b38cd1f7a58b6d5719ae96547",
+  "detailImageId": "4e028c9570f3b2000d06d0da4e313f06",
+  "name": "三条夫人",
+  "kanaName": "さんじょうふじん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "神速の祈り",
+    "kanaName": "しんそくのいのり",
+    "cost": "3",
+    "description": "最も武力の高い緋の味方の武力と移動速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=69587b8b38cd1f7a58b6d5719ae96547",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/230.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_198"
+  }
+}

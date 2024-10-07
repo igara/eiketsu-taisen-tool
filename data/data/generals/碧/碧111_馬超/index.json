@@ -1,0 +1,42 @@
+{
+  "no": "碧111",
+  "id": "fd38d977b495788537f8b587865395dd",
+  "detailImageId": "3f118313efa01bc54f47b9960b7a0475",
+  "name": "馬超",
+  "kanaName": "ばちょう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "神威の大号令",
+    "kanaName": "しんいのだいごうれい",
+    "cost": "8",
+    "description": "碧の味方の武力と移動速度が上がる。さらに自身の武力と移動速度と突撃ダメージが上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "10",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fd38d977b495788537f8b587865395dd",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1575.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2151"
+  }
+}

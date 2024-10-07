@@ -1,0 +1,36 @@
+{
+  "no": "琥016",
+  "id": "548bce5560b7bd1f126d0fb02a649afb",
+  "detailImageId": "b7a95ec8c9548e05e2462251ae1ca056",
+  "name": "島津家久",
+  "kanaName": "しまづいえひさ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "釣り野伏",
+    "kanaName": "つりのぶせ",
+    "cost": "6",
+    "description": "武力と移動速度が上がり、伏兵状態になる。さらに伏兵状態の間、武力と移動速度が徐々に上がる。この計略の効果時間は伏兵状態が解除された瞬間から開始する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=548bce5560b7bd1f126d0fb02a649afb",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1296.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1370"
+  }
+}

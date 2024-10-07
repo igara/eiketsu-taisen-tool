@@ -1,0 +1,42 @@
+{
+  "no": "碧092",
+  "id": "4962a580af24b03202efab0f4ddfcbbe",
+  "detailImageId": "1e184320174d28abbeb31996c5f2beec",
+  "name": "お楽の方",
+  "kanaName": "おらくのかた",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "幸せ音頭",
+    "kanaName": "しあわせおんど",
+    "cost": "6",
+    "description": "碧の味方の武力が上がる。この効果は対象の味方の武将コストが低いほど大きい",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4962a580af24b03202efab0f4ddfcbbe",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1207.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1415"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "no": "碧081",
+  "id": "5bbc7827007193798f10d1754f4ce645",
+  "detailImageId": "c72d0d0eba9a0eb7a0d1be144f533ebe",
+  "name": "巴御前",
+  "kanaName": "ともえごぜん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "姫武者の敬慕",
+    "kanaName": "ひめむしゃのけいぼ",
+    "cost": "6",
+    "description": "自身と、自身を除く最も武力の高い碧の味方の武力と移動速度が上がり、敵を撃破すると対象の味方全ての兵力が回復する。さらに自身が矢を当てている敵の武力を下げる",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5bbc7827007193798f10d1754f4ce645",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/969.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1265"
+  }
+}

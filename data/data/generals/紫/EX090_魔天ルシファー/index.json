@@ -1,0 +1,44 @@
+{
+  "no": "EX090",
+  "id": "aeee23f070f1ca929ce2cd5729920b2d",
+  "detailImageId": "46cd73d287f27c805bbeb09a8b47e913",
+  "name": "魔天ルシファー",
+  "kanaName": "まてんルシファー",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "黎明を告げる翼",
+    "kanaName": "れいめいをつげるつばさ",
+    "cost": "9",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>紫の味方の武力が上がる。さらに撤退している紫の味方が復活し同様の効果を得る。一定以上武力が上がると、さらに移動速度が上がり、撤退した場所に出現する。この計略は戦闘中一度しか使用できない",
+    "categories": [
+      "全体強化",
+      "復活",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aeee23f070f1ca929ce2cd5729920b2d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1711.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2229"
+  }
+}

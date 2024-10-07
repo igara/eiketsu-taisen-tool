@@ -1,0 +1,42 @@
+{
+  "no": "碧014",
+  "id": "084297efd963772a7aa004b715815c84",
+  "detailImageId": "ac1bd046e352231f1f587349f147d48c",
+  "name": "榊原康政",
+  "kanaName": "さかきばらやすまさ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "無心の強襲",
+    "kanaName": "むしんのきょうしゅう",
+    "cost": "6",
+    "description": "武力と移動速度が上がり、乱戦中も攻城ゲージが増えるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=084297efd963772a7aa004b715815c84",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/233.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_290"
+  }
+}

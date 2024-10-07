@@ -1,0 +1,42 @@
+{
+  "no": "碧029",
+  "id": "a449c5947fec411124e2674b8a45c3dc",
+  "detailImageId": "01261d981b46af7ce6f14e59ffd6b8de",
+  "name": "新見錦",
+  "kanaName": "にいみにしき",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "新見殺法",
+    "kanaName": "にいみさっぽう",
+    "cost": "4",
+    "description": "武力が上がり、斬撃の範囲が広くなる。ただし味方にも斬撃が当たるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a449c5947fec411124e2674b8a45c3dc",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/176.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_222"
+  }
+}

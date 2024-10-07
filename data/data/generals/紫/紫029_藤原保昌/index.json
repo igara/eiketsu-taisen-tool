@@ -1,0 +1,48 @@
+{
+  "no": "紫029",
+  "id": "12f6fb8dd3ee0a4ec1e7aca90b811dda",
+  "detailImageId": "556c335c45a8294bf1e472847c41d092",
+  "name": "藤原保昌",
+  "kanaName": "ふじわらのやすまさ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "興神流居合術",
+    "kanaName": "こうしんりゅういあいじゅつ",
+    "cost": "4",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力が上がる。一定以上武力が上がると、さらに乱戦中も斬撃ができるようになる",
+    "categories": [
+      "強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=12f6fb8dd3ee0a4ec1e7aca90b811dda",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/753.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_523"
+  }
+}

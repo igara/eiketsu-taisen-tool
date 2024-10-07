@@ -1,0 +1,36 @@
+{
+  "no": "ST001",
+  "id": "b2febe07b7a680b2426067ee6331f611",
+  "detailImageId": "094caca2806925acbe59d49a766730df",
+  "name": "織田信長",
+  "kanaName": "おだのぶなが",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "指揮",
+    "kanaName": "しき",
+    "cost": "5",
+    "description": "味方の武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "48",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b2febe07b7a680b2426067ee6331f611",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/62.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_148"
+  }
+}

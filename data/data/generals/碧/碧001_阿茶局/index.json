@@ -1,0 +1,42 @@
+{
+  "no": "碧001",
+  "id": "ca10433e00ac4bf0f87fe342a3896d01",
+  "detailImageId": "acb0a4eebe5d5dfa8441fc96b6ac8515",
+  "name": "阿茶局",
+  "kanaName": "あちゃのつぼね",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "才媛の祈り",
+    "kanaName": "さいえんのいのり",
+    "cost": "4",
+    "description": "最も武力の高い味方の武力と知力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ca10433e00ac4bf0f87fe342a3896d01",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/295.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_282"
+  }
+}

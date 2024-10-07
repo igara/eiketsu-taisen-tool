@@ -1,0 +1,47 @@
+{
+  "no": "玄068",
+  "id": "e9a56011c5ebd3316eb2481702ababaf",
+  "detailImageId": "e37c654ef905b229e32be267f0c31b4a",
+  "name": "源義朝",
+  "kanaName": "みなもとのよしとも",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "野望の果て",
+    "kanaName": "やぼうのはて",
+    "cost": "6",
+    "description": "武力と移動速度が上がる。さらに一定回数突撃をするたびに覇道が前進する。ただし効果終了時に撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e9a56011c5ebd3316eb2481702ababaf",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/738.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_444"
+  }
+}

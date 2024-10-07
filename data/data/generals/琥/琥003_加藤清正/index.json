@@ -1,0 +1,37 @@
+{
+  "no": "琥003",
+  "id": "ea6c0f24da3b3d01e2da6ac6ac189e9e",
+  "detailImageId": "60e4995c18aeedb089297f2d74c0faba",
+  "name": "加藤清正",
+  "kanaName": "かとうきよまさ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "琥煌の虎",
+    "kanaName": "ここうのとら",
+    "cost": "5",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力と槍撃ダメージが上がり、槍が長くなる<br>３消費：さらに移動速度が上がり、旋回操作を行うと、向いている方向に槍を投げるようになる",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ea6c0f24da3b3d01e2da6ac6ac189e9e",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1299.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1453"
+  }
+}

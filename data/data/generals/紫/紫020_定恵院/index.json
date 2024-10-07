@@ -1,0 +1,42 @@
+{
+  "no": "紫020",
+  "id": "6b9c27072e7812ffbe4129d3f70b6812",
+  "detailImageId": "f8f625d236712ea5f5f35e7edf7be6c3",
+  "name": "定恵院",
+  "kanaName": "じょうけいいん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "薄命の一声",
+    "kanaName": "はくめいのひとこえ",
+    "cost": "3",
+    "description": "敵の武力を下げる。ただし自身は撤退する",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b9c27072e7812ffbe4129d3f70b6812",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/649.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_531"
+  }
+}

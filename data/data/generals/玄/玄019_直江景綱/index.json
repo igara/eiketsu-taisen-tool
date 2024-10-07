@@ -1,0 +1,43 @@
+{
+  "no": "玄019",
+  "id": "cc2eafdd4a959ad1338838ebe1a24c2d",
+  "detailImageId": "a7608a63c433c5347a16009b1386d9eb",
+  "name": "直江景綱",
+  "kanaName": "なおえかげつな",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "方陣",
+    "kanaName": "ほうじん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の武力が上がる",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "7",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cc2eafdd4a959ad1338838ebe1a24c2d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/198.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_244"
+  }
+}

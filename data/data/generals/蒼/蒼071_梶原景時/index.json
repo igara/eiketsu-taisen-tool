@@ -1,0 +1,42 @@
+{
+  "no": "蒼071",
+  "id": "96f332304c55d04d656ca33ab5374e55",
+  "detailImageId": "b68141f2e76ac098e3777bfb5a13d964",
+  "name": "梶原景時",
+  "kanaName": "かじわらかげとき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "蛇智奸佞",
+    "kanaName": "じゃちかんねい",
+    "cost": "6",
+    "description": "味方の武力が上がる。ただし兵力が徐々に減少する。味方の陣形の効果を受けている時に計略を発動すると、代わりに味方の武力が上がり、武力によるダメージを軽減する。ただし効果終了時に自身は撤退する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=96f332304c55d04d656ca33ab5374e55",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/920.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1241"
+  }
+}

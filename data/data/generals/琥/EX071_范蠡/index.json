@@ -1,0 +1,44 @@
+{
+  "no": "EX071",
+  "id": "b160066f9f2066339a67eed02977f1ed",
+  "detailImageId": "401c3f27472df13b8e52cf17e46a45e6",
+  "name": "范蠡",
+  "kanaName": "はんれい",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "春秋戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "琥煌の奇計",
+    "kanaName": "ここうのきけい",
+    "cost": "6",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の武力が上がり、敵の知力を下げる<br>３消費：さらに敵の武力を下げる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b160066f9f2066339a67eed02977f1ed",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1503.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2102"
+  }
+}

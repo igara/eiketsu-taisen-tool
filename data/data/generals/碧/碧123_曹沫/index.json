@@ -1,0 +1,41 @@
+{
+  "no": "碧123",
+  "id": "1830c79bfce019b87cd5ab9a0afc8f9e",
+  "detailImageId": "d093cc54a8418ffb4db2e7f4950a318e",
+  "name": "曹沫",
+  "kanaName": "そうばつ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "防柵小再建",
+    "kanaName": "ぼうさくしょうさいけん",
+    "cost": "3",
+    "description": "自軍の壊れた柵の中から、いずれか１つが復活する",
+    "categories": [
+      "特殊"
+    ],
+    "time": "一瞬",
+    "range": "a1b0a34a530dd0fd2ed0af7311b88445"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1830c79bfce019b87cd5ab9a0afc8f9e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2282"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "no": "紫045",
+  "id": "2af89e11f396257434ec5268b390104c",
+  "detailImageId": "2634bb74af0c19a7da089c94820deef5",
+  "name": "沮授",
+  "kanaName": "そじゅ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "防護の号令",
+    "kanaName": "ぼうごのごうれい",
+    "cost": "4",
+    "description": "紫の味方の武力によるダメージを軽減する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2af89e11f396257434ec5268b390104c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/986.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1295"
+  }
+}

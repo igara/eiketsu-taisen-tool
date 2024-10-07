@@ -1,0 +1,47 @@
+{
+  "no": "蒼083",
+  "id": "71f19f7806f76920385b3e8c64e54e4b",
+  "detailImageId": "6ec1356cc9dee4435f78dee44aeba025",
+  "name": "前田慶次",
+  "kanaName": "まえだけいじ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "3.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "傾奇者の擲槍",
+    "kanaName": "かぶきもののてきそう",
+    "cost": "7",
+    "description": "武力と移動速度が上がる。さらに旋回操作を行うと、向いている方向に敵城にダメージを与える槍を投げるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "11",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "11",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=71f19f7806f76920385b3e8c64e54e4b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/918.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1225"
+  }
+}

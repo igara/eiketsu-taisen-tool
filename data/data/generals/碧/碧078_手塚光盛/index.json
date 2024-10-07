@@ -1,0 +1,47 @@
+{
+  "no": "碧078",
+  "id": "a785b50f080817de29bd55bad45fc334",
+  "detailImageId": "0d17c38b533e96b73973e7a12b7bc318",
+  "name": "手塚光盛",
+  "kanaName": "てづかみつもり",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "武士の指揮",
+    "kanaName": "もののふのしき",
+    "cost": "5",
+    "description": "平安の味方の武力が上がり、乱戦中の移動速度減少が小さくなる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a785b50f080817de29bd55bad45fc334",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/966.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1273"
+  }
+}

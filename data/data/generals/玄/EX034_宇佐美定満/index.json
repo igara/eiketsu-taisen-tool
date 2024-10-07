@@ -1,0 +1,43 @@
+{
+  "no": "EX034",
+  "id": "c5aa00fbfd52a9a1f99674d98bb3cce1",
+  "detailImageId": "1225a1ee63891295f81856ede0b067bb",
+  "name": "宇佐美定満",
+  "kanaName": "うさみさだみつ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "散華の陣",
+    "kanaName": "さんげのじん",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>玄の味方の武力が上がる。ただし自身の武力が下がり、自身が撤退すると範囲内の玄の味方が撤退する",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c5aa00fbfd52a9a1f99674d98bb3cce1",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/906.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1334"
+  }
+}

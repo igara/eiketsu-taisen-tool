@@ -1,0 +1,42 @@
+{
+  "no": "琥067",
+  "id": "9f9b83391cbd18cd5271938cf8afcbf4",
+  "detailImageId": "1f2435f663110f2f7ff0a13fdf8ce20a",
+  "name": "結城親光",
+  "kanaName": "ゆうきちかみつ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "短計・弓騎変化",
+    "kanaName": "たんけい・きゅうきへんか",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>兵種が弓兵であれば騎兵に、それ以外であれば弓兵になる",
+    "categories": [
+      "特殊",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9f9b83391cbd18cd5271938cf8afcbf4",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2322"
+  }
+}

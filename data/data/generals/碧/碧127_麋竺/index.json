@@ -1,0 +1,41 @@
+{
+  "no": "碧127",
+  "id": "a3c9d1f3468d4eb47a3b3460a5b12143",
+  "detailImageId": "44368007a88ea1b7aa0efcd871dc10ae",
+  "name": "麋竺",
+  "kanaName": "びじく",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "剛槍の伝授",
+    "kanaName": "ごうそうのでんじゅ",
+    "cost": "3",
+    "description": "最も武力の高い槍兵の味方の武力と槍撃ダメージが上がる。ただし自身は撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a3c9d1f3468d4eb47a3b3460a5b12143",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2285"
+  }
+}

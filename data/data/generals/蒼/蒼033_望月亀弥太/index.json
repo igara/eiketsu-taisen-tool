@@ -1,0 +1,47 @@
+{
+  "no": "蒼033",
+  "id": "5a6be1ed2763cdef9bed728f05b4e856",
+  "detailImageId": "78de287b55c9dc5c02b5dba79d5283ad",
+  "name": "望月亀弥太",
+  "kanaName": "もちづきかめやた",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "駿亀戦法",
+    "kanaName": "しゅんきせんぽう",
+    "cost": "4",
+    "description": "武力と知力と移動速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    },
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5a6be1ed2763cdef9bed728f05b4e856",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/98.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_187"
+  }
+}

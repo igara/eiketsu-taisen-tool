@@ -1,0 +1,36 @@
+{
+  "no": "蒼086",
+  "id": "5dca869f5893eb6af5272e095be5dbee",
+  "detailImageId": "190fbc497bf045eca1f3910bbfe3d370",
+  "name": "淩統",
+  "kanaName": "りょうとう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "贖罪の神速行",
+    "kanaName": "しょくざいのしんそくこう",
+    "cost": "4",
+    "description": "武力と移動速度が上がる。ただし効果中に自身が撃破した敵部隊数に応じて、撤退時もしくは効果終了時に追加効果が発生する<br>０部隊：自軍の士気が下がり、撤退する<br>１部隊：自軍の士気が下がる<br>２部隊以上：なし",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5dca869f5893eb6af5272e095be5dbee",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/934.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1299"
+  }
+}

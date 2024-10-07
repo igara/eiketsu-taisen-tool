@@ -1,0 +1,43 @@
+{
+  "no": "蒼080",
+  "id": "f4852c48d311a225d2cc7248b941cdb1",
+  "detailImageId": "bb896af8c338e630809cbbc0a65094ff",
+  "name": "北条政子",
+  "kanaName": "ほうじょうまさこ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "尼将軍の魂陣",
+    "kanaName": "あましょうぐんのこんじん",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>蒼の味方の武力が上がる。撤退中の味方の最大武将コストが一定以上の場合、さらに範囲内の蒼の味方の武力が上がる",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f4852c48d311a225d2cc7248b941cdb1",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/929.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1226"
+  }
+}

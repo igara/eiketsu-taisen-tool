@@ -1,0 +1,47 @@
+{
+  "no": "蒼084",
+  "id": "33fceb11d94af0fd8eecdd4da16ab985",
+  "detailImageId": "25abc4a152218a31990458fcedeae480",
+  "name": "三浦義澄",
+  "kanaName": "みうらよしずみ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "奉武の指揮",
+    "kanaName": "ほうぶのしき",
+    "cost": "5",
+    "description": "味方の武力が上がり、敵の計略の対象にならなくなる。味方の陣形の効果を受けている時、この計略の必要士気が下がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=33fceb11d94af0fd8eecdd4da16ab985",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/932.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1298"
+  }
+}

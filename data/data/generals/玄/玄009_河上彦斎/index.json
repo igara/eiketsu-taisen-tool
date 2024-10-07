@@ -1,0 +1,42 @@
+{
+  "no": "玄009",
+  "id": "b15e20180bcd06571c900eb221e0defb",
+  "detailImageId": "524c6407aa2a268321ea308ad106632d",
+  "name": "河上彦斎",
+  "kanaName": "かわかみげんさい",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "暗殺剣",
+    "kanaName": "あんさつけん",
+    "cost": "6",
+    "description": "武力と移動速度と斬撃ダメージが上がる。ただし斬撃の範囲が狭くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b15e20180bcd06571c900eb221e0defb",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/156.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_239"
+  }
+}

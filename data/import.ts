@@ -285,5 +285,12 @@ const main = async () => {
 		"data/json/generals.json",
 		JSON.stringify(generals, null, 2),
 	);
+
+	for (const general of generals) {
+		const dirName = `data/generals/${general.color.name}/${general.no}_${general.name}`;
+		fs.mkdirSync(dirName, { recursive: true });
+
+		fs.writeFileSync(`${dirName}/index.json`, JSON.stringify(general, null, 2));
+	}
 };
 main();

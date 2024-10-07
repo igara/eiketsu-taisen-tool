@@ -1,0 +1,42 @@
+{
+  "no": "碧059",
+  "id": "76f13287525e73cd9e059cced8e0e3c7",
+  "detailImageId": "a92b08aac5b71dd343151ba4bb2eb29a",
+  "name": "篠原泰之進",
+  "kanaName": "しのはらたいのしん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "気骨の剛槍",
+    "kanaName": "きこつのごうそう",
+    "cost": "3",
+    "description": "戦場にいる敵の武力の最大値が大きいほど武力が上がる。一定以上武力が上がると、さらに槍撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=76f13287525e73cd9e059cced8e0e3c7",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/713.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_498"
+  }
+}

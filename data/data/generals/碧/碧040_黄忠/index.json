@@ -1,0 +1,42 @@
+{
+  "no": "碧040",
+  "id": "25050a73bd787d05ec3ab1411e35b350",
+  "detailImageId": "1267781ab490b667bc94eff4669f2cd3",
+  "name": "黄忠",
+  "kanaName": "こうちゅう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "老当益壮",
+    "kanaName": "おいてますますさかん",
+    "cost": "5",
+    "description": "武力が上がり、特技「気合」の効果が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=25050a73bd787d05ec3ab1411e35b350",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/449.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_386"
+  }
+}

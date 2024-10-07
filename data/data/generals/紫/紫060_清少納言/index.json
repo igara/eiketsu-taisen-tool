@@ -1,0 +1,43 @@
+{
+  "no": "紫060",
+  "id": "1c6e076323bfa7666c52fd6583e812ce",
+  "detailImageId": "442cbf80afe19ad10df252f378817baa",
+  "name": "清少納言",
+  "kanaName": "せいしょうなごん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "後朝の詠歌",
+    "kanaName": "きぬぎぬのえいか",
+    "cost": "4",
+    "description": "武力と知力と射程距離が上がる。さらにこの計略の効果中に紫の味方が計略を発動するたびに、覇道が前進する",
+    "categories": [
+      "強化",
+      "詠歌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1c6e076323bfa7666c52fd6583e812ce",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1215.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1447"
+  }
+}

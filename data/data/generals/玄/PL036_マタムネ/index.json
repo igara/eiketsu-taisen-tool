@@ -1,0 +1,43 @@
+{
+  "no": "PL036",
+  "id": "d6d15df4adbd4a5aba2823c40d1b0856",
+  "detailImageId": "9ba9b4427e914c0651f28af09e5482eb",
+  "name": "マタムネ",
+  "kanaName": "マタムネ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "特殊",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "三日月ノ祓",
+    "kanaName": "みかづきのはらえ",
+    "cost": "4",
+    "description": "最も武力の高い玄の味方の武力が上がる。対象の武将コストが一定以上の場合、さらに武力と兵力が上がる。ただし自身は撤退する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d6d15df4adbd4a5aba2823c40d1b0856",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1045.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1312"
+  }
+}

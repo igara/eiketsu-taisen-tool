@@ -1,0 +1,48 @@
+{
+  "no": "PL044",
+  "id": "ff8beb9141a4a26ede421a33385bc834",
+  "detailImageId": "06eb1a9ba29a0ab39c51f44020d80ee0",
+  "name": "メリオダス",
+  "kanaName": "メリオダス",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "「全反撃」",
+    "kanaName": "フルカウンター",
+    "cost": "5",
+    "description": "戦場にいる敵の武力の最大値が大きいほど武力が上がる。一定以上武力が上がると、さらに移動速度が上がり、兵力が回復し、移動しながら斬撃ができるようになる",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ff8beb9141a4a26ede421a33385bc834",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1096.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1325"
+  }
+}

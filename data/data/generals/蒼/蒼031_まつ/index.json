@@ -1,0 +1,37 @@
+{
+  "no": "蒼031",
+  "id": "01a156e990c67a161836823407dde12f",
+  "detailImageId": "443d38d5567ffe46f23a19f558447df4",
+  "name": "まつ",
+  "kanaName": "まつ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "奮激の祈り",
+    "kanaName": "ふんげきのいのり",
+    "cost": "4",
+    "description": "最も武力の高い味方の武力が上がり、兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=01a156e990c67a161836823407dde12f",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/131.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_185"
+  }
+}

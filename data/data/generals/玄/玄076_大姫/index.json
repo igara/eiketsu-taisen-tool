@@ -1,0 +1,42 @@
+{
+  "no": "玄076",
+  "id": "9b58a102217fcac397ac40a5b274c817",
+  "detailImageId": "de29ba5e043338a8ee93312286c2c141",
+  "name": "大姫",
+  "kanaName": "おおひめ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "たまゆらの祈り",
+    "kanaName": "たまゆらのいのり",
+    "cost": "3",
+    "description": "最も武力の高い味方の武力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b58a102217fcac397ac40a5b274c817",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/996.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1278"
+  }
+}

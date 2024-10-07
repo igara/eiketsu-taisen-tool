@@ -1,0 +1,47 @@
+{
+  "no": "緋013",
+  "id": "00b8486250dbacae66a55475a187d115",
+  "detailImageId": "6b1b5666075d1e0dc9ebb21c80c60648",
+  "name": "桂小五郎",
+  "kanaName": "かつらこごろう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "神道無念流",
+    "kanaName": "しんとうむねんりゅう",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、斬撃を当てた敵の移動速度を一定時間下げる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=00b8486250dbacae66a55475a187d115",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/239.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_273"
+  }
+}

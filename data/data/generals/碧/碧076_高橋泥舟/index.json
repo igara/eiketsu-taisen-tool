@@ -1,0 +1,36 @@
+{
+  "no": "碧076",
+  "id": "082e23373287d2df704009a7ecd05af7",
+  "detailImageId": "90fd538f275e4c3bbbaed445215b8514",
+  "name": "高橋泥舟",
+  "kanaName": "たかはしでいしゅう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "百槍入魂",
+    "kanaName": "ひゃくそうにゅうこん",
+    "cost": "4",
+    "description": "武力と移動速度が上がり、槍撃の発生間隔が短縮される",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=082e23373287d2df704009a7ecd05af7",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/964.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1271"
+  }
+}

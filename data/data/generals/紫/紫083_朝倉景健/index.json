@@ -1,0 +1,42 @@
+{
+  "no": "紫083",
+  "id": "192fbdd35c29ea123e7dc62bc57b4afd",
+  "detailImageId": "f9f936124ae6a6824eeac2bd4d0a2140",
+  "name": "朝倉景健",
+  "kanaName": "あさくらかげたけ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "幽冥謀殺",
+    "kanaName": "ゆうめいぼうさつ",
+    "cost": "5",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>敵の武力を下げる。一定以上武力を下げると、さらに兵力が回復しなくなる",
+    "categories": [
+      "妨害",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=192fbdd35c29ea123e7dc62bc57b4afd",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2299"
+  }
+}

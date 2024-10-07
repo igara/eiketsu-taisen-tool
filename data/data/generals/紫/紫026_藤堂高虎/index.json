@@ -1,0 +1,36 @@
+{
+  "no": "紫026",
+  "id": "130f237e2a5acd1cedecdba0969ec8c3",
+  "detailImageId": "21797be28d3f1b78ea101b798db1d43b",
+  "name": "藤堂高虎",
+  "kanaName": "とうどうたかとら",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "防護の構え",
+    "kanaName": "ぼうごのかまえ",
+    "cost": "2",
+    "description": "武力によるダメージを軽減する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "11",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=130f237e2a5acd1cedecdba0969ec8c3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/756.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_475"
+  }
+}

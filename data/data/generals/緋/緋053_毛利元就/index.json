@@ -1,0 +1,42 @@
+{
+  "no": "緋053",
+  "id": "5b8f879c12bef01005df6b7374bedf78",
+  "detailImageId": "60862471d0b4a6a86c84e3a9bfc7e05d",
+  "name": "毛利元就",
+  "kanaName": "もうりもとなり",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "三本の矢",
+    "kanaName": "さんぼんのや",
+    "cost": "7",
+    "description": "緋の味方の武力が上がる。自身を除く対象の味方が３部隊の場合、対象の味方の移動速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5b8f879c12bef01005df6b7374bedf78",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/482.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_353"
+  }
+}

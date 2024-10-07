@@ -1,0 +1,42 @@
+{
+  "no": "PL033",
+  "id": "d2016de5b9b4355f27e760dead0547f1",
+  "detailImageId": "c131d40a87487723f1fc00638206d700",
+  "name": "藤堂平助",
+  "kanaName": "とうどうへいすけ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "一気呵成",
+    "kanaName": "いっきかせい",
+    "cost": "3",
+    "description": "戦場にいる碧の味方の武力の最大値が大きいほど武力が上がる。一定以上武力が上がると、さらに攻城力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d2016de5b9b4355f27e760dead0547f1",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/889.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_563"
+  }
+}

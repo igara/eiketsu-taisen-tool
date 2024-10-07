@@ -1,0 +1,42 @@
+{
+  "no": "蒼030",
+  "id": "e375d14deed757c8cfb26121079bb752",
+  "detailImageId": "bd510188f80d443392168b531cd40285",
+  "name": "前田利家",
+  "kanaName": "まえだとしいえ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "天下一の朱槍",
+    "kanaName": "てんかいちのしゅやり",
+    "cost": "6",
+    "description": "武力が上がり、全方向に槍の無敵攻撃を行う。さらに乱戦中も攻城ゲージが増えるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e375d14deed757c8cfb26121079bb752",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/221.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_265"
+  }
+}

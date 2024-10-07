@@ -1,0 +1,41 @@
+{
+  "no": "蒼129",
+  "id": "3f3fd871c16a4fa0a1b569672b2b8695",
+  "detailImageId": "0148c31e467dcd914d0e2243087fae65",
+  "name": "三浦義明",
+  "kanaName": "みうらよしあき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "奉武の崩射",
+    "kanaName": "ほうぶのほうしゃ",
+    "cost": "4",
+    "description": "武力が上がり、走射中の弓攻撃でダメージを与えた敵の兵種アクションを一定時間封印する。味方の陣形の効果を受けている時、この計略の必要士気が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3f3fd871c16a4fa0a1b569672b2b8695",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2265"
+  }
+}

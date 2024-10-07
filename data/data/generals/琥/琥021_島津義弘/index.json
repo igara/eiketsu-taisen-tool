@@ -1,0 +1,44 @@
+{
+  "no": "琥021",
+  "id": "f3a020cb6ca88ad3fbae697e4315741e",
+  "detailImageId": "830e74af51d48d18d2a6fe4aaa1a3ad3",
+  "name": "島津義弘",
+  "kanaName": "しまづよしひろ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "3.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "鬼島津の雄略",
+    "kanaName": "おにしまづのゆうりゃく",
+    "cost": "6",
+    "description": "武力と移動速度と射撃ダメージが上がり、移動しながら射撃できるようになる。さらに残弾数が０かつ敵と接触している時、以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・示現【２】：接触している敵に武力によるダメージを与える。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "11",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3a020cb6ca88ad3fbae697e4315741e",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1320.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1372"
+  }
+}

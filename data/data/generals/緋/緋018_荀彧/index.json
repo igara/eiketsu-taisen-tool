@@ -1,0 +1,36 @@
+{
+  "no": "緋018",
+  "id": "f93423043548de79e5ef36c710a7071b",
+  "detailImageId": "fdde1125427af2242897fd28d3a9be52",
+  "name": "荀彧",
+  "kanaName": "じゅんいく",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "玄妙なる反計",
+    "kanaName": "げんみょうなるはんけい",
+    "cost": "4",
+    "description": "【反計】（敵が計略を使用した時のみ発動できる。反計は反計できない）<br>敵の計略の発動を無効化する",
+    "categories": [
+      "反計"
+    ],
+    "time": "一瞬",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "1",
+  "intelligentzia": "9",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f93423043548de79e5ef36c710a7071b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/160.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_276"
+  }
+}

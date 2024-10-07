@@ -1,0 +1,42 @@
+{
+  "no": "玄024",
+  "id": "6f662b73496dd9e3d6e540959ce055fb",
+  "detailImageId": "105b95facfbb7aebb18e6e7a45ce86c0",
+  "name": "馬超",
+  "kanaName": "ばちょう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "獅子槍刃",
+    "kanaName": "ししそうじん",
+    "cost": "6",
+    "description": "武力と移動速度と槍撃ダメージが上がる。ただし槍が短くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6f662b73496dd9e3d6e540959ce055fb",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/227.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_246"
+  }
+}

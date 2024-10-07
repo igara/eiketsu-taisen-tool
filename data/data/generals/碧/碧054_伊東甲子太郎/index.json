@@ -1,0 +1,42 @@
+{
+  "no": "碧054",
+  "id": "f2f16df7b26fd68f0b7f04c27f8bcbb8",
+  "detailImageId": "79a39ebe6e0604acc4cb50eb2753c015",
+  "name": "伊東甲子太郎",
+  "kanaName": "いとうかしたろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "盟主の号令",
+    "kanaName": "めいしゅのごうれい",
+    "cost": "6",
+    "description": "碧の味方の武力が上がる。自身より武力の低い味方であれば、さらに武力と攻城力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f2f16df7b26fd68f0b7f04c27f8bcbb8",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/717.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_447"
+  }
+}

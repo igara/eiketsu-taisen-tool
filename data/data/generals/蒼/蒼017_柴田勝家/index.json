@@ -1,0 +1,48 @@
+{
+  "no": "蒼017",
+  "id": "f6c1b92cbf99b612d0a40d2c3ae400c2",
+  "detailImageId": "f6c77cebc7e7d6f0f2953325ea53d088",
+  "name": "柴田勝家",
+  "kanaName": "しばたかついえ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "掛かれ柴田",
+    "kanaName": "かかれしばた",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の武力が上がる。この効果は自身が敵城に近いほど大きい",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f6c1b92cbf99b612d0a40d2c3ae400c2",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/104.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_180"
+  }
+}

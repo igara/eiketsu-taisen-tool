@@ -1,0 +1,42 @@
+{
+  "no": "緋045",
+  "id": "0d8c4d821b759ae6f0c55fcf9a52660d",
+  "detailImageId": "61fca6af17d809d79440ff3fd4f72440",
+  "name": "牛金",
+  "kanaName": "ぎゅうきん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "猪突猛進",
+    "kanaName": "ちょとつもうしん",
+    "cost": "3",
+    "description": "武力と移動速度が上がり、全方向に槍の無敵攻撃を行う。ただし向いている方向に強制的に移動する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0d8c4d821b759ae6f0c55fcf9a52660d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/444.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_343"
+  }
+}

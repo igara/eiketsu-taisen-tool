@@ -1,0 +1,45 @@
+{
+  "no": "蒼099",
+  "id": "b349e0d674b9a823babf7cf062c256eb",
+  "detailImageId": "261e7c8fbfa1a8099ba5ed1863f95aa2",
+  "name": "白起",
+  "kanaName": "はくき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "天地鳴動の戦",
+    "kanaName": "てんちめいどうのいくさ",
+    "cost": "7",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力と移動速度が上がり、敵の武力を下げる。さらに陣形の効果を受けている敵がいる時、以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・停止【２】：敵を移動できなくする",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "9",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b349e0d674b9a823babf7cf062c256eb",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1209.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1393"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "no": "碧030",
+  "id": "8165b7d735fa79531a33962f462f2250",
+  "detailImageId": "bcb99233bf113660647dd8621b699844",
+  "name": "原田左之助",
+  "kanaName": "はらださのすけ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "一文字の気概",
+    "kanaName": "いちもんじのきがい",
+    "cost": "5",
+    "description": "武力が上がり、兵力が回復する。さらに武力によるダメージを軽減する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8165b7d735fa79531a33962f462f2250",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/212.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_223"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "no": "紫046",
+  "id": "fac8d655a250955e681653d7e2dba6b0",
+  "detailImageId": "ad739050b9c7052d9397c36168971a9c",
+  "name": "高尾太夫",
+  "kanaName": "たかおだゆう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "操覇の舞い",
+    "kanaName": "そうはのまい",
+    "cost": "4",
+    "description": "【舞い】（発動すると移動と兵種アクションができなくなる。自身は自身の舞いの効果を受けない）<br>自軍の覇気の溜まる量が増え、敵軍の覇気が溜まらなくなる",
+    "categories": [
+      "舞い",
+      "特殊"
+    ],
+    "time": "撤退するまで",
+    "range": "4d3caffa4b65d477e2065a8e4524774e"
+  },
+  "power": "1",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "14",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fac8d655a250955e681653d7e2dba6b0",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/987.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1296"
+  }
+}

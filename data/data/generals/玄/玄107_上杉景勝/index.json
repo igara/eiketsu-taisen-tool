@@ -1,0 +1,43 @@
+{
+  "no": "玄107",
+  "id": "8f287e5548944671b02b9907b25fd71c",
+  "detailImageId": "4294d78e227554d97351a10ec69e4232",
+  "name": "上杉景勝",
+  "kanaName": "うえすぎかげかつ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "龍吟虎嘯・義",
+    "kanaName": "りょうぎんこしょう・ぎ",
+    "cost": "5",
+    "description": "自身の武力が上がり、兵力が回復する。さらに自身を除く最も武力の高い味方の武力と知力が上がる。特技「先陣」を持つ味方であれば、代わりに武力が上がり、兵力が回復し、計略の必要士気が下がる。この効果は必要士気２を下限とする",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8f287e5548944671b02b9907b25fd71c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1579.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2156"
+  }
+}

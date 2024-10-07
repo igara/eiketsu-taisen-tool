@@ -1,0 +1,47 @@
+{
+  "no": "紫056",
+  "id": "75e34f99f5515ad117ec515dac5aa456",
+  "detailImageId": "24ec4d15548999400912e44be8cf9940",
+  "name": "鬼童丸",
+  "kanaName": "きどうまる",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "鬼童の妖術",
+    "kanaName": "きどうのようじゅつ",
+    "cost": "6",
+    "description": "紫の味方の武力が上がり、自身の場所に一瞬で移動させる。特技「鬼」を持つ味方であれば、さらに武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=75e34f99f5515ad117ec515dac5aa456",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1288.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1368"
+  }
+}

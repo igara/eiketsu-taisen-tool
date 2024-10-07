@@ -1,0 +1,43 @@
+{
+  "no": "EX088",
+  "id": "aff0052dbd6d87aa05d84b8c9a02b211",
+  "detailImageId": "b2ecf8b67acc56002bdd8a704f369071",
+  "name": "白夜刀のカンナ",
+  "kanaName": "びゃくやとうのカンナ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "白夜の封剣",
+    "kanaName": "びゃくやのふうけん",
+    "cost": "4",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がり、乱戦中も斬撃ができるようになる<br>３消費：さらに斬撃を当てた敵の兵種アクションを一定時間封印する",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aff0052dbd6d87aa05d84b8c9a02b211",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1709.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2228"
+  }
+}

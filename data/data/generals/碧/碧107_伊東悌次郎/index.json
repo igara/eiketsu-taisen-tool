@@ -1,0 +1,43 @@
+{
+  "no": "碧107",
+  "id": "049c80ffa57082475bb64b66378f4245",
+  "detailImageId": "e8e2854bd4fdc42424de03ece964397a",
+  "name": "伊東悌次郎",
+  "kanaName": "いとうていじろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "短計・弾突",
+    "kanaName": "たんけい・だんとつ",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>移動速度が上がり、向いている方向に敵を弾く突撃を行う。突撃中は敵城に接触しても突撃オーラは消えない。この短計は突撃オーラ中のみ使用できる",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "2",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=049c80ffa57082475bb64b66378f4245",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1571.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2147"
+  }
+}

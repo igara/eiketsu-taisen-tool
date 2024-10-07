@@ -1,0 +1,48 @@
+{
+  "no": "琥047",
+  "id": "e7d592e1a81b9f51e73c04b4d7238dc5",
+  "detailImageId": "6f098f766362c438f1f77e53c18a1814",
+  "name": "徐義",
+  "kanaName": "じょぎ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "琥煌の教え",
+    "kanaName": "ここうのおしえ",
+    "cost": "4",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の知力が上がる<br>３消費：さらに移動速度が上がる",
+    "categories": [
+      "全体強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e7d592e1a81b9f51e73c04b4d7238dc5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1534.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2184"
+  }
+}

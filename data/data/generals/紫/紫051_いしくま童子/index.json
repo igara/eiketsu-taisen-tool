@@ -1,0 +1,42 @@
+{
+  "no": "紫051",
+  "id": "3eb9f715a34f6c45fc8e49b1b9090fd9",
+  "detailImageId": "322d5637053ac633ffa05567934ee869",
+  "name": "いしくま童子",
+  "kanaName": "いしくまどうじ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "石熊ヨイショ",
+    "kanaName": "いしくまよいしょ",
+    "cost": "3",
+    "description": "最も武力の高い味方の武力が上がる。特技「鬼」を持つ味方であれば、さらに武力が上がり、敵を撃破すると復活時間が増加する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "3",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3eb9f715a34f6c45fc8e49b1b9090fd9",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1237.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1439"
+  }
+}

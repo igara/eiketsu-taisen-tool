@@ -1,0 +1,44 @@
+{
+  "no": "琥046",
+  "id": "d817bdb389fe37c028a83f7576383f53",
+  "detailImageId": "5b76b45fe80a72609a39547c7d252124",
+  "name": "司馬昭",
+  "kanaName": "しばしょう",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "狼琥の大号令",
+    "kanaName": "ろうこのだいごうれい",
+    "cost": "7",
+    "description": "【琥煌：最大消費６】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の武力が上がる<br>３消費：さらに兵力が徐々に回復する<br>６消費：さらに知力が上がる",
+    "categories": [
+      "全体強化",
+      "回復",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d817bdb389fe37c028a83f7576383f53",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1531.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2108"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "no": "緋008",
+  "id": "db3f6a463d8da33156f92443cd9be85b",
+  "detailImageId": "a07ee77bfaf1f0d6c675a7504dbe7baf",
+  "name": "于禁",
+  "kanaName": "うきん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "魏武の長槍術",
+    "kanaName": "ぎぶのながやりじゅつ",
+    "cost": "4",
+    "description": "武力が上がり、槍が長くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "48",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=db3f6a463d8da33156f92443cd9be85b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/172.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_195"
+  }
+}

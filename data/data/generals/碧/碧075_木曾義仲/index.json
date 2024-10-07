@@ -1,0 +1,43 @@
+{
+  "no": "碧075",
+  "id": "352986a1e3fd34443654b803c510b64c",
+  "detailImageId": "5c809c2f1e6a910f05711722cb5ce434",
+  "name": "木曾義仲",
+  "kanaName": "きそよしなか",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "平安",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "赫焉の旭",
+    "kanaName": "かくえんのあさひ",
+    "cost": "7",
+    "description": "武力と移動速度と突撃ダメージが上がる。さらに敵を撃破するたびに武力が上がり、兵力が回復する。ただし武力が徐々に下がり、元の武力を下回ると撤退する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=352986a1e3fd34443654b803c510b64c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/963.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1229"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "no": "碧108",
+  "id": "2a64883ba8cadbc42060d28845b441be",
+  "detailImageId": "b0d8bdbf0814bdbc89237c24edd78bf3",
+  "name": "孔子",
+  "kanaName": "こうし",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "儒教の祖",
+    "kanaName": "じゅきょうのそ",
+    "cost": "5",
+    "description": "選択した流派に応じて敵の武力を下げ、さらに以下の効果を得る<br>部隊：知力を下げる<br>士気：対象の敵が撤退すると士気が上がる<br>城塞：対象の敵が撤退すると敵城にダメージを与える<br>兵種：受ける兵種アクションのダメージを増加する",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "7",
+  "intelligentzia": "10",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2a64883ba8cadbc42060d28845b441be",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1572.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2148"
+  }
+}

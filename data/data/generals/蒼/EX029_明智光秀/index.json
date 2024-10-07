@@ -1,0 +1,42 @@
+{
+  "no": "EX029",
+  "id": "8a41439fa4928829fc3f9ca92eb50ff5",
+  "detailImageId": "304c759a5ff347601d4e62e367aa31f6",
+  "name": "明智光秀",
+  "kanaName": "あけちみつひで",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "決意の銃弾",
+    "kanaName": "けついのじゅうだん",
+    "cost": "7",
+    "description": "蒼の味方の武力が上がる。さらに自身の武力が上がり、射撃時の攻撃回数が増え、攻撃間隔が短くなる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8a41439fa4928829fc3f9ca92eb50ff5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/901.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1329"
+  }
+}

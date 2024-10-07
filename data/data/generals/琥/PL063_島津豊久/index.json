@@ -1,0 +1,42 @@
+{
+  "no": "PL063",
+  "id": "66d3061fd5776b17f9c02e8b8d9f9871",
+  "detailImageId": "2085d3348d8e37d43909de7b23867447",
+  "name": "島津豊久",
+  "kanaName": "しまづとよひさ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "狂奔",
+    "kanaName": "きょうほん",
+    "cost": "6",
+    "description": "武力と槍撃ダメージが上がる。さらに旋回操作を行うと向いている方向に瞬間移動するようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=66d3061fd5776b17f9c02e8b8d9f9871",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1659.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2212"
+  }
+}

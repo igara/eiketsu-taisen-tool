@@ -1,0 +1,42 @@
+{
+  "no": "緋131",
+  "id": "831ec0a2bf532f7441c15ad51bd55079",
+  "detailImageId": "f8faaa2c4415e92b38b523eabe9555ee",
+  "name": "文欽",
+  "kanaName": "ぶんきん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "短計・弾突",
+    "kanaName": "たんけい・だんとつ",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>移動速度が上がり、向いている方向に敵を弾く突撃を行う。突撃中は敵城に接触しても突撃オーラは消えない。この短計は突撃オーラ中のみ使用できる",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=831ec0a2bf532f7441c15ad51bd55079",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2276"
+  }
+}

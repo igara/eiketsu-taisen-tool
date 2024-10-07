@@ -1,0 +1,42 @@
+{
+  "no": "蒼065",
+  "id": "d612d44c1dc761ecf891ca04b26fbe0c",
+  "detailImageId": "bf7f2222cb63b64d1ad71deb56bb8904",
+  "name": "千代",
+  "kanaName": "ちよ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "内助の祈り",
+    "kanaName": "ないじょのいのり",
+    "cost": "4",
+    "description": "最も武力の高い蒼の味方の武力が上がる。１．５コストの味方であればさらに武力と移動速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d612d44c1dc761ecf891ca04b26fbe0c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/724.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_489"
+  }
+}

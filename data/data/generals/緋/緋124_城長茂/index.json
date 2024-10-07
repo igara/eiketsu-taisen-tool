@@ -1,0 +1,47 @@
+{
+  "no": "緋124",
+  "id": "e804d82835a480c51c45b7eb3cea6ef6",
+  "detailImageId": "7c23585ae00a6b11807be6b155aea20e",
+  "name": "城長茂",
+  "kanaName": "じょうながもち",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "薙ぎ伏せの長刀",
+    "kanaName": "なぎふせのなぎなた",
+    "cost": "4",
+    "description": "武力と移動速度が上がり、以下の短計を発動できる。さらに一定回数槍撃を敵に当てるたびに槍が長くなる。ただし槍が短くなり、効果終了時に一定時間計略を使用できなくなる<br>短計・弾回槍【２】：触れた敵を弾く槍を一周させる",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e804d82835a480c51c45b7eb3cea6ef6",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2270"
+  }
+}

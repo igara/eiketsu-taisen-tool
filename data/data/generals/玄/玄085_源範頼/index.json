@@ -1,0 +1,43 @@
+{
+  "no": "玄085",
+  "id": "07f3bb6bbd129e0902518013f79e908d",
+  "detailImageId": "4367494f9b97fa1cc087674a928369fd",
+  "name": "源範頼",
+  "kanaName": "みなもとののりより",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "混然たる号令",
+    "kanaName": "こんぜんたるごうれい",
+    "cost": "6",
+    "description": "玄の味方の武力が上がり、兵力が回復する。ただし効果終了時に兵力が減少する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=07f3bb6bbd129e0902518013f79e908d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/977.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1285"
+  }
+}

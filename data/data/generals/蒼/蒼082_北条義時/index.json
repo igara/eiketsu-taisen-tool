@@ -1,0 +1,43 @@
+{
+  "no": "蒼082",
+  "id": "9a1252c079bf4438c43a460084998c47",
+  "detailImageId": "a26d818a1f82e8601b7cbc95ce6aafb1",
+  "name": "北条義時",
+  "kanaName": "ほうじょうよしとき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "得宗の指顧",
+    "kanaName": "とくそうのしこ",
+    "cost": "7",
+    "description": "蒼の味方の武力が上がり、敵を撃破するたびに対象の味方全ての兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9a1252c079bf4438c43a460084998c47",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/931.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1230"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "碧082",
+  "id": "d22ae74960999c26270d63943b3b05ea",
+  "detailImageId": "0fbbf0e94a66e4a26caf7129b6f5a2b8",
+  "name": "中原兼遠",
+  "kanaName": "なかはらのかねとお",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "人馬の加勢",
+    "kanaName": "じんばのかせい",
+    "cost": "3",
+    "description": "自身を除く最も武力の高い平安の味方の武力と移動速度が上がり、迎撃ダメージと迎撃・斬撃による速度低下を受けなくなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d22ae74960999c26270d63943b3b05ea",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/970.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1302"
+  }
+}

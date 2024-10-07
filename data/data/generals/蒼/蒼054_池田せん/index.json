@@ -1,0 +1,47 @@
+{
+  "no": "蒼054",
+  "id": "99930035de8d5a38f663c09f0020ba0f",
+  "detailImageId": "fd7039c6f7c78e5568e7d2741e796ebc",
+  "name": "池田せん",
+  "kanaName": "いけだせん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "魅了の銃弾",
+    "kanaName": "みりょうのじゅうだん",
+    "cost": "5",
+    "description": "武力と射程距離が上がり、敵を貫通して射撃できるようになる。さらに射撃を当てた敵の移動速度を一定時間下げる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=99930035de8d5a38f663c09f0020ba0f",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/723.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_436"
+  }
+}

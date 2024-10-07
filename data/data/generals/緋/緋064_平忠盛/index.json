@@ -1,0 +1,36 @@
+{
+  "no": "緋064",
+  "id": "e59c982b7e1a12536651b191261179c8",
+  "detailImageId": "d238cd5b5f6584c5cf3a34ecab71136f",
+  "name": "平忠盛",
+  "kanaName": "たいらのただもり",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "興隆の承伝",
+    "kanaName": "こうりゅうのしょうでん",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、斬撃の範囲が広くなる。さらに敵を撃破するたびに自軍の士気が上がる。この効果は撃破した敵のコストが高いほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e59c982b7e1a12536651b191261179c8",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/737.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_468"
+  }
+}

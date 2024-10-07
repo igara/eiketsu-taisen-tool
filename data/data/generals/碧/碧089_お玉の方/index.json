@@ -1,0 +1,53 @@
+{
+  "no": "碧089",
+  "id": "38e82bc8ff5b5908bfc77e6384218780",
+  "detailImageId": "011f1e18326c4b916ad3117b9f438ae2",
+  "name": "お玉の方",
+  "kanaName": "おたまのかた",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "元気印の采配",
+    "kanaName": "げんきじるしのさいはい",
+    "cost": "3",
+    "description": "２コスト以下の味方の兵力が徐々に回復し、兵種アクションが強化される",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=38e82bc8ff5b5908bfc77e6384218780",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1203.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1412"
+  }
+}

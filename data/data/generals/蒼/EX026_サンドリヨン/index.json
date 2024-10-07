@@ -1,0 +1,45 @@
+{
+  "no": "EX026",
+  "id": "e15f5a6087bbebff0ac27d38c9dff854",
+  "detailImageId": "70d1c985e2a1a3875893cd0553b6aad6",
+  "name": "サンドリヨン",
+  "kanaName": "サンドリヨン",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "灰かぶりの剣技",
+    "kanaName": "はいかぶりのけんぎ",
+    "cost": "6",
+    "description": "武力が上がり、兵力が回復する。さらに自身の位置に一定時間カードを静止させると、自身を起点としたカードの軌跡上に武力によるダメージを与えるドローショットを発生させるようになる。ダメージは互いの武力で上下する。ただし移動と兵種アクションができなくなる",
+    "categories": [
+      "強化",
+      "回復",
+      "ダメージ",
+      "特殊"
+    ],
+    "time": "固定時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e15f5a6087bbebff0ac27d38c9dff854",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/898.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1220"
+  }
+}

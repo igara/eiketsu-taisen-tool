@@ -1,0 +1,36 @@
+{
+  "no": "緋047",
+  "id": "de81432b2cc41bb3bee2d353bd99642b",
+  "detailImageId": "d1b4c0f2fb80b267191ccd491d1ee1e1",
+  "name": "杉文",
+  "kanaName": "すぎふみ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "局地燃ゆ",
+    "kanaName": "きょくちもゆ",
+    "cost": "5",
+    "description": "最も武力の高い敵に知力によるダメージを与える。ダメージは互いの知力で上下する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=de81432b2cc41bb3bee2d353bd99642b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/485.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_377"
+  }
+}

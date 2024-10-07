@@ -1,0 +1,42 @@
+{
+  "no": "琥020",
+  "id": "efde971fd2a46bfcc640b933218e0616",
+  "detailImageId": "64a4db8665f85987fce7d427f24e2ef5",
+  "name": "島津義久",
+  "kanaName": "しまづよしひさ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "龍伯の采配",
+    "kanaName": "りゅうはくのさいはい",
+    "cost": "6",
+    "description": "味方の武力が上がる。さらに鉄砲隊であれば射撃時の攻撃回数が増え、移動しながら射撃できるようになる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=efde971fd2a46bfcc640b933218e0616",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1298.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1467"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "no": "玄049",
+  "id": "c7fa998cc806f6254d1d3184ba24696c",
+  "detailImageId": "3be9670e2e7a53fa8770f62d76470c45",
+  "name": "本庄繁長",
+  "kanaName": "ほんじょうしげなが",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "下剋上",
+    "kanaName": "げこくじょう",
+    "cost": "4",
+    "description": "武力が上がる。ただし自身を除く範囲内の味方が撤退する。この効果は撤退した味方の武力の合計値が高いほど大きい。一定以上武力が上がると、さらに射撃時の攻撃間隔が短くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c7fa998cc806f6254d1d3184ba24696c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/475.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_410"
+  }
+}

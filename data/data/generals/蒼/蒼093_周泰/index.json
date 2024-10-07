@@ -1,0 +1,47 @@
+{
+  "no": "蒼093",
+  "id": "a271672c91a36f2a873670c157459865",
+  "detailImageId": "274265df7043020ce6ce65710391e68d",
+  "name": "周泰",
+  "kanaName": "しゅうたい",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "神弓の極意",
+    "kanaName": "しんきゅうのごくい",
+    "cost": "6",
+    "description": "対象の弓兵の味方部隊数に応じて弓兵の味方の武力が上がり、以下の効果を得る<br>１部隊：知力と移動速度が上がり、攻城ゲージが敵の攻撃で下がらなくなる<br>２部隊：矢を当てている敵の武力と移動速度を下げる<br>３部隊以上：走射時間が延びる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "f6759ccda0aab92e659416de9e63dff0"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a271672c91a36f2a873670c157459865",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1235.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1361"
+  }
+}

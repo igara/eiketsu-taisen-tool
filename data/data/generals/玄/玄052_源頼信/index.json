@@ -1,0 +1,42 @@
+{
+  "no": "玄052",
+  "id": "944fad5bbb20f0f733e8ab9f7ac04091",
+  "detailImageId": "7b633bff42aa2c9868d13777f6217642",
+  "name": "源頼信",
+  "kanaName": "みなもとのよりのぶ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "先行の睨み",
+    "kanaName": "せんこうのにらみ",
+    "cost": "3",
+    "description": "最も武力の高い敵の武力と知力を下げる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=944fad5bbb20f0f733e8ab9f7ac04091",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/463.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_413"
+  }
+}

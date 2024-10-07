@@ -1,0 +1,43 @@
+{
+  "no": "EX069",
+  "id": "84f59f691533a72fd14b2d471db80945",
+  "detailImageId": "5791e3b66aa10571166682e8cd584a22",
+  "name": "呂布",
+  "kanaName": "りょふ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "4.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "天下無双",
+    "kanaName": "てんかむそう",
+    "cost": "6",
+    "description": "武力と移動速度が上がり、兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "12",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "48",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=84f59f691533a72fd14b2d471db80945",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1465.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2094"
+  }
+}

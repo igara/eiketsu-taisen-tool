@@ -1,0 +1,47 @@
+{
+  "no": "玄133",
+  "id": "7833aa54d3e4e32205248934e8b621d6",
+  "detailImageId": "cd2aab30131473592c7268ce8f1b8d04",
+  "name": "六角義賢",
+  "kanaName": "ろっかくよしかた",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "六角の陣",
+    "kanaName": "ろっかくのじん",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の武力が上がる。さらに範囲内に味方が６部隊いる場合は武力と攻城力が上がる",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "10902c0994fc7fb8398b6d4b3aff36af"
+  },
+  "power": "6",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7833aa54d3e4e32205248934e8b621d6",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2296"
+  }
+}

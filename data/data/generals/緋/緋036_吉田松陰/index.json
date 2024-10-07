@@ -1,0 +1,47 @@
+{
+  "no": "緋036",
+  "id": "666d7adf7fd9e1a9a2ff12622a955aa1",
+  "detailImageId": "45ea7e1b550ec7f34f7f52bdc86d6322",
+  "name": "吉田松陰",
+  "kanaName": "よしだしょういん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "維新の礎",
+    "kanaName": "いしんのいしずえ",
+    "cost": "6",
+    "description": "江戸･幕末の味方の武力と知力が上がる。ただし自身は撤退する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "11",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=666d7adf7fd9e1a9a2ff12622a955aa1",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/100.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_302"
+  }
+}

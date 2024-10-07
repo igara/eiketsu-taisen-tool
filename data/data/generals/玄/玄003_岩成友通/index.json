@@ -1,0 +1,36 @@
+{
+  "no": "玄003",
+  "id": "f6c578c806065bdb080f6acc64dfe9d0",
+  "detailImageId": "c53e530877f44199333833f5db4909a7",
+  "name": "岩成友通",
+  "kanaName": "いわなりともみち",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "弱体化の計",
+    "kanaName": "じゃくたいかのけい",
+    "cost": "4",
+    "description": "敵の武力を下げる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f6c578c806065bdb080f6acc64dfe9d0",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/197.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_152"
+  }
+}

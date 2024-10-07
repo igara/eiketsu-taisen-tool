@@ -1,0 +1,35 @@
+{
+  "no": "玄131",
+  "id": "8bacd04e09823aa62c78e6fe56b81a54",
+  "detailImageId": "61039351ddc9bf503817c927418c70dc",
+  "name": "三善康信",
+  "kanaName": "みよしのやすのぶ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "善信の教授",
+    "kanaName": "ぜんしんのきょうじゅ",
+    "cost": "4",
+    "description": "最も武力の高い味方の武力が上がる。対象の味方が陣形を発動している場合、さらに武力が上がり、武力によるダメージを軽減する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8bacd04e09823aa62c78e6fe56b81a54",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2294"
+  }
+}

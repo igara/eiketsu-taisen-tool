@@ -1,0 +1,42 @@
+{
+  "no": "緋109",
+  "id": "e79bfeb083ca6e9b49039586b23592cd",
+  "detailImageId": "9bcdc2115d8e27d400af6e1436100912",
+  "name": "項羽",
+  "kanaName": "こうう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "春秋戦国",
+  "cost": "4.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "抜山蓋世",
+    "kanaName": "ばつざんがいせい",
+    "cost": "7",
+    "description": "武力と移動速度と槍撃ダメージが上がる。さらに敵を撃破するたびに覇道が前進する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "12",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e79bfeb083ca6e9b49039586b23592cd",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1560.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2114"
+  }
+}

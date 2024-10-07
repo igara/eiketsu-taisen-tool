@@ -1,0 +1,44 @@
+{
+  "no": "碧028",
+  "id": "74c4b15ba109de75b739896f739be63a",
+  "detailImageId": "5e59fb858203b7dfbaedb28adf26595e",
+  "name": "成田長親",
+  "kanaName": "なりたながちか",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "忍の浮城",
+    "kanaName": "おしのうきしろ",
+    "cost": "4",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力が上がり、敵の攻城ゲージを増えなくする",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=74c4b15ba109de75b739896f739be63a",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/276.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_295"
+  }
+}

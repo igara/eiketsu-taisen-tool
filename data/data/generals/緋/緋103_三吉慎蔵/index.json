@@ -1,0 +1,42 @@
+{
+  "no": "緋103",
+  "id": "e259ccf54432f2af6bfae6b860a2e595",
+  "detailImageId": "d15688f4763bf6065acc9e280a70c5c0",
+  "name": "三吉慎蔵",
+  "kanaName": "みよししんぞう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "長府の旋技",
+    "kanaName": "ちょうふのせんぎ",
+    "cost": "4",
+    "description": "武力が上がり、全方向に槍の無敵攻撃を行う。ただし移動できなくなる。この効果はカードを円状に一定回数操作するたびに大きくなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e259ccf54432f2af6bfae6b860a2e595",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1262.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1409"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "緋077",
+  "id": "5bf525e4bc26952225ba836124bb5b49",
+  "detailImageId": "7b73ceff3f19f52d394cc86847bb80e2",
+  "name": "平維盛",
+  "kanaName": "たいらのこれもり",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "儚き指揮",
+    "kanaName": "はかなきしき",
+    "cost": "3",
+    "description": "平安の味方の武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "4",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5bf525e4bc26952225ba836124bb5b49",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/946.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1257"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "no": "紫040",
+  "id": "5ce6419c34a864a05c2d6806b0994f1f",
+  "detailImageId": "ee4860b1ca66a19230d4e690fffe07fd",
+  "name": "歌川広重",
+  "kanaName": "うたがわひろしげ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "名勝図会",
+    "kanaName": "めいしょうずえ",
+    "cost": "3",
+    "description": "味方の武力と施設攻撃力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "3",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5ce6419c34a864a05c2d6806b0994f1f",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/981.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1290"
+  }
+}

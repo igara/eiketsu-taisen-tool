@@ -1,0 +1,42 @@
+{
+  "no": "PL064",
+  "id": "a6099ef7ab680afe7d77b066c2d4e800",
+  "detailImageId": "b47eb6dc7e3792f8ab76fe464e64d0f5",
+  "name": "スキピオ",
+  "kanaName": "スキピオ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "救国の戦術",
+    "kanaName": "きゅうこくのせんじゅつ",
+    "cost": "5",
+    "description": "敵の武力と移動速度を下げる。さらに武力と移動速度を徐々に下げる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "11",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a6099ef7ab680afe7d77b066c2d4e800",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1673.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2213"
+  }
+}

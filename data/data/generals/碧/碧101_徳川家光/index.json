@@ -1,0 +1,42 @@
+{
+  "no": "碧101",
+  "id": "01de93fd62d972777cfd769cc75610e7",
+  "detailImageId": "d9f4b8304fe64bea15c711a2f69c2406",
+  "name": "徳川家光",
+  "kanaName": "とくがわいえみつ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "武断の采配",
+    "kanaName": "ぶだんのさいはい",
+    "cost": "4",
+    "description": "碧の味方の武力が上がる。この効果は対象の味方の武力の合計値が高いほど大きい",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=01de93fd62d972777cfd769cc75610e7",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1200.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1421"
+  }
+}

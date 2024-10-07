@@ -1,0 +1,42 @@
+{
+  "no": "緋073",
+  "id": "aef45c00d64423530f767ce628ab3c1c",
+  "detailImageId": "0f96090d8e22705d7abf15ab3b58894b",
+  "name": "五龍姫",
+  "kanaName": "ごりゅうひめ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "五龍王神楽",
+    "kanaName": "ごりゅうおうかぐら",
+    "cost": "3",
+    "description": "最も武力の高い味方の武力と兵種アクションのダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aef45c00d64423530f767ce628ab3c1c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/942.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1253"
+  }
+}

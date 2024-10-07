@@ -1,0 +1,47 @@
+{
+  "no": "玄132",
+  "id": "f1dc60266a96791a2762d0f49b92dbd8",
+  "detailImageId": "f702f2bed3401e520ba1ba0b77cad8ec",
+  "name": "愛姫",
+  "kanaName": "めごひめ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "撹乱の砲火",
+    "kanaName": "かくらんのほうか",
+    "cost": "4",
+    "description": "【竜騎馬】（移動しながら扇状の範囲に射撃を行うようになる。この射撃は突撃でキャンセルされない）<br>武力が上がり、兵種が竜騎馬になる。さらに射撃を当てた敵の知力を一定時間下げる",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "1",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f1dc60266a96791a2762d0f49b92dbd8",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2295"
+  }
+}

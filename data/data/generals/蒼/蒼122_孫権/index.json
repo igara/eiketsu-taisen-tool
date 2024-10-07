@@ -1,0 +1,41 @@
+{
+  "no": "蒼122",
+  "id": "9e7bbce70fc52a5252288cbfc34b275a",
+  "detailImageId": "175b5e5ca8a6a0e4efb40d8a374625b2",
+  "name": "孫権",
+  "kanaName": "そんけん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "呉大帝の威光",
+    "kanaName": "ごたいていのいこう",
+    "cost": "8",
+    "description": "蒼の味方の武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9e7bbce70fc52a5252288cbfc34b275a",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2259"
+  }
+}

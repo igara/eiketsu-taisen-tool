@@ -1,0 +1,36 @@
+{
+  "no": "蒼005",
+  "id": "1e4cf5de953b36c699c6a9482d926120",
+  "detailImageId": "7910e1111993d1a3057b4258bb01a4aa",
+  "name": "太田牛一",
+  "kanaName": "おおたぎゅういち",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "遠弓麻痺矢戦法",
+    "kanaName": "えんきゅうまひやせんぽう",
+    "cost": "4",
+    "description": "武力と射程距離が上がり、矢を当てている敵の移動速度を下げる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1e4cf5de953b36c699c6a9482d926120",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/209.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_172"
+  }
+}

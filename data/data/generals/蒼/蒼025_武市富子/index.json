@@ -1,0 +1,36 @@
+{
+  "no": "蒼025",
+  "id": "ef0d5c8520bfefb88eead865132c94d5",
+  "detailImageId": "8b2681a0a92852a573bec22c440927ac",
+  "name": "武市富子",
+  "kanaName": "たけちとみこ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "剣武の祈り",
+    "kanaName": "けんぶのいのり",
+    "cost": "3",
+    "description": "最も武力の高い剣豪の味方の武力が上がり、斬撃ができるまでの時間が短くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ef0d5c8520bfefb88eead865132c94d5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/107.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_183"
+  }
+}

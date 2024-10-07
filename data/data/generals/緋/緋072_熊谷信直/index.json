@@ -1,0 +1,42 @@
+{
+  "no": "緋072",
+  "id": "d41f3909ef56378c642a3865264cc29c",
+  "detailImageId": "f0a3a0beea7db8be1bc7bf4613e55a65",
+  "name": "熊谷信直",
+  "kanaName": "くまがいのぶなお",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "先鋒戦法",
+    "kanaName": "せんぽうせんぽう",
+    "cost": "3",
+    "description": "武力が上がる。この効果は発動時の覇道が敵城に近いほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d41f3909ef56378c642a3865264cc29c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/941.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1252"
+  }
+}

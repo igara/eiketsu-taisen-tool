@@ -1,0 +1,43 @@
+{
+  "no": "緋086",
+  "id": "afb1e5178e645f832f5916f037c773d0",
+  "detailImageId": "8777ff4e1dcfa3aea2faa5cb6e75e873",
+  "name": "平宗盛",
+  "kanaName": "たいらのむねもり",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "世逃れの傘",
+    "kanaName": "よのがれのかさ",
+    "cost": "3",
+    "description": "兵力が回復し、乱戦中の移動速度減少が小さくなる",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=afb1e5178e645f832f5916f037c773d0",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/955.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1264"
+  }
+}

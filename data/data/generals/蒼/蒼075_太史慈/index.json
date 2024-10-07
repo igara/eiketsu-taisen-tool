@@ -1,0 +1,36 @@
+{
+  "no": "蒼075",
+  "id": "07b239fc67168bea3ae32aa397fdf5d7",
+  "detailImageId": "0021311d0a6adf4e8613d10580181c73",
+  "name": "太史慈",
+  "kanaName": "たいしじ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "3.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "天衣無縫の号令",
+    "kanaName": "てんいむほうのごうれい",
+    "cost": "7",
+    "description": "蒼の味方の武力が上がる。さらに自身の同時に弓攻撃できる部隊数が増え、矢を当てている敵の移動速度を下げる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "10",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=07b239fc67168bea3ae32aa397fdf5d7",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/924.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1244"
+  }
+}

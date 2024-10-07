@@ -1,0 +1,43 @@
+{
+  "no": "碧080",
+  "id": "87b9697469fb925a530e075e58bbedef",
+  "detailImageId": "418de5b559d7b4fc5e1dd7b29f67724a",
+  "name": "徳川吉宗",
+  "kanaName": "とくがわよしむね",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "享保の改革",
+    "kanaName": "きょうほうのかいかく",
+    "cost": "7",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>碧の味方の武力と移動速度が上がる",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=87b9697469fb925a530e075e58bbedef",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/968.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1227"
+  }
+}

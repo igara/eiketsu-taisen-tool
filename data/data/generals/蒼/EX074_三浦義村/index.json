@@ -1,0 +1,42 @@
+{
+  "no": "EX074",
+  "id": "d3a217229e4e9277824c772f2c67a0ac",
+  "detailImageId": "a383af34df9b0e0ad805a83e659f2eb0",
+  "name": "三浦義村",
+  "kanaName": "みうらよしむら",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "延陣の采配",
+    "kanaName": "えんじんのさいはい",
+    "cost": "5",
+    "description": "味方の武力が上がる。味方の陣形の効果を受けている時、その陣形の効果時間が延長される",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d3a217229e4e9277824c772f2c67a0ac",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1515.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2105"
+  }
+}

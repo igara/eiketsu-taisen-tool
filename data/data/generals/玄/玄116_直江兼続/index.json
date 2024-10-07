@@ -1,0 +1,42 @@
+{
+  "no": "玄116",
+  "id": "b32627582cc53608f03d0287238b12ce",
+  "detailImageId": "e1199515627394536bd0405caa7627ad",
+  "name": "直江兼続",
+  "kanaName": "なおえかねつぐ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "龍吟虎嘯・愛",
+    "kanaName": "りょうぎんこしょう・あい",
+    "cost": "5",
+    "description": "自身の武力と移動速度が上がる。さらに自身を除く最も武力の高い味方の武力と知力が上がる。特技「昂揚」を持つ味方であれば、代わりに武力と移動速度が上がり、計略の必要士気が下がる。この効果は必要士気２を下限とする",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b32627582cc53608f03d0287238b12ce",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1588.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2164"
+  }
+}

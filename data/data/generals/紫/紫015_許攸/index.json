@@ -1,0 +1,47 @@
+{
+  "no": "紫015",
+  "id": "8942b65fa1613c0d0cd55693c115dbc9",
+  "detailImageId": "88e2e8181568f57ab19ddb2d2d327495",
+  "name": "許攸",
+  "kanaName": "きょゆう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "強欲な号令",
+    "kanaName": "ごうよくなごうれい",
+    "cost": "5",
+    "description": "紫の味方の武力が上がる。ただし効果終了時に対象の味方部隊数に応じて自軍の士気が下がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "6",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8942b65fa1613c0d0cd55693c115dbc9",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/687.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_508"
+  }
+}

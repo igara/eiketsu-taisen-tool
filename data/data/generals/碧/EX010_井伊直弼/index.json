@@ -1,0 +1,44 @@
+{
+  "no": "EX010",
+  "id": "39d6e055705bb613713422aa14eb5298",
+  "detailImageId": "0d993a0fc5c3103663839dc8c685b4f9",
+  "name": "井伊直弼",
+  "kanaName": "いいなおすけ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "安政の大獄",
+    "kanaName": "あんせいのたいごく",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>碧の味方の武力が上がり、敵の武力を下げる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=39d6e055705bb613713422aa14eb5298",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/575.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_434"
+  }
+}

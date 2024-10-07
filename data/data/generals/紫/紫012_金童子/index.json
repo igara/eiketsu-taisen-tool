@@ -1,0 +1,47 @@
+{
+  "no": "紫012",
+  "id": "a9b25d4f78b12e6bf4995859ac0bb370",
+  "detailImageId": "4b97a1c5def3e7ba198a9df3b8a17fb7",
+  "name": "金童子",
+  "kanaName": "かねどうじ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "呪縛の鬼鎌",
+    "kanaName": "じゅばくのきれん",
+    "cost": "4",
+    "description": "武力が上がり、接触している敵の移動速度を下げる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a9b25d4f78b12e6bf4995859ac0bb370",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/631.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_474"
+  }
+}

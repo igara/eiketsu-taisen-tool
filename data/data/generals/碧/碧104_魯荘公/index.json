@@ -1,0 +1,36 @@
+{
+  "no": "碧104",
+  "id": "ba5f62e838af189963dfb7c2e61e9359",
+  "detailImageId": "65e22e5be1e9582f258e0f5541ee15c6",
+  "name": "魯荘公",
+  "kanaName": "ろのそうこう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "海月の教え",
+    "kanaName": "かいげつのおしえ",
+    "cost": "3",
+    "description": "最も武力の高い碧の味方にかかっている全ての計略効果を消し、知力が上がる。さらに対象の味方が復活するたびに知力が上がる。この効果は撤退しても継続する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ba5f62e838af189963dfb7c2e61e9359",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1229.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1424"
+  }
+}

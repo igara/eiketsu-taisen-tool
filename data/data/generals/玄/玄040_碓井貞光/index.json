@@ -1,0 +1,42 @@
+{
+  "no": "玄040",
+  "id": "d325ff3414fbe74fd171319aa77259fc",
+  "detailImageId": "abf55b56ac514d685e38068dcd3038ee",
+  "name": "碓井貞光",
+  "kanaName": "うすいさだみつ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "身命の号令",
+    "kanaName": "しんみょうのごうれい",
+    "cost": "5",
+    "description": "味方の武力が上がる。ただし兵力が減少する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d325ff3414fbe74fd171319aa77259fc",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/452.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_401"
+  }
+}

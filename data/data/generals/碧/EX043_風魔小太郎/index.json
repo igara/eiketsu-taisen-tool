@@ -1,0 +1,42 @@
+{
+  "no": "EX043",
+  "id": "3c60c33f921189ddd54c46c185e3beae",
+  "detailImageId": "bab521501bfeee1fab5a0031df97b792",
+  "name": "風魔小太郎",
+  "kanaName": "ふうまこたろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "常闇の奇襲",
+    "kanaName": "とこやみのきしゅう",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、特技「忍」の効果が上がる。さらに突撃をするたびに武力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3c60c33f921189ddd54c46c185e3beae",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1101.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1338"
+  }
+}

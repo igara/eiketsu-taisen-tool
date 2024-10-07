@@ -1,0 +1,42 @@
+{
+  "no": "紫019",
+  "id": "244d1a745067d45965ea7c2fe1f96bfe",
+  "detailImageId": "21e414a5942c2c4c5735222a3c297a92",
+  "name": "酒呑童子",
+  "kanaName": "しゅてんどうじ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "鬼神の大号令",
+    "kanaName": "きじんのだいごうれい",
+    "cost": "7",
+    "description": "味方の武力が上がる。特技「鬼」を持つ味方であれば、さらに武力と移動速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "10",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=244d1a745067d45965ea7c2fe1f96bfe",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/752.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_530"
+  }
+}

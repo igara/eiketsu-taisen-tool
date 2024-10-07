@@ -1,0 +1,52 @@
+{
+  "no": "緋087",
+  "id": "c17398819711de4ccb993ea0ebe56dfb",
+  "detailImageId": "4cbddfa55ed613cac767b1adafab8925",
+  "name": "妙玖",
+  "kanaName": "みょうきゅう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "英知の祈り",
+    "kanaName": "えいちのいのり",
+    "cost": "4",
+    "description": "最も知力の高い味方の武力が上がる。この効果は対象の味方の知力が高いほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "1",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c17398819711de4ccb993ea0ebe56dfb",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/956.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1232"
+  }
+}

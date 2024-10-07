@@ -1,0 +1,36 @@
+{
+  "no": "EX075",
+  "id": "635c25ee2f164d02ca797a6b19174784",
+  "detailImageId": "79119bc7012381810eb8096e6bb95b68",
+  "name": "松平容保",
+  "kanaName": "まつだいらかたもり",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "盛衰存亡の誓い",
+    "kanaName": "せいすいそんぼうのちかい",
+    "cost": "6",
+    "description": "碧の味方の武力と攻城力が上がる。ただし効果終了時に兵力が減少する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "9",
+  "skill": [],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=635c25ee2f164d02ca797a6b19174784",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1516.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2106"
+  }
+}

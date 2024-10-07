@@ -1,0 +1,36 @@
+{
+  "no": "碧023",
+  "id": "0139ee5755930c4b03105f9e125620c8",
+  "detailImageId": "207f2b58233d1c24df1332c28c150e7e",
+  "name": "田豫",
+  "kanaName": "でんよ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "溜気戦法",
+    "kanaName": "りゅうきせんぽう",
+    "cost": "3",
+    "description": "武力と移動速度が上がり、覇気が溜まりやすくなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "32",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0139ee5755930c4b03105f9e125620c8",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/159.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_218"
+  }
+}

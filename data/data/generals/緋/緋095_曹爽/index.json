@@ -1,0 +1,48 @@
+{
+  "no": "緋095",
+  "id": "dbe5d864161464245a3b399b4bb7c1a9",
+  "detailImageId": "0d542951ae2b4663eae45ab25e19223a",
+  "name": "曹爽",
+  "kanaName": "そうそう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "馬力の奮激",
+    "kanaName": "ばりきのふんげき",
+    "cost": "3",
+    "description": "武力が上がり、兵力が上限を超えて回復する。ただし移動速度が下がる",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "2",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dbe5d864161464245a3b399b4bb7c1a9",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1254.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1403"
+  }
+}

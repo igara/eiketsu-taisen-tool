@@ -1,0 +1,42 @@
+{
+  "no": "蒼013",
+  "id": "e20992d77cad6e0cde23972ab9434ce4",
+  "detailImageId": "aed8ee8b8afc8b688c1c6738e58ee2fd",
+  "name": "坂本龍馬",
+  "kanaName": "さかもとりょうま",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "3.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "風雲之志",
+    "kanaName": "ふううんのこころざし",
+    "cost": "7",
+    "description": "武力と知力と移動速度が上がり、弾数の回復速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e20992d77cad6e0cde23972ab9434ce4",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/111.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_257"
+  }
+}

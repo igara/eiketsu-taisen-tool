@@ -1,0 +1,42 @@
+{
+  "no": "紫061",
+  "id": "36f8d42e9bd0c0cf8ebfce3be4d404e3",
+  "detailImageId": "b513bcc58d3b465f31bffa5ca7293730",
+  "name": "張郃",
+  "kanaName": "ちょうこう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "諸刃の尖槍",
+    "kanaName": "もろはのせんそう",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、一定時間ごとに自城が回復する。ただし自城にダメージを受ける。この効果による城ダメージで流派ゲージは上昇しない",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=36f8d42e9bd0c0cf8ebfce3be4d404e3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1293.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1367"
+  }
+}

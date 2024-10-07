@@ -1,0 +1,36 @@
+{
+  "no": "玄026",
+  "id": "4fee9171174fc6ed8c0bdcbb9cd58601",
+  "detailImageId": "b061a5eff7ac0246c3e117effb6777c1",
+  "name": "細川晴元",
+  "kanaName": "ほそかわはるもと",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "弱体弓戦法",
+    "kanaName": "じゃくたいゆみせんぽう",
+    "cost": "3",
+    "description": "武力が上がり、矢を当てている敵の武力を下げる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4fee9171174fc6ed8c0bdcbb9cd58601",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/201.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_164"
+  }
+}

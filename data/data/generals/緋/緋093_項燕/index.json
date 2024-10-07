@@ -1,0 +1,43 @@
+{
+  "no": "緋093",
+  "id": "7bc16b786c1b68fe554b285eb8c5ab67",
+  "detailImageId": "7c316a8e9b5f2e8998ae44bfdebcc8db",
+  "name": "項燕",
+  "kanaName": "こうえん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "春秋戦国",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "戦人の号令",
+    "kanaName": "いくさびとのごうれい",
+    "cost": "7",
+    "description": "味方の武力が上がり、兵力が回復する。この効果は対象の味方の武将コストが高いほど大きい",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bc16b786c1b68fe554b285eb8c5ab67",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1252.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1355"
+  }
+}

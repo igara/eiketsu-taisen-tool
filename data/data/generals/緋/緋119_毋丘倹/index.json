@@ -1,0 +1,47 @@
+{
+  "no": "緋119",
+  "id": "2e668cf383eedd339da70b0f7014e621",
+  "detailImageId": "53c704ee28d72b283333020f0bd2e3a4",
+  "name": "毋丘倹",
+  "kanaName": "かんきゅうけん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "反旗の砦",
+    "kanaName": "はんきのとりで",
+    "cost": "3",
+    "description": "【拠点】（発動すると弓攻撃を行う拠点が設置される。拠点は同時に複数設置できず、耐久力が０になると破壊される）<br>一定時間ごとに拠点から接触した味方の武力が上がり、溜まる覇気が敵軍のものになる波紋が発生する",
+    "categories": [
+      "全体強化",
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2e668cf383eedd339da70b0f7014e621",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2268"
+  }
+}

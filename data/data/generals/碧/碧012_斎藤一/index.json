@@ -1,0 +1,36 @@
+{
+  "no": "碧012",
+  "id": "e57b87e92384d1bf0bf1568ab9e7987b",
+  "detailImageId": "613fecfb784cb12ba2c1294f2c89344c",
+  "name": "斎藤一",
+  "kanaName": "さいとうはじめ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "太刀一閃",
+    "kanaName": "たちいっせん",
+    "cost": "5",
+    "description": "武力が上がり、斬撃の範囲が広くなる。さらに斬撃を当てた最も近い敵の場所に一瞬で移動する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e57b87e92384d1bf0bf1568ab9e7987b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/130.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_214"
+  }
+}

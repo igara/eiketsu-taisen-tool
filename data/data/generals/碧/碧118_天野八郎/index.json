@@ -1,0 +1,41 @@
+{
+  "no": "碧118",
+  "id": "3ea71a12a549d9f3fcbee1b3e0a4f275",
+  "detailImageId": "c33f708e4ed36bd09c93f6854a499ef2",
+  "name": "天野八郎",
+  "kanaName": "あまのはちろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "香車の走り",
+    "kanaName": "きょうしゃのはしり",
+    "cost": "3",
+    "description": "武力と移動速度と突撃ダメージが上がる。ただし向いている方向に強制的に移動する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3ea71a12a549d9f3fcbee1b3e0a4f275",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2278"
+  }
+}

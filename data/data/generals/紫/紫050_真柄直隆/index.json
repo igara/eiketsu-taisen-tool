@@ -1,0 +1,43 @@
+{
+  "no": "紫050",
+  "id": "4d0f4ac3b944c7b8e7014f55dd572b81",
+  "detailImageId": "d8722a866f0c671309fc5afb265155d6",
+  "name": "真柄直隆",
+  "kanaName": "まがらなおたか",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "真柄の大太刀",
+    "kanaName": "まがらのおおたち",
+    "cost": "5",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力が上がり、槍が長くなる。一定以上武力が上がると、さらに特技「気合」の効果が上がる",
+    "categories": [
+      "強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4d0f4ac3b944c7b8e7014f55dd572b81",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/991.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1311"
+  }
+}

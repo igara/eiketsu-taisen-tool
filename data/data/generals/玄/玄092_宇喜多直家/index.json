@@ -1,0 +1,48 @@
+{
+  "no": "玄092",
+  "id": "1860aa3c05b69c20964c24dce3294f88",
+  "detailImageId": "d36d466285a86f11205e05e89b45a01a",
+  "name": "宇喜多直家",
+  "kanaName": "うきたなおいえ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "絶命の謀略",
+    "kanaName": "ぜつめいのぼうりゃく",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>敵の武力を下げる。さらに範囲内の敵が撤退すると復活時間が増加する",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1860aa3c05b69c20964c24dce3294f88",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1266.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1427"
+  }
+}

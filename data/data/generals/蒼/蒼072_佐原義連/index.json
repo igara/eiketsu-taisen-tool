@@ -1,0 +1,44 @@
+{
+  "no": "蒼072",
+  "id": "ee40ae1104f23306a1072906f6cc7694",
+  "detailImageId": "e1622f4efb141d82f14aef71f9242742",
+  "name": "佐原義連",
+  "kanaName": "さわらよしつら",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "奉武の飛翔",
+    "kanaName": "ほうぶのひしょう",
+    "cost": "5",
+    "description": "武力が上がり、旋回操作を行うと向いている方向に跳躍を行うようになる。跳躍中は計略の対象にならなくなり、着地時に敵に武力によるダメージを与える。ダメージは互いの武力で上下する。味方の陣形の効果を受けている時、この計略の必要士気が下がる",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ee40ae1104f23306a1072906f6cc7694",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/921.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1224"
+  }
+}

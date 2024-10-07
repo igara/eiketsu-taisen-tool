@@ -1,0 +1,44 @@
+{
+  "no": "紫058",
+  "id": "45dd3fd9dbd65f102f82024598d412ba",
+  "detailImageId": "f6480b849e81b142bf895ad4c2c0da92",
+  "name": "麒麟無極",
+  "kanaName": "きりんむごく",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "鬼の瞬地",
+    "kanaName": "おにのしゅんち",
+    "cost": "3",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>武力が上がり、自身を除く戦場にいる最も武力の高い味方の場所に一瞬で移動する",
+    "categories": [
+      "強化",
+      "特殊",
+      "ため計略"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=45dd3fd9dbd65f102f82024598d412ba",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1210.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1445"
+  }
+}

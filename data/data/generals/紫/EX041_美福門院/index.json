@@ -1,0 +1,43 @@
+{
+  "no": "EX041",
+  "id": "6a5965539f2f0238534d1ffd28b6d95e",
+  "detailImageId": "57e27d36f75b54a0d9fe786936bf3122",
+  "name": "美福門院",
+  "kanaName": "びふくもんいん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "盤上遊戯",
+    "kanaName": "ばんじょうゆうぎ",
+    "cost": "4",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>敵の武力を下げる。一定以上武力を下げると、さらに武力を徐々に下げる",
+    "categories": [
+      "妨害",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6a5965539f2f0238534d1ffd28b6d95e",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1081.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1322"
+  }
+}

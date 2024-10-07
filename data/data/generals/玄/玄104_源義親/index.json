@@ -1,0 +1,42 @@
+{
+  "no": "玄104",
+  "id": "68513e985bfcc10e0a6729661c2fbdfc",
+  "detailImageId": "1f014e10f26f582c06caeb0afecbabb1",
+  "name": "源義親",
+  "kanaName": "みなもとのよしちか",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "傲れる者",
+    "kanaName": "おごれるもの",
+    "cost": "4",
+    "description": "武力が上がり、特技「気合」の効果が上がる。さらに効果中に撤退すると復活時間が減少する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "32",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=68513e985bfcc10e0a6729661c2fbdfc",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1279.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1437"
+  }
+}

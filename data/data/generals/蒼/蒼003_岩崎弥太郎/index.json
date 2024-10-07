@@ -1,0 +1,37 @@
+{
+  "no": "蒼003",
+  "id": "b5535e467a179ba1de7c02a2fe84cc37",
+  "detailImageId": "8a6f3389a2acfe3fdb7009893c7ee629",
+  "name": "岩崎弥太郎",
+  "kanaName": "いわさきやたろう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "獄中の学び",
+    "kanaName": "ごくちゅうのまなび",
+    "cost": "4",
+    "description": "知力が上がり、効果終了時に士気が上がる。ただし移動速度が下がる",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "4",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b5535e467a179ba1de7c02a2fe84cc37",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/152.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_253"
+  }
+}

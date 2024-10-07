@@ -1,0 +1,37 @@
+{
+  "no": "玄015",
+  "id": "f9da5444e8c57543c620b99a02e3137c",
+  "detailImageId": "47c6f1a9c33e2f35ab7678e48e82bf32",
+  "name": "千葉さな子",
+  "kanaName": "ちばさなこ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "鬼小町の奮激",
+    "kanaName": "おにこまちのふんげき",
+    "cost": "3",
+    "description": "武力が上がり、兵力が上限を超えて回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f9da5444e8c57543c620b99a02e3137c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/150.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_242"
+  }
+}

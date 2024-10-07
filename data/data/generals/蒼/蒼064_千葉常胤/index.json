@@ -1,0 +1,43 @@
+{
+  "no": "蒼064",
+  "id": "c075378254f96703e282830bf1e546da",
+  "detailImageId": "bfb455936a0fed495d166e41a6640e24",
+  "name": "千葉常胤",
+  "kanaName": "ちばつねたね",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "奉武の奮攻",
+    "kanaName": "ほうぶのふんこう",
+    "cost": "4",
+    "description": "武力が上がり、兵力が上限を超えて回復する。味方の陣形の効果を受けている時、この計略の必要士気が下がる",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c075378254f96703e282830bf1e546da",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/762.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_467"
+  }
+}

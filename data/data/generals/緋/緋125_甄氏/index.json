@@ -1,0 +1,41 @@
+{
+  "no": "緋125",
+  "id": "3b614f56870defa7d57c858a7a46ef1e",
+  "detailImageId": "59d838ee234412a7e29f318810c0d97c",
+  "name": "甄氏",
+  "kanaName": "しんし",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "麗人の祈り",
+    "kanaName": "れいじんのいのり",
+    "cost": "3",
+    "description": "最も武力の高い緋の味方の武力が上がる。この効果は対象の味方が覇道に近いほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3b614f56870defa7d57c858a7a46ef1e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2271"
+  }
+}

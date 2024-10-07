@@ -1,0 +1,46 @@
+{
+  "no": "玄125",
+  "id": "9fa53020bf70ae2d751c29671924458f",
+  "detailImageId": "651f0294161befeedcc607bfbcc3fedf",
+  "name": "ジャムカ",
+  "kanaName": "ジャムカ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "西遼の剛弓",
+    "kanaName": "せいりょうのごうきゅう",
+    "cost": "5",
+    "description": "武力と移動速度と走射中の弓攻撃のダメージが上がり、走射間隔が短縮される。ただし射程距離が短くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "32",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9fa53020bf70ae2d751c29671924458f",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2254"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "no": "碧109",
+  "id": "6d192619944a07ef201e8084897f15df",
+  "detailImageId": "3f3f05055ce8cb97c466aa2f82a71dd4",
+  "name": "鄒忌",
+  "kanaName": "すうき",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "護国の旋律",
+    "kanaName": "ごこくのせんりつ",
+    "cost": "4",
+    "description": "知力が上がる。さらに自身が城内にいる間、味方の城内での兵力回復速度と出城速度が上がる",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "固定時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "4",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6d192619944a07ef201e8084897f15df",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1573.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2149"
+  }
+}

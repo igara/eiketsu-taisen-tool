@@ -1,0 +1,42 @@
+{
+  "no": "琥041",
+  "id": "fa33696000837e14f8e72d9e6c270dd3",
+  "detailImageId": "59cc67fe58da2bf4a6d547c55ac12ee2",
+  "name": "賈充",
+  "kanaName": "かじゅう",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "騎破の悪夢",
+    "kanaName": "きはのあくむ",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、敵の計略の対象にならなくなる。さらに騎兵への突撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fa33696000837e14f8e72d9e6c270dd3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1526.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2179"
+  }
+}

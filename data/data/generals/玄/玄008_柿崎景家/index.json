@@ -1,0 +1,42 @@
+{
+  "no": "玄008",
+  "id": "42e38114684c1cf929f612ae7a38ae51",
+  "detailImageId": "c91b68a1dbb9da47e94c85669d4bb981",
+  "name": "柿崎景家",
+  "kanaName": "かきざきかげいえ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "先鋒の強襲",
+    "kanaName": "せんぽうのきょうしゅう",
+    "cost": "5",
+    "description": "武力と知力が上がる。ただし武力と知力が徐々に下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=42e38114684c1cf929f612ae7a38ae51",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/178.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_238"
+  }
+}

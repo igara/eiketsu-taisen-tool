@@ -1,0 +1,36 @@
+{
+  "no": "PL027",
+  "id": "3085b32df2746659e0f81a954097f98b",
+  "detailImageId": "7d104c9328f17c85f8d02e7af8f74ef6",
+  "name": "松野千冬",
+  "kanaName": "まつのちふゆ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "相棒との共闘",
+    "kanaName": "あいぼうとのきょうとう",
+    "cost": "5",
+    "description": "自身と、自身を除く最も武力の高い味方の武力と移動速度が上がる。さらに自身が突撃を当てた敵の武力を一定時間下げる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "6",
+  "intelligentzia": "2",
+  "skill": [],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3085b32df2746659e0f81a954097f98b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/843.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_539"
+  }
+}

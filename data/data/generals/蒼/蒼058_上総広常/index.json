@@ -1,0 +1,36 @@
+{
+  "no": "蒼058",
+  "id": "a0155b0eb0ec83b376790357e73a6cb7",
+  "detailImageId": "28223dbeedb35472dc5cd7b102e32d28",
+  "name": "上総広常",
+  "kanaName": "かずさひろつね",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "奉武の砕剣",
+    "kanaName": "ほうぶのさいけん",
+    "cost": "4",
+    "description": "武力と斬撃ダメージが上がり、斬撃で敵城にダメージを与えるようになる。味方の陣形の効果を受けている時、この計略の必要士気が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a0155b0eb0ec83b376790357e73a6cb7",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/720.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_484"
+  }
+}

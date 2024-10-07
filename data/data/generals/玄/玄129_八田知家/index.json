@@ -1,0 +1,41 @@
+{
+  "no": "玄129",
+  "id": "89fc48871f05a0101b54a4063053243c",
+  "detailImageId": "fd3ce675c119004cfc4277b52c6a2d4c",
+  "name": "八田知家",
+  "kanaName": "はったともいえ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "不死の城塞",
+    "kanaName": "ふしのじょうさい",
+    "cost": "3",
+    "description": "【拠点】（発動すると弓攻撃を行う拠点が設置される。拠点は同時に複数設置できず、耐久力が０になると破壊される）<br>この拠点は設置するたびに耐久度が上がる",
+    "categories": [
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=89fc48871f05a0101b54a4063053243c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2292"
+  }
+}

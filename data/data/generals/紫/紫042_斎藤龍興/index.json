@@ -1,0 +1,37 @@
+{
+  "no": "紫042",
+  "id": "1bc7ae73108b3ae8b8a6261fbb9c90ae",
+  "detailImageId": "54440d2a9beee91dfdd52075c1ac8e7a",
+  "name": "斎藤龍興",
+  "kanaName": "さいとうたつおき",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "呪縛の陣",
+    "kanaName": "じゅばくのじん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>敵の移動速度を下げる",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "17292188368f5be2f97facc14cc393a0"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1bc7ae73108b3ae8b8a6261fbb9c90ae",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/983.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1292"
+  }
+}

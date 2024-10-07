@@ -1,0 +1,41 @@
+{
+  "no": "蒼124",
+  "id": "80a2f49e9ee9f977b4f1955171355e31",
+  "detailImageId": "733839585cf629d5fdcfabfd237e16c2",
+  "name": "チンギス・ハン",
+  "kanaName": "チンギス・ハン",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "3.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "蒼き狼の大号令",
+    "kanaName": "あおきおおかみのだいごうれい",
+    "cost": "7",
+    "description": "蒼の味方の武力と移動速度が上がる。さらに自身の武力と移動速度が上がり、移動しながら弓攻撃を行うようになり、矢を当てている敵の武力を下げる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "11",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80a2f49e9ee9f977b4f1955171355e31",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2238"
+  }
+}

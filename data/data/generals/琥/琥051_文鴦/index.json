@@ -1,0 +1,43 @@
+{
+  "no": "琥051",
+  "id": "0ab1d53cfc654537545c6e71ca764625",
+  "detailImageId": "69bde18bffb7bf14bf9d3f1eec39751d",
+  "name": "文鴦",
+  "kanaName": "ぶんおう",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "三鼓之勇",
+    "kanaName": "さんこのゆう",
+    "cost": "6",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力と移動速度と槍撃ダメージが上がり、槍が長くなる<br>３消費：さらに槍撃が複数部隊に当たるようになり、敵を撃破するたびに敵城にダメージを与える",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0ab1d53cfc654537545c6e71ca764625",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1539.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2187"
+  }
+}

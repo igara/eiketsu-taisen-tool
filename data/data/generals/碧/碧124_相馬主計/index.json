@@ -1,0 +1,46 @@
+{
+  "no": "碧124",
+  "id": "163a189b866385215b40dba7d79c0843",
+  "detailImageId": "b799f640cc338b9c2d6994cc372e2bea",
+  "name": "相馬主計",
+  "kanaName": "そうまかずえ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "最後の局長",
+    "kanaName": "さいごのきょくちょう",
+    "cost": "5",
+    "description": "武力と移動速度と斬撃ダメージが上がる。さらに敵を撃破するたびに復活時間が減少する。ただし効果終了時に撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=163a189b866385215b40dba7d79c0843",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2283"
+  }
+}

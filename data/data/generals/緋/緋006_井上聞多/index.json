@@ -1,0 +1,36 @@
+{
+  "no": "緋006",
+  "id": "a3a185060da696e279f90431ccc95033",
+  "detailImageId": "3146a8ed3d4da982b99193b0705eb225",
+  "name": "井上聞多",
+  "kanaName": "いのうえもんた",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "分限者の暗躍",
+    "kanaName": "ぶげんしゃのあんやく",
+    "cost": "5",
+    "description": "敵の武力を下げる。さらに対象の敵が撤退すると自軍の士気が上がる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a3a185060da696e279f90431ccc95033",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/122.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_194"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "no": "PL062",
+  "id": "5e7013c3ee4077b3e6ccbd1582825317",
+  "detailImageId": "e120e5f5e4c3dfd0f2f55c5b4e837834",
+  "name": "織田信長",
+  "kanaName": "おだのぶなが",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "魔王の采配",
+    "kanaName": "まおうのさいはい",
+    "cost": "7",
+    "description": "味方の武力が上がり、鉄砲隊であれば弾数の回復速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5e7013c3ee4077b3e6ccbd1582825317",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1658.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2211"
+  }
+}

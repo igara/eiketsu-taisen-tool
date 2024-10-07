@@ -1,0 +1,37 @@
+{
+  "no": "碧024",
+  "id": "22c3fd9e61d4efe351b7774ea4ae5d93",
+  "detailImageId": "7d779cde38e55baa686824f119088514",
+  "name": "藤堂平助",
+  "kanaName": "とうどうへいすけ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "死地の奮闘",
+    "kanaName": "しちのふんとう",
+    "cost": "4",
+    "description": "戦場にいる敵の部隊数が多いほど武力が上がり、味方の部隊数が少ないほど兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=22c3fd9e61d4efe351b7774ea4ae5d93",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/139.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_219"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "no": "琥007",
+  "id": "f3b074a6ffed3987c46ad3c2d7ccde31",
+  "detailImageId": "86fa423b9aa98feee3a1d671013b7926",
+  "name": "九天",
+  "kanaName": "きゅうてん",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "九天玄女の化身",
+    "kanaName": "きゅうてんげんにょのけしん",
+    "cost": "5",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力と移動速度が上がる。さらに効果中に斬撃を行えるようになる<br>３消費：さらに斬撃時の攻撃回数が増え、移動しながら斬撃ができるようになる",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3b074a6ffed3987c46ad3c2d7ccde31",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1305.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1354"
+  }
+}

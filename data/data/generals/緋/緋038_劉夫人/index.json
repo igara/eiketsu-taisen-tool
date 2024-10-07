@@ -1,0 +1,37 @@
+{
+  "no": "緋038",
+  "id": "4fc8e62618fe7e2297526f2e8cc0dbfd",
+  "detailImageId": "e722748fa6da7f6d97a931094073aaa4",
+  "name": "劉夫人",
+  "kanaName": "りゅうふじん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "飛天の舞い",
+    "kanaName": "ひてんのまい",
+    "cost": "7",
+    "description": "【舞い】（発動すると移動と兵種アクションができなくなる。自身は自身の舞いの効果を受けない）<br>味方の移動速度が上がる",
+    "categories": [
+      "全体強化",
+      "舞い"
+    ],
+    "time": "撤退するまで",
+    "range": "4d3caffa4b65d477e2065a8e4524774e"
+  },
+  "power": "1",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4fc8e62618fe7e2297526f2e8cc0dbfd",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/278.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_308"
+  }
+}

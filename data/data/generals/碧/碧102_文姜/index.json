@@ -1,0 +1,42 @@
+{
+  "no": "碧102",
+  "id": "c6121983062979bc624a2c96b2ce9301",
+  "detailImageId": "191071cd1c6d745fb434f0b8234cd0db",
+  "name": "文姜",
+  "kanaName": "ぶんきょう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "服従の命令",
+    "kanaName": "ふくじゅうのめいれい",
+    "cost": "5",
+    "description": "最も武力の高い味方の武力と乱戦中の攻撃速度が上がる。ただし効果終了時に対象の味方は撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c6121983062979bc624a2c96b2ce9301",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1227.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1422"
+  }
+}

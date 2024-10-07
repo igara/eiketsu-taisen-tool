@@ -1,0 +1,41 @@
+{
+  "no": "琥069",
+  "id": "4ddcab8bff4233fc8cbc58d79ed5d50d",
+  "detailImageId": "e41a8e63c1938ddcd2f58d15e04c7b15",
+  "name": "驪姫",
+  "kanaName": "りき",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "麗姫の乱心",
+    "kanaName": "れいきのらんしん",
+    "cost": "4",
+    "description": "自身を除く最も武力の低い味方一人が撤退し、自身を除く最も武力の高い琥の味方の武力と移動速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "2",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ddcab8bff4233fc8cbc58d79ed5d50d",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2245"
+  }
+}

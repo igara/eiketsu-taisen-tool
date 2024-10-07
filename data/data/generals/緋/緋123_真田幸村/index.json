@@ -1,0 +1,44 @@
+{
+  "no": "緋123",
+  "id": "1c09ca45cee323f192dff2ac58cc8573",
+  "detailImageId": "cf5a90ed7764603927c4de5c87a566a9",
+  "name": "真田幸村",
+  "kanaName": "さなだゆきむら",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "3.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "六文銭の鼓動",
+    "kanaName": "ろくもんせんのこどう",
+    "cost": "5",
+    "description": "武力と移動速度が上がる。この効果は自軍の武将登録数が少ないほど大きい。さらに以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・覚醒【２】：自身を除く接触した味方の武力が上がる波紋を発生させる。さらに味方が自身の波紋に接触するたびに、自身の兵力が回復する",
+    "categories": [
+      "強化",
+      "全体強化",
+      "回復",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "11",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1c09ca45cee323f192dff2ac58cc8573",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2246"
+  }
+}

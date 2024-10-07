@@ -1,0 +1,43 @@
+{
+  "no": "玄088",
+  "id": "3aef4fd880e3dac047a2326ac990b9f0",
+  "detailImageId": "c8c2b3e94950d93aa1f6c0e0ccce4816",
+  "name": "武蔵坊弁慶",
+  "kanaName": "むさしぼうべんけい",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "破戒僧の警衛",
+    "kanaName": "はかいそうのけいえい",
+    "cost": "5",
+    "description": "自身の武力が上がり、武力によるダメージを軽減する。さらに自身を除く最も武力の高い玄の味方の兵力が上限を超えて回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3aef4fd880e3dac047a2326ac990b9f0",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1007.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1308"
+  }
+}

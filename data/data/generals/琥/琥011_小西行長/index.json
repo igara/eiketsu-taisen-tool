@@ -1,0 +1,37 @@
+{
+  "no": "琥011",
+  "id": "f8e54dcbba0cc4ce7c018d0145baa26b",
+  "detailImageId": "665dbaa6c9040400a16a09dc7ae7e841",
+  "name": "小西行長",
+  "kanaName": "こにしゆきなが",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "琥煌の麻痺矢",
+    "kanaName": "ここうのまひや",
+    "cost": "4",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がり、矢を当てている敵の移動速度を下げる",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f8e54dcbba0cc4ce7c018d0145baa26b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1324.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1460"
+  }
+}

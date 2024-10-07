@@ -1,0 +1,43 @@
+{
+  "no": "紫055",
+  "id": "9866655fafbabdd6f5e5fd3329bcfa82",
+  "detailImageId": "9cb8742722fc256b003057b0a4724304",
+  "name": "河鍋暁斎",
+  "kanaName": "かわなべきょうさい",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "画鬼の遊狂",
+    "kanaName": "がきのゆうきょう",
+    "cost": "2",
+    "description": "武力が上がり、兵種をランダムに変更する",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9866655fafbabdd6f5e5fd3329bcfa82",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1286.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1443"
+  }
+}

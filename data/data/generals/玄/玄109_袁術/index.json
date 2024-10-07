@@ -1,0 +1,43 @@
+{
+  "no": "玄109",
+  "id": "4a2d385fd287097eb6c830cb759820e8",
+  "detailImageId": "5c208a0218194a561c547a13ce36ae46",
+  "name": "袁術",
+  "kanaName": "えんじゅつ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "偽帝大爆発！",
+    "kanaName": "ぎていだいばくはつ",
+    "cost": "5",
+    "description": "武力と知力が上がり、巨大化する。ただし斬撃ができなくなる。さらに効果終了時に自身が撤退していない場合、接触中の敵に知力によるダメージを与える。ダメージは互いの知力で上下する。ただし自身は撤退する",
+    "categories": [
+      "強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4a2d385fd287097eb6c830cb759820e8",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1581.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2158"
+  }
+}

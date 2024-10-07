@@ -1,0 +1,53 @@
+{
+  "no": "玄087",
+  "id": "3cdc8d9a7a02456bfac41503d9370c85",
+  "detailImageId": "0a81190e6fe7a973e85c5cdea70e06ff",
+  "name": "源頼朝",
+  "kanaName": "みなもとのよりとも",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "武皇の大恩命",
+    "kanaName": "ぶおうのだいおんめい",
+    "cost": "7",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の武力が上がり、計略の必要士気が下がる。この効果は必要士気２を下限とする",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "7",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3cdc8d9a7a02456bfac41503d9370c85",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1006.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1235"
+  }
+}

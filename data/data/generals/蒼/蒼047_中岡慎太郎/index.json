@@ -1,0 +1,42 @@
+{
+  "no": "蒼047",
+  "id": "0d7bb6f37a3efa9decf3723530e057f7",
+  "detailImageId": "566a16b1f3e3f115dda29f66c7de78ae",
+  "name": "中岡慎太郎",
+  "kanaName": "なかおかしんたろう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "報国之志",
+    "kanaName": "ほうこくのこころざし",
+    "cost": "5",
+    "description": "武力と移動速度が上がる。さらに敵を撃破するたびに覇道が前進する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0d7bb6f37a3efa9decf3723530e057f7",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/500.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_331"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "no": "緋051",
+  "id": "3c6df4be9a2e5a0e16dfcc7981e5afc8",
+  "detailImageId": "b9f6da44819d3f386dc2bd94e1e89f85",
+  "name": "張遼",
+  "kanaName": "ちょうりょう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "合肥の剛鬼",
+    "kanaName": "がっぴのごうき",
+    "cost": "6",
+    "description": "戦場にいる味方の部隊数に応じて計略効果が変わる<br>４部隊以上：武力と移動速度と突撃ダメージが上がる<br>３部隊以下：武力が上がり、兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3c6df4be9a2e5a0e16dfcc7981e5afc8",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/480.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_333"
+  }
+}

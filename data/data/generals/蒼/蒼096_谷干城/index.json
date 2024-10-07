@@ -1,0 +1,47 @@
+{
+  "no": "蒼096",
+  "id": "59df43bcdbb851085a576da6d192e5e3",
+  "detailImageId": "413b10984e5e04f819dc55f1573dd1c4",
+  "name": "谷干城",
+  "kanaName": "たにたてき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "火焔戦法",
+    "kanaName": "かえんせんぽう",
+    "cost": "3",
+    "description": "武力と知力が上がり、知力による戦闘ダメージを与えるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=59df43bcdbb851085a576da6d192e5e3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1239.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1390"
+  }
+}

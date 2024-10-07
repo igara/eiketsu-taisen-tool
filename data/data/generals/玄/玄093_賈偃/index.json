@@ -1,0 +1,48 @@
+{
+  "no": "玄093",
+  "id": "5c0e2f9d6861c5ad89fc3db825455be9",
+  "detailImageId": "f8cc127b0543efcd474f882df4798448",
+  "name": "賈偃",
+  "kanaName": "かえん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "決意の蒼炎",
+    "kanaName": "けついのそうえん",
+    "cost": "5",
+    "description": "武力と移動速度が上がる。さらに自軍が戦器を解放していなければ槍撃ダメージが上がり、戦器を解放していれば兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5c0e2f9d6861c5ad89fc3db825455be9",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1267.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1428"
+  }
+}

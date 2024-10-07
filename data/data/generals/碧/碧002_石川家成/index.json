@@ -1,0 +1,42 @@
+{
+  "no": "碧002",
+  "id": "1d9c406936d8a8bda9ccf477aad58d11",
+  "detailImageId": "f0ee37f191d59dd18440648e58c74d1a",
+  "name": "石川家成",
+  "kanaName": "いしかわいえなり",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "強化戦法",
+    "kanaName": "きょうかせんぽう",
+    "cost": "4",
+    "description": "武力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1d9c406936d8a8bda9ccf477aad58d11",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/204.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_212"
+  }
+}

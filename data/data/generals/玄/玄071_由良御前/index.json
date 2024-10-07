@@ -1,0 +1,48 @@
+{
+  "no": "玄071",
+  "id": "0f7b57867c4b3ecdf78221ea40dbdff8",
+  "detailImageId": "0c17dd7fed40c3618b7be153422ef9b7",
+  "name": "由良御前",
+  "kanaName": "ゆらごぜん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "流転の祈り",
+    "kanaName": "るてんのいのり",
+    "cost": "3",
+    "description": "最も武力の高い味方にかかっているすべての計略効果を消し、武力が上がる。計略効果を消した場合、さらに移動速度が上がる",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "1",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0f7b57867c4b3ecdf78221ea40dbdff8",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/683.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_464"
+  }
+}

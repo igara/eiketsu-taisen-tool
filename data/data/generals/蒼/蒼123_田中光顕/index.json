@@ -1,0 +1,46 @@
+{
+  "no": "蒼123",
+  "id": "91c69524fc07f13e0994b91d387fe55f",
+  "detailImageId": "1287cfeed07ce6f5b87451c53842f6b5",
+  "name": "田中光顕",
+  "kanaName": "たなかみつあき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "志の継承",
+    "kanaName": "こころざしのけいしょう",
+    "cost": "3",
+    "description": "味方が撤退するたびに、武力と知力が撤退した味方の武力と知力と等しくなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "1",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=91c69524fc07f13e0994b91d387fe55f",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2260"
+  }
+}

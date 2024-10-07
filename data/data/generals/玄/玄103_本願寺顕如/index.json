@@ -1,0 +1,49 @@
+{
+  "no": "玄103",
+  "id": "d90fa2ad39f56572768ed7102222bea5",
+  "detailImageId": "a7f5bcfd0e475fb44e0224166f9e9b24",
+  "name": "本願寺顕如",
+  "kanaName": "ほんがんじけんにょ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "如来の光盾",
+    "kanaName": "にょらいのこうじゅん",
+    "cost": "7",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>玄の味方の武力が上がり、兵力が徐々に回復する。さらに向いている方向に射撃を無効化する盾が出現する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d90fa2ad39f56572768ed7102222bea5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1278.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1360"
+  }
+}

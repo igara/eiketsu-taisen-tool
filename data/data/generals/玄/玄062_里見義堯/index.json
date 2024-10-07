@@ -1,0 +1,42 @@
+{
+  "no": "玄062",
+  "id": "e137e9da6c5c38ffb805456b6a26e8eb",
+  "detailImageId": "a96e81a271d2cd89b8d557d0707c9680",
+  "name": "里見義堯",
+  "kanaName": "さとみよしたか",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "戦巧者の采配",
+    "kanaName": "いくさこうしゃのさいはい",
+    "cost": "5",
+    "description": "味方の武力が上がる。さらに敵を撃破するたびに流派ゲージが上昇する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e137e9da6c5c38ffb805456b6a26e8eb",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/648.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_507"
+  }
+}

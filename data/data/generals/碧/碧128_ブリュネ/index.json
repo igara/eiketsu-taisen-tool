@@ -1,0 +1,46 @@
+{
+  "no": "碧128",
+  "id": "6c47d41c9908c306812aad488edbcccc",
+  "detailImageId": "20cbbe55f52e0b9d323e46ad74705de4",
+  "name": "ブリュネ",
+  "kanaName": "ブリュネ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "3.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "最後のサムライ",
+    "kanaName": "らすとさむらい",
+    "cost": "7",
+    "description": "碧の味方の武力が上がる。さらに自身の斬撃ダメージが上がり、斬撃の範囲が広くなる。ただし自身の斬撃ができるまでの時間が長くなる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6c47d41c9908c306812aad488edbcccc",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2250"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "蒼101",
+  "id": "9459f8727affd5eb95ba0ecab43cf9f4",
+  "detailImageId": "c7afb1278fe353f33f723b63ab785c6c",
+  "name": "比企能員",
+  "kanaName": "ひきよしかず",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "奉武の継援",
+    "kanaName": "ほうぶのけいえん",
+    "cost": "5",
+    "description": "味方の兵力が徐々に回復する。味方の陣形の効果を受けている時、この計略の必要士気が下がる",
+    "categories": [
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9459f8727affd5eb95ba0ecab43cf9f4",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1242.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2041"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "EX080",
+  "id": "69c1ea4ee1f7cd53b77f097a0bb0a5a9",
+  "detailImageId": "57e89a5c931c5727737792235998136f",
+  "name": "郭図",
+  "kanaName": "かくと",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "魔道解放",
+    "kanaName": "まどうかいほう",
+    "cost": "6",
+    "description": "範囲内の味方一人が撤退し、味方の武力が上がる。この効果は撤退した味方の武将コストが高いほど大きい",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "32",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=69c1ea4ee1f7cd53b77f097a0bb0a5a9",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1686.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2217"
+  }
+}

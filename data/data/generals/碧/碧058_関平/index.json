@@ -1,0 +1,42 @@
+{
+  "no": "碧058",
+  "id": "ee50a314dbc7e9d9874d3d56646c454e",
+  "detailImageId": "51aad55b67cf933e5c470f94d4d47d44",
+  "name": "関平",
+  "kanaName": "かんぺい",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "忠勇の目覚め",
+    "kanaName": "ちゅうゆうのめざめ",
+    "cost": "4",
+    "description": "兵力が多いほど武力が上がる。一定以上武力が上がると攻城力が上がり、全方向に槍の無敵攻撃を行う",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ee50a314dbc7e9d9874d3d56646c454e",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/712.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_497"
+  }
+}

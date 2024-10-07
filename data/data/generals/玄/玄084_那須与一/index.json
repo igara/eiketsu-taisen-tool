@@ -1,0 +1,42 @@
+{
+  "no": "玄084",
+  "id": "f1210e84eeb1d732a8b7840007aeff57",
+  "detailImageId": "cebc505ea8012457122a8c25172c4b4c",
+  "name": "那須与一",
+  "kanaName": "なすのよいち",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "与一の目覚め",
+    "kanaName": "よいちのめざめ",
+    "cost": "3",
+    "description": "戦場にいる玄の味方の武力の最大値が大きいほど武力が上がる。一定以上武力が上がると、さらに矢を当てている敵の移動速度を下げる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f1210e84eeb1d732a8b7840007aeff57",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1005.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1284"
+  }
+}

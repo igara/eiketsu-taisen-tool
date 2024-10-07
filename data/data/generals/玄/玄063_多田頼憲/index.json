@@ -1,0 +1,47 @@
+{
+  "no": "玄063",
+  "id": "6b090f33195b458135c51f0714978187",
+  "detailImageId": "f194ef996f244ff92dec81170435228f",
+  "name": "多田頼憲",
+  "kanaName": "ただよりのり",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "捨身の速斬",
+    "kanaName": "すてみのそくざん",
+    "cost": "3",
+    "description": "武力が上がり、斬撃ができるまでの時間が短くなる。ただし効果終了時に兵力が減少する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b090f33195b458135c51f0714978187",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/677.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_470"
+  }
+}

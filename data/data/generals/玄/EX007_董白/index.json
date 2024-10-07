@@ -1,0 +1,42 @@
+{
+  "no": "EX007",
+  "id": "347f6a2c9540d37c07b465b9a808bdd6",
+  "detailImageId": "3974955667e7cee6b2834f9ec3a9b36a",
+  "name": "董白",
+  "kanaName": "とうはく",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "退路遮断",
+    "kanaName": "たいろしゃだん",
+    "cost": "2",
+    "description": "敵を城に戻れなくする",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=347f6a2c9540d37c07b465b9a808bdd6",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/545.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_425"
+  }
+}

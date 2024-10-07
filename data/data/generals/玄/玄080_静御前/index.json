@@ -1,0 +1,49 @@
+{
+  "no": "玄080",
+  "id": "dc9944054c7fa78f147093f779e92eef",
+  "detailImageId": "d2289e88887fa9beff8c8d0da1771697",
+  "name": "静御前",
+  "kanaName": "しずかごぜん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "白拍子の舞い",
+    "kanaName": "しらびょうしのまい",
+    "cost": "5",
+    "description": "【舞い】（発動すると移動と兵種アクションができなくなる。自身は自身の舞いの効果を受けない）<br>味方の武力が上がる。さらに味方が計略を発動するたびに味方全ての兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "舞い"
+    ],
+    "time": "撤退するまで",
+    "range": "4d3caffa4b65d477e2065a8e4524774e"
+  },
+  "power": "1",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dc9944054c7fa78f147093f779e92eef",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1001.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1236"
+  }
+}

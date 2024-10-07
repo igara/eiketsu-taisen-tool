@@ -1,0 +1,36 @@
+{
+  "no": "碧016",
+  "id": "2249aafd9d696e1af5b3382c0fa36401",
+  "detailImageId": "ddda79c6b2608ee07bdfbfe207e60802",
+  "name": "島田魁",
+  "kanaName": "しまだかい",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "島田汁粉",
+    "kanaName": "しまだしるこ",
+    "cost": "3",
+    "description": "兵力が徐々に回復する",
+    "categories": [
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2249aafd9d696e1af5b3382c0fa36401",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/283.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_292"
+  }
+}

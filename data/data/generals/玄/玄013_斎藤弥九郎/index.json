@@ -1,0 +1,36 @@
+{
+  "no": "玄013",
+  "id": "f7eb2aa53ccfffd94697c0f1a6481b25",
+  "detailImageId": "aa5b77cc7d01bc6b825027044c45a942",
+  "name": "斎藤弥九郎",
+  "kanaName": "さいとうやくろう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "刹那の剛剣",
+    "kanaName": "せつなのごうけん",
+    "cost": "4",
+    "description": "武力と斬撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f7eb2aa53ccfffd94697c0f1a6481b25",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/199.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_156"
+  }
+}

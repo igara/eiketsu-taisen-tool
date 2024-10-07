@@ -1,0 +1,43 @@
+{
+  "no": "玄110",
+  "id": "80a42f4af59a0c8f9a67d3befdba778a",
+  "detailImageId": "d2c690a5a8344800f7246be63db39aa8",
+  "name": "河田長親",
+  "kanaName": "かわだながちか",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "短計・装填",
+    "kanaName": "たんけい・そうてん",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>残弾数が回復する。この短計は残弾数が０の時のみ使用できる",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80a42f4af59a0c8f9a67d3befdba778a",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1582.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2159"
+  }
+}

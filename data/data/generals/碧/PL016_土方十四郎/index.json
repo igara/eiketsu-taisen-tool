@@ -1,0 +1,44 @@
+{
+  "no": "PL016",
+  "id": "8677107f2041922414af6a4112852830",
+  "detailImageId": "a003636602ae910eeff6154781e9c67f",
+  "name": "土方十四郎",
+  "kanaName": "ひじかたとうしろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "鬼の副長",
+    "kanaName": "おにのふくちょう",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>碧の味方の武力が上がり、敵の移動速度を下げる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8677107f2041922414af6a4112852830",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/425.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_328"
+  }
+}

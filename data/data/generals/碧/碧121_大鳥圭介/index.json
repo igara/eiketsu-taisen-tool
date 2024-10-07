@@ -1,0 +1,42 @@
+{
+  "no": "碧121",
+  "id": "45212a210a227f67e6bc467cc8cef60e",
+  "detailImageId": "f685be359b625ca8cfe2abbabb67ff68",
+  "name": "大鳥圭介",
+  "kanaName": "おおとりけいすけ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "築城典刑",
+    "kanaName": "ちくじょうてんけい",
+    "cost": "4",
+    "description": "【拠点】（発動すると弓攻撃を行う拠点が設置される。拠点は同時に複数設置できず、耐久力が０になると破壊される）<br>一定時間ごとに拠点から接触した味方の兵力が回復する波紋が発生する",
+    "categories": [
+      "回復",
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=45212a210a227f67e6bc467cc8cef60e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2249"
+  }
+}

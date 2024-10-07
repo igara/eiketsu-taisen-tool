@@ -1,0 +1,42 @@
+{
+  "no": "蒼028",
+  "id": "eea095ab213c4d23b3d5be2e467020a3",
+  "detailImageId": "29008bfeb574c681cce68bde69aca3c3",
+  "name": "楢崎龍",
+  "kanaName": "ならさきりょう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "英魂の目覚め",
+    "kanaName": "えいこんのめざめ",
+    "cost": "4",
+    "description": "武力が上がる。この効果は撤退中の味方の最大武将コストが高いほど大きい。一定以上武力が上がると、さらに移動速度と突撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eea095ab213c4d23b3d5be2e467020a3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/108.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_263"
+  }
+}

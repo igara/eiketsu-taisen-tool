@@ -1,0 +1,42 @@
+{
+  "no": "PL014",
+  "id": "7c69f1f029e18b47425ebce97e9c330c",
+  "detailImageId": "328c91a347133f0b2793b39c34b56192",
+  "name": "坂田銀時",
+  "kanaName": "さかたぎんとき",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "俺の国",
+    "kanaName": "おれのくに",
+    "cost": "5",
+    "description": "武力が上がり、戦場にいる間斬撃の範囲が徐々に広くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7c69f1f029e18b47425ebce97e9c330c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/412.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_326"
+  }
+}

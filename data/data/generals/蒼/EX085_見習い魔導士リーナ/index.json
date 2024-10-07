@@ -1,0 +1,48 @@
+{
+  "no": "EX085",
+  "id": "dbcbd58b56a2c5dc09d314b121bc79ae",
+  "detailImageId": "228708078666df19977062a324107a3a",
+  "name": "見習い魔導士リーナ",
+  "kanaName": "みならいまどうしリーナ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "特殊",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "リバイブ",
+    "kanaName": "りばいぶ",
+    "cost": "6",
+    "description": "撤退中の最も武力の高い蒼の味方が復活し、武力が上がる。さらに撤退した場所に出現する",
+    "categories": [
+      "強化",
+      "復活"
+    ],
+    "time": "知力時間",
+    "range": "6eb8e47f0679d32604f502b2c3eb3b0d"
+  },
+  "power": "2",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dbcbd58b56a2c5dc09d314b121bc79ae",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1699.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2226"
+  }
+}

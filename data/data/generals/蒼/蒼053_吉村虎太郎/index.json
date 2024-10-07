@@ -1,0 +1,42 @@
+{
+  "no": "蒼053",
+  "id": "6acaed869d0ad5bf7f3894a35cd264be",
+  "detailImageId": "1c09f26ad669c9026aa359a286069e0d",
+  "name": "吉村虎太郎",
+  "kanaName": "よしむらとらたろう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "捨身戦法",
+    "kanaName": "すてみせんぽう",
+    "cost": "3",
+    "description": "武力が上がる。ただし効果終了時に兵力が減少する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6acaed869d0ad5bf7f3894a35cd264be",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/499.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_344"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "EX040",
+  "id": "403e6edb1b63492e4c64ba312a17faae",
+  "detailImageId": "94415c3dbd9adbc3984adaa1e432b648",
+  "name": "鍾会",
+  "kanaName": "しょうかい",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "尽滅の号令",
+    "kanaName": "じんめつのごうれい",
+    "cost": "6",
+    "description": "三国志の味方の武力が上がる。ただし自城にダメージを受ける",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=403e6edb1b63492e4c64ba312a17faae",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1082.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1321"
+  }
+}

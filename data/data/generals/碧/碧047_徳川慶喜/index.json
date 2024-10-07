@@ -1,0 +1,43 @@
+{
+  "no": "碧047",
+  "id": "53ca03248ce7cc31644887d270a02cbd",
+  "detailImageId": "8e0c58ad490d21f6d3d458647900c4c9",
+  "name": "徳川慶喜",
+  "kanaName": "とくがわよしのぶ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "大政奉還",
+    "kanaName": "たいせいほうかん",
+    "cost": "6",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>自軍の士気が上がる。ただし戦場の味方が全て撤退する。この効果は撤退した味方の武将コストの合計値が高いほど大きい。この計略は戦闘中一度しか使用できない",
+    "categories": [
+      "特殊",
+      "ため計略"
+    ],
+    "time": "一瞬",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "6",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=53ca03248ce7cc31644887d270a02cbd",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/487.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_338"
+  }
+}

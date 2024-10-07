@@ -1,0 +1,37 @@
+{
+  "no": "玄059",
+  "id": "f1673c192ec3ec186259fe2ea32f914a",
+  "detailImageId": "0cb5bc61914a0186dc7d0d66de75270a",
+  "name": "鎌田政清",
+  "kanaName": "かまたまさきよ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "莫逆の契り",
+    "kanaName": "ばくぎゃくのちぎり",
+    "cost": "5",
+    "description": "自身と、自身を除く最も武力の高い玄の味方の武力が上がり、兵力が回復する。ただし効果終了時に自身の兵力が減少する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f1673c192ec3ec186259fe2ea32f914a",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/678.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_504"
+  }
+}

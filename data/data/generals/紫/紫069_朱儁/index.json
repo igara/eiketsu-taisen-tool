@@ -1,0 +1,43 @@
+{
+  "no": "紫069",
+  "id": "baed66c87310541f92182f9939c111d5",
+  "detailImageId": "ecf0ca803eb995ac9ab17db91b49a3a1",
+  "name": "朱儁",
+  "kanaName": "しゅしゅん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "決河之勢",
+    "kanaName": "けっかのいきおい",
+    "cost": "6",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>紫の味方の武力が上がる。一定以上武力が上がると、さらに自身の武力と移動速度が上がり、突撃を敵に当てるたびに自軍の士気が上がる",
+    "categories": [
+      "全体強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=baed66c87310541f92182f9939c111d5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1593.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2168"
+  }
+}

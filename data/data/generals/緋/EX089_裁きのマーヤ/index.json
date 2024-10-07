@@ -1,0 +1,44 @@
+{
+  "no": "EX089",
+  "id": "123c3ae3817d4925ea5ced7d245ad3ef",
+  "detailImageId": "4eb127508b19bc2b4c5ffa81d8a4dca8",
+  "name": "裁きのマーヤ",
+  "kanaName": "さばきのマーヤ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "煉獄の判決",
+    "kanaName": "れんごくのはんけつ",
+    "cost": "4",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力が上がり、敵の武力を下げる",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=123c3ae3817d4925ea5ced7d245ad3ef",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1710.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2230"
+  }
+}

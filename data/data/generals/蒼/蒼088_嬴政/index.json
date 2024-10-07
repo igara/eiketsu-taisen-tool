@@ -1,0 +1,53 @@
+{
+  "no": "蒼088",
+  "id": "6418df07351b398ce1eb7cc4c5673708",
+  "detailImageId": "3594e2bf4525e6c00bbdd4f5d52397dc",
+  "name": "嬴政",
+  "kanaName": "えいせい",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "皇帝の路",
+    "kanaName": "こうていのみち",
+    "cost": "7",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>蒼の味方の武力が上がる。さらに覇道が前進するたびに範囲が大きくなり、範囲内の蒼の味方の武力が一定時間上がる。ただし覇気が溜まる量が減る",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6418df07351b398ce1eb7cc4c5673708",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1230.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1362"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "玄043",
+  "id": "b03cc3a39718fb9bc073d3ad9a2e37eb",
+  "detailImageId": "fb7fb286873f175fbda476ed063ecaa3",
+  "name": "韓遂",
+  "kanaName": "かんすい",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "反逆の狼煙",
+    "kanaName": "はんぎゃくののろし",
+    "cost": "4",
+    "description": "自身を除く範囲内の味方一人が撤退し、自身の武力が上がる。ただし範囲内に味方がいない場合、効果が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b03cc3a39718fb9bc073d3ad9a2e37eb",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/488.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_342"
+  }
+}

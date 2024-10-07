@@ -1,0 +1,48 @@
+{
+  "no": "緋122",
+  "id": "4ae511d1cf9c81f6998687b3c068b949",
+  "detailImageId": "2e62ee9ccc2357a5e284e9befefc38a2",
+  "name": "真田信幸",
+  "kanaName": "さなだのぶゆき",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "熾焔の鼓動",
+    "kanaName": "しえんのこどう",
+    "cost": "4",
+    "description": "武力と射程距離が上がる。さらに以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・桎梏【２】：接触した敵の武力と移動速度を下げる波紋を発生させる",
+    "categories": [
+      "強化",
+      "妨害",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ae511d1cf9c81f6998687b3c068b949",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2269"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "緋112",
+  "id": "97c192dacd9169585323c212c742ed1d",
+  "detailImageId": "ad27b18d49a142a9f52c681c180a37ba",
+  "name": "諸葛誕",
+  "kanaName": "しょかつたん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "覇退の斬広",
+    "kanaName": "はたいのざんこう",
+    "cost": "3",
+    "description": "武力が上がり、斬撃の範囲が広くなる。ただし覇道が後退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=97c192dacd9169585323c212c742ed1d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1563.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2141"
+  }
+}

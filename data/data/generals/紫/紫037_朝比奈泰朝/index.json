@@ -1,0 +1,36 @@
+{
+  "no": "紫037",
+  "id": "404bd31d483f203374ef5968bcfbd83b",
+  "detailImageId": "9ae82ed9bde12902fd50ee491a726bc6",
+  "name": "朝比奈泰朝",
+  "kanaName": "あさひなやすとも",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "斬広の構え",
+    "kanaName": "ざんこうのかまえ",
+    "cost": "2",
+    "description": "斬撃の範囲が広くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=404bd31d483f203374ef5968bcfbd83b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/978.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1288"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "no": "PL008",
+  "id": "0c6fb81e8e45d86899e43862f202b0b3",
+  "detailImageId": "3cd5a0a5fdd49b1d70f5f83b8ab4a79d",
+  "name": "王騎",
+  "kanaName": "おうき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "3.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "天下の大将軍",
+    "kanaName": "てんかのだいしょうぐん",
+    "cost": "8",
+    "description": "蒼の味方の武力と移動速度と攻城力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "11",
+  "intelligentzia": "11",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0c6fb81e8e45d86899e43862f202b0b3",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/343.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_317"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "no": "玄012",
+  "id": "84b5776fcba3f2ee8b12c7723e1c505c",
+  "detailImageId": "db00348622875950023ff7840c09aec8",
+  "name": "雑賀孫市",
+  "kanaName": "さいかまごいち",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "乱れ八咫烏",
+    "kanaName": "みだれやたがらす",
+    "cost": "7",
+    "description": "武力と射程距離が上がり、同時に射撃できる部隊数が増える",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=84b5776fcba3f2ee8b12c7723e1c505c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/136.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_241"
+  }
+}

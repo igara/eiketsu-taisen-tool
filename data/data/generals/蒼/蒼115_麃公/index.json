@@ -1,0 +1,42 @@
+{
+  "no": "蒼115",
+  "id": "d8c8f01adc3295782664bc304dd83bc5",
+  "detailImageId": "b435507f8a8f7a1485c5da0344448256",
+  "name": "麃公",
+  "kanaName": "ひょうこう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "混戦突破の猛勇",
+    "kanaName": "こんせんとっぱのもうゆう",
+    "cost": "4",
+    "description": "武力が上がる。この効果は接触している敵部隊数が多いほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d8c8f01adc3295782664bc304dd83bc5",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1553.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2133"
+  }
+}

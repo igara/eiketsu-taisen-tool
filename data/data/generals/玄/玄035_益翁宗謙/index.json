@@ -1,0 +1,47 @@
+{
+  "no": "玄035",
+  "id": "78efbb668901f8cc033634a07f673649",
+  "detailImageId": "ca5489176dc310a21ef31ffa8c1c92f9",
+  "name": "益翁宗謙",
+  "kanaName": "やくおうしゅうけん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "陣中の禅問答",
+    "kanaName": "じんちゅうのぜんもんどう",
+    "cost": "3",
+    "description": "最も武力の高い玄の味方の知力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "1",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=78efbb668901f8cc033634a07f673649",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/211.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_250"
+  }
+}

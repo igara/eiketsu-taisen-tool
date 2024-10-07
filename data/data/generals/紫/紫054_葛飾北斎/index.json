@@ -1,0 +1,42 @@
+{
+  "no": "紫054",
+  "id": "89f0ef8710d9b4aeb06cd10cacb34fbd",
+  "detailImageId": "ad03d8d835fc8a6cb02b89e6c942d5ff",
+  "name": "葛飾北斎",
+  "kanaName": "かつしかほくさい",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "怒濤八方睨み",
+    "kanaName": "どとうはっぽうにらみ",
+    "cost": "5",
+    "description": "敵に知力によるダメージを与える。ダメージは互いの知力で上下する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "08ddb89408245f5b48f45563e7519d38"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=89f0ef8710d9b4aeb06cd10cacb34fbd",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1158.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1442"
+  }
+}

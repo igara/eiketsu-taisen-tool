@@ -1,0 +1,42 @@
+{
+  "no": "蒼094",
+  "id": "10af8ecdc2ecf402f3cc3a9732bf8bd8",
+  "detailImageId": "01d5eb5b98e44e7a96a5ef5049ff6309",
+  "name": "昭襄王",
+  "kanaName": "しょうじょうおう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "秦国飛躍の口火",
+    "kanaName": "しんこくひやくのくちび",
+    "cost": "4",
+    "description": "蒼の味方の武力が上がる。さらに覇気の溜まる量が増え、後方でも覇気が溜まるようになる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=10af8ecdc2ecf402f3cc3a9732bf8bd8",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1236.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1389"
+  }
+}

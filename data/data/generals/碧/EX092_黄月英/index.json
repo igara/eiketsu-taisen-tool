@@ -1,0 +1,41 @@
+{
+  "no": "EX092",
+  "id": "b6d9e10c3daaf8a29b6e9e1ff2b40b1b",
+  "detailImageId": "8dcc97d69fff91e80a6cb893c83b9bfb",
+  "name": "黄月英",
+  "kanaName": "こうげつえい",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "発明家の奇策",
+    "kanaName": "はつめいかのきさく",
+    "cost": "3",
+    "description": "武力と射程距離が上がり、矢を当てている敵の受ける兵種アクションのダメージを増加する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b6d9e10c3daaf8a29b6e9e1ff2b40b1b",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2236"
+  }
+}

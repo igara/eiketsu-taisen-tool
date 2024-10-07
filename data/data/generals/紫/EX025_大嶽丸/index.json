@@ -1,0 +1,43 @@
+{
+  "no": "EX025",
+  "id": "dbe3fcc65815de4188b79db839a86acc",
+  "detailImageId": "a6867fbc2840908fee058e562383dd90",
+  "name": "大嶽丸",
+  "kanaName": "おおたけまる",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "鈴鹿山の鬼神",
+    "kanaName": "すずかやまのきじん",
+    "cost": "6",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力と移動速度が上がる。一定以上武力が上がると、さらに突撃ダメージが上がる",
+    "categories": [
+      "強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dbe3fcc65815de4188b79db839a86acc",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/860.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_548"
+  }
+}

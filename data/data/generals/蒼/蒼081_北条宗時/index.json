@@ -1,0 +1,42 @@
+{
+  "no": "蒼081",
+  "id": "acf8f0616740731ede901462b0464f0c",
+  "detailImageId": "fac1731ec3a97aaa590a612e2e4305fe",
+  "name": "北条宗時",
+  "kanaName": "ほうじょうむねとき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "活路を求めて",
+    "kanaName": "かつろをもとめて",
+    "cost": "1",
+    "description": "移動速度が上がる。ただし武力が下がり、武力によるダメージが増加する。この効果は城に戻ると終了する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=acf8f0616740731ede901462b0464f0c",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/930.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1250"
+  }
+}

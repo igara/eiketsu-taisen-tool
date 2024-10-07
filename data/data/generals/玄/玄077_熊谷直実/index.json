@@ -1,0 +1,42 @@
+{
+  "no": "玄077",
+  "id": "8d3c1d501427a2c15822dbf2e10ff148",
+  "detailImageId": "bba643cb10dbcd5f0cdfc9754cf2be2a",
+  "name": "熊谷直実",
+  "kanaName": "くまがいなおざね",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "老将の一閃",
+    "kanaName": "ろうしょうのいっせん",
+    "cost": "5",
+    "description": "最も武力の低い敵に武力によるダメージを与える。ダメージは互いの武力で上下する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8d3c1d501427a2c15822dbf2e10ff148",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/997.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1279"
+  }
+}

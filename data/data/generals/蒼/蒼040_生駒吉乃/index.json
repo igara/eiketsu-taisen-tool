@@ -1,0 +1,37 @@
+{
+  "no": "蒼040",
+  "id": "403567bdd11d5e7ad28056ac66da5415",
+  "detailImageId": "18238bae09f00c62c0a29933612a6ddd",
+  "name": "生駒吉乃",
+  "kanaName": "いこまきつの",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "悲哀の舞い",
+    "kanaName": "ひあいのまい",
+    "cost": "6",
+    "description": "【舞い】（発動すると移動と兵種アクションができなくなる。自身は自身の舞いの効果を受けない）<br>味方が撤退するたびに味方の武力が一定時間上がる",
+    "categories": [
+      "全体強化",
+      "舞い"
+    ],
+    "time": "撤退するまで",
+    "range": "4d3caffa4b65d477e2065a8e4524774e"
+  },
+  "power": "1",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=403567bdd11d5e7ad28056ac66da5415",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/460.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_356"
+  }
+}

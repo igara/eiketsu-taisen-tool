@@ -1,0 +1,37 @@
+{
+  "no": "琥019",
+  "id": "6d447dd6f3fafaa2608837769d63fce9",
+  "detailImageId": "9c49b9cf7476664c7336f18bd9ef03e3",
+  "name": "島津斉彬",
+  "kanaName": "しまづなりあきら",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "琥煌の貫通射撃",
+    "kanaName": "ここうのかんつうしゃげき",
+    "cost": "4",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がり、敵を貫通して射撃できるようになる",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6d447dd6f3fafaa2608837769d63fce9",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1329.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1466"
+  }
+}

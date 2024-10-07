@@ -1,0 +1,43 @@
+{
+  "no": "緋106",
+  "id": "a2695cead3597374bb618f170db9302a",
+  "detailImageId": "af9fb3f109ed91d20ed13bff76b5fd6f",
+  "name": "魏媼",
+  "kanaName": "ぎおう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "縮地の祈り",
+    "kanaName": "しゅくちのいのり",
+    "cost": "4",
+    "description": "城内にいる最も武力の高い緋の味方の武力が上がり、戦場に出現する",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "6eb8e47f0679d32604f502b2c3eb3b0d"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a2695cead3597374bb618f170db9302a",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1558.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2137"
+  }
+}

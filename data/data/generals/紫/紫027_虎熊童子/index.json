@@ -1,0 +1,42 @@
+{
+  "no": "紫027",
+  "id": "c3628b33479bc71778145ea6acac1b85",
+  "detailImageId": "f159bbc9f8be71630a6739e0761b4709",
+  "name": "虎熊童子",
+  "kanaName": "とらくまどうじ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "鬼神の乱撃",
+    "kanaName": "きじんのらんげき",
+    "cost": "4",
+    "description": "武力と乱戦中の攻撃速度が上がる。ただし移動速度が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c3628b33479bc71778145ea6acac1b85",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/734.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_472"
+  }
+}

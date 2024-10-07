@@ -1,0 +1,36 @@
+{
+  "no": "ST004",
+  "id": "8619be98608c668665a6746e7ed898a6",
+  "detailImageId": "c3bf7f1fce521a5e2c4653b906713612",
+  "name": "上杉謙信",
+  "kanaName": "うえすぎけんしん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "指揮",
+    "kanaName": "しき",
+    "cost": "5",
+    "description": "味方の武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "48",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8619be98608c668665a6746e7ed898a6",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/181.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_151"
+  }
+}

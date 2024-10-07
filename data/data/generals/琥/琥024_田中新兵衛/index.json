@@ -1,0 +1,43 @@
+{
+  "no": "琥024",
+  "id": "b284f0af7ded03459dfae964af968c87",
+  "detailImageId": "03b46ae1ef681cb5bfa85d69232ecf89",
+  "name": "田中新兵衛",
+  "kanaName": "たなかしんべえ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "3.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "琥煌の天誅",
+    "kanaName": "ここうのてんちゅう",
+    "cost": "6",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力と移動速度が上がり、特技「忍」の効果が上がる<br>３消費：さらに斬撃時の攻撃回数が増える。ただし斬撃による弾き距離が短くなる",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b284f0af7ded03459dfae964af968c87",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1219.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1470"
+  }
+}

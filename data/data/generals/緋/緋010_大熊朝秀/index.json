@@ -1,0 +1,47 @@
+{
+  "no": "緋010",
+  "id": "63d390268da13de046401bbb1889a3d4",
+  "detailImageId": "8a99f238e68b072ac98d13b23403f6f3",
+  "name": "大熊朝秀",
+  "kanaName": "おおくまともひで",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "反逆の剛剣",
+    "kanaName": "はんぎゃくのごうけん",
+    "cost": "4",
+    "description": "自身を除く範囲内にいる味方一人が撤退し、自身の武力と斬撃ダメージが上がる。ただし範囲内に味方がいない場合、効果が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=63d390268da13de046401bbb1889a3d4",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/195.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_196"
+  }
+}

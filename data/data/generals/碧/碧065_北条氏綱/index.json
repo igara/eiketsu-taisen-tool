@@ -1,0 +1,42 @@
+{
+  "no": "碧065",
+  "id": "a5632bed8398e55c859e1ed8c0692847",
+  "detailImageId": "a5e3572e6f077357b8b75303a0f29208",
+  "name": "北条氏綱",
+  "kanaName": "ほうじょううじつな",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "獅子の覇道",
+    "kanaName": "ししのはどう",
+    "cost": "6",
+    "description": "碧の味方の武力が上がる。この効果は発動時の覇道が敵城に近いほど大きい",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a5632bed8398e55c859e1ed8c0692847",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/744.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_446"
+  }
+}

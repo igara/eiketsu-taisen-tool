@@ -1,0 +1,42 @@
+{
+  "no": "蒼103",
+  "id": "5ba0b4ee400bbcbb0ae83a3b170d2fdc",
+  "detailImageId": "378c539b07fa781162e8da2d16b26b4e",
+  "name": "嫪毐",
+  "kanaName": "ろうあい",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "男の諸刃車輪",
+    "kanaName": "おとこのもろはしゃりん",
+    "cost": "3",
+    "description": "武力が上がり、全方向に槍の無敵攻撃を行う。ただし武力によるダメージが増加する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5ba0b4ee400bbcbb0ae83a3b170d2fdc",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1213.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1396"
+  }
+}

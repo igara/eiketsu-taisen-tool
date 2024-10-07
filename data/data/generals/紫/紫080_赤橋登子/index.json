@@ -1,0 +1,42 @@
+{
+  "no": "紫080",
+  "id": "b84e4401d3ac81095ec4efda2a657438",
+  "detailImageId": "9ebdbc4585c8135fb40e656d27f463cd",
+  "name": "赤橋登子",
+  "kanaName": "あかはしとうし",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "双龍の奔走",
+    "kanaName": "そうりゅうのほんそう",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、突撃を敵に当てるたびに兵力が回復する。さらに突撃を当てた敵の武力を一定時間下げる",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b84e4401d3ac81095ec4efda2a657438",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2242"
+  }
+}

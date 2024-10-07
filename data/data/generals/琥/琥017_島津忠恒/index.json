@@ -1,0 +1,42 @@
+{
+  "no": "琥017",
+  "id": "892300e9ccc92fe8f10588e05b778b18",
+  "detailImageId": "b1accc0465b1a0d780f6b2c18cbc6d9b",
+  "name": "島津忠恒",
+  "kanaName": "しまづただつね",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "鴻鵠の采配",
+    "kanaName": "こうこくのさいはい",
+    "cost": "4",
+    "description": "味方の武力が上がる。さらに鉄砲隊であれば突撃によって射撃がキャンセルされなくなる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=892300e9ccc92fe8f10588e05b778b18",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1220.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1464"
+  }
+}

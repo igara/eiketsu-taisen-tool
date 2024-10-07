@@ -1,0 +1,41 @@
+{
+  "no": "玄122",
+  "id": "27283ca6695240416e179393911a9c1b",
+  "detailImageId": "103d24c9cb3aff3e67e768a4113fecec",
+  "name": "片倉喜多",
+  "kanaName": "かたくらきた",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "砲火の祈り",
+    "kanaName": "ほうかのいのり",
+    "cost": "3",
+    "description": "最も武力の高い玄の味方の武力が上がり、鉄砲隊か竜騎馬であれば弾数が回復する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=27283ca6695240416e179393911a9c1b",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2289"
+  }
+}

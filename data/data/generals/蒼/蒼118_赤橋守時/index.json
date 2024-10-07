@@ -1,0 +1,42 @@
+{
+  "no": "蒼118",
+  "id": "621356eb4d682c75bc93c006b1912b1b",
+  "detailImageId": "149425032394583ef315fd0e34ca0665",
+  "name": "赤橋守時",
+  "kanaName": "あかはしもりとき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "百折不撓の死戦",
+    "kanaName": "ひゃくせつふとうのしせん",
+    "cost": "5",
+    "description": "武力と移動速度が上がる。さらに突撃オーラ中のみ以下の短計を発動できる。ただし効果終了時に撤退する<br>短計・貫突【１】：移動速度が上がり、向いている方向に敵を貫通する突撃を行う。突撃中は敵城に接触しても突撃オーラは消えない",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=621356eb4d682c75bc93c006b1912b1b",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2256"
+  }
+}

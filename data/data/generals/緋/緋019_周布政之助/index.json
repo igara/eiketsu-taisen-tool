@@ -1,0 +1,42 @@
+{
+  "no": "緋019",
+  "id": "1167a66b5572154fbb5d7fe193742ae4",
+  "detailImageId": "23c3fad969a61ba155a530a0fb985244",
+  "name": "周布政之助",
+  "kanaName": "すふまさのすけ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "漢の意地",
+    "kanaName": "おとこのいじ",
+    "cost": "4",
+    "description": "武力が上がる。ただし効果終了時に撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1167a66b5572154fbb5d7fe193742ae4",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/154.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_210"
+  }
+}

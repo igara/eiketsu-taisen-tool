@@ -1,0 +1,38 @@
+{
+  "no": "緋071",
+  "id": "d34a1bb338d13bc41a71d721b52b8e3b",
+  "detailImageId": "4c230c60555b9a49cbf35f1da160670a",
+  "name": "海御前",
+  "kanaName": "あまごぜ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "式神・天后",
+    "kanaName": "しきがみ・てんこう",
+    "cost": "3",
+    "description": "【式神】（使用すると移動と兵種アクションができなくなり、一定時間後に式神を召喚する。式神は同時に複数召喚できず、反計されない。召喚中は自身の代わりに式神を操作でき、自身が撤退すると式神は消滅する）<br>式神が接触した敵の武力を一定時間下げる",
+    "categories": [
+      "特殊",
+      "ため計略",
+      "式神"
+    ],
+    "time": "固定時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d34a1bb338d13bc41a71d721b52b8e3b",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/936.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1251"
+  }
+}

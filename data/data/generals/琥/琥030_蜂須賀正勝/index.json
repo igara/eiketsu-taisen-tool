@@ -1,0 +1,44 @@
+{
+  "no": "琥030",
+  "id": "f0faf5f8c492f4d6e7ba62869aab0b5a",
+  "detailImageId": "307e4546a472cff5d5595c2756ea5a3e",
+  "name": "蜂須賀正勝",
+  "kanaName": "はちすかまさかつ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "琥煌の方陣",
+    "kanaName": "ここうのほうじん",
+    "cost": "4",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>琥の味方の武力が上がる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f0faf5f8c492f4d6e7ba62869aab0b5a",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1333.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1474"
+  }
+}

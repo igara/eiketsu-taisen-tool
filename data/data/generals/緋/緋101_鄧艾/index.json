@@ -1,0 +1,43 @@
+{
+  "no": "緋101",
+  "id": "25f966b6566dc8ca9cab5f42b30e6c3e",
+  "detailImageId": "733ee0fd42e52a9a7586f9182998d186",
+  "name": "鄧艾",
+  "kanaName": "とうがい",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "神騎の極意",
+    "kanaName": "しんきのごくい",
+    "cost": "6",
+    "description": "対象の騎兵の味方部隊数に応じて騎兵の味方の武力が上がり、以下の効果を得る<br>１部隊：武力と移動速度が上がり、敵を撃破するたびに兵力が回復する<br>２部隊：武力と移動速度と突撃ダメージが上がり、突撃オーラが出るまでの距離が短縮される<br>３部隊以上：武力が上がり、迎撃ダメージと迎撃・斬撃による速度低下を受けなくなる",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=25f966b6566dc8ca9cab5f42b30e6c3e",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1260.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1407"
+  }
+}

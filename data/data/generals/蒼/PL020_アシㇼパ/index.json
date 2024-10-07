@@ -1,0 +1,42 @@
+{
+  "no": "PL020",
+  "id": "c111db8973d1ddd74de1b7915aa21610",
+  "detailImageId": "d50e4d5693ee08f88879976fd473cb46",
+  "name": "アシㇼパ",
+  "kanaName": "アシㇼパ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "アイヌの毒矢",
+    "kanaName": "あいぬのどくや",
+    "cost": "4",
+    "description": "武力が上がり、弓攻撃でダメージを与えた敵の兵力を一定時間徐々に減少させる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c111db8973d1ddd74de1b7915aa21610",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/559.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_429"
+  }
+}

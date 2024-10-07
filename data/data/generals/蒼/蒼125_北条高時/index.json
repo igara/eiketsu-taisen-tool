@@ -1,0 +1,36 @@
+{
+  "no": "蒼125",
+  "id": "2c589d164c4853069d92afd409c80228",
+  "detailImageId": "cce37580727047e9738a66e3fa3fbbb7",
+  "name": "北条高時",
+  "kanaName": "ほうじょうたかとき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "妖霊星の舞い",
+    "kanaName": "ようれいぼしのまい",
+    "cost": "4",
+    "description": "【舞】（発動すると移動と兵種アクションができなくなる。自身は自身の舞いの効果を受けない）<br>味方の短計の再度発動までの時間が短縮され、必要士気が０．５になる",
+    "categories": [
+      "全体強化",
+      "舞い"
+    ],
+    "time": "撤退するまで",
+    "range": "4d3caffa4b65d477e2065a8e4524774e"
+  },
+  "power": "2",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2c589d164c4853069d92afd409c80228",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2261"
+  }
+}

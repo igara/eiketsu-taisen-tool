@@ -1,0 +1,42 @@
+{
+  "no": "蒼001",
+  "id": "4d27103773c758a36e53523310ccf7bd",
+  "detailImageId": "c585d5b0e770d32f2396e3d946aee6b6",
+  "name": "池内蔵太",
+  "kanaName": "いけくらた",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "気合戦法",
+    "kanaName": "きあいせんぽう",
+    "cost": "3",
+    "description": "武力が上がり、特技「気合」の効果が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4d27103773c758a36e53523310ccf7bd",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/63.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_251"
+  }
+}

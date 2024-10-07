@@ -1,0 +1,37 @@
+{
+  "no": "EX087",
+  "id": "14aace7d070d91f7355c4b1ad67a98b7",
+  "detailImageId": "d64d88f1afa6480bd40668953e10c8e8",
+  "name": "戦神・毘沙門",
+  "kanaName": "せんじん・びしゃもん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "特殊",
+  "cost": "3.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "戦神の怒号",
+    "kanaName": "せんじんのどごう",
+    "cost": "8",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>自身を除く敵と味方が撤退する",
+    "categories": [
+      "特殊",
+      "ため計略"
+    ],
+    "time": "一瞬",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "11",
+  "intelligentzia": "11",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=14aace7d070d91f7355c4b1ad67a98b7",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1701.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2231"
+  }
+}

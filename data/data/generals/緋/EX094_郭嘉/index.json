@@ -1,0 +1,41 @@
+{
+  "no": "EX094",
+  "id": "a33dac4dc20fc2e1f13800e1c285b3d9",
+  "detailImageId": "7007306df3c5dd0a88492fdd05fd0d9b",
+  "name": "郭嘉",
+  "kanaName": "かくか",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "剛騎の大号令",
+    "kanaName": "ごうきのだいごうれい",
+    "cost": "6",
+    "description": "味方の武力が上がり、騎兵であれば突撃ダメージが上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "6",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a33dac4dc20fc2e1f13800e1c285b3d9",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3096"
+  }
+}

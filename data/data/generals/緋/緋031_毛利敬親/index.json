@@ -1,0 +1,42 @@
+{
+  "no": "緋031",
+  "id": "eace486594de17a8d4aa4c7aadf4df27",
+  "detailImageId": "e08977fa1d9e6cce415aaa3e6fc2e170",
+  "name": "毛利敬親",
+  "kanaName": "もうりたかちか",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "後方指揮",
+    "kanaName": "こうほうしき",
+    "cost": "4",
+    "description": "味方の武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eace486594de17a8d4aa4c7aadf4df27",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/196.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_206"
+  }
+}

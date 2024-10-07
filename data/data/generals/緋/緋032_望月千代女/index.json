@@ -1,0 +1,43 @@
+{
+  "no": "緋032",
+  "id": "00ec0c33182304b2f59ff2ab51ecec70",
+  "detailImageId": "97c38d8b9faaf483b9320f08abcbe054",
+  "name": "望月千代女",
+  "kanaName": "もちづきちよじょ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "振鈴の陣",
+    "kanaName": "しんれいのじん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>範囲内の最も武将コストの高い敵の武力と知力と移動速度を下げる",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "17292188368f5be2f97facc14cc393a0"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "22",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=00ec0c33182304b2f59ff2ab51ecec70",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/281.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_281"
+  }
+}

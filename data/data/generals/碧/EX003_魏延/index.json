@@ -1,0 +1,36 @@
+{
+  "no": "EX003",
+  "id": "cb271163f4fbac709756da58451316ca",
+  "detailImageId": "5f2d93dd6f14d5f1fe0fce1ae3473e25",
+  "name": "魏延",
+  "kanaName": "ぎえん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "唯我独尊",
+    "kanaName": "ゆいがどくそん",
+    "cost": "5",
+    "description": "武力が上がる。ただし自身を除く範囲内の味方が撤退する。この効果は撤退した味方部隊数が多いほど大きい。一定以上武力が上がると、さらに移動速度が上がり、突撃を当てた敵の移動速度を一定時間下げる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cb271163f4fbac709756da58451316ca",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/374.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_319"
+  }
+}

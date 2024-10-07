@@ -1,0 +1,41 @@
+{
+  "no": "PL068",
+  "id": "eb71e3acf5dd0f259cd2680acdb3d9df",
+  "detailImageId": "aa3818fbf04add6da47a851e8f0d48a3",
+  "name": "長宗我部信親",
+  "kanaName": "ちょうそかべのぶちか",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "輩への采配",
+    "kanaName": "ともがらへのさいはい",
+    "cost": "9",
+    "description": "蒼の味方の武力と知力と移動速度が上がり、迎撃ダメージと迎撃・斬撃による速度低下を受けなくなる。ただし効果終了時に撤退する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eb71e3acf5dd0f259cd2680acdb3d9df",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_2233"
+  }
+}

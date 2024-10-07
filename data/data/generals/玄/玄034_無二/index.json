@@ -1,0 +1,42 @@
+{
+  "no": "玄034",
+  "id": "9fac2e5f1679c4904739d649f0e3f7a1",
+  "detailImageId": "da7d15a07d6a04860c23f24583b06399",
+  "name": "無二",
+  "kanaName": "むに",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "二丁拳銃",
+    "kanaName": "にちょうけんじゅう",
+    "cost": "4",
+    "description": "武力と射程距離が上がり、射撃を当てた敵を自身の方向に引き寄せるようになる。狙撃状態の射撃を当てた場合、代わりに敵を弾き飛ばす",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9fac2e5f1679c4904739d649f0e3f7a1",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/119.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_169"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "no": "緋084",
+  "id": "53c33c3365a29be27af7415d1ccb9811",
+  "detailImageId": "495336e8945eedda4836baea9e9d05f7",
+  "name": "平知盛",
+  "kanaName": "たいらのとももり",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "興隆の軌跡",
+    "kanaName": "こうりゅうのきせき",
+    "cost": "7",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>武力と移動速度が上がり、自身が移動する範囲が緋の味方の武力と知力が上がる陣形になる",
+    "categories": [
+      "強化",
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=53c33c3365a29be27af7415d1ccb9811",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/953.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_1233"
+  }
+}

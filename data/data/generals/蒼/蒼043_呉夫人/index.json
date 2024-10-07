@@ -1,0 +1,42 @@
+{
+  "no": "蒼043",
+  "id": "1a3d595c90fd876c5e7272704964d46d",
+  "detailImageId": "71f7444d454c9b4f0fe11d9a654a5fa6",
+  "name": "呉夫人",
+  "kanaName": "ごふじん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "賢母の教え",
+    "kanaName": "けんぼのおしえ",
+    "cost": "5",
+    "description": "蒼の味方の武力と知力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1a3d595c90fd876c5e7272704964d46d",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/503.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_359"
+  }
+}
