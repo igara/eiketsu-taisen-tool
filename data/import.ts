@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { google, type youtube_v3 } from "googleapis";
 import DOMParser from "node-html-parser";
 import sharp from "sharp";
 import type { Skill } from "./types";
@@ -326,3 +327,63 @@ const main = async () => {
 	}
 };
 main();
+
+const youtubeImport = async () => {
+	if (!process.env.GOOGLE_KEY) return;
+
+	const youtube = google.youtube({
+		version: "v3",
+		auth: process.env.GOOGLE_KEY,
+	});
+
+	let nextPageToken = "";
+	let allItems: youtube_v3.Schema$PlaylistItem[] = [];
+
+	do {
+		const response = await youtube.playlistItems.list({
+			playlistId: "PLvy-GrTTg3WxIPplHPm5GYOfgX8Hw8uMu",
+			part: ["snippet"],
+			maxResults: 50,
+			pageToken: nextPageToken,
+		});
+
+		const items = response.data.items || [];
+		allItems = allItems.concat(items);
+
+		nextPageToken = response.data.nextPageToken || "";
+	} while (nextPageToken);
+
+	const videos = allItems.reduce(
+		(acc, item) => {
+			const snippet = item.snippet;
+			if (!snippet) return acc;
+
+			const { title, resourceId, thumbnails } = snippet;
+
+			if (
+				!title ||
+				!resourceId ||
+				!resourceId.videoId ||
+				!thumbnails ||
+				!thumbnails.high ||
+				!thumbnails.high.url
+			) {
+				return acc;
+			}
+
+			const thumbnailUrl = thumbnails.high.url;
+
+			acc.push({
+				title,
+				videoUrl: `https://www.youtube.com/watch?v=${resourceId.videoId}`,
+				thumbnailUrl,
+			});
+
+			return acc;
+		},
+		[] as { title: string; videoUrl: string; thumbnailUrl: string }[],
+	);
+
+	console.log(videos);
+};
+youtubeImport();
