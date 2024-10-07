@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import DOMParser from "node-html-parser";
+import sharp from "sharp";
 import type { Skill } from "./types";
 
 type Base = {
@@ -291,6 +292,37 @@ const main = async () => {
 		fs.mkdirSync(dirName, { recursive: true });
 
 		fs.writeFileSync(`${dirName}/index.json`, JSON.stringify(general, null, 2));
+
+		const imageUrl = `https://image.eiketsu-taisen.net/general/card_ds/${general.detailImageId}.jpg`;
+
+		const res = await fetch(imageUrl);
+		const arrayBuffer = await res.arrayBuffer();
+		const buffer = Buffer.from(arrayBuffer);
+		fs.writeFileSync(`${dirName}/1.jpg`, buffer);
+
+		const img = await sharp(buffer);
+		const { width, height } = await img.metadata();
+		if (!(width && height)) continue;
+
+		img
+			.clone()
+			.extract({
+				left: 0,
+				top: 0,
+				width: width / 2,
+				height: height,
+			})
+			.toFile(`${dirName}/2.jpg`);
+
+		img
+			.clone()
+			.extract({
+				left: width / 2,
+				top: 0,
+				width: width / 2,
+				height: height,
+			})
+			.toFile(`${dirName}/3.jpg`);
 	}
 };
 main();
