@@ -1,8 +1,44 @@
 import fs from "node:fs";
+import { parseArgs } from "node:util";
+import dayjs from "dayjs";
 import { google, type youtube_v3 } from "googleapis";
+import imageHash from "image-hash";
 import DOMParser from "node-html-parser";
+import sqlite from "node-sqlite3-wasm";
 import sharp from "sharp";
-import type { Skill } from "./types";
+import type { General, Skill } from "./types";
+
+const {
+	values: {
+		mainExec,
+		youtubeImportExec,
+		youtubeDeckImportExec,
+		youtubeDeckTableCreate,
+	},
+} = parseArgs({
+	options: {
+		mainExec: {
+			type: "boolean",
+			short: "b",
+			default: false,
+		},
+		youtubeImportExec: {
+			type: "boolean",
+			short: "b",
+			default: false,
+		},
+		youtubeDeckImportExec: {
+			type: "boolean",
+			short: "b",
+			default: false,
+		},
+		youtubeDeckTableCreate: {
+			type: "boolean",
+			short: "b",
+			default: false,
+		},
+	},
+});
 
 type Base = {
 	data: string[];
@@ -49,6 +85,15 @@ type Base = {
 	kabukiRank: string[];
 	message: null;
 	error_id: number;
+};
+
+type Youtube = {
+	id: string;
+	title: string;
+	videoUrl: string;
+	thumbnailUrl: string;
+	cacheImagePath: string;
+	version: number;
 };
 
 const main = async () => {
@@ -296,16 +341,16 @@ const main = async () => {
 
 		const imageUrl = `https://image.eiketsu-taisen.net/general/card_ds/${general.detailImageId}.jpg`;
 
-		const res = await fetch(imageUrl);
-		const arrayBuffer = await res.arrayBuffer();
-		const buffer = Buffer.from(arrayBuffer);
-		fs.writeFileSync(`${dirName}/1.jpg`, buffer);
+		const imageRes = await fetch(imageUrl);
+		const imageArrayBuffer = await imageRes.arrayBuffer();
+		const imageBuffer = Buffer.from(imageArrayBuffer);
+		fs.writeFileSync(`${dirName}/1.jpg`, imageBuffer);
 
-		const img = await sharp(buffer);
-		const { width, height } = await img.metadata();
+		const image = await sharp(imageBuffer);
+		const { width, height } = await image.metadata();
 		if (!(width && height)) continue;
 
-		img
+		await image
 			.clone()
 			.extract({
 				left: 0,
@@ -315,7 +360,7 @@ const main = async () => {
 			})
 			.toFile(`${dirName}/2.jpg`);
 
-		img
+		await image
 			.clone()
 			.extract({
 				left: width / 2,
@@ -324,9 +369,26 @@ const main = async () => {
 				height: height,
 			})
 			.toFile(`${dirName}/3.jpg`);
+
+		const thumbnailUrl = `https://image.eiketsu-taisen.net/general/card_small/${general.id}.jpg`;
+		const thumbnailRes = await fetch(thumbnailUrl);
+		const thumbnailArrayBuffer = await thumbnailRes.arrayBuffer();
+		const thumbnailBuffer = Buffer.from(thumbnailArrayBuffer);
+		fs.writeFileSync(`${dirName}/4.jpg`, thumbnailBuffer);
+
+		const thumbnail = await sharp(thumbnailBuffer);
+		await thumbnail
+			.clone()
+			.extract({
+				left: 10,
+				top: 11,
+				width: 140,
+				height: 215,
+			})
+			.toFile(`${dirName}/5.jpg`);
 	}
 };
-main();
+mainExec && main();
 
 const youtubeImport = async () => {
 	if (!process.env.GOOGLE_KEY) return;
@@ -353,37 +415,799 @@ const youtubeImport = async () => {
 		nextPageToken = response.data.nextPageToken || "";
 	} while (nextPageToken);
 
-	const videos = allItems.reduce(
-		(acc, item) => {
-			const snippet = item.snippet;
-			if (!snippet) return acc;
+	const videos = allItems.reduce((acc, item) => {
+		const snippet = item.snippet;
+		if (!snippet) return acc;
 
-			const { title, resourceId, thumbnails } = snippet;
+		const { title, resourceId, thumbnails } = snippet;
 
-			if (
-				!title ||
-				!resourceId ||
-				!resourceId.videoId ||
-				!thumbnails ||
-				!thumbnails.high ||
-				!thumbnails.high.url
-			) {
-				return acc;
-			}
-
-			const thumbnailUrl = thumbnails.high.url;
-
-			acc.push({
-				title,
-				videoUrl: `https://www.youtube.com/watch?v=${resourceId.videoId}`,
-				thumbnailUrl,
-			});
-
+		if (
+			!title ||
+			!resourceId ||
+			!resourceId.videoId ||
+			!thumbnails ||
+			!thumbnails.maxres ||
+			!thumbnails.maxres.url
+		) {
 			return acc;
-		},
-		[] as { title: string; videoUrl: string; thumbnailUrl: string }[],
+		}
+
+		const thumbnailUrl = thumbnails.maxres.url;
+
+		const id = resourceId.videoId;
+
+		const dirName = `data/youtube/${id}`;
+		fs.mkdirSync(dirName, { recursive: true });
+
+		const titleMatch = title.match(
+			/[0-9]{4}\/(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])/g,
+		);
+		const titleDate = titleMatch?.[0].toString();
+		let version = 0;
+
+		if (
+			dayjs(titleDate).isSame("2023/11/02") ||
+			dayjs(titleDate).isAfter("2023/11/02")
+		) {
+			version = 3;
+		}
+		if (
+			dayjs(titleDate).isSame("2023/10/31") ||
+			dayjs(titleDate).isBefore("2023/10/31")
+		) {
+			version = 2;
+		}
+		if (
+			dayjs(titleDate).isSame("2022/12/20") ||
+			dayjs(titleDate).isBefore("2022/12/20")
+		) {
+			version = 1;
+		}
+
+		acc.push({
+			id,
+			title,
+			videoUrl: `https://www.youtube.com/watch?v=${id}`,
+			thumbnailUrl,
+			cacheImagePath: `${dirName}`,
+			version,
+		});
+
+		return acc;
+	}, [] as Youtube[]);
+
+	for (const video of videos) {
+		const { thumbnailUrl, id } = video;
+		const dirName = `data/youtube/${id}`;
+
+		if (fs.existsSync(`${dirName}/all.jpg`)) continue;
+
+		const res = await fetch(thumbnailUrl);
+		const arrayBuffer = await res.arrayBuffer();
+		const buffer = Buffer.from(arrayBuffer);
+		const allImagePath = `${dirName}/all.jpg`;
+		fs.writeFileSync(allImagePath, buffer);
+	}
+
+	fs.writeFileSync("data/json/youtube.json", JSON.stringify(videos, null, 2));
+};
+youtubeImportExec && youtubeImport();
+
+const hashImage = (imagePath: string): Promise<string> => {
+	return new Promise((resolve, reject) => {
+		imageHash.imageHash(
+			imagePath,
+			16,
+			true,
+			// biome-ignore lint/suspicious/noExplicitAny: <explanation>
+			(error: any, data: string | PromiseLike<string>) => {
+				if (error) {
+					reject(error);
+				} else {
+					resolve(data);
+				}
+			},
+		);
+	});
+};
+
+const youtubeDeckImport = async () => {
+	if (!process.env.GOOGLE_KEY) return;
+
+	const YoutubeJSON: Youtube[] = JSON.parse(
+		fs.readFileSync("data/json/youtube.json", "utf8"),
 	);
 
-	console.log(videos);
+	const GeneralsJSON: General[] = JSON.parse(
+		fs.readFileSync("data/json/generals.json", "utf8"),
+	);
+
+	const db = new sqlite.Database("youtube_deck.db");
+
+	if (youtubeDeckTableCreate) {
+		db.exec(
+			"DROP TABLE IF EXISTS decks; " +
+				`CREATE TABLE IF NOT EXISTS decks (
+		title TEXT,
+		video_url TEXT,
+		thumbnail_url TEXT,
+		player TEXT,
+		no TEXT,
+		name TEXT,
+		PRIMARY KEY(
+			 title,
+			 video_url,
+			 thumbnail_url,
+			 player,
+			no,
+			 name
+		));`,
+		);
+	}
+
+	type GeneralInfo = {
+		generals: { no: string; name: string; hashImage: string; path: string }[];
+	};
+	const generalAllInfo = await GeneralsJSON.reduce<Promise<GeneralInfo>>(
+		async (acc: Promise<GeneralInfo>, general): Promise<GeneralInfo> => {
+			const imagePath = `data/generals/${general.color.name}/${general.no}_${general.name}/5.jpg`;
+			const newHashImage = await hashImage(imagePath);
+			(await acc).generals.push({
+				no: general.no,
+				name: general.name,
+				hashImage: newHashImage,
+				path: imagePath,
+			});
+
+			return await acc;
+		},
+		Promise.resolve<GeneralInfo>({
+			generals: [],
+		}),
+	);
+
+	const allGeneralImages: {
+		path: string;
+		hashImage: string;
+		no: string;
+		name: string;
+	}[] = await Promise.all([
+		...[...Array(59)].map(async (_, index) => {
+			const i = index + 1;
+			const imagePath = `data/dummy/dummy/${i}.jpg`;
+			return {
+				path: imagePath,
+				hashImage: await hashImage(imagePath),
+				no: "",
+				name: "",
+			};
+		}),
+		...generalAllInfo.generals,
+	]);
+
+	for (const video of YoutubeJSON) {
+		const { version, cacheImagePath } = video;
+
+		const allImagePath = `${cacheImagePath}/all.jpg`;
+		const img = await sharp(allImagePath);
+
+		if (version === 1) {
+			const cardSize = {
+				width: 92,
+				height: 138,
+			};
+
+			await Promise.all([
+				img
+					.clone()
+					.extract({
+						left: 47,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_1.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 192,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_2.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 340,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_3.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 486,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_4.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 486,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_5.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 340,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_6.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 192,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_7.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 47,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_8.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 700,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_1.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 848,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_2.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 994,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_3.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 1140,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_4.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 700,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_5.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 848,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_6.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 994,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_7.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 1140,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_8.jpg`),
+			]);
+		}
+
+		if (version === 2) {
+			const cardSize = {
+				width: 92,
+				height: 138,
+			};
+
+			await Promise.all([
+				img
+					.clone()
+					.extract({
+						left: 47,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_1.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 192,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_2.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 340,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_3.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 486,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_4.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 486,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_5.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 340,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_6.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 192,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_7.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 47,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_8.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 700,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_1.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 848,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_2.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 994,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_3.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 1140,
+						top: 294,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_4.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 700,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_5.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 848,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_6.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 994,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_7.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 1140,
+						top: 502,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_8.jpg`),
+			]);
+		}
+
+		if (version === 3) {
+			const cardSize = {
+				width: 92,
+				height: 142,
+			};
+
+			await Promise.all([
+				img
+					.clone()
+					.extract({
+						left: 107,
+						top: 303,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_1.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 236,
+						top: 303,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_2.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 365,
+						top: 303,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_3.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 495,
+						top: 303,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_4.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 495,
+						top: 517,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_5.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 365,
+						top: 517,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_6.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 236,
+						top: 517,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_7.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 107,
+						top: 517,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_8.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 694,
+						top: 303,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_1.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 823,
+						top: 303,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_2.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 954,
+						top: 303,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_3.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 1082,
+						top: 303,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_4.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 694,
+						top: 517,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_5.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 823,
+						top: 517,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_6.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 954,
+						top: 517,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_7.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 1082,
+						top: 517,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_8.jpg`),
+			]);
+		}
+
+		const minDiff = {
+			red1: 100,
+			red2: 100,
+			red3: 100,
+			red4: 100,
+			red5: 100,
+			red6: 100,
+			red7: 100,
+			red8: 100,
+			blue1: 100,
+			blue2: 100,
+			blue3: 100,
+			blue4: 100,
+			blue5: 100,
+			blue6: 100,
+			blue7: 100,
+			blue8: 100,
+		};
+		type DetectionGeneral = {
+			no: string;
+			name: string;
+			imagePath: string;
+			originalImagePath: string;
+			allImagePath: string;
+		};
+		const detectionGenerals: {
+			[generalNoName in
+				| "red1"
+				| "red2"
+				| "red3"
+				| "red4"
+				| "red5"
+				| "red6"
+				| "red7"
+				| "red8"
+				| "blue1"
+				| "blue2"
+				| "blue3"
+				| "blue4"
+				| "blue5"
+				| "blue6"
+				| "blue7"
+				| "blue8"]: DetectionGeneral;
+		} = [...Array(8)].reduce((acc, _, index) => {
+			const i = index + 1;
+			acc[`red${i}`] = {
+				no: "",
+				name: "",
+				imagePath: "",
+				originalImagePath: "",
+				allImagePath: "",
+			};
+			acc[`blue${i}`] = {
+				no: "",
+				name: "",
+				imagePath: "",
+				originalImagePath: "",
+				allImagePath: "",
+			};
+			return acc;
+		}, {});
+
+		const diffThreshold = 50;
+
+		const diffCheck = async (
+			generalImg: {
+				path: string;
+				hashImage: string;
+				no: string;
+				name: string;
+			},
+			color: "red" | "blue",
+			num: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8,
+		) => {
+			const colorGeneralImage = await hashImage(
+				`${cacheImagePath}/${color}_${num}.jpg`,
+			);
+			const colorDiff = colorGeneralImage
+				.split("")
+				.reduce((acc, char, index) => {
+					return acc + (char !== generalImg.hashImage[index] ? 1 : 0);
+				}, 0);
+			if (colorDiff <= diffThreshold) {
+				if (colorDiff < minDiff[`${color}${num}`]) {
+					minDiff[`${color}${num}`] = colorDiff;
+					detectionGenerals[`${color}${num}`] = {
+						no: generalImg.no,
+						name: generalImg.name,
+						imagePath: generalImg.path,
+						originalImagePath: `${cacheImagePath}/${color}_${num}.jpg`,
+						allImagePath,
+					};
+				}
+			}
+		};
+
+		for (const generalImage of allGeneralImages) {
+			await diffCheck(generalImage, "red", 1);
+			await diffCheck(generalImage, "red", 2);
+			await diffCheck(generalImage, "red", 3);
+			await diffCheck(generalImage, "red", 4);
+			await diffCheck(generalImage, "red", 5);
+			await diffCheck(generalImage, "red", 6);
+			await diffCheck(generalImage, "red", 7);
+			await diffCheck(generalImage, "red", 8);
+			await diffCheck(generalImage, "blue", 1);
+			await diffCheck(generalImage, "blue", 2);
+			await diffCheck(generalImage, "blue", 3);
+			await diffCheck(generalImage, "blue", 4);
+			await diffCheck(generalImage, "blue", 5);
+			await diffCheck(generalImage, "blue", 6);
+			await diffCheck(generalImage, "blue", 7);
+			await diffCheck(generalImage, "blue", 8);
+		}
+
+		const insertDeck = (detectionGeneral: DetectionGeneral, player: string) => {
+			if (detectionGeneral.no) {
+				try {
+					db.run(
+						`INSERT INTO decks VALUES (
+					:title,
+					:video_url,
+					:thumbnail_url,
+					:player,
+					:no,
+					:name
+					)`,
+						{
+							":title": video.title,
+							":video_url": video.videoUrl,
+							":thumbnail_url": video.thumbnailUrl,
+							":player": player,
+							":no": detectionGeneral.no,
+							":name": detectionGeneral.name,
+						},
+					);
+				} catch (_) {}
+			}
+		};
+		insertDeck(detectionGenerals.red1, "player1");
+		insertDeck(detectionGenerals.red2, "player1");
+		insertDeck(detectionGenerals.red3, "player1");
+		insertDeck(detectionGenerals.red4, "player1");
+		insertDeck(detectionGenerals.red5, "player1");
+		insertDeck(detectionGenerals.red6, "player1");
+		insertDeck(detectionGenerals.red7, "player1");
+		insertDeck(detectionGenerals.red8, "player1");
+		insertDeck(detectionGenerals.blue1, "player2");
+		insertDeck(detectionGenerals.blue2, "player2");
+		insertDeck(detectionGenerals.blue3, "player2");
+		insertDeck(detectionGenerals.blue4, "player2");
+		insertDeck(detectionGenerals.blue5, "player2");
+		insertDeck(detectionGenerals.blue6, "player2");
+		insertDeck(detectionGenerals.blue7, "player2");
+		insertDeck(detectionGenerals.blue8, "player2");
+	}
 };
-youtubeImport();
+youtubeDeckImportExec && youtubeDeckImport();

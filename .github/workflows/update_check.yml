@@ -19,7 +19,7 @@ jobs:
 
       - name: base.json import
         run: | 
-          (cd data && npm i && npm run import)
+          (cd data && npm i && npm run import:mainExec)
 
       - uses: peter-evans/create-pull-request@v7
         with:
