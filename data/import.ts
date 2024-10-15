@@ -14,6 +14,7 @@ const {
 		youtubeImportExec,
 		youtubeDeckImportExec,
 		youtubeDeckTableCreate,
+		dummyCheckExec,
 	},
 } = parseArgs({
 	options: {
@@ -33,6 +34,11 @@ const {
 			default: false,
 		},
 		youtubeDeckTableCreate: {
+			type: "boolean",
+			short: "b",
+			default: false,
+		},
+		dummyCheckExec: {
 			type: "boolean",
 			short: "b",
 			default: false,
@@ -522,7 +528,8 @@ const youtubeDeckImport = async () => {
 		fs.readFileSync("data/json/generals.json", "utf8"),
 	);
 
-	const db = new sqlite.Database("youtube_deck.db");
+	fs.mkdirSync("../app/public/sqlite", { recursive: true });
+	const db = new sqlite.Database("../app/public/sqlite/youtube_deck.sqlite3");
 
 	if (youtubeDeckTableCreate) {
 		db.exec(
@@ -531,7 +538,8 @@ const youtubeDeckImport = async () => {
 		title TEXT,
 		video_url TEXT,
 		thumbnail_url TEXT,
-		player TEXT,
+		player INTEGER,
+		dist TEXT,
 		no TEXT,
 		name TEXT,
 		PRIMARY KEY(
@@ -539,7 +547,8 @@ const youtubeDeckImport = async () => {
 			 video_url,
 			 thumbnail_url,
 			 player,
-			no,
+			 dist,
+       no,
 			 name
 		));`,
 		);
@@ -572,7 +581,7 @@ const youtubeDeckImport = async () => {
 		no: string;
 		name: string;
 	}[] = await Promise.all([
-		...[...Array(59)].map(async (_, index) => {
+		...[...Array(82)].map(async (_, index) => {
 			const i = index + 1;
 			const imagePath = `data/dummy/dummy/${i}.jpg`;
 			return {
@@ -602,7 +611,7 @@ const youtubeDeckImport = async () => {
 					.clone()
 					.extract({
 						left: 47,
-						top: 294,
+						top: 295,
 						width: cardSize.width,
 						height: cardSize.height,
 					})
@@ -610,8 +619,8 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 192,
-						top: 294,
+						left: 194,
+						top: 295,
 						width: cardSize.width,
 						height: cardSize.height,
 					})
@@ -620,7 +629,7 @@ const youtubeDeckImport = async () => {
 					.clone()
 					.extract({
 						left: 340,
-						top: 294,
+						top: 295,
 						width: cardSize.width,
 						height: cardSize.height,
 					})
@@ -628,8 +637,8 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 486,
-						top: 294,
+						left: 487,
+						top: 295,
 						width: cardSize.width,
 						height: cardSize.height,
 					})
@@ -655,7 +664,7 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 192,
+						left: 191,
 						top: 502,
 						width: cardSize.width,
 						height: cardSize.height,
@@ -674,7 +683,7 @@ const youtubeDeckImport = async () => {
 					.clone()
 					.extract({
 						left: 700,
-						top: 294,
+						top: 295,
 						width: cardSize.width,
 						height: cardSize.height,
 					})
@@ -682,8 +691,8 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 848,
-						top: 294,
+						left: 847,
+						top: 295,
 						width: cardSize.width,
 						height: cardSize.height,
 					})
@@ -692,7 +701,7 @@ const youtubeDeckImport = async () => {
 					.clone()
 					.extract({
 						left: 994,
-						top: 294,
+						top: 295,
 						width: cardSize.width,
 						height: cardSize.height,
 					})
@@ -701,7 +710,7 @@ const youtubeDeckImport = async () => {
 					.clone()
 					.extract({
 						left: 1140,
-						top: 294,
+						top: 295,
 						width: cardSize.width,
 						height: cardSize.height,
 					})
@@ -981,7 +990,7 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 694,
+						left: 692,
 						top: 303,
 						width: cardSize.width,
 						height: cardSize.height,
@@ -990,7 +999,7 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 823,
+						left: 822,
 						top: 303,
 						width: cardSize.width,
 						height: cardSize.height,
@@ -999,7 +1008,7 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 954,
+						left: 952,
 						top: 303,
 						width: cardSize.width,
 						height: cardSize.height,
@@ -1008,7 +1017,7 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 1082,
+						left: 1081,
 						top: 303,
 						width: cardSize.width,
 						height: cardSize.height,
@@ -1017,7 +1026,7 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 694,
+						left: 692,
 						top: 517,
 						width: cardSize.width,
 						height: cardSize.height,
@@ -1026,7 +1035,7 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 823,
+						left: 822,
 						top: 517,
 						width: cardSize.width,
 						height: cardSize.height,
@@ -1035,7 +1044,7 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 954,
+						left: 952,
 						top: 517,
 						width: cardSize.width,
 						height: cardSize.height,
@@ -1044,7 +1053,7 @@ const youtubeDeckImport = async () => {
 				img
 					.clone()
 					.extract({
-						left: 1082,
+						left: 1081,
 						top: 517,
 						width: cardSize.width,
 						height: cardSize.height,
@@ -1150,25 +1159,27 @@ const youtubeDeckImport = async () => {
 		};
 
 		for (const generalImage of allGeneralImages) {
-			await diffCheck(generalImage, "red", 1);
-			await diffCheck(generalImage, "red", 2);
-			await diffCheck(generalImage, "red", 3);
-			await diffCheck(generalImage, "red", 4);
-			await diffCheck(generalImage, "red", 5);
-			await diffCheck(generalImage, "red", 6);
-			await diffCheck(generalImage, "red", 7);
-			await diffCheck(generalImage, "red", 8);
-			await diffCheck(generalImage, "blue", 1);
-			await diffCheck(generalImage, "blue", 2);
-			await diffCheck(generalImage, "blue", 3);
-			await diffCheck(generalImage, "blue", 4);
-			await diffCheck(generalImage, "blue", 5);
-			await diffCheck(generalImage, "blue", 6);
-			await diffCheck(generalImage, "blue", 7);
-			await diffCheck(generalImage, "blue", 8);
+			await Promise.all([
+				diffCheck(generalImage, "red", 1),
+				diffCheck(generalImage, "red", 2),
+				diffCheck(generalImage, "red", 3),
+				diffCheck(generalImage, "red", 4),
+				diffCheck(generalImage, "red", 5),
+				diffCheck(generalImage, "red", 6),
+				diffCheck(generalImage, "red", 7),
+				diffCheck(generalImage, "red", 8),
+				diffCheck(generalImage, "blue", 1),
+				diffCheck(generalImage, "blue", 2),
+				diffCheck(generalImage, "blue", 3),
+				diffCheck(generalImage, "blue", 4),
+				diffCheck(generalImage, "blue", 5),
+				diffCheck(generalImage, "blue", 6),
+				diffCheck(generalImage, "blue", 7),
+				diffCheck(generalImage, "blue", 8),
+			]);
 		}
 
-		const insertDeck = (detectionGeneral: DetectionGeneral, player: string) => {
+		const insertDeck = (detectionGeneral: DetectionGeneral, player: number) => {
 			if (detectionGeneral.no) {
 				try {
 					db.run(
@@ -1177,6 +1188,7 @@ const youtubeDeckImport = async () => {
 					:video_url,
 					:thumbnail_url,
 					:player,
+					:dist,
 					:no,
 					:name
 					)`,
@@ -1185,6 +1197,7 @@ const youtubeDeckImport = async () => {
 							":video_url": video.videoUrl,
 							":thumbnail_url": video.thumbnailUrl,
 							":player": player,
+							":dist": detectionGeneral.originalImagePath,
 							":no": detectionGeneral.no,
 							":name": detectionGeneral.name,
 						},
@@ -1192,22 +1205,62 @@ const youtubeDeckImport = async () => {
 				} catch (_) {}
 			}
 		};
-		insertDeck(detectionGenerals.red1, "player1");
-		insertDeck(detectionGenerals.red2, "player1");
-		insertDeck(detectionGenerals.red3, "player1");
-		insertDeck(detectionGenerals.red4, "player1");
-		insertDeck(detectionGenerals.red5, "player1");
-		insertDeck(detectionGenerals.red6, "player1");
-		insertDeck(detectionGenerals.red7, "player1");
-		insertDeck(detectionGenerals.red8, "player1");
-		insertDeck(detectionGenerals.blue1, "player2");
-		insertDeck(detectionGenerals.blue2, "player2");
-		insertDeck(detectionGenerals.blue3, "player2");
-		insertDeck(detectionGenerals.blue4, "player2");
-		insertDeck(detectionGenerals.blue5, "player2");
-		insertDeck(detectionGenerals.blue6, "player2");
-		insertDeck(detectionGenerals.blue7, "player2");
-		insertDeck(detectionGenerals.blue8, "player2");
+		insertDeck(detectionGenerals.red1, 1);
+		insertDeck(detectionGenerals.red2, 1);
+		insertDeck(detectionGenerals.red3, 1);
+		insertDeck(detectionGenerals.red4, 1);
+		insertDeck(detectionGenerals.red5, 1);
+		insertDeck(detectionGenerals.red6, 1);
+		insertDeck(detectionGenerals.red7, 1);
+		insertDeck(detectionGenerals.red8, 1);
+		insertDeck(detectionGenerals.blue1, 2);
+		insertDeck(detectionGenerals.blue2, 2);
+		insertDeck(detectionGenerals.blue3, 2);
+		insertDeck(detectionGenerals.blue4, 2);
+		insertDeck(detectionGenerals.blue5, 2);
+		insertDeck(detectionGenerals.blue6, 2);
+		insertDeck(detectionGenerals.blue7, 2);
+		insertDeck(detectionGenerals.blue8, 2);
 	}
 };
 youtubeDeckImportExec && youtubeDeckImport();
+
+const dummyCheck = async () => {
+	const allDummyImages: {
+		path: string;
+		hashImage: string;
+		no: string;
+		name: string;
+	}[] = await Promise.all([
+		...[...Array(59)].map(async (_, index) => {
+			const i = index + 1;
+			const imagePath = `data/dummy/dummy/${i}.jpg`;
+			return {
+				path: imagePath,
+				hashImage: await hashImage(imagePath),
+				no: "",
+				name: "",
+			};
+		}),
+	]);
+
+	for (const dummyImage1 of allDummyImages) {
+		for (const dummyImage2 of allDummyImages) {
+			const diff = dummyImage1.hashImage
+				.split("")
+				.reduce((acc, char, index) => {
+					return acc + (char !== dummyImage2.hashImage[index] ? 1 : 0);
+				}, 0);
+
+			if (diff === 0) continue;
+			if (diff <= 10) {
+				console.log("-----------------");
+				console.log(dummyImage1.path);
+				console.log(dummyImage2.path);
+				console.log(diff);
+				console.log("-----------------");
+			}
+		}
+	}
+};
+dummyCheckExec && dummyCheck();

@@ -5,6 +5,8 @@
     "import:mainExec": "node --experimental-strip-types import.ts --mainExec",
     "import:youtubeImportExec": "node --experimental-strip-types import.ts --youtubeImportExec",
     "import:youtubeDeckImportExec": "node --experimental-strip-types import.ts --youtubeDeckImportExec",
+    "import:youtubeDeckImportExec:create": "node --experimental-strip-types import.ts --youtubeDeckImportExec --youtubeDeckTableCreate",
+    "import:dummyCheckExec": "node --experimental-strip-types import.ts --dummyCheckExec",
     "lint": "biome lint --apply ."
   },
   "author": "",
