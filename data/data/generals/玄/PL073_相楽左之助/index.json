@@ -1,0 +1,43 @@
+{
+  "no": "PL073",
+  "id": "2b4de8aad521ffe8518a1e62f6d7fd19",
+  "detailImageId": "1f5e5abe66968d98bc1d365566d1a08d",
+  "name": "相楽左之助",
+  "kanaName": "さがらさのすけ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "悪一文字の矜持",
+    "kanaName": "あくいちもんじのきょうじ",
+    "cost": "5",
+    "description": "武力が上がり、武力によるダメージを軽減する。さらに兵力が徐々に回復し、自身に突撃した騎兵を跳躍させるようになる。ただし兵種アクションが封印される",
+    "categories": [
+      "強化",
+      "回復",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2b4de8aad521ffe8518a1e62f6d7fd19",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3101"
+  }
+}
