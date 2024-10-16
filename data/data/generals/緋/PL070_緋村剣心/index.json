@@ -1,0 +1,43 @@
+{
+  "no": "PL070",
+  "id": "41080cc7da52dbe40ae8b40f3ff3f89d",
+  "detailImageId": "24efadbaddcc8b8ebb548304aee137fb",
+  "name": "緋村剣心",
+  "kanaName": "ひむらけんしん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "龍槌閃",
+    "kanaName": "りゅうついせん",
+    "cost": "5",
+    "description": "武力が上がり、旋回操作を行うと斬撃の代わりに向いている方向に跳躍を行うようになる。跳躍中は計略の対象にならなくなり、着地時に斬撃を行いながら敵に武力によるダメージを与える。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=41080cc7da52dbe40ae8b40f3ff3f89d",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3098"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "no": "PL072",
+  "id": "48a3c5cc7a673024a1e26c060a99fb25",
+  "detailImageId": "0806883c663e6637b71ac8f8d7aeb743",
+  "name": "明神弥彦",
+  "kanaName": "みょうじんやひこ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "特殊",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "士族の志",
+    "kanaName": "しぞくのこころざし",
+    "cost": "3",
+    "description": "戦場にいる剣豪の味方の武力の最大値が大きいほど武力が上がる。一定以上武力が上がると、さらに効果中に斬撃を行えるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=48a3c5cc7a673024a1e26c060a99fb25",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3100"
+  }
+}
