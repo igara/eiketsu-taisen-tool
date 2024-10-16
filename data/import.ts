@@ -581,7 +581,7 @@ const youtubeDeckImport = async () => {
 		no: string;
 		name: string;
 	}[] = await Promise.all([
-		...[...Array(82)].map(async (_, index) => {
+		...[...Array(102)].map(async (_, index) => {
 			const i = index + 1;
 			const imagePath = `data/dummy/dummy/${i}.jpg`;
 			return {
