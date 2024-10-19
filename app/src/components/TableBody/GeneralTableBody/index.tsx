@@ -2,6 +2,7 @@
 
 import { FavoriteButton } from "@/components/Buttons/FavoriteButton";
 import { SkillButton } from "@/components/Buttons/SkillButton";
+import { YouTubeButton } from "@/components/Buttons/YouTubeButton";
 import type { SearchFormData } from "@/schema/SearchForm";
 import type { General } from "@eiketsu-taisen-tool/data/types";
 import type React from "react";
@@ -140,6 +141,10 @@ export const GeneralTableBody: React.FC<Props> = ({
 								</a>
 							</li>
 						)}
+
+						<li>
+							<YouTubeButton general={general} />
+						</li>
 					</ul>
 
 					<div className="w-[90px] flex items-center justify-end p-[4px]">
