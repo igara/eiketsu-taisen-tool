@@ -1,6 +1,6 @@
-import type { DeckTable } from "@eiketsu-taisen-tool/data/sqlite/youtube_deck/deck";
 import { Kysely } from "kysely";
 import { SQLocalKysely } from "sqlocal/kysely";
+import type { DeckTable } from "./deck";
 
 export interface DatabaseInterface {
 	decks: DeckTable;
