@@ -63,7 +63,7 @@ export const GeneralTable: React.FC = () => {
 				<div>
 					<table className="h-[100dvh] w-[100dvw] table-fixed border-collapse">
 						<thead
-							className={`text-white w-full sticky z-50 top-0 bg-gradient-to-b from-[#954d26] via-[#ae853a] to-[#b59d52] ${isDisableHeader ? "hidden" : ""}`}
+							className={`text-white w-full sticky z-50 top-0 bg-gradient-to-b from-[#954d26] via-[#ae853a] to-[#b59d52] dark:bg-[#954d26] ${isDisableHeader ? "hidden" : ""}`}
 						>
 							<tr>
 								<th className="w-[80px] text-left p-[4px]">
@@ -123,7 +123,7 @@ export const GeneralTable: React.FC = () => {
 							/>
 						</tbody>
 
-						<tfoot className="sticky z-50 bottom-0 bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542]">
+						<tfoot className="sticky z-50 bottom-0 bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] dark:bg-[#252423]">
 							<tr>
 								<td className="p-[4px]" colSpan={3}>
 									<div className="flex flex-col gap-[4px]">
