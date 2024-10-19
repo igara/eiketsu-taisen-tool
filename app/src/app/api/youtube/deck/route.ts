@@ -1,4 +1,4 @@
-import { youtubeDeckDB } from "@/app/sqlite/youtube_deck/node_db";
+import { youtubeDeckDB } from "@/sqlite/youtube_deck/node_db";
 import { NextResponse } from "next/server";
 
 export async function GET() {

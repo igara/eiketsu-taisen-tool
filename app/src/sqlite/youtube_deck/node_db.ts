@@ -7,7 +7,7 @@ export interface DatabaseInterface {
 }
 
 const dialect = new SqliteDialect({
-	database: new Database("src/app/sqlite/youtube_deck/youtube_deck.sqlite3"),
+	database: new Database("src/sqlite/youtube_deck/youtube_deck.sqlite3"),
 });
 
 export const youtubeDeckDB = new Kysely<DatabaseInterface>({
