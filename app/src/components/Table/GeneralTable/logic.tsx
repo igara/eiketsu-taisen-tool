@@ -558,6 +558,37 @@ export const useLogic = () => {
 		0,
 	);
 
+	const mounted = React.useRef(false);
+
+	React.useEffect(() => {
+		if (mounted.current) return;
+		mounted.current = true;
+
+		const sqliteImport = async () => {
+			try {
+				const res = await fetch(
+					"/eiketsu-taisen-tool/sqlite/youtube_deck.sqlite3",
+				);
+				const blob = await res.blob();
+
+				const opfsRoot = await navigator.storage.getDirectory();
+				const dirHandle = await opfsRoot.getDirectoryHandle("sqlite", {
+					create: true,
+				});
+				const fileHandle = await dirHandle.getFileHandle(
+					"youtube_deck.sqlite3",
+					{
+						create: true,
+					},
+				);
+				const writable = await fileHandle.createWritable();
+				await writable.write(blob);
+				await writable.close();
+			} catch (_) {}
+		};
+		sqliteImport();
+	}, []);
+
 	return {
 		isDisplayFavorite,
 		isDisableHeader,

@@ -1012,10 +1012,8 @@ const youtubeDeckImport = async () => {
 		fs.readFileSync("data/json/generals.json", "utf8"),
 	);
 
-	fs.mkdirSync("../app/sqlite/youtube_deck", { recursive: true });
-	const db = new sqlite.Database(
-		"../app/sqlite/youtube_deck/youtube_deck.sqlite3",
-	);
+	fs.mkdirSync("../app/public/sqlite", { recursive: true });
+	const db = new sqlite.Database("../app/public/sqlite/youtube_deck.sqlite3");
 
 	if (youtubeDeckTableCreate) {
 		db.exec(

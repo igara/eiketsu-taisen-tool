@@ -38,3 +38,13 @@ export type General = {
 		gameWiki?: string;
 	};
 };
+
+export type YoutubeDeck = {
+	title: string;
+	video_url: string;
+	thumbnail_url: string;
+	player: number;
+	dist: string;
+	no: string;
+	name: string;
+};
