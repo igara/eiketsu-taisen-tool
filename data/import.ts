@@ -102,6 +102,22 @@ type Youtube = {
 	version: number;
 };
 
+async function processInBatches<T>(
+	promises: Promise<T>[],
+	batchSize: number,
+): Promise<T[]> {
+	let results: T[] = [];
+
+	// promises を batchSize ごとに分割して順次処理
+	for (let i = 0; i < promises.length; i += batchSize) {
+		const batch = promises.slice(i, i + batchSize); // batchSize件ずつに分割
+		const batchResults = await Promise.all(batch); // batchSize件並列実行
+		results = results.concat(batchResults); // 結果を保存
+	}
+
+	return results; // 全ての結果を返す
+}
+
 const main = async () => {
 	fs.mkdirSync("data/json", { recursive: true });
 	fs.mkdirSync("../app/public/images/stratRange", { recursive: true });
@@ -482,6 +498,8 @@ const youtubeImport = async () => {
 		return acc;
 	}, [] as Youtube[]);
 
+	fs.writeFileSync("data/json/youtube.json", JSON.stringify(videos, null, 2));
+
 	for (const video of videos) {
 		const { thumbnailUrl, id } = video;
 		const dirName = `data/youtube/${id}`;
@@ -495,108 +513,8 @@ const youtubeImport = async () => {
 		fs.writeFileSync(allImagePath, buffer);
 	}
 
-	fs.writeFileSync("data/json/youtube.json", JSON.stringify(videos, null, 2));
-};
-youtubeImportExec && youtubeImport();
-
-const hashImage = (imagePath: string): Promise<string> => {
-	return new Promise((resolve, reject) => {
-		imageHash.imageHash(
-			imagePath,
-			16,
-			true,
-			// biome-ignore lint/suspicious/noExplicitAny: <explanation>
-			(error: any, data: string | PromiseLike<string>) => {
-				if (error) {
-					reject(error);
-				} else {
-					resolve(data);
-				}
-			},
-		);
-	});
-};
-
-const youtubeDeckImport = async () => {
-	if (!process.env.GOOGLE_KEY) return;
-
-	const YoutubeJSON: Youtube[] = JSON.parse(
-		fs.readFileSync("data/json/youtube.json", "utf8"),
-	);
-
-	const GeneralsJSON: General[] = JSON.parse(
-		fs.readFileSync("data/json/generals.json", "utf8"),
-	);
-
-	fs.mkdirSync("../app/public/sqlite", { recursive: true });
-	const db = new sqlite.Database("../app/public/sqlite/youtube_deck.sqlite3");
-
-	if (youtubeDeckTableCreate) {
-		db.exec(
-			"DROP TABLE IF EXISTS decks; " +
-				`CREATE TABLE IF NOT EXISTS decks (
-		title TEXT,
-		video_url TEXT,
-		thumbnail_url TEXT,
-		player INTEGER,
-		dist TEXT,
-		no TEXT,
-		name TEXT,
-		PRIMARY KEY(
-			 title,
-			 video_url,
-			 thumbnail_url,
-			 player,
-			 dist,
-       no,
-			 name
-		));`,
-		);
-	}
-
-	type GeneralInfo = {
-		generals: { no: string; name: string; hashImage: string; path: string }[];
-	};
-	const generalAllInfo = await GeneralsJSON.reduce<Promise<GeneralInfo>>(
-		async (acc: Promise<GeneralInfo>, general): Promise<GeneralInfo> => {
-			const imagePath = `data/generals/${general.color.name}/${general.no}_${general.name}/5.jpg`;
-			const newHashImage = await hashImage(imagePath);
-			(await acc).generals.push({
-				no: general.no,
-				name: general.name,
-				hashImage: newHashImage,
-				path: imagePath,
-			});
-
-			return await acc;
-		},
-		Promise.resolve<GeneralInfo>({
-			generals: [],
-		}),
-	);
-
-	const allGeneralImages: {
-		path: string;
-		hashImage: string;
-		no: string;
-		name: string;
-	}[] = await Promise.all([
-		...[...Array(102)].map(async (_, index) => {
-			const i = index + 1;
-			const imagePath = `data/dummy/dummy/${i}.jpg`;
-			return {
-				path: imagePath,
-				hashImage: await hashImage(imagePath),
-				no: "",
-				name: "",
-			};
-		}),
-		...generalAllInfo.generals,
-	]);
-
-	for (const video of YoutubeJSON) {
-		const { version, cacheImagePath } = video;
-
+	for (const video of videos) {
+		const { cacheImagePath, version } = video;
 		const allImagePath = `${cacheImagePath}/all.jpg`;
 		const img = await sharp(allImagePath);
 
@@ -1061,6 +979,108 @@ const youtubeDeckImport = async () => {
 					.toFile(`${cacheImagePath}/blue_8.jpg`),
 			]);
 		}
+	}
+};
+youtubeImportExec && youtubeImport();
+
+const hashImage = (imagePath: string): Promise<string> => {
+	return new Promise((resolve, reject) => {
+		imageHash.imageHash(
+			imagePath,
+			16,
+			true,
+			// biome-ignore lint/suspicious/noExplicitAny: <explanation>
+			(error: any, data: string | PromiseLike<string>) => {
+				if (error) {
+					reject(error);
+				} else {
+					resolve(data);
+				}
+			},
+		);
+	});
+};
+
+const youtubeDeckImport = async () => {
+	if (!process.env.GOOGLE_KEY) return;
+
+	const YoutubeJSON: Youtube[] = JSON.parse(
+		fs.readFileSync("data/json/youtube.json", "utf8"),
+	);
+
+	const GeneralsJSON: General[] = JSON.parse(
+		fs.readFileSync("data/json/generals.json", "utf8"),
+	);
+
+	fs.mkdirSync("../app/public/sqlite", { recursive: true });
+	const db = new sqlite.Database("../app/public/sqlite/youtube_deck.sqlite3");
+
+	if (youtubeDeckTableCreate) {
+		db.exec(
+			"DROP TABLE IF EXISTS decks; " +
+				`CREATE TABLE IF NOT EXISTS decks (
+		title TEXT,
+		video_url TEXT,
+		thumbnail_url TEXT,
+		player INTEGER,
+		dist TEXT,
+		no TEXT,
+		name TEXT,
+		PRIMARY KEY(
+			 title,
+			 video_url,
+			 thumbnail_url,
+			 player,
+			 dist,
+       no,
+			 name
+		));`,
+		);
+	}
+
+	type GeneralInfo = {
+		generals: { no: string; name: string; hashImage: string; path: string }[];
+	};
+	const generalAllInfo = await GeneralsJSON.reduce<Promise<GeneralInfo>>(
+		async (acc: Promise<GeneralInfo>, general): Promise<GeneralInfo> => {
+			const imagePath = `data/generals/${general.color.name}/${general.no}_${general.name}/5.jpg`;
+			const newHashImage = await hashImage(imagePath);
+			(await acc).generals.push({
+				no: general.no,
+				name: general.name,
+				hashImage: newHashImage,
+				path: imagePath,
+			});
+
+			return await acc;
+		},
+		Promise.resolve<GeneralInfo>({
+			generals: [],
+		}),
+	);
+
+	const allGeneralImages: {
+		path: string;
+		hashImage: string;
+		no: string;
+		name: string;
+	}[] = await Promise.all([
+		...[...Array(122)].map(async (_, index) => {
+			const i = index + 1;
+			const imagePath = `data/dummy/dummy/${i}.jpg`;
+			return {
+				path: imagePath,
+				hashImage: await hashImage(imagePath),
+				no: "",
+				name: "",
+			};
+		}),
+		...generalAllInfo.generals,
+	]);
+
+	const insertDiffCheckResult = async (video: Youtube) => {
+		const { cacheImagePath } = video;
+		const allImagePath = `${cacheImagePath}/all.jpg`;
 
 		const minDiff = {
 			red1: 100,
@@ -1221,6 +1241,14 @@ const youtubeDeckImport = async () => {
 		insertDeck(detectionGenerals.blue6, 2);
 		insertDeck(detectionGenerals.blue7, 2);
 		insertDeck(detectionGenerals.blue8, 2);
+	};
+
+	// const v1Videos = YoutubeJSON.filter((video) => video.version === 1);
+	// const v2Videos = YoutubeJSON.filter((video) => video.version === 2);
+	// const v3Videos = YoutubeJSON.filter((video) => video.version === 3);
+
+	for (const video of YoutubeJSON) {
+		await insertDiffCheckResult(video);
 	}
 };
 youtubeDeckImportExec && youtubeDeckImport();
