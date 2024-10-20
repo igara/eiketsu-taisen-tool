@@ -7,9 +7,6 @@ const buildSuffix = (url?: {query?: Record<string, string>, hash?: string}) => {
 };
 
 export const pagesPath = {
-  "hoge": {
-    $url: (url?: { hash?: string }) => ({ pathname: '/hoge' as const, hash: url?.hash, path: `/hoge${buildSuffix(url)}` })
-  },
   $url: (url?: { hash?: string }) => ({ pathname: '/' as const, hash: url?.hash, path: `/${buildSuffix(url)}` })
 };
 
