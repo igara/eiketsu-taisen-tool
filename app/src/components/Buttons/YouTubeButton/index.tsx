@@ -1,8 +1,8 @@
 "use client";
 
 import type { General } from "@eiketsu-taisen-tool/data/types";
-import Link from "next/link";
 import type React from "react";
+import { GeneralImageButton } from "../GeneralImageButton";
 import { DeckLink } from "./DeckLink";
 import { useLogic } from "./logic";
 
@@ -44,7 +44,7 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 				onClick={onClickDialog}
 			>
 				<div
-					className="w-10/12 h-5/6 p-3 rounded bg-white"
+					className="flex flex-col gap-1 w-10/12 h-5/6 p-3 rounded bg-white"
 					ref={refContentDivElement}
 				>
 					<div className="flex items-center">
@@ -53,7 +53,7 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 						<button
 							type="button"
 							onClick={onClickDialogCloseButton}
-							className=" m-auto text-sm text-white p-2 bg-gray-600 rounded"
+							className="w-[28px] h-[28px] m-auto text-sm text-white p-1 bg-gray-600 rounded"
 						>
 							×
 						</button>
@@ -82,11 +82,20 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 
 									<div className="p-1 w-full flex justify-between bg-red-600 rounded">
 										<div>
-											{video.player1.decks.map((deck) => (
-												<p key={deck.no} className="text-white">
-													{deck.no} {deck.name}
-												</p>
-											))}
+											<div>
+												{video.player1.decks.map((deck) => (
+													<p key={deck.no} className="text-white">
+														{deck.no} {deck.name}
+													</p>
+												))}
+											</div>
+											<div className="flex">
+												{video.player1.decks.map((deck) => (
+													<div key={deck.no} className="w-[32px]">
+														<GeneralImageButton general={deck} />
+													</div>
+												))}
+											</div>
 										</div>
 
 										<div className="flex items-center">
@@ -96,11 +105,20 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 
 									<div className="p-1 w-full flex justify-between bg-blue-600 rounded">
 										<div>
-											{video.player2.decks.map((deck) => (
-												<p key={deck.no} className="text-white">
-													{deck.no} {deck.name}
-												</p>
-											))}
+											<div>
+												{video.player2.decks.map((deck) => (
+													<p key={deck.no} className="text-white">
+														{deck.no} {deck.name}
+													</p>
+												))}
+											</div>
+											<div className="flex">
+												{video.player2.decks.map((deck) => (
+													<div key={deck.no} className="w-[32px]">
+														<GeneralImageButton general={deck} />
+													</div>
+												))}
+											</div>
 										</div>
 
 										<div className="flex items-center">

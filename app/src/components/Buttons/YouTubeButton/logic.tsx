@@ -1,7 +1,6 @@
 import { YoutubeDeckContext } from "@/context/sqlite/YoutubeDeck";
 import type { General } from "@eiketsu-taisen-tool/data/types";
 import React from "react";
-import { ref } from "yup";
 
 type Youtube = {
 	title: string;

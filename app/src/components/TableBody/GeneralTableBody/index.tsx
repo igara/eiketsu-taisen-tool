@@ -1,6 +1,7 @@
 "use client";
 
 import { FavoriteButton } from "@/components/Buttons/FavoriteButton";
+import { GeneralImageButton } from "@/components/Buttons/GeneralImageButton";
 import { SkillButton } from "@/components/Buttons/SkillButton";
 import { YouTubeButton } from "@/components/Buttons/YouTubeButton";
 import type { SearchFormData } from "@/schema/SearchForm";
@@ -64,12 +65,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 						</div>
 
 						<div className="w-[32px]">
-							<img
-								src={`/eiketsu-taisen-tool/images/generals/${general.no}_${general.name}/5.jpg`}
-								alt={general.name}
-								width={32}
-								height={40}
-							/>
+							<GeneralImageButton general={general} />
 						</div>
 					</div>
 
@@ -84,7 +80,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 				</div>
 			</td>
 
-			<td className="pl-[4px]">
+			<td className="pl-[4px] align-baseline">
 				<div className="flex">
 					<div className="w-full pt-[4px] flex-1">
 						<ruby>
