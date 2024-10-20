@@ -11,9 +11,10 @@ type Props = {
 };
 
 export const YouTubeButton: React.FC<Props> = ({ general }) => {
-	const { isOpen, onYouTubeClick, onDialogCloseClick, youtube } = useLogic({
-		general,
-	});
+	const { isOpen, onYouTubeClick, onDialogCloseClick, youtube, isLoading } =
+		useLogic({
+			general,
+		});
 
 	return (
 		<div>
@@ -43,52 +44,55 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 					</div>
 
 					<div className="h-[calc(100%-40px)] overflow-y-auto">
-						{youtube.length === 0 && <p>動画がありません。</p>}
+						{isLoading && <p>読み込み中...</p>}
 
-						{youtube.map((video, index) => (
-							<div
-								// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-								key={index}
-								className="py-2 flex flex-col items-start gap-1 border-b-2 border-black"
-							>
-								<a
-									href={video.video_url}
-									target="_blank"
-									rel="noopener noreferrer"
-									className="underline"
+						{!isLoading && youtube.length === 0 && <p>動画がありません。</p>}
+
+						{!isLoading &&
+							youtube.map((video, index) => (
+								<div
+									// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+									key={index}
+									className="py-2 flex flex-col items-start gap-1 border-b-2 border-black"
 								>
-									{video.title}
-								</a>
+									<a
+										href={video.video_url}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="underline"
+									>
+										{video.title}
+									</a>
 
-								<div className="p-1 w-full flex justify-between bg-red-600 rounded">
-									<div>
-										{video.player1.decks.map((deck) => (
-											<p key={deck.no} className="text-white">
-												{deck.no} {deck.name}
-											</p>
-										))}
+									<div className="p-1 w-full flex justify-between bg-red-600 rounded">
+										<div>
+											{video.player1.decks.map((deck) => (
+												<p key={deck.no} className="text-white">
+													{deck.no} {deck.name}
+												</p>
+											))}
+										</div>
+
+										<div className="flex items-center">
+											<DeckLink decks={video.player1.decks} />
+										</div>
 									</div>
 
-									<div className="flex items-center">
-										<DeckLink decks={video.player1.decks} />
+									<div className="p-1 w-full flex justify-between bg-blue-600 rounded">
+										<div>
+											{video.player2.decks.map((deck) => (
+												<p key={deck.no} className="text-white">
+													{deck.no} {deck.name}
+												</p>
+											))}
+										</div>
+
+										<div className="flex items-center">
+											<DeckLink decks={video.player2.decks} />
+										</div>
 									</div>
 								</div>
-
-								<div className="p-1 w-full flex justify-between bg-blue-600 rounded">
-									<div>
-										{video.player2.decks.map((deck) => (
-											<p key={deck.no} className="text-white">
-												{deck.no} {deck.name}
-											</p>
-										))}
-									</div>
-
-									<div className="flex items-center">
-										<DeckLink decks={video.player2.decks} />
-									</div>
-								</div>
-							</div>
-						))}
+							))}
 					</div>
 				</div>
 			</dialog>

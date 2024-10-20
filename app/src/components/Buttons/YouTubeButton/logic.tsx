@@ -27,6 +27,7 @@ type Args = {
 export const useLogic = ({ general }: Args) => {
 	const [isOpen, setIsOpen] = React.useState(false);
 	const { youtubeDeckDB } = React.useContext(YoutubeDeckContext);
+	const [isLoading, setIsLoading] = React.useState(false);
 
 	const [youtube, setYoutube] = React.useState<Youtube[]>([]);
 
@@ -34,6 +35,7 @@ export const useLogic = ({ general }: Args) => {
 		HTMLButtonElement
 	> = async () => {
 		setIsOpen(true);
+		setIsLoading(true);
 
 		if (!youtubeDeckDB) return;
 
@@ -82,6 +84,7 @@ export const useLogic = ({ general }: Args) => {
 		);
 
 		setYoutube(youtubeVideos);
+		setIsLoading(false);
 	};
 
 	const onDialogCloseClick: React.MouseEventHandler<HTMLButtonElement> = (
@@ -93,6 +96,7 @@ export const useLogic = ({ general }: Args) => {
 		document.body.style.overflow = "auto";
 
 		setIsOpen(false);
+		setYoutube([]);
 	};
 
 	return {
@@ -100,5 +104,6 @@ export const useLogic = ({ general }: Args) => {
 		onYouTubeClick,
 		onDialogCloseClick,
 		youtube,
+		isLoading,
 	};
 };
