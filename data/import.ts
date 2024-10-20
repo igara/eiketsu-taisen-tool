@@ -399,15 +399,17 @@ const main = async () => {
 		fs.writeFileSync(`${dirName}/4.jpg`, thumbnailBuffer);
 
 		const thumbnail = await sharp(thumbnailBuffer);
-		await thumbnail
-			.clone()
-			.extract({
-				left: 10,
-				top: 11,
-				width: 140,
-				height: 215,
-			})
-			.toFile(`${dirName}/5.jpg`);
+		const t5 = thumbnail.clone().extract({
+			left: 10,
+			top: 11,
+			width: 140,
+			height: 215,
+		});
+		await t5.toFile(`${dirName}/5.jpg`);
+
+		const publicDir = `../app/public/images/generals/${general.no}_${general.name}`;
+		fs.mkdirSync(publicDir, { recursive: true });
+		await t5.toFile(`${publicDir}/5.jpg`);
 	}
 };
 mainExec && main();
