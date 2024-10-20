@@ -544,18 +544,16 @@ export const useLogic = () => {
 	};
 
 	const MAX_COST = 9;
-	const favoriteCostCount = favoriteGenerals.reduce(
-		(acc, cur) => acc + +cur.cost,
-		0,
-	);
 
-	const favoritePowerCount = favoriteGenerals.reduce(
-		(acc, cur) => acc + +cur.power,
-		0,
-	);
-	const favoriteIntelligentziaCount = favoriteGenerals.reduce(
-		(acc, cur) => acc + +cur.intelligentzia,
-		0,
+	const favoriteCountInfo = favoriteGenerals.reduce(
+		(acc, cur) => {
+			const { power, intelligentzia, cost } = cur;
+			acc.power += +power;
+			acc.intelligentzia += +intelligentzia;
+			acc.cost += +cost;
+			return acc;
+		},
+		{ power: 0, intelligentzia: 0, cost: 0 },
 	);
 
 	return {
@@ -600,8 +598,6 @@ export const useLogic = () => {
 		defaultSearchWord,
 		defaultSearchFavoriteNos,
 		MAX_COST,
-		favoriteCostCount,
-		favoritePowerCount,
-		favoriteIntelligentziaCount,
+		favoriteCountInfo,
 	};
 };

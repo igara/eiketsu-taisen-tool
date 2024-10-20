@@ -48,9 +48,7 @@ export const GeneralTable: React.FC = () => {
 		defaultSearchWord,
 		defaultSearchFavoriteNos,
 		MAX_COST,
-		favoriteCostCount,
-		favoritePowerCount,
-		favoriteIntelligentziaCount,
+		favoriteCountInfo,
 	} = useLogic();
 
 	return (
@@ -111,18 +109,9 @@ export const GeneralTable: React.FC = () => {
 							</tr>
 						</thead>
 
-						<tbody className={`bg-white ${isDisplayFavorite ? "hidden" : ""}`}>
+						<tbody className="bg-white">
 							<GeneralTableBody
-								generals={generals}
-								formMethod={formMethod}
-								defaultSearchFavoriteNos={defaultSearchFavoriteNos}
-								isDisableOption={isDisableOption}
-							/>
-						</tbody>
-
-						<tbody className={`bg-white ${isDisplayFavorite ? "" : "hidden"}`}>
-							<GeneralTableBody
-								generals={favoriteGenerals}
+								generals={isDisplayFavorite ? favoriteGenerals : generals}
 								formMethod={formMethod}
 								defaultSearchFavoriteNos={defaultSearchFavoriteNos}
 								isDisableOption={isDisableOption}
@@ -173,15 +162,17 @@ export const GeneralTable: React.FC = () => {
 												総コスト:
 												<span
 													className={
-														MAX_COST < favoriteCostCount ? "text-red-700" : ""
+														MAX_COST < favoriteCountInfo.cost
+															? "text-red-700"
+															: ""
 													}
 												>
-													{favoriteCostCount}
+													{favoriteCountInfo.cost}
 												</span>{" "}
 												/ {MAX_COST}
 											</div>
-											<div>総武力: {favoritePowerCount}</div>
-											<div>総知力: {favoriteIntelligentziaCount}</div>
+											<div>総武力: {favoriteCountInfo.power}</div>
+											<div>総知力: {favoriteCountInfo.intelligentzia}</div>
 										</div>
 
 										<div>
