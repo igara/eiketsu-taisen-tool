@@ -195,7 +195,7 @@ export const GeneralTable: React.FC = () => {
 													>
 														<summary
 															onKeyDown={onClickColorDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 														>
 															勢力
 														</summary>
@@ -238,7 +238,7 @@ export const GeneralTable: React.FC = () => {
 													>
 														<summary
 															onKeyDown={onClickPeriodDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 														>
 															時代
 														</summary>
@@ -247,7 +247,7 @@ export const GeneralTable: React.FC = () => {
 															{periods.map((period) => (
 																<div
 																	key={period}
-																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 																>
 																	<input
 																		type="checkbox"
@@ -272,7 +272,7 @@ export const GeneralTable: React.FC = () => {
 													>
 														<summary
 															onKeyDown={onClickCostDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 														>
 															コスト
 														</summary>
@@ -281,7 +281,7 @@ export const GeneralTable: React.FC = () => {
 															{costs.map((cost) => (
 																<div
 																	key={cost}
-																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 																>
 																	<input
 																		type="checkbox"
@@ -306,7 +306,7 @@ export const GeneralTable: React.FC = () => {
 													>
 														<summary
 															onKeyDown={onClickUnitTypeDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 														>
 															兵種
 														</summary>
@@ -315,7 +315,7 @@ export const GeneralTable: React.FC = () => {
 															{unitTypes.map((unitType) => (
 																<div
 																	key={unitType}
-																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 																>
 																	<input
 																		type="checkbox"
@@ -340,7 +340,7 @@ export const GeneralTable: React.FC = () => {
 													>
 														<summary
 															onKeyDown={onClickSkillDetails}
-															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 														>
 															特技
 														</summary>
@@ -349,7 +349,7 @@ export const GeneralTable: React.FC = () => {
 															{skills.map((skill) => (
 																<div
 																	key={skill.name}
-																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 																>
 																	<input
 																		type="checkbox"
@@ -374,7 +374,7 @@ export const GeneralTable: React.FC = () => {
 													>
 														<summary
 															onKeyDown={onClickStratRangesDetails}
-															className="w-[110px] text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+															className="w-[110px] text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 														>
 															計略効果範囲
 														</summary>
@@ -383,7 +383,7 @@ export const GeneralTable: React.FC = () => {
 															{stratRanges.map((stratRange) => (
 																<div
 																	key={stratRange}
-																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																	className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 																>
 																	<input
 																		type="checkbox"
@@ -427,13 +427,13 @@ export const GeneralTable: React.FC = () => {
 														>
 															<summary
 																onKeyDown={onClickDisplayDetails}
-																className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]"
+																className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 															>
 																表示切り替え
 															</summary>
 
 															<div className="absolute bottom-[28px] w-[100px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
-																<div className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]">
+																<div className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]">
 																	<input
 																		type="checkbox"
 																		value="true"
@@ -449,7 +449,7 @@ export const GeneralTable: React.FC = () => {
 																	</label>
 																</div>
 
-																<div className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]">
+																<div className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]">
 																	<input
 																		type="checkbox"
 																		value="true"
@@ -467,7 +467,7 @@ export const GeneralTable: React.FC = () => {
 															</div>
 														</details>
 
-														<div className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947]">
+														<div className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]">
 															<input
 																type="checkbox"
 																value="true"
