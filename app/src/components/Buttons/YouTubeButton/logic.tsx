@@ -105,6 +105,7 @@ export const useLogic = ({ general }: Args) => {
 
 		if (!refContentDivElement.current.contains(e.target as Node)) {
 			setIsOpen(false);
+			document.body.style.overflow = "auto";
 		}
 	};
 
