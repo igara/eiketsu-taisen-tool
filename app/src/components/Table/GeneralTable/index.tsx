@@ -66,15 +66,17 @@ export const GeneralTable: React.FC = () => {
 							className={`text-white w-full sticky z-50 top-0 bg-gradient-to-b from-[#954d26] via-[#ae853a] to-[#b59d52] dark:bg-[#954d26] ${isDisableHeader ? "hidden" : ""}`}
 						>
 							<tr>
-								<th className="w-[80px] text-left p-[4px]">
+								<th className="w-[80px] text-left p-[4px] align-baseline">
 									<p>勢力</p>
 									<p>時代</p>
 									<p>No</p>
 								</th>
 
-								<th className="w-[120px] text-left p-[4px]">
-									<p>名前【コスト】</p>
-									<p>【兵種】武力 / 知力</p>
+								<th className="w-[120px] text-left p-[4px] align-baseline">
+									<p>名前</p>
+									<p>【コスト】</p>
+									<p>兵種</p>
+									<p>武力 / 知力</p>
 									<p>特技</p>
 								</th>
 
@@ -85,8 +87,12 @@ export const GeneralTable: React.FC = () => {
 											<p>効果時間</p>
 											<p>【必要士気】</p>
 										</div>
-										<div className="flex justify-center items-center w-[90px] border-l-2 border-b-2 border-white">
-											<p>効果範囲</p>
+										<div className="flex justify-center items-center w-[60px] border-l-2 border-b-2 border-white">
+											<p>
+												効果
+												<br />
+												範囲
+											</p>
 										</div>
 									</div>
 
@@ -95,7 +101,7 @@ export const GeneralTable: React.FC = () => {
 									<div className="flex items-center border-t-2 border-white">
 										<p className="w-full">外部リンク</p>
 
-										<p className="py-[4px] w-[90px] flex items-center justify-center gap-[4px] text-center border-l-2 border-white">
+										<p className="py-[4px] w-[60px] flex items-center justify-center gap-[4px] text-center border-l-2 border-white">
 											リスト
 											<br />
 											登録

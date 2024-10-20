@@ -29,7 +29,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 				background: `rgba(${general.color.r},${general.color.g},${general.color.b},0.2)`,
 			}}
 		>
-			<td className="w-[80px] p-[4px]">
+			<td className="w-[80px] p-[4px] align-baseline">
 				<p
 					style={{
 						color: `rgb(${general.color.r},${general.color.g},${general.color.b})`,
@@ -41,7 +41,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 				<p>{general.no}</p>
 			</td>
 
-			<td className="w-[120px] p-[4px]">
+			<td className="w-[120px] p-[4px] align-baseline">
 				<div className="flex flex-col gap-[4px]">
 					<div>
 						<ruby>
@@ -50,13 +50,28 @@ export const GeneralTableBody: React.FC<Props> = ({
 							<rt>{general.kanaName}</rt>
 							<rp>)</rp>
 						</ruby>
-
-						<span>【{general.cost}】</span>
 					</div>
 
-					<p>
-						【{general.unitType}】{general.power} / {general.intelligentzia}
-					</p>
+					<div className="flex justify-between">
+						<div className="flex flex-col">
+							<p>【{general.cost}】</p>
+
+							<p>{general.unitType}</p>
+
+							<p>
+								{general.power} / {general.intelligentzia}
+							</p>
+						</div>
+
+						<div className="w-[32px]">
+							<img
+								src={`/eiketsu-taisen-tool/images/generals/${general.no}_${general.name}/5.jpg`}
+								alt={general.name}
+								width={32}
+								height={40}
+							/>
+						</div>
+					</div>
 
 					<div className="flex gap-[4px] flex-wrap">
 						{general.skill.map((skill, index) => {
@@ -71,7 +86,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 
 			<td className="pl-[4px]">
 				<div className="flex">
-					<div className="w-full pt-[4px]">
+					<div className="w-full pt-[4px] flex-1">
 						<ruby>
 							{general.strat.name}
 							<rp>(</rp>
@@ -82,12 +97,12 @@ export const GeneralTableBody: React.FC<Props> = ({
 						<p>【{general.strat.cost}】</p>
 					</div>
 
-					<div>
+					<div className="w-[32px]">
 						<img
 							src={`/eiketsu-taisen-tool/images/stratRange/${general.strat.range}.png`}
 							alt={general.strat.name}
-							width={50}
-							height={60}
+							width={32}
+							height={40}
 						/>
 					</div>
 				</div>
