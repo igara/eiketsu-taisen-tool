@@ -200,7 +200,7 @@ export const GeneralTable: React.FC = () => {
 															勢力
 														</summary>
 
-														<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-[#252423] rounded-[4px]">
 															{colors.map((color) => (
 																<div
 																	key={color.name}
@@ -243,7 +243,7 @@ export const GeneralTable: React.FC = () => {
 															時代
 														</summary>
 
-														<div className="absolute bottom-[28px] w-[100px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														<div className="absolute bottom-[28px] w-[100px] flex flex-col gap-[4px] p-[4px] bg-[#252423] rounded-[4px]">
 															{periods.map((period) => (
 																<div
 																	key={period}
@@ -277,7 +277,7 @@ export const GeneralTable: React.FC = () => {
 															コスト
 														</summary>
 
-														<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-[#252423] rounded-[4px]">
 															{costs.map((cost) => (
 																<div
 																	key={cost}
@@ -311,7 +311,7 @@ export const GeneralTable: React.FC = () => {
 															兵種
 														</summary>
 
-														<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-[4px] p-[4px] bg-[#252423] rounded-[4px]">
 															{unitTypes.map((unitType) => (
 																<div
 																	key={unitType}
@@ -345,7 +345,7 @@ export const GeneralTable: React.FC = () => {
 															特技
 														</summary>
 
-														<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-[4px] p-[4px] bg-[#252423] rounded-[4px]">
 															{skills.map((skill) => (
 																<div
 																	key={skill.name}
@@ -379,7 +379,7 @@ export const GeneralTable: React.FC = () => {
 															計略効果範囲
 														</summary>
 
-														<div className="absolute bottom-[28px] w-[130px] flex flex-wrap gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+														<div className="absolute bottom-[28px] w-[130px] flex flex-wrap gap-[4px] p-[4px] bg-[#252423] rounded-[4px]">
 															{stratRanges.map((stratRange) => (
 																<div
 																	key={stratRange}
@@ -432,7 +432,7 @@ export const GeneralTable: React.FC = () => {
 																表示切り替え
 															</summary>
 
-															<div className="absolute bottom-[28px] w-[100px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+															<div className="absolute bottom-[28px] w-[100px] flex flex-col gap-[4px] p-[4px] bg-[#252423] rounded-[4px]">
 																<div className="flex items-center gap-[4px] text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]">
 																	<input
 																		type="checkbox"
@@ -499,7 +499,7 @@ export const GeneralTable: React.FC = () => {
 																	リセット
 																</summary>
 
-																<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-gradient-to-b from-[#252423] via-[#3b3a38] to-[#464542] rounded-[4px]">
+																<div className="absolute bottom-[28px] flex flex-col gap-[4px] p-[4px] bg-[#252423] rounded-[4px]">
 																	<button
 																		type="button"
 																		onClick={onClickSearchReset}
