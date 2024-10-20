@@ -11,17 +11,29 @@ type Props = {
 };
 
 export const YouTubeButton: React.FC<Props> = ({ general }) => {
-	const { isOpen, onYouTubeClick, onDialogCloseClick, youtube, isLoading } =
-		useLogic({
-			general,
-		});
+	const {
+		isOpen,
+		onClickYouTubeButton,
+		onClickDialogCloseButton,
+		onClickDialog,
+		youtube,
+		isLoading,
+		refContentDivElement,
+	} = useLogic({
+		general,
+	});
 
 	return (
 		<div>
-			<button type="button" onClick={onYouTubeClick} className="underline">
+			<button
+				type="button"
+				onClick={onClickYouTubeButton}
+				className="underline"
+			>
 				YouTube 頂上対決
 			</button>
 
+			{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 			<dialog
 				open={isOpen}
 				className={
@@ -29,14 +41,18 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 						? "fixed z-[999] left-0 top-0 flex items-center justify-center w-full h-full bg-[rgba(0,0,0,0.5)]"
 						: "hidden"
 				}
+				onClick={onClickDialog}
 			>
-				<div className="w-10/12 h-5/6 p-3 rounded bg-white">
+				<div
+					className="w-10/12 h-5/6 p-3 rounded bg-white"
+					ref={refContentDivElement}
+				>
 					<div className="flex items-center">
 						<p className="w-full text-sm">{general.name}を使用している動画</p>
 
 						<button
 							type="button"
-							onClick={onDialogCloseClick}
+							onClick={onClickDialogCloseButton}
 							className=" m-auto text-sm text-white p-2 bg-gray-600 rounded"
 						>
 							×

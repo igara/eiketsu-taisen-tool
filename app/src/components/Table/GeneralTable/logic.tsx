@@ -1,4 +1,3 @@
-import { YoutubeDeckContext } from "@/context/sqlite/YoutubeDeck";
 import { type SearchFormData, SearchFormResolver } from "@/schema/SearchForm";
 import ColorsJSON from "@eiketsu-taisen-tool/data/data/json/colors.json";
 import CostsJSON from "@eiketsu-taisen-tool/data/data/json/costs.json";

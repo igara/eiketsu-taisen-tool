@@ -1,6 +1,7 @@
 import { YoutubeDeckContext } from "@/context/sqlite/YoutubeDeck";
 import type { General } from "@eiketsu-taisen-tool/data/types";
 import React from "react";
+import { ref } from "yup";
 
 type Youtube = {
 	title: string;
@@ -26,12 +27,13 @@ type Args = {
 
 export const useLogic = ({ general }: Args) => {
 	const [isOpen, setIsOpen] = React.useState(false);
+	const refContentDivElement = React.useRef<HTMLDivElement>(null);
 	const { youtubeDeckDB } = React.useContext(YoutubeDeckContext);
 	const [isLoading, setIsLoading] = React.useState(false);
 
 	const [youtube, setYoutube] = React.useState<Youtube[]>([]);
 
-	const onYouTubeClick: React.MouseEventHandler<
+	const onClickYouTubeButton: React.MouseEventHandler<
 		HTMLButtonElement
 	> = async () => {
 		setIsOpen(true);
@@ -87,7 +89,7 @@ export const useLogic = ({ general }: Args) => {
 		setIsLoading(false);
 	};
 
-	const onDialogCloseClick: React.MouseEventHandler<HTMLButtonElement> = (
+	const onClickDialogCloseButton: React.MouseEventHandler<HTMLButtonElement> = (
 		e,
 	) => {
 		e.preventDefault();
@@ -99,11 +101,21 @@ export const useLogic = ({ general }: Args) => {
 		setYoutube([]);
 	};
 
+	const onClickDialog = (e: React.MouseEvent<HTMLDialogElement>) => {
+		if (!refContentDivElement.current) return;
+
+		if (!refContentDivElement.current.contains(e.target as Node)) {
+			setIsOpen(false);
+		}
+	};
+
 	return {
 		isOpen,
-		onYouTubeClick,
-		onDialogCloseClick,
+		onClickYouTubeButton,
+		onClickDialogCloseButton,
+		onClickDialog,
 		youtube,
 		isLoading,
+		refContentDivElement,
 	};
 };
