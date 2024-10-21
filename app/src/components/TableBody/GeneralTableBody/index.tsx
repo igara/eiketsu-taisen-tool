@@ -4,13 +4,14 @@ import { FavoriteButton } from "@/components/Buttons/FavoriteButton";
 import { GeneralImageButton } from "@/components/Buttons/GeneralImageButton";
 import { SkillButton } from "@/components/Buttons/SkillButton";
 import { YouTubeButton } from "@/components/Buttons/YouTubeButton";
+import type { GeneralUI } from "@/components/Table/GeneralTable/logic";
 import type { SearchFormData } from "@/schema/SearchForm";
-import type { General } from "@eiketsu-taisen-tool/data/types";
+import Image from "next/image";
 import type React from "react";
 import type { UseFormReturn } from "react-hook-form";
 
 type Props = {
-	generals: General[];
+	generals: GeneralUI[];
 	formMethod: UseFormReturn<SearchFormData>;
 	defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
 	isDisableOption: boolean;
@@ -25,7 +26,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 	return generals.map((general) => (
 		<tr
 			key={general.id}
-			className="border-b-white border-b-2 text-xs"
+			className={`${general.hidden ? "hidden" : "border-b-white border-b-2 text-xs"}`}
 			style={{
 				background: `rgba(${general.color.r},${general.color.g},${general.color.b},0.2)`,
 			}}
@@ -94,7 +95,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 					</div>
 
 					<div className="w-[32px]">
-						<img
+						<Image
 							src={`/eiketsu-taisen-tool/images/stratRange/${general.strat.range}.png`}
 							alt={general.strat.name}
 							width={32}

@@ -10,8 +10,7 @@ export const GeneralTable: React.FC = () => {
 		isDisplayFavorite,
 		isDisableHeader,
 		isDisableOption,
-		generals,
-		favoriteGenerals,
+		generalInfo,
 		colors,
 		periods,
 		costs,
@@ -48,7 +47,6 @@ export const GeneralTable: React.FC = () => {
 		defaultSearchWord,
 		defaultSearchFavoriteNos,
 		MAX_COST,
-		favoriteCountInfo,
 	} = useLogic();
 
 	return (
@@ -111,7 +109,7 @@ export const GeneralTable: React.FC = () => {
 
 						<tbody className="bg-white">
 							<GeneralTableBody
-								generals={isDisplayFavorite ? favoriteGenerals : generals}
+								generals={generalInfo.generals}
 								formMethod={formMethod}
 								defaultSearchFavoriteNos={defaultSearchFavoriteNos}
 								isDisableOption={isDisableOption}
@@ -125,7 +123,7 @@ export const GeneralTable: React.FC = () => {
 										<div
 											className={`text-white flex gap-[4px] ${isDisplayFavorite ? "hidden" : ""}`}
 										>
-											<div>検索件数: {generals.length}</div>
+											<div>検索件数: {generalInfo.searchCount}</div>
 											<div className="flex gap-[4px] flex-wrap">
 												選択条件:{" "}
 												{defaultSelectedColors.map((c) => (
@@ -157,22 +155,24 @@ export const GeneralTable: React.FC = () => {
 										</div>
 
 										<div className="text-white flex gap-[4px]">
-											<div>リスト件数: {favoriteGenerals.length}</div>
+											<div>リスト件数: {generalInfo.favoriteCount.card}</div>
 											<div>
 												総コスト:
 												<span
 													className={
-														MAX_COST < favoriteCountInfo.cost
+														MAX_COST < generalInfo.favoriteCount.cost
 															? "text-red-700"
 															: ""
 													}
 												>
-													{favoriteCountInfo.cost}
+													{generalInfo.favoriteCount.cost}
 												</span>{" "}
 												/ {MAX_COST}
 											</div>
-											<div>総武力: {favoriteCountInfo.power}</div>
-											<div>総知力: {favoriteCountInfo.intelligentzia}</div>
+											<div>総武力: {generalInfo.favoriteCount.power}</div>
+											<div>
+												総知力: {generalInfo.favoriteCount.intelligentzia}
+											</div>
 										</div>
 
 										<div>

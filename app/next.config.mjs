@@ -7,6 +7,9 @@ const nextConfig = {
 		typedRoutes: true,
 	},
 	basePath: "/eiketsu-taisen-tool",
+	images: {
+		unoptimized: true,
+	},
 };
 
 export default nextConfig;

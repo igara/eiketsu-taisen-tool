@@ -11,79 +11,124 @@ import { useRouter, useSearchParams } from "next/navigation";
 import React from "react";
 import { type SubmitHandler, useForm } from "react-hook-form";
 
+export type GeneralUI = General & {
+	isFavorite: boolean;
+	hidden: boolean;
+};
+
 export const useLogic = () => {
-	const genNewFavoriteGenerals = (data: SearchFormData) => {
-		const newGenerals: General[] = GeneralsJSON;
+	const genNewGeneralInfo = (data: {
+		color: string[];
+		period: string[];
+		cost: string[];
+		unitType: string[];
+		skill: string[];
+		stratRange: string[];
+		searchWord: string;
+		favoriteNo: string[];
+		isDisplayFavorite: "true" | undefined;
+	}) => {
+		const newGeneralInfo = GeneralsJSON.reduce(
+			(acc, general) => {
+				const generalUI: GeneralUI = {
+					...general,
+					isFavorite: false,
+					hidden: true,
+				};
 
-		if (data.favoriteNo?.length === 0) {
-			return [];
-		}
-		return newGenerals.filter((general) => {
-			return data.favoriteNo?.some((fn) => fn === general.no);
-		});
-	};
+				const hasFavoriteNo = data.favoriteNo.some((fn) => fn === general.no);
+				if (hasFavoriteNo) {
+					generalUI.isFavorite = true;
 
-	const genNewGenerals = (data: SearchFormData) => {
-		let newGenerals: General[] = GeneralsJSON;
-		if (data.color?.length) {
-			newGenerals = newGenerals.filter((general) => {
-				return data.color?.some((c) => c === general.color.name);
-			});
-		}
+					acc.favoriteCount.card += 1;
+					acc.favoriteCount.power += +general.power;
+					acc.favoriteCount.intelligentzia += +general.intelligentzia;
+					acc.favoriteCount.cost += +general.cost;
+				}
 
-		if (data.period?.length) {
-			newGenerals = newGenerals.filter((general) => {
-				return data.period?.some((p) => p === general.period);
-			});
-		}
+				if (data.isDisplayFavorite === "true") {
+					if (!hasFavoriteNo) {
+						acc.generals.push(generalUI);
+						return acc;
+					}
 
-		if (data.cost?.length) {
-			newGenerals = newGenerals.filter((general) => {
-				return data.cost?.some((p) => p === general.cost);
-			});
-		}
+					generalUI.hidden = false;
+					if (!generalUI.hidden) {
+						acc.searchCount += 1;
+					}
+					acc.generals.push(generalUI);
+					return acc;
+				}
 
-		if (data.unitType?.length) {
-			newGenerals = newGenerals.filter((general) => {
-				return data.unitType?.some((u) => u === general.unitType);
-			});
-		}
+				if (
+					(data.color.length === 0 ||
+						data.color.some((c) => c === general.color.name)) &&
+					(data.period.length === 0 ||
+						data.period.some((p) => p === general.period)) &&
+					(data.cost.length === 0 ||
+						data.cost.some((c) => c === general.cost)) &&
+					(data.unitType.length === 0 ||
+						data.unitType.some((u) => u === general.unitType)) &&
+					(data.skill.length === 0 ||
+						data.skill.some(
+							(s) => s && general.skill.some((gs) => gs.name === s),
+						)) &&
+					(data.stratRange.length === 0 ||
+						data.stratRange.some((sr) => sr === general.strat.range))
+				) {
+					if (data.searchWord) {
+						const searchWords = data.searchWord
+							? data.searchWord.split(/[\u3000\u0020]+/)
+							: [];
 
-		if (data.skill?.length) {
-			newGenerals = newGenerals.filter((general) => {
-				return data.skill?.some(
-					(s) => s && general.skill.find((gs) => gs.name === s),
-				);
-			});
-		}
+						for (const searchWord of searchWords) {
+							const regex = new RegExp(`${searchWord}`, "i");
 
-		if (data.stratRange?.length) {
-			newGenerals = newGenerals.filter((general) => {
-				return data.stratRange?.some((sr) => sr === general.strat.range);
-			});
-		}
+							if (
+								regex.test(general.name) ||
+								regex.test(general.kanaName) ||
+								regex.test(general.strat.name) ||
+								regex.test(general.strat.kanaName) ||
+								regex.test(general.strat.time) ||
+								regex.test(JSON.stringify(general.strat.categories)) ||
+								regex.test(general.strat.description)
+							) {
+								generalUI.hidden = false;
+							}
+						}
+					} else {
+						generalUI.hidden = false;
+					}
+				}
 
-		const searchWords = data.searchWord
-			? data.searchWord.split(/[\u3000\u0020]+/)
-			: [];
+				if (!generalUI.hidden) {
+					acc.searchCount += 1;
+				}
+				acc.generals.push(generalUI);
+				return acc;
+			},
+			{
+				generals: [],
+				favoriteCount: {
+					card: 0,
+					power: 0,
+					intelligentzia: 0,
+					cost: 0,
+				},
+				searchCount: 0,
+			} as {
+				generals: GeneralUI[];
+				favoriteCount: {
+					card: number;
+					power: number;
+					intelligentzia: number;
+					cost: number;
+				};
+				searchCount: number;
+			},
+		);
 
-		for (const searchWord of searchWords) {
-			const regex = new RegExp(`${searchWord}`, "i");
-
-			newGenerals = newGenerals.filter((general) => {
-				return (
-					regex.test(general.name) ||
-					regex.test(general.kanaName) ||
-					regex.test(general.strat.name) ||
-					regex.test(general.strat.kanaName) ||
-					regex.test(general.strat.time) ||
-					regex.test(JSON.stringify(general.strat.categories)) ||
-					regex.test(general.strat.description)
-				);
-			});
-		}
-
-		return newGenerals;
+		return newGeneralInfo;
 	};
 
 	const router = useRouter();
@@ -112,7 +157,7 @@ export const useLogic = () => {
 	const isDisableHeader = defaultIsDisableHeader === "true";
 	const isDisableOption = defaultIsDisableOption === "true";
 
-	const generals = genNewGenerals({
+	const generalInfo = genNewGeneralInfo({
 		color: defaultSelectedColors,
 		period: defaultSelectedPeriods,
 		cost: defaultSelectedCosts,
@@ -122,22 +167,6 @@ export const useLogic = () => {
 		searchWord: defaultSearchWord || "",
 		favoriteNo: defaultSearchFavoriteNos,
 		isDisplayFavorite: isDisplayFavorite ? "true" : undefined,
-		isDisableHeader: isDisableHeader ? "true" : undefined,
-		isDisableOption: isDisableOption ? "true" : undefined,
-	});
-
-	const favoriteGenerals = genNewFavoriteGenerals({
-		color: defaultSelectedColors,
-		period: defaultSelectedPeriods,
-		cost: defaultSelectedCosts,
-		unitType: defaultSelectedUnitTypes,
-		skill: defaultSelectedSkills,
-		stratRange: defaultSelectedStratRanges,
-		searchWord: defaultSearchWord || "",
-		favoriteNo: defaultSearchFavoriteNos,
-		isDisplayFavorite: isDisplayFavorite ? "true" : undefined,
-		isDisableHeader: isDisableHeader ? "true" : undefined,
-		isDisableOption: isDisableOption ? "true" : undefined,
 	});
 
 	const refTableScrollElement = React.useRef<HTMLFormElement>(null);
@@ -545,23 +574,11 @@ export const useLogic = () => {
 
 	const MAX_COST = 9;
 
-	const favoriteCountInfo = favoriteGenerals.reduce(
-		(acc, cur) => {
-			const { power, intelligentzia, cost } = cur;
-			acc.power += +power;
-			acc.intelligentzia += +intelligentzia;
-			acc.cost += +cost;
-			return acc;
-		},
-		{ power: 0, intelligentzia: 0, cost: 0 },
-	);
-
 	return {
 		isDisplayFavorite,
 		isDisableHeader,
 		isDisableOption,
-		generals,
-		favoriteGenerals,
+		generalInfo,
 		colors,
 		periods,
 		costs,
@@ -598,6 +615,5 @@ export const useLogic = () => {
 		defaultSearchWord,
 		defaultSearchFavoriteNos,
 		MAX_COST,
-		favoriteCountInfo,
 	};
 };

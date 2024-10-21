@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import type React from "react";
 import { useLogic } from "./logic";
 
@@ -22,7 +23,7 @@ export const GeneralImageButton: React.FC<Props> = ({ general }) => {
 	return (
 		<div>
 			<button type="button" onClick={onClickImageButton}>
-				<img
+				<Image
 					src={`/eiketsu-taisen-tool/images/generals/${general.no}_${general.name}/5.jpg`}
 					alt={general.name}
 					width={32}
@@ -57,7 +58,7 @@ export const GeneralImageButton: React.FC<Props> = ({ general }) => {
 					</div>
 
 					<div className="h-[calc(100%-40px)] overflow-y-auto">
-						<img
+						<Image
 							src={`/eiketsu-taisen-tool/images/generals/${general.no}_${general.name}/5.jpg`}
 							alt={general.name}
 							width={140}
