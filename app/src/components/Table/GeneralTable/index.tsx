@@ -1,6 +1,7 @@
 "use client";
 
 import { GeneralTableBody } from "@/components/TableBody/GeneralTableBody";
+import Image from "next/image";
 import type React from "react";
 import { FormProvider } from "react-hook-form";
 import { useLogic } from "./logic";
@@ -142,7 +143,7 @@ export const GeneralTable: React.FC = () => {
 													<span key={s}>{s}</span>
 												))}
 												{defaultSelectedStratRanges.map((sr) => (
-													<img
+													<Image
 														key={sr}
 														src={`/eiketsu-taisen-tool/images/stratRange/${sr}.png`}
 														alt={sr}
@@ -386,7 +387,7 @@ export const GeneralTable: React.FC = () => {
 																		htmlFor={`stratRange_${stratRange}`}
 																		className="text-black"
 																	>
-																		<img
+																		<Image
 																			src={`/eiketsu-taisen-tool/images/stratRange/${stratRange}.png`}
 																			alt={stratRange}
 																			width={18}
