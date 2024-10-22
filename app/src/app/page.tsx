@@ -1,9 +1,10 @@
-import dynamic from "next/dynamic";
-
-const Index = dynamic(() => import("@/components/pages/index"), {
-	ssr: false,
-});
+import { Index } from "@/components/pages/index";
+import { Suspense } from "react";
 
 export default function Home() {
-	return <Index />;
+	return (
+		<Suspense fallback={<div>Loading...</div>}>
+			<Index />
+		</Suspense>
+	);
 }
