@@ -274,6 +274,9 @@ const main = async () => {
 
 	const kabukies = baseJSON.kabuki[0].split(":");
 
+	const setStratCosts = new Set<string>();
+	const setPowers = new Set<string>();
+	const setIntelligentzias = new Set<string>();
 	const generals = baseJSON.general.map((general) => {
 		const g = general.split(",");
 
@@ -318,6 +321,12 @@ const main = async () => {
 		});
 
 		const id = g[0];
+		const power = g[17];
+		const intelligentzia = g[18];
+
+		setStratCosts.add(strat.cost);
+		setPowers.add(power);
+		setIntelligentzias.add(intelligentzia);
 
 		return {
 			no,
@@ -338,8 +347,8 @@ const main = async () => {
 				time: stratTimes[strat.time],
 				range: stratRanges[strat.range],
 			},
-			power: g[17],
-			intelligentzia: g[18],
+			power,
+			intelligentzia,
 			skill,
 			kabuki,
 			url: {
@@ -349,7 +358,21 @@ const main = async () => {
 			},
 		};
 	});
+	const stratCosts = Array.from(setStratCosts).sort((a, b) => +a - +b);
+	const powers = Array.from(setPowers).sort((a, b) => +a - +b);
+	const intelligentzias = Array.from(setIntelligentzias).sort(
+		(a, b) => +a - +b,
+	);
 
+	fs.writeFileSync(
+		"data/json/stratCosts.json",
+		JSON.stringify(stratCosts, null, 2),
+	);
+	fs.writeFileSync("data/json/powers.json", JSON.stringify(powers, null, 2));
+	fs.writeFileSync(
+		"data/json/intelligentzias.json",
+		JSON.stringify(intelligentzias, null, 2),
+	);
 	fs.writeFileSync(
 		"data/json/generals.json",
 		JSON.stringify(generals, null, 2),

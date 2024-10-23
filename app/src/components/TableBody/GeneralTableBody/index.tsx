@@ -31,7 +31,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 				background: `rgba(${general.color.r},${general.color.g},${general.color.b},0.2)`,
 			}}
 		>
-			<td className="w-[80px] p-[4px] align-baseline">
+			<td className="w-[80px] p-1 align-baseline">
 				<p
 					style={{
 						color: `rgb(${general.color.r},${general.color.g},${general.color.b})`,
@@ -43,8 +43,8 @@ export const GeneralTableBody: React.FC<Props> = ({
 				<p>{general.no}</p>
 			</td>
 
-			<td className="w-[120px] p-[4px] align-baseline">
-				<div className="flex flex-col gap-[4px]">
+			<td className="w-[120px] p-1 align-baseline">
+				<div className="flex flex-col gap-1">
 					<div>
 						<ruby>
 							<p>{general.name}</p>
@@ -70,7 +70,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 						</div>
 					</div>
 
-					<div className="flex gap-[4px] flex-wrap">
+					<div className="flex gap-1 flex-wrap">
 						{general.skill.map((skill, index) => {
 							return (
 								// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
@@ -81,9 +81,9 @@ export const GeneralTableBody: React.FC<Props> = ({
 				</div>
 			</td>
 
-			<td className="pl-[4px] align-baseline">
+			<td className="pl-1 align-baseline">
 				<div className="flex">
-					<div className="w-full pt-[4px] flex-1">
+					<div className="w-full pt-1 flex-1">
 						<ruby>
 							{general.strat.name}
 							<rp>(</rp>
@@ -110,11 +110,11 @@ export const GeneralTableBody: React.FC<Props> = ({
 					dangerouslySetInnerHTML={{
 						__html: general.strat.description,
 					}}
-					className="pb-[4px]"
+					className="pb-1"
 				/>
 
 				<div
-					className={`flex py-[4px] border-t-2 border-white ${isDisableOption ? "hidden" : ""}`}
+					className={`flex py-1 border-t-2 border-white ${isDisableOption ? "hidden" : ""}`}
 				>
 					<ul className="w-full">
 						{general.url.official && (
@@ -159,7 +159,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 						</li>
 					</ul>
 
-					<div className="w-[90px] flex items-center justify-end p-[4px]">
+					<div className="w-[90px] flex items-center justify-end p-1">
 						<FavoriteButton
 							general={general}
 							formMethod={formMethod}

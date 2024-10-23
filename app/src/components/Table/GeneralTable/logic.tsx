@@ -2,8 +2,11 @@ import { type SearchFormData, SearchFormResolver } from "@/schema/SearchForm";
 import ColorsJSON from "@eiketsu-taisen-tool/data/data/json/colors.json";
 import CostsJSON from "@eiketsu-taisen-tool/data/data/json/costs.json";
 import GeneralsJSON from "@eiketsu-taisen-tool/data/data/json/generals.json";
+import IntelligentziasJSON from "@eiketsu-taisen-tool/data/data/json/intelligentzias.json";
 import PeriodsJSON from "@eiketsu-taisen-tool/data/data/json/periods.json";
+import PowersJSON from "@eiketsu-taisen-tool/data/data/json/powers.json";
 import SkillsJSON from "@eiketsu-taisen-tool/data/data/json/skills.json";
+import StratCostsJSON from "@eiketsu-taisen-tool/data/data/json/stratCosts.json";
 import StratRangesJSON from "@eiketsu-taisen-tool/data/data/json/stratRanges.json";
 import UnitTypesJSON from "@eiketsu-taisen-tool/data/data/json/unitTypes.json";
 import type { General } from "@eiketsu-taisen-tool/data/types";
@@ -23,6 +26,9 @@ export const useLogic = () => {
 		cost: string[];
 		unitType: string[];
 		skill: string[];
+		power: string[];
+		intelligentzia: string[];
+		stratCost: string[];
 		stratRange: string[];
 		searchWord: string;
 		favoriteNo: string[];
@@ -73,6 +79,12 @@ export const useLogic = () => {
 						data.skill.some(
 							(s) => s && general.skill.some((gs) => gs.name === s),
 						)) &&
+					(data.power.length === 0 ||
+						data.power.some((sr) => sr === general.power)) &&
+					(data.intelligentzia.length === 0 ||
+						data.intelligentzia.some((sr) => sr === general.intelligentzia)) &&
+					(data.stratCost.length === 0 ||
+						data.stratCost.some((sr) => sr === general.strat.cost)) &&
 					(data.stratRange.length === 0 ||
 						data.stratRange.some((sr) => sr === general.strat.range))
 				) {
@@ -139,11 +151,15 @@ export const useLogic = () => {
 	const defaultSelectedCosts = searchParams.getAll("cost[]");
 	const defaultSelectedUnitTypes = searchParams.getAll("unitType[]");
 	const defaultSelectedSkills = searchParams.getAll("skill[]");
+	const defaultSelectedPowers = searchParams.getAll("power[]");
+	const defaultSelectedIntelligentzias =
+		searchParams.getAll("intelligentzia[]");
+	const defaultSelectedStratCosts = searchParams.getAll("stratCost[]");
 	const defaultSelectedStratRanges = searchParams.getAll("stratRange[]");
 	const defaultSearchWord = searchParams.get("searchWord");
 	const defaultSearchFavoriteNos = searchParams.getAll("favoriteNo[]");
 	const defaultIsDisplayFavorite = searchParams.get("isDisplayFavorite");
-	const defaultIsDisableHeader = searchParams.get("isDisableHeader");
+	const defaultIsDisableSearchForm = searchParams.get("isDisableSearchForm");
 	const defaultIsDisableOption = searchParams.get("isDisableOption");
 
 	const colors = ColorsJSON;
@@ -151,10 +167,13 @@ export const useLogic = () => {
 	const costs = CostsJSON;
 	const unitTypes = UnitTypesJSON;
 	const skills = SkillsJSON;
+	const powers = PowersJSON;
+	const intelligentzias = IntelligentziasJSON;
+	const stratCosts = StratCostsJSON;
 	const stratRanges = StratRangesJSON;
 
 	const isDisplayFavorite = defaultIsDisplayFavorite === "true";
-	const isDisableHeader = defaultIsDisableHeader === "true";
+	const isDisableSearchForm = defaultIsDisableSearchForm === "true";
 	const isDisableOption = defaultIsDisableOption === "true";
 
 	const generalInfo = genNewGeneralInfo({
@@ -163,6 +182,9 @@ export const useLogic = () => {
 		cost: defaultSelectedCosts,
 		unitType: defaultSelectedUnitTypes,
 		skill: defaultSelectedSkills,
+		power: defaultSelectedPowers,
+		intelligentzia: defaultSelectedIntelligentzias,
+		stratCost: defaultSelectedStratCosts,
 		stratRange: defaultSelectedStratRanges,
 		searchWord: defaultSearchWord || "",
 		favoriteNo: defaultSearchFavoriteNos,
@@ -175,6 +197,10 @@ export const useLogic = () => {
 	const refCostDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refUnitTypeDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refSkillDetailsElement = React.useRef<HTMLDetailsElement>(null);
+	const refPowersDetailsElement = React.useRef<HTMLDetailsElement>(null);
+	const refIntelligentziasDetailsElement =
+		React.useRef<HTMLDetailsElement>(null);
+	const refStratCostsDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refStratRangesDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refResetDetailsElement = React.useRef<HTMLDetailsElement>(null);
 	const refDisplayDetailsElement = React.useRef<HTMLDetailsElement>(null);
@@ -187,11 +213,14 @@ export const useLogic = () => {
 			cost: defaultSelectedCosts,
 			unitType: defaultSelectedUnitTypes,
 			skill: defaultSelectedSkills,
+			power: defaultSelectedPowers,
+			intelligentzia: defaultSelectedIntelligentzias,
+			stratCost: defaultSelectedStratCosts,
 			stratRange: defaultSelectedStratRanges,
 			searchWord: defaultSearchWord || "",
 			favoriteNo: defaultSearchFavoriteNos,
 			isDisplayFavorite: isDisplayFavorite ? "true" : undefined,
-			isDisableHeader: isDisableHeader ? "true" : undefined,
+			isDisableSearchForm: isDisableSearchForm ? "true" : undefined,
 			isDisableOption: isDisableOption ? "true" : undefined,
 		},
 	});
@@ -230,6 +259,22 @@ export const useLogic = () => {
 				!refSkillDetailsElement.current.open;
 		}
 	};
+	const onClickPowersDetails: React.FormEventHandler<HTMLElement> = (e) => {
+		e.preventDefault();
+		if (refPowersDetailsElement.current !== null) {
+			refPowersDetailsElement.current.open =
+				!refPowersDetailsElement.current.open;
+		}
+	};
+	const onClickIntelligentziasDetails: React.FormEventHandler<HTMLElement> = (
+		e,
+	) => {
+		e.preventDefault();
+		if (refIntelligentziasDetailsElement.current !== null) {
+			refIntelligentziasDetailsElement.current.open =
+				!refIntelligentziasDetailsElement.current.open;
+		}
+	};
 	const onClickStratRangesDetails: React.FormEventHandler<HTMLElement> = (
 		e,
 	) => {
@@ -237,6 +282,13 @@ export const useLogic = () => {
 		if (refStratRangesDetailsElement.current !== null) {
 			refStratRangesDetailsElement.current.open =
 				!refStratRangesDetailsElement.current.open;
+		}
+	};
+	const onClickStratCostsDetails: React.FormEventHandler<HTMLElement> = (e) => {
+		e.preventDefault();
+		if (refStratCostsDetailsElement.current !== null) {
+			refStratCostsDetailsElement.current.open =
+				!refStratCostsDetailsElement.current.open;
 		}
 	};
 	const onClickResetDetails: React.FormEventHandler<HTMLElement> = (e) => {
@@ -296,15 +348,15 @@ export const useLogic = () => {
 		},
 	});
 
-	formMethod.register("isDisableHeader", {
+	formMethod.register("isDisableSearchForm", {
 		onChange: (e) => {
 			const checked: boolean = e.target.checked;
 			const newURLSearchParams = new URLSearchParams(window.location.search);
 
 			if (checked) {
-				newURLSearchParams.delete("isDisableHeader");
+				newURLSearchParams.delete("isDisableSearchForm");
 			} else {
-				newURLSearchParams.append("isDisableHeader", "true");
+				newURLSearchParams.append("isDisableSearchForm", "true");
 			}
 
 			router.push(`/?${newURLSearchParams.toString()}`);
@@ -325,6 +377,42 @@ export const useLogic = () => {
 			router.push(`/?${newURLSearchParams.toString()}`);
 		},
 	});
+
+	const closeAllDetails = () => {
+		if (refColorDetailsElement.current !== null) {
+			refColorDetailsElement.current.open = false;
+		}
+		if (refPeriodDetailsElement.current !== null) {
+			refPeriodDetailsElement.current.open = false;
+		}
+		if (refCostDetailsElement.current !== null) {
+			refCostDetailsElement.current.open = false;
+		}
+		if (refUnitTypeDetailsElement.current !== null) {
+			refUnitTypeDetailsElement.current.open = false;
+		}
+		if (refSkillDetailsElement.current !== null) {
+			refSkillDetailsElement.current.open = false;
+		}
+		if (refPowersDetailsElement.current !== null) {
+			refPowersDetailsElement.current.open = false;
+		}
+		if (refIntelligentziasDetailsElement.current !== null) {
+			refIntelligentziasDetailsElement.current.open = false;
+		}
+		if (refStratCostsDetailsElement.current !== null) {
+			refStratCostsDetailsElement.current.open = false;
+		}
+		if (refStratRangesDetailsElement.current !== null) {
+			refStratRangesDetailsElement.current.open = false;
+		}
+		if (refResetDetailsElement.current !== null) {
+			refResetDetailsElement.current.open = false;
+		}
+		if (refDisplayDetailsElement.current !== null) {
+			refDisplayDetailsElement.current.open = false;
+		}
+	};
 
 	const onSubmit: SubmitHandler<SearchFormData> = (data) => {
 		const newURLSearchParams = new URLSearchParams();
@@ -359,6 +447,24 @@ export const useLogic = () => {
 			}
 		}
 
+		if (data.power?.length) {
+			for (const p of data.power) {
+				p && newURLSearchParams.append("power[]", p);
+			}
+		}
+
+		if (data.intelligentzia?.length) {
+			for (const i of data.intelligentzia) {
+				i && newURLSearchParams.append("intelligentzia[]", i);
+			}
+		}
+
+		if (data.stratCost?.length) {
+			for (const sc of data.stratCost) {
+				sc && newURLSearchParams.append("stratCost[]", sc);
+			}
+		}
+
 		if (data.stratRange?.length) {
 			for (const sr of data.stratRange) {
 				sr && newURLSearchParams.append("stratRange[]", sr);
@@ -387,30 +493,7 @@ export const useLogic = () => {
 			tableScrollElement.scrollTop = 0;
 		}
 
-		if (refColorDetailsElement.current !== null) {
-			refColorDetailsElement.current.open = false;
-		}
-		if (refPeriodDetailsElement.current !== null) {
-			refPeriodDetailsElement.current.open = false;
-		}
-		if (refCostDetailsElement.current !== null) {
-			refCostDetailsElement.current.open = false;
-		}
-		if (refUnitTypeDetailsElement.current !== null) {
-			refUnitTypeDetailsElement.current.open = false;
-		}
-		if (refSkillDetailsElement.current !== null) {
-			refSkillDetailsElement.current.open = false;
-		}
-		if (refStratRangesDetailsElement.current !== null) {
-			refStratRangesDetailsElement.current.open = false;
-		}
-		if (refResetDetailsElement.current !== null) {
-			refResetDetailsElement.current.open = false;
-		}
-		if (refDisplayDetailsElement.current !== null) {
-			refDisplayDetailsElement.current.open = false;
-		}
+		closeAllDetails();
 
 		router.push(`/?${newURLSearchParams.toString()}`);
 	};
@@ -421,6 +504,9 @@ export const useLogic = () => {
 		formMethod.setValue("cost", []);
 		formMethod.setValue("unitType", []);
 		formMethod.setValue("skill", []);
+		formMethod.setValue("power", []);
+		formMethod.setValue("intelligentzia", []);
+		formMethod.setValue("stratCost", []);
 		formMethod.setValue("stratRange", []);
 		formMethod.setValue("searchWord", "");
 		formMethod.setValue("favoriteNo", defaultSearchFavoriteNos);
@@ -429,27 +515,7 @@ export const useLogic = () => {
 			defaultIsDisplayFavorite === "true" ? "true" : undefined,
 		);
 
-		if (refColorDetailsElement.current !== null) {
-			refColorDetailsElement.current.open = false;
-		}
-		if (refPeriodDetailsElement.current !== null) {
-			refPeriodDetailsElement.current.open = false;
-		}
-		if (refCostDetailsElement.current !== null) {
-			refCostDetailsElement.current.open = false;
-		}
-		if (refUnitTypeDetailsElement.current !== null) {
-			refUnitTypeDetailsElement.current.open = false;
-		}
-		if (refSkillDetailsElement.current !== null) {
-			refSkillDetailsElement.current.open = false;
-		}
-		if (refStratRangesDetailsElement.current !== null) {
-			refStratRangesDetailsElement.current.open = false;
-		}
-		if (refDisplayDetailsElement.current !== null) {
-			refDisplayDetailsElement.current.open = false;
-		}
+		closeAllDetails();
 
 		const tableScrollElement = refTableScrollElement.current;
 
@@ -485,32 +551,15 @@ export const useLogic = () => {
 		formMethod.setValue("cost", []);
 		formMethod.setValue("unitType", []);
 		formMethod.setValue("skill", []);
+		formMethod.setValue("power", []);
+		formMethod.setValue("intelligentzia", []);
+		formMethod.setValue("stratCost", []);
 		formMethod.setValue("stratRange", []);
 		formMethod.setValue("searchWord", "");
 		formMethod.setValue("favoriteNo", []);
 		formMethod.setValue("isDisplayFavorite", undefined);
 
-		if (refColorDetailsElement.current !== null) {
-			refColorDetailsElement.current.open = false;
-		}
-		if (refPeriodDetailsElement.current !== null) {
-			refPeriodDetailsElement.current.open = false;
-		}
-		if (refCostDetailsElement.current !== null) {
-			refCostDetailsElement.current.open = false;
-		}
-		if (refUnitTypeDetailsElement.current !== null) {
-			refUnitTypeDetailsElement.current.open = false;
-		}
-		if (refSkillDetailsElement.current !== null) {
-			refSkillDetailsElement.current.open = false;
-		}
-		if (refStratRangesDetailsElement.current !== null) {
-			refStratRangesDetailsElement.current.open = false;
-		}
-		if (refDisplayDetailsElement.current !== null) {
-			refDisplayDetailsElement.current.open = false;
-		}
+		closeAllDetails();
 
 		const tableScrollElement = refTableScrollElement.current;
 
@@ -535,6 +584,9 @@ export const useLogic = () => {
 		if (!refCostDetailsElement.current) return;
 		if (!refUnitTypeDetailsElement.current) return;
 		if (!refSkillDetailsElement.current) return;
+		if (!refPowersDetailsElement.current) return;
+		if (!refIntelligentziasDetailsElement.current) return;
+		if (!refStratCostsDetailsElement.current) return;
 		if (!refStratRangesDetailsElement.current) return;
 		if (!refResetDetailsElement.current) return;
 		if (!refDisplayDetailsElement.current) return;
@@ -559,6 +611,18 @@ export const useLogic = () => {
 			refSkillDetailsElement.current.open = false;
 		}
 
+		if (!refPowersDetailsElement.current?.contains(target)) {
+			refPowersDetailsElement.current.open = false;
+		}
+
+		if (!refIntelligentziasDetailsElement.current?.contains(target)) {
+			refIntelligentziasDetailsElement.current.open = false;
+		}
+
+		if (!refStratCostsDetailsElement.current?.contains(target)) {
+			refStratCostsDetailsElement.current.open = false;
+		}
+
 		if (!refStratRangesDetailsElement.current?.contains(target)) {
 			refStratRangesDetailsElement.current.open = false;
 		}
@@ -576,7 +640,7 @@ export const useLogic = () => {
 
 	return {
 		isDisplayFavorite,
-		isDisableHeader,
+		isDisableSearchForm,
 		isDisableOption,
 		generalInfo,
 		colors,
@@ -584,6 +648,9 @@ export const useLogic = () => {
 		costs,
 		unitTypes,
 		skills,
+		powers,
+		intelligentzias,
+		stratCosts,
 		stratRanges,
 		formMethod,
 		onSubmit,
@@ -592,6 +659,9 @@ export const useLogic = () => {
 		refCostDetailsElement,
 		refUnitTypeDetailsElement,
 		refSkillDetailsElement,
+		refPowersDetailsElement,
+		refIntelligentziasDetailsElement,
+		refStratCostsDetailsElement,
 		refStratRangesDetailsElement,
 		refResetDetailsElement,
 		refDisplayDetailsElement,
@@ -600,6 +670,9 @@ export const useLogic = () => {
 		onClickCostDetails,
 		onClickUnitTypeDetails,
 		onClickSkillDetails,
+		onClickPowersDetails,
+		onClickIntelligentziasDetails,
+		onClickStratCostsDetails,
 		onClickStratRangesDetails,
 		onClickResetDetails,
 		onClickDisplayDetails,
@@ -611,6 +684,9 @@ export const useLogic = () => {
 		defaultSelectedCosts,
 		defaultSelectedUnitTypes,
 		defaultSelectedSkills,
+		defaultSelectedPowers,
+		defaultSelectedIntelligentzias,
+		defaultSelectedStratCosts,
 		defaultSelectedStratRanges,
 		defaultSearchWord,
 		defaultSearchFavoriteNos,
