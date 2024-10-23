@@ -71,6 +71,15 @@ export const GeneralTable: React.FC = () => {
 			>
 				<div>
 					<table className="h-[100dvh] w-[100dvw] table-fixed border-collapse">
+						<tbody className="bg-white">
+							<GeneralTableBody
+								generals={generalInfo.generals}
+								formMethod={formMethod}
+								defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+								isDisableOption={isDisableOption}
+							/>
+						</tbody>
+
 						<tfoot className="sticky z-50 bottom-0 bg-[#252423]">
 							<tr>
 								<td className="p-1" colSpan={3}>
@@ -295,7 +304,7 @@ export const GeneralTable: React.FC = () => {
 											</div>
 										</details>
 
-										<div className="flex">
+										<div className="flex gap-1">
 											<details
 												ref={refPowersDetailsElement}
 												className="relative"
@@ -307,7 +316,7 @@ export const GeneralTable: React.FC = () => {
 													武力
 												</summary>
 
-												<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-1 p-1 bg-[#252423] rounded-[4px]">
+												<div className="absolute bottom-[28px] w-[60px] flex flex-col gap-1 p-1 bg-[#252423] rounded-[4px]">
 													{powers.map((power) => (
 														<div
 															key={power}
@@ -341,7 +350,7 @@ export const GeneralTable: React.FC = () => {
 													知力
 												</summary>
 
-												<div className="absolute bottom-[28px] w-[80px] flex flex-col gap-1 p-1 bg-[#252423] rounded-[4px]">
+												<div className="absolute bottom-[28px] w-[60px] flex flex-col gap-1 p-1 bg-[#252423] rounded-[4px]">
 													{intelligentzias.map((intelligentzia) => (
 														<div
 															key={intelligentzia}
@@ -398,9 +407,9 @@ export const GeneralTable: React.FC = () => {
 									</div>
 								</td>
 
-								<td className="text-left pl-1 align-baseline">
+								<td className="align-baseline">
 									<div className="flex">
-										<div className="w-full pt-1">
+										<div className="w-full text-left flex flex-col gap-1">
 											<p>計略名</p>
 											<p>効果時間</p>
 
@@ -410,7 +419,7 @@ export const GeneralTable: React.FC = () => {
 											>
 												<summary
 													onKeyDown={onClickStratCostsDetails}
-													className="text-black text-xs p-1 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
+													className="w-[110px] text-black text-xs p-1 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 												>
 													必要士気
 												</summary>
@@ -620,15 +629,6 @@ export const GeneralTable: React.FC = () => {
 								</td>
 							</tr>
 						</tfoot>
-
-						<tbody className="bg-white">
-							<GeneralTableBody
-								generals={generalInfo.generals}
-								formMethod={formMethod}
-								defaultSearchFavoriteNos={defaultSearchFavoriteNos}
-								isDisableOption={isDisableOption}
-							/>
-						</tbody>
 					</table>
 				</div>
 			</form>
