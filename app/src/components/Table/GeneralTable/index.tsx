@@ -167,7 +167,7 @@ export const GeneralTable: React.FC = () => {
 							>
 								<td colSpan={3}>
 									<div className="flex gap-1">
-										<div className="w-[80px] flex flex-col gap-1">
+										<div className="w-[80px] flex flex-col flex-grow-0 flex-shrink-0 gap-1">
 											<details
 												ref={refColorDetailsElement}
 												className="relative"
@@ -248,7 +248,7 @@ export const GeneralTable: React.FC = () => {
 											<p>No</p>
 										</div>
 
-										<div className="w-[140px] flex flex-col gap-1">
+										<div className="w-[100px] flex flex-col flex-grow-0 flex-shrink-0 gap-1">
 											<p>名前</p>
 
 											<details ref={refCostDetailsElement} className="relative">
