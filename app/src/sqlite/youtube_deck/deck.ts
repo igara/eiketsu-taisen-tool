@@ -5,6 +5,7 @@ export type DeckTable = {
 	video_url: ColumnType<string, string, string>;
 	thumbnail_url: ColumnType<string, string, string>;
 	player: ColumnType<number, number, number>;
+	player_name: ColumnType<string, string, string>;
 	dist: ColumnType<string, string, string>;
 	no: ColumnType<string, string, string>;
 	name: ColumnType<string, string, string>;

@@ -100,6 +100,8 @@ type Youtube = {
 	thumbnailUrl: string;
 	cacheImagePath: string;
 	version: number;
+	player1_name: string;
+	player2_name: string;
 };
 
 async function processInBatches<T>(
@@ -486,10 +488,10 @@ const youtubeImport = async () => {
 		const dirName = `data/youtube/${id}`;
 		fs.mkdirSync(dirName, { recursive: true });
 
-		const titleMatch = title.match(
+		const titleDateMatch = title.match(
 			/[0-9]{4}\/(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])/g,
 		);
-		const titleDate = titleMatch?.[0].toString();
+		const titleDate = titleDateMatch?.[0].toString();
 		let version = 0;
 
 		if (
@@ -511,6 +513,11 @@ const youtubeImport = async () => {
 			version = 1;
 		}
 
+		const playerNameMatch = title.match(
+			/頂上対決【\d{4}\/\d{2}\/\d{2}】([^ ]+) VS ([^ ]+)/,
+		);
+		if (!playerNameMatch) return acc;
+
 		acc.push({
 			id,
 			title,
@@ -518,6 +525,8 @@ const youtubeImport = async () => {
 			thumbnailUrl,
 			cacheImagePath: `${dirName}`,
 			version,
+			player1_name: playerNameMatch[1],
+			player2_name: playerNameMatch[2],
 		});
 
 		return acc;
@@ -1048,6 +1057,7 @@ const youtubeDeckImport = async () => {
 		video_url TEXT,
 		thumbnail_url TEXT,
 		player INTEGER,
+		player_name TEXT,
 		dist TEXT,
 		no TEXT,
 		name TEXT,
@@ -1056,6 +1066,7 @@ const youtubeDeckImport = async () => {
 			 video_url,
 			 thumbnail_url,
 			 player,
+			 player_name,
 			 dist,
        no,
 			 name
@@ -1224,7 +1235,7 @@ const youtubeDeckImport = async () => {
 			]);
 		}
 
-		const insertDeck = (detectionGeneral: DetectionGeneral, player: number) => {
+		const insertDeck = (detectionGeneral: DetectionGeneral, player: 1 | 2) => {
 			if (detectionGeneral.no) {
 				try {
 					db.run(
@@ -1233,6 +1244,7 @@ const youtubeDeckImport = async () => {
 					:video_url,
 					:thumbnail_url,
 					:player,
+					:player_name,
 					:dist,
 					:no,
 					:name
@@ -1242,6 +1254,7 @@ const youtubeDeckImport = async () => {
 							":video_url": video.videoUrl,
 							":thumbnail_url": video.thumbnailUrl,
 							":player": player,
+							":player_name": video[`player${player}_name`],
 							":dist": detectionGeneral.originalImagePath,
 							":no": detectionGeneral.no,
 							":name": detectionGeneral.name,

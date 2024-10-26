@@ -530,7 +530,7 @@ export const GeneralTable: React.FC = () => {
 										<div>
 											<div className="flex flex-col gap-1">
 												<div className="flex items-center pr-[12px] pb-[12px]">
-													<div className="flex justify-end gap-[28px] w-[100%]">
+													<div className="flex justify-end gap-1 w-[100%]">
 														<details
 															ref={refDisplayDetailsElement}
 															className="relative"
