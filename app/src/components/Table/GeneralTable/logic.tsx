@@ -1,14 +1,5 @@
 import { type SearchFormData, SearchFormResolver } from "@/schema/SearchForm";
-import ColorsJSON from "@eiketsu-taisen-tool/data/data/json/colors.json";
-import CostsJSON from "@eiketsu-taisen-tool/data/data/json/costs.json";
 import GeneralsJSON from "@eiketsu-taisen-tool/data/data/json/generals.json";
-import IntelligentziasJSON from "@eiketsu-taisen-tool/data/data/json/intelligentzias.json";
-import PeriodsJSON from "@eiketsu-taisen-tool/data/data/json/periods.json";
-import PowersJSON from "@eiketsu-taisen-tool/data/data/json/powers.json";
-import SkillsJSON from "@eiketsu-taisen-tool/data/data/json/skills.json";
-import StratCostsJSON from "@eiketsu-taisen-tool/data/data/json/stratCosts.json";
-import StratRangesJSON from "@eiketsu-taisen-tool/data/data/json/stratRanges.json";
-import UnitTypesJSON from "@eiketsu-taisen-tool/data/data/json/unitTypes.json";
 import type { General } from "@eiketsu-taisen-tool/data/types";
 import { useRouter, useSearchParams } from "next/navigation";
 import React from "react";
@@ -162,16 +153,6 @@ export const useLogic = () => {
 	const defaultIsDisableSearchForm = searchParams.get("isDisableSearchForm");
 	const defaultIsDisableOption = searchParams.get("isDisableOption");
 
-	const colors = ColorsJSON;
-	const periods = PeriodsJSON;
-	const costs = CostsJSON;
-	const unitTypes = UnitTypesJSON;
-	const skills = SkillsJSON;
-	const powers = PowersJSON;
-	const intelligentzias = IntelligentziasJSON;
-	const stratCosts = StratCostsJSON;
-	const stratRanges = StratRangesJSON;
-
 	const isDisplayFavorite = defaultIsDisplayFavorite === "true";
 	const isDisableSearchForm = defaultIsDisableSearchForm === "true";
 	const isDisableOption = defaultIsDisableOption === "true";
@@ -192,18 +173,6 @@ export const useLogic = () => {
 	});
 
 	const refTableScrollElement = React.useRef<HTMLFormElement>(null);
-	const refColorDetailsElement = React.useRef<HTMLDetailsElement>(null);
-	const refPeriodDetailsElement = React.useRef<HTMLDetailsElement>(null);
-	const refCostDetailsElement = React.useRef<HTMLDetailsElement>(null);
-	const refUnitTypeDetailsElement = React.useRef<HTMLDetailsElement>(null);
-	const refSkillDetailsElement = React.useRef<HTMLDetailsElement>(null);
-	const refPowersDetailsElement = React.useRef<HTMLDetailsElement>(null);
-	const refIntelligentziasDetailsElement =
-		React.useRef<HTMLDetailsElement>(null);
-	const refStratCostsDetailsElement = React.useRef<HTMLDetailsElement>(null);
-	const refStratRangesDetailsElement = React.useRef<HTMLDetailsElement>(null);
-	const refResetDetailsElement = React.useRef<HTMLDetailsElement>(null);
-	const refDisplayDetailsElement = React.useRef<HTMLDetailsElement>(null);
 
 	const formMethod = useForm<SearchFormData>({
 		resolver: SearchFormResolver,
@@ -224,87 +193,6 @@ export const useLogic = () => {
 			isDisableOption: isDisableOption ? "true" : undefined,
 		},
 	});
-
-	const onClickColorDetails: React.FormEventHandler<HTMLElement> = (e) => {
-		e.preventDefault();
-		if (refColorDetailsElement.current !== null) {
-			refColorDetailsElement.current.open =
-				!refColorDetailsElement.current.open;
-		}
-	};
-	const onClickPeriodDetails: React.FormEventHandler<HTMLElement> = (e) => {
-		e.preventDefault();
-		if (refPeriodDetailsElement.current !== null) {
-			refPeriodDetailsElement.current.open =
-				!refPeriodDetailsElement.current.open;
-		}
-	};
-	const onClickCostDetails: React.FormEventHandler<HTMLElement> = (e) => {
-		e.preventDefault();
-		if (refCostDetailsElement.current !== null) {
-			refCostDetailsElement.current.open = !refCostDetailsElement.current.open;
-		}
-	};
-	const onClickUnitTypeDetails: React.FormEventHandler<HTMLElement> = (e) => {
-		e.preventDefault();
-		if (refUnitTypeDetailsElement.current !== null) {
-			refUnitTypeDetailsElement.current.open =
-				!refUnitTypeDetailsElement.current.open;
-		}
-	};
-	const onClickSkillDetails: React.FormEventHandler<HTMLElement> = (e) => {
-		e.preventDefault();
-		if (refSkillDetailsElement.current !== null) {
-			refSkillDetailsElement.current.open =
-				!refSkillDetailsElement.current.open;
-		}
-	};
-	const onClickPowersDetails: React.FormEventHandler<HTMLElement> = (e) => {
-		e.preventDefault();
-		if (refPowersDetailsElement.current !== null) {
-			refPowersDetailsElement.current.open =
-				!refPowersDetailsElement.current.open;
-		}
-	};
-	const onClickIntelligentziasDetails: React.FormEventHandler<HTMLElement> = (
-		e,
-	) => {
-		e.preventDefault();
-		if (refIntelligentziasDetailsElement.current !== null) {
-			refIntelligentziasDetailsElement.current.open =
-				!refIntelligentziasDetailsElement.current.open;
-		}
-	};
-	const onClickStratRangesDetails: React.FormEventHandler<HTMLElement> = (
-		e,
-	) => {
-		e.preventDefault();
-		if (refStratRangesDetailsElement.current !== null) {
-			refStratRangesDetailsElement.current.open =
-				!refStratRangesDetailsElement.current.open;
-		}
-	};
-	const onClickStratCostsDetails: React.FormEventHandler<HTMLElement> = (e) => {
-		e.preventDefault();
-		if (refStratCostsDetailsElement.current !== null) {
-			refStratCostsDetailsElement.current.open =
-				!refStratCostsDetailsElement.current.open;
-		}
-	};
-	const onClickResetDetails: React.FormEventHandler<HTMLElement> = (e) => {
-		e.preventDefault();
-		if (refResetDetailsElement.current !== null) {
-			refResetDetailsElement.current.open =
-				!refResetDetailsElement.current.open;
-		}
-	};
-	const onClickDisplayDetails: React.FormEventHandler<HTMLElement> = (e) => {
-		e.preventDefault();
-		if (refDisplayDetailsElement.current !== null) {
-			refDisplayDetailsElement.current.open =
-				!refDisplayDetailsElement.current.open;
-		}
-	};
 
 	formMethod.register("favoriteNo", {
 		onChange: (e) => {
@@ -377,42 +265,6 @@ export const useLogic = () => {
 			router.push(`/?${newURLSearchParams.toString()}`);
 		},
 	});
-
-	const closeAllDetails = () => {
-		if (refColorDetailsElement.current !== null) {
-			refColorDetailsElement.current.open = false;
-		}
-		if (refPeriodDetailsElement.current !== null) {
-			refPeriodDetailsElement.current.open = false;
-		}
-		if (refCostDetailsElement.current !== null) {
-			refCostDetailsElement.current.open = false;
-		}
-		if (refUnitTypeDetailsElement.current !== null) {
-			refUnitTypeDetailsElement.current.open = false;
-		}
-		if (refSkillDetailsElement.current !== null) {
-			refSkillDetailsElement.current.open = false;
-		}
-		if (refPowersDetailsElement.current !== null) {
-			refPowersDetailsElement.current.open = false;
-		}
-		if (refIntelligentziasDetailsElement.current !== null) {
-			refIntelligentziasDetailsElement.current.open = false;
-		}
-		if (refStratCostsDetailsElement.current !== null) {
-			refStratCostsDetailsElement.current.open = false;
-		}
-		if (refStratRangesDetailsElement.current !== null) {
-			refStratRangesDetailsElement.current.open = false;
-		}
-		if (refResetDetailsElement.current !== null) {
-			refResetDetailsElement.current.open = false;
-		}
-		if (refDisplayDetailsElement.current !== null) {
-			refDisplayDetailsElement.current.open = false;
-		}
-	};
 
 	const onSubmit: SubmitHandler<SearchFormData> = (data) => {
 		const newURLSearchParams = new URLSearchParams();
@@ -493,147 +345,7 @@ export const useLogic = () => {
 			tableScrollElement.scrollTop = 0;
 		}
 
-		closeAllDetails();
-
 		router.push(`/?${newURLSearchParams.toString()}`);
-	};
-
-	const onClickSearchReset: React.FormEventHandler<HTMLButtonElement> = () => {
-		formMethod.setValue("color", []);
-		formMethod.setValue("period", []);
-		formMethod.setValue("cost", []);
-		formMethod.setValue("unitType", []);
-		formMethod.setValue("skill", []);
-		formMethod.setValue("power", []);
-		formMethod.setValue("intelligentzia", []);
-		formMethod.setValue("stratCost", []);
-		formMethod.setValue("stratRange", []);
-		formMethod.setValue("searchWord", "");
-		formMethod.setValue("favoriteNo", defaultSearchFavoriteNos);
-		formMethod.setValue(
-			"isDisplayFavorite",
-			defaultIsDisplayFavorite === "true" ? "true" : undefined,
-		);
-
-		closeAllDetails();
-
-		const tableScrollElement = refTableScrollElement.current;
-
-		if (tableScrollElement !== null) {
-			tableScrollElement.scrollTop = 0;
-		}
-
-		const newURLSearchParams = new URLSearchParams();
-		if (defaultSearchFavoriteNos.length) {
-			for (const fn of defaultSearchFavoriteNos) {
-				newURLSearchParams.append("favoriteNo[]", fn);
-			}
-		}
-
-		if (defaultIsDisplayFavorite === "true") {
-			newURLSearchParams.append("isDisplayFavorite", "true");
-		}
-
-		if (
-			defaultSearchFavoriteNos.length ||
-			defaultIsDisplayFavorite === "true"
-		) {
-			router.push(`/?${newURLSearchParams.toString()}`);
-			return;
-		}
-
-		router.push("/");
-	};
-
-	const onClickAllReset: React.FormEventHandler<HTMLButtonElement> = () => {
-		formMethod.setValue("color", []);
-		formMethod.setValue("period", []);
-		formMethod.setValue("cost", []);
-		formMethod.setValue("unitType", []);
-		formMethod.setValue("skill", []);
-		formMethod.setValue("power", []);
-		formMethod.setValue("intelligentzia", []);
-		formMethod.setValue("stratCost", []);
-		formMethod.setValue("stratRange", []);
-		formMethod.setValue("searchWord", "");
-		formMethod.setValue("favoriteNo", []);
-		formMethod.setValue("isDisplayFavorite", undefined);
-
-		closeAllDetails();
-
-		const tableScrollElement = refTableScrollElement.current;
-
-		if (tableScrollElement !== null) {
-			tableScrollElement.scrollTop = 0;
-		}
-
-		router.push("/");
-	};
-
-	React.useEffect(() => {
-		document.addEventListener("mousedown", handleClickOutside);
-		return () => document.removeEventListener("mousedown", handleClickOutside);
-	}, []);
-
-	const handleClickOutside = (e: MouseEvent) => {
-		const target = e.target as Node;
-		if (!target) return;
-
-		if (!refColorDetailsElement.current) return;
-		if (!refPeriodDetailsElement.current) return;
-		if (!refCostDetailsElement.current) return;
-		if (!refUnitTypeDetailsElement.current) return;
-		if (!refSkillDetailsElement.current) return;
-		if (!refPowersDetailsElement.current) return;
-		if (!refIntelligentziasDetailsElement.current) return;
-		if (!refStratCostsDetailsElement.current) return;
-		if (!refStratRangesDetailsElement.current) return;
-		if (!refResetDetailsElement.current) return;
-		if (!refDisplayDetailsElement.current) return;
-
-		if (!refColorDetailsElement.current?.contains(target)) {
-			refColorDetailsElement.current.open = false;
-		}
-
-		if (!refPeriodDetailsElement.current?.contains(target)) {
-			refPeriodDetailsElement.current.open = false;
-		}
-
-		if (!refCostDetailsElement.current?.contains(target)) {
-			refCostDetailsElement.current.open = false;
-		}
-
-		if (!refUnitTypeDetailsElement.current?.contains(target)) {
-			refUnitTypeDetailsElement.current.open = false;
-		}
-
-		if (!refSkillDetailsElement.current?.contains(target)) {
-			refSkillDetailsElement.current.open = false;
-		}
-
-		if (!refPowersDetailsElement.current?.contains(target)) {
-			refPowersDetailsElement.current.open = false;
-		}
-
-		if (!refIntelligentziasDetailsElement.current?.contains(target)) {
-			refIntelligentziasDetailsElement.current.open = false;
-		}
-
-		if (!refStratCostsDetailsElement.current?.contains(target)) {
-			refStratCostsDetailsElement.current.open = false;
-		}
-
-		if (!refStratRangesDetailsElement.current?.contains(target)) {
-			refStratRangesDetailsElement.current.open = false;
-		}
-
-		if (!refResetDetailsElement.current?.contains(target)) {
-			refResetDetailsElement.current.open = false;
-		}
-
-		if (!refDisplayDetailsElement.current?.contains(target)) {
-			refDisplayDetailsElement.current.open = false;
-		}
 	};
 
 	const MAX_COST = 9;
@@ -643,41 +355,8 @@ export const useLogic = () => {
 		isDisableSearchForm,
 		isDisableOption,
 		generalInfo,
-		colors,
-		periods,
-		costs,
-		unitTypes,
-		skills,
-		powers,
-		intelligentzias,
-		stratCosts,
-		stratRanges,
 		formMethod,
 		onSubmit,
-		refColorDetailsElement,
-		refPeriodDetailsElement,
-		refCostDetailsElement,
-		refUnitTypeDetailsElement,
-		refSkillDetailsElement,
-		refPowersDetailsElement,
-		refIntelligentziasDetailsElement,
-		refStratCostsDetailsElement,
-		refStratRangesDetailsElement,
-		refResetDetailsElement,
-		refDisplayDetailsElement,
-		onClickColorDetails,
-		onClickPeriodDetails,
-		onClickCostDetails,
-		onClickUnitTypeDetails,
-		onClickSkillDetails,
-		onClickPowersDetails,
-		onClickIntelligentziasDetails,
-		onClickStratCostsDetails,
-		onClickStratRangesDetails,
-		onClickResetDetails,
-		onClickDisplayDetails,
-		onClickSearchReset,
-		onClickAllReset,
 		refTableScrollElement,
 		defaultSelectedColors,
 		defaultSelectedPeriods,
@@ -690,6 +369,7 @@ export const useLogic = () => {
 		defaultSelectedStratRanges,
 		defaultSearchWord,
 		defaultSearchFavoriteNos,
+		defaultIsDisplayFavorite,
 		MAX_COST,
 	};
 };
