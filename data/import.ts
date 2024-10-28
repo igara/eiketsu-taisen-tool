@@ -332,6 +332,7 @@ const main = async () => {
 
 		return {
 			no,
+			appear: `第${g[7]}弾-${g[8]}`,
 			id,
 			detailImageId: g[1],
 			name: g[3],
