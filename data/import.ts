@@ -276,6 +276,7 @@ const main = async () => {
 
 	const kabukies = baseJSON.kabuki[0].split(":");
 
+	const setAppears = new Set<string>();
 	const setStratCosts = new Set<string>();
 	const setPowers = new Set<string>();
 	const setIntelligentzias = new Set<string>();
@@ -325,14 +326,16 @@ const main = async () => {
 		const id = g[0];
 		const power = g[17];
 		const intelligentzia = g[18];
+		const appear = `第${g[7]}弾-${g[8]}`;
 
+		setAppears.add(appear);
 		setStratCosts.add(strat.cost);
 		setPowers.add(power);
 		setIntelligentzias.add(intelligentzia);
 
 		return {
 			no,
-			appear: `第${g[7]}弾-${g[8]}`,
+			appear,
 			id,
 			detailImageId: g[1],
 			name: g[3],
@@ -366,6 +369,7 @@ const main = async () => {
 	const intelligentzias = Array.from(setIntelligentzias).sort(
 		(a, b) => +a - +b,
 	);
+	const appears = Array.from(setAppears);
 
 	fs.writeFileSync(
 		"data/json/stratCosts.json",
@@ -380,6 +384,7 @@ const main = async () => {
 		"data/json/generals.json",
 		JSON.stringify(generals, null, 2),
 	);
+	fs.writeFileSync("data/json/appears.json", JSON.stringify(appears, null, 2));
 
 	for (const general of generals) {
 		const dirName = `data/generals/${general.color.name}/${general.no}_${general.name}`;

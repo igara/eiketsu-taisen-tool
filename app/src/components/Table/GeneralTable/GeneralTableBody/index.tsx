@@ -41,6 +41,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 				</p>
 				<p>{general.period}</p>
 				<p>{general.no}</p>
+				<p>{general.appear}</p>
 			</td>
 
 			<td className="w-[120px] p-1 align-baseline">

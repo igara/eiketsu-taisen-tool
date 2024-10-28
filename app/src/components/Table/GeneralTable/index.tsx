@@ -4,6 +4,7 @@ import { GeneralTableBody } from "@/components/Table/GeneralTable/GeneralTableBo
 import Image from "next/image";
 import type React from "react";
 import { FormProvider } from "react-hook-form";
+import { AppearDetails } from "./Details/AppearDetails";
 import { ColorDetails } from "./Details/ColorDetails";
 import { CostDetails } from "./Details/CostDetails";
 import { DisplayDetails } from "./Details/DisplayDetails";
@@ -28,6 +29,7 @@ export const GeneralTable: React.FC = () => {
 		refTableScrollElement,
 		defaultSelectedColors,
 		defaultSelectedPeriods,
+		defaultSelectedAppears,
 		defaultSelectedCosts,
 		defaultSelectedUnitTypes,
 		defaultSelectedSkills,
@@ -75,6 +77,11 @@ export const GeneralTable: React.FC = () => {
 												)}
 												{defaultSelectedPeriods.length > 0 && (
 													<span>時代({defaultSelectedPeriods.join(",")})</span>
+												)}
+												{defaultSelectedAppears.length > 0 && (
+													<span>
+														登場弾({defaultSelectedAppears.join(",")})
+													</span>
 												)}
 												{defaultSelectedCosts.length > 0 && (
 													<span>コスト({defaultSelectedCosts.join(",")})</span>
@@ -150,6 +157,7 @@ export const GeneralTable: React.FC = () => {
 											<ColorDetails formMethod={formMethod} />
 											<PeriodDetails formMethod={formMethod} />
 											<p>No</p>
+											<AppearDetails formMethod={formMethod} />
 										</div>
 
 										<div className="w-[100px] flex flex-col flex-grow-0 flex-shrink-0 gap-1">

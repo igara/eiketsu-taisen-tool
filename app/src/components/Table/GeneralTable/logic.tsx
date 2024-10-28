@@ -14,6 +14,7 @@ export const useLogic = () => {
 	const genNewGeneralInfo = (data: {
 		color: string[];
 		period: string[];
+		appear: string[];
 		cost: string[];
 		unitType: string[];
 		skill: string[];
@@ -62,6 +63,8 @@ export const useLogic = () => {
 						data.color.some((c) => c === general.color.name)) &&
 					(data.period.length === 0 ||
 						data.period.some((p) => p === general.period)) &&
+					(data.appear.length === 0 ||
+						data.appear.some((p) => p === general.appear)) &&
 					(data.cost.length === 0 ||
 						data.cost.some((c) => c === general.cost)) &&
 					(data.unitType.length === 0 ||
@@ -139,6 +142,7 @@ export const useLogic = () => {
 
 	const defaultSelectedColors = searchParams.getAll("color[]");
 	const defaultSelectedPeriods = searchParams.getAll("period[]");
+	const defaultSelectedAppears = searchParams.getAll("appear[]");
 	const defaultSelectedCosts = searchParams.getAll("cost[]");
 	const defaultSelectedUnitTypes = searchParams.getAll("unitType[]");
 	const defaultSelectedSkills = searchParams.getAll("skill[]");
@@ -160,6 +164,7 @@ export const useLogic = () => {
 	const generalInfo = genNewGeneralInfo({
 		color: defaultSelectedColors,
 		period: defaultSelectedPeriods,
+		appear: defaultSelectedAppears,
 		cost: defaultSelectedCosts,
 		unitType: defaultSelectedUnitTypes,
 		skill: defaultSelectedSkills,
@@ -179,6 +184,7 @@ export const useLogic = () => {
 		defaultValues: {
 			color: defaultSelectedColors,
 			period: defaultSelectedPeriods,
+			appear: defaultSelectedAppears,
 			cost: defaultSelectedCosts,
 			unitType: defaultSelectedUnitTypes,
 			skill: defaultSelectedSkills,
@@ -281,6 +287,12 @@ export const useLogic = () => {
 			}
 		}
 
+		if (data.appear?.length) {
+			for (const p of data.appear) {
+				p && newURLSearchParams.append("appear[]", p);
+			}
+		}
+
 		if (data.cost?.length) {
 			for (const c of data.cost) {
 				c && newURLSearchParams.append("cost[]", c);
@@ -360,6 +372,7 @@ export const useLogic = () => {
 		refTableScrollElement,
 		defaultSelectedColors,
 		defaultSelectedPeriods,
+		defaultSelectedAppears,
 		defaultSelectedCosts,
 		defaultSelectedUnitTypes,
 		defaultSelectedSkills,
