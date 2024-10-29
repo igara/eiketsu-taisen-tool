@@ -181,8 +181,6 @@ export const useLogic = () => {
 		isDisplayFavorite: isDisplayFavorite ? "true" : undefined,
 	});
 
-	const refTableScrollElement = React.useRef<HTMLFormElement>(null);
-
 	const formMethod = useForm<SearchFormData>({
 		resolver: SearchFormResolver,
 		defaultValues: {
@@ -355,12 +353,6 @@ export const useLogic = () => {
 			newURLSearchParams.append("isDisplayFavorite", "true");
 		}
 
-		const tableScrollElement = refTableScrollElement.current;
-
-		if (tableScrollElement !== null) {
-			tableScrollElement.scrollTop = 0;
-		}
-
 		router.push(`/?${newURLSearchParams.toString()}`);
 	};
 
@@ -381,7 +373,6 @@ export const useLogic = () => {
 		generalInfo,
 		formMethod,
 		onSubmit,
-		refTableScrollElement,
 		defaultSelectedColors,
 		defaultSelectedPeriods,
 		defaultSelectedAppears,

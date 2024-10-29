@@ -26,7 +26,6 @@ export const GeneralTable: React.FC = () => {
 		generalInfo,
 		formMethod,
 		onSubmit,
-		refTableScrollElement,
 		defaultSelectedColors,
 		defaultSelectedPeriods,
 		defaultSelectedAppears,
@@ -48,7 +47,6 @@ export const GeneralTable: React.FC = () => {
 			<form
 				onSubmit={formMethod.handleSubmit(onSubmit)}
 				className="h-[100dvh] w-[100dvw] text-xs"
-				ref={refTableScrollElement}
 			>
 				<table className="h-[100dvh] w-[100dvw] table-fixed border-collapse">
 					<tbody className="bg-white">
@@ -242,7 +240,6 @@ export const GeneralTable: React.FC = () => {
 															defaultIsDisplayFavorite={
 																defaultIsDisplayFavorite
 															}
-															refTableScrollElement={refTableScrollElement}
 														/>
 
 														<button

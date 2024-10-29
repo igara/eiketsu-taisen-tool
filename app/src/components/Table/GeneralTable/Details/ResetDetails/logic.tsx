@@ -8,14 +8,12 @@ type Args = {
 	formMethod: UseFormReturn<SearchFormData>;
 	defaultSearchFavoriteNos: string[];
 	defaultIsDisplayFavorite: string | null;
-	refTableScrollElement: React.RefObject<HTMLFormElement>;
 };
 
 export const useLogic = ({
 	formMethod,
 	defaultSearchFavoriteNos,
 	defaultIsDisplayFavorite,
-	refTableScrollElement,
 }: Args) => {
 	const router = useRouter();
 	const refDetailsElement = React.useRef<HTMLDetailsElement>(null);
@@ -53,12 +51,6 @@ export const useLogic = ({
 			defaultIsDisplayFavorite === "true" ? "true" : undefined,
 		);
 
-		const tableScrollElement = refTableScrollElement.current;
-
-		if (tableScrollElement !== null) {
-			tableScrollElement.scrollTop = 0;
-		}
-
 		const newURLSearchParams = new URLSearchParams();
 		if (defaultSearchFavoriteNos.length) {
 			for (const fn of defaultSearchFavoriteNos) {
@@ -94,12 +86,6 @@ export const useLogic = ({
 		formMethod.setValue("searchWord", "");
 		formMethod.setValue("favoriteNo", []);
 		formMethod.setValue("isDisplayFavorite", undefined);
-
-		const tableScrollElement = refTableScrollElement.current;
-
-		if (tableScrollElement !== null) {
-			tableScrollElement.scrollTop = 0;
-		}
 
 		router.push("/");
 	};

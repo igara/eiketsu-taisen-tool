@@ -6,14 +6,12 @@ type Props = {
 	formMethod: UseFormReturn<SearchFormData>;
 	defaultSearchFavoriteNos: string[];
 	defaultIsDisplayFavorite: string | null;
-	refTableScrollElement: React.RefObject<HTMLFormElement>;
 };
 
 export const ResetDetails: React.FC<Props> = ({
 	formMethod,
 	defaultSearchFavoriteNos,
 	defaultIsDisplayFavorite,
-	refTableScrollElement,
 }) => {
 	const {
 		refDetailsElement,
@@ -25,7 +23,6 @@ export const ResetDetails: React.FC<Props> = ({
 		formMethod,
 		defaultSearchFavoriteNos,
 		defaultIsDisplayFavorite,
-		refTableScrollElement,
 	});
 
 	return (
