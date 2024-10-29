@@ -39,7 +39,7 @@ export const ResetDetails: React.FC<Props> = ({
 
 			{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 			<div
-				className="fixed z-10 w-full h-full top-0 left-0"
+				className="fixed z-10 w-full h-full top-0 left-0 bg-[rgba(0,0,0,0.5)]"
 				onClick={onClickWrapper}
 			/>
 
