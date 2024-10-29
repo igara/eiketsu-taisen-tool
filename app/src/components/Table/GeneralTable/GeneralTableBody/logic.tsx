@@ -4,15 +4,16 @@ import type { GeneralUI } from "../logic";
 
 type Args = {
 	generals: GeneralUI[];
-	refWrapperElement: React.RefObject<HTMLFormElement>;
 };
 
-export const useLogic = ({ generals, refWrapperElement }: Args) => {
+export const useLogic = ({ generals }: Args) => {
+	const displayGeneral = generals.filter((general) => !general.hidden);
+	const refWrapperElement = React.useRef<HTMLTableSectionElement>(null);
 	const rowVirtualizer = useVirtualizer({
-		count: generals.length,
+		count: displayGeneral.length,
 		getScrollElement: () => refWrapperElement.current,
 		estimateSize: () => 160,
-		overscan: 50,
+		overscan: 10,
 	});
 
 	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
@@ -21,6 +22,8 @@ export const useLogic = ({ generals, refWrapperElement }: Args) => {
 	}, [refWrapperElement.current]);
 
 	return {
+		refWrapperElement,
+		displayGeneral,
 		rowVirtualizer,
 	};
 };

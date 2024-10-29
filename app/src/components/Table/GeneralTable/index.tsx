@@ -40,15 +40,13 @@ export const GeneralTable: React.FC = () => {
 		defaultSearchFavoriteNos,
 		defaultIsDisplayFavorite,
 		MAX_COST,
-		refWrapperElement,
 	} = useLogic();
 
 	return (
 		<FormProvider {...formMethod}>
 			<form
 				onSubmit={formMethod.handleSubmit(onSubmit)}
-				className="h-[100dvh] w-[100dvw] text-xs overflow-y-auto"
-				ref={refWrapperElement}
+				className="h-[100dvh] w-[100dvw] text-xs"
 			>
 				<table className="h-[100dvh] w-[100dvw] table-fixed border-collapse">
 					<GeneralTableBody
@@ -56,7 +54,6 @@ export const GeneralTable: React.FC = () => {
 						formMethod={formMethod}
 						defaultSearchFavoriteNos={defaultSearchFavoriteNos}
 						isDisableOption={isDisableOption}
-						refWrapperElement={refWrapperElement}
 					/>
 
 					<tfoot className="sticky z-50 bottom-0 bg-[#252423]">

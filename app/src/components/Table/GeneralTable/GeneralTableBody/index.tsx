@@ -16,7 +16,6 @@ type Props = {
 	formMethod: UseFormReturn<SearchFormData>;
 	defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
 	isDisableOption: boolean;
-	refWrapperElement: React.RefObject<HTMLFormElement>;
 };
 
 export const GeneralTableBody: React.FC<Props> = ({
@@ -24,12 +23,13 @@ export const GeneralTableBody: React.FC<Props> = ({
 	formMethod,
 	defaultSearchFavoriteNos,
 	isDisableOption,
-	refWrapperElement,
 }) => {
-	const { rowVirtualizer } = useLogic({ generals, refWrapperElement });
+	const { rowVirtualizer, displayGeneral, refWrapperElement } = useLogic({
+		generals,
+	});
 
 	const list = rowVirtualizer.getVirtualItems().map((virtualItem) => {
-		const general = generals[virtualItem.index];
+		const general = displayGeneral[virtualItem.index];
 
 		return (
 			<tr
@@ -182,5 +182,9 @@ export const GeneralTableBody: React.FC<Props> = ({
 		);
 	});
 
-	return <tbody className="bg-white">{list}</tbody>;
+	return (
+		<tbody className="bg-white overflow-y-auto" ref={refWrapperElement}>
+			{list}
+		</tbody>
+	);
 };
