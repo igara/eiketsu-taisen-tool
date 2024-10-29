@@ -141,6 +141,8 @@ export const useLogic = () => {
 		return newGeneralInfo;
 	};
 
+	const refWrapperElement = React.useRef<HTMLFormElement>(null);
+
 	const router = useRouter();
 	const searchParams = useSearchParams();
 
@@ -387,5 +389,6 @@ export const useLogic = () => {
 		defaultSearchFavoriteNos,
 		defaultIsDisplayFavorite,
 		MAX_COST,
+		refWrapperElement,
 	};
 };
