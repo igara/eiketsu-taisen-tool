@@ -33,7 +33,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 
 		return (
 			<tr
-				key={virtualItem.index}
+				key={general.no}
 				className={`${general.hidden ? "hidden" : "border-b-white border-b-2 text-xs"}`}
 				style={{
 					background: `rgba(${general.color.r},${general.color.g},${general.color.b},0.2)`,
