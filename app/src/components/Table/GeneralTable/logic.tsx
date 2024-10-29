@@ -42,6 +42,8 @@ export const useLogic = () => {
 					acc.favoriteCount.power += +general.power;
 					acc.favoriteCount.intelligentzia += +general.intelligentzia;
 					acc.favoriteCount.cost += +general.cost;
+
+					acc.favariteNames.push(general.name);
 				}
 
 				if (data.isDisplayFavorite === "true") {
@@ -121,6 +123,7 @@ export const useLogic = () => {
 					intelligentzia: 0,
 					cost: 0,
 				},
+				favariteNames: [],
 				searchCount: 0,
 			} as {
 				generals: GeneralUI[];
@@ -130,6 +133,7 @@ export const useLogic = () => {
 					intelligentzia: number;
 					cost: number;
 				};
+				favariteNames: string[];
 				searchCount: number;
 			},
 		);
@@ -361,6 +365,14 @@ export const useLogic = () => {
 	};
 
 	const MAX_COST = 9;
+
+	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+	React.useEffect(() => {
+		if (!isDisplayFavorite) return;
+		if (!defaultSearchFavoriteNos.length) return;
+
+		document.title = generalInfo.favariteNames.join("|");
+	}, [defaultSearchFavoriteNos, isDisplayFavorite]);
 
 	return {
 		isDisplayFavorite,
