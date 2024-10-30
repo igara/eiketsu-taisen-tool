@@ -1,0 +1,48 @@
+{
+  "no": "PL074",
+  "appear": "第4弾-PL",
+  "id": "6955932b1d7385bc5ac4deb94b533a16",
+  "detailImageId": "fa2347aa139bd779f78fd06cc4738f16",
+  "name": "四乃森蒼紫",
+  "kanaName": "しのもりあおし",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "回天剣舞",
+    "kanaName": "かいてんけんぶ",
+    "cost": "4",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力と移動速度が上がる。一定以上武力が上がると、さらに斬撃時の攻撃回数が増え、移動しながら斬撃ができるようになる",
+    "categories": [
+      "強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6955932b1d7385bc5ac4deb94b533a16",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3102"
+  }
+}

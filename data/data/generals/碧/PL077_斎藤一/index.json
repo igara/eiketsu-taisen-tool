@@ -1,0 +1,36 @@
+{
+  "no": "PL077",
+  "appear": "第4弾-PL",
+  "id": "3040834e44d6b9c6a16557a62605b9ba",
+  "detailImageId": "f4f6bbc65fb4303e23cce5ee1ce5a68a",
+  "name": "斎藤一",
+  "kanaName": "さいとうはじめ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "牙突",
+    "kanaName": "がとつ",
+    "cost": "6",
+    "description": "武力が上がる。さらに斬撃の範囲が変化し、向いている方向に斬撃を行うようになり、斬撃を当てた最も遠い敵の場所に一瞬で移動する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3040834e44d6b9c6a16557a62605b9ba",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3105"
+  }
+}
