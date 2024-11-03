@@ -225,7 +225,7 @@ export const Camera: React.FC = () => {
 		};
 		check();
 
-		const intervalId = window.setInterval(detectAndResizeCard, 500);
+		const intervalId = window.setInterval(detectAndResizeCard, 100);
 
 		return () => {
 			window.clearInterval(intervalId); // コンポーネントのアンマウント時にクリア
