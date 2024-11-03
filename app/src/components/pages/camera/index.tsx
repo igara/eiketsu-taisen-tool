@@ -8,7 +8,36 @@ export const Camera: React.FC = () => {
 	const refRenderingCanvas = React.useRef<HTMLCanvasElement>(null);
 	const refFoundCanvas = React.useRef<HTMLCanvasElement>(null);
 
+	const [devices, setDevices] = React.useState<MediaDeviceInfo[]>([]);
+	const [device, setDivice] = React.useState<MediaDeviceInfo | null>(null);
+
+	const onChangeDeviceSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
+		const deviceId = e.target.value;
+		const selectedDevice = devices.find(
+			(device) => device.deviceId === deviceId,
+		);
+		if (!selectedDevice) return;
+
+		setDivice(selectedDevice);
+	};
 	React.useEffect(() => {
+		const getDevices = async () => {
+			try {
+				const enumerateDevices =
+					await navigator.mediaDevices.enumerateDevices();
+				setDevices(
+					enumerateDevices.filter(
+						(device) => device.kind === "videoinput" && device.label,
+					),
+				);
+			} catch (_) {}
+		};
+		getDevices();
+	}, []);
+
+	React.useEffect(() => {
+		if (!device) return;
+
 		if (!refVideo) return;
 		if (!refVideo.current) return;
 		if (!refRenderingCanvas) return;
@@ -163,13 +192,27 @@ export const Camera: React.FC = () => {
 			}
 		};
 		check();
-	}, []);
+	}, [device]);
 
 	return (
 		<main>
-			<canvas ref={refRenderingCanvas} />
-			<video muted autoPlay playsInline ref={refVideo} />
-			<canvas ref={refFoundCanvas} />
+			<div>
+				<select onChange={onChangeDeviceSelect}>
+					<option value={0}>カメラ選択してください</option>
+					{devices.map((device, index) => (
+						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+						<option key={index} value={device.deviceId}>
+							{device.label}
+						</option>
+					))}
+				</select>
+			</div>
+
+			<div className={device ? "" : "hidden"}>
+				<canvas ref={refRenderingCanvas} />
+				<video muted autoPlay playsInline ref={refVideo} />
+				<canvas ref={refFoundCanvas} />
+			</div>
 		</main>
 	);
 };
