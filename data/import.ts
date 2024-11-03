@@ -280,7 +280,9 @@ const main = async () => {
 	const setStratCosts = new Set<string>();
 	const setPowers = new Set<string>();
 	const setIntelligentzias = new Set<string>();
-	const generals = baseJSON.general.map((general) => {
+
+	const generals: General[] = [];
+	for (const general of baseJSON.general) {
 		const g = general.split(",");
 
 		const indexInitial = Number.parseInt(g[10]);
@@ -327,72 +329,23 @@ const main = async () => {
 		const power = g[17];
 		const intelligentzia = g[18];
 		const appear = `第${g[7]}弾-${g[8]}`;
+		const detailImageId = g[1];
+		const name = g[3];
+		const kanaName = g[4];
+		const color = colors[Number.parseInt(g[5])];
+		const period = periods[Number.parseInt(g[6])];
+		const cost = costs[Number.parseInt(g[13])];
+		const unitType = unitTypes[Number.parseInt(g[15])];
 
 		setAppears.add(appear);
 		setStratCosts.add(strat.cost);
 		setPowers.add(power);
 		setIntelligentzias.add(intelligentzia);
 
-		return {
-			no,
-			appear,
-			id,
-			detailImageId: g[1],
-			name: g[3],
-			kanaName: g[4],
-			color: colors[Number.parseInt(g[5])],
-			period: periods[Number.parseInt(g[6])],
-			cost: costs[Number.parseInt(g[13])],
-			unitType: unitTypes[Number.parseInt(g[15])],
-			strat: {
-				name: strat.name,
-				kanaName: strat.kanaName,
-				cost: strat.cost,
-				description: strat.description,
-				categories,
-				time: stratTimes[strat.time],
-				range: stratRanges[strat.range],
-			},
-			power,
-			intelligentzia,
-			skill,
-			kabuki,
-			url: {
-				official: `https://eiketsu-taisen.net/datalist/?s=general&c=${id}`,
-				atWiki: atWikiData.find((d) => d.no === no)?.url,
-				gameWiki: gameWikiData.find((d) => d.no === no)?.url,
-			},
-		};
-	});
-	const stratCosts = Array.from(setStratCosts).sort((a, b) => +a - +b);
-	const powers = Array.from(setPowers).sort((a, b) => +a - +b);
-	const intelligentzias = Array.from(setIntelligentzias).sort(
-		(a, b) => +a - +b,
-	);
-	const appears = Array.from(setAppears);
-
-	fs.writeFileSync(
-		"data/json/stratCosts.json",
-		JSON.stringify(stratCosts, null, 2),
-	);
-	fs.writeFileSync("data/json/powers.json", JSON.stringify(powers, null, 2));
-	fs.writeFileSync(
-		"data/json/intelligentzias.json",
-		JSON.stringify(intelligentzias, null, 2),
-	);
-	fs.writeFileSync(
-		"data/json/generals.json",
-		JSON.stringify(generals, null, 2),
-	);
-	fs.writeFileSync("data/json/appears.json", JSON.stringify(appears, null, 2));
-
-	for (const general of generals) {
-		const dirName = `data/generals/${general.color.name}/${general.no}_${general.name}`;
+		const dirName = `data/generals/${color.name}/${no}_${name}`;
 		fs.mkdirSync(dirName, { recursive: true });
 
-		fs.writeFileSync(`${dirName}/index.json`, JSON.stringify(general, null, 2));
-
-		const imageUrl = `https://image.eiketsu-taisen.net/general/card_ds/${general.detailImageId}.jpg`;
+		const imageUrl = `https://image.eiketsu-taisen.net/general/card_ds/${detailImageId}.jpg`;
 
 		const imageRes = await fetch(imageUrl);
 		const imageArrayBuffer = await imageRes.arrayBuffer();
@@ -423,7 +376,7 @@ const main = async () => {
 			})
 			.toFile(`${dirName}/3.jpg`);
 
-		const thumbnailUrl = `https://image.eiketsu-taisen.net/general/card_small/${general.id}.jpg`;
+		const thumbnailUrl = `https://image.eiketsu-taisen.net/general/card_small/${id}.jpg`;
 		const thumbnailRes = await fetch(thumbnailUrl);
 		const thumbnailArrayBuffer = await thumbnailRes.arrayBuffer();
 		const thumbnailBuffer = Buffer.from(thumbnailArrayBuffer);
@@ -438,10 +391,72 @@ const main = async () => {
 		});
 		await t5.toFile(`${dirName}/5.jpg`);
 
-		const publicDir = `../app/public/images/generals/${general.no}_${general.name}`;
+		const publicDir = `../app/public/images/generals/${no}_${name}`;
 		fs.mkdirSync(publicDir, { recursive: true });
 		await t5.toFile(`${publicDir}/5.jpg`);
+
+		const cardImageHash = await hashImage(`${dirName}/2.jpg`);
+		const deckImageHash = await hashImage(`${dirName}/5.jpg`);
+
+		const ge = {
+			no,
+			appear,
+			id,
+			detailImageId,
+			cardImageHash,
+			deckImageHash,
+			name,
+			kanaName,
+			color,
+			period,
+			cost,
+			unitType,
+			strat: {
+				name: strat.name,
+				kanaName: strat.kanaName,
+				cost: strat.cost,
+				description: strat.description,
+				categories,
+				time: stratTimes[strat.time],
+				range: stratRanges[strat.range],
+			},
+			power,
+			intelligentzia,
+			skill,
+			kabuki,
+			url: {
+				official: `https://eiketsu-taisen.net/datalist/?s=general&c=${id}`,
+				atWiki: atWikiData.find((d) => d.no === no)?.url,
+				gameWiki: gameWikiData.find((d) => d.no === no)?.url,
+			},
+		};
+
+		fs.writeFileSync(`${dirName}/index.json`, JSON.stringify(ge, null, 2));
+
+		generals.push(ge);
 	}
+
+	const stratCosts = Array.from(setStratCosts).sort((a, b) => +a - +b);
+	const powers = Array.from(setPowers).sort((a, b) => +a - +b);
+	const intelligentzias = Array.from(setIntelligentzias).sort(
+		(a, b) => +a - +b,
+	);
+	const appears = Array.from(setAppears);
+
+	fs.writeFileSync(
+		"data/json/stratCosts.json",
+		JSON.stringify(stratCosts, null, 2),
+	);
+	fs.writeFileSync("data/json/powers.json", JSON.stringify(powers, null, 2));
+	fs.writeFileSync(
+		"data/json/intelligentzias.json",
+		JSON.stringify(intelligentzias, null, 2),
+	);
+	fs.writeFileSync(
+		"data/json/generals.json",
+		JSON.stringify(generals, null, 2),
+	);
+	fs.writeFileSync("data/json/appears.json", JSON.stringify(appears, null, 2));
 };
 mainExec && main();
 
@@ -1086,11 +1101,10 @@ const youtubeDeckImport = async () => {
 	const generalAllInfo = await GeneralsJSON.reduce<Promise<GeneralInfo>>(
 		async (acc: Promise<GeneralInfo>, general): Promise<GeneralInfo> => {
 			const imagePath = `data/generals/${general.color.name}/${general.no}_${general.name}/5.jpg`;
-			const newHashImage = await hashImage(imagePath);
 			(await acc).generals.push({
 				no: general.no,
 				name: general.name,
-				hashImage: newHashImage,
+				hashImage: general.deckImageHash,
 				path: imagePath,
 			});
 

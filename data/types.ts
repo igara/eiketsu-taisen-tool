@@ -9,6 +9,8 @@ export type General = {
 	appear: string;
 	id: string;
 	detailImageId: string;
+	cardImageHash: string;
+	deckImageHash: string;
 	name: string;
 	kanaName: string;
 	color: {

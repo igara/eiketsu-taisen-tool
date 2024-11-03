@@ -24,6 +24,11 @@ export const Camera: React.FC = () => {
 	React.useEffect(() => {
 		const getDevices = async () => {
 			try {
+				await navigator.mediaDevices.getUserMedia({
+					video: true,
+					audio: false,
+				});
+
 				const enumerateDevices =
 					await window.navigator.mediaDevices.enumerateDevices();
 				setDevices(
@@ -79,11 +84,11 @@ export const Camera: React.FC = () => {
 					renderingCanvas.width = offScreen.width = video.videoWidth;
 					renderingCanvas.height = offScreen.height = video.videoHeight;
 
-					foundCanvas.onclick = () => {
-						const base64 = trimOriginalSize.toDataURL("image/jpeg");
-						navigator.clipboard.writeText(base64);
-						alert(base64);
-					};
+					// foundCanvas.onclick = () => {
+					// 	const base64 = trimOriginalSize.toDataURL("image/jpeg");
+					// 	navigator.clipboard.writeText(base64);
+					// 	alert(base64);
+					// };
 
 					const trimFromVideo = (
 						x: number,
@@ -113,8 +118,8 @@ export const Camera: React.FC = () => {
 							height,
 							0,
 							0,
-							foundCanvas.width,
-							foundCanvas.height,
+							width,
+							height,
 						);
 					};
 
@@ -213,9 +218,9 @@ export const Camera: React.FC = () => {
 			</div>
 
 			<div className={device ? "" : "hidden"}>
-				<canvas ref={refRenderingCanvas} className="w-full" />
-				<video muted autoPlay playsInline ref={refVideo} className="w-full" />
-				<canvas ref={refFoundCanvas} />
+				<canvas ref={refRenderingCanvas} className="hidden" />
+				<video muted autoPlay playsInline ref={refVideo} className="w-4/12" />
+				<canvas ref={refFoundCanvas} className="hidden" />
 			</div>
 		</main>
 	);
