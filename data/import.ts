@@ -1038,11 +1038,11 @@ const youtubeImport = async () => {
 };
 youtubeImportExec && youtubeImport();
 
-const hashImage = (imagePath: string): Promise<string> => {
+const hashImage = (imagePath: string, bits = 16): Promise<string> => {
 	return new Promise((resolve, reject) => {
 		imageHash.imageHash(
 			imagePath,
-			16,
+			bits,
 			true,
 			// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 			(error: any, data: string | PromiseLike<string>) => {
