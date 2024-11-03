@@ -395,7 +395,7 @@ const main = async () => {
 		fs.mkdirSync(publicDir, { recursive: true });
 		await t5.toFile(`${publicDir}/5.jpg`);
 
-		const cardImageHash = await hashImage(`${dirName}/2.jpg`);
+		const cardImageHash = await hashImage(`${dirName}/5.jpg`);
 		const deckImageHash = await hashImage(`${dirName}/5.jpg`);
 
 		const ge = {

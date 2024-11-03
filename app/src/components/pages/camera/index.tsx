@@ -149,10 +149,14 @@ export const Camera: React.FC = () => {
 					}
 
 					// 結果を設定
-					const THRESHOLD = 40;
+					const THRESHOLD = 50;
 					if (lowestDistance <= THRESHOLD) {
 						console.log(`識別結果: ${bestMatch}（距離: ${lowestDistance}）`);
 						alert(`識別結果: ${bestMatch}（距離: ${lowestDistance}）`);
+					} else {
+						console.log(
+							`識別結果: 識別できませんでした（距離: ${lowestDistance}）`,
+						);
 					}
 				} else {
 					// それ以外の輪郭は緑で描画
