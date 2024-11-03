@@ -84,8 +84,8 @@ export const Camera: React.FC = () => {
 		const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
 
 		// OpenCVを使って画像を処理
-		const src = OpenCV.matFromImageData(imageData);
-		const dst = new OpenCV.Mat();
+		const src = OpenCV.imread(canvas);
+		let dst = new OpenCV.Mat();
 		OpenCV.cvtColor(src, dst, OpenCV.COLOR_RGBA2GRAY, 0);
 		OpenCV.threshold(dst, dst, 0, 255, OpenCV.THRESH_OTSU);
 
@@ -99,6 +99,8 @@ export const Camera: React.FC = () => {
 			OpenCV.RETR_EXTERNAL,
 			OpenCV.CHAIN_APPROX_TC89_L1,
 		);
+		dst.delete();
+		dst = cv.Mat.zeros(src.rows, src.cols, OpenCV.CV_8UC3);
 
 		for (let i = 0; i < contours.size(); i++) {
 			// ある程度のサイズ以上の輪郭のみ処理
