@@ -20,11 +20,12 @@ export const Camera: React.FC = () => {
 
 		setDivice(selectedDevice);
 	};
+
 	React.useEffect(() => {
 		const getDevices = async () => {
 			try {
 				const enumerateDevices =
-					await navigator.mediaDevices.enumerateDevices();
+					await window.navigator.mediaDevices.enumerateDevices();
 				setDevices(
 					enumerateDevices.filter(
 						(device) => device.kind === "videoinput" && device.label,
@@ -66,7 +67,10 @@ export const Camera: React.FC = () => {
 				if (!window.navigator.mediaDevices.getUserMedia) return;
 
 				const stream = await window.navigator.mediaDevices.getUserMedia({
-					video: true,
+					audio: false,
+					video: {
+						deviceId: device.deviceId,
+					},
 				});
 				video.srcObject = stream;
 
@@ -209,8 +213,8 @@ export const Camera: React.FC = () => {
 			</div>
 
 			<div className={device ? "" : "hidden"}>
-				<canvas ref={refRenderingCanvas} />
-				<video muted autoPlay playsInline ref={refVideo} />
+				<canvas ref={refRenderingCanvas} className="w-full" />
+				<video muted autoPlay playsInline ref={refVideo} className="w-full" />
 				<canvas ref={refFoundCanvas} />
 			</div>
 		</main>
