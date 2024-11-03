@@ -28,6 +28,7 @@ const hammingDistance = (hash1: string, hash2: string): number => {
 export const Camera: React.FC = () => {
 	const refVideo = React.useRef<HTMLVideoElement>(null);
 	const refCanvas = React.useRef<HTMLCanvasElement>(null);
+	const refPreviewCanvas = React.useRef<HTMLCanvasElement>(null);
 
 	const [devices, setDevices] = React.useState<MediaDeviceInfo[]>([]);
 	const [device, setDivice] = React.useState<MediaDeviceInfo | null>(null);
@@ -63,15 +64,21 @@ export const Camera: React.FC = () => {
 	}, []);
 
 	const detectAndResizeCard = async () => {
-		if (!refCanvas.current || !refVideo.current) return;
+		if (!refCanvas.current || !refVideo.current || !refPreviewCanvas.current)
+			return;
 
 		const canvas = refCanvas.current;
 		const context = canvas.getContext("2d");
 		if (!context) return;
 
-		canvas.width = refVideo.current.videoWidth;
-		canvas.height = refVideo.current.videoHeight;
-		context.drawImage(refVideo.current, 0, 0, canvas.width, canvas.height);
+		const video = refVideo.current;
+		const previewCanvas = refPreviewCanvas.current;
+		const previewContext = previewCanvas.getContext("2d");
+		if (!previewContext) return;
+
+		canvas.width = video.videoWidth;
+		canvas.height = video.videoHeight;
+		context.drawImage(video, 0, 0, canvas.width, canvas.height);
 
 		// Canvasから画像データを取得
 		const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
@@ -79,9 +86,8 @@ export const Camera: React.FC = () => {
 		// OpenCVを使って画像を処理
 		const src = OpenCV.matFromImageData(imageData);
 		const dst = new OpenCV.Mat();
-		OpenCV.cvtColor(src, src, OpenCV.COLOR_RGBA2GRAY); // グレースケールに変換
-		OpenCV.GaussianBlur(src, src, new OpenCV.Size(5, 5), 0); // ぼかし処理
-		OpenCV.Canny(src, dst, 50, 100); // エッジ検出
+		OpenCV.cvtColor(src, dst, OpenCV.COLOR_RGBA2GRAY, 0);
+		OpenCV.threshold(dst, dst, 0, 255, OpenCV.THRESH_OTSU);
 
 		// 輪郭を検出
 		const contours = new OpenCV.MatVector();
@@ -90,63 +96,88 @@ export const Camera: React.FC = () => {
 			dst,
 			contours,
 			hierarchy,
-			OpenCV.RETR_CCOMP,
-			OpenCV.CHAIN_APPROX_SIMPLE,
+			OpenCV.RETR_EXTERNAL,
+			OpenCV.CHAIN_APPROX_TC89_L1,
 		);
 
-		// 最も大きな輪郭を取得
-		let maxArea = 0;
-		let cardContour = null;
 		for (let i = 0; i < contours.size(); i++) {
-			const area = OpenCV.contourArea(contours.get(i));
-			if (area > maxArea) {
-				maxArea = area;
-				cardContour = contours.get(i);
-			}
-		}
-
-		if (cardContour) {
-			const boundingRect = OpenCV.boundingRect(cardContour);
-			const cardImage = src.roi(boundingRect); // カード部分を切り出し
-			const resizedCardImage = new OpenCV.Mat();
-			OpenCV.resize(cardImage, resizedCardImage, new OpenCV.Size(256, 256)); // リサイズ
-
-			// Jimpに変換
-			const cardBuffer = Buffer.from(
-				new Uint8ClampedArray(resizedCardImage.data),
-			);
-			const jimpImage = new Jimp({
-				data: cardBuffer,
-				width: resizedCardImage.cols,
-				height: resizedCardImage.rows,
-			});
-
-			// blockhashでハッシュを生成
-			const imageData = await createImageDataFromJimp(jimpImage); // JimpからImageDataを生成
-			const hash = blockhash.bmvbhash(imageData, 16); // ハッシュを生成
-
-			// ハッシュデータベースと比較
-			let bestMatch: string | null = null;
-			let lowestDistance = Number.POSITIVE_INFINITY;
-
-			for (const general of GeneralsJSON) {
-				const distance = hammingDistance(hash, general.cardImageHash);
-
-				if (distance < lowestDistance) {
-					bestMatch = `${general.no}_${general.name}`;
-					lowestDistance = distance;
-				}
-			}
-
-			// 結果を設定
-			const THRESHOLD = 40;
-			if (lowestDistance <= THRESHOLD) {
-				console.log(`識別結果: ${bestMatch}（距離: ${lowestDistance}）`);
-				alert(`識別結果: ${bestMatch}（距離: ${lowestDistance}）`);
-			} else {
-				console.log(
-					`識別結果: 識別できませんでした（距離: ${lowestDistance}）`,
+			// ある程度のサイズ以上の輪郭のみ処理
+			const area = OpenCV.contourArea(contours.get(i), false);
+			if (area > 15000) {
+				const approx = new OpenCV.Mat();
+				// cv.Matは行列で、幅1, 高さ4のものが4頂点に近似できた範囲になる
+				OpenCV.approxPolyDP(
+					contours.get(i),
+					approx,
+					0.01 * cv.arcLength(contours.get(i), true),
+					true,
 				);
+				if (approx.size().width === 1 && approx.size().height === 4) {
+					// 四角形に近似できる領域は赤で輪郭線描画
+					OpenCV.drawContours(
+						dst,
+						contours,
+						i,
+						new cv.Scalar(255, 0, 0, 255),
+						4,
+						cv.LINE_8,
+						hierarchy,
+						100,
+					);
+
+					const { x, y, width, height } = OpenCV.boundingRect(contours.get(i));
+
+					previewCanvas.width = width;
+					previewCanvas.height = height;
+					previewContext.drawImage(
+						canvas,
+						x,
+						y,
+						width,
+						height,
+						0,
+						0,
+						previewCanvas.width,
+						previewCanvas.height,
+					);
+
+					// blockhashでハッシュを生成
+					const imageData = previewContext.getImageData(0, 0, width, height);
+					const hash = blockhash.bmvbhash(imageData, 16); // ハッシュを生成
+
+					// ハッシュデータベースと比較
+					let bestMatch: string | null = null;
+					let lowestDistance = Number.POSITIVE_INFINITY;
+
+					for (const general of GeneralsJSON) {
+						const distance = hammingDistance(hash, general.cardImageHash);
+
+						if (distance < lowestDistance) {
+							bestMatch = `${general.no}_${general.name}`;
+							lowestDistance = distance;
+						}
+					}
+
+					// 結果を設定
+					const THRESHOLD = 40;
+					if (lowestDistance <= THRESHOLD) {
+						console.log(`識別結果: ${bestMatch}（距離: ${lowestDistance}）`);
+						alert(`識別結果: ${bestMatch}（距離: ${lowestDistance}）`);
+					}
+				} else {
+					// それ以外の輪郭は緑で描画
+					OpenCV.drawContours(
+						dst,
+						contours,
+						i,
+						new cv.Scalar(0, 255, 0, 255),
+						1,
+						cv.LINE_8,
+						hierarchy,
+						100,
+					);
+				}
+				approx.delete();
 			}
 		}
 
@@ -192,7 +223,7 @@ export const Camera: React.FC = () => {
 		};
 		check();
 
-		const intervalId = window.setInterval(detectAndResizeCard, 1000);
+		const intervalId = window.setInterval(detectAndResizeCard, 500);
 
 		return () => {
 			window.clearInterval(intervalId); // コンポーネントのアンマウント時にクリア
@@ -217,6 +248,11 @@ export const Camera: React.FC = () => {
 				<video muted autoPlay playsInline ref={refVideo} className="w-4/12" />
 				<canvas
 					ref={refCanvas}
+					className="w-4/12"
+					// className="hidden"
+				/>
+				<canvas
+					ref={refPreviewCanvas}
 					className="w-4/12"
 					// className="hidden"
 				/>
