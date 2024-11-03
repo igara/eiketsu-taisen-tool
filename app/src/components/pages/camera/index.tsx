@@ -3,19 +3,7 @@
 import GeneralsJSON from "@eiketsu-taisen-tool/data/data/json/generals.json";
 import OpenCV from "@techstark/opencv-js";
 import blockhash from "blockhash-core";
-import { Jimp, type JimpInstance } from "jimp";
 import React from "react";
-
-const createImageDataFromJimp = async (jimpImage: JimpInstance) => {
-	const { width, height } = jimpImage.bitmap;
-	const data = new Uint8ClampedArray(jimpImage.bitmap.data); // RGBAデータをUint8ClampedArrayに変換
-
-	return {
-		data,
-		width,
-		height,
-	} as blockhash.ImageData; // ImageData形式として返す
-};
 
 const hammingDistance = (hash1: string, hash2: string): number => {
 	let distance = 0;
@@ -100,7 +88,7 @@ export const Camera: React.FC = () => {
 			OpenCV.CHAIN_APPROX_TC89_L1,
 		);
 		dst.delete();
-		dst = cv.Mat.zeros(src.rows, src.cols, OpenCV.CV_8UC3);
+		dst = OpenCV.Mat.zeros(src.rows, src.cols, OpenCV.CV_8UC3);
 
 		for (let i = 0; i < contours.size(); i++) {
 			// ある程度のサイズ以上の輪郭のみ処理
@@ -111,7 +99,7 @@ export const Camera: React.FC = () => {
 				OpenCV.approxPolyDP(
 					contours.get(i),
 					approx,
-					0.01 * cv.arcLength(contours.get(i), true),
+					0.01 * OpenCV.arcLength(contours.get(i), true),
 					true,
 				);
 				if (approx.size().width === 1 && approx.size().height === 4) {
@@ -120,9 +108,9 @@ export const Camera: React.FC = () => {
 						dst,
 						contours,
 						i,
-						new cv.Scalar(255, 0, 0, 255),
+						new OpenCV.Scalar(255, 0, 0, 255),
 						4,
-						cv.LINE_8,
+						OpenCV.LINE_8,
 						hierarchy,
 						100,
 					);
@@ -172,9 +160,9 @@ export const Camera: React.FC = () => {
 						dst,
 						contours,
 						i,
-						new cv.Scalar(0, 255, 0, 255),
+						new OpenCV.Scalar(0, 255, 0, 255),
 						1,
-						cv.LINE_8,
+						OpenCV.LINE_8,
 						hierarchy,
 						100,
 					);
