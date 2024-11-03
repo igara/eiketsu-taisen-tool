@@ -1,0 +1,49 @@
+{
+  "no": "PL076",
+  "appear": "第4弾-PL",
+  "id": "b94468514d8977481fd1674c7d62b057",
+  "detailImageId": "4df7187f1cd51d24d3a8bb8cf96a5f8d",
+  "name": "石動雷十太",
+  "kanaName": "いするぎらいじゅうた",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "真古流秘剣",
+    "kanaName": "しんこりゅうひけん",
+    "cost": "4",
+    "description": "武力が上がり、斬撃ができるまでの間、以下の短計を発動できる。ただし効果中敵を撃破できなくなり、効果終了時に一定時間計略を使用できなくなる<br>短計・飛飯綱【１】：範囲内の敵に武力によるダメージを与える。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b94468514d8977481fd1674c7d62b057",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3104"
+  }
+}

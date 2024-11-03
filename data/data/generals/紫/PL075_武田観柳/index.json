@@ -1,0 +1,36 @@
+{
+  "no": "PL075",
+  "appear": "第4弾-PL",
+  "id": "e2a84568e31abca72382ce8176e0c335",
+  "detailImageId": "900f1e4e5345e2cae02b6a5aaf02bf84",
+  "name": "武田観柳",
+  "kanaName": "たけだかんりゅう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "回転式機関砲",
+    "kanaName": "ガトリングガン",
+    "cost": "6",
+    "description": "武力と弾数の回復速度が上がり、射撃時の攻撃間隔が短くなる。ただし射撃時の攻撃回数が減る",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "4",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e2a84568e31abca72382ce8176e0c335",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3103"
+  }
+}
