@@ -2,15 +2,17 @@
 
 import GeneralImageHashsJSON from "@eiketsu-taisen-tool/data/data/json/general_image_hashs.json";
 import type { GeneralImageHash } from "@eiketsu-taisen-tool/data/types";
-import OpenCV from "@techstark/opencv-js";
+import cv, { min } from "@techstark/opencv-js";
 import React from "react";
 
 export const Camera: React.FC = () => {
 	const refVideo = React.useRef<HTMLVideoElement>(null);
-	const refCanvas = React.useRef<HTMLCanvasElement>(null);
 
 	const [devices, setDevices] = React.useState<MediaDeviceInfo[]>([]);
 	const [device, setDivice] = React.useState<MediaDeviceInfo | null>(null);
+	const [isVideo, setIsVideo] = React.useState(false);
+
+	const GeneralImageHashs = GeneralImageHashsJSON as GeneralImageHash[];
 
 	const onChangeDeviceSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
 		const deviceId = e.target.value;
@@ -42,86 +44,171 @@ export const Camera: React.FC = () => {
 		getDevices();
 	}, []);
 
+	// cv.CV_32Fに変換する関数
+	const convertToFloat32 = (mat: cv.Mat) => {
+		const convertedMat = new cv.Mat();
+		mat.convertTo(convertedMat, cv.CV_32F);
+		return convertedMat;
+	};
+
+	const padToMatchSize = (
+		mat: cv.Mat,
+		targetRows: number,
+		targetCols: number,
+	) => {
+		const paddedMat = new cv.Mat();
+		const top = 0;
+		const bottom = targetRows - mat.rows;
+		const left = 0;
+		const right = targetCols - mat.cols;
+
+		cv.copyMakeBorder(
+			mat,
+			paddedMat,
+			top,
+			bottom,
+			left,
+			right,
+			cv.BORDER_CONSTANT,
+			new cv.Scalar(0, 0, 0, 0),
+		);
+		return paddedMat;
+	};
+
+	// ユークリッド距離を計算する関数（型とサイズ合わせ含む）
+	const calculateEuclideanDistance = (desc1: cv.Mat, desc2: cv.Mat) => {
+		// 型をcv.CV_32Fに変換
+		let adjustedDesc1 =
+			desc1.type() === cv.CV_32F ? desc1 : convertToFloat32(desc1);
+		let adjustedDesc2 =
+			desc2.type() === cv.CV_32F ? desc2 : convertToFloat32(desc2);
+
+		// サイズが異なる場合はリサイズまたはパディング
+		if (
+			adjustedDesc1.rows !== adjustedDesc2.rows ||
+			adjustedDesc1.cols !== adjustedDesc2.cols
+		) {
+			if (
+				adjustedDesc1.rows * adjustedDesc1.cols >
+				adjustedDesc2.rows * adjustedDesc2.cols
+			) {
+				adjustedDesc2 = padToMatchSize(
+					adjustedDesc2,
+					adjustedDesc1.rows,
+					adjustedDesc1.cols,
+				);
+			} else {
+				adjustedDesc1 = padToMatchSize(
+					adjustedDesc1,
+					adjustedDesc2.rows,
+					adjustedDesc2.cols,
+				);
+			}
+		}
+
+		// データ配列を取得してユークリッド距離を計算
+		const data1 = adjustedDesc1.data32F;
+		const data2 = adjustedDesc2.data32F;
+
+		if (data1.length !== data2.length) {
+			throw new Error("データの長さが一致しません");
+		}
+
+		let sum = 0;
+		for (let i = 0; i < data1.length; i++) {
+			const diff = data1[i] - data2[i];
+			sum += diff * diff;
+		}
+
+		// 必要なメモリの解放
+		if (desc1 !== adjustedDesc1) adjustedDesc1.delete();
+		if (desc2 !== adjustedDesc2) adjustedDesc2.delete();
+
+		return Math.sqrt(sum); // ユークリッド距離
+	};
+
+	const calculateSimilarity = (desc1: cv.Mat, desc2: cv.Mat): number => {
+		const distance = calculateEuclideanDistance(desc1, desc2);
+		const similarity = 1 / (1 + distance); // 類似度の計算
+		return similarity; // 0から1の範囲
+	};
+
 	const detectAndResizeCard = () => {
-		if (!refCanvas.current || !refVideo.current) return;
-
-		const canvas = refCanvas.current;
-		const context = canvas.getContext("2d", { willReadFrequently: true });
-		if (!context) return;
-
+		if (!refVideo.current || !isVideo) return;
 		const video = refVideo.current;
 
-		canvas.width = video.videoWidth;
-		canvas.height = video.videoHeight;
-		context.canvas.width = video.videoWidth;
-		context.canvas.height = video.videoHeight;
-		context.drawImage(video, 0, 0, canvas.width, canvas.height);
-
 		try {
-			const src = OpenCV.imread(canvas);
-			const gray = new OpenCV.Mat();
-			OpenCV.cvtColor(src, gray, OpenCV.COLOR_RGBA2GRAY);
+			const frameWidth = video.videoWidth;
+			const frameHeight = video.videoHeight;
 
-			// ORBで特徴点を抽出
-			const orb = new OpenCV.ORB();
-			const keypoints = new OpenCV.KeyPointVector();
-			const descriptors = new OpenCV.Mat();
-			orb.detectAndCompute(gray, new OpenCV.Mat(), keypoints, descriptors);
+			const canvas = document.createElement("canvas");
+			const ctx = canvas.getContext("2d");
+			canvas.width = frameWidth;
+			canvas.height = frameHeight;
+			ctx?.drawImage(video, 0, 0, frameWidth, frameHeight);
 
-			// 事前に計算した特徴量とマッチング
-			let maxMatches = 0;
-			let detectedCard = "";
-			const generalImageHashs = GeneralImageHashsJSON as GeneralImageHash[];
-			for (const general of generalImageHashs) {
-				const refDescriptorsArray = general.cardImageHash;
+			// Canvasから画像データを取得してcv.Matに変換
+			const imageData = ctx?.getImageData(0, 0, frameWidth, frameHeight);
+			if (!imageData) return;
 
-				// Float32Arrayの特徴量データをMatに変換
-				const refDescriptorsMat = OpenCV.matFromArray(
-					refDescriptorsArray.length / 32,
+			const src = cv.matFromImageData(imageData);
+
+			const gray = new cv.Mat();
+			cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY);
+
+			// カメラ画像から特徴を抽出
+			const detector = new cv.ORB();
+			const keyPoints = new cv.KeyPointVector();
+			const descriptors = new cv.Mat();
+			detector.detectAndCompute(gray, new cv.Mat(), keyPoints, descriptors);
+
+			let maxDistance = 0;
+			let card = "";
+			// 事前計算された特徴量とマッチング
+			for (const generalImageHash of GeneralImageHashs) {
+				const precomputedDescriptor = cv.matFromArray(
+					generalImageHash.cardImageHash.length / 32,
 					32,
-					OpenCV.CV_32F,
-					refDescriptorsArray,
+					cv.CV_32F,
+					generalImageHash.cardImageHash,
 				);
 
-				// 特徴点マッチング
-				const bf = new OpenCV.BFMatcher(OpenCV.NORM_L2, true); // ORBと互換性のあるマッチャー
-				const matches = new OpenCV.DMatchVector();
-				bf.match(descriptors, refDescriptorsMat, matches);
+				// 距離を計算
+				const distance = calculateSimilarity(
+					descriptors,
+					precomputedDescriptor,
+				);
+				precomputedDescriptor.delete();
 
-				if (matches.size() > maxMatches) {
-					maxMatches = matches.size();
-					detectedCard = `${general.no}_${general.name}`;
+				if (!card) {
+					maxDistance = distance;
+					card = `${generalImageHash.no}_${generalImageHash.name}`;
 				}
-
-				bf.delete();
-				refDescriptorsMat.delete();
-				matches.delete();
+				if (distance > maxDistance) {
+					maxDistance = distance;
+					card = `${generalImageHash.no}_${generalImageHash.name}`;
+				}
 			}
 
-			if (maxMatches > 50) {
-				console.log(detectedCard);
-			}
+			console.log(card);
 
-			// メモリ解放
+			// リソースの解放
 			src.delete();
 			gray.delete();
 			descriptors.delete();
+			keyPoints.delete();
 		} catch (e) {
 			console.error(e);
 		}
 	};
 
-	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
 	React.useEffect(() => {
 		if (!device) return;
 
 		if (!refVideo) return;
 		if (!refVideo.current) return;
-		if (!refCanvas) return;
-		if (!refCanvas.current) return;
 
 		const video = refVideo.current;
-		const canvas = refCanvas.current;
 
 		const check = async () => {
 			try {
@@ -135,23 +222,23 @@ export const Camera: React.FC = () => {
 				});
 				video.srcObject = stream;
 
-				video.onloadedmetadata = () => {
-					video.play();
-					canvas.width = video.videoWidth;
-					canvas.height = video.videoHeight;
-				};
+				video.addEventListener("loadedmetadata", () => {
+					setIsVideo(true);
+				});
 			} catch (e) {
 				console.error(e);
 			}
 		};
 		check();
-
-		const intervalId = window.setInterval(detectAndResizeCard, 500);
-
-		return () => {
-			window.clearInterval(intervalId); // コンポーネントのアンマウント時にクリア
-		};
 	}, [device]);
+
+	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+	React.useEffect(() => {
+		if (!isVideo) return;
+
+		const intervalId = setInterval(detectAndResizeCard, 1000);
+		return () => clearInterval(intervalId);
+	}, [isVideo]);
 
 	return (
 		<main>
@@ -169,11 +256,6 @@ export const Camera: React.FC = () => {
 
 			<div className={device ? "" : "hidden"}>
 				<video muted autoPlay playsInline ref={refVideo} className="w-4/12" />
-				<canvas
-					ref={refCanvas}
-					className="w-4/12"
-					// className="hidden"
-				/>
 			</div>
 		</main>
 	);

@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import { parseArgs } from "node:util";
-import OpenCV from "@techstark/opencv-js";
+import cv from "@techstark/opencv-js";
 import Canvas from "canvas";
 import dayjs from "dayjs";
 import { google, type youtube_v3 } from "googleapis";
@@ -452,15 +452,15 @@ const main = async () => {
 		const img = (await Canvas.loadImage(
 			`${dirName}/2.jpg`,
 		)) as HTMLImageElement;
-		const src = OpenCV.imread(img);
-		const gray = new OpenCV.Mat();
-		OpenCV.cvtColor(src, gray, OpenCV.COLOR_RGBA2GRAY);
+		const src = cv.imread(img);
+		const gray = new cv.Mat();
+		cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY);
 
 		// ORBで特徴点を抽出
-		const orb = new OpenCV.ORB();
-		const keypoints = new OpenCV.KeyPointVector();
-		const descriptors = new OpenCV.Mat();
-		orb.detectAndCompute(gray, new OpenCV.Mat(), keypoints, descriptors);
+		const orb = new cv.ORB();
+		const keypoints = new cv.KeyPointVector();
+		const descriptors = new cv.Mat();
+		orb.detectAndCompute(gray, new cv.Mat(), keypoints, descriptors);
 
 		const flattenedDescriptors = Array.from(descriptors.data32F);
 		const originalLength = flattenedDescriptors.length;
