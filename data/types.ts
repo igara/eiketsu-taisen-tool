@@ -9,8 +9,6 @@ export type General = {
 	appear: string;
 	id: string;
 	detailImageId: string;
-	cardImageHash: string;
-	deckImageHash: string;
 	name: string;
 	kanaName: string;
 	color: {
@@ -39,6 +37,17 @@ export type General = {
 		official: string;
 		atWiki?: string;
 		gameWiki?: string;
+	};
+};
+
+export type GeneralImageHash = {
+	no: string;
+	// cardImageHash: string;
+	cardImageHash: number[];
+	deckImageHash: string;
+	name: string;
+	color: {
+		name: string;
 	};
 };
 

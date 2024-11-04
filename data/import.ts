@@ -1,12 +1,15 @@
 import fs from "node:fs";
 import { parseArgs } from "node:util";
+import OpenCV from "@techstark/opencv-js";
+import Canvas from "canvas";
 import dayjs from "dayjs";
 import { google, type youtube_v3 } from "googleapis";
 import imageHash from "image-hash";
+import JSDOM from "jsdom";
 import DOMParser from "node-html-parser";
 import sqlite from "node-sqlite3-wasm";
 import sharp from "sharp";
-import type { General, Skill } from "./types";
+import type { General, GeneralImageHash, Skill } from "./types";
 
 const {
 	values: {
@@ -118,6 +121,19 @@ async function processInBatches<T>(
 	}
 
 	return results; // 全ての結果を返す
+}
+
+function installDOM() {
+	const dom = new JSDOM.JSDOM();
+	global.document = dom.window.document;
+	// @ts-ignore
+	global.Image = Canvas.Image;
+	// @ts-ignore
+	global.HTMLCanvasElement = Canvas.Canvas;
+	// @ts-ignore
+	global.ImageData = Canvas.ImageData;
+	// @ts-ignore
+	global.HTMLImageElement = Canvas.Image;
 }
 
 const main = async () => {
@@ -281,7 +297,9 @@ const main = async () => {
 	const setPowers = new Set<string>();
 	const setIntelligentzias = new Set<string>();
 
+	installDOM();
 	const generals: General[] = [];
+	const generalImageHashs: GeneralImageHash[] = [];
 	for (const general of baseJSON.general) {
 		const g = general.split(",");
 
@@ -395,16 +413,11 @@ const main = async () => {
 		fs.mkdirSync(publicDir, { recursive: true });
 		await t5.toFile(`${publicDir}/5.jpg`);
 
-		const cardImageHash = await hashImage(`${dirName}/5.jpg`);
-		const deckImageHash = await hashImage(`${dirName}/5.jpg`);
-
 		const ge = {
 			no,
 			appear,
 			id,
 			detailImageId,
-			cardImageHash,
-			deckImageHash,
 			name,
 			kanaName,
 			color,
@@ -434,6 +447,34 @@ const main = async () => {
 		fs.writeFileSync(`${dirName}/index.json`, JSON.stringify(ge, null, 2));
 
 		generals.push(ge);
+
+		// @ts-ignore
+		const img = (await Canvas.loadImage(
+			`${dirName}/2.jpg`,
+		)) as HTMLImageElement;
+		const src = OpenCV.imread(img);
+		const gray = new OpenCV.Mat();
+		OpenCV.cvtColor(src, gray, OpenCV.COLOR_RGBA2GRAY);
+
+		// ORBで特徴点を抽出
+		const orb = new OpenCV.ORB();
+		const keypoints = new OpenCV.KeyPointVector();
+		const descriptors = new OpenCV.Mat();
+		orb.detectAndCompute(gray, new OpenCV.Mat(), keypoints, descriptors);
+
+		const cardImageHash = Array.from(descriptors.data32F);
+		const deckImageHash = await hashImage(`${dirName}/5.jpg`);
+
+		const gi = {
+			no,
+			cardImageHash,
+			deckImageHash,
+			name,
+			color: {
+				name: color.name,
+			},
+		};
+		generalImageHashs.push(gi);
 	}
 
 	const stratCosts = Array.from(setStratCosts).sort((a, b) => +a - +b);
@@ -455,6 +496,10 @@ const main = async () => {
 	fs.writeFileSync(
 		"data/json/generals.json",
 		JSON.stringify(generals, null, 2),
+	);
+	fs.writeFileSync(
+		"data/json/general_image_hashs.json",
+		JSON.stringify(generalImageHashs, null, 2),
 	);
 	fs.writeFileSync("data/json/appears.json", JSON.stringify(appears, null, 2));
 };
@@ -1063,8 +1108,8 @@ const youtubeDeckImport = async () => {
 		fs.readFileSync("data/json/youtube.json", "utf8"),
 	);
 
-	const GeneralsJSON: General[] = JSON.parse(
-		fs.readFileSync("data/json/generals.json", "utf8"),
+	const GeneralImageHashsJSON: GeneralImageHash[] = JSON.parse(
+		fs.readFileSync("data/json/general_image_hashs.json", "utf8"),
 	);
 
 	fs.mkdirSync("../app/public/sqlite", { recursive: true });
@@ -1098,7 +1143,9 @@ const youtubeDeckImport = async () => {
 	type GeneralInfo = {
 		generals: { no: string; name: string; hashImage: string; path: string }[];
 	};
-	const generalAllInfo = await GeneralsJSON.reduce<Promise<GeneralInfo>>(
+	const generalAllInfo = await GeneralImageHashsJSON.reduce<
+		Promise<GeneralInfo>
+	>(
 		async (acc: Promise<GeneralInfo>, general): Promise<GeneralInfo> => {
 			const imagePath = `data/generals/${general.color.name}/${general.no}_${general.name}/5.jpg`;
 			(await acc).generals.push({
