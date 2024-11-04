@@ -1,22 +1,13 @@
 "use client";
 
-import GeneralsJSON from "@eiketsu-taisen-tool/data/data/json/generals.json";
+import GeneralImageHashsJSON from "@eiketsu-taisen-tool/data/data/json/general_image_hashs.json";
+import type { GeneralImageHash } from "@eiketsu-taisen-tool/data/types";
 import OpenCV from "@techstark/opencv-js";
-import blockhash from "blockhash-core";
 import React from "react";
-
-const hammingDistance = (hash1: string, hash2: string): number => {
-	let distance = 0;
-	for (let i = 0; i < hash1.length; i++) {
-		if (hash1[i] !== hash2[i]) distance++;
-	}
-	return distance;
-};
 
 export const Camera: React.FC = () => {
 	const refVideo = React.useRef<HTMLVideoElement>(null);
 	const refCanvas = React.useRef<HTMLCanvasElement>(null);
-	const refPreviewCanvas = React.useRef<HTMLCanvasElement>(null);
 
 	const [devices, setDevices] = React.useState<MediaDeviceInfo[]>([]);
 	const [device, setDivice] = React.useState<MediaDeviceInfo | null>(null);
@@ -51,135 +42,73 @@ export const Camera: React.FC = () => {
 		getDevices();
 	}, []);
 
-	const detectAndResizeCard = async () => {
-		if (!refCanvas.current || !refVideo.current || !refPreviewCanvas.current)
-			return;
+	const detectAndResizeCard = () => {
+		if (!refCanvas.current || !refVideo.current) return;
 
 		const canvas = refCanvas.current;
-		const context = canvas.getContext("2d");
+		const context = canvas.getContext("2d", { willReadFrequently: true });
 		if (!context) return;
 
 		const video = refVideo.current;
-		const previewCanvas = refPreviewCanvas.current;
-		const previewContext = previewCanvas.getContext("2d");
-		if (!previewContext) return;
 
 		canvas.width = video.videoWidth;
 		canvas.height = video.videoHeight;
+		context.canvas.width = video.videoWidth;
+		context.canvas.height = video.videoHeight;
 		context.drawImage(video, 0, 0, canvas.width, canvas.height);
 
-		// Canvasから画像データを取得
-		const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+		try {
+			const src = OpenCV.imread(canvas);
+			const gray = new OpenCV.Mat();
+			OpenCV.cvtColor(src, gray, OpenCV.COLOR_RGBA2GRAY);
 
-		// OpenCVを使って画像を処理
-		const src = OpenCV.imread(canvas);
-		let dst = new OpenCV.Mat();
-		OpenCV.cvtColor(src, dst, OpenCV.COLOR_RGBA2GRAY, 0);
-		OpenCV.threshold(dst, dst, 0, 255, OpenCV.THRESH_OTSU);
+			// ORBで特徴点を抽出
+			const orb = new OpenCV.ORB();
+			const keypoints = new OpenCV.KeyPointVector();
+			const descriptors = new OpenCV.Mat();
+			orb.detectAndCompute(gray, new OpenCV.Mat(), keypoints, descriptors);
 
-		// 輪郭を検出
-		const contours = new OpenCV.MatVector();
-		const hierarchy = new OpenCV.Mat();
-		OpenCV.findContours(
-			dst,
-			contours,
-			hierarchy,
-			OpenCV.RETR_EXTERNAL,
-			OpenCV.CHAIN_APPROX_TC89_L1,
-		);
-		dst.delete();
-		dst = OpenCV.Mat.zeros(src.rows, src.cols, OpenCV.CV_8UC3);
+			// 事前に計算した特徴量とマッチング
+			let maxMatches = 0;
+			let detectedCard = "";
+			const generalImageHashs = GeneralImageHashsJSON as GeneralImageHash[];
+			for (const general of generalImageHashs) {
+				const refDescriptorsArray = general.cardImageHash;
 
-		for (let i = 0; i < contours.size(); i++) {
-			// ある程度のサイズ以上の輪郭のみ処理
-			const area = OpenCV.contourArea(contours.get(i), false);
-			if (area > 15000) {
-				const approx = new OpenCV.Mat();
-				// cv.Matは行列で、幅1, 高さ4のものが4頂点に近似できた範囲になる
-				OpenCV.approxPolyDP(
-					contours.get(i),
-					approx,
-					0.01 * OpenCV.arcLength(contours.get(i), true),
-					true,
+				// Float32Arrayの特徴量データをMatに変換
+				const refDescriptorsMat = OpenCV.matFromArray(
+					refDescriptorsArray.length / 32,
+					32,
+					OpenCV.CV_32F,
+					refDescriptorsArray,
 				);
-				if (approx.size().width === 1 && approx.size().height === 4) {
-					// 四角形に近似できる領域は赤で輪郭線描画
-					OpenCV.drawContours(
-						dst,
-						contours,
-						i,
-						new OpenCV.Scalar(255, 0, 0, 255),
-						4,
-						OpenCV.LINE_8,
-						hierarchy,
-						100,
-					);
 
-					const { x, y, width, height } = OpenCV.boundingRect(contours.get(i));
+				// 特徴点マッチング
+				const bf = new OpenCV.BFMatcher(OpenCV.NORM_L2, true); // ORBと互換性のあるマッチャー
+				const matches = new OpenCV.DMatchVector();
+				bf.match(descriptors, refDescriptorsMat, matches);
 
-					previewCanvas.width = width;
-					previewCanvas.height = height;
-					previewContext.drawImage(
-						canvas,
-						x,
-						y,
-						width,
-						height,
-						0,
-						0,
-						previewCanvas.width,
-						previewCanvas.height,
-					);
-
-					// blockhashでハッシュを生成
-					const imageData = previewContext.getImageData(0, 0, width, height);
-					const hash = blockhash.bmvbhash(imageData, 16); // ハッシュを生成
-
-					// ハッシュデータベースと比較
-					let bestMatch: string | null = null;
-					let lowestDistance = Number.POSITIVE_INFINITY;
-
-					for (const general of GeneralsJSON) {
-						const distance = hammingDistance(hash, general.cardImageHash);
-
-						if (distance < lowestDistance) {
-							bestMatch = `${general.no}_${general.name}`;
-							lowestDistance = distance;
-						}
-					}
-
-					// 結果を設定
-					const THRESHOLD = 50;
-					if (lowestDistance <= THRESHOLD) {
-						console.log(`識別結果: ${bestMatch}（距離: ${lowestDistance}）`);
-						alert(`識別結果: ${bestMatch}（距離: ${lowestDistance}）`);
-					} else {
-						console.log(
-							`識別結果: 識別できませんでした（距離: ${lowestDistance}）`,
-						);
-					}
-				} else {
-					// それ以外の輪郭は緑で描画
-					OpenCV.drawContours(
-						dst,
-						contours,
-						i,
-						new OpenCV.Scalar(0, 255, 0, 255),
-						1,
-						OpenCV.LINE_8,
-						hierarchy,
-						100,
-					);
+				if (matches.size() > maxMatches) {
+					maxMatches = matches.size();
+					detectedCard = `${general.no}_${general.name}`;
 				}
-				approx.delete();
-			}
-		}
 
-		// メモリの解放
-		src.delete();
-		dst.delete();
-		contours.delete();
-		hierarchy.delete();
+				bf.delete();
+				refDescriptorsMat.delete();
+				matches.delete();
+			}
+
+			if (maxMatches > 50) {
+				console.log(detectedCard);
+			}
+
+			// メモリ解放
+			src.delete();
+			gray.delete();
+			descriptors.delete();
+		} catch (e) {
+			console.error(e);
+		}
 	};
 
 	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
@@ -217,7 +146,7 @@ export const Camera: React.FC = () => {
 		};
 		check();
 
-		const intervalId = window.setInterval(detectAndResizeCard, 100);
+		const intervalId = window.setInterval(detectAndResizeCard, 500);
 
 		return () => {
 			window.clearInterval(intervalId); // コンポーネントのアンマウント時にクリア
@@ -242,11 +171,6 @@ export const Camera: React.FC = () => {
 				<video muted autoPlay playsInline ref={refVideo} className="w-4/12" />
 				<canvas
 					ref={refCanvas}
-					className="w-4/12"
-					// className="hidden"
-				/>
-				<canvas
-					ref={refPreviewCanvas}
 					className="w-4/12"
 					// className="hidden"
 				/>

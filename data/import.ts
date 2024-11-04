@@ -462,7 +462,18 @@ const main = async () => {
 		const descriptors = new OpenCV.Mat();
 		orb.detectAndCompute(gray, new OpenCV.Mat(), keypoints, descriptors);
 
-		const cardImageHash = Array.from(descriptors.data32F);
+		const flattenedDescriptors = Array.from(descriptors.data32F);
+		const originalLength = flattenedDescriptors.length;
+		const paddingSize = (32 - (originalLength % 32)) % 32; // 必要なパディングサイズ
+		const paddedDescriptors = flattenedDescriptors.concat(
+			new Array(paddingSize).fill(0),
+		); // ゼロでパディング
+		const cardImageHash = paddedDescriptors;
+		src.delete();
+		gray.delete();
+		keypoints.delete();
+		descriptors.delete();
+
 		const deckImageHash = await hashImage(`${dirName}/5.jpg`);
 
 		const gi = {

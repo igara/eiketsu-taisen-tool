@@ -42,7 +42,6 @@ export type General = {
 
 export type GeneralImageHash = {
 	no: string;
-	// cardImageHash: string;
 	cardImageHash: number[];
 	deckImageHash: string;
 	name: string;
