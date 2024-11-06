@@ -7,6 +7,9 @@ export const useLogic = () => {
 		GeneralCardImageHashContext,
 	);
 	const refVideo = React.useRef<HTMLVideoElement>(null);
+	const refVideoCanvas = React.useRef<HTMLCanvasElement>(null);
+	const refMonoCanvas = React.useRef<HTMLCanvasElement>(null);
+	const refCardCanvas = React.useRef<HTMLCanvasElement>(null);
 
 	const [devices, setDevices] = React.useState<MediaDeviceInfo[]>([]);
 	const [device, setDivice] = React.useState<MediaDeviceInfo | null>(null);
@@ -57,33 +60,134 @@ export const useLogic = () => {
 	}, [generalCardImageHashDB]);
 
 	const detectAndResizeCard = () => {
-		if (!refVideo.current || !isVideo) return;
+		if (!isVideo) return;
+
+		if (!refVideo.current) return;
 		const video = refVideo.current;
+
+		if (!refVideoCanvas.current) return;
+		const videoCanvas = refVideoCanvas.current;
+		const videoCanvasContext = videoCanvas.getContext("2d");
+		if (!videoCanvasContext) return;
+
+		if (!refMonoCanvas.current) return;
+		const monoCanvas = refMonoCanvas.current;
+		const monoCanvasContext = monoCanvas.getContext("2d");
+		if (!monoCanvasContext) return;
+
+		if (!refCardCanvas.current) return;
+		const cardCanvas = refCardCanvas.current;
+		const cardCanvasContext = cardCanvas.getContext("2d");
+		if (!cardCanvasContext) return;
 
 		try {
 			const frameWidth = video.videoWidth;
 			const frameHeight = video.videoHeight;
 
-			const canvas = document.createElement("canvas");
-			const ctx = canvas.getContext("2d");
-			canvas.width = frameWidth;
-			canvas.height = frameHeight;
-			ctx?.drawImage(video, 0, 0, frameWidth, frameHeight);
+			videoCanvas.width = frameWidth;
+			videoCanvas.height = frameHeight;
+			videoCanvasContext.drawImage(video, 0, 0, frameWidth, frameHeight);
+
+			monoCanvas.width = frameWidth;
+			monoCanvas.height = frameHeight;
+
+			const videoCanvasCVSRC = cv.imread(videoCanvas);
+			const monoCVDST = new cv.Mat();
+			cv.cvtColor(videoCanvasCVSRC, monoCVDST, cv.COLOR_RGBA2GRAY, 0);
+			cv.threshold(monoCVDST, monoCVDST, 0, 255, cv.THRESH_OTSU);
+			const contours = new cv.MatVector();
+			const hierarchy = new cv.Mat();
+			cv.findContours(
+				monoCVDST,
+				contours,
+				hierarchy,
+				cv.RETR_EXTERNAL,
+				cv.CHAIN_APPROX_TC89_L1,
+			);
+
+			monoCVDST.delete();
+			const videoCanvasCVDST = cv.Mat.zeros(
+				videoCanvasCVSRC.rows,
+				videoCanvasCVSRC.cols,
+				cv.CV_8UC3,
+			);
+			for (let i = 0; i < contours.size(); i++) {
+				const area = cv.contourArea(contours.get(i), false);
+				if (area > 15000) {
+					const approx = new cv.Mat();
+					cv.approxPolyDP(
+						contours.get(i),
+						approx,
+						0.01 * cv.arcLength(contours.get(i), true),
+						true,
+					);
+					if (approx.size().width === 1 && approx.size().height === 4) {
+						cv.drawContours(
+							videoCanvasCVDST,
+							contours,
+							i,
+							new cv.Scalar(255, 0, 0, 255),
+							4,
+							cv.LINE_8,
+							hierarchy,
+							100,
+						);
+						const { x, y, width, height } = cv.boundingRect(contours.get(i));
+						cardCanvas.width = width;
+						cardCanvas.height = height;
+						// カードの描画
+						cardCanvasContext.drawImage(
+							videoCanvas,
+							x,
+							y,
+							width,
+							height,
+							0,
+							0,
+							width,
+							height,
+						);
+					} else {
+						cv.drawContours(
+							videoCanvasCVDST,
+							contours,
+							i,
+							new cv.Scalar(0, 255, 0, 255),
+							1,
+							cv.LINE_8,
+							hierarchy,
+							100,
+						);
+					}
+					approx.delete();
+				}
+			}
+
+			cv.imshow(monoCanvas, videoCanvasCVDST);
+			videoCanvasCVSRC.delete();
+			videoCanvasCVDST.delete();
+			hierarchy.delete();
+			contours.delete();
 
 			// Canvasから画像データを取得してcv.Matに変換
-			const imageData = ctx?.getImageData(0, 0, frameWidth, frameHeight);
-			if (!imageData) return;
+			// const imageData = monoCanvasContext?.getImageData(
+			// 	0,
+			// 	0,
+			// 	frameWidth,
+			// 	frameHeight,
+			// );
+			// if (!imageData) return;
 
-			const src = cv.matFromImageData(imageData);
+			// const src = cv.matFromImageData(imageData);
 
-			const gray = new cv.Mat();
-			cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY);
+			// const gray = new cv.Mat();
+			// cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY);
 
-			// カメラ画像から特徴を抽出
-			const detector = new cv.ORB();
-			const keyPoints = new cv.KeyPointVector();
-			const descriptors = new cv.Mat();
-			detector.detectAndCompute(gray, new cv.Mat(), keyPoints, descriptors);
+			// // カメラ画像から特徴を抽出
+			// const detector = new cv.ORB();
+			// const keyPoints = new cv.KeyPointVector();
+			// const descriptors = new cv.Mat();
+			// detector.detectAndCompute(gray, new cv.Mat(), keyPoints, descriptors);
 		} catch (e) {
 			console.error(e);
 		}
@@ -133,5 +237,8 @@ export const useLogic = () => {
 		devices,
 		device,
 		refVideo,
+		refVideoCanvas,
+		refMonoCanvas,
+		refCardCanvas,
 	};
 };

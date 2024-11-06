@@ -7,6 +7,9 @@ export const CameraAnalyze: React.FC = () => {
 	const {
 		generalCardImageHashDB,
 		refVideo,
+		refVideoCanvas,
+		refMonoCanvas,
+		refCardCanvas,
 		devices,
 		device,
 		onChangeDeviceSelect,
@@ -31,7 +34,10 @@ export const CameraAnalyze: React.FC = () => {
 			</div>
 
 			<div className={device ? "" : "hidden"}>
-				<video muted autoPlay playsInline ref={refVideo} className="w-4/12" />
+				<video muted autoPlay playsInline ref={refVideo} />
+				<canvas ref={refVideoCanvas} className="hidden" />
+				<canvas ref={refMonoCanvas} className="hidden" />
+				<canvas ref={refCardCanvas} />
 			</div>
 		</div>
 	);
