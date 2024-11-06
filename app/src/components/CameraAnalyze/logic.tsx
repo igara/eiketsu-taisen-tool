@@ -279,6 +279,13 @@ export const useLogic = () => {
 		};
 	};
 
+	/**
+	 * モバイルスクロール禁止処理
+	 */
+	const scrollNo = React.useCallback((e: TouchEvent) => {
+		e.preventDefault();
+	}, []);
+
 	const onTouchStartVideoCanvas = (e: React.TouchEvent<HTMLCanvasElement>) => {
 		const touch = e.touches[0];
 		const position = adjustForCanvasScale(touch.clientX, touch.clientY);
@@ -305,6 +312,7 @@ export const useLogic = () => {
 	const onTouchMoveVideoCanvas = (e: React.TouchEvent<HTMLCanvasElement>) => {
 		if (!isSelectingVideoCanvasPosition) return;
 		document.body.style.overflow = "hidden";
+		document.addEventListener("touchmove", scrollNo, { passive: false });
 
 		const touch = e.touches[0];
 		const position = adjustForCanvasScale(touch.clientX, touch.clientY);
@@ -318,6 +326,7 @@ export const useLogic = () => {
 	const onMouseMoveVideoCanvas = (e: React.MouseEvent<HTMLCanvasElement>) => {
 		if (!isSelectingVideoCanvasPosition) return;
 		document.body.style.overflow = "hidden";
+		document.addEventListener("touchmove", scrollNo, { passive: false });
 
 		const position = adjustForCanvasScale(e.clientX, e.clientY);
 
@@ -329,11 +338,13 @@ export const useLogic = () => {
 
 	const onTouchEndVideoCanvas = () => {
 		document.body.style.overflow = "auto";
+		document.removeEventListener("touchmove", scrollNo);
 		setIsSelectingVideoCanvasPosition(false);
 	};
 
 	const onMouseUpVideoCanvas = () => {
 		document.body.style.overflow = "auto";
+		document.removeEventListener("touchmove", scrollNo);
 		setIsSelectingVideoCanvasPosition(false);
 	};
 
