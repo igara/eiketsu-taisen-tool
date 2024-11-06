@@ -65,7 +65,7 @@ export const CameraAnalyze: React.FC = () => {
 							<div className="h-1/2 flex justify-end">
 								<canvas
 									ref={refAutoCardCanvas}
-									className="max-w-full max-h-full w-auto h-auto border-2 border-red-600"
+									className="max-w-full max-h-fit w-auto h-auto border-2 border-red-600"
 								/>
 							</div>
 						</div>
@@ -76,7 +76,7 @@ export const CameraAnalyze: React.FC = () => {
 							<div className="h-1/2 flex justify-end">
 								<canvas
 									ref={refSelectedCardCanvas}
-									className="max-w-full max-h-full w-auto h-auto border-2 border-red-600"
+									className="max-w-full max-h-fit w-auto h-auto border-2 border-red-600"
 								/>
 							</div>
 
