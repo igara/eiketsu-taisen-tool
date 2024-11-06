@@ -10,6 +10,7 @@ export const CameraAnalyze: React.FC = () => {
 		refVideoCanvas,
 		refMonoCanvas,
 		refAutoCardCanvas,
+		refSelectedCardCanvas,
 		devices,
 		device,
 		onChangeDeviceSelect,
@@ -19,6 +20,7 @@ export const CameraAnalyze: React.FC = () => {
 		onMouseDownVideoCanvas,
 		onMouseMoveVideoCanvas,
 		onMouseUpVideoCanvas,
+		onClickSelectedCardButton,
 	} = useLogic();
 
 	return (
@@ -57,14 +59,36 @@ export const CameraAnalyze: React.FC = () => {
 						/>
 					</div>
 
-					<div className="absolute top-0 right-0 w-3/12 h-full bg-[#efe6cb]">
-						<div className="w-full">
-							<p className="text-xs p-1">自動検出</p>
-							<canvas ref={refAutoCardCanvas} className="w-full" />
+					<div className="absolute top-0 right-0 w-3/12 h-full bg-[rgba(255,255,255,0.2)]">
+						<div className="w-full h-1/2">
+							<p className="text-xs p-1 bg-[#efe6cb]">自動検出</p>
+							<div className="h-1/2 flex justify-end">
+								<canvas
+									ref={refAutoCardCanvas}
+									className="max-w-full max-h-full w-auto h-auto border-2 border-red-600"
+								/>
+							</div>
 						</div>
 
-						<div className="w-full">
-							<p className="text-xs p-1">範囲選択</p>
+						<div className="w-full h-1/2">
+							<p className="text-xs p-1 bg-[#efe6cb]">範囲選択</p>
+
+							<div className="h-1/2 flex justify-end">
+								<canvas
+									ref={refSelectedCardCanvas}
+									className="max-w-full max-h-full w-auto h-auto border-2 border-red-600"
+								/>
+							</div>
+
+							<div className="p-1 flex justify-end">
+								<button
+									type="button"
+									onClick={onClickSelectedCardButton}
+									className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
+								>
+									切り取る
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>

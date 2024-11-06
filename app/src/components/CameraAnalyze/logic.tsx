@@ -10,6 +10,7 @@ export const useLogic = () => {
 	const refVideoCanvas = React.useRef<HTMLCanvasElement>(null);
 	const refMonoCanvas = React.useRef<HTMLCanvasElement>(null);
 	const refAutoCardCanvas = React.useRef<HTMLCanvasElement>(null);
+	const refSelectedCardCanvas = React.useRef<HTMLCanvasElement>(null);
 
 	const [devices, setDevices] = React.useState<MediaDeviceInfo[]>([]);
 	const [device, setDivice] = React.useState<MediaDeviceInfo | null>(null);
@@ -283,7 +284,9 @@ export const useLogic = () => {
 	 * モバイルスクロール禁止処理
 	 */
 	const scrollNo = React.useCallback((e: TouchEvent) => {
-		e.preventDefault();
+		if (e.cancelable) {
+			e.preventDefault();
+		}
 	}, []);
 
 	const onTouchStartVideoCanvas = (e: React.TouchEvent<HTMLCanvasElement>) => {
@@ -348,6 +351,44 @@ export const useLogic = () => {
 		setIsSelectingVideoCanvasPosition(false);
 	};
 
+	const onClickSelectedCardButton = () => {
+		if (!refSelectedCardCanvas.current) return;
+		const selectedCardCanvas = refSelectedCardCanvas.current;
+		const selectedCardCanvasContext = selectedCardCanvas.getContext("2d", {
+			willReadFrequently: true,
+		});
+		if (!selectedCardCanvasContext) return;
+
+		if (!refVideoCanvas.current) return;
+		const videoCanvas = refVideoCanvas.current;
+		const videoCanvasContext = videoCanvas.getContext("2d", {
+			willReadFrequently: true,
+		});
+		if (!videoCanvasContext) return;
+
+		// 矩形選択の箇所を取得
+		if (selectedVideoCanvasPosition.from && selectedVideoCanvasPosition.to) {
+			const { from, to } = selectedVideoCanvasPosition;
+			const width = from.x < to.x ? to.x - from.x : from.x - to.x;
+			const height = from.y < to.y ? to.y - from.y : from.y - to.y;
+			const x = from.x < to.x ? from.x : to.x;
+			const y = from.y < to.y ? from.y : to.y;
+			selectedCardCanvas.width = width;
+			selectedCardCanvas.height = height;
+			selectedCardCanvasContext.drawImage(
+				videoCanvas,
+				x,
+				y,
+				width,
+				height,
+				0,
+				0,
+				width,
+				height,
+			);
+		}
+	};
+
 	return {
 		generalCardImageHashDB,
 		onChangeDeviceSelect,
@@ -357,11 +398,13 @@ export const useLogic = () => {
 		refVideoCanvas,
 		refMonoCanvas,
 		refAutoCardCanvas,
+		refSelectedCardCanvas,
 		onTouchStartVideoCanvas,
 		onTouchMoveVideoCanvas,
 		onTouchEndVideoCanvas,
 		onMouseDownVideoCanvas,
 		onMouseMoveVideoCanvas,
 		onMouseUpVideoCanvas,
+		onClickSelectedCardButton,
 	};
 };
