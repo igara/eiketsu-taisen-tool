@@ -11,6 +11,7 @@
     "lint": "biome lint --apply ."
   },
   "dependencies": {
+    "@duckdb/duckdb-wasm": "^1.29.0",
     "@eiketsu-taisen-tool/data": "../data",
     "@hookform/resolvers": "^3.9.0",
     "@next/third-parties": "^15.0.0",

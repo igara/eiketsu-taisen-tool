@@ -3,6 +3,7 @@ import { parseArgs } from "node:util";
 import cv from "@techstark/opencv-js";
 import Canvas from "canvas";
 import dayjs from "dayjs";
+import DuckDB from "duckdb";
 import { google, type youtube_v3 } from "googleapis";
 import imageHash from "image-hash";
 import JSDOM from "jsdom";
@@ -298,6 +299,19 @@ const main = async () => {
 	const setIntelligentzias = new Set<string>();
 
 	installDOM();
+	fs.mkdirSync("../app/public/duckdb", { recursive: true });
+	// const generalCardImageHashDuckDB = new DuckDB.Database(
+	// 	"../app/public/duckdb/general_card_image_hash.duckdb",
+	// );
+	const generalCardImageHashDuckDB = new DuckDB.Database(":memory:");
+	const generalCardImageHashDuckDBConnection =
+		generalCardImageHashDuckDB.connect();
+	await generalCardImageHashDuckDBConnection.run(`CREATE TABLE general_card_image_hashs (
+		no TEXT,
+		name TEXT,
+		vec JSON
+	);`);
+
 	const generals: General[] = [];
 	const generalImageHashs: GeneralImageHash[] = [];
 	for (const general of baseJSON.general) {
@@ -462,23 +476,32 @@ const main = async () => {
 		const descriptors = new cv.Mat();
 		orb.detectAndCompute(gray, new cv.Mat(), keypoints, descriptors);
 
-		const flattenedDescriptors = Array.from(descriptors.data32F);
-		const originalLength = flattenedDescriptors.length;
-		const paddingSize = (32 - (originalLength % 32)) % 32; // 必要なパディングサイズ
-		const paddedDescriptors = flattenedDescriptors.concat(
-			new Array(paddingSize).fill(0),
-		); // ゼロでパディング
-		const cardImageHash = paddedDescriptors;
+		const targetSize = 4000;
+		const featureArray = descriptors.data32F;
+		let cardImageHash = [];
+		if (featureArray.length > targetSize) {
+			const trimmedArray = featureArray.slice(0, targetSize);
+			cardImageHash = Array.from(trimmedArray);
+		} else {
+			const paddedArray = new Float32Array(targetSize);
+			paddedArray.set(featureArray);
+			cardImageHash = Array.from(paddedArray);
+		}
+
 		src.delete();
 		gray.delete();
 		keypoints.delete();
 		descriptors.delete();
 
+		await generalCardImageHashDuckDBConnection.run(`
+      INSERT INTO general_card_image_hashs VALUES
+        ('${no}', '${name}', '${JSON.stringify(cardImageHash)}');
+    `);
+
 		const deckImageHash = await hashImage(`${dirName}/5.jpg`);
 
 		const gi = {
 			no,
-			cardImageHash,
 			deckImageHash,
 			name,
 			color: {
@@ -487,6 +510,12 @@ const main = async () => {
 		};
 		generalImageHashs.push(gi);
 	}
+
+	await generalCardImageHashDuckDBConnection.run(`
+		COPY general_card_image_hashs TO '../app/public/duckdb/general_card_image_hash.json' (ARRAY);
+	`);
+
+	await generalCardImageHashDuckDBConnection.close();
 
 	const stratCosts = Array.from(setStratCosts).sort((a, b) => +a - +b);
 	const powers = Array.from(setPowers).sort((a, b) => +a - +b);
