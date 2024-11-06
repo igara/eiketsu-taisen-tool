@@ -9,11 +9,24 @@ export const useLogic = () => {
 	const refVideo = React.useRef<HTMLVideoElement>(null);
 	const refVideoCanvas = React.useRef<HTMLCanvasElement>(null);
 	const refMonoCanvas = React.useRef<HTMLCanvasElement>(null);
-	const refCardCanvas = React.useRef<HTMLCanvasElement>(null);
+	const refAutoCardCanvas = React.useRef<HTMLCanvasElement>(null);
 
 	const [devices, setDevices] = React.useState<MediaDeviceInfo[]>([]);
 	const [device, setDivice] = React.useState<MediaDeviceInfo | null>(null);
 	const [isVideo, setIsVideo] = React.useState(false);
+	const [selectedVideoCanvasPosition, setSelectedVideoCanvasPosition] =
+		React.useState({
+			from: {
+				x: 0,
+				y: 0,
+			},
+			to: {
+				x: 0,
+				y: 0,
+			},
+		});
+	const [isSelectingVideoCanvasPosition, setIsSelectingVideoCanvasPosition] =
+		React.useState(false);
 
 	const onChangeDeviceSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
 		const deviceId = e.target.value;
@@ -79,8 +92,8 @@ export const useLogic = () => {
 		});
 		if (!monoCanvasContext) return;
 
-		if (!refCardCanvas.current) return;
-		const cardCanvas = refCardCanvas.current;
+		if (!refAutoCardCanvas.current) return;
+		const cardCanvas = refAutoCardCanvas.current;
 		const cardCanvasContext = cardCanvas.getContext("2d", {
 			willReadFrequently: true,
 		});
@@ -93,6 +106,16 @@ export const useLogic = () => {
 			videoCanvas.width = frameWidth;
 			videoCanvas.height = frameHeight;
 			videoCanvasContext.drawImage(video, 0, 0, frameWidth, frameHeight);
+
+			// 矩形選択に基づいた線を描画
+			if (selectedVideoCanvasPosition.from && selectedVideoCanvasPosition.to) {
+				const { from, to } = selectedVideoCanvasPosition;
+				videoCanvasContext.beginPath();
+				videoCanvasContext.rect(from.x, from.y, to.x - from.x, to.y - from.y);
+				videoCanvasContext.strokeStyle = "red"; // 線の色を設定
+				videoCanvasContext.lineWidth = 2; // 線の太さを設定
+				videoCanvasContext.stroke();
+			}
 
 			monoCanvas.width = frameWidth;
 			monoCanvas.height = frameHeight;
@@ -233,9 +256,58 @@ export const useLogic = () => {
 	React.useEffect(() => {
 		if (!isVideo) return;
 
-		const intervalId = setInterval(detectAndResizeCard, 500);
+		const intervalId = setInterval(detectAndResizeCard, 1000 / 120);
 		return () => clearInterval(intervalId);
-	}, [isVideo]);
+	}, [isVideo, selectedVideoCanvasPosition]);
+
+	// キャンバス内の位置を実際の解像度に合わせるための関数
+	const adjustForCanvasScale = (clientX: number, clientY: number) => {
+		if (!refVideoCanvas.current)
+			return {
+				x: 0,
+				y: 0,
+			};
+		const videoCanvas = refVideoCanvas.current;
+
+		const rect = videoCanvas.getBoundingClientRect();
+		const scaleX = videoCanvas.width / rect.width;
+		const scaleY = videoCanvas.height / rect.height;
+
+		return {
+			x: (clientX - rect.left) * scaleX,
+			y: (clientY - rect.top) * scaleY,
+		};
+	};
+
+	const onTouchStartVideoCanvas = (e: React.TouchEvent<HTMLCanvasElement>) => {
+		const touch = e.touches[0];
+		const position = adjustForCanvasScale(touch.clientX, touch.clientY);
+
+		setSelectedVideoCanvasPosition({
+			from: position,
+			to: position,
+		});
+
+		setIsSelectingVideoCanvasPosition(true);
+	};
+
+	const onTouchMoveVideoCanvas = (e: React.TouchEvent<HTMLCanvasElement>) => {
+		if (!isSelectingVideoCanvasPosition) return;
+		document.body.style.overflow = "hidden";
+
+		const touch = e.touches[0];
+		const position = adjustForCanvasScale(touch.clientX, touch.clientY);
+
+		setSelectedVideoCanvasPosition((prevSelection) => ({
+			...prevSelection,
+			to: position,
+		}));
+	};
+
+	const onTouchEndVideoCanvas = () => {
+		document.body.style.overflow = "auto";
+		setIsSelectingVideoCanvasPosition(false);
+	};
 
 	return {
 		generalCardImageHashDB,
@@ -245,6 +317,9 @@ export const useLogic = () => {
 		refVideo,
 		refVideoCanvas,
 		refMonoCanvas,
-		refCardCanvas,
+		refAutoCardCanvas,
+		onTouchStartVideoCanvas,
+		onTouchMoveVideoCanvas,
+		onTouchEndVideoCanvas,
 	};
 };

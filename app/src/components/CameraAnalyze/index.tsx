@@ -9,15 +9,18 @@ export const CameraAnalyze: React.FC = () => {
 		refVideo,
 		refVideoCanvas,
 		refMonoCanvas,
-		refCardCanvas,
+		refAutoCardCanvas,
 		devices,
 		device,
 		onChangeDeviceSelect,
+		onTouchStartVideoCanvas,
+		onTouchMoveVideoCanvas,
+		onTouchEndVideoCanvas,
 	} = useLogic();
 
 	return (
 		<div>
-			<div>
+			<div className="p-1">
 				<select onChange={onChangeDeviceSelect}>
 					<option value={0}>
 						{generalCardImageHashDB
@@ -33,11 +36,32 @@ export const CameraAnalyze: React.FC = () => {
 				</select>
 			</div>
 
-			<div className={device ? "" : "hidden"}>
-				<video muted autoPlay playsInline ref={refVideo} />
-				<canvas ref={refVideoCanvas} className="hidden" />
+			<div className={device ? "py-1" : "hidden"}>
+				<video muted autoPlay playsInline ref={refVideo} className="h-0" />
 				<canvas ref={refMonoCanvas} className="hidden" />
-				<canvas ref={refCardCanvas} />
+
+				<div className="relative">
+					<div className="w-full">
+						<canvas
+							ref={refVideoCanvas}
+							onTouchStart={onTouchStartVideoCanvas}
+							onTouchMove={onTouchMoveVideoCanvas}
+							onTouchEnd={onTouchEndVideoCanvas}
+							className="w-full"
+						/>
+					</div>
+
+					<div className="absolute top-0 right-0 w-3/12 h-full bg-[#efe6cb]">
+						<div className="w-full">
+							<p className="text-xs p-1">自動検出</p>
+							<canvas ref={refAutoCardCanvas} className="w-full" />
+						</div>
+
+						<div className="w-full">
+							<p className="text-xs p-1">範囲選択</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
