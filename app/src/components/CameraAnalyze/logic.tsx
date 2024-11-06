@@ -289,6 +289,7 @@ export const useLogic = () => {
 	const onTouchStartVideoCanvas = (e: React.TouchEvent<HTMLCanvasElement>) => {
 		const touch = e.touches[0];
 		const position = adjustForCanvasScale(touch.clientX, touch.clientY);
+		document.addEventListener("touchmove", scrollNo, { passive: false });
 
 		setSelectedVideoCanvasPosition({
 			from: position,
@@ -300,6 +301,7 @@ export const useLogic = () => {
 
 	const onMouseDownVideoCanvas = (e: React.MouseEvent<HTMLCanvasElement>) => {
 		const position = adjustForCanvasScale(e.clientX, e.clientY);
+		document.addEventListener("touchmove", scrollNo, { passive: false });
 
 		setSelectedVideoCanvasPosition({
 			from: position,
@@ -312,7 +314,6 @@ export const useLogic = () => {
 	const onTouchMoveVideoCanvas = (e: React.TouchEvent<HTMLCanvasElement>) => {
 		if (!isSelectingVideoCanvasPosition) return;
 		document.body.style.overflow = "hidden";
-		document.addEventListener("touchmove", scrollNo, { passive: false });
 
 		const touch = e.touches[0];
 		const position = adjustForCanvasScale(touch.clientX, touch.clientY);
@@ -326,7 +327,6 @@ export const useLogic = () => {
 	const onMouseMoveVideoCanvas = (e: React.MouseEvent<HTMLCanvasElement>) => {
 		if (!isSelectingVideoCanvasPosition) return;
 		document.body.style.overflow = "hidden";
-		document.addEventListener("touchmove", scrollNo, { passive: false });
 
 		const position = adjustForCanvasScale(e.clientX, e.clientY);
 
