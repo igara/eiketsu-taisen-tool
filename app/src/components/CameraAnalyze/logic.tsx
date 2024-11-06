@@ -67,17 +67,23 @@ export const useLogic = () => {
 
 		if (!refVideoCanvas.current) return;
 		const videoCanvas = refVideoCanvas.current;
-		const videoCanvasContext = videoCanvas.getContext("2d");
+		const videoCanvasContext = videoCanvas.getContext("2d", {
+			willReadFrequently: true,
+		});
 		if (!videoCanvasContext) return;
 
 		if (!refMonoCanvas.current) return;
 		const monoCanvas = refMonoCanvas.current;
-		const monoCanvasContext = monoCanvas.getContext("2d");
+		const monoCanvasContext = monoCanvas.getContext("2d", {
+			willReadFrequently: true,
+		});
 		if (!monoCanvasContext) return;
 
 		if (!refCardCanvas.current) return;
 		const cardCanvas = refCardCanvas.current;
-		const cardCanvasContext = cardCanvas.getContext("2d");
+		const cardCanvasContext = cardCanvas.getContext("2d", {
+			willReadFrequently: true,
+		});
 		if (!cardCanvasContext) return;
 
 		try {
@@ -227,7 +233,7 @@ export const useLogic = () => {
 	React.useEffect(() => {
 		if (!isVideo) return;
 
-		const intervalId = setInterval(detectAndResizeCard, 1000);
+		const intervalId = setInterval(detectAndResizeCard, 500);
 		return () => clearInterval(intervalId);
 	}, [isVideo]);
 
