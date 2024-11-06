@@ -291,6 +291,17 @@ export const useLogic = () => {
 		setIsSelectingVideoCanvasPosition(true);
 	};
 
+	const onMouseDownVideoCanvas = (e: React.MouseEvent<HTMLCanvasElement>) => {
+		const position = adjustForCanvasScale(e.clientX, e.clientY);
+
+		setSelectedVideoCanvasPosition({
+			from: position,
+			to: position,
+		});
+
+		setIsSelectingVideoCanvasPosition(true);
+	};
+
 	const onTouchMoveVideoCanvas = (e: React.TouchEvent<HTMLCanvasElement>) => {
 		if (!isSelectingVideoCanvasPosition) return;
 		document.body.style.overflow = "hidden";
@@ -304,7 +315,24 @@ export const useLogic = () => {
 		}));
 	};
 
+	const onMouseMoveVideoCanvas = (e: React.MouseEvent<HTMLCanvasElement>) => {
+		if (!isSelectingVideoCanvasPosition) return;
+		document.body.style.overflow = "hidden";
+
+		const position = adjustForCanvasScale(e.clientX, e.clientY);
+
+		setSelectedVideoCanvasPosition((prevSelection) => ({
+			...prevSelection,
+			to: position,
+		}));
+	};
+
 	const onTouchEndVideoCanvas = () => {
+		document.body.style.overflow = "auto";
+		setIsSelectingVideoCanvasPosition(false);
+	};
+
+	const onMouseUpVideoCanvas = () => {
 		document.body.style.overflow = "auto";
 		setIsSelectingVideoCanvasPosition(false);
 	};
@@ -321,5 +349,8 @@ export const useLogic = () => {
 		onTouchStartVideoCanvas,
 		onTouchMoveVideoCanvas,
 		onTouchEndVideoCanvas,
+		onMouseDownVideoCanvas,
+		onMouseMoveVideoCanvas,
+		onMouseUpVideoCanvas,
 	};
 };

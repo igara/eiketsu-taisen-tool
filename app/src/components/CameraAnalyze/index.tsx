@@ -16,6 +16,9 @@ export const CameraAnalyze: React.FC = () => {
 		onTouchStartVideoCanvas,
 		onTouchMoveVideoCanvas,
 		onTouchEndVideoCanvas,
+		onMouseDownVideoCanvas,
+		onMouseMoveVideoCanvas,
+		onMouseUpVideoCanvas,
 	} = useLogic();
 
 	return (
@@ -47,6 +50,9 @@ export const CameraAnalyze: React.FC = () => {
 							onTouchStart={onTouchStartVideoCanvas}
 							onTouchMove={onTouchMoveVideoCanvas}
 							onTouchEnd={onTouchEndVideoCanvas}
+							onMouseDown={onMouseDownVideoCanvas}
+							onMouseMove={onMouseMoveVideoCanvas}
+							onMouseUp={onMouseUpVideoCanvas}
 							className="w-full"
 						/>
 					</div>
