@@ -30,7 +30,7 @@ function findMostSimilarDescriptor(
 
 	for (const descriptor of descriptors) {
 		const distance = calculateDistance(
-			new Float32Array(descriptor.descriptor),
+			new Float32Array(JSON.parse(descriptor.descriptor)),
 			queryDescriptor,
 		);
 
@@ -44,6 +44,23 @@ function findMostSimilarDescriptor(
 	}
 
 	return mostSimilar;
+}
+
+function createTargerSizeFloat32Array(
+	targetSize: number,
+	featureArray: Float32Array,
+) {
+	let newArray = new Float32Array();
+	if (featureArray.length > targetSize) {
+		const trimmedArray = featureArray.slice(0, targetSize);
+		newArray = new Float32Array(Array.from(trimmedArray));
+	} else {
+		const paddedArray = new Float32Array(targetSize);
+		paddedArray.set(featureArray);
+		newArray = new Float32Array(Array.from(paddedArray));
+	}
+
+	return newArray;
 }
 
 export const useLogic = () => {
@@ -416,29 +433,53 @@ export const useLogic = () => {
 		const resized = new cv.Mat();
 		cv.resize(selectedCardCanvasSRC, resized, dsize, 0, 0, cv.INTER_LINEAR);
 
-		const gray = new cv.Mat();
-		cv.cvtColor(selectedCardCanvasSRC, gray, cv.COLOR_RGBA2GRAY);
-		cv.equalizeHist(gray, gray);
 		const orb = new cv.ORB();
 		const keypoints = new cv.KeyPointVector();
 		const descriptors = new cv.Mat();
-		orb.detectAndCompute(gray, new cv.Mat(), keypoints, descriptors);
+		orb.detectAndCompute(resized, new cv.Mat(), keypoints, descriptors);
 
-		const targetSize = 4000;
-		const featureArray = descriptors.data32F;
-		let descriptor = new Float32Array(targetSize);
-		if (featureArray.length > targetSize) {
-			const trimmedArray = featureArray.slice(0, targetSize);
-			descriptor = new Float32Array(Array.from(trimmedArray));
-		} else {
-			const paddedArray = new Float32Array(targetSize);
-			paddedArray.set(featureArray);
-			descriptor = new Float32Array(Array.from(paddedArray));
+		// RGB情報も含めた特徴リストを作成
+		const featuresWithColor = {
+			r: [] as number[],
+			g: [] as number[],
+			b: [] as number[],
+		};
+		for (let i = 0; i < keypoints.size(); i++) {
+			const kp = keypoints.get(i);
+
+			// 特徴点の座標を整数に変換
+			const x = Math.round(kp.pt.x);
+			const y = Math.round(kp.pt.y);
+
+			// RGB値の取得
+			const color: number[] = selectedCardCanvasSRC.ucharPtr(y, x);
+			const r = color[0];
+			const g = color[1];
+			const b = color[2];
+
+			// 各特徴点に特徴ベクトルとRGB値を保存
+			featuresWithColor.r.push(r);
+			featuresWithColor.g.push(g);
+			featuresWithColor.b.push(b);
 		}
+
+		const descriptor = new Float32Array([
+			...createTargerSizeFloat32Array(
+				400,
+				new Float32Array(featuresWithColor.r),
+			),
+			...createTargerSizeFloat32Array(
+				400,
+				new Float32Array(featuresWithColor.g),
+			),
+			...createTargerSizeFloat32Array(
+				400,
+				new Float32Array(featuresWithColor.b),
+			),
+		]);
 
 		selectedCardCanvasSRC.delete();
 		resized.delete();
-		gray.delete();
 		keypoints.delete();
 		descriptors.delete();
 		orb.delete();
@@ -449,7 +490,6 @@ export const useLogic = () => {
 			.execute();
 
 		const a = findMostSimilarDescriptor(allSelect, descriptor);
-		console.log(a);
 
 		alert(`${a.no}_${a.name}`);
 	};

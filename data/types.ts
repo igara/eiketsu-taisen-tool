@@ -62,5 +62,5 @@ export type YoutubeDeck = {
 export type GeneralCardImageDescriptor = {
 	no: string;
 	name: string;
-	descriptor: Buffer;
+	descriptor: string;
 };

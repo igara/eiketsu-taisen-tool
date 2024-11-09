@@ -494,6 +494,23 @@ function installOpenCV() {
 	global.HTMLImageElement = Canvas.Image;
 }
 
+function createTargerSizeFloat32Array(
+	targetSize: number,
+	featureArray: Float32Array,
+) {
+	let newArray = new Float32Array();
+	if (featureArray.length > targetSize) {
+		const trimmedArray = featureArray.slice(0, targetSize);
+		newArray = new Float32Array(Array.from(trimmedArray));
+	} else {
+		const paddedArray = new Float32Array(targetSize);
+		paddedArray.set(featureArray);
+		newArray = new Float32Array(Array.from(paddedArray));
+	}
+
+	return newArray;
+}
+
 const createCardImageDescriptor = async () => {
 	installOpenCV();
 
@@ -507,7 +524,7 @@ const createCardImageDescriptor = async () => {
 			`CREATE TABLE IF NOT EXISTS general_card_image_descriptors (
 		no TEXT,
 		name TEXT,
-		descriptor BLOB,
+		descriptor JSON,
 		PRIMARY KEY(
        no,
 			 name
@@ -527,31 +544,51 @@ const createCardImageDescriptor = async () => {
 				`${dirName}/2.jpg`,
 			)) as HTMLImageElement;
 			const src = cv.imread(img);
-			const gray = new cv.Mat();
-			cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY);
 
 			// ORBで特徴点を抽出
 			const orb = new cv.ORB();
 			const keypoints = new cv.KeyPointVector();
 			const descriptors = new cv.Mat();
-			orb.detectAndCompute(gray, new cv.Mat(), keypoints, descriptors);
+			orb.detectAndCompute(src, new cv.Mat(), keypoints, descriptors);
 
-			const targetSize = 4000;
-			const featureArray = descriptors.data32F;
-			let cardImageArray = new Float32Array();
-			if (featureArray.length > targetSize) {
-				const trimmedArray = featureArray.slice(0, targetSize);
-				cardImageArray = new Float32Array(Array.from(trimmedArray));
-			} else {
-				const paddedArray = new Float32Array(targetSize);
-				paddedArray.set(featureArray);
-				cardImageArray = new Float32Array(Array.from(paddedArray));
+			const featuresWithColor = {
+				r: [] as number[],
+				g: [] as number[],
+				b: [] as number[],
+			};
+			for (let i = 0; i < keypoints.size(); i++) {
+				const kp = keypoints.get(i);
+
+				// 特徴点の座標を整数に変換
+				const x = Math.round(kp.pt.x);
+				const y = Math.round(kp.pt.y);
+
+				// RGB値の取得
+				const color: number[] = src.ucharPtr(y, x);
+				const r = color[0];
+				const g = color[1];
+				const b = color[2];
+
+				// 各特徴点に特徴ベクトルとRGB値を保存
+				featuresWithColor.r.push(r);
+				featuresWithColor.g.push(g);
+				featuresWithColor.b.push(b);
 			}
 
-			const blobData = Buffer.from(cardImageArray);
+			const r = createTargerSizeFloat32Array(
+				400,
+				new Float32Array(featuresWithColor.r),
+			);
+			const g = createTargerSizeFloat32Array(
+				400,
+				new Float32Array(featuresWithColor.g),
+			);
+			const b = createTargerSizeFloat32Array(
+				400,
+				new Float32Array(featuresWithColor.b),
+			);
 
 			src.delete();
-			gray.delete();
 			keypoints.delete();
 			descriptors.delete();
 			orb.delete();
@@ -566,7 +603,7 @@ const createCardImageDescriptor = async () => {
 					{
 						":no": no,
 						":name": name,
-						":descriptor": blobData,
+						":descriptor": JSON.stringify([...r, ...g, ...b]),
 					},
 				);
 			} catch (_) {}
