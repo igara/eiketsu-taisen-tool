@@ -1,6 +1,3 @@
-import { YoutubeDeckContext } from "@/context/sqlite/YoutubeDeck";
-import React from "react";
-
 type Args = {
 	decks: {
 		no: string;

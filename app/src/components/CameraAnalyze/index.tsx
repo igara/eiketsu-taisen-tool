@@ -5,7 +5,7 @@ import { useLogic } from "./logic";
 
 export const CameraAnalyze: React.FC = () => {
 	const {
-		generalCardImageHashDB,
+		generalCardImageDescriptorDB,
 		refVideo,
 		refVideoCanvas,
 		refMonoCanvas,
@@ -25,10 +25,10 @@ export const CameraAnalyze: React.FC = () => {
 
 	return (
 		<div>
-			<div className="p-1">
+			<div className="fixed z-10 p-1">
 				<select onChange={onChangeDeviceSelect}>
 					<option value={0}>
-						{generalCardImageHashDB
+						{generalCardImageDescriptorDB
 							? "カメラ選択してください"
 							: "読み込み中..."}
 					</option>

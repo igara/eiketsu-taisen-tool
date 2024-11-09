@@ -1,16 +1,16 @@
 "use client";
 
 import { CameraAnalyze } from "@/components/CameraAnalyze";
-import { GeneralCardImageHashProvider } from "@/context/duckdb/GeneralCardImageHash";
+import { GeneralCardImageDescriptorProvider } from "@/context/sqlite/GeneralCardImageDescriptor";
 import type React from "react";
 
 export const Camera: React.FC = () => {
 	return (
-		<GeneralCardImageHashProvider>
+		<GeneralCardImageDescriptorProvider>
 			<main>
 				<CameraAnalyze />
 			</main>
-		</GeneralCardImageHashProvider>
+		</GeneralCardImageDescriptorProvider>
 	);
 };
 

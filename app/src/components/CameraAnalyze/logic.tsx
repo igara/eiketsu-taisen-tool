@@ -1,10 +1,54 @@
-import { GeneralCardImageHashContext } from "@/context/duckdb/GeneralCardImageHash";
+import { GeneralCardImageDescriptorContext } from "@/context/sqlite/GeneralCardImageDescriptor";
+import type { GeneralCardImageDescriptor } from "@eiketsu-taisen-tool/data/types";
 import cv from "@techstark/opencv-js";
 import React from "react";
 
+function calculateDistance(
+	descriptorA: Float32Array,
+	descriptorB: Float32Array,
+): number {
+	let sum = 0;
+	for (let i = 0; i < descriptorA.length; i++) {
+		const d1 = Number.isNaN(descriptorA[i]) ? 0 : descriptorA[i];
+		const d2 = Number.isNaN(descriptorB[i]) ? 0 : descriptorB[i];
+		const diff = d1 - d2;
+		sum += diff * diff;
+	}
+
+	return Math.sqrt(sum);
+}
+
+function findMostSimilarDescriptor(
+	descriptors: GeneralCardImageDescriptor[],
+	queryDescriptor: Float32Array,
+) {
+	let minDistance = Number.POSITIVE_INFINITY;
+	let mostSimilar = {
+		no: "",
+		name: "",
+	};
+
+	for (const descriptor of descriptors) {
+		const distance = calculateDistance(
+			new Float32Array(descriptor.descriptor),
+			queryDescriptor,
+		);
+
+		if (distance < minDistance) {
+			minDistance = distance;
+			mostSimilar = {
+				no: descriptor.no,
+				name: descriptor.name,
+			};
+		}
+	}
+
+	return mostSimilar;
+}
+
 export const useLogic = () => {
-	const { generalCardImageHashDB } = React.useContext(
-		GeneralCardImageHashContext,
+	const { generalCardImageDescriptorDB } = React.useContext(
+		GeneralCardImageDescriptorContext,
 	);
 	const refVideo = React.useRef<HTMLVideoElement>(null);
 	const refVideoCanvas = React.useRef<HTMLCanvasElement>(null);
@@ -28,6 +72,8 @@ export const useLogic = () => {
 		});
 	const [isSelectingVideoCanvasPosition, setIsSelectingVideoCanvasPosition] =
 		React.useState(false);
+	const [autoCardNo, setAutoCardNo] = React.useState("");
+	const [selectedCardNo, setSelectedCardNo] = React.useState("");
 
 	const onChangeDeviceSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
 		const deviceId = e.target.value;
@@ -40,7 +86,7 @@ export const useLogic = () => {
 	};
 
 	React.useEffect(() => {
-		if (!generalCardImageHashDB) return;
+		if (!generalCardImageDescriptorDB) return;
 
 		const getDevices = async () => {
 			try {
@@ -56,22 +102,10 @@ export const useLogic = () => {
 						(device) => device.kind === "videoinput" && device.label,
 					),
 				);
-
-				// if (generalCardImageHashDB) {
-				// const connection = await generalCardImageHashDB.connection();
-				// const result = await connection.query(
-				// 	"SELECT * FROM general_card_image_hash;",
-				// );
-				// const rows = result.toArray();
-				// for (const row of rows) {
-				// 	console.log(row.no);
-				// 	console.log(row.name);
-				// }
-				// }
 			} catch (_) {}
 		};
 		getDevices();
-	}, [generalCardImageHashDB]);
+	}, [generalCardImageDescriptorDB]);
 
 	const detectAndResizeCard = () => {
 		if (!isVideo) return;
@@ -109,14 +143,12 @@ export const useLogic = () => {
 			videoCanvasContext.drawImage(video, 0, 0, frameWidth, frameHeight);
 
 			// 矩形選択に基づいた線を描画
-			if (selectedVideoCanvasPosition.from && selectedVideoCanvasPosition.to) {
-				const { from, to } = selectedVideoCanvasPosition;
-				videoCanvasContext.beginPath();
-				videoCanvasContext.rect(from.x, from.y, to.x - from.x, to.y - from.y);
-				videoCanvasContext.strokeStyle = "red"; // 線の色を設定
-				videoCanvasContext.lineWidth = 2; // 線の太さを設定
-				videoCanvasContext.stroke();
-			}
+			const { from, to } = selectedVideoCanvasPosition;
+			videoCanvasContext.beginPath();
+			videoCanvasContext.rect(from.x, from.y, to.x - from.x, to.y - from.y);
+			videoCanvasContext.strokeStyle = "red"; // 線の色を設定
+			videoCanvasContext.lineWidth = 2; // 線の太さを設定
+			videoCanvasContext.stroke();
 
 			monoCanvas.width = frameWidth;
 			monoCanvas.height = frameHeight;
@@ -125,12 +157,12 @@ export const useLogic = () => {
 			const monoCVDST = new cv.Mat();
 			cv.cvtColor(videoCanvasCVSRC, monoCVDST, cv.COLOR_RGBA2GRAY, 0);
 			cv.threshold(monoCVDST, monoCVDST, 0, 255, cv.THRESH_OTSU);
-			const contours = new cv.MatVector();
-			const hierarchy = new cv.Mat();
+			const videoCanvasContours = new cv.MatVector();
+			const videoCanvasHierarchy = new cv.Mat();
 			cv.findContours(
 				monoCVDST,
-				contours,
-				hierarchy,
+				videoCanvasContours,
+				videoCanvasHierarchy,
 				cv.RETR_EXTERNAL,
 				cv.CHAIN_APPROX_TC89_L1,
 			);
@@ -141,28 +173,30 @@ export const useLogic = () => {
 				videoCanvasCVSRC.cols,
 				cv.CV_8UC3,
 			);
-			for (let i = 0; i < contours.size(); i++) {
-				const area = cv.contourArea(contours.get(i), false);
+			for (let i = 0; i < videoCanvasContours.size(); i++) {
+				const area = cv.contourArea(videoCanvasContours.get(i), false);
 				if (area > 15000) {
 					const approx = new cv.Mat();
 					cv.approxPolyDP(
-						contours.get(i),
+						videoCanvasContours.get(i),
 						approx,
-						0.01 * cv.arcLength(contours.get(i), true),
+						0.01 * cv.arcLength(videoCanvasContours.get(i), true),
 						true,
 					);
 					if (approx.size().width === 1 && approx.size().height === 4) {
 						cv.drawContours(
 							videoCanvasCVDST,
-							contours,
+							videoCanvasContours,
 							i,
 							new cv.Scalar(255, 0, 0, 255),
 							4,
 							cv.LINE_8,
-							hierarchy,
+							videoCanvasHierarchy,
 							100,
 						);
-						const { x, y, width, height } = cv.boundingRect(contours.get(i));
+						const { x, y, width, height } = cv.boundingRect(
+							videoCanvasContours.get(i),
+						);
 						cardCanvas.width = width;
 						cardCanvas.height = height;
 						// カードの描画
@@ -180,12 +214,12 @@ export const useLogic = () => {
 					} else {
 						cv.drawContours(
 							videoCanvasCVDST,
-							contours,
+							videoCanvasContours,
 							i,
 							new cv.Scalar(0, 255, 0, 255),
 							1,
 							cv.LINE_8,
-							hierarchy,
+							videoCanvasHierarchy,
 							100,
 						);
 					}
@@ -196,28 +230,8 @@ export const useLogic = () => {
 			cv.imshow(monoCanvas, videoCanvasCVDST);
 			videoCanvasCVSRC.delete();
 			videoCanvasCVDST.delete();
-			hierarchy.delete();
-			contours.delete();
-
-			// Canvasから画像データを取得してcv.Matに変換
-			// const imageData = monoCanvasContext?.getImageData(
-			// 	0,
-			// 	0,
-			// 	frameWidth,
-			// 	frameHeight,
-			// );
-			// if (!imageData) return;
-
-			// const src = cv.matFromImageData(imageData);
-
-			// const gray = new cv.Mat();
-			// cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY);
-
-			// // カメラ画像から特徴を抽出
-			// const detector = new cv.ORB();
-			// const keyPoints = new cv.KeyPointVector();
-			// const descriptors = new cv.Mat();
-			// detector.detectAndCompute(gray, new cv.Mat(), keyPoints, descriptors);
+			videoCanvasHierarchy.delete();
+			videoCanvasContours.delete();
 		} catch (e) {
 			console.error(e);
 		}
@@ -351,7 +365,9 @@ export const useLogic = () => {
 		setIsSelectingVideoCanvasPosition(false);
 	};
 
-	const onClickSelectedCardButton = () => {
+	const onClickSelectedCardButton = async () => {
+		if (!generalCardImageDescriptorDB) return;
+
 		if (!refSelectedCardCanvas.current) return;
 		const selectedCardCanvas = refSelectedCardCanvas.current;
 		const selectedCardCanvasContext = selectedCardCanvas.getContext("2d", {
@@ -367,30 +383,79 @@ export const useLogic = () => {
 		if (!videoCanvasContext) return;
 
 		// 矩形選択の箇所を取得
-		if (selectedVideoCanvasPosition.from && selectedVideoCanvasPosition.to) {
-			const { from, to } = selectedVideoCanvasPosition;
-			const width = from.x < to.x ? to.x - from.x : from.x - to.x;
-			const height = from.y < to.y ? to.y - from.y : from.y - to.y;
-			const x = from.x < to.x ? from.x : to.x;
-			const y = from.y < to.y ? from.y : to.y;
-			selectedCardCanvas.width = width;
-			selectedCardCanvas.height = height;
-			selectedCardCanvasContext.drawImage(
-				videoCanvas,
-				x,
-				y,
-				width,
-				height,
-				0,
-				0,
-				width,
-				height,
-			);
+		const { from, to } = selectedVideoCanvasPosition;
+		const width = from.x < to.x ? to.x - from.x : from.x - to.x;
+		const height = from.y < to.y ? to.y - from.y : from.y - to.y;
+		const x = from.x < to.x ? from.x : to.x;
+		const y = from.y < to.y ? from.y : to.y;
+		selectedCardCanvas.width = width;
+		selectedCardCanvas.height = height;
+		selectedCardCanvasContext.drawImage(
+			videoCanvas,
+			x,
+			y,
+			width,
+			height,
+			0,
+			0,
+			width,
+			height,
+		);
+
+		const imageData = selectedCardCanvasContext.getImageData(
+			0,
+			0,
+			selectedCardCanvas.width,
+			selectedCardCanvas.height,
+		);
+
+		// ImageDataをOpenCVのMatに変換
+		const selectedCardCanvasSRC = cv.matFromImageData(imageData);
+
+		const dsize = new cv.Size(260, 413);
+		const resized = new cv.Mat();
+		cv.resize(selectedCardCanvasSRC, resized, dsize, 0, 0, cv.INTER_LINEAR);
+
+		const gray = new cv.Mat();
+		cv.cvtColor(selectedCardCanvasSRC, gray, cv.COLOR_RGBA2GRAY);
+		cv.equalizeHist(gray, gray);
+		const orb = new cv.ORB();
+		const keypoints = new cv.KeyPointVector();
+		const descriptors = new cv.Mat();
+		orb.detectAndCompute(gray, new cv.Mat(), keypoints, descriptors);
+
+		const targetSize = 4000;
+		const featureArray = descriptors.data32F;
+		let descriptor = new Float32Array(targetSize);
+		if (featureArray.length > targetSize) {
+			const trimmedArray = featureArray.slice(0, targetSize);
+			descriptor = new Float32Array(Array.from(trimmedArray));
+		} else {
+			const paddedArray = new Float32Array(targetSize);
+			paddedArray.set(featureArray);
+			descriptor = new Float32Array(Array.from(paddedArray));
 		}
+
+		selectedCardCanvasSRC.delete();
+		resized.delete();
+		gray.delete();
+		keypoints.delete();
+		descriptors.delete();
+		orb.delete();
+
+		const allSelect = await generalCardImageDescriptorDB
+			.selectFrom("general_card_image_descriptors")
+			.selectAll()
+			.execute();
+
+		const a = findMostSimilarDescriptor(allSelect, descriptor);
+		console.log(a);
+
+		alert(a);
 	};
 
 	return {
-		generalCardImageHashDB,
+		generalCardImageDescriptorDB,
 		onChangeDeviceSelect,
 		devices,
 		device,

@@ -3,7 +3,6 @@ import { parseArgs } from "node:util";
 import cv from "@techstark/opencv-js";
 import Canvas from "canvas";
 import dayjs from "dayjs";
-import DuckDB from "duckdb";
 import { google, type youtube_v3 } from "googleapis";
 import imageHash from "image-hash";
 import JSDOM from "jsdom";
@@ -15,6 +14,7 @@ import type { General, GeneralImageHash, Skill } from "./types";
 const {
 	values: {
 		mainExec,
+		cardImageDescriptor,
 		youtubeImportExec,
 		youtubeDeckImportExec,
 		youtubeDeckTableCreate,
@@ -23,6 +23,11 @@ const {
 } = parseArgs({
 	options: {
 		mainExec: {
+			type: "boolean",
+			short: "b",
+			default: false,
+		},
+		cardImageDescriptor: {
 			type: "boolean",
 			short: "b",
 			default: false,
@@ -122,19 +127,6 @@ async function processInBatches<T>(
 	}
 
 	return results; // 全ての結果を返す
-}
-
-function installDOM() {
-	const dom = new JSDOM.JSDOM();
-	global.document = dom.window.document;
-	// @ts-ignore
-	global.Image = Canvas.Image;
-	// @ts-ignore
-	global.HTMLCanvasElement = Canvas.Canvas;
-	// @ts-ignore
-	global.ImageData = Canvas.ImageData;
-	// @ts-ignore
-	global.HTMLImageElement = Canvas.Image;
 }
 
 const main = async () => {
@@ -298,20 +290,6 @@ const main = async () => {
 	const setPowers = new Set<string>();
 	const setIntelligentzias = new Set<string>();
 
-	installDOM();
-	fs.mkdirSync("../app/public/duckdb", { recursive: true });
-	// const generalCardImageHashDuckDB = new DuckDB.Database(
-	// 	"../app/public/duckdb/general_card_image_hash.duckdb",
-	// );
-	const generalCardImageHashDuckDB = new DuckDB.Database(":memory:");
-	const generalCardImageHashDuckDBConnection =
-		generalCardImageHashDuckDB.connect();
-	await generalCardImageHashDuckDBConnection.run(`CREATE TABLE general_card_image_hashs (
-		no TEXT,
-		name TEXT,
-		vec JSON
-	);`);
-
 	const generals: General[] = [];
 	const generalImageHashs: GeneralImageHash[] = [];
 	for (const general of baseJSON.general) {
@@ -462,42 +440,6 @@ const main = async () => {
 
 		generals.push(ge);
 
-		// @ts-ignore
-		const img = (await Canvas.loadImage(
-			`${dirName}/2.jpg`,
-		)) as HTMLImageElement;
-		const src = cv.imread(img);
-		const gray = new cv.Mat();
-		cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY);
-
-		// ORBで特徴点を抽出
-		const orb = new cv.ORB();
-		const keypoints = new cv.KeyPointVector();
-		const descriptors = new cv.Mat();
-		orb.detectAndCompute(gray, new cv.Mat(), keypoints, descriptors);
-
-		const targetSize = 4000;
-		const featureArray = descriptors.data32F;
-		let cardImageHash = [];
-		if (featureArray.length > targetSize) {
-			const trimmedArray = featureArray.slice(0, targetSize);
-			cardImageHash = Array.from(trimmedArray);
-		} else {
-			const paddedArray = new Float32Array(targetSize);
-			paddedArray.set(featureArray);
-			cardImageHash = Array.from(paddedArray);
-		}
-
-		src.delete();
-		gray.delete();
-		keypoints.delete();
-		descriptors.delete();
-
-		await generalCardImageHashDuckDBConnection.run(`
-      INSERT INTO general_card_image_hashs VALUES
-        ('${no}', '${name}', '${JSON.stringify(cardImageHash)}');
-    `);
-
 		const deckImageHash = await hashImage(`${dirName}/5.jpg`);
 
 		const gi = {
@@ -510,12 +452,6 @@ const main = async () => {
 		};
 		generalImageHashs.push(gi);
 	}
-
-	await generalCardImageHashDuckDBConnection.run(`
-		COPY general_card_image_hashs TO '../app/public/duckdb/general_card_image_hash.json' (ARRAY);
-	`);
-
-	await generalCardImageHashDuckDBConnection.close();
 
 	const stratCosts = Array.from(setStratCosts).sort((a, b) => +a - +b);
 	const powers = Array.from(setPowers).sort((a, b) => +a - +b);
@@ -544,6 +480,100 @@ const main = async () => {
 	fs.writeFileSync("data/json/appears.json", JSON.stringify(appears, null, 2));
 };
 mainExec && main();
+
+function installOpenCV() {
+	const dom = new JSDOM.JSDOM();
+	global.document = dom.window.document;
+	// @ts-ignore
+	global.Image = Canvas.Image;
+	// @ts-ignore
+	global.HTMLCanvasElement = Canvas.Canvas;
+	// @ts-ignore
+	global.ImageData = Canvas.ImageData;
+	// @ts-ignore
+	global.HTMLImageElement = Canvas.Image;
+}
+
+const createCardImageDescriptor = async () => {
+	installOpenCV();
+
+	fs.mkdirSync("../app/public/sqlite", { recursive: true });
+	const db = new sqlite.Database(
+		"../app/public/sqlite/general_card_image_descriptor.sqlite3",
+	);
+
+	db.exec(
+		"DROP TABLE IF EXISTS decks; " +
+			`CREATE TABLE IF NOT EXISTS general_card_image_descriptors (
+		no TEXT,
+		name TEXT,
+		descriptor BLOB,
+		PRIMARY KEY(
+       no,
+			 name
+		));`,
+	);
+	const generalsJSON: General[] = JSON.parse(
+		fs.readFileSync("data/json/generals.json", "utf8"),
+	);
+
+	cv.onRuntimeInitialized = async () => {
+		for (const general of generalsJSON) {
+			const { no, name, color } = general;
+
+			const dirName = `data/generals/${color.name}/${no}_${name}`;
+			// @ts-ignore
+			const img = (await Canvas.loadImage(
+				`${dirName}/2.jpg`,
+			)) as HTMLImageElement;
+			const src = cv.imread(img);
+			const gray = new cv.Mat();
+			cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY);
+
+			// ORBで特徴点を抽出
+			const orb = new cv.ORB();
+			const keypoints = new cv.KeyPointVector();
+			const descriptors = new cv.Mat();
+			orb.detectAndCompute(gray, new cv.Mat(), keypoints, descriptors);
+
+			const targetSize = 4000;
+			const featureArray = descriptors.data32F;
+			let cardImageArray = new Float32Array();
+			if (featureArray.length > targetSize) {
+				const trimmedArray = featureArray.slice(0, targetSize);
+				cardImageArray = new Float32Array(Array.from(trimmedArray));
+			} else {
+				const paddedArray = new Float32Array(targetSize);
+				paddedArray.set(featureArray);
+				cardImageArray = new Float32Array(Array.from(paddedArray));
+			}
+
+			const blobData = Buffer.from(cardImageArray);
+
+			src.delete();
+			gray.delete();
+			keypoints.delete();
+			descriptors.delete();
+			orb.delete();
+
+			try {
+				db.run(
+					`INSERT INTO general_card_image_descriptors VALUES (
+					:no,
+					:name,
+					:descriptor
+					)`,
+					{
+						":no": no,
+						":name": name,
+						":descriptor": blobData,
+					},
+				);
+			} catch (_) {}
+		}
+	};
+};
+cardImageDescriptor && createCardImageDescriptor();
 
 const youtubeImport = async () => {
 	if (!process.env.GOOGLE_KEY) return;

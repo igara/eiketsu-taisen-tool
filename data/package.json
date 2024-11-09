@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "import:mainExec": "node --experimental-strip-types import.ts --mainExec",
+    "import:cardImageDescriptor": "node --experimental-strip-types import.ts --cardImageDescriptor",
     "import:youtubeImportExec": "node --experimental-strip-types import.ts --youtubeImportExec",
     "import:youtubeDeckImportExec": "node --experimental-strip-types import.ts --youtubeDeckImportExec",
     "import:youtubeDeckImportExec:create": "node --experimental-strip-types import.ts --youtubeDeckImportExec --youtubeDeckTableCreate",
@@ -23,7 +24,6 @@
     "@techstark/opencv-js": "^4.10.0-release.1",
     "canvas": "^2.11.2",
     "dayjs": "^1.11.13",
-    "duckdb": "^1.1.1",
     "googleapis": "^144.0.0",
     "image-hash": "^5.3.2",
     "jsdom": "^25.0.1",
