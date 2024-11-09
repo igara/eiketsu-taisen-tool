@@ -89,8 +89,14 @@ export const useLogic = () => {
 		});
 	const [isSelectingVideoCanvasPosition, setIsSelectingVideoCanvasPosition] =
 		React.useState(false);
-	const [autoCardNo, setAutoCardNo] = React.useState("");
-	const [selectedCardNo, setSelectedCardNo] = React.useState("");
+	const [autoCard, setAutoCard] = React.useState({
+		no: "",
+		name: "",
+	});
+	const [selectedCard, setSelectedCard] = React.useState({
+		no: "",
+		name: "",
+	});
 
 	const onChangeDeviceSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
 		const deviceId = e.target.value;
@@ -489,9 +495,9 @@ export const useLogic = () => {
 			.selectAll()
 			.execute();
 
-		const a = findMostSimilarDescriptor(allSelect, descriptor);
+		const card = findMostSimilarDescriptor(allSelect, descriptor);
 
-		alert(`${a.no}_${a.name}`);
+		setSelectedCard(card);
 	};
 
 	return {
@@ -504,6 +510,8 @@ export const useLogic = () => {
 		refMonoCanvas,
 		refAutoCardCanvas,
 		refSelectedCardCanvas,
+		autoCard,
+		selectedCard,
 		onTouchStartVideoCanvas,
 		onTouchMoveVideoCanvas,
 		onTouchEndVideoCanvas,

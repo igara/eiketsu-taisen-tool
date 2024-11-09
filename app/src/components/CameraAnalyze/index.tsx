@@ -13,6 +13,8 @@ export const CameraAnalyze: React.FC = () => {
 		refSelectedCardCanvas,
 		devices,
 		device,
+		autoCard,
+		selectedCard,
 		onChangeDeviceSelect,
 		onTouchStartVideoCanvas,
 		onTouchMoveVideoCanvas,
@@ -61,7 +63,11 @@ export const CameraAnalyze: React.FC = () => {
 
 					<div className="absolute top-0 right-0 w-3/12 h-full bg-[rgba(255,255,255,0.2)]">
 						<div className="w-full h-1/2">
-							<p className="text-xs p-1 bg-[#efe6cb]">自動検出</p>
+							<div className="text-xs p-1 bg-[#efe6cb]">
+								<p>自動検出</p>
+								<p>結果: {autoCard.no && `${autoCard.no}_${autoCard.name}`}</p>
+							</div>
+
 							<div className="h-1/2 flex justify-end">
 								<canvas
 									ref={refAutoCardCanvas}
@@ -71,7 +77,13 @@ export const CameraAnalyze: React.FC = () => {
 						</div>
 
 						<div className="w-full h-1/2">
-							<p className="text-xs p-1 bg-[#efe6cb]">範囲選択</p>
+							<div className="text-xs p-1 bg-[#efe6cb]">
+								<p>範囲選択</p>
+								<p>
+									結果:{" "}
+									{selectedCard.no && `${selectedCard.no}_${selectedCard.name}`}
+								</p>
+							</div>
 
 							<div className="h-1/2 flex justify-end">
 								<canvas
