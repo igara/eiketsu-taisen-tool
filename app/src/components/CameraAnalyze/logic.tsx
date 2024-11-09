@@ -451,7 +451,7 @@ export const useLogic = () => {
 		const a = findMostSimilarDescriptor(allSelect, descriptor);
 		console.log(a);
 
-		alert(a);
+		alert(`${a.no}_${a.name}`);
 	};
 
 	return {
