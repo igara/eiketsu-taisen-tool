@@ -192,23 +192,29 @@ export const useLogic = () => {
 							loading: true,
 						});
 
-						const tensor = tf.browser
-							.fromPixels(imageData)
-							.resizeNearestNeighbor([224, 224]) // モデルに合わせてリサイズ
-							.toFloat()
-							.div(tf.scalar(255.0))
-							.expandDims(0);
+						new Promise<void>((resolve) => {
+							const tensor = tf.browser
+								.fromPixels(imageData)
+								.resizeNearestNeighbor([224, 224]) // モデルに合わせてリサイズ
+								.toFloat()
+								.div(tf.scalar(255.0))
+								.expandDims(0);
 
-						const prediction = generalCardImageTFModel.predict(tensor);
-						// @ts-ignore
-						const maxIndex = (prediction.argMax(-1) as tf.Tensor).dataSync()[0];
+							const prediction = generalCardImageTFModel.predict(tensor);
 
-						const card = GeneralsJSON[maxIndex];
+							const maxIndex =
+								// @ts-ignore
+								(prediction.argMax(-1) as tf.Tensor).dataSync()[0];
 
-						setAutoCard({
-							no: card.no,
-							name: card.name,
-							loading: false,
+							const card = GeneralsJSON[maxIndex];
+
+							setAutoCard({
+								no: card.no,
+								name: card.name,
+								loading: false,
+							});
+
+							resolve();
 						});
 					} else {
 						cv.drawContours(
