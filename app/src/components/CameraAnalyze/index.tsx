@@ -5,7 +5,7 @@ import { useLogic } from "./logic";
 
 export const CameraAnalyze: React.FC = () => {
 	const {
-		generalCardImageDescriptorDB,
+		generalCardImageTFModel,
 		refVideo,
 		refVideoCanvas,
 		refMonoCanvas,
@@ -30,7 +30,7 @@ export const CameraAnalyze: React.FC = () => {
 			<div className="fixed z-10 p-1">
 				<select onChange={onChangeDeviceSelect}>
 					<option value={0}>
-						{generalCardImageDescriptorDB
+						{generalCardImageTFModel
 							? "カメラ選択してください"
 							: "読み込み中..."}
 					</option>
@@ -65,7 +65,12 @@ export const CameraAnalyze: React.FC = () => {
 						<div className="w-full h-1/2">
 							<div className="text-xs p-1 bg-[#efe6cb]">
 								<p>自動検出</p>
-								<p>結果: {autoCard.no && `${autoCard.no}_${autoCard.name}`}</p>
+								<p>
+									結果:{" "}
+									{autoCard.loading
+										? "読み込み中..."
+										: autoCard.no && `${autoCard.no}_${autoCard.name}`}
+								</p>
 							</div>
 
 							<div className="h-1/2 flex justify-end">
@@ -81,7 +86,10 @@ export const CameraAnalyze: React.FC = () => {
 								<p>範囲選択</p>
 								<p>
 									結果:{" "}
-									{selectedCard.no && `${selectedCard.no}_${selectedCard.name}`}
+									{selectedCard.loading
+										? "読み込み中..."
+										: selectedCard.no &&
+											`${selectedCard.no}_${selectedCard.name}`}
 								</p>
 							</div>
 

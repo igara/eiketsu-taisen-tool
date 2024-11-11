@@ -1,11 +1,10 @@
 import fs from "node:fs";
 import { parseArgs } from "node:util";
-import cv from "@techstark/opencv-js";
+import tf from "@tensorflow/tfjs-node";
 import Canvas from "canvas";
 import dayjs from "dayjs";
 import { google, type youtube_v3 } from "googleapis";
 import imageHash from "image-hash";
-import JSDOM from "jsdom";
 import DOMParser from "node-html-parser";
 import sqlite from "node-sqlite3-wasm";
 import sharp from "sharp";
@@ -481,134 +480,90 @@ const main = async () => {
 };
 mainExec && main();
 
-function installOpenCV() {
-	const dom = new JSDOM.JSDOM();
-	global.document = dom.window.document;
-	// @ts-ignore
-	global.Image = Canvas.Image;
-	// @ts-ignore
-	global.HTMLCanvasElement = Canvas.Canvas;
-	// @ts-ignore
-	global.ImageData = Canvas.ImageData;
-	// @ts-ignore
-	global.HTMLImageElement = Canvas.Image;
+// 画像をTensorに変換する関数
+async function loadImageToTensor(imagePath: string) {
+	const image = (await Canvas.loadImage(
+		imagePath,
+	)) as unknown as HTMLImageElement;
+	const canvas = Canvas.createCanvas(
+		image.width,
+		image.height,
+	) as unknown as HTMLCanvasElement;
+	const ctx = canvas.getContext("2d");
+	if (!ctx) return;
+	ctx.drawImage(image, 0, 0);
+	const tensor = tf.browser
+		.fromPixels(canvas)
+		.resizeNearestNeighbor([224, 224])
+		.toFloat()
+		.div(tf.scalar(255.0));
+	return tensor;
 }
 
-function createTargerSizeFloat32Array(
-	targetSize: number,
-	featureArray: Float32Array,
-) {
-	let newArray = new Float32Array();
-	if (featureArray.length > targetSize) {
-		const trimmedArray = featureArray.slice(0, targetSize);
-		newArray = new Float32Array(Array.from(trimmedArray));
-	} else {
-		const paddedArray = new Float32Array(targetSize);
-		paddedArray.set(featureArray);
-		newArray = new Float32Array(Array.from(paddedArray));
-	}
-
-	return newArray;
-}
-
-const createCardImageDescriptor = async () => {
-	installOpenCV();
-
-	fs.mkdirSync("../app/public/sqlite", { recursive: true });
-	const db = new sqlite.Database(
-		"../app/public/sqlite/general_card_image_descriptor.sqlite3",
-	);
-
-	db.exec(
-		"DROP TABLE IF EXISTS decks; " +
-			`CREATE TABLE IF NOT EXISTS general_card_image_descriptors (
-		no TEXT,
-		name TEXT,
-		descriptor JSON,
-		PRIMARY KEY(
-       no,
-			 name
-		));`,
-	);
+// ディレクトリ内の画像を読み込んで、Tensorとラベルを生成する関数
+async function loadImagesFromDirectories() {
 	const generalsJSON: General[] = JSON.parse(
 		fs.readFileSync("data/json/generals.json", "utf8"),
 	);
 
-	cv.onRuntimeInitialized = async () => {
-		for (const general of generalsJSON) {
-			const { no, name, color } = general;
+	const classNames = [];
+	const images: tf.Tensor<tf.Rank>[] = [];
+	const labels = [];
 
-			const dirName = `data/generals/${color.name}/${no}_${name}`;
-			// @ts-ignore
-			const img = (await Canvas.loadImage(
-				`${dirName}/2.jpg`,
-			)) as HTMLImageElement;
-			const src = cv.imread(img);
+	for (const general of generalsJSON) {
+		const className = `${general.color.name}_${general.no}_${general.name}`;
+		classNames.push(className);
 
-			// ORBで特徴点を抽出
-			const orb = new cv.ORB();
-			const keypoints = new cv.KeyPointVector();
-			const descriptors = new cv.Mat();
-			orb.detectAndCompute(src, new cv.Mat(), keypoints, descriptors);
-
-			const featuresWithColor = {
-				r: [] as number[],
-				g: [] as number[],
-				b: [] as number[],
-			};
-			for (let i = 0; i < keypoints.size(); i++) {
-				const kp = keypoints.get(i);
-
-				// 特徴点の座標を整数に変換
-				const x = Math.round(kp.pt.x);
-				const y = Math.round(kp.pt.y);
-
-				// RGB値の取得
-				const color: number[] = src.ucharPtr(y, x);
-				const r = color[0];
-				const g = color[1];
-				const b = color[2];
-
-				// 各特徴点に特徴ベクトルとRGB値を保存
-				featuresWithColor.r.push(r);
-				featuresWithColor.g.push(g);
-				featuresWithColor.b.push(b);
-			}
-
-			const r = createTargerSizeFloat32Array(
-				400,
-				new Float32Array(featuresWithColor.r),
-			);
-			const g = createTargerSizeFloat32Array(
-				400,
-				new Float32Array(featuresWithColor.g),
-			);
-			const b = createTargerSizeFloat32Array(
-				400,
-				new Float32Array(featuresWithColor.b),
-			);
-
-			src.delete();
-			keypoints.delete();
-			descriptors.delete();
-			orb.delete();
-
-			try {
-				db.run(
-					`INSERT INTO general_card_image_descriptors VALUES (
-					:no,
-					:name,
-					:descriptor
-					)`,
-					{
-						":no": no,
-						":name": name,
-						":descriptor": JSON.stringify([...r, ...g, ...b]),
-					},
-				);
-			} catch (_) {}
+		for (const i of [1, 2, 3, 4, 5]) {
+			const filePath = `data/generals/${general.color.name}/${general.no}_${general.name}/${i}.jpg`;
+			const tensor = await loadImageToTensor(filePath);
+			if (!tensor) continue;
+			images.push(tensor);
+			labels.push(classNames.indexOf(className));
 		}
-	};
+	}
+
+	const xs = tf.stack(images);
+	const ys = tf.tensor(labels, [labels.length, 1]);
+	return { xs, ys, classNames };
+}
+
+const createCardImageDescriptor = async () => {
+	const { xs, ys, classNames } = await loadImagesFromDirectories();
+
+	// モデルの構築
+	const model = tf.sequential();
+	model.add(
+		tf.layers.conv2d({
+			inputShape: [224, 224, 3],
+			filters: 32,
+			kernelSize: 3,
+			activation: "relu",
+		}),
+	);
+	model.add(tf.layers.maxPooling2d({ poolSize: 2, strides: 2 }));
+	model.add(
+		tf.layers.conv2d({ filters: 64, kernelSize: 3, activation: "relu" }),
+	);
+	model.add(tf.layers.maxPooling2d({ poolSize: 2, strides: 2 }));
+	model.add(tf.layers.flatten());
+	model.add(
+		tf.layers.dense({ units: classNames.length, activation: "softmax" }),
+	);
+
+	// コンパイル
+	model.compile({
+		optimizer: "adam",
+		loss: "sparseCategoricalCrossentropy",
+		metrics: ["accuracy"],
+	});
+
+	// トレーニング
+	await model.fit(xs, ys, { epochs: 10 });
+
+	// モデルを保存
+	await model.save("file://./general-image.h5"); // ローカルファイルに保存
+	console.log("モデルのトレーニングが完了しました");
 };
 cardImageDescriptor && createCardImageDescriptor();
 

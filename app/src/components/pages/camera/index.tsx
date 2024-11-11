@@ -1,16 +1,16 @@
 "use client";
 
 import { CameraAnalyze } from "@/components/CameraAnalyze";
-import { GeneralCardImageDescriptorProvider } from "@/context/sqlite/GeneralCardImageDescriptor";
+import { GeneralCardImageTFModelProvider } from "@/context/tensorflow/GeneralCardImageTFModel";
 import type React from "react";
 
 export const Camera: React.FC = () => {
 	return (
-		<GeneralCardImageDescriptorProvider>
+		<GeneralCardImageTFModelProvider>
 			<main>
 				<CameraAnalyze />
 			</main>
-		</GeneralCardImageDescriptorProvider>
+		</GeneralCardImageTFModelProvider>
 	);
 };
 

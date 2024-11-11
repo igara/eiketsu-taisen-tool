@@ -1,71 +1,12 @@
-import { GeneralCardImageDescriptorContext } from "@/context/sqlite/GeneralCardImageDescriptor";
-import type { GeneralCardImageDescriptor } from "@eiketsu-taisen-tool/data/types";
+import { GeneralCardImageTFModelContext } from "@/context/tensorflow/GeneralCardImageTFModel";
+import GeneralsJSON from "@eiketsu-taisen-tool/data/data/json/generals.json";
 import cv from "@techstark/opencv-js";
+import * as tf from "@tensorflow/tfjs";
 import React from "react";
 
-function calculateDistance(
-	descriptorA: Float32Array,
-	descriptorB: Float32Array,
-): number {
-	let sum = 0;
-	for (let i = 0; i < descriptorA.length; i++) {
-		const d1 = Number.isNaN(descriptorA[i]) ? 0 : descriptorA[i];
-		const d2 = Number.isNaN(descriptorB[i]) ? 0 : descriptorB[i];
-		const diff = d1 - d2;
-		sum += diff * diff;
-	}
-
-	return Math.sqrt(sum);
-}
-
-function findMostSimilarDescriptor(
-	descriptors: GeneralCardImageDescriptor[],
-	queryDescriptor: Float32Array,
-) {
-	let minDistance = Number.POSITIVE_INFINITY;
-	let mostSimilar = {
-		no: "",
-		name: "",
-	};
-
-	for (const descriptor of descriptors) {
-		const distance = calculateDistance(
-			new Float32Array(JSON.parse(descriptor.descriptor)),
-			queryDescriptor,
-		);
-
-		if (distance < minDistance) {
-			minDistance = distance;
-			mostSimilar = {
-				no: descriptor.no,
-				name: descriptor.name,
-			};
-		}
-	}
-
-	return mostSimilar;
-}
-
-function createTargerSizeFloat32Array(
-	targetSize: number,
-	featureArray: Float32Array,
-) {
-	let newArray = new Float32Array();
-	if (featureArray.length > targetSize) {
-		const trimmedArray = featureArray.slice(0, targetSize);
-		newArray = new Float32Array(Array.from(trimmedArray));
-	} else {
-		const paddedArray = new Float32Array(targetSize);
-		paddedArray.set(featureArray);
-		newArray = new Float32Array(Array.from(paddedArray));
-	}
-
-	return newArray;
-}
-
 export const useLogic = () => {
-	const { generalCardImageDescriptorDB } = React.useContext(
-		GeneralCardImageDescriptorContext,
+	const { generalCardImageTFModel } = React.useContext(
+		GeneralCardImageTFModelContext,
 	);
 	const refVideo = React.useRef<HTMLVideoElement>(null);
 	const refVideoCanvas = React.useRef<HTMLCanvasElement>(null);
@@ -92,10 +33,12 @@ export const useLogic = () => {
 	const [autoCard, setAutoCard] = React.useState({
 		no: "",
 		name: "",
+		loading: false,
 	});
 	const [selectedCard, setSelectedCard] = React.useState({
 		no: "",
 		name: "",
+		loading: false,
 	});
 
 	const onChangeDeviceSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -109,7 +52,7 @@ export const useLogic = () => {
 	};
 
 	React.useEffect(() => {
-		if (!generalCardImageDescriptorDB) return;
+		if (!generalCardImageTFModel) return;
 
 		const getDevices = async () => {
 			try {
@@ -128,9 +71,10 @@ export const useLogic = () => {
 			} catch (_) {}
 		};
 		getDevices();
-	}, [generalCardImageDescriptorDB]);
+	}, [generalCardImageTFModel]);
 
 	const detectAndResizeCard = () => {
+		if (!generalCardImageTFModel) return;
 		if (!isVideo) return;
 
 		if (!refVideo.current) return;
@@ -234,6 +178,38 @@ export const useLogic = () => {
 							width,
 							height,
 						);
+
+						const imageData = cardCanvasContext.getImageData(
+							0,
+							0,
+							cardCanvas.width,
+							cardCanvas.height,
+						);
+
+						setAutoCard({
+							no: "",
+							name: "",
+							loading: true,
+						});
+
+						const tensor = tf.browser
+							.fromPixels(imageData)
+							.resizeNearestNeighbor([224, 224]) // モデルに合わせてリサイズ
+							.toFloat()
+							.div(tf.scalar(255.0))
+							.expandDims(0);
+
+						const prediction = generalCardImageTFModel.predict(tensor);
+						// @ts-ignore
+						const maxIndex = (prediction.argMax(-1) as tf.Tensor).dataSync()[0];
+
+						const card = GeneralsJSON[maxIndex];
+
+						setAutoCard({
+							no: card.no,
+							name: card.name,
+							loading: false,
+						});
 					} else {
 						cv.drawContours(
 							videoCanvasCVDST,
@@ -389,7 +365,7 @@ export const useLogic = () => {
 	};
 
 	const onClickSelectedCardButton = async () => {
-		if (!generalCardImageDescriptorDB) return;
+		if (!generalCardImageTFModel) return;
 
 		if (!refSelectedCardCanvas.current) return;
 		const selectedCardCanvas = refSelectedCardCanvas.current;
@@ -432,76 +408,34 @@ export const useLogic = () => {
 			selectedCardCanvas.height,
 		);
 
-		// ImageDataをOpenCVのMatに変換
-		const selectedCardCanvasSRC = cv.matFromImageData(imageData);
+		setSelectedCard({
+			no: "",
+			name: "",
+			loading: true,
+		});
 
-		const dsize = new cv.Size(260, 413);
-		const resized = new cv.Mat();
-		cv.resize(selectedCardCanvasSRC, resized, dsize, 0, 0, cv.INTER_LINEAR);
+		const tensor = tf.browser
+			.fromPixels(imageData)
+			.resizeNearestNeighbor([224, 224]) // モデルに合わせてリサイズ
+			.toFloat()
+			.div(tf.scalar(255.0))
+			.expandDims(0);
 
-		const orb = new cv.ORB();
-		const keypoints = new cv.KeyPointVector();
-		const descriptors = new cv.Mat();
-		orb.detectAndCompute(resized, new cv.Mat(), keypoints, descriptors);
+		const prediction = generalCardImageTFModel.predict(tensor);
+		// @ts-ignore
+		const maxIndex = (prediction.argMax(-1) as tf.Tensor).dataSync()[0];
 
-		// RGB情報も含めた特徴リストを作成
-		const featuresWithColor = {
-			r: [] as number[],
-			g: [] as number[],
-			b: [] as number[],
-		};
-		for (let i = 0; i < keypoints.size(); i++) {
-			const kp = keypoints.get(i);
+		const card = GeneralsJSON[maxIndex];
 
-			// 特徴点の座標を整数に変換
-			const x = Math.round(kp.pt.x);
-			const y = Math.round(kp.pt.y);
-
-			// RGB値の取得
-			const color: number[] = selectedCardCanvasSRC.ucharPtr(y, x);
-			const r = color[0];
-			const g = color[1];
-			const b = color[2];
-
-			// 各特徴点に特徴ベクトルとRGB値を保存
-			featuresWithColor.r.push(r);
-			featuresWithColor.g.push(g);
-			featuresWithColor.b.push(b);
-		}
-
-		const descriptor = new Float32Array([
-			...createTargerSizeFloat32Array(
-				400,
-				new Float32Array(featuresWithColor.r),
-			),
-			...createTargerSizeFloat32Array(
-				400,
-				new Float32Array(featuresWithColor.g),
-			),
-			...createTargerSizeFloat32Array(
-				400,
-				new Float32Array(featuresWithColor.b),
-			),
-		]);
-
-		selectedCardCanvasSRC.delete();
-		resized.delete();
-		keypoints.delete();
-		descriptors.delete();
-		orb.delete();
-
-		const allSelect = await generalCardImageDescriptorDB
-			.selectFrom("general_card_image_descriptors")
-			.selectAll()
-			.execute();
-
-		const card = findMostSimilarDescriptor(allSelect, descriptor);
-
-		setSelectedCard(card);
+		setSelectedCard({
+			no: card.no,
+			name: card.name,
+			loading: false,
+		});
 	};
 
 	return {
-		generalCardImageDescriptorDB,
+		generalCardImageTFModel,
 		onChangeDeviceSelect,
 		devices,
 		device,

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "import:mainExec": "node --experimental-strip-types import.ts --mainExec",
-    "import:cardImageDescriptor": "node --experimental-strip-types import.ts --cardImageDescriptor",
+    "import:cardImageTFModel": "node --experimental-strip-types import.ts --cardImageDescriptor",
+    "import:cardImageTFModel:shard": "tensorflowjs_converter --input_format=tfjs_layers_model --output_format=tfjs_layers_model --weight_shard_size_bytes=10485760 ./general-image/model.json ../app/public/tensorflow/general-image",
     "import:youtubeImportExec": "node --experimental-strip-types import.ts --youtubeImportExec",
     "import:youtubeDeckImportExec": "node --experimental-strip-types import.ts --youtubeDeckImportExec",
     "import:youtubeDeckImportExec:create": "node --experimental-strip-types import.ts --youtubeDeckImportExec --youtubeDeckTableCreate",
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "@techstark/opencv-js": "^4.10.0-release.1",
+    "@tensorflow/tfjs-node": "^4.22.0",
     "canvas": "^2.11.2",
     "dayjs": "^1.11.13",
     "googleapis": "^144.0.0",
