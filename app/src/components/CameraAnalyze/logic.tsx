@@ -192,30 +192,30 @@ export const useLogic = () => {
 							loading: true,
 						});
 
-						new Promise<void>((resolve) => {
-							const tensor = tf.browser
-								.fromPixels(imageData)
-								.resizeNearestNeighbor([224, 224]) // モデルに合わせてリサイズ
-								.toFloat()
-								.div(tf.scalar(255.0))
-								.expandDims(0);
+						// new Promise<void>((resolve) => {
+						// 	const tensor = tf.browser
+						// 		.fromPixels(imageData)
+						// 		.resizeNearestNeighbor([224, 224]) // モデルに合わせてリサイズ
+						// 		.toFloat()
+						// 		.div(tf.scalar(255.0))
+						// 		.expandDims(0);
 
-							const prediction = generalCardImageTFModel.predict(tensor);
+						// 	const prediction = generalCardImageTFModel.predict(tensor);
 
-							const maxIndex =
-								// @ts-ignore
-								(prediction.argMax(-1) as tf.Tensor).dataSync()[0];
+						// 	const maxIndex =
+						// 		// @ts-ignore
+						// 		(prediction.argMax(-1) as tf.Tensor).dataSync()[0];
 
-							const card = GeneralsJSON[maxIndex];
+						// 	const card = GeneralsJSON[maxIndex];
 
-							setAutoCard({
-								no: card.no,
-								name: card.name,
-								loading: false,
-							});
+						// 	setAutoCard({
+						// 		no: card.no,
+						// 		name: card.name,
+						// 		loading: false,
+						// 	});
 
-							resolve();
-						});
+						// 	resolve();
+						// });
 					} else {
 						cv.drawContours(
 							videoCanvasCVDST,
@@ -420,6 +420,7 @@ export const useLogic = () => {
 			loading: true,
 		});
 
+		await tf.setBackend("webgl");
 		const tensor = tf.browser
 			.fromPixels(imageData)
 			.resizeNearestNeighbor([224, 224]) // モデルに合わせてリサイズ
