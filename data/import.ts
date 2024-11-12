@@ -494,7 +494,7 @@ async function loadImageToTensor(imagePath: string) {
 	ctx.drawImage(image, 0, 0);
 	const tensor = tf.browser
 		.fromPixels(canvas)
-		.resizeNearestNeighbor([224, 224])
+		.resizeNearestNeighbor([64, 64])
 		.toFloat()
 		.div(tf.scalar(255.0));
 	return tensor;
@@ -538,15 +538,15 @@ const createCardImageDescriptor = async () => {
 	const model = tf.sequential();
 	model.add(
 		tf.layers.conv2d({
-			inputShape: [224, 224, 3],
-			filters: 32,
+			inputShape: [64, 64, 3],
+			filters: 8,
 			kernelSize: 3,
 			activation: "relu",
 		}),
 	);
 	model.add(tf.layers.maxPooling2d({ poolSize: 2, strides: 2 }));
 	model.add(
-		tf.layers.conv2d({ filters: 64, kernelSize: 3, activation: "relu" }),
+		tf.layers.conv2d({ filters: 16, kernelSize: 3, activation: "relu" }),
 	);
 	model.add(tf.layers.maxPooling2d({ poolSize: 2, strides: 2 }));
 	model.add(tf.layers.flatten());

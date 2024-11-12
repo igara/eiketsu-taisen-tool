@@ -426,7 +426,7 @@ export const useLogic = () => {
 		tf.tidy(() => {
 			const tensor = tf.browser
 				.fromPixels(imageData)
-				.resizeNearestNeighbor([224, 224]) // モデルに合わせてリサイズ
+				.resizeNearestNeighbor([64, 64]) // モデルに合わせてリサイズ
 				.toFloat()
 				.div(tf.scalar(255.0))
 				.expandDims(0);
