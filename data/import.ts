@@ -515,6 +515,9 @@ async function loadImagesFromDirectories() {
 		classNames.push(className);
 
 		for (const i of [1, 2, 3, 4, 5]) {
+			if (i === 1) continue;
+			if (i === 3) continue;
+
 			const filePath = `data/generals/${general.color.name}/${general.no}_${general.name}/${i}.jpg`;
 			const tensor = await loadImageToTensor(filePath);
 			if (!tensor) continue;
@@ -562,7 +565,7 @@ const createCardImageDescriptor = async () => {
 	await model.fit(xs, ys, { epochs: 10 });
 
 	// モデルを保存
-	await model.save("file://./general-image.h5"); // ローカルファイルに保存
+	await model.save("file://./general-image"); // ローカルファイルに保存
 	console.log("モデルのトレーニングが完了しました");
 };
 cardImageDescriptor && createCardImageDescriptor();
