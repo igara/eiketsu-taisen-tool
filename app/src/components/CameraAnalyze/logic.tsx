@@ -420,7 +420,7 @@ export const useLogic = () => {
 			loading: true,
 		});
 
-		await tf.setBackend("wasm");
+		await tf.setBackend("webgl");
 		await tf.ready();
 
 		tf.tidy(() => {
