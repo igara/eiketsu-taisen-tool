@@ -420,24 +420,28 @@ export const useLogic = () => {
 			loading: true,
 		});
 
-		await tf.setBackend("webgl");
-		const tensor = tf.browser
-			.fromPixels(imageData)
-			.resizeNearestNeighbor([224, 224]) // モデルに合わせてリサイズ
-			.toFloat()
-			.div(tf.scalar(255.0))
-			.expandDims(0);
+		await tf.setBackend("wasm");
+		await tf.ready();
 
-		const prediction = generalCardImageTFModel.predict(tensor);
-		// @ts-ignore
-		const maxIndex = (prediction.argMax(-1) as tf.Tensor).dataSync()[0];
+		tf.tidy(() => {
+			const tensor = tf.browser
+				.fromPixels(imageData)
+				.resizeNearestNeighbor([224, 224]) // モデルに合わせてリサイズ
+				.toFloat()
+				.div(tf.scalar(255.0))
+				.expandDims(0);
 
-		const card = GeneralsJSON[maxIndex];
+			const prediction = generalCardImageTFModel.predict(tensor);
+			// @ts-ignore
+			const maxIndex = (prediction.argMax(-1) as tf.Tensor).dataSync()[0];
 
-		setSelectedCard({
-			no: card.no,
-			name: card.name,
-			loading: false,
+			const card = GeneralsJSON[maxIndex];
+
+			setSelectedCard({
+				no: card.no,
+				name: card.name,
+				loading: false,
+			});
 		});
 	};
 
