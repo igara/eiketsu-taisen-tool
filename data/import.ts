@@ -725,6 +725,38 @@ const cardImageTFModelForImageExec = async () => {
 		fs.writeFileSync(`${dirName}/13.jpg`, buffer);
 	};
 
+	const createBlurredAndDarkenedImage = async ({
+		dirName,
+		inputPath,
+	}: {
+		dirName: string;
+		inputPath: string;
+	}) => {
+		const image = await Canvas.loadImage(inputPath);
+		const width = image.width;
+		const height = image.height;
+
+		const canvas = Canvas.createCanvas(width, height);
+		const ctx = canvas.getContext("2d");
+
+		ctx.globalAlpha = 0.1;
+		const blurAmount = 5;
+
+		// 指定されたぼかし量に応じて、少しずつずらして画像を重ねて描画
+		for (let y = -blurAmount; y <= blurAmount; y += 1) {
+			for (let x = -blurAmount; x <= blurAmount; x += 1) {
+				ctx.drawImage(image, x, y, width, height);
+			}
+		}
+
+		ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+		ctx.fillRect(0, 0, width, height);
+
+		// ファイル出力
+		const buffer = canvas.toBuffer("image/jpeg");
+		fs.writeFileSync(`${dirName}/14.jpg`, buffer);
+	};
+
 	for (const general of GeneralJSON) {
 		const dirName = `data/generals/${general.color.name}/${general.no}_${general.name}`;
 		const inputPath = `${dirName}/2.jpg`;
@@ -737,6 +769,7 @@ const cardImageTFModelForImageExec = async () => {
 		await glossGradientVerticalRight({ dirName, inputPath });
 		await createDarkenedImage({ dirName, inputPath });
 		await createBlurredImage({ dirName, inputPath });
+		await createBlurredAndDarkenedImage({ dirName, inputPath });
 	}
 };
 cardImageTFModelForImage && cardImageTFModelForImageExec();
@@ -775,7 +808,7 @@ async function loadImagesFromDirectories() {
 		const className = `${general.color.name}_${general.no}_${general.name}`;
 		classNames.push(className);
 
-		for (const i of Array(14).keys()) {
+		for (const i of Array(15).keys()) {
 			if (i === 0) continue;
 			if (i === 1) continue;
 			if (i === 3) continue;
