@@ -739,18 +739,24 @@ const cardImageTFModelForImageExec = async () => {
 		const canvas = Canvas.createCanvas(width, height);
 		const ctx = canvas.getContext("2d");
 
+		ctx.drawImage(image, 0, 0, width, height);
+
+		ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+		ctx.fillRect(0, 0, width, height);
+
+		const tempCanvas = Canvas.createCanvas(width, height);
+		const tempCtx = tempCanvas.getContext("2d");
+		tempCtx.drawImage(canvas, 0, 0, width, height);
+
 		ctx.globalAlpha = 0.1;
 		const blurAmount = 5;
 
 		// 指定されたぼかし量に応じて、少しずつずらして画像を重ねて描画
 		for (let y = -blurAmount; y <= blurAmount; y += 1) {
 			for (let x = -blurAmount; x <= blurAmount; x += 1) {
-				ctx.drawImage(image, x, y, width, height);
+				ctx.drawImage(tempCanvas, x, y, width, height);
 			}
 		}
-
-		ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
-		ctx.fillRect(0, 0, width, height);
 
 		// ファイル出力
 		const buffer = canvas.toBuffer("image/jpeg");
