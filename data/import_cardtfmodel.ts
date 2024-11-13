@@ -2,6 +2,7 @@ import fs from "node:fs";
 import { parseArgs } from "node:util";
 import tf from "@tensorflow/tfjs-node";
 import Canvas from "canvas";
+import { cardSize } from "./card_tf_model";
 import type { General } from "./types";
 
 const {
@@ -329,7 +330,7 @@ async function loadImageToTensor(imagePath: string) {
 	ctx.drawImage(image, 0, 0);
 	const tensor = tf.browser
 		.fromPixels(canvas)
-		.resizeNearestNeighbor([64, 64])
+		.resizeNearestNeighbor([cardSize.width, cardSize.height])
 		.toFloat()
 		.div(tf.scalar(255.0));
 	return tensor;
@@ -381,7 +382,7 @@ const createCardImageTFModel = async () => {
 	const model = tf.sequential();
 	model.add(
 		tf.layers.conv2d({
-			inputShape: [64, 64, 3],
+			inputShape: [cardSize.width, cardSize.height, 3],
 			filters: 8,
 			kernelSize: 3,
 			activation: "relu",

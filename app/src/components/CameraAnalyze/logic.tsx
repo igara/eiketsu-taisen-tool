@@ -1,4 +1,5 @@
 import { GeneralCardImageTFModelContext } from "@/context/tensorflow/GeneralCardImageTFModel";
+import { cardSize } from "@eiketsu-taisen-tool/data/card_tf_model";
 import GeneralsJSON from "@eiketsu-taisen-tool/data/data/json/generals.json";
 import cv from "@techstark/opencv-js";
 import * as tf from "@tensorflow/tfjs";
@@ -426,7 +427,7 @@ export const useLogic = () => {
 		tf.tidy(() => {
 			const tensor = tf.browser
 				.fromPixels(imageData)
-				.resizeNearestNeighbor([64, 64]) // モデルに合わせてリサイズ
+				.resizeNearestNeighbor([cardSize.width, cardSize.height]) // モデルに合わせてリサイズ
 				.toFloat()
 				.div(tf.scalar(255.0))
 				.expandDims(0);
