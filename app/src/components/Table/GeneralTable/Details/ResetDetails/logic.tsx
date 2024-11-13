@@ -37,6 +37,7 @@ export const useLogic = ({
 	const onClickSearchReset: React.FormEventHandler<HTMLButtonElement> = () => {
 		formMethod.setValue("color", []);
 		formMethod.setValue("period", []);
+		formMethod.setValue("appear", []);
 		formMethod.setValue("cost", []);
 		formMethod.setValue("unitType", []);
 		formMethod.setValue("skill", []);
@@ -76,6 +77,7 @@ export const useLogic = ({
 	const onClickAllReset: React.FormEventHandler<HTMLButtonElement> = () => {
 		formMethod.setValue("color", []);
 		formMethod.setValue("period", []);
+		formMethod.setValue("appear", []);
 		formMethod.setValue("cost", []);
 		formMethod.setValue("unitType", []);
 		formMethod.setValue("skill", []);
