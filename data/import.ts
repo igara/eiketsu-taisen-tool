@@ -764,7 +764,7 @@ async function loadImagesFromDirectories() {
 }
 
 const createCardImageTFModel = async () => {
-	fs.rmdirSync("data/general-image", { recursive: true });
+	fs.rmdirSync("general-image", { recursive: true });
 	fs.rmdirSync("../app/public/tensorflow/general-image", { recursive: true });
 	const { xs, ys, classNames } = await loadImagesFromDirectories();
 
