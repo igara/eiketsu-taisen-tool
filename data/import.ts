@@ -833,8 +833,13 @@ async function loadImagesFromDirectories() {
 }
 
 const createCardImageTFModel = async () => {
-	fs.rmdirSync("general-image", { recursive: true });
-	fs.rmdirSync("../app/public/tensorflow/general-image", { recursive: true });
+	if (fs.existsSync("general-image")) {
+		fs.rmdirSync("general-image", { recursive: true });
+	}
+	if (fs.existsSync("../app/public/tensorflow/general-image")) {
+		fs.rmdirSync("../app/public/tensorflow/general-image", { recursive: true });
+	}
+
 	const { xs, ys, classNames } = await loadImagesFromDirectories();
 
 	// モデルの構築
