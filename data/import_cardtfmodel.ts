@@ -2,7 +2,7 @@ import fs from "node:fs";
 import { parseArgs } from "node:util";
 import tf from "@tensorflow/tfjs-node";
 import Canvas from "canvas";
-import { cardSize } from "./card_tf_model";
+import { cardSize } from "./card_tf_model.ts";
 import type { General } from "./types";
 
 const {
