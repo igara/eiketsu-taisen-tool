@@ -671,6 +671,31 @@ const cardImageTFModelForImageExec = async () => {
 		fs.writeFileSync(`${dirName}/11.jpg`, buffer);
 	};
 
+	const createDarkenedImage = async ({
+		dirName,
+		inputPath,
+	}: {
+		dirName: string;
+		inputPath: string;
+	}) => {
+		const image = await Canvas.loadImage(inputPath);
+		const width = image.width;
+		const height = image.height;
+
+		const canvas = Canvas.createCanvas(width, height);
+		const ctx = canvas.getContext("2d");
+
+		// 元画像を描画
+		ctx.drawImage(image, 0, 0, width, height);
+
+		ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+		ctx.fillRect(0, 0, width, height);
+
+		// ファイル出力
+		const buffer = canvas.toBuffer("image/jpeg");
+		fs.writeFileSync(`${dirName}/12.jpg`, buffer);
+	};
+
 	for (const general of GeneralJSON) {
 		const dirName = `data/generals/${general.color.name}/${general.no}_${general.name}`;
 		const inputPath = `${dirName}/2.jpg`;
@@ -681,6 +706,7 @@ const cardImageTFModelForImageExec = async () => {
 		await glossGradientVerticalLeft({ dirName, inputPath });
 		await glossGradientVerticalMiddle({ dirName, inputPath });
 		await glossGradientVerticalRight({ dirName, inputPath });
+		await createDarkenedImage({ dirName, inputPath });
 	}
 };
 cardImageTFModelForImage && cardImageTFModelForImageExec();
@@ -719,12 +745,10 @@ async function loadImagesFromDirectories() {
 		const className = `${general.color.name}_${general.no}_${general.name}`;
 		classNames.push(className);
 
-		for (const i of Array(12).keys()) {
+		for (const i of Array(13).keys()) {
 			if (i === 0) continue;
 			if (i === 1) continue;
 			if (i === 3) continue;
-			if (i === 4) continue;
-			if (i === 5) continue;
 
 			const filePath = `data/generals/${general.color.name}/${general.no}_${general.name}/${i}.jpg`;
 			const tensor = await loadImageToTensor(filePath);
@@ -740,6 +764,8 @@ async function loadImagesFromDirectories() {
 }
 
 const createCardImageTFModel = async () => {
+	fs.rmdirSync("data/general-image", { recursive: true });
+	fs.rmdirSync("../app/public/tensorflow/general-image", { recursive: true });
 	const { xs, ys, classNames } = await loadImagesFromDirectories();
 
 	// モデルの構築
