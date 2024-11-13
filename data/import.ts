@@ -13,7 +13,8 @@ import type { General, GeneralImageHash, Skill } from "./types";
 const {
 	values: {
 		mainExec,
-		cardImageDescriptor,
+		cardImageTFModelForImage,
+		cardImageTFModel,
 		youtubeImportExec,
 		youtubeDeckImportExec,
 		youtubeDeckTableCreate,
@@ -26,7 +27,12 @@ const {
 			short: "b",
 			default: false,
 		},
-		cardImageDescriptor: {
+		cardImageTFModelForImage: {
+			type: "boolean",
+			short: "b",
+			default: false,
+		},
+		cardImageTFModel: {
 			type: "boolean",
 			short: "b",
 			default: false,
@@ -480,6 +486,205 @@ const main = async () => {
 };
 mainExec && main();
 
+const cardImageTFModelForImageExec = async () => {
+	const GeneralJSON: General[] = JSON.parse(
+		fs.readFileSync("data/json/generals.json", "utf8"),
+	);
+
+	const glossGradientHorizonTop = async ({
+		dirName,
+		inputPath,
+	}: {
+		dirName: string;
+		inputPath: string;
+	}) => {
+		const image = await Canvas.loadImage(inputPath);
+		const width = image.width;
+		const height = image.height;
+
+		const canvas = Canvas.createCanvas(width, height);
+		const ctx = canvas.getContext("2d");
+
+		// 元画像を描画
+		ctx.drawImage(image, 0, 0, width, height);
+
+		const glossGradient = ctx.createLinearGradient(0, 0, 0, height);
+		glossGradient.addColorStop(0, "rgba(255, 255, 255, 0.5)");
+		glossGradient.addColorStop(0.4, "rgba(255, 255, 255, 0.1)");
+		glossGradient.addColorStop(1, "rgba(255, 255, 255, 0)");
+
+		ctx.fillStyle = glossGradient;
+		ctx.fillRect(0, 0, width, height);
+
+		// ファイル出力
+		const buffer = canvas.toBuffer("image/jpeg");
+		fs.writeFileSync(`${dirName}/6.jpg`, buffer);
+	};
+
+	const glossGradientHorizonMiddle = async ({
+		dirName,
+		inputPath,
+	}: {
+		dirName: string;
+		inputPath: string;
+	}) => {
+		const image = await Canvas.loadImage(inputPath);
+		const width = image.width;
+		const height = image.height;
+
+		const canvas = Canvas.createCanvas(width, height);
+		const ctx = canvas.getContext("2d");
+
+		// 元画像を描画
+		ctx.drawImage(image, 0, 0, width, height);
+
+		const glossGradient = ctx.createLinearGradient(0, 0, 0, height);
+		glossGradient.addColorStop(0, "rgba(255, 255, 255, 0.1)");
+		glossGradient.addColorStop(0.5, "rgba(255, 255, 255, 0.5)");
+		glossGradient.addColorStop(1, "rgba(255, 255, 255, 0.1)");
+
+		ctx.fillStyle = glossGradient;
+		ctx.fillRect(0, 0, width, height);
+
+		// ファイル出力
+		const buffer = canvas.toBuffer("image/jpeg");
+		fs.writeFileSync(`${dirName}/7.jpg`, buffer);
+	};
+
+	const glossGradientHorizonBottom = async ({
+		dirName,
+		inputPath,
+	}: {
+		dirName: string;
+		inputPath: string;
+	}) => {
+		const image = await Canvas.loadImage(inputPath);
+		const width = image.width;
+		const height = image.height;
+
+		const canvas = Canvas.createCanvas(width, height);
+		const ctx = canvas.getContext("2d");
+
+		// 元画像を描画
+		ctx.drawImage(image, 0, 0, width, height);
+
+		const glossGradient = ctx.createLinearGradient(0, 0, 0, height);
+		glossGradient.addColorStop(0, "rgba(255, 255, 255, 0)");
+		glossGradient.addColorStop(0.4, "rgba(255, 255, 255, 0.1)");
+		glossGradient.addColorStop(1, "rgba(255, 255, 255, 0.5)");
+
+		ctx.fillStyle = glossGradient;
+		ctx.fillRect(0, 0, width, height);
+
+		// ファイル出力
+		const buffer = canvas.toBuffer("image/jpeg");
+		fs.writeFileSync(`${dirName}/8.jpg`, buffer);
+	};
+
+	const glossGradientVerticalLeft = async ({
+		dirName,
+		inputPath,
+	}: {
+		dirName: string;
+		inputPath: string;
+	}) => {
+		const image = await Canvas.loadImage(inputPath);
+		const width = image.width;
+		const height = image.height;
+
+		const canvas = Canvas.createCanvas(width, height);
+		const ctx = canvas.getContext("2d");
+
+		// 元画像を描画
+		ctx.drawImage(image, 0, 0, width, height);
+
+		const glossGradient = ctx.createLinearGradient(0, 0, width, 0);
+		glossGradient.addColorStop(0, "rgba(255, 255, 255, 0.5)");
+		glossGradient.addColorStop(0.4, "rgba(255, 255, 255, 0.1)");
+		glossGradient.addColorStop(1, "rgba(255, 255, 255, 0)");
+
+		ctx.fillStyle = glossGradient;
+		ctx.fillRect(0, 0, width, height);
+
+		// ファイル出力
+		const buffer = canvas.toBuffer("image/jpeg");
+		fs.writeFileSync(`${dirName}/9.jpg`, buffer);
+	};
+
+	const glossGradientVerticalMiddle = async ({
+		dirName,
+		inputPath,
+	}: {
+		dirName: string;
+		inputPath: string;
+	}) => {
+		const image = await Canvas.loadImage(inputPath);
+		const width = image.width;
+		const height = image.height;
+
+		const canvas = Canvas.createCanvas(width, height);
+		const ctx = canvas.getContext("2d");
+
+		// 元画像を描画
+		ctx.drawImage(image, 0, 0, width, height);
+
+		const glossGradient = ctx.createLinearGradient(0, 0, width, 0);
+		glossGradient.addColorStop(0, "rgba(255, 255, 255, 0)");
+		glossGradient.addColorStop(0.5, "rgba(255, 255, 255, 0.5)");
+		glossGradient.addColorStop(1, "rgba(255, 255, 255, 0)");
+
+		ctx.fillStyle = glossGradient;
+		ctx.fillRect(0, 0, width, height);
+
+		// ファイル出力
+		const buffer = canvas.toBuffer("image/jpeg");
+		fs.writeFileSync(`${dirName}/10.jpg`, buffer);
+	};
+
+	const glossGradientVerticalRight = async ({
+		dirName,
+		inputPath,
+	}: {
+		dirName: string;
+		inputPath: string;
+	}) => {
+		const image = await Canvas.loadImage(inputPath);
+		const width = image.width;
+		const height = image.height;
+
+		const canvas = Canvas.createCanvas(width, height);
+		const ctx = canvas.getContext("2d");
+
+		// 元画像を描画
+		ctx.drawImage(image, 0, 0, width, height);
+
+		const glossGradient = ctx.createLinearGradient(0, 0, width, 0);
+		glossGradient.addColorStop(0, "rgba(255, 255, 255, 0)");
+		glossGradient.addColorStop(0.4, "rgba(255, 255, 255, 0.1)");
+		glossGradient.addColorStop(1, "rgba(255, 255, 255, 0.5)");
+
+		ctx.fillStyle = glossGradient;
+		ctx.fillRect(0, 0, width, height);
+
+		// ファイル出力
+		const buffer = canvas.toBuffer("image/jpeg");
+		fs.writeFileSync(`${dirName}/11.jpg`, buffer);
+	};
+
+	for (const general of GeneralJSON) {
+		const dirName = `data/generals/${general.color.name}/${general.no}_${general.name}`;
+		const inputPath = `${dirName}/2.jpg`;
+
+		await glossGradientHorizonTop({ dirName, inputPath });
+		await glossGradientHorizonMiddle({ dirName, inputPath });
+		await glossGradientHorizonBottom({ dirName, inputPath });
+		await glossGradientVerticalLeft({ dirName, inputPath });
+		await glossGradientVerticalMiddle({ dirName, inputPath });
+		await glossGradientVerticalRight({ dirName, inputPath });
+	}
+};
+cardImageTFModelForImage && cardImageTFModelForImageExec();
+
 // 画像をTensorに変換する関数
 async function loadImageToTensor(imagePath: string) {
 	const image = (await Canvas.loadImage(
@@ -514,9 +719,12 @@ async function loadImagesFromDirectories() {
 		const className = `${general.color.name}_${general.no}_${general.name}`;
 		classNames.push(className);
 
-		for (const i of [1, 2, 3, 4, 5]) {
+		for (const i of Array(12).keys()) {
+			if (i === 0) continue;
 			if (i === 1) continue;
 			if (i === 3) continue;
+			if (i === 4) continue;
+			if (i === 5) continue;
 
 			const filePath = `data/generals/${general.color.name}/${general.no}_${general.name}/${i}.jpg`;
 			const tensor = await loadImageToTensor(filePath);
@@ -531,7 +739,7 @@ async function loadImagesFromDirectories() {
 	return { xs, ys, classNames };
 }
 
-const createCardImageDescriptor = async () => {
+const createCardImageTFModel = async () => {
 	const { xs, ys, classNames } = await loadImagesFromDirectories();
 
 	// モデルの構築
@@ -568,7 +776,7 @@ const createCardImageDescriptor = async () => {
 	await model.save("file://./general-image"); // ローカルファイルに保存
 	console.log("モデルのトレーニングが完了しました");
 };
-cardImageDescriptor && createCardImageDescriptor();
+cardImageTFModel && createCardImageTFModel();
 
 const youtubeImport = async () => {
 	if (!process.env.GOOGLE_KEY) return;
