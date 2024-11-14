@@ -151,7 +151,7 @@ export const GeneralTable: React.FC = () => {
 										<AppearDetails formMethod={formMethod} />
 									</div>
 
-									<div className="w-[100px] flex flex-col flex-grow-0 flex-shrink-0 gap-1">
+									<div className="w-[120px] flex flex-col flex-grow-0 flex-shrink-0 gap-1">
 										<p>名前</p>
 										<CostDetails formMethod={formMethod} />
 										<UnitTypeDetails formMethod={formMethod} />
@@ -165,7 +165,7 @@ export const GeneralTable: React.FC = () => {
 									</div>
 
 									<div className="w-full flex flex-col gap-1">
-										<div className="flex">
+										<div className="flex gap-1">
 											<div className="w-full flex flex-col gap-1">
 												<p>計略名</p>
 												<p>効果時間</p>
@@ -173,7 +173,7 @@ export const GeneralTable: React.FC = () => {
 												<StratCostDetails formMethod={formMethod} />
 											</div>
 
-											<div className="flex justify-center items-center w-[100px] border-l-2 border-b-2 border-white">
+											<div className="flex justify-center items-center p-2 border-l-2 border-b-2 border-white">
 												<StratRangeDetails formMethod={formMethod} />
 											</div>
 										</div>

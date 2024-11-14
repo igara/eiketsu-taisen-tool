@@ -11,7 +11,7 @@ export const PowerDetails: React.FC<Props> = ({ formMethod }) => {
 		useLogic();
 
 	return (
-		<details ref={refDetailsElement} className="relative">
+		<details ref={refDetailsElement} className="relative w-full">
 			<summary
 				onKeyDown={onKeyDownSummary}
 				className="text-black text-[10px] p-1 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
