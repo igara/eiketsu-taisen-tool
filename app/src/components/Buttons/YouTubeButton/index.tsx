@@ -89,7 +89,7 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 													</p>
 												))}
 											</div>
-											<div className="flex">
+											<div className="grid grid-cols-4 gap-1">
 												{video.player1.decks.map((deck) => (
 													<div key={deck.no} className="w-[32px]">
 														<GeneralImageButton general={deck} />
@@ -112,7 +112,7 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 													</p>
 												))}
 											</div>
-											<div className="flex">
+											<div className="grid grid-cols-4 gap-1">
 												{video.player2.decks.map((deck) => (
 													<div key={deck.no} className="w-[32px]">
 														<GeneralImageButton general={deck} />

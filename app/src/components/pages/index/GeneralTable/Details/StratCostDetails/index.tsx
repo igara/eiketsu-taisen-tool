@@ -14,7 +14,7 @@ export const StratCostDetails: React.FC<Props> = ({ formMethod }) => {
 		<details ref={refDetailsElement} className="relative">
 			<summary
 				onKeyDown={onKeyDownSummary}
-				className="w-full text-black text-xs p-1 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
+				className="w-full max-w-[120px] text-black text-xs p-1 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
 			>
 				士気
 			</summary>

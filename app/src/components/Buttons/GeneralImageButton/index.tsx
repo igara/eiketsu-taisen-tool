@@ -21,13 +21,13 @@ export const GeneralImageButton: React.FC<Props> = ({ general }) => {
 	} = useLogic();
 
 	return (
-		<div>
+		<div className="flex">
 			<button type="button" onClick={onClickImageButton}>
 				<Image
 					src={`/eiketsu-taisen-tool/images/generals/${general.no}_${general.name}/5.jpg`}
 					alt={general.name}
 					width={32}
-					height={40}
+					height={50}
 				/>
 			</button>
 
