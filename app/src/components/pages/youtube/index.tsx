@@ -1,12 +1,10 @@
-import { GeneralTable } from "@/components/Table/GeneralTable";
+// import { GeneralTable } from "@/components/Table/GeneralTable";
 import { YoutubeDeckProvider } from "@/context/sqlite/YoutubeDeck";
 
 export const YouTube: React.FC = () => {
 	return (
 		<YoutubeDeckProvider>
-			<main>
-				<GeneralTable />
-			</main>
+			<main>{/* <GeneralTable /> */}</main>
 		</YoutubeDeckProvider>
 	);
 };

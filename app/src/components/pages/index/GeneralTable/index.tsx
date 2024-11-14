@@ -1,6 +1,6 @@
 "use client";
 
-import { GeneralTableBody } from "@/components/Table/GeneralTable/GeneralTableBody";
+import { GeneralTableBody } from "@/components/pages/index/GeneralTable/GeneralTableBody";
 import Image from "next/image";
 import type React from "react";
 import { FormProvider } from "react-hook-form";
