@@ -4,7 +4,7 @@ import { FavoriteButton } from "@/components/Buttons/FavoriteButton";
 import { GeneralImageButton } from "@/components/Buttons/GeneralImageButton";
 import { SkillButton } from "@/components/Buttons/SkillButton";
 import { YouTubeButton } from "@/components/Buttons/YouTubeButton";
-import type { GeneralUI } from "@/components/Table/GeneralTable/logic";
+import type { GeneralUI } from "@/components/pages/index/GeneralTable/logic";
 import type { SearchFormData } from "@/schema/SearchForm";
 import Image from "next/image";
 import type React from "react";
