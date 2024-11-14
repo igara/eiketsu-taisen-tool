@@ -1,6 +1,6 @@
 "use client";
 
-import { CameraAnalyze } from "@/components/CameraAnalyze";
+import { CameraAnalyze } from "@/components/pages/camera/CameraAnalyze";
 import { GeneralCardImageTFModelProvider } from "@/context/tensorflow/GeneralCardImageTFModel";
 import type React from "react";
 

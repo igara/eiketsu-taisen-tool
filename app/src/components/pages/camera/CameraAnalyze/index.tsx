@@ -1,8 +1,8 @@
 "use client";
 
+import { GeneralImageButton } from "@/components/Buttons/GeneralImageButton";
 import Image from "next/image";
 import type React from "react";
-import { GeneralImageButton } from "../Buttons/GeneralImageButton";
 import { useLogic } from "./logic";
 
 export const CameraAnalyze: React.FC = () => {
