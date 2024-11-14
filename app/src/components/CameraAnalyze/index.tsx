@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import type React from "react";
+import { GeneralImageButton } from "../Buttons/GeneralImageButton";
 import { useLogic } from "./logic";
 
 export const CameraAnalyze: React.FC = () => {
@@ -8,12 +10,9 @@ export const CameraAnalyze: React.FC = () => {
 		generalCardImageTFModel,
 		refVideo,
 		refVideoCanvas,
-		refMonoCanvas,
-		refAutoCardCanvas,
 		refSelectedCardCanvas,
 		devices,
 		device,
-		autoCard,
 		selectedCard,
 		onChangeDeviceSelect,
 		onTouchStartVideoCanvas,
@@ -45,7 +44,6 @@ export const CameraAnalyze: React.FC = () => {
 
 			<div className={device ? "py-1" : "hidden"}>
 				<video muted autoPlay playsInline ref={refVideo} className="h-0" />
-				<canvas ref={refMonoCanvas} className="hidden" />
 
 				<div className="relative">
 					<div className="w-full">
@@ -62,55 +60,62 @@ export const CameraAnalyze: React.FC = () => {
 					</div>
 
 					<div className="absolute top-0 right-0 w-3/12 h-full bg-[rgba(255,255,255,0.2)]">
-						<div className="w-full h-1/2">
-							<div className="text-xs p-1 bg-[#efe6cb]">
-								<p>自動検出</p>
-								<p>
-									結果:{" "}
-									{autoCard.loading
-										? "読み込み中..."
-										: autoCard.no && `${autoCard.no}_${autoCard.name}`}
-								</p>
+						<div className="flex flex-col gap-1 w-full h-full">
+							<div className="flex flex-col gap-1 text-xs p-1 pt-8 bg-[#efe6cb]">
+								<p>範囲選択結果</p>
+
+								<div className="flex flex-col gap-1">
+									{selectedCard.loading && <p>読み込み中...</p>}
+
+									<p>
+										{selectedCard.general
+											? `${selectedCard.general.no}_${selectedCard.general.name}`
+											: "未検出"}
+									</p>
+
+									<div>
+										{selectedCard.general ? (
+											<GeneralImageButton general={selectedCard.general} />
+										) : (
+											<Image
+												src="/eiketsu-taisen-tool/images/no_images/general.jpg"
+												alt="未検出"
+												width={32}
+												height={40}
+											/>
+										)}
+									</div>
+								</div>
 							</div>
 
-							<div className="h-1/2 flex justify-end">
-								<canvas
-									ref={refAutoCardCanvas}
-									className="max-w-full max-h-fit w-auto h-auto border-2 border-red-600"
-								/>
-							</div>
-						</div>
-
-						<div className="w-full h-1/2">
-							<div className="text-xs p-1 bg-[#efe6cb]">
-								<p>範囲選択</p>
-								<p>
-									結果:{" "}
-									{selectedCard.loading
-										? "読み込み中..."
-										: selectedCard.no &&
-											`${selectedCard.no}_${selectedCard.name}`}
-								</p>
-							</div>
-
-							<div className="h-1/2 flex justify-end">
+							<div className="w-full h-1/2 flex justify-end">
 								<canvas
 									ref={refSelectedCardCanvas}
 									className="max-w-full max-h-fit w-auto h-auto border-2 border-red-600"
 								/>
 							</div>
-
-							<div className="p-1 flex justify-end">
-								<button
-									type="button"
-									onClick={onClickSelectedCardButton}
-									className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
-								>
-									切り取る
-								</button>
-							</div>
 						</div>
 					</div>
+				</div>
+
+				<div className="fixed bottom-0 w-full p-1 flex gap-2 justify-center">
+					<button
+						type="button"
+						onClick={onClickSelectedCardButton}
+						className="text-black text-xl p-4 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
+					>
+						📸
+					</button>
+
+					<button
+						type="button"
+						// onClick={onClickSelectedCardButton}
+						className="text-xl p-4 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
+					>
+						<span className="flex items-center justify-center w-[16px] h-[16px] p-[2px] text-xs rounded-full cursor-pointer text-[#eb4926] bg-[#f3b33e]">
+							★
+						</span>
+					</button>
 				</div>
 			</div>
 		</div>
