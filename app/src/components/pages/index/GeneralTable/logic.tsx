@@ -1,3 +1,4 @@
+import { pathInfo } from "@/lib/pathInfo";
 import { type SearchFormData, SearchFormResolver } from "@/schema/SearchForm";
 import GeneralsJSON from "@eiketsu-taisen-tool/data/data/json/generals.json";
 import type { General } from "@eiketsu-taisen-tool/data/types";
@@ -144,22 +145,51 @@ export const useLogic = () => {
 	const router = useRouter();
 	const searchParams = useSearchParams();
 
-	const defaultSelectedColors = searchParams.getAll("color[]");
-	const defaultSelectedPeriods = searchParams.getAll("period[]");
-	const defaultSelectedAppears = searchParams.getAll("appear[]");
-	const defaultSelectedCosts = searchParams.getAll("cost[]");
-	const defaultSelectedUnitTypes = searchParams.getAll("unitType[]");
-	const defaultSelectedSkills = searchParams.getAll("skill[]");
-	const defaultSelectedPowers = searchParams.getAll("power[]");
-	const defaultSelectedIntelligentzias =
-		searchParams.getAll("intelligentzia[]");
-	const defaultSelectedStratCosts = searchParams.getAll("stratCost[]");
-	const defaultSelectedStratRanges = searchParams.getAll("stratRange[]");
-	const defaultSearchWord = searchParams.get("searchWord");
-	const defaultSearchFavoriteNos = searchParams.getAll("favoriteNo[]");
-	const defaultIsDisplayFavorite = searchParams.get("isDisplayFavorite");
-	const defaultIsDisableSearchForm = searchParams.get("isDisableSearchForm");
-	const defaultIsDisableOption = searchParams.get("isDisableOption");
+	const defaultSelectedColors = searchParams.getAll(
+		pathInfo["/"].searchParams["color[]"],
+	);
+	const defaultSelectedPeriods = searchParams.getAll(
+		pathInfo["/"].searchParams["period[]"],
+	);
+	const defaultSelectedAppears = searchParams.getAll(
+		pathInfo["/"].searchParams["appear[]"],
+	);
+	const defaultSelectedCosts = searchParams.getAll(
+		pathInfo["/"].searchParams["cost[]"],
+	);
+	const defaultSelectedUnitTypes = searchParams.getAll(
+		pathInfo["/"].searchParams["unitType[]"],
+	);
+	const defaultSelectedSkills = searchParams.getAll(
+		pathInfo["/"].searchParams["skill[]"],
+	);
+	const defaultSelectedPowers = searchParams.getAll(
+		pathInfo["/"].searchParams["power[]"],
+	);
+	const defaultSelectedIntelligentzias = searchParams.getAll(
+		pathInfo["/"].searchParams["intelligentzia[]"],
+	);
+	const defaultSelectedStratCosts = searchParams.getAll(
+		pathInfo["/"].searchParams["stratCost[]"],
+	);
+	const defaultSelectedStratRanges = searchParams.getAll(
+		pathInfo["/"].searchParams["stratRange[]"],
+	);
+	const defaultSearchWord = searchParams.get(
+		pathInfo["/"].searchParams.searchWord,
+	);
+	const defaultSearchFavoriteNos = searchParams.getAll(
+		pathInfo["/"].searchParams["favoriteNo[]"],
+	);
+	const defaultIsDisplayFavorite = searchParams.get(
+		pathInfo["/"].searchParams.isDisplayFavorite,
+	);
+	const defaultIsDisableSearchForm = searchParams.get(
+		pathInfo["/"].searchParams.isDisableSearchForm,
+	);
+	const defaultIsDisableOption = searchParams.get(
+		pathInfo["/"].searchParams.isDisableOption,
+	);
 
 	const isDisplayFavorite = defaultIsDisplayFavorite === "true";
 	const isDisableSearchForm = defaultIsDisableSearchForm === "true";
@@ -208,17 +238,23 @@ export const useLogic = () => {
 			const favoriteNo = e.target.value;
 			const newURLSearchParams = new URLSearchParams(window.location.search);
 
-			newURLSearchParams.delete("favoriteNo[]");
+			newURLSearchParams.delete(pathInfo["/"].searchParams["favoriteNo[]"]);
 			if (checked) {
 				if (!defaultSearchFavoriteNos.includes(favoriteNo)) {
-					newURLSearchParams.append("favoriteNo[]", favoriteNo);
+					newURLSearchParams.append(
+						pathInfo["/"].searchParams["favoriteNo[]"],
+						favoriteNo,
+					);
 				}
 			}
 			for (const fn of defaultSearchFavoriteNos) {
 				if (fn === favoriteNo && !checked) {
 					continue;
 				}
-				newURLSearchParams.append("favoriteNo[]", fn);
+				newURLSearchParams.append(
+					pathInfo["/"].searchParams["favoriteNo[]"],
+					fn,
+				);
 			}
 
 			router.push(`/?${newURLSearchParams.toString()}`, {
@@ -233,9 +269,12 @@ export const useLogic = () => {
 			const newURLSearchParams = new URLSearchParams(window.location.search);
 
 			if (checked) {
-				newURLSearchParams.append("isDisplayFavorite", "true");
+				newURLSearchParams.append(
+					pathInfo["/"].searchParams.isDisplayFavorite,
+					"true",
+				);
 			} else {
-				newURLSearchParams.delete("isDisplayFavorite");
+				newURLSearchParams.delete(pathInfo["/"].searchParams.isDisplayFavorite);
 			}
 
 			router.push(`/?${newURLSearchParams.toString()}`, {
@@ -250,9 +289,14 @@ export const useLogic = () => {
 			const newURLSearchParams = new URLSearchParams(window.location.search);
 
 			if (checked) {
-				newURLSearchParams.delete("isDisableSearchForm");
+				newURLSearchParams.delete(
+					pathInfo["/"].searchParams.isDisableSearchForm,
+				);
 			} else {
-				newURLSearchParams.append("isDisableSearchForm", "true");
+				newURLSearchParams.append(
+					pathInfo["/"].searchParams.isDisableSearchForm,
+					"true",
+				);
 			}
 
 			router.push(`/?${newURLSearchParams.toString()}`);
@@ -265,9 +309,12 @@ export const useLogic = () => {
 			const newURLSearchParams = new URLSearchParams(window.location.search);
 
 			if (checked) {
-				newURLSearchParams.delete("isDisableOption");
+				newURLSearchParams.delete(pathInfo["/"].searchParams.isDisableOption);
 			} else {
-				newURLSearchParams.append("isDisableOption", "true");
+				newURLSearchParams.append(
+					pathInfo["/"].searchParams.isDisableOption,
+					"true",
+				);
 			}
 
 			router.push(`/?${newURLSearchParams.toString()}`);
@@ -279,78 +326,109 @@ export const useLogic = () => {
 
 		if (data.color?.length) {
 			for (const c of data.color) {
-				c && newURLSearchParams.append("color[]", c);
+				c &&
+					newURLSearchParams.append(pathInfo["/"].searchParams["color[]"], c);
 			}
 		}
 
 		if (data.period?.length) {
 			for (const p of data.period) {
-				p && newURLSearchParams.append("period[]", p);
+				p &&
+					newURLSearchParams.append(pathInfo["/"].searchParams["period[]"], p);
 			}
 		}
 
 		if (data.appear?.length) {
 			for (const p of data.appear) {
-				p && newURLSearchParams.append("appear[]", p);
+				p &&
+					newURLSearchParams.append(pathInfo["/"].searchParams["appear[]"], p);
 			}
 		}
 
 		if (data.cost?.length) {
 			for (const c of data.cost) {
-				c && newURLSearchParams.append("cost[]", c);
+				c && newURLSearchParams.append(pathInfo["/"].searchParams["cost[]"], c);
 			}
 		}
 
 		if (data.unitType?.length) {
 			for (const u of data.unitType) {
-				u && newURLSearchParams.append("unitType[]", u);
+				u &&
+					newURLSearchParams.append(
+						pathInfo["/"].searchParams["unitType[]"],
+						u,
+					);
 			}
 		}
 
 		if (data.skill?.length) {
 			for (const s of data.skill) {
-				s && newURLSearchParams.append("skill[]", s);
+				s &&
+					newURLSearchParams.append(pathInfo["/"].searchParams["skill[]"], s);
 			}
 		}
 
 		if (data.power?.length) {
 			for (const p of data.power) {
-				p && newURLSearchParams.append("power[]", p);
+				p &&
+					newURLSearchParams.append(pathInfo["/"].searchParams["power[]"], p);
 			}
 		}
 
 		if (data.intelligentzia?.length) {
 			for (const i of data.intelligentzia) {
-				i && newURLSearchParams.append("intelligentzia[]", i);
+				i &&
+					newURLSearchParams.append(
+						pathInfo["/"].searchParams["intelligentzia[]"],
+						i,
+					);
 			}
 		}
 
 		if (data.stratCost?.length) {
 			for (const sc of data.stratCost) {
-				sc && newURLSearchParams.append("stratCost[]", sc);
+				sc &&
+					newURLSearchParams.append(
+						pathInfo["/"].searchParams["stratCost[]"],
+						sc,
+					);
 			}
 		}
 
 		if (data.stratRange?.length) {
 			for (const sr of data.stratRange) {
-				sr && newURLSearchParams.append("stratRange[]", sr);
+				sr &&
+					newURLSearchParams.append(
+						pathInfo["/"].searchParams["stratRange[]"],
+						sr,
+					);
 			}
 		}
 
 		const searchWord = data.searchWord;
 		if (searchWord) {
-			newURLSearchParams.append("searchWord", searchWord);
+			newURLSearchParams.append(
+				pathInfo["/"].searchParams.searchWord,
+				searchWord,
+			);
 		}
 
 		if (data.favoriteNo?.length) {
 			for (const fn of data.favoriteNo) {
-				fn && newURLSearchParams.append("favoriteNo[]", fn);
+				fn &&
+					newURLSearchParams.append(
+						pathInfo["/"].searchParams["favoriteNo[]"],
+						fn,
+					);
 			}
 		}
 
 		const isFavorite = data.isDisplayFavorite;
 		if (isFavorite === "true") {
-			newURLSearchParams.append("isDisplayFavorite", "true");
+			newURLSearchParams.append(
+				pathInfo["/"].searchParams.isDisplayFavorite,
+				"true",
+			);
 		}
 
 		router.push(`/?${newURLSearchParams.toString()}`);

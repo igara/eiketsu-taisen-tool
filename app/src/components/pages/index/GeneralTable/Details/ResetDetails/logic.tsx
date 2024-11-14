@@ -1,3 +1,4 @@
+import { pathInfo } from "@/lib/pathInfo";
 import type { SearchFormData } from "@/schema/SearchForm";
 import SkillsJSON from "@eiketsu-taisen-tool/data/data/json/skills.json";
 import { useRouter } from "next/navigation";
@@ -55,12 +56,18 @@ export const useLogic = ({
 		const newURLSearchParams = new URLSearchParams();
 		if (defaultSearchFavoriteNos.length) {
 			for (const fn of defaultSearchFavoriteNos) {
-				newURLSearchParams.append("favoriteNo[]", fn);
+				newURLSearchParams.append(
+					pathInfo["/"].searchParams["favoriteNo[]"],
+					fn,
+				);
 			}
 		}
 
 		if (defaultIsDisplayFavorite === "true") {
-			newURLSearchParams.append("isDisplayFavorite", "true");
+			newURLSearchParams.append(
+				pathInfo["/"].searchParams.isDisplayFavorite,
+				"true",
+			);
 		}
 
 		if (
