@@ -1,16 +1,25 @@
 "use client";
 
+import type { SearchFormData } from "@/schema/SearchForm";
 import type { General } from "@eiketsu-taisen-tool/data/types";
 import type React from "react";
+import type { UseFormReturn } from "react-hook-form";
+import { GeneralDetailButton } from "../GeneralDetailButton";
 import { GeneralImageButton } from "../GeneralImageButton";
 import { DeckLink } from "./DeckLink";
 import { useLogic } from "./logic";
 
 type Props = {
 	general: General;
+	formMethod: UseFormReturn<SearchFormData>;
+	defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
 };
 
-export const YouTubeButton: React.FC<Props> = ({ general }) => {
+export const YouTubeButton: React.FC<Props> = ({
+	general,
+	formMethod,
+	defaultSearchFavoriteNos,
+}) => {
 	const {
 		isOpen,
 		onClickYouTubeButton,
@@ -28,7 +37,7 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 			<button
 				type="button"
 				onClick={onClickYouTubeButton}
-				className="underline"
+				className="underline text-start"
 			>
 				YouTube 頂上対決
 			</button>
@@ -80,13 +89,19 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 										{video.title}
 									</a>
 
-									<div className="p-1 w-full flex justify-between bg-red-600 rounded">
-										<div>
-											<div>
+									<div className="p-1 w-full flex justify-between">
+										<div className="flex flex-col gap-1">
+											<div className="flex flex-col gap-1">
 												{video.player1.decks.map((deck) => (
-													<p key={deck.no} className="text-white">
-														{deck.no} {deck.name}
-													</p>
+													<GeneralDetailButton
+														key={deck.no}
+														gene={{
+															name: deck.name,
+															no: deck.no,
+														}}
+														formMethod={formMethod}
+														defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+													/>
 												))}
 											</div>
 											<div className="grid grid-cols-4 gap-1">
@@ -98,18 +113,24 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 											</div>
 										</div>
 
-										<div className="flex items-center">
+										<div className="flex items-center p-1 bg-red-600 rounded">
 											<DeckLink decks={video.player1.decks} />
 										</div>
 									</div>
 
-									<div className="p-1 w-full flex justify-between bg-blue-600 rounded">
-										<div>
-											<div>
+									<div className="p-1 w-full flex justify-between">
+										<div className="flex flex-col gap-1">
+											<div className="flex flex-col gap-1">
 												{video.player2.decks.map((deck) => (
-													<p key={deck.no} className="text-white">
-														{deck.no} {deck.name}
-													</p>
+													<GeneralDetailButton
+														key={deck.no}
+														gene={{
+															name: deck.name,
+															no: deck.no,
+														}}
+														formMethod={formMethod}
+														defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+													/>
 												))}
 											</div>
 											<div className="grid grid-cols-4 gap-1">
@@ -121,7 +142,7 @@ export const YouTubeButton: React.FC<Props> = ({ general }) => {
 											</div>
 										</div>
 
-										<div className="flex items-center">
+										<div className="flex items-center bg-blue-600 rounded p-1">
 											<DeckLink decks={video.player2.decks} />
 										</div>
 									</div>
