@@ -1,9 +1,13 @@
 import { GeneralCardImageTFModelContext } from "@/context/tensorflow/GeneralCardImageTFModel";
+import { pathInfo } from "@/lib/pathInfo";
+import { type SearchFormData, SearchFormResolver } from "@/schema/SearchForm";
 import { cardSize } from "@eiketsu-taisen-tool/data/card_tf_model";
 import GeneralsJSON from "@eiketsu-taisen-tool/data/data/json/generals.json";
 import type { General } from "@eiketsu-taisen-tool/data/types";
 import * as tf from "@tensorflow/tfjs";
+import { useRouter, useSearchParams } from "next/navigation";
 import React from "react";
+import { useForm } from "react-hook-form";
 
 export const useLogic = () => {
 	const { generalCardImageTFModel } = React.useContext(
@@ -36,6 +40,83 @@ export const useLogic = () => {
 	};
 	const [selectedCard, setSelectedCard] = React.useState<Card>({
 		loading: false,
+	});
+
+	const router = useRouter();
+	const searchParams = useSearchParams();
+	const defaultSearchFavoriteNos = searchParams.getAll(
+		pathInfo["/camera"].searchParams["favoriteNo[]"],
+	);
+
+	const [selectedFavoriteGenerals, setSelectedFavoriteGenerals] =
+		React.useState<General[]>(
+			GeneralsJSON.filter((general) =>
+				defaultSearchFavoriteNos.includes(general.no.toString()),
+			),
+		);
+
+	const formMethod = useForm<SearchFormData>({
+		resolver: SearchFormResolver,
+		defaultValues: {
+			color: [],
+			period: [],
+			appear: [],
+			cost: [],
+			unitType: [],
+			skill: [],
+			power: [],
+			intelligentzia: [],
+			stratCost: [],
+			stratRange: [],
+			searchWord: "",
+			favoriteNo: defaultSearchFavoriteNos,
+			isDisplayFavorite: undefined,
+			isDisableSearchForm: undefined,
+			isDisableOption: undefined,
+		},
+	});
+
+	formMethod.register("favoriteNo", {
+		onChange: (e) => {
+			const favoriteNo = e.target.value;
+
+			if (favoriteNo === "" || favoriteNo === "on") return;
+
+			const checked: boolean = e.target.checked;
+			const newURLSearchParams = new URLSearchParams(window.location.search);
+			newURLSearchParams.delete(
+				pathInfo["/camera"].searchParams["favoriteNo[]"],
+			);
+			if (checked) {
+				if (!defaultSearchFavoriteNos.includes(favoriteNo)) {
+					newURLSearchParams.append(
+						pathInfo["/camera"].searchParams["favoriteNo[]"],
+						favoriteNo,
+					);
+				}
+			}
+			for (const fn of defaultSearchFavoriteNos) {
+				if (fn === favoriteNo && !checked) {
+					continue;
+				}
+				newURLSearchParams.append(
+					pathInfo["/camera"].searchParams["favoriteNo[]"],
+					fn,
+				);
+			}
+
+			setSelectedFavoriteGenerals(
+				GeneralsJSON.filter((general) =>
+					newURLSearchParams
+						.getAll(pathInfo["/camera"].searchParams["favoriteNo[]"])
+						.includes(general.no.toString()),
+				),
+			);
+
+			router.push(`/camera?${newURLSearchParams.toString()}`, {
+				scroll: false,
+			});
+		},
 	});
 
 	const onChangeDeviceSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -170,7 +251,9 @@ export const useLogic = () => {
 		}
 	}, []);
 
-	const onTouchStartVideoCanvas = (e: React.TouchEvent<HTMLCanvasElement>) => {
+	const onTouchStartVideoCanvas: React.TouchEventHandler<HTMLCanvasElement> = (
+		e,
+	) => {
 		const touch = e.touches[0];
 		const position = adjustForCanvasScale(touch.clientX, touch.clientY);
 		document.addEventListener("touchmove", scrollNo, { passive: false });
@@ -184,7 +267,9 @@ export const useLogic = () => {
 		setIsSelectingVideoCanvasPosition(true);
 	};
 
-	const onMouseDownVideoCanvas = (e: React.MouseEvent<HTMLCanvasElement>) => {
+	const onMouseDownVideoCanvas: React.MouseEventHandler<HTMLCanvasElement> = (
+		e,
+	) => {
 		const position = adjustForCanvasScale(e.clientX, e.clientY);
 		document.addEventListener("touchmove", scrollNo, { passive: false });
 		document.body.style.overflow = "hidden";
@@ -197,7 +282,9 @@ export const useLogic = () => {
 		setIsSelectingVideoCanvasPosition(true);
 	};
 
-	const onTouchMoveVideoCanvas = (e: React.TouchEvent<HTMLCanvasElement>) => {
+	const onTouchMoveVideoCanvas: React.TouchEventHandler<HTMLCanvasElement> = (
+		e,
+	) => {
 		if (!isSelectingVideoCanvasPosition) return;
 
 		const touch = e.touches[0];
@@ -209,7 +296,9 @@ export const useLogic = () => {
 		}));
 	};
 
-	const onMouseMoveVideoCanvas = (e: React.MouseEvent<HTMLCanvasElement>) => {
+	const onMouseMoveVideoCanvas: React.MouseEventHandler<HTMLCanvasElement> = (
+		e,
+	) => {
 		if (!isSelectingVideoCanvasPosition) return;
 
 		const position = adjustForCanvasScale(e.clientX, e.clientY);
@@ -220,19 +309,46 @@ export const useLogic = () => {
 		}));
 	};
 
-	const onTouchEndVideoCanvas = () => {
+	const onTouchEndVideoCanvas: React.TouchEventHandler<
+		HTMLCanvasElement
+	> = () => {
 		document.body.style.overflow = "auto";
 		document.removeEventListener("touchmove", scrollNo);
 		setIsSelectingVideoCanvasPosition(false);
 	};
 
-	const onMouseUpVideoCanvas = () => {
+	const onMouseUpVideoCanvas: React.MouseEventHandler<
+		HTMLCanvasElement
+	> = () => {
 		document.body.style.overflow = "auto";
 		document.removeEventListener("touchmove", scrollNo);
 		setIsSelectingVideoCanvasPosition(false);
 	};
 
-	const onClickSelectedCardButton = async () => {
+	const onClickListButton: React.MouseEventHandler<
+		HTMLButtonElement
+	> = async () => {
+		const favoritNos = formMethod.getValues("favoriteNo");
+		if (!favoritNos || favoritNos.length === 0) return;
+
+		const newURLSearchParams = new URLSearchParams(window.location.search);
+		newURLSearchParams.append(
+			pathInfo["/"].searchParams.isDisplayFavorite,
+			"true",
+		);
+
+		const newWindow = window.open(
+			`/eiketsu-taisen-tool/?${newURLSearchParams.toString()}`,
+			"_blank",
+		);
+		if (newWindow) {
+			newWindow.opener = null; // セキュリティを強化
+		}
+	};
+
+	const onClickSelectedCardButton: React.MouseEventHandler<
+		HTMLButtonElement
+	> = async () => {
 		if (!generalCardImageTFModel) return;
 
 		if (!refSelectedCardCanvas.current) return;
@@ -307,6 +423,21 @@ export const useLogic = () => {
 		});
 	};
 
+	const selectedFavoriteGeneralInfo = selectedFavoriteGenerals.reduce(
+		(acc, general) => {
+			return {
+				cost: acc.cost + +general.cost,
+				power: acc.power + +general.power,
+				intelligentzia: acc.intelligentzia + +general.intelligentzia,
+			};
+		},
+		{
+			cost: 0,
+			power: 0,
+			intelligentzia: 0,
+		},
+	);
+
 	return {
 		generalCardImageTFModel,
 		onChangeDeviceSelect,
@@ -322,6 +453,11 @@ export const useLogic = () => {
 		onMouseDownVideoCanvas,
 		onMouseMoveVideoCanvas,
 		onMouseUpVideoCanvas,
+		onClickListButton,
 		onClickSelectedCardButton,
+		formMethod,
+		defaultSearchFavoriteNos,
+		selectedFavoriteGenerals,
+		selectedFavoriteGeneralInfo,
 	};
 };

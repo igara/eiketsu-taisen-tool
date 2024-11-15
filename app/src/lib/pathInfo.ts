@@ -20,4 +20,9 @@ export const pathInfo = {
 			isDisableOption: "isDisableOption",
 		},
 	},
+	[pagesPath.camera.$url().pathname]: {
+		searchParams: {
+			"favoriteNo[]": "favoriteNo[]",
+		},
+	},
 };

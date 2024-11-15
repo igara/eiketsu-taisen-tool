@@ -434,8 +434,6 @@ export const useLogic = () => {
 		router.push(`/?${newURLSearchParams.toString()}`);
 	};
 
-	const MAX_COST = 9;
-
 	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
 	React.useEffect(() => {
 		if (!isDisplayFavorite) return;
@@ -464,6 +462,5 @@ export const useLogic = () => {
 		defaultSearchWord,
 		defaultSearchFavoriteNos,
 		defaultIsDisplayFavorite,
-		MAX_COST,
 	};
 };

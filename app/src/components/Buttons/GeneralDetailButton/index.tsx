@@ -45,7 +45,7 @@ export const GeneralDetailButton: React.FC<Props> = ({
 			<button
 				type="button"
 				onClick={onClickGeneralButton}
-				className="underline text-white p-1 rounded"
+				className="underline text-white text-start p-1 rounded"
 				style={{
 					background: `rgb(${general.color.r},${general.color.g},${general.color.b})`,
 				}}

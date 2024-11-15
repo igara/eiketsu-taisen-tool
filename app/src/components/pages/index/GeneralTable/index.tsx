@@ -1,6 +1,7 @@
 "use client";
 
 import { GeneralTableBody } from "@/components/pages/index/GeneralTable/GeneralTableBody";
+import { MAX_COST } from "@eiketsu-taisen-tool/data/general";
 import Image from "next/image";
 import type React from "react";
 import { FormProvider } from "react-hook-form";
@@ -39,7 +40,6 @@ export const GeneralTable: React.FC = () => {
 		defaultSearchWord,
 		defaultSearchFavoriteNos,
 		defaultIsDisplayFavorite,
-		MAX_COST,
 	} = useLogic();
 
 	return (

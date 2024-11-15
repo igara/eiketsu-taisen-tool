@@ -1,6 +1,9 @@
 "use client";
 
+import { FavoriteButton } from "@/components/Buttons/FavoriteButton";
+import { GeneralDetailButton } from "@/components/Buttons/GeneralDetailButton";
 import { GeneralImageButton } from "@/components/Buttons/GeneralImageButton";
+import { MAX_COST } from "@eiketsu-taisen-tool/data/general";
 import Image from "next/image";
 import type React from "react";
 import { useLogic } from "./logic";
@@ -21,7 +24,12 @@ export const CameraAnalyze: React.FC = () => {
 		onMouseDownVideoCanvas,
 		onMouseMoveVideoCanvas,
 		onMouseUpVideoCanvas,
+		onClickListButton,
 		onClickSelectedCardButton,
+		formMethod,
+		defaultSearchFavoriteNos,
+		selectedFavoriteGenerals,
+		selectedFavoriteGeneralInfo,
 	} = useLogic();
 
 	return (
@@ -67,11 +75,20 @@ export const CameraAnalyze: React.FC = () => {
 								<div className="flex flex-col gap-1">
 									{selectedCard.loading && <p>読み込み中...</p>}
 
-									<p>
-										{selectedCard.general
-											? `${selectedCard.general.no}_${selectedCard.general.name}`
-											: "未検出"}
-									</p>
+									<div>
+										{selectedCard.general ? (
+											<GeneralDetailButton
+												gene={{
+													name: selectedCard.general.name,
+													no: selectedCard.general.no,
+												}}
+												formMethod={formMethod}
+												defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+											/>
+										) : (
+											<p>未検出</p>
+										)}
+									</div>
 
 									<div>
 										{selectedCard.general ? (
@@ -98,7 +115,34 @@ export const CameraAnalyze: React.FC = () => {
 					</div>
 				</div>
 
+				<div>
+					<div>リスト件数: {selectedFavoriteGenerals.length}</div>
+					<div>
+						総コスト:
+						<span
+							className={
+								MAX_COST < selectedFavoriteGeneralInfo.cost
+									? "text-red-700"
+									: ""
+							}
+						>
+							{selectedFavoriteGeneralInfo.cost}
+						</span>{" "}
+						/ {MAX_COST}
+					</div>
+					<div>総武力: {selectedFavoriteGeneralInfo.power}</div>
+					<div>総知力: {selectedFavoriteGeneralInfo.intelligentzia}</div>
+				</div>
+
 				<div className="fixed bottom-0 w-full p-1 flex gap-2 justify-center">
+					<button
+						type="button"
+						onClick={onClickListButton}
+						className="text-black text-xl p-4 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
+					>
+						🗒️
+					</button>
+
 					<button
 						type="button"
 						onClick={onClickSelectedCardButton}
@@ -107,15 +151,13 @@ export const CameraAnalyze: React.FC = () => {
 						📸
 					</button>
 
-					<button
-						type="button"
-						// onClick={onClickSelectedCardButton}
-						className="text-xl p-4 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
-					>
-						<span className="flex items-center justify-center w-[16px] h-[16px] p-[2px] text-xs rounded-full cursor-pointer text-[#eb4926] bg-[#f3b33e]">
-							★
-						</span>
-					</button>
+					<div className="text-black text-xl p-4 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]">
+						<FavoriteButton
+							general={selectedCard.general}
+							formMethod={formMethod}
+							defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
