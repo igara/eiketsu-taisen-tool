@@ -442,6 +442,16 @@ export const useLogic = () => {
 		document.title = generalInfo.favariteNames.join("|");
 	}, [defaultSearchFavoriteNos, isDisplayFavorite]);
 
+	const onClickCamera = () => {
+		const newURLSearchParams = new URLSearchParams(window.location.search);
+
+		newURLSearchParams.delete(pathInfo["/"].searchParams.isDisplayFavorite);
+
+		router.push(`/camera?${newURLSearchParams.toString()}`, {
+			scroll: false,
+		});
+	};
+
 	return {
 		isDisplayFavorite,
 		isDisableSearchForm,
@@ -462,5 +472,6 @@ export const useLogic = () => {
 		defaultSearchWord,
 		defaultSearchFavoriteNos,
 		defaultIsDisplayFavorite,
+		onClickCamera,
 	};
 };

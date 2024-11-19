@@ -40,6 +40,7 @@ export const GeneralTable: React.FC = () => {
 		defaultSearchWord,
 		defaultSearchFavoriteNos,
 		defaultIsDisplayFavorite,
+		onClickCamera,
 	} = useLogic();
 
 	return (
@@ -205,29 +206,18 @@ export const GeneralTable: React.FC = () => {
 										<div className="flex flex-col gap-1">
 											<div className="flex items-center pr-[12px] pb-[12px]">
 												<div className="flex justify-end gap-1 w-[100%]">
+													<button
+														type="button"
+														className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
+														onClick={onClickCamera}
+													>
+														📸
+													</button>
 													<DisplayDetails
 														formMethod={formMethod}
 														isDisableOption={isDisableOption}
 														isDisableSearchForm={isDisableSearchForm}
 													/>
-
-													<div className="flex items-center gap-1 text-xs p-1 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]">
-														<input
-															type="checkbox"
-															value="true"
-															id="isDisplayFavorite"
-															{...formMethod.register("isDisplayFavorite")}
-														/>
-														<label
-															htmlFor="isDisplayFavorite"
-															className="flex gap-1 text-black"
-														>
-															<span className="flex items-center justify-center w-[16px] h-[16px] p-[2px] text-xs rounded-full cursor-pointer text-[#eb4926] bg-[#f3b33e]">
-																★
-															</span>
-															表示
-														</label>
-													</div>
 
 													<div
 														className={`flex gap-[28px] ${isDisplayFavorite ? "hidden" : ""}`}

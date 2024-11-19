@@ -116,8 +116,8 @@ export const CameraAnalyze: React.FC = () => {
 				</div>
 
 				<div className="text-sm">
-					<div>リスト件数: {selectedFavoriteGenerals.length}</div>
-					<div>
+					<p>リスト件数: {selectedFavoriteGenerals.length}</p>
+					<p>
 						総コスト:
 						<span
 							className={
@@ -129,9 +129,9 @@ export const CameraAnalyze: React.FC = () => {
 							{selectedFavoriteGeneralInfo.cost}
 						</span>{" "}
 						/ {MAX_COST}
-					</div>
-					<div>総武力: {selectedFavoriteGeneralInfo.power}</div>
-					<div>総知力: {selectedFavoriteGeneralInfo.intelligentzia}</div>
+					</p>
+					<p>総武力: {selectedFavoriteGeneralInfo.power}</p>
+					<p>総知力: {selectedFavoriteGeneralInfo.intelligentzia}</p>
 				</div>
 
 				<div className="fixed bottom-0 w-full p-1 flex gap-2 justify-center">

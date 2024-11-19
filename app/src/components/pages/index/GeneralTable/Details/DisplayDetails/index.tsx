@@ -58,6 +58,21 @@ export const DisplayDetails: React.FC<Props> = ({
 						外部リンク/リスト登録
 					</label>
 				</div>
+
+				<div className="flex items-center gap-1 text-xs p-1 border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]">
+					<input
+						type="checkbox"
+						value="true"
+						id="isDisplayFavorite"
+						{...formMethod.register("isDisplayFavorite")}
+					/>
+					<label htmlFor="isDisplayFavorite" className="flex gap-1 text-black">
+						<span className="flex items-center justify-center w-[16px] h-[16px] p-[2px] text-xs rounded-full cursor-pointer text-[#eb4926] bg-[#f3b33e]">
+							★
+						</span>
+						表示
+					</label>
+				</div>
 			</div>
 		</details>
 	);
