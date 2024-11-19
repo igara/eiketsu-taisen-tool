@@ -35,7 +35,7 @@ export const CameraAnalyze: React.FC = () => {
 	return (
 		<div>
 			<div className="fixed z-10 p-1">
-				<select onChange={onChangeDeviceSelect}>
+				<select onChange={onChangeDeviceSelect} className="text-sm">
 					<option value={0}>
 						{generalCardImageTFModel
 							? "カメラ選択してください"
@@ -115,7 +115,7 @@ export const CameraAnalyze: React.FC = () => {
 					</div>
 				</div>
 
-				<div>
+				<div className="text-sm">
 					<div>リスト件数: {selectedFavoriteGenerals.length}</div>
 					<div>
 						総コスト:
