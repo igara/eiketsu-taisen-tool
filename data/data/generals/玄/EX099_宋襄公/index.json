@@ -1,0 +1,42 @@
+{
+  "no": "EX099",
+  "appear": "第4弾-EX",
+  "id": "704685a1f5ea8a56f81988303848e9e0",
+  "detailImageId": "3669f27339e468b469607b686e16545b",
+  "name": "宋襄公",
+  "kanaName": "そうのじょうこう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "宋襄の仁",
+    "kanaName": "そうじょうのじん",
+    "cost": "6",
+    "description": "玄の味方の武力が上がる。さらに自軍が戦器を解放していなければ武力によるダメージを軽減し、戦器を解放していれば乱戦中の攻撃速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=704685a1f5ea8a56f81988303848e9e0",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3107"
+  }
+}

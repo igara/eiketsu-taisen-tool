@@ -1,0 +1,48 @@
+{
+  "no": "EX100",
+  "appear": "第4弾-EX",
+  "id": "ada45d18a6c08ea95af33166b3434f94",
+  "detailImageId": "802d27da90d733e1b81e30860e4821a6",
+  "name": "牧の方",
+  "kanaName": "まきのかた",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "若妻の企み",
+    "kanaName": "わかづまのたくらみ",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の武力が上がる。この効果は戦場にいる範囲外の味方の武将コストの合計値が高いほど大きい",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "17292188368f5be2f97facc14cc393a0"
+  },
+  "power": "1",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ada45d18a6c08ea95af33166b3434f94",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3106"
+  }
+}

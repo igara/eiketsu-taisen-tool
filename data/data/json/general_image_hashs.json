@@ -1184,6 +1184,14 @@
     }
   },
   {
+    "no": "EX100",
+    "deckImageHash": "7de23c303e38063e0f7f079f0607120f713f013f012f03cf0fef0f470e0f8e01",
+    "name": "牧の方",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "PL001",
     "deckImageHash": "3fe3863d203f0127f143ebe7c31f02013e1f351f0c4b80a760f301e319e4fdc1",
     "name": "信",
@@ -2571,6 +2579,14 @@
     "no": "EX094",
     "deckImageHash": "0e677e79ee78c00060072407e7e7f01ffc0fde07c403c307cf07c407482fd81f",
     "name": "郭嘉",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "EX101",
+    "deckImageHash": "1f9700fd019f070f003f7047fc1e3077247f633f601f480e70091cf7207f807f",
+    "name": "猿飛佐助",
     "color": {
       "name": "緋"
     }
@@ -5267,6 +5283,14 @@
     "no": "EX097",
     "deckImageHash": "004f04f905f85ff96fc08ff14676c092c70e22487fe03f0e0e7f00ff01ff808c",
     "name": "呂姫",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "EX099",
+    "deckImageHash": "81ef07f701c7038783f30ff10fe107c021c40da20e7f07df01fe01db009ff09f",
+    "name": "宋襄公",
     "color": {
       "name": "玄"
     }
