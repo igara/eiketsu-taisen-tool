@@ -82,8 +82,10 @@ export const CameraAnalyze: React.FC = () => {
 													name: selectedCard.general.name,
 													no: selectedCard.general.no,
 												}}
-												formMethod={formMethod}
-												defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+												favorite={{
+													formMethod,
+													defaultSearchFavoriteNos,
+												}}
 											/>
 										) : (
 											<p>未検出</p>

@@ -11,14 +11,15 @@ import { useLogic } from "./logic";
 
 type Props = {
 	general: General;
-	formMethod: UseFormReturn<SearchFormData>;
-	defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
+	favorite?: {
+		formMethod: UseFormReturn<SearchFormData>;
+		defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
+	};
 };
 
 export const YouTubeGeneralCardButton: React.FC<Props> = ({
 	general,
-	formMethod,
-	defaultSearchFavoriteNos,
+	favorite,
 }) => {
 	const {
 		isOpen,
@@ -33,7 +34,7 @@ export const YouTubeGeneralCardButton: React.FC<Props> = ({
 	});
 
 	return (
-		<div>
+		<>
 			<button
 				type="button"
 				onClick={onClickYouTubeButton}
@@ -99,8 +100,7 @@ export const YouTubeGeneralCardButton: React.FC<Props> = ({
 															name: deck.name,
 															no: deck.no,
 														}}
-														formMethod={formMethod}
-														defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+														favorite={favorite}
 													/>
 												))}
 											</div>
@@ -128,8 +128,7 @@ export const YouTubeGeneralCardButton: React.FC<Props> = ({
 															name: deck.name,
 															no: deck.no,
 														}}
-														formMethod={formMethod}
-														defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+														favorite={favorite}
 													/>
 												))}
 											</div>
@@ -151,6 +150,6 @@ export const YouTubeGeneralCardButton: React.FC<Props> = ({
 					</div>
 				</div>
 			</dialog>
-		</div>
+		</>
 	);
 };

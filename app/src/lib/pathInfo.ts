@@ -25,4 +25,11 @@ export const pathInfo = {
 			"favoriteNo[]": "favoriteNo[]",
 		},
 	},
+	[pagesPath.youtube.card_ranking.$url().pathname]: {
+		searchParams: {
+			date_from: "date_from",
+			date_to: "date_to",
+			general_name: "general_name",
+		},
+	},
 };

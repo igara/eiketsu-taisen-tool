@@ -21,7 +21,7 @@ export const GeneralImageButton: React.FC<Props> = ({ general }) => {
 	} = useLogic();
 
 	return (
-		<div className="flex">
+		<>
 			<button type="button" onClick={onClickImageButton}>
 				<Image
 					src={`/eiketsu-taisen-tool/images/generals/${general.no}_${general.name}/5.jpg`}
@@ -67,6 +67,6 @@ export const GeneralImageButton: React.FC<Props> = ({ general }) => {
 					</div>
 				</div>
 			</dialog>
-		</div>
+		</>
 	);
 };

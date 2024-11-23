@@ -160,8 +160,10 @@ export const GeneralTableBody: React.FC<Props> = ({
 								<li>
 									<YouTubeGeneralCardButton
 										general={general}
-										formMethod={formMethod}
-										defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+										favorite={{
+											formMethod,
+											defaultSearchFavoriteNos,
+										}}
 									/>
 								</li>
 							</ul>

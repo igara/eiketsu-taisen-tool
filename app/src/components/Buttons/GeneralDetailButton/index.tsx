@@ -1,7 +1,6 @@
 "use client";
 
 import type { SearchFormData } from "@/schema/SearchForm";
-import type { General } from "@eiketsu-taisen-tool/data/types";
 import Image from "next/image";
 import type React from "react";
 import type { UseFormReturn } from "react-hook-form";
@@ -16,15 +15,13 @@ type Props = {
 		no: string;
 		name: string;
 	};
-	formMethod: UseFormReturn<SearchFormData>;
-	defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
+	favorite?: {
+		formMethod: UseFormReturn<SearchFormData>;
+		defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
+	};
 };
 
-export const GeneralDetailButton: React.FC<Props> = ({
-	gene,
-	formMethod,
-	defaultSearchFavoriteNos,
-}) => {
+export const GeneralDetailButton: React.FC<Props> = ({ gene, favorite }) => {
 	const {
 		isOpen,
 		onClickGeneralButton,
@@ -41,7 +38,7 @@ export const GeneralDetailButton: React.FC<Props> = ({
 	}
 
 	return (
-		<div className="flex">
+		<>
 			<button
 				type="button"
 				onClick={onClickGeneralButton}
@@ -210,24 +207,27 @@ export const GeneralDetailButton: React.FC<Props> = ({
 									<li>
 										<YouTubeGeneralCardButton
 											general={general}
-											formMethod={formMethod}
-											defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+											favorite={favorite}
 										/>
 									</li>
 								</ul>
 
-								<div className="w-[90px] flex items-center justify-end p-1">
-									<FavoriteButton
-										general={general}
-										formMethod={formMethod}
-										defaultSearchFavoriteNos={defaultSearchFavoriteNos}
-									/>
-								</div>
+								{favorite && (
+									<div className="w-[90px] flex items-center justify-end p-1">
+										<FavoriteButton
+											general={general}
+											formMethod={favorite.formMethod}
+											defaultSearchFavoriteNos={
+												favorite.defaultSearchFavoriteNos
+											}
+										/>
+									</div>
+								)}
 							</div>
 						</div>
 					</div>
 				</div>
 			</dialog>
-		</div>
+		</>
 	);
 };
