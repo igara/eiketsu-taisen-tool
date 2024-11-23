@@ -15,7 +15,7 @@ type Props = {
 	defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
 };
 
-export const YouTubeButton: React.FC<Props> = ({
+export const YouTubeGeneralCardButton: React.FC<Props> = ({
 	general,
 	formMethod,
 	defaultSearchFavoriteNos,

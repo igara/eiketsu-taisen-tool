@@ -3,7 +3,7 @@
 import { FavoriteButton } from "@/components/Buttons/FavoriteButton";
 import { GeneralImageButton } from "@/components/Buttons/GeneralImageButton";
 import { SkillButton } from "@/components/Buttons/SkillButton";
-import { YouTubeButton } from "@/components/Buttons/YouTubeButton";
+import { YouTubeGeneralCardButton } from "@/components/Buttons/YouTubeGeneralCardButton";
 import type { GeneralUI } from "@/components/pages/index/GeneralTable/logic";
 import type { SearchFormData } from "@/schema/SearchForm";
 import Image from "next/image";
@@ -158,7 +158,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 								)}
 
 								<li>
-									<YouTubeButton
+									<YouTubeGeneralCardButton
 										general={general}
 										formMethod={formMethod}
 										defaultSearchFavoriteNos={defaultSearchFavoriteNos}

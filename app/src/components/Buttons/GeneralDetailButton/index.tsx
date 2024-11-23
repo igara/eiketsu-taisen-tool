@@ -8,7 +8,7 @@ import type { UseFormReturn } from "react-hook-form";
 import { FavoriteButton } from "../FavoriteButton";
 import { GeneralImageButton } from "../GeneralImageButton";
 import { SkillButton } from "../SkillButton";
-import { YouTubeButton } from "../YouTubeButton";
+import { YouTubeGeneralCardButton } from "../YouTubeGeneralCardButton";
 import { useLogic } from "./logic";
 
 type Props = {
@@ -208,7 +208,7 @@ export const GeneralDetailButton: React.FC<Props> = ({
 									)}
 
 									<li>
-										<YouTubeButton
+										<YouTubeGeneralCardButton
 											general={general}
 											formMethod={formMethod}
 											defaultSearchFavoriteNos={defaultSearchFavoriteNos}
