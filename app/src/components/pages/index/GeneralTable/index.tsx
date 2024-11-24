@@ -1,5 +1,6 @@
 "use client";
 
+import { SegaCopyrightButton } from "@/components/Buttons/SegaCopyrightButton";
 import { GeneralTableBody } from "@/components/pages/index/GeneralTable/GeneralTableBody";
 import { MAX_COST } from "@eiketsu-taisen-tool/data/general";
 import Image from "next/image";
@@ -202,46 +203,40 @@ export const GeneralTable: React.FC = () => {
 						<tr>
 							<td className="p-1" colSpan={3}>
 								<div className="flex flex-col gap-1">
-									<div>
-										<div className="flex flex-col gap-1">
-											<div className="flex items-center pr-[12px] pb-[12px]">
-												<div className="flex justify-end gap-1 w-[100%]">
-													<button
-														type="button"
-														className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
-														onClick={onClickCamera}
-													>
-														📸
-													</button>
-													<DisplayDetails
-														formMethod={formMethod}
-														isDisableOption={isDisableOption}
-														isDisableSearchForm={isDisableSearchForm}
-													/>
+									<div className="flex justify-end gap-1 w-[100%] pr-[12px]">
+										<button
+											type="button"
+											className="text-black text-xs p-[4px] border-2 border-white rounded-lg focus:outline-none bg-gradient-to-b from-[#efebe3] via-[#bbb197] to-[#857947] dark:bg-[#954d26]"
+											onClick={onClickCamera}
+										>
+											📸
+										</button>
+										<DisplayDetails
+											formMethod={formMethod}
+											isDisableOption={isDisableOption}
+											isDisableSearchForm={isDisableSearchForm}
+										/>
 
-													<div
-														className={`flex gap-[28px] ${isDisplayFavorite ? "hidden" : ""}`}
-													>
-														<ResetDetails
-															formMethod={formMethod}
-															defaultSearchFavoriteNos={
-																defaultSearchFavoriteNos
-															}
-															defaultIsDisplayFavorite={
-																defaultIsDisplayFavorite
-															}
-														/>
+										<div
+											className={`flex gap-[28px] ${isDisplayFavorite ? "hidden" : ""}`}
+										>
+											<ResetDetails
+												formMethod={formMethod}
+												defaultSearchFavoriteNos={defaultSearchFavoriteNos}
+												defaultIsDisplayFavorite={defaultIsDisplayFavorite}
+											/>
 
-														<button
-															type="submit"
-															className="text-xs bg-red-500 p-1 border-2 border-white rounded-lg focus:outline-none"
-														>
-															🔍
-														</button>
-													</div>
-												</div>
-											</div>
+											<button
+												type="submit"
+												className="text-xs bg-red-500 p-1 border-2 border-white rounded-lg focus:outline-none"
+											>
+												🔍
+											</button>
 										</div>
+									</div>
+
+									<div className="flex justify-center">
+										<SegaCopyrightButton />
 									</div>
 								</div>
 							</td>
