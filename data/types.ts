@@ -44,6 +44,7 @@ export type GeneralImageHash = {
 	no: string;
 	deckImageHash: string;
 	name: string;
+	kanaName: string;
 	color: {
 		name: string;
 	};

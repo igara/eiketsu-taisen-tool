@@ -5,7 +5,7 @@ import { google, type youtube_v3 } from "googleapis";
 import imageHash from "image-hash";
 import sqlite from "node-sqlite3-wasm";
 import sharp from "sharp";
-import type { General, GeneralImageHash, Skill } from "./types";
+import type { GeneralImageHash } from "./types";
 
 const {
 	values: { youtubeImportExec, youtubeDeckImportExec, youtubeDeckTableCreate },
@@ -38,6 +38,7 @@ type Youtube = {
 	version: number;
 	player1_name: string;
 	player2_name: string;
+	createAt: string;
 };
 
 const youtubeImport = async () => {
@@ -93,23 +94,24 @@ const youtubeImport = async () => {
 			/[0-9]{4}\/(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])/g,
 		);
 		const titleDate = titleDateMatch?.[0].toString();
+		const titleDateDay = dayjs(titleDate);
 		let version = 0;
 
 		if (
-			dayjs(titleDate).isSame("2023/11/02") ||
-			dayjs(titleDate).isAfter("2023/11/02")
+			titleDateDay.isSame("2023/11/02") ||
+			titleDateDay.isAfter("2023/11/02")
 		) {
 			version = 3;
 		}
 		if (
-			dayjs(titleDate).isSame("2023/10/31") ||
-			dayjs(titleDate).isBefore("2023/10/31")
+			titleDateDay.isSame("2023/10/31") ||
+			titleDateDay.isBefore("2023/10/31")
 		) {
 			version = 2;
 		}
 		if (
-			dayjs(titleDate).isSame("2022/12/20") ||
-			dayjs(titleDate).isBefore("2022/12/20")
+			titleDateDay.isSame("2022/12/20") ||
+			titleDateDay.isBefore("2022/12/20")
 		) {
 			version = 1;
 		}
@@ -128,6 +130,7 @@ const youtubeImport = async () => {
 			version,
 			player1_name: playerNameMatch[1],
 			player2_name: playerNameMatch[2],
+			createAt: titleDateDay.format("YYYY/MM/DD"),
 		});
 
 		return acc;
@@ -637,8 +640,6 @@ const hashImage = (imagePath: string, bits = 16): Promise<string> => {
 };
 
 const youtubeDeckImport = async () => {
-	if (!process.env.GOOGLE_KEY) return;
-
 	const YoutubeJSON: Youtube[] = JSON.parse(
 		fs.readFileSync("data/json/youtube.json", "utf8"),
 	);
@@ -662,6 +663,8 @@ const youtubeDeckImport = async () => {
 		dist TEXT,
 		no TEXT,
 		name TEXT,
+		kana_name TEXT,
+		create_at DATETIME DEFAULT (DATETIME('now', 'localtime')),
 		PRIMARY KEY(
 			 title,
 			 video_url,
@@ -676,7 +679,13 @@ const youtubeDeckImport = async () => {
 	}
 
 	type GeneralInfo = {
-		generals: { no: string; name: string; hashImage: string; path: string }[];
+		generals: {
+			no: string;
+			name: string;
+			kanaName: string;
+			hashImage: string;
+			path: string;
+		}[];
 	};
 	const generalAllInfo = await GeneralImageHashsJSON.reduce<
 		Promise<GeneralInfo>
@@ -686,6 +695,7 @@ const youtubeDeckImport = async () => {
 			(await acc).generals.push({
 				no: general.no,
 				name: general.name,
+				kanaName: general.kanaName,
 				hashImage: general.deckImageHash,
 				path: imagePath,
 			});
@@ -702,6 +712,7 @@ const youtubeDeckImport = async () => {
 		hashImage: string;
 		no: string;
 		name: string;
+		kanaName: string;
 	}[] = await Promise.all([
 		...[...Array(126)].map(async (_, index) => {
 			const i = index + 1;
@@ -711,6 +722,7 @@ const youtubeDeckImport = async () => {
 				hashImage: await hashImage(imagePath),
 				no: "",
 				name: "",
+				kanaName: "",
 			};
 		}),
 		...generalAllInfo.generals,
@@ -741,6 +753,7 @@ const youtubeDeckImport = async () => {
 		type DetectionGeneral = {
 			no: string;
 			name: string;
+			kanaName: string;
 			imagePath: string;
 			originalImagePath: string;
 			allImagePath: string;
@@ -768,6 +781,7 @@ const youtubeDeckImport = async () => {
 			acc[`red${i}`] = {
 				no: "",
 				name: "",
+				kanaName: "",
 				imagePath: "",
 				originalImagePath: "",
 				allImagePath: "",
@@ -775,6 +789,7 @@ const youtubeDeckImport = async () => {
 			acc[`blue${i}`] = {
 				no: "",
 				name: "",
+				kanaName: "",
 				imagePath: "",
 				originalImagePath: "",
 				allImagePath: "",
@@ -790,6 +805,7 @@ const youtubeDeckImport = async () => {
 				hashImage: string;
 				no: string;
 				name: string;
+				kanaName: string;
 			},
 			color: "red" | "blue",
 			num: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8,
@@ -808,6 +824,7 @@ const youtubeDeckImport = async () => {
 					detectionGenerals[`${color}${num}`] = {
 						no: generalImg.no,
 						name: generalImg.name,
+						kanaName: generalImg.kanaName,
 						imagePath: generalImg.path,
 						originalImagePath: `${cacheImagePath}/${color}_${num}.jpg`,
 						allImagePath,
@@ -849,7 +866,9 @@ const youtubeDeckImport = async () => {
 					:player_name,
 					:dist,
 					:no,
-					:name
+					:name,
+					:kana_name,
+					:create_at
 					)`,
 						{
 							":title": video.title,
@@ -860,6 +879,8 @@ const youtubeDeckImport = async () => {
 							":dist": detectionGeneral.originalImagePath,
 							":no": detectionGeneral.no,
 							":name": detectionGeneral.name,
+							":kana_name": detectionGeneral.kanaName,
+							":create_at": video.createAt,
 						},
 					);
 				} catch (_) {}

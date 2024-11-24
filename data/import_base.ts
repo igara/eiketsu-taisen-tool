@@ -399,6 +399,7 @@ const main = async () => {
 			no,
 			deckImageHash,
 			name,
+			kanaName,
 			color: {
 				name: color.name,
 			},

@@ -9,4 +9,6 @@ export type DeckTable = {
 	dist: ColumnType<string, string, string>;
 	no: ColumnType<string, string, string>;
 	name: ColumnType<string, string, string>;
+	kana_name: ColumnType<string, string, string>;
+	create_at: ColumnType<string, string, string>;
 };
