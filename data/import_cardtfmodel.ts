@@ -908,80 +908,282 @@ const cardImageTFModelForImageExec = async () => {
 
 	for (const general of GeneralJSON) {
 		const dirName = `data/generals/${general.color.name}/${general.no}_${general.name}`;
-		const inputPath = `${dirName}/2.jpg`;
+		const input2Path = `${dirName}/2.jpg`;
 
-		await glossGradientHorizonTop({ dirName, inputPath, i: 6 });
-		await glossGradientHorizonMiddle({ dirName, inputPath, i: 7 });
-		await glossGradientHorizonBottom({ dirName, inputPath, i: 8 });
-		await glossGradientVerticalLeft({ dirName, inputPath, i: 9 });
-		await glossGradientVerticalMiddle({ dirName, inputPath, i: 10 });
-		await glossGradientVerticalRight({ dirName, inputPath, i: 11 });
-		await glossGradientLeftTop({ dirName, inputPath, i: 12 });
-		await glossGradientLeftMiddle({ dirName, inputPath, i: 13 });
-		await glossGradientLeftBottom({ dirName, inputPath, i: 14 });
-		await glossGradientRightTop({ dirName, inputPath, i: 15 });
-		await glossGradientRightMiddle({ dirName, inputPath, i: 16 });
-		await glossGradientRightBottom({ dirName, inputPath, i: 17 });
-		await createDarkenedImage({ dirName, inputPath, i: 18 });
+		let i = 6;
+
+		await glossGradientHorizonTop({ dirName, inputPath: input2Path, i: i++ });
+		await glossGradientHorizonMiddle({
+			dirName,
+			inputPath: input2Path,
+			i: i++,
+		});
+		await glossGradientHorizonBottom({
+			dirName,
+			inputPath: input2Path,
+			i: i++,
+		});
+		await glossGradientVerticalLeft({ dirName, inputPath: input2Path, i: i++ });
+		await glossGradientVerticalMiddle({
+			dirName,
+			inputPath: input2Path,
+			i: i++,
+		});
+		await glossGradientVerticalRight({
+			dirName,
+			inputPath: input2Path,
+			i: i++,
+		});
+		await glossGradientLeftTop({ dirName, inputPath: input2Path, i: i++ });
+		await glossGradientLeftMiddle({ dirName, inputPath: input2Path, i: i++ });
+		await glossGradientLeftBottom({ dirName, inputPath: input2Path, i: i++ });
+		await glossGradientRightTop({ dirName, inputPath: input2Path, i: i++ });
+		await glossGradientRightMiddle({ dirName, inputPath: input2Path, i: i++ });
+		await glossGradientRightBottom({ dirName, inputPath: input2Path, i: i++ });
+		await createDarkenedImage({ dirName, inputPath: input2Path, i: i++ });
 		await createDarkenedImageGlossGradientHorizonTop({
 			dirName,
-			inputPath,
-			i: 19,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientHorizonMiddle({
 			dirName,
-			inputPath,
-			i: 20,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientHorizonBottom({
 			dirName,
-			inputPath,
-			i: 21,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientVerticalLeft({
 			dirName,
-			inputPath,
-			i: 22,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientVerticalMiddle({
 			dirName,
-			inputPath,
-			i: 23,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientVerticalRight({
 			dirName,
-			inputPath,
-			i: 24,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientLeftTop({
 			dirName,
-			inputPath,
-			i: 25,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientLeftMiddle({
 			dirName,
-			inputPath,
-			i: 26,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientLeftBottom({
 			dirName,
-			inputPath,
-			i: 27,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientRightTop({
 			dirName,
-			inputPath,
-			i: 28,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientRightMiddle({
 			dirName,
-			inputPath,
-			i: 29,
+			inputPath: input2Path,
+			i: i++,
 		});
 		await createDarkenedImageGlossGradientRightBottom({
 			dirName,
-			inputPath,
-			i: 30,
+			inputPath: input2Path,
+			i: i++,
+		});
+
+		const input4Path = `${dirName}/4.jpg`;
+
+		await glossGradientHorizonTop({ dirName, inputPath: input4Path, i: i++ });
+		await glossGradientHorizonMiddle({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await glossGradientHorizonBottom({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await glossGradientVerticalLeft({ dirName, inputPath: input4Path, i: i++ });
+		await glossGradientVerticalMiddle({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await glossGradientVerticalRight({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await glossGradientLeftTop({ dirName, inputPath: input4Path, i: i++ });
+		await glossGradientLeftMiddle({ dirName, inputPath: input4Path, i: i++ });
+		await glossGradientLeftBottom({ dirName, inputPath: input4Path, i: i++ });
+		await glossGradientRightTop({ dirName, inputPath: input4Path, i: i++ });
+		await glossGradientRightMiddle({ dirName, inputPath: input4Path, i: i++ });
+		await glossGradientRightBottom({ dirName, inputPath: input4Path, i: i++ });
+		await createDarkenedImage({ dirName, inputPath: input4Path, i: i++ });
+		await createDarkenedImageGlossGradientHorizonTop({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientHorizonMiddle({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientHorizonBottom({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientVerticalLeft({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientVerticalMiddle({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientVerticalRight({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientLeftTop({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientLeftMiddle({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientLeftBottom({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientRightTop({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientRightMiddle({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientRightBottom({
+			dirName,
+			inputPath: input4Path,
+			i: i++,
+		});
+
+		const input5Path = `${dirName}/5.jpg`;
+
+		await glossGradientHorizonTop({ dirName, inputPath: input5Path, i: i++ });
+		await glossGradientHorizonMiddle({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await glossGradientHorizonBottom({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await glossGradientVerticalLeft({ dirName, inputPath: input5Path, i: i++ });
+		await glossGradientVerticalMiddle({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await glossGradientVerticalRight({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await glossGradientLeftTop({ dirName, inputPath: input5Path, i: i++ });
+		await glossGradientLeftMiddle({ dirName, inputPath: input5Path, i: i++ });
+		await glossGradientLeftBottom({ dirName, inputPath: input5Path, i: i++ });
+		await glossGradientRightTop({ dirName, inputPath: input5Path, i: i++ });
+		await glossGradientRightMiddle({ dirName, inputPath: input5Path, i: i++ });
+		await glossGradientRightBottom({ dirName, inputPath: input5Path, i: i++ });
+		await createDarkenedImage({ dirName, inputPath: input5Path, i: i++ });
+		await createDarkenedImageGlossGradientHorizonTop({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientHorizonMiddle({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientHorizonBottom({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientVerticalLeft({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientVerticalMiddle({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientVerticalRight({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientLeftTop({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientLeftMiddle({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientLeftBottom({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientRightTop({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientRightMiddle({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
+		});
+		await createDarkenedImageGlossGradientRightBottom({
+			dirName,
+			inputPath: input5Path,
+			i: i++,
 		});
 	}
 };
@@ -1021,7 +1223,7 @@ async function loadImagesFromDirectories() {
 		const className = `${general.color.name}_${general.no}_${general.name}`;
 		classNames.push(className);
 
-		for (const i of Array(31).keys()) {
+		for (const i of Array(81).keys()) {
 			if (i === 0) continue;
 			if (i === 1) continue;
 			if (i === 3) continue;
