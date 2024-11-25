@@ -1,5 +1,7 @@
 import { YoutubeDeckContext } from "@/context/sqlite/YoutubeDeck";
 import type { General } from "@eiketsu-taisen-tool/data/types";
+import dayjs from "dayjs";
+import { sql } from "kysely";
 import React from "react";
 
 type Youtube = {
@@ -22,9 +24,13 @@ type Youtube = {
 
 type Args = {
 	general: General;
+	date?: {
+		from: string;
+		to: string;
+	};
 };
 
-export const useLogic = ({ general }: Args) => {
+export const useLogic = ({ general, date }: Args) => {
 	const [isOpen, setIsOpen] = React.useState(false);
 	const refContentDivElement = React.useRef<HTMLDivElement>(null);
 	const { youtubeDeckDB } = React.useContext(YoutubeDeckContext);
@@ -46,6 +52,11 @@ export const useLogic = ({ general }: Args) => {
 			.selectFrom("decks")
 			.selectAll()
 			.where("no", "=", general.no)
+			.where(sql<boolean>`create_at >= ${date?.from || "2022-03-11"}`)
+			.where(
+				sql<boolean>`create_at <= ${date?.to || dayjs().format("YYYY-MM-DD")}`,
+			)
+			.orderBy("create_at", "desc")
 			.execute();
 
 		const youtubeVideos = await Promise.all(

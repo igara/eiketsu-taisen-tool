@@ -130,7 +130,7 @@ const youtubeImport = async () => {
 			version,
 			player1_name: playerNameMatch[1],
 			player2_name: playerNameMatch[2],
-			createAt: titleDateDay.format("YYYY/MM/DD"),
+			createAt: titleDateDay.format("YYYY-MM-DD"),
 		});
 
 		return acc;

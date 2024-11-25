@@ -15,11 +15,16 @@ type Props = {
 		formMethod: UseFormReturn<SearchFormData>;
 		defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
 	};
+	date?: {
+		from: string;
+		to: string;
+	};
 };
 
 export const YouTubeGeneralCardButton: React.FC<Props> = ({
 	general,
 	favorite,
+	date,
 }) => {
 	const {
 		isOpen,
@@ -31,6 +36,7 @@ export const YouTubeGeneralCardButton: React.FC<Props> = ({
 		refContentDivElement,
 	} = useLogic({
 		general,
+		date,
 	});
 
 	return (
@@ -101,6 +107,7 @@ export const YouTubeGeneralCardButton: React.FC<Props> = ({
 															no: deck.no,
 														}}
 														favorite={favorite}
+														date={date}
 													/>
 												))}
 											</div>

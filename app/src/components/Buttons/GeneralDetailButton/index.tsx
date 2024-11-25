@@ -19,9 +19,17 @@ type Props = {
 		formMethod: UseFormReturn<SearchFormData>;
 		defaultSearchFavoriteNos: SearchFormData["favoriteNo"];
 	};
+	date?: {
+		from: string;
+		to: string;
+	};
 };
 
-export const GeneralDetailButton: React.FC<Props> = ({ gene, favorite }) => {
+export const GeneralDetailButton: React.FC<Props> = ({
+	gene,
+	favorite,
+	date,
+}) => {
 	const {
 		isOpen,
 		onClickGeneralButton,
@@ -208,6 +216,7 @@ export const GeneralDetailButton: React.FC<Props> = ({ gene, favorite }) => {
 										<YouTubeGeneralCardButton
 											general={general}
 											favorite={favorite}
+											date={date}
 										/>
 									</li>
 								</ul>
