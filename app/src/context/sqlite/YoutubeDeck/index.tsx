@@ -17,6 +17,7 @@ const YoutubeDeckContext = createContext<{
 });
 
 function YoutubeDeckProvider({ children }: YotubeDeckProviderProps) {
+	const workerRef = React.useRef<Worker>();
 	const isSqliteImported = React.useRef(false);
 	const [youtubeDeckDB, setYoutubeDeckDB] =
 		React.useState<Kysely<DatabaseInterface> | null>(null);
@@ -27,38 +28,30 @@ function YoutubeDeckProvider({ children }: YotubeDeckProviderProps) {
 
 		const sqliteImport = async () => {
 			try {
-				const opfsRoot = await navigator.storage.getDirectory();
-				const dirHandle = await opfsRoot.getDirectoryHandle("sqlite", {
-					create: true,
-				});
-				const fileHandle = await dirHandle.getFileHandle(
-					"youtube_deck.sqlite3",
-					{
-						create: true,
-					},
+				workerRef.current = new Worker(
+					new URL("./worker.tsx", import.meta.url),
 				);
+				workerRef.current.onmessage = (event: MessageEvent<boolean>) => {
+					if (!event.data) return;
 
-				const res = await fetch(
-					"/eiketsu-taisen-tool/sqlite/youtube_deck.sqlite3",
-				);
-				const blob = await res.blob();
+					const { dialect } = new SQLocalKysely("sqlite/youtube_deck.sqlite3");
+					const db = new Kysely<DatabaseInterface>({
+						dialect,
+						log: (event) => {
+							if (event.level === "query") {
+								// console.log(event.query.sql);
+								// console.log(event.query.parameters);
+							}
+						},
+					});
 
-				const writable = await fileHandle.createWritable();
-				await writable.write(blob);
-				await writable.close();
+					setYoutubeDeckDB(db);
+				};
 
-				const { dialect } = new SQLocalKysely("sqlite/youtube_deck.sqlite3");
-				const db = new Kysely<DatabaseInterface>({
-					dialect,
-					log: (event) => {
-						if (event.level === "query") {
-							// console.log(event.query.sql);
-							// console.log(event.query.parameters);
-						}
-					},
-				});
-				setYoutubeDeckDB(db);
-			} catch (_) {}
+				workerRef.current.postMessage("install");
+			} catch (e) {
+				console.error(e);
+			}
 		};
 		sqliteImport();
 	}, []);
