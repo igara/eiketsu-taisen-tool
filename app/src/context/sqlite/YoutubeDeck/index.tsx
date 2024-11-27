@@ -34,7 +34,10 @@ function YoutubeDeckProvider({ children }: YotubeDeckProviderProps) {
 				workerRef.current.onmessage = (event: MessageEvent<boolean>) => {
 					if (!event.data) return;
 
-					const { dialect } = new SQLocalKysely("sqlite/youtube_deck.sqlite3");
+					const { dialect } = new SQLocalKysely({
+						databasePath: "sqlite/youtube_deck.sqlite3",
+						readOnly: true,
+					});
 					const db = new Kysely<DatabaseInterface>({
 						dialect,
 						log: (event) => {
@@ -54,6 +57,10 @@ function YoutubeDeckProvider({ children }: YotubeDeckProviderProps) {
 			}
 		};
 		sqliteImport();
+
+		return () => {
+			workerRef.current?.terminate();
+		};
 	}, []);
 
 	return (

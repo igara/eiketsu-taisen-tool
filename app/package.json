@@ -24,7 +24,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.53.0",
-    "sqlocal": "^0.11.3",
+    "sqlocal": "^0.12.0",
     "yup": "^1.4.0"
   },
   "devDependencies": {

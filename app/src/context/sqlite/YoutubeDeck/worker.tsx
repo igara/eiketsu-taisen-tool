@@ -1,3 +1,5 @@
+import { SQLocal } from "sqlocal";
+
 self.addEventListener("message", async (e: MessageEvent<string>) => {
 	if (e.data === "install") {
 		try {
@@ -5,19 +7,20 @@ self.addEventListener("message", async (e: MessageEvent<string>) => {
 			const dirHandle = await opfsRoot.getDirectoryHandle("sqlite", {
 				create: true,
 			});
+
 			const fileHandle = await dirHandle.getFileHandle("youtube_deck.sqlite3", {
 				create: true,
 			});
+
+			const handle = await fileHandle.createSyncAccessHandle();
 
 			const res = await fetch(
 				"/eiketsu-taisen-tool/sqlite/youtube_deck.sqlite3",
 			);
 			const blob = await res.blob();
 			const buffer = await blob.arrayBuffer();
-
-			const fileSyncHandle = await fileHandle.createSyncAccessHandle();
-			fileSyncHandle.write(buffer);
-			fileSyncHandle.close();
+			handle.write(buffer);
+			handle.close();
 
 			postMessage(true);
 			return;
