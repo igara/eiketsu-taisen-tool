@@ -32,4 +32,11 @@ export const pathInfo = {
 			general_name: "general_name",
 		},
 	},
+	[pagesPath.youtube.player_ranking.$url().pathname]: {
+		searchParams: {
+			date_from: "date_from",
+			date_to: "date_to",
+			player_name: "player_name",
+		},
+	},
 };
