@@ -4374,6 +4374,15 @@
     }
   },
   {
+    "no": "EX104",
+    "deckImageHash": "de938fddc006e380f3874ebf72466200f00fe203f106f1c7c4e69ff318b38019",
+    "name": "中野竹子",
+    "kanaName": "なかのたけこ",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
     "no": "PL015",
     "deckImageHash": "f007305903fe03ef41f3e187689f081f303f7c3f0c9f5801b80f049f049f84df",
     "name": "沖田総悟",
@@ -7029,6 +7038,15 @@
     }
   },
   {
+    "no": "EX103",
+    "deckImageHash": "1b777d793d9000267ffff787c002c000c0008ff2ffd4670cd70ea38f438a8395",
+    "name": "紅葉",
+    "kanaName": "もみじ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "PL032",
     "deckImageHash": "8e9f01e303e0f7e001c005833cff7c5f7c1f3c8f3c08dc06fc0f6c0ffc08c80d",
     "name": "風間千景",
@@ -7789,6 +7807,15 @@
     "deckImageHash": "6002f83d3c1fe88ffc1ffc0ff802f000e827106f603ee03fe03fe00f98079c6e",
     "name": "司馬昭",
     "kanaName": "しばしょう",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "EX102",
+    "deckImageHash": "03c30ff11fd61d827800708b704f7c7f507e1260f266f237f031f006e7e087f8",
+    "name": "勾当内侍",
+    "kanaName": "こうとうのないし",
     "color": {
       "name": "琥"
     }
