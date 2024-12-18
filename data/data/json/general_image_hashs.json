@@ -1512,6 +1512,15 @@
     }
   },
   {
+    "no": "PL080",
+    "deckImageHash": "bfe339d9403c19210107001f3ffcfc747076f8e4ec00fe0c7034799963c7038f",
+    "name": "白起",
+    "kanaName": "はくき",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "ST002",
     "deckImageHash": "f050e07ee01ef01f004bc3ef03dcf1d8e858fb20d7c22fc0ff807c8011e81ff4",
     "name": "曹操",
@@ -3042,6 +3051,15 @@
     }
   },
   {
+    "no": "PL078",
+    "deckImageHash": "3bf09bfcc01ee090c007e1ffc0cf704539e13fe13ae73001b38fe397c2630423",
+    "name": "荘丹",
+    "kanaName": "そうたん",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "ST003",
     "deckImageHash": "0670de1cfe8e0e07005710ff00ff02ff9d393f207961fd00f984f1c0f1cc29f0",
     "name": "土方歳三",
@@ -4531,6 +4549,15 @@
     "deckImageHash": "07e71f8d1f6008e6005e783c7c30ffe0ffc27f003b424c46088e198f39ffe007",
     "name": "斎藤一",
     "kanaName": "さいとうはじめ",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "PL079",
+    "deckImageHash": "7fc0fe84fc02fc00703f7887ca01e7c1e7cf4147419ae18cf79de3bc800e80cc",
+    "name": "盗跖",
+    "kanaName": "とうせき",
     "color": {
       "name": "碧"
     }
