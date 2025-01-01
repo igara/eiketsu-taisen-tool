@@ -1,0 +1,43 @@
+{
+  "no": "PL081",
+  "appear": "第4弾-PL",
+  "id": "8d7b6105669a6dfb88f7047b975e1dc3",
+  "detailImageId": "e81f2c73410ab84f5acfb937943dd59a",
+  "name": "袁紹",
+  "kanaName": "えんしょう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "王者の大進軍",
+    "kanaName": "おうじゃのだいしんぐん",
+    "cost": "7",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>紫の味方の武力が上がる。ただし移動速度が下がる。一定以上武力が上がると、さらに攻城力が上がる",
+    "categories": [
+      "全体強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "33d0f0483e0363dfc723f9c0d459385a"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8d7b6105669a6dfb88f7047b975e1dc3",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3115"
+  }
+}

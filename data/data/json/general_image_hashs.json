@@ -3060,6 +3060,15 @@
     }
   },
   {
+    "no": "PL083",
+    "deckImageHash": "02403e787e3e7c3afc3fe0df800703c10df147a1ef8e07c007e10ff01ff80cf0",
+    "name": "曹操",
+    "kanaName": "そうそう",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "ST003",
     "deckImageHash": "0670de1cfe8e0e07005710ff00ff02ff9d393f207961fd00f984f1c0f1cc29f0",
     "name": "土方歳三",
@@ -6120,6 +6129,15 @@
     }
   },
   {
+    "no": "PL082",
+    "deckImageHash": "039703c11dbc7cf87ed07fe067880358a3fa87f885788330c839cdef088d89c9",
+    "name": "董卓",
+    "kanaName": "とうたく",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "紫001",
     "deckImageHash": "2ff36ff94278002801be603fe13afc6075050b0ff03fe00f430d333ae0fb80f9",
     "name": "浅井長政",
@@ -7141,6 +7159,15 @@
     "deckImageHash": "807f007301b1fff10ff807f807e917c07ff93fc007883e007e00fe03fe33e003",
     "name": "武田観柳",
     "kanaName": "たけだかんりゅう",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "PL081",
+    "deckImageHash": "fc90fcd07e027e027e2354c3f387e006e19f63de4206e1c1c0e0c1eff3c70037",
+    "name": "袁紹",
+    "kanaName": "えんしょう",
     "color": {
       "name": "紫"
     }
