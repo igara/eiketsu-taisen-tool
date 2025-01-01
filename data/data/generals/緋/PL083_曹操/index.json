@@ -1,0 +1,44 @@
+{
+  "no": "PL083",
+  "appear": "第4弾-PL",
+  "id": "bf55fe23e2447d11c0339c73afa714b1",
+  "detailImageId": "c83dc17456831310d7239da1c9051304",
+  "name": "曹操",
+  "kanaName": "そうそう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "曹孟徳の戦",
+    "kanaName": "そうもうとくのいくさ",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、突撃オーラ中のみ以下の短計を発動できる。短計で突撃を当てた時戦場の緋の味方の武力が上がる。ただし自身の効果が終了した時、この計略の効果は終了し、効果終了時に一定時間計略を使用できなくなる<br>短計・唯才【１】：移動速度が上がり、向いている方向に敵を弾く突撃を行う。突撃中は敵城に接触しても突撃オーラは消えない",
+    "categories": [
+      "強化",
+      "全体強化",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=bf55fe23e2447d11c0339c73afa714b1",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3117"
+  }
+}
