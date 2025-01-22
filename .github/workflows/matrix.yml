@@ -25,3 +25,13 @@ jobs:
       - name: base.json import (for ${{ matrix.platform }})
         run: |
           (cd data && npm i)
+
+      - name: Generate Job URL
+        id: generate-url
+        run: |
+          JOB_ID=$(echo $GITHUB_JOB)
+          echo "::set-output name=job-url::https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}/job/${JOB_ID}"
+
+      - name: JOB URL (for ${{ matrix.platform }})
+        run: |
+          echo "${{ steps.generate-url.outputs.job-url }}"
