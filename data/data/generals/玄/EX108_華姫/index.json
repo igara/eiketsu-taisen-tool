@@ -1,0 +1,47 @@
+{
+  "no": "EX108",
+  "appear": "第4弾-EX",
+  "id": "bd12b9b311fa04a607ef0f4b21127d32",
+  "detailImageId": "a5272f5cd7956eca5cd0222fd91772cb",
+  "name": "華姫",
+  "kanaName": "はなひめ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "一心同体",
+    "kanaName": "いっしんどうたい",
+    "cost": "4",
+    "description": "最も武力の高い玄の味方の武力と移動速度が上がる。ただし自身は移動と兵種アクションができなくなり、対象のいずれかの味方が撤退すると、対象の味方全てが撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=bd12b9b311fa04a607ef0f4b21127d32",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3121"
+  }
+}
