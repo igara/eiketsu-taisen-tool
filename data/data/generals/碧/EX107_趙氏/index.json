@@ -1,0 +1,47 @@
+{
+  "no": "EX107",
+  "appear": "第4弾-EX",
+  "id": "dd8788d28e0f8a96c88311968a44c90f",
+  "detailImageId": "347997990eae8e178c11093280da2f20",
+  "name": "趙氏",
+  "kanaName": "ちょうし",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "疾風大車輪",
+    "kanaName": "しっぷうだいしゃりん",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、全方向に槍の無敵攻撃を行う。さらに槍の無敵攻撃のダメージが上がる。ただし武力によるダメージが増加する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dd8788d28e0f8a96c88311968a44c90f",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3120"
+  }
+}

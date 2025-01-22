@@ -1,0 +1,42 @@
+{
+  "no": "EX106",
+  "appear": "第4弾-EX",
+  "id": "5cf64f54d86b6b806928460b072af1c0",
+  "detailImageId": "7bc2f7a5b159a7453e543b4a2244195e",
+  "name": "諏訪姫",
+  "kanaName": "すわひめ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "気品の祈り",
+    "kanaName": "きひんのいのり",
+    "cost": "3",
+    "description": "最も武力の高い味方の武力が上がり、敵を撃破するたびに敵城にダメージを与える",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5cf64f54d86b6b806928460b072af1c0",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3119"
+  }
+}

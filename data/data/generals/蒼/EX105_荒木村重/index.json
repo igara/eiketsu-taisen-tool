@@ -1,0 +1,43 @@
+{
+  "no": "EX105",
+  "appear": "第4弾-EX",
+  "id": "57d1ab0520c2f0e1cdf21accd9c7d3c2",
+  "detailImageId": "0418bb7bb31a4192e52c00fa65331dbe",
+  "name": "荒木村重",
+  "kanaName": "あらきむらしげ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "雲隠れの采配",
+    "kanaName": "くもがくれのさいはい",
+    "cost": "5",
+    "description": "自身を除く蒼の味方の武力が上がる。さらに自身は一瞬で城に戻る",
+    "categories": [
+      "全体強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=57d1ab0520c2f0e1cdf21accd9c7d3c2",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3118"
+  }
+}
