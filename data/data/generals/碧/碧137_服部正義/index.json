@@ -1,0 +1,47 @@
+{
+  "no": "碧137",
+  "appear": "第4弾-2",
+  "id": "f43d9bed5b32fa4805e2bcb0b3e67962",
+  "detailImageId": "db3e24bbecf2f8fbcf0eff1d1a7de73f",
+  "name": "服部正義",
+  "kanaName": "はっとりまさよし",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "疾風の忍采配",
+    "kanaName": "しっぷうのしのびさいはい",
+    "cost": "4",
+    "description": "味方の移動速度が上がる。特技「忍」を持つ味方であれば、さらに移動速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "7",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f43d9bed5b32fa4805e2bcb0b3e67962",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3169"
+  }
+}

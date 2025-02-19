@@ -1,0 +1,36 @@
+{
+  "no": "紫096",
+  "appear": "第4弾-2",
+  "id": "14438d48f3409876c94ee073c276e315",
+  "detailImageId": "93b7959d23fb67997c7214bf25533e3a",
+  "name": "小笠原貞宗",
+  "kanaName": "おがさわらさだむね",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "小笠原流弓法",
+    "kanaName": "おがさわらりゅうきゅうほう",
+    "cost": "5",
+    "description": "紫の味方の武力が上がる。さらに自身の武力と移動速度と走射中の弓攻撃のダメージが上がり、走射間隔が短くなる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=14438d48f3409876c94ee073c276e315",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3183"
+  }
+}

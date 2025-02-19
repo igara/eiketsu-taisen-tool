@@ -1,0 +1,36 @@
+{
+  "no": "紫097",
+  "appear": "第4弾-2",
+  "id": "fdce056e847bccf2e4e92d9fbb24f6c9",
+  "detailImageId": "887020b88720c7067198ad0f6a651f53",
+  "name": "韓非",
+  "kanaName": "かんぴ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "法術",
+    "kanaName": "ほうじゅつ",
+    "cost": "3",
+    "description": "最も武力の低い敵の計略を封印する",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fdce056e847bccf2e4e92d9fbb24f6c9",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3184"
+  }
+}

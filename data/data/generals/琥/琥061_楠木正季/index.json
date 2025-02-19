@@ -18,7 +18,7 @@
     "name": "七生報国",
     "kanaName": "しちしょうほうこく",
     "cost": "4",
-    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がり、兵種アクションによる流派ゲージの上昇量が増加する<br>３消費：さらに流派ゲージが上昇する",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がり、基本兵種アクションによる流派ゲージの上昇量が増加する<br>３消費：さらに流派ゲージが上昇する",
     "categories": [
       "強化",
       "琥煌"
@@ -40,7 +40,7 @@
       "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
     }
   ],
-  "kabuki": "6",
+  "kabuki": "12",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eb09bebd900ebb6ce8bb508d1224b165",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1894.html",

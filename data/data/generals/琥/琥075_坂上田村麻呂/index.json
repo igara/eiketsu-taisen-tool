@@ -1,0 +1,45 @@
+{
+  "no": "琥075",
+  "appear": "第4弾-2",
+  "id": "71e44440d7f6d078b3a7a354d178c562",
+  "detailImageId": "62a1ffe68ce87cd788de32956bcb2e62",
+  "name": "坂上田村麻呂",
+  "kanaName": "さかのうえのたむらまろ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "平安",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "平安京の守護神",
+    "kanaName": "へいあんきょうのしゅごしん",
+    "cost": "7",
+    "description": "【陣形】【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の武力が上がる<br>３消費：さらに自身が敵城に近いほど武力が上がり、自身の兵力が徐々に回復する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "陣形",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "9",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=71e44440d7f6d078b3a7a354d178c562",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3142"
+  }
+}

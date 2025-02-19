@@ -18,7 +18,7 @@
     "name": "大西郷の琥号",
     "kanaName": "だいさいごうのこごう",
     "cost": "8",
-    "description": "【琥煌：最大消費６】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の武力が上がる<br>３消費：さらに移動速度が上がる<br>６消費：さらに兵種アクションのダメージが上がる",
+    "description": "【琥煌：最大消費６】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の武力が上がる<br>３消費：さらに移動速度が上がる<br>６消費：さらに基本兵種アクションのダメージが上がる",
     "categories": [
       "全体強化",
       "琥煌"
@@ -29,7 +29,7 @@
   "power": "10",
   "intelligentzia": "7",
   "skill": [],
-  "kabuki": "12",
+  "kabuki": "8",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ae4ddcca3f0a22443f3dd11d2e29eec",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1327.html",

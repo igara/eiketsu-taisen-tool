@@ -1,0 +1,52 @@
+{
+  "no": "紫107",
+  "appear": "第4弾-2",
+  "id": "3204cbe25ee8f1362e15ed18aea045c5",
+  "detailImageId": "633ab61aa2a2f73cf12e6aa979e19662",
+  "name": "劉備",
+  "kanaName": "りゅうび",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "漢中王の大望",
+    "kanaName": "かんちゅうおうのたいもう",
+    "cost": "5",
+    "description": "紫の味方の武力と知力が上がる。この計略は、計略【渾身】を、効果が大きい状態で一定回数発動している時のみ使用できる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "6",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3204cbe25ee8f1362e15ed18aea045c5",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3132"
+  }
+}

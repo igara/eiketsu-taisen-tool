@@ -1,0 +1,36 @@
+{
+  "no": "EX119",
+  "appear": "第4弾-EX",
+  "id": "a000ee087ea7a82c80b7ca8278bd4f1c",
+  "detailImageId": "da559ee2c7c1ffe90adedc5913433323",
+  "name": "孫堅",
+  "kanaName": "そんけん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "縮地の神速行",
+    "kanaName": "しゅくちのしんそくこう",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、戦場に出現する。この計略は城内にいる時のみ使用できる",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a000ee087ea7a82c80b7ca8278bd4f1c"
+  }
+}

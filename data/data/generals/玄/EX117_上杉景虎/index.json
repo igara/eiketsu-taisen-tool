@@ -1,0 +1,41 @@
+{
+  "no": "EX117",
+  "appear": "第4弾-EX",
+  "id": "8723c9297ea35c3311004095b5a38e6d",
+  "detailImageId": "fc3e92e01a415e8443d289624ac879cd",
+  "name": "上杉景虎",
+  "kanaName": "うえすぎかげとら",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "華麗なる采配",
+    "kanaName": "かれいなるさいはい",
+    "cost": "6",
+    "description": "味方の武力が上がる。この効果は対象の特技「昂揚」を持つ味方部隊数が多いほど大きい",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8723c9297ea35c3311004095b5a38e6d"
+  }
+}

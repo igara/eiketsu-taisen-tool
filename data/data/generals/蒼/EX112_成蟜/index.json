@@ -1,0 +1,36 @@
+{
+  "no": "EX112",
+  "appear": "第4弾-EX",
+  "id": "f264c71ecffcbdb312e9f2386a2a7cc3",
+  "detailImageId": "a83de54780799b7e4c6a7fffa081db99",
+  "name": "成蟜",
+  "kanaName": "せいきょう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "王弟の意志",
+    "kanaName": "おうていのいし",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の武力が上がる。さらに覇道が前進するたびに範囲が大きくなる。ただし範囲が徐々に小さくなり、一定の大きさを下回ると効果が終了する",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f264c71ecffcbdb312e9f2386a2a7cc3"
+  }
+}

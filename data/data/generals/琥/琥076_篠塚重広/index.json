@@ -1,0 +1,44 @@
+{
+  "no": "琥076",
+  "appear": "第4弾-2",
+  "id": "28348fb3883f3c15b183d58183c3a435",
+  "detailImageId": "7615e54c70945be0989f5dfa519acd4a",
+  "name": "篠塚重広",
+  "kanaName": "しのづかしげひろ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "琥煌戦法",
+    "kanaName": "ここうせんぽう",
+    "cost": "4",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がる<br>３消費：さらに兵力が回復する",
+    "categories": [
+      "強化",
+      "回復",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=28348fb3883f3c15b183d58183c3a435",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3197"
+  }
+}

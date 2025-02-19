@@ -1,0 +1,43 @@
+{
+  "no": "緋142",
+  "appear": "第4弾-2",
+  "id": "8fec776a246d3a55098df02f1d07e207",
+  "detailImageId": "4df61fc184e384ca3eaf24ac218bd394",
+  "name": "武田信武",
+  "kanaName": "たけだのぶたけ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "梓弓の陣",
+    "kanaName": "あずさゆみのじん",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の武力が上がる。さらに自身より前にいる味方部隊数が多いほど自身の移動速度が上がり、後ろにいる味方部隊数が多いほど自身の武力が上がる",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8fec776a246d3a55098df02f1d07e207",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3162"
+  }
+}

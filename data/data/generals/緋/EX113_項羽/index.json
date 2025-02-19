@@ -1,0 +1,41 @@
+{
+  "no": "EX113",
+  "appear": "第4弾-EX",
+  "id": "278fffc8a882b08e605c8af39c2158d3",
+  "detailImageId": "c1a467537bba0ad50cd62c37c4f83a16",
+  "name": "項羽",
+  "kanaName": "こうう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "春秋戦国",
+  "cost": "4.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "抜山蓋世",
+    "kanaName": "ばつざんがいせい",
+    "cost": "7",
+    "description": "武力と移動速度と槍撃ダメージが上がる。さらに敵を撃破するたびに覇道が前進する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "12",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=278fffc8a882b08e605c8af39c2158d3"
+  }
+}

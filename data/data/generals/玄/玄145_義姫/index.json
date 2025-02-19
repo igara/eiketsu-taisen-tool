@@ -1,0 +1,43 @@
+{
+  "no": "玄145",
+  "appear": "第4弾-2",
+  "id": "92371fd5423e0175828fe1aa18cb220f",
+  "detailImageId": "c70e84e7b9653daa8ec9fd55f8c5254d",
+  "name": "義姫",
+  "kanaName": "よしひめ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "疑念の舞い",
+    "kanaName": "ぎねんのまい",
+    "cost": "5",
+    "description": "【舞い】（発動すると移動と兵種アクションができなくなる。自身は自身の舞いの効果を受けない）<br>敵の計略の必要士気を上げる。この効果は必要士気１５を上限とする",
+    "categories": [
+      "妨害",
+      "舞い"
+    ],
+    "time": "撤退するまで",
+    "range": "4d3caffa4b65d477e2065a8e4524774e"
+  },
+  "power": "1",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=92371fd5423e0175828fe1aa18cb220f",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3182"
+  }
+}

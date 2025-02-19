@@ -18,7 +18,7 @@
     "name": "加流の祈り",
     "kanaName": "かりゅうのいのり",
     "cost": "3",
-    "description": "最も武力の高い味方の武力が上がり、兵種アクションによる流派ゲージの上昇量が増加する",
+    "description": "最も武力の高い味方の武力が上がり、基本兵種アクションによる流派ゲージの上昇量が増加する",
     "categories": [
       "強化"
     ],
@@ -34,7 +34,7 @@
       "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
     }
   ],
-  "kabuki": "16",
+  "kabuki": "15",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1c8fd561e95035c1190fef322ff213f2",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/440.html",

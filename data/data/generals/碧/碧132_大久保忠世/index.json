@@ -1,0 +1,37 @@
+{
+  "no": "碧132",
+  "appear": "第4弾-2",
+  "id": "2ccd525d09b774be02e9ba77a958c429",
+  "detailImageId": "df679d4840051b85beb4fca5163883eb",
+  "name": "大久保忠世",
+  "kanaName": "おおくぼただよ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "短計・装填",
+    "kanaName": "たんけい・そうてん",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>残弾数が回復する。この短計は残弾数が０の時のみ使用できる",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ccd525d09b774be02e9ba77a958c429",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3165"
+  }
+}

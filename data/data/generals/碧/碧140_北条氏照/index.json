@@ -1,0 +1,42 @@
+{
+  "no": "碧140",
+  "appear": "第4弾-2",
+  "id": "dfc12c28996301a0654e75ceb7f72df7",
+  "detailImageId": "7f67b2d531db4347760ab3bdc6729acc",
+  "name": "北条氏照",
+  "kanaName": "ほうじょううじてる",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "如意成就の響奏",
+    "kanaName": "にょいじょうじゅのきょうそう",
+    "cost": "5",
+    "description": "碧の味方の武力が上がる。対象の味方の兵種数が一定以上の場合、さらに武力と知力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dfc12c28996301a0654e75ceb7f72df7",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3172"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "no": "蒼140",
+  "appear": "第4弾-2",
+  "id": "d4130ca4bb27c5ffafb669eb6150bae4",
+  "detailImageId": "71dd6e3060b000f865a9387249977b9c",
+  "name": "フビライ・ハン",
+  "kanaName": "フビライ・ハン",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "侵略の炎火",
+    "kanaName": "しんりゃくのえんか",
+    "cost": "5",
+    "description": "武力と知力と移動速度が上がり、矢を当てている敵の武力と知力を下げる。さらに以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・てつはう【１】：向いている方向に知力によるダメージを与えるてつはうを発射する。ダメージは互いの知力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d4130ca4bb27c5ffafb669eb6150bae4",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3126"
+  }
+}

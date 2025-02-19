@@ -1,0 +1,42 @@
+{
+  "no": "紫105",
+  "appear": "第4弾-2",
+  "id": "1fdd8b6f8cd4eb23f4037b8ba41e36df",
+  "detailImageId": "737a183afaf7ca6bf87d19df26f5cee9",
+  "name": "土岐頼遠",
+  "kanaName": "ときよりとお",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "暴将の狼藉",
+    "kanaName": "ぼうしょうのろうぜき",
+    "cost": "5",
+    "description": "戦場にいる敵部隊数が撤退していない味方部隊数より多いほど武力が上がる。一定以上武力が上がると、さらに移動速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1fdd8b6f8cd4eb23f4037b8ba41e36df",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3191"
+  }
+}

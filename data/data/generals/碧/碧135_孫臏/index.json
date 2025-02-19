@@ -1,0 +1,44 @@
+{
+  "no": "碧135",
+  "appear": "第4弾-2",
+  "id": "e0ad4422071e5149d65a940ec4a48934",
+  "detailImageId": "21bfe3ac8d70297ad2f40511908181be",
+  "name": "孫臏",
+  "kanaName": "そんぴん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "孫臏兵法",
+    "kanaName": "そんぴんへいほう",
+    "cost": "7",
+    "description": "【拠点】（発動すると弓攻撃を行う拠点が設置される。拠点は同時に複数設置できず、耐久力が０になると破壊される）<br>一定時間ごとに拠点から接触した味方の武力と移動速度が上がり、味方にかかっている敵の計略効果を消す波紋が発生する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "11",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e0ad4422071e5149d65a940ec4a48934",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3138"
+  }
+}

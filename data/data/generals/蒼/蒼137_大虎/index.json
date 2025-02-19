@@ -1,0 +1,42 @@
+{
+  "no": "蒼137",
+  "appear": "第4弾-2",
+  "id": "8268f035b13bb1e0d5282c1e39bd43e9",
+  "detailImageId": "f87a866b0603ce37b31a29b994d8f7af",
+  "name": "大虎",
+  "kanaName": "だいこ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "奸邪なる戯れ",
+    "kanaName": "かんじゃなるたわむれ",
+    "cost": "4",
+    "description": "敵の計略を封印する。対象の敵の計略が封印されている場合、さらに武力と移動速度を下げる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8268f035b13bb1e0d5282c1e39bd43e9",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3150"
+  }
+}

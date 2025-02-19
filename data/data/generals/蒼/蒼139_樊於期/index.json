@@ -1,0 +1,42 @@
+{
+  "no": "蒼139",
+  "appear": "第4弾-2",
+  "id": "1782159dccf1c02fbe25059d48828c48",
+  "detailImageId": "43077b7c672951b300ed7e3c6627b832",
+  "name": "樊於期",
+  "kanaName": "はんおき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "狡猾なる狩猟",
+    "kanaName": "こうかつなるしゅりょう",
+    "cost": "3",
+    "description": "武力と移動速度が上がる。さらに敵の弓攻撃と射撃の射程内にいる場合、自身が敵の弓攻撃と射撃の対象になる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1782159dccf1c02fbe25059d48828c48",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3152"
+  }
+}

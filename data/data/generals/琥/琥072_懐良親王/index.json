@@ -1,0 +1,38 @@
+{
+  "no": "琥072",
+  "appear": "第4弾-2",
+  "id": "aa81472f476482f90eb15d75a91fd7cc",
+  "detailImageId": "22555e65ecd5d0b4ef7e451aeab01bda",
+  "name": "懐良親王",
+  "kanaName": "かねよししんのう",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "金烏の御旗",
+    "kanaName": "きんうのみはた",
+    "cost": "5",
+    "description": "【拠点】【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>拠点の弓攻撃のダメージが上がる<br>３消費：さらに一定時間ごとに拠点から接触した敵の武力を下げる波紋が発生する",
+    "categories": [
+      "妨害",
+      "琥煌",
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aa81472f476482f90eb15d75a91fd7cc",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3195"
+  }
+}

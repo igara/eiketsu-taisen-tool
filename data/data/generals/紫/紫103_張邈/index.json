@@ -1,0 +1,37 @@
+{
+  "no": "紫103",
+  "appear": "第4弾-2",
+  "id": "80c4f690a79f8e5f17ae4c39ec20d4a8",
+  "detailImageId": "b03d4d1e877ef495ab2d7a5ec38a5df7",
+  "name": "張邈",
+  "kanaName": "ちょうばく",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "不信の友将",
+    "kanaName": "ふしんのゆうしょう",
+    "cost": "5",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力が上がり、全方向に槍の無敵攻撃を行う。一定以上武力が上がると、さらに戦場にいる間武力が徐々に上がり、効果終了時に自軍の士気が上がる",
+    "categories": [
+      "強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80c4f690a79f8e5f17ae4c39ec20d4a8",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3189"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "no": "玄135",
+  "appear": "第4弾-2",
+  "id": "472c53d4705a4e83639bc3b94ad52a81",
+  "detailImageId": "fddac8b17bd871f35a1c6a1869186cee",
+  "name": "五郎八姫",
+  "kanaName": "いろはひめ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "竜姫の覇道",
+    "kanaName": "りゅうきのはどう",
+    "cost": "7",
+    "description": "【竜騎馬】（速度を保った状態で一定距離を移動することで竜突オーラを纏い、竜突可能状態になる。さらに移動しながら扇状の範囲に竜射を行うようになる）<br>玄の味方の武力が上がる。さらに自身の兵種が竜騎馬になり、武力と弾数の回復速度が上がる",
+    "categories": [
+      "全体強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=472c53d4705a4e83639bc3b94ad52a81",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3128"
+  }
+}

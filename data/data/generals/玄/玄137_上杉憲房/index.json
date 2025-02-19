@@ -1,0 +1,42 @@
+{
+  "no": "玄137",
+  "appear": "第4弾-2",
+  "id": "6c8b67fc45f684e054c4cc1a7f49791a",
+  "detailImageId": "126b4edaed56fdb78a9edd506a6f2496",
+  "name": "上杉憲房",
+  "kanaName": "うえすぎのりふさ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "始祖の共振",
+    "kanaName": "しそのきょうしん",
+    "cost": "7",
+    "description": "玄の味方の武力と移動速度が上がる。さらに対象の味方の槍兵の武将コストの合計値が高いほど移動速度が上がり、それ以外の兵種の武将コストの合計値が高いほど武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6c8b67fc45f684e054c4cc1a7f49791a",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3127"
+  }
+}

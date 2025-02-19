@@ -1,0 +1,42 @@
+{
+  "no": "碧141",
+  "appear": "第4弾-2",
+  "id": "e25d241d51dba9bb135952bd20e02be2",
+  "detailImageId": "4931fa8aaacd9cf7fbb379b6d40309bb",
+  "name": "北条氏直",
+  "kanaName": "ほうじょううじなお",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "三鱗の采配",
+    "kanaName": "さんりんのさいはい",
+    "cost": "7",
+    "description": "碧の味方の武力が上がる。さらに発動時の覇道の位置に応じて以下の効果を得る<br>敵陣：乱戦中も攻城ゲージが増えるようになる<br>自陣：敵にダメージを与えるたびに攻城ゲージを下げる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e25d241d51dba9bb135952bd20e02be2",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3136"
+  }
+}

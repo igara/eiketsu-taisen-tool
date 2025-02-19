@@ -18,7 +18,7 @@
     "name": "撹乱の砲火",
     "kanaName": "かくらんのほうか",
     "cost": "4",
-    "description": "【竜騎馬】（移動しながら扇状の範囲に射撃を行うようになる。この射撃は突撃でキャンセルされない）<br>武力が上がり、兵種が竜騎馬になる。さらに射撃を当てた敵の知力を一定時間下げる",
+    "description": "【竜騎馬】（速度を保った状態で一定距離を移動することで竜突オーラを纏い、竜突可能状態になる。さらに移動しながら扇状の範囲に竜射を行うようになる）<br>武力が上がり、兵種が竜騎馬になる。さらに竜射を当てた敵の知力を一定時間下げる",
     "categories": [
       "強化",
       "特殊"
@@ -40,7 +40,7 @@
       "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
     }
   ],
-  "kabuki": "8",
+  "kabuki": "24",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f1dc60266a96791a2762d0f49b92dbd8",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1872.html",

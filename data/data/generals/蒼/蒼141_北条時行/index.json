@@ -1,0 +1,52 @@
+{
+  "no": "蒼141",
+  "appear": "第4弾-2",
+  "id": "4be2ec05d4aaefcd95c99e5a138e1a50",
+  "detailImageId": "7475e10cf6f0369698f3dce41bfd57d7",
+  "name": "北条時行",
+  "kanaName": "ほうじょうときゆき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "七転八起",
+    "kanaName": "しちてんはっき",
+    "cost": "5",
+    "description": "武力が上がる。さらに撤退するたびに武力が上がる。この効果は撤退しても継続する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4be2ec05d4aaefcd95c99e5a138e1a50",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3145"
+  }
+}
