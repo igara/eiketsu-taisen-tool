@@ -1,0 +1,43 @@
+{
+  "no": "蒼138",
+  "appear": "第4弾-2",
+  "id": "64ced5f7a3ecf8f00e42220fa4c2b541",
+  "detailImageId": "59de2f8a384869c44c9870c1270ac3e5",
+  "name": "趙高",
+  "kanaName": "ちょうこう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "短計・設櫓",
+    "kanaName": "たんけい・せつろ",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>櫓を設置する。この短計は敵城に接触していない時のみ発動できる",
+    "categories": [
+      "特殊",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=64ced5f7a3ecf8f00e42220fa4c2b541",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3151"
+  }
+}

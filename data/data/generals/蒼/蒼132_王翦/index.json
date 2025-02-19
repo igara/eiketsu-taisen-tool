@@ -1,0 +1,43 @@
+{
+  "no": "蒼132",
+  "appear": "第4弾-2",
+  "id": "ed98a90ea37ee3556aada9ff713a3bf6",
+  "detailImageId": "8e9406bc5eb1d813e821a8fb49a3c560",
+  "name": "王翦",
+  "kanaName": "おうせん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "三元の戦",
+    "kanaName": "さんげんのいくさ",
+    "cost": "7",
+    "description": "蒼の味方の武力と移動速度が上がる。さらに対象の味方の兵種ごとの武将コストの合計値に応じて以下の効果を得る<br>騎兵：基本兵種アクションによる流派ゲージの上昇量が増加する<br>槍兵・剣豪：兵力が徐々に回復する<br>弓兵・鉄砲隊：攻城力が上がる",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ed98a90ea37ee3556aada9ff713a3bf6",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3125"
+  }
+}

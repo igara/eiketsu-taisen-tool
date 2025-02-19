@@ -1,0 +1,36 @@
+{
+  "no": "碧142",
+  "appear": "第4弾-2",
+  "id": "a76018c37a7057cfce0b43b7e1aa57a0",
+  "detailImageId": "53c9033cab594dfcf106b5a97ead8015",
+  "name": "松平信綱",
+  "kanaName": "まつだいらのぶつな",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "神策の号令",
+    "kanaName": "しんさくのごうれい",
+    "cost": "5",
+    "description": "碧の味方の武力と移動速度が上がる。さらに敵を撃破するたびに流派ゲージが上昇する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "10",
+  "skill": [],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a76018c37a7057cfce0b43b7e1aa57a0",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3173"
+  }
+}

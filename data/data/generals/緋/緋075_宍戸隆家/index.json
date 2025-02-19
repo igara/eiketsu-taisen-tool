@@ -18,7 +18,7 @@
     "name": "五龍王の加勢",
     "kanaName": "ごりゅうおうのかせい",
     "cost": "4",
-    "description": "最も武力の高い味方の武力が上がり、兵種アクションが強化される",
+    "description": "最も武力の高い味方の武力が上がり、基本兵種アクションが強化される",
     "categories": [
       "強化"
     ],
@@ -34,7 +34,7 @@
       "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
     }
   ],
-  "kabuki": "12",
+  "kabuki": "8",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=511cc144a7d1559da0f496cb6d1dc140",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/944.html",

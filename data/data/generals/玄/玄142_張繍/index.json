@@ -1,0 +1,43 @@
+{
+  "no": "玄142",
+  "appear": "第4弾-2",
+  "id": "f7b4ca4156c5e073e755548b1363f8cc",
+  "detailImageId": "23f68d5796994b55568b2d8b385f0be3",
+  "name": "張繍",
+  "kanaName": "ちょうしゅう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "短計・剣弓変化",
+    "kanaName": "たんけい・けんきゅうへんか",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>自身の兵種が剣豪であれば弓兵に、それ以外であれば剣豪に変化する",
+    "categories": [
+      "特殊",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f7b4ca4156c5e073e755548b1363f8cc",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3180"
+  }
+}

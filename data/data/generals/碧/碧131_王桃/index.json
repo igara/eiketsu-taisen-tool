@@ -1,0 +1,48 @@
+{
+  "no": "碧131",
+  "appear": "第4弾-2",
+  "id": "3c24a83bff8b31e781d2ba034e9e81ef",
+  "detailImageId": "7133ce0f2b708b7292c71bf9f03dd2a6",
+  "name": "王桃",
+  "kanaName": "おうとう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "盗賊の悪戯",
+    "kanaName": "とうぞくのいたずら",
+    "cost": "4",
+    "description": "最も武力の低い敵を自身に向かってくるようにする。さらに対象の敵が撤退すると味方の兵力が回復する",
+    "categories": [
+      "回復",
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3c24a83bff8b31e781d2ba034e9e81ef",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3137"
+  }
+}

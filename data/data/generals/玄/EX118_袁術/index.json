@@ -1,0 +1,42 @@
+{
+  "no": "EX118",
+  "appear": "第4弾-EX",
+  "id": "8b783e29e112b4a82463cb7c1b424b4a",
+  "detailImageId": "bdfffedc31b39f21d289e1f34ee02a7b",
+  "name": "袁術",
+  "kanaName": "えんじゅつ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "偽帝大爆発！",
+    "kanaName": "ぎていだいばくはつ",
+    "cost": "5",
+    "description": "武力と知力が上がり、巨大化する。ただし斬撃ができなくなる。さらに効果終了時に自身が撤退していない場合、接触中の敵に知力によるダメージを与える。ダメージは互いの知力で上下する。ただし自身は撤退する",
+    "categories": [
+      "強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8b783e29e112b4a82463cb7c1b424b4a"
+  }
+}

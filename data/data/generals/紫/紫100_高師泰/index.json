@@ -1,0 +1,44 @@
+{
+  "no": "紫100",
+  "appear": "第4弾-2",
+  "id": "539019b50e85688f2d59c774da8a630e",
+  "detailImageId": "1a842e635ba82f14f27541907fadc73c",
+  "name": "高師泰",
+  "kanaName": "こうのもろやす",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "以武為貴",
+    "kanaName": "ぶをもってとうとしとなす",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>武力と移動速度が上がる。さらに範囲内の最も武将コストの高い敵の武力と移動速度を下げ、対象の敵が撤退すると自身の武力と移動速度が上がる。ただし撤退すると自軍の士気が下がる",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=539019b50e85688f2d59c774da8a630e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3186"
+  }
+}

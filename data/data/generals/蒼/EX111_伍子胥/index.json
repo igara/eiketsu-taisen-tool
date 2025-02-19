@@ -1,0 +1,36 @@
+{
+  "no": "EX111",
+  "appear": "第4弾-EX",
+  "id": "8d2e86cb69318c6bad7b459b235c4ffc",
+  "detailImageId": "da99bd1d9e354043549c209311fa0c33",
+  "name": "伍子胥",
+  "kanaName": "ごししょ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "不倶戴天",
+    "kanaName": "ふぐたいてん",
+    "cost": "4",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>武力と移動速度が上がり、敵を撃破すると復活時間が増加する",
+    "categories": [
+      "強化",
+      "ため計略"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8d2e86cb69318c6bad7b459b235c4ffc"
+  }
+}

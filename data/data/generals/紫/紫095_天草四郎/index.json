@@ -1,0 +1,54 @@
+{
+  "no": "紫095",
+  "appear": "第4弾-2",
+  "id": "6e911dcc9466cfd2d5238ef91a316b8d",
+  "detailImageId": "b5c30c91dc27b4f8850aab6b64e1e557",
+  "name": "天草四郎",
+  "kanaName": "あまくさしろう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "3.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "救世主の奇蹟",
+    "kanaName": "きゅうせいしゅのきせき",
+    "cost": "7",
+    "description": "江戸・幕末の味方の武力が上がり、自身の武力と知力が上がる。さらに旋回操作を行うと、カードの位置に知力によるダメージを与え、敵城門に当たると敵城にダメージを与える焙烙による攻撃を行うようになる。ダメージは互いの知力で上下する。ただし、自身は移動と兵種アクションができなくなり、攻城中は旋回操作を行えなくなる",
+    "categories": [
+      "強化",
+      "全体強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6e911dcc9466cfd2d5238ef91a316b8d",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3131"
+  }
+}

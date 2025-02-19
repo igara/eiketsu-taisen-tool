@@ -1,0 +1,42 @@
+{
+  "no": "紫106",
+  "appear": "第4弾-2",
+  "id": "57bedf0e7eb4563b04279ac83a7ecb0e",
+  "detailImageId": "2dee3bb2813d3c820435acba690cc013",
+  "name": "桃井直常",
+  "kanaName": "もものいただつね",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "鬼神の武舞",
+    "kanaName": "きしんのぶまい",
+    "cost": "3",
+    "description": "武力と移動速度が上がる。ただし敵を撃破すると効果が終了する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=57bedf0e7eb4563b04279ac83a7ecb0e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3192"
+  }
+}

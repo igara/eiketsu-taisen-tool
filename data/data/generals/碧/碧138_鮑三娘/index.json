@@ -1,0 +1,48 @@
+{
+  "no": "碧138",
+  "appear": "第4弾-2",
+  "id": "7af28edec7b99e9654edb2b0a53c78a8",
+  "detailImageId": "be9e97127faa33ee4a57ae5524fc0f00",
+  "name": "鮑三娘",
+  "kanaName": "ほうさんじょう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "戦女の息吹",
+    "kanaName": "せんじょのいぶき",
+    "cost": "4",
+    "description": "碧の味方の知力が上がり、兵力が上限を超えて徐々に回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "4",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7af28edec7b99e9654edb2b0a53c78a8",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3170"
+  }
+}

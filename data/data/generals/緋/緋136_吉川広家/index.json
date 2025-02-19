@@ -1,0 +1,44 @@
+{
+  "no": "緋136",
+  "appear": "第4弾-2",
+  "id": "c5c5c91ac7abb3afc4ca2711744ea93b",
+  "detailImageId": "2d4a44328355ca14eb341134d4dead7e",
+  "name": "吉川広家",
+  "kanaName": "きっかわひろいえ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "不動の障壁",
+    "kanaName": "ふどうのしょうへき",
+    "cost": "6",
+    "description": "移動速度が上がり、自身を除く敵と味方の移動速度を下げる。さらに対象の味方部隊数が多いほど武力が上がり、対象の敵部隊数が多いほど兵力が回復する",
+    "categories": [
+      "強化",
+      "回復",
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c5c5c91ac7abb3afc4ca2711744ea93b",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3135"
+  }
+}

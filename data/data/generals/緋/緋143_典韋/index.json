@@ -1,0 +1,53 @@
+{
+  "no": "緋143",
+  "appear": "第4弾-2",
+  "id": "aa5e27dfcffdac36d85cd533c493dcb4",
+  "detailImageId": "65de7a372cf0747ce640a53a2f90bdee",
+  "name": "典韋",
+  "kanaName": "てんい",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "死地の抗戦",
+    "kanaName": "しちのこうせん",
+    "cost": "6",
+    "description": "味方の武力によるダメージを軽減する。さらに自身の武力と移動速度が上がり、敵と接触している間武力が徐々に上がる",
+    "categories": [
+      "強化",
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aa5e27dfcffdac36d85cd533c493dcb4",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3163"
+  }
+}

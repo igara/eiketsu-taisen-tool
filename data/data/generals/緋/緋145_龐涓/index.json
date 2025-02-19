@@ -1,0 +1,38 @@
+{
+  "no": "緋145",
+  "appear": "第4弾-2",
+  "id": "737e7d037af4b48d923946c609a756cf",
+  "detailImageId": "3ff5dbf46858ebb8b97a32da591987b2",
+  "name": "龐涓",
+  "kanaName": "ほうけん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "憎悪の嫉炎",
+    "kanaName": "ぞうおのしつえん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力と知力が上がる。さらに敵の知力を下げ、知力による戦闘ダメージを受けるようにする",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "9",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=737e7d037af4b48d923946c609a756cf",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3164"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "no": "琥082",
+  "appear": "第4弾-2",
+  "id": "86289b72017c548355ca0100e83ca716",
+  "detailImageId": "4537081b46db2d8d828b1fc9c07469cc",
+  "name": "脇屋義助",
+  "kanaName": "わきやよしすけ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "琥煌の共闘",
+    "kanaName": "ここうのきょうとう",
+    "cost": "5",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>自身と、自身を除く最も武力の高い琥の味方の武力が上がる<br>３消費：さらに移動速度が上がる",
+    "categories": [
+      "全体強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=86289b72017c548355ca0100e83ca716",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3201"
+  }
+}

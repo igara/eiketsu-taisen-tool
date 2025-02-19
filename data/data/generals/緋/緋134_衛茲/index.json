@@ -1,0 +1,37 @@
+{
+  "no": "緋134",
+  "appear": "第4弾-2",
+  "id": "64808d9726bfc6eaa747f15ee8a00540",
+  "detailImageId": "0cedfacee861acb7cc052f4a9e01e865",
+  "name": "衛茲",
+  "kanaName": "えいじ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "継戦の堅塁",
+    "kanaName": "けいせんのけんるい",
+    "cost": "4",
+    "description": "【拠点】（発動すると弓攻撃を行う拠点が設置される。拠点は同時に複数設置できず、耐久力が０になると破壊される）<br>一定時間ごとに拠点から接触した味方の武力によるダメージを軽減する波紋が発生する",
+    "categories": [
+      "全体強化",
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=64808d9726bfc6eaa747f15ee8a00540",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3157"
+  }
+}

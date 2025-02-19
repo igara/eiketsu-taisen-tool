@@ -18,7 +18,7 @@
     "name": "五龍王神楽",
     "kanaName": "ごりゅうおうかぐら",
     "cost": "3",
-    "description": "最も武力の高い味方の武力と兵種アクションのダメージが上がる",
+    "description": "最も武力の高い味方の武力と基本兵種アクションのダメージが上がる",
     "categories": [
       "強化"
     ],
@@ -34,7 +34,7 @@
       "description": "開戦から一定時間、武力と知力が上がります"
     }
   ],
-  "kabuki": "8",
+  "kabuki": "4",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aef45c00d64423530f767ce628ab3c1c",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/942.html",

@@ -18,7 +18,7 @@
     "name": "如来の光盾",
     "kanaName": "にょらいのこうじゅん",
     "cost": "7",
-    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>玄の味方の武力が上がり、兵力が徐々に回復する。さらに向いている方向に射撃を無効化する盾が出現する",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>玄の味方の武力が上がり、兵力が徐々に回復する。さらに向いている方向に射撃と竜射を無効化する盾が出現する",
     "categories": [
       "全体強化",
       "回復",
@@ -41,7 +41,7 @@
       "description": "コストに応じて士気が増加した状態で開戦します"
     }
   ],
-  "kabuki": "8",
+  "kabuki": "12",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d90fa2ad39f56572768ed7102222bea5",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1278.html",

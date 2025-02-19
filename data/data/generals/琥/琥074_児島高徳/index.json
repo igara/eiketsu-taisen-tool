@@ -1,0 +1,42 @@
+{
+  "no": "琥074",
+  "appear": "第4弾-2",
+  "id": "b53fd19641bf2af93282d060120f5d35",
+  "detailImageId": "28c58a2424dd54d6bb59899092356cbe",
+  "name": "児島高徳",
+  "kanaName": "こじまたかのり",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "桜の詩",
+    "kanaName": "さくらのうた",
+    "cost": "3",
+    "description": "琥の味方の武力が上がる。さらに効果終了時に自身が撤退していない場合、琥煌ゲージが増加する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b53fd19641bf2af93282d060120f5d35",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3196"
+  }
+}

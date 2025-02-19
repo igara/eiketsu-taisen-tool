@@ -1,0 +1,47 @@
+{
+  "no": "蒼143",
+  "appear": "第4弾-2",
+  "id": "4ad2fba3919f48a69977613b9d01f583",
+  "detailImageId": "4367abd26b2a85ee37b97e0dc59f26bd",
+  "name": "楊端和",
+  "kanaName": "ようたんわ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "義渠の飄風",
+    "kanaName": "ぎきょのひょうふう",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、槍撃を当てた敵の武力を一定時間下げる。さらに敵を撃破するたびにこの計略の効果時間が延長される",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ad2fba3919f48a69977613b9d01f583",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3154"
+  }
+}

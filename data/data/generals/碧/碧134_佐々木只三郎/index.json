@@ -1,0 +1,47 @@
+{
+  "no": "碧134",
+  "appear": "第4弾-2",
+  "id": "2fc38a3bd8d3b801cb16e930ba090b39",
+  "detailImageId": "e406f144f0d0827516826368978d3a5c",
+  "name": "佐々木只三郎",
+  "kanaName": "ささきたださぶろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "短計・瞬地",
+    "kanaName": "たんけい・しゅんち",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>カードの方向に一瞬で移動する",
+    "categories": [
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2fc38a3bd8d3b801cb16e930ba090b39",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3167"
+  }
+}

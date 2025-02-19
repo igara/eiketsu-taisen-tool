@@ -1,0 +1,43 @@
+{
+  "no": "緋138",
+  "appear": "第4弾-2",
+  "id": "2b286b98e0be612ed134ab18e5351763",
+  "detailImageId": "4de1d4f96d91a445c401a68eeabc5703",
+  "name": "曹安民",
+  "kanaName": "そうあんみん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "死地の共闘",
+    "kanaName": "しちのきょうとう",
+    "cost": "4",
+    "description": "自身の武力が上がる。さらに自身を除く最も武力の高い味方の武力が上がり、敵と接触している間兵力が徐々に回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2b286b98e0be612ed134ab18e5351763",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3159"
+  }
+}

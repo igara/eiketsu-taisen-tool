@@ -1,0 +1,44 @@
+{
+  "no": "紫102",
+  "appear": "第4弾-2",
+  "id": "6f0451f2e1196b891380267e56708d80",
+  "detailImageId": "44a0f4c3d087dec5b153234458c1bfd0",
+  "name": "少弐頼尚",
+  "kanaName": "しょうによりひさ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "渾身の指揮",
+    "kanaName": "こんしんのしき",
+    "cost": "4",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>紫の味方の武力が上がる。一定以上武力が上がると、さらに兵力が上限を超えて回復する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6f0451f2e1196b891380267e56708d80",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3188"
+  }
+}

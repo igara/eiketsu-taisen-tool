@@ -1,0 +1,41 @@
+{
+  "no": "EX115",
+  "appear": "第4弾-EX",
+  "id": "d8aa33653b60cedff06f13a2eeb2dd29",
+  "detailImageId": "2661f597757e9888d49cf91a7cc2b5ca",
+  "name": "馬超",
+  "kanaName": "ばちょう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "神威の大号令",
+    "kanaName": "しんいのだいごうれい",
+    "cost": "8",
+    "description": "碧の味方の武力と移動速度が上がる。さらに自身の武力と移動速度と突撃ダメージが上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "10",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d8aa33653b60cedff06f13a2eeb2dd29"
+  }
+}

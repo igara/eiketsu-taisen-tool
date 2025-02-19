@@ -1,0 +1,36 @@
+{
+  "no": "碧133",
+  "appear": "第4弾-2",
+  "id": "9889653aff2ea9b0d984628817faf4c0",
+  "detailImageId": "fa70863b0e29b68db5c0b7545a66d50a",
+  "name": "匡章",
+  "kanaName": "きょうしょう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "遠弓撹乱戦法",
+    "kanaName": "えんきゅうかくらんせんぽう",
+    "cost": "4",
+    "description": "武力と射程距離が上がる。さらに矢を当てている敵の知力を下げる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9889653aff2ea9b0d984628817faf4c0",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3166"
+  }
+}
