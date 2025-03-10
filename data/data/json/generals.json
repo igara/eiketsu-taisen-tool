@@ -153,7 +153,7 @@
     "power": "4",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b5535e467a179ba1de7c02a2fe84cc37",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/152.html",
@@ -196,7 +196,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=802c6981301bb74d17bfd94231eb0bb5",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/208.html",
@@ -233,7 +233,7 @@
     "power": "3",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1e4cf5de953b36c699c6a9482d926120",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/209.html",
@@ -278,7 +278,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "40",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7ebcff977fb0762a4dcdcd0edf8bcb90",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/151.html",
@@ -364,7 +364,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a39d0a93f6b04a45cec27faf2413a850",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/110.html",
@@ -438,7 +438,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "9",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c0483f0effbbeae3950fdfcaa41a857a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/97.html",
@@ -475,7 +475,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a9515d86ebc6816d5254d2b8026e5819",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/202.html",
@@ -642,7 +642,7 @@
     "power": "6",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=89e1fb2c05b087dd31f946d2ee656b66",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/236.html",
@@ -857,7 +857,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=943f2fd4f12c05b7c348a740ffc0db47",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/217.html",
@@ -943,7 +943,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eefaab89484f164b32ffe8d1787aa0cb",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/158.html",
@@ -1066,7 +1066,7 @@
     "power": "3",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "2",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ef0d5c8520bfefb88eead865132c94d5",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/107.html",
@@ -1400,7 +1400,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5a6be1ed2763cdef9bed728f05b4e856",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/98.html",
@@ -1561,7 +1561,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6d5a520699a61d21fa05c669a5fdd685",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/234.html",
@@ -1604,7 +1604,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3d55a903016d722003c27c4e862e4d4",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/205.html",
@@ -1729,7 +1729,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eceb937add92b3d85998074bdb0ea9c8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/434.html",
@@ -1954,7 +1954,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ae5e5f7e8cb6f72718856a40ddfb3e0a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/491.html",
@@ -2089,7 +2089,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8d5947510e5c03581148a7fc999dcede",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/459.html",
@@ -2137,7 +2137,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9f332cd69f6862dce087a17baa120ba6",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/492.html",
@@ -2229,7 +2229,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5605786564d9c06e76ba14547c014a6b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/433.html",
@@ -2272,7 +2272,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6acaed869d0ad5bf7f3894a35cd264be",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/499.html",
@@ -2487,7 +2487,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a0155b0eb0ec83b376790357e73a6cb7",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/720.html",
@@ -2621,7 +2621,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f08ffec610552a4992eaa4e26cf42e1b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/642.html",
@@ -3114,7 +3114,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ee40ae1104f23306a1072906f6cc7694",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/921.html",
@@ -3329,7 +3329,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7303dbc827b28fa5a1af2aff56b5aa48",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/926.html",
@@ -3377,7 +3377,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b604f17096fd2b76523679c6edef5e37",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/927.html",
@@ -3420,7 +3420,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=40d5321e176a6f4c8f9057e2dd4eb2a1",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/928.html",
@@ -3507,7 +3507,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=acf8f0616740731ede901462b0464f0c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/930.html",
@@ -3599,7 +3599,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "11",
+    "kabuki": "22",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=71f19f7806f76920385b3e8c64e54e4b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/918.html",
@@ -3647,7 +3647,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=33fceb11d94af0fd8eecdd4da16ab985",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/932.html",
@@ -3690,7 +3690,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c42df86cb15e3a2c9a2365e74b848244",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/933.html",
@@ -3727,7 +3727,7 @@
     "power": "8",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5dca869f5893eb6af5272e095be5dbee",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/934.html",
@@ -3775,7 +3775,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=15754d4186e319e61d7f5d5741d5b926",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/935.html",
@@ -3872,7 +3872,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=86a1fa9fdc8d3a8d936c776115155681",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1231.html",
@@ -3909,7 +3909,7 @@
     "power": "8",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5b014218c60c9d86a1456550a7901950",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1232.html",
@@ -3957,7 +3957,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=58ce0cc449778eefd39262522e0479b0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1233.html",
@@ -3994,7 +3994,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e3e09716d7209575738640191853819f",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1234.html",
@@ -4042,7 +4042,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a271672c91a36f2a873670c157459865",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1235.html",
@@ -4319,7 +4319,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b349e0d674b9a823babf7cf062c256eb",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1209.html",
@@ -4450,7 +4450,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d18e76e281e00626c354bd57ebce3387",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1243.html",
@@ -4493,7 +4493,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5ba0b4ee400bbcbb0ae83a3b170d2fdc",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1213.html",
@@ -4611,7 +4611,7 @@
     "power": "10",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "40",
+    "kabuki": "32",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d38d8d6f82f8950cd0c0ae79a4a4ca64",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1544.html",
@@ -4810,7 +4810,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=150b5848c0800d6a95df687b30296a05",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1549.html",
@@ -4853,7 +4853,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a0a5349f870e7977c09435e9a9e66db5",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1550.html",
@@ -4902,7 +4902,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8b3bba915ce240baf94b353eb2c8fe07",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1551.html",
@@ -5031,7 +5031,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=71c82ed641ad93936a8576ca03f8db8f",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1554.html",
@@ -5218,7 +5218,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=44644993758e7a075312ee65950d227b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1752.html",
@@ -5401,7 +5401,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80a2f49e9ee9f977b4f1955171355e31",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1756.html",
@@ -5487,7 +5487,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f0c393588b13ddd6072c266d71b1f588",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1758.html",
@@ -5530,7 +5530,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2c7168b50b8bdee16aa1b6eee2bbf9bc",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1759.html",
@@ -5621,7 +5621,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3f3fd871c16a4fa0a1b569672b2b8695",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1761.html",
@@ -5665,7 +5665,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=acac2423bf16b0efeb08612c7fd474c1",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1762.html",
@@ -5746,7 +5746,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ed98a90ea37ee3556aada9ff713a3bf6",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2070.html",
@@ -5964,7 +5964,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8268f035b13bb1e0d5282c1e39bd43e9",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2075.html",
@@ -6051,7 +6051,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1782159dccf1c02fbe25059d48828c48",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2077.html",
@@ -6149,7 +6149,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4be2ec05d4aaefcd95c99e5a138e1a50",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2079.html",
@@ -6242,7 +6242,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ad2fba3919f48a69977613b9d01f583",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2081.html",
@@ -6327,7 +6327,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=db7b4b11eacfae621ab1ce7445c615c5",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/182.html",
@@ -6407,7 +6407,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=29de43557163680163e3a57981eedc8b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/769.html",
@@ -6450,7 +6450,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e40748e460a670cdffe3541fcd576686",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/770.html",
@@ -6539,7 +6539,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e15f5a6087bbebff0ac27d38c9dff854",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/898.html",
@@ -6631,7 +6631,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=40b13ca3c68d7dc8f3fbc76ab044321b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1079.html",
@@ -6717,7 +6717,7 @@
     "power": "3",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5089fe78a57d546fc8ce7056a194a82e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1452.html",
@@ -6802,7 +6802,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "11",
+    "kabuki": "22",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1923a3dd1f9aaafc32824a6f3e7f9c2c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1484.html",
@@ -6839,7 +6839,7 @@
     "power": "8",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=62db79af70d9e67b25a7f13d55b2d1ff",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1485.html",
@@ -6979,7 +6979,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=49b9db86b2ad5352a0aa0c9f3dd34b16",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1990.html",
@@ -7245,7 +7245,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "11",
+    "kabuki": "22",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9351584021a1755c16e1b0b9157f0314",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/313.html",
@@ -7293,7 +7293,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e9545186e5ac2dc2f24b674e8b32d169",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/314.html",
@@ -7336,7 +7336,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b78a0627cdd4dbda08c9004f8749753",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/315.html",
@@ -7416,7 +7416,7 @@
     "power": "9",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3c92d4c58f8f1dfde943c9dc7dce0d64",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/342.html",
@@ -7570,7 +7570,7 @@
     "power": "6",
     "intelligentzia": "2",
     "skill": [],
-    "kabuki": "3",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3085b32df2746659e0f81a954097f98b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/843.html",
@@ -7751,7 +7751,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d0cde12abd006bb639321e7ee3753b09",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1479.html",
@@ -7799,7 +7799,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=892ec1046941be4d30a5172f829a0f08",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1480.html",
@@ -7852,7 +7852,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3bc9dd797a2982a15c15feae4cbd703e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1481.html",
@@ -7900,7 +7900,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "55",
+    "kabuki": "33",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5e7013c3ee4077b3e6ccbd1582825317",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1658.html",
@@ -8116,7 +8116,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=390e3c8d3057de04d260a1528a51b476",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/88.html",
@@ -8196,7 +8196,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=318ce1a00e5cf8653392452086249dc1",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/288.html",
@@ -8276,7 +8276,7 @@
     "power": "5",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0bf6221b320174267639866c6779a747",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/121.html",
@@ -8387,7 +8387,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "48",
+    "kabuki": "40",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=db3f6a463d8da33156f92443cd9be85b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/172.html",
@@ -8430,7 +8430,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4b4eb125e8b79f4e1649d6095a641cbc",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/123.html",
@@ -8559,7 +8559,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9bf4de1d0ce883dcdf3ed64fca932cbb",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/115.html",
@@ -8607,7 +8607,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=00b8486250dbacae66a55475a187d115",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/239.html",
@@ -8811,7 +8811,7 @@
     "power": "1",
     "intelligentzia": "9",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f93423043548de79e5ef36c710a7071b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/160.html",
@@ -8854,7 +8854,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1167a66b5572154fbb5d7fe193742ae4",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/154.html",
@@ -8891,7 +8891,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2249624926089a509c3c98b3ca5f6853",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/228.html",
@@ -8944,7 +8944,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b63dc5533820a9a30dd3bb3d3c3ee40a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/162.html",
@@ -9425,7 +9425,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=00ec0c33182304b2f59ff2ab51ecec70",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/281.html",
@@ -9462,7 +9462,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b9e5eaf16f3fcca6ba1ca170119ca55",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/232.html",
@@ -9505,7 +9505,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=bcf7fe95637450749cd69debb30930ef",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/142.html",
@@ -9644,7 +9644,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ae58bdac66982f5c92868afaaaaa9606",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/269.html",
@@ -9682,7 +9682,7 @@
     "power": "1",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4fc8e62618fe7e2297526f2e8cc0dbfd",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/278.html",
@@ -9855,7 +9855,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f6ba912d99bba99fce9ccabd7731aee6",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/497.html",
@@ -9931,7 +9931,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a2a82c8d942008d009394cda00713d7e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/496.html",
@@ -9974,7 +9974,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0d8c4d821b759ae6f0c55fcf9a52660d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/444.html",
@@ -10022,7 +10022,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c638c20ad70902ddf21eef3382afc902",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/495.html",
@@ -10059,7 +10059,7 @@
     "power": "2",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=de81432b2cc41bb3bee2d353bd99642b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/485.html",
@@ -10102,7 +10102,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4861e46cff36e1dda9cc858a663e755b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/483.html",
@@ -10226,7 +10226,7 @@
     "power": "9",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3c6df4be9a2e5a0e16dfcc7981e5afc8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/480.html",
@@ -10392,7 +10392,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aaafd6d0d58d27599fa2e9c3ec830878",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/740.html",
@@ -10693,7 +10693,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8350002501135d1a5a0adfde40b37c06",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/692.html",
@@ -10736,7 +10736,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d44dd1dfece8edbd4c5469a579ab3837",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/709.html",
@@ -10998,7 +10998,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8d9ffd94385e55713c3e6144193d0b86",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/705.html",
@@ -11166,7 +11166,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aef45c00d64423530f767ce628ab3c1c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/942.html",
@@ -11211,7 +11211,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b264688a20e2bfbd32be09af05bbb52d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/943.html",
@@ -11254,7 +11254,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=511cc144a7d1559da0f496cb6d1dc140",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/944.html",
@@ -11345,7 +11345,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5bf525e4bc26952225ba836124bb5b49",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/946.html",
@@ -11425,7 +11425,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=48001ef60c4acaa649e19ec4067a1818",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/948.html",
@@ -11469,7 +11469,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b514c5f85ae1f9b05ba223700ed8c87d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/949.html",
@@ -11729,7 +11729,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=afb1e5178e645f832f5916f037c773d0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/955.html",
@@ -11949,7 +11949,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cf6ea349f9cd32f1c26ae844a1d19b49",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1250.html",
@@ -11993,7 +11993,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f30888ae857c655051526be481095e9b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1251.html",
@@ -12081,7 +12081,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=32786d3daf0014e1f15e07e2344839b8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1253.html",
@@ -12174,7 +12174,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=63e369e4b55fc6fb222590a4b762d82c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1255.html",
@@ -12299,7 +12299,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "40",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8efec6ed1eda37cb67d0cc8005f1b047",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1258.html",
@@ -12426,7 +12426,7 @@
     "power": "8",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b259b0f6533d0a5d47d363ca9b816c6",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1261.html",
@@ -12469,7 +12469,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e259ccf54432f2af6bfae6b860a2e595",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1262.html",
@@ -12557,7 +12557,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8b858cd2ead9cf7a2150ade42c147280",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1557.html",
@@ -12601,7 +12601,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a2695cead3597374bb618f170db9302a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1558.html",
@@ -12693,7 +12693,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=289845be6253de54954d7478c15e2c48",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1559.html",
@@ -12736,7 +12736,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e79bfeb083ca6e9b49039586b23592cd",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1560.html",
@@ -12945,7 +12945,7 @@
     "power": "7",
     "intelligentzia": "10",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ad486ba4aec5c1074253f7f7d3976ce",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1565.html",
@@ -12988,7 +12988,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=797e9f26e193e70cbcf5d89d3473a519",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1566.html",
@@ -13031,7 +13031,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e31a72d2332676dfce18515c0dc31e6e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1567.html",
@@ -13079,7 +13079,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4cec24be8a20341bad4b4c262f111d5d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1568.html",
@@ -13341,7 +13341,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "14",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1c09ca45cee323f192dff2ac58cc8573",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1772.html",
@@ -13571,7 +13571,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21bad4145e0de440b7768452d757af30",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1777.html",
@@ -13662,7 +13662,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a15b4935ad145f20e01ff82b9b0855cd",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1779.html",
@@ -13751,7 +13751,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c3c34525ee2e29719c59a3b7a31d887b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1781.html",
@@ -14144,7 +14144,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ea21fe9afdc61f80f7485f29b4a40075",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2090.html",
@@ -14188,7 +14188,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8fec776a246d3a55098df02f1d07e207",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2091.html",
@@ -14242,7 +14242,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aa5e27dfcffdac36d85cd533c493dcb4",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2092.html",
@@ -14295,7 +14295,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ce83c4794b3e89ee6b21d122e038346",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2093.html",
@@ -14334,7 +14334,7 @@
     "power": "7",
     "intelligentzia": "9",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=737e7d037af4b48d923946c609a756cf",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2094.html",
@@ -14464,7 +14464,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cc89a7ae70f8821c33261663687ee679",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/543.html",
@@ -14517,7 +14517,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a672581c6080dc49d30fab840fd22b41",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/771.html",
@@ -14695,7 +14695,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=74ed4bd73843dee280338604d86d7718",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/899.html",
@@ -14787,7 +14787,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9edc663ce373e58f9ac0bfeeb52b5caf",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/903.html",
@@ -14830,7 +14830,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=403e6edb1b63492e4c64ba312a17faae",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1082.html",
@@ -14960,7 +14960,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b6213bcc9c5366190ae7281a0c644c07",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1121.html",
@@ -15188,7 +15188,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d8f540ae60b8f0982ea21d6260d05b35",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1682.html",
@@ -15233,7 +15233,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=123c3ae3817d4925ea5ced7d245ad3ef",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1710.html",
@@ -15449,7 +15449,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=278fffc8a882b08e605c8af39c2158d3",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/?page=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%88%2F%E7%B7%8B%2F%E7%AC%AC4%E5%BC%BE%2FEX113_%E9%A0%85%E7%BE%BD",
@@ -15497,7 +15497,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d7afb0910923411878dae66b48cce57a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/?page=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%88%2F%E7%B7%8B%2F%E7%AC%AC4%E5%BC%BE%2FEX114_%E5%B1%B1%E6%9C%AC%E5%8B%98%E5%8A%A9",
@@ -15540,7 +15540,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b6c0536c8560bac4201d773bbbe2af0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/410.html",
@@ -15680,7 +15680,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ce9cfdb2770fa5243b5cebc55c440ad2",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/568.html",
@@ -15733,7 +15733,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=22d64cd633cc0aba967bd0dfecc65950",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/567.html",
@@ -15820,7 +15820,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f14d5b717e3d31e515897cbeaf5f9cdc",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/827.html",
@@ -15868,7 +15868,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e3720fc90c32da80e658067036abfbe7",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/844.html",
@@ -15912,7 +15912,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d360e277c16d90479721d98b9d855052",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1059.html",
@@ -16053,7 +16053,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8751e60f16e8a78693d85bd2ff18b089",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1387.html",
@@ -16358,7 +16358,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1d9c406936d8a8bda9ccf477aad58d11",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/204.html",
@@ -16395,7 +16395,7 @@
     "power": "4",
     "intelligentzia": "1",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9906d428b3412421efc25fa6a725fe1a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/109.html",
@@ -16438,7 +16438,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=81f3b4669a7fc4537713bbeba4ddd31b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/128.html",
@@ -16486,7 +16486,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2d9ffb34a33bb935619a4af4ec683fea",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/214.html",
@@ -16691,7 +16691,7 @@
     "power": "5",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "14",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=67221d24d65d8d9a2a0f7383fd5b57a4",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/235.html",
@@ -16728,7 +16728,7 @@
     "power": "10",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=672806edc36fc2e77ab2cefc2e4d1f8a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/137.html",
@@ -16853,7 +16853,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=084297efd963772a7aa004b715815c84",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/233.html",
@@ -16901,7 +16901,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=83ed3f19779fa811609b20e0ef3f064a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/242.html",
@@ -17024,7 +17024,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b382d15c6f8aeebdf9a5e76d55c2a89",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/191.html",
@@ -17067,7 +17067,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c26d4137c4dddec7b066f371cc189ce2",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/166.html",
@@ -17277,7 +17277,7 @@
     "power": "6",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "48",
+    "kabuki": "40",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=22c3fd9e61d4efe351b7774ea4ae5d93",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/139.html",
@@ -17403,7 +17403,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f0141b2b11b22fb323cb1bfd92b5646e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/129.html",
@@ -17448,7 +17448,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=74c4b15ba109de75b739896f739be63a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/276.html",
@@ -17848,7 +17848,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ca580c841f7d6437fde3befb32178cf1",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/226.html",
@@ -17928,7 +17928,7 @@
     "power": "5",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c917a3734f9e27b2d12684306e62a445",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/455.html",
@@ -18064,7 +18064,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5448a2ef6cac01cf0a07bbc5611114c1",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/430.html",
@@ -18107,7 +18107,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "40",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c58e969c53a55a726161b2876bd4c6ab",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/446.html",
@@ -18328,7 +18328,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=94e3fc17f780336fa1462ba7dd7bbf11",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/448.html",
@@ -18371,7 +18371,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "22",
+    "kabuki": "11",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e9e416811a7f105ebed66394f0b1e1f5",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/441.html",
@@ -18414,7 +18414,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1c8fd561e95035c1190fef322ff213f2",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/440.html",
@@ -18537,7 +18537,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0e06b4177067c9ac0a73eff7351418d2",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/494.html",
@@ -18580,7 +18580,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f2f16df7b26fd68f0b7f04c27f8bcbb8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/717.html",
@@ -18623,7 +18623,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fbd21bfc92b770e4895151ab57984afc",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/690.html",
@@ -18752,7 +18752,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ee50a314dbc7e9d9874d3d56646c454e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/712.html",
@@ -18912,7 +18912,7 @@
     "power": "6",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=67e0fba6c8a53ea18fb6c726f7b04e2c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/691.html",
@@ -18992,7 +18992,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=463f3a49eb1c0a99fceb12704a186d87",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/743.html",
@@ -19073,7 +19073,7 @@
     "power": "10",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "11",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=846766a0ba423aac25e1f0112b9c871a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/745.html",
@@ -19250,7 +19250,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c6b4515a3a1ee001213c955097e4544d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/958.html",
@@ -19293,7 +19293,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=45fd5c4ad488bad3c74087771aa51f9c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/959.html",
@@ -19469,7 +19469,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=352986a1e3fd34443654b803c510b64c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/963.html",
@@ -19506,7 +19506,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=082e23373287d2df704009a7ecd05af7",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/964.html",
@@ -19812,7 +19812,7 @@
     "power": "6",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8197535c769dcc36aeb345667637cbeb",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/973.html",
@@ -19855,7 +19855,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=311054604150ae67d4da1232ac8ea7ca",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/971.html",
@@ -19903,7 +19903,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=acca42dd48f14d5d1227466322229f70",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/974.html",
@@ -19994,7 +19994,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2f042d4c439ff44798a9437ce8a4d4aa",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/976.html",
@@ -20097,7 +20097,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=38e82bc8ff5b5908bfc77e6384218780",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1203.html",
@@ -20189,7 +20189,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3bbfc380487e5ae035f8d32c48eec7f4",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1206.html",
@@ -20369,7 +20369,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d032731692ebfa1f6c3558e6f61a6d62",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1222.html",
@@ -20457,7 +20457,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=92060290919e46a00ed454308bb334e3",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1193.html",
@@ -20500,7 +20500,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21214a7f8bbe3302477a578df9934e5a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1224.html",
@@ -20679,7 +20679,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c6121983062979bc624a2c96b2ce9301",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1227.html",
@@ -20722,7 +20722,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=38afe0c242b8f7c2219ce70d73bb3db7",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1228.html",
@@ -20759,7 +20759,7 @@
     "power": "2",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ba5f62e838af189963dfb7c2e61e9359",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1229.html",
@@ -20980,7 +20980,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6d192619944a07ef201e8084897f15df",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1573.html",
@@ -21115,7 +21115,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cbf0dc7925deea99d6803fa1bc3abdca",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1541.html",
@@ -21158,7 +21158,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5f8cbd84a651d421d1d6612f703f0a7d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1576.html",
@@ -21292,7 +21292,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c8e0e93d0239dd3ee452061192ce29b5",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1535.html",
@@ -21436,7 +21436,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=082a606ec2f2d9ed775d7872e13d9b22",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1765.html",
@@ -21617,7 +21617,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1830c79bfce019b87cd5ab9a0afc8f9e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1794.html",
@@ -21807,7 +21807,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a3c9d1f3468d4eb47a3b3460a5b12143",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1797.html",
@@ -21946,7 +21946,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=65143a949dab9c1327e28cdd16f8b4ac",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1800.html",
@@ -22163,7 +22163,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e0ad4422071e5149d65a940ec4a48934",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2061.html",
@@ -22389,7 +22389,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dfc12c28996301a0654e75ceb7f72df7",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2066.html",
@@ -22643,7 +22643,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=39d6e055705bb613713422aa14eb5298",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/575.html",
@@ -22686,7 +22686,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=12f654004e4c6fc7eb643de802f546ad",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/774.html",
@@ -22772,7 +22772,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "22",
+    "kabuki": "11",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ce13ad33aeebb03d0a4fd3b4affda9ee",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/904.html",
@@ -22858,7 +22858,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3c60c33f921189ddd54c46c185e3beae",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1101.html",
@@ -23424,7 +23424,7 @@
     "power": "8",
     "intelligentzia": "2",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a2c04b2c284b32cc7019ea7af17747e0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/424.html",
@@ -23642,7 +23642,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ecad46979048b5e6e45a0d92faec5b1b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/881.html",
@@ -23814,7 +23814,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=613498f7f2b46f4861de88ac3e6c0ab2",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1110.html",
@@ -23949,7 +23949,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3176d8b40b1a02c65878e89186881c3d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1492.html",
@@ -24401,7 +24401,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9d97b158187c323ea8615e450a88f325",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/293.html",
@@ -24701,7 +24701,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=84b5776fcba3f2ee8b12c7723e1c505c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/136.html",
@@ -24824,7 +24824,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f9da5444e8c57543c620b99a02e3137c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/150.html",
@@ -24991,7 +24991,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cc2eafdd4a959ad1338838ebe1a24c2d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/198.html",
@@ -25078,7 +25078,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dcfa9d2ffe84ef1d778761510a177fc8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/194.html",
@@ -25324,7 +25324,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a43248b5de0d1d39fa58d45d29b55117",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/149.html",
@@ -25368,7 +25368,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3a51e82740496737045baf8513223a14",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/243.html",
@@ -25464,7 +25464,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=35323e3e98dd8b1b8dad62f3fd5bfa76",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/148.html",
@@ -25512,7 +25512,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ed8023b00ae5354de5e565243ae031c6",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/294.html",
@@ -25555,7 +25555,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8f89313d22b41b1be0bfed4c0ee5eb39",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/229.html",
@@ -25642,7 +25642,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9fac2e5f1679c4904739d649f0e3f7a1",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/119.html",
@@ -25733,7 +25733,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eac90f11275ce9b09ef7ca2009114ea0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/180.html",
@@ -25776,7 +25776,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=820b3e8ac8e2e023065116385eb99470",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/292.html",
@@ -25949,7 +25949,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d1cd2b1ccc6a562dfe16cb2d2c0eccb1",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/489.html",
@@ -25992,7 +25992,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aefd9abb43056795392deb6f514cf62b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/457.html",
@@ -26154,7 +26154,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9595d9f8536ba7c36b621d039672b976",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/443.html",
@@ -26302,7 +26302,7 @@
     "power": "3",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=49fb71ee57ff8b6c81e03268d3ec32e4",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/479.html",
@@ -26389,7 +26389,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=944fad5bbb20f0f733e8ab9f7ac04091",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/463.html",
@@ -26439,7 +26439,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7ada654c6fa91cae0acd314c0bfcf11b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/453.html",
@@ -26568,7 +26568,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7816fbc6d59e46a9f0b0c9c0eabe11bb",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/680.html",
@@ -26661,7 +26661,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2475b60ceb757875ef8a5c14aa6ccaa0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/765.html",
@@ -26830,7 +26830,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e137e9da6c5c38ffb805456b6a26e8eb",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/648.html",
@@ -26966,7 +26966,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8ff8ed0d68e36e24c8a702eaad158973",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/627.html",
@@ -27009,7 +27009,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b3dd4ba9db0dcf6761eeb3636f661df",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/681.html",
@@ -27148,7 +27148,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bfc47e8cccfd1f2682fda4416092f5c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/763.html",
@@ -27191,7 +27191,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fe0343053d19aeaa7d6b37d27b9a20df",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/682.html",
@@ -27240,7 +27240,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0f7b57867c4b3ecdf78221ea40dbdff8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/683.html",
@@ -27333,7 +27333,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dc390b461a23ef69429b60a2c2a1329f",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/992.html",
@@ -27376,7 +27376,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=519f93c795b52968792c72622c4633d0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/993.html",
@@ -27462,7 +27462,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b58a102217fcac397ac40a5b274c817",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/996.html",
@@ -27505,7 +27505,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8d3c1d501427a2c15822dbf2e10ff148",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/997.html",
@@ -27822,7 +27822,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f1210e84eeb1d732a8b7840007aeff57",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1005.html",
@@ -27909,7 +27909,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b5c9f8d4ae35dd1e2dffc2f1d9e749f6",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/972.html",
@@ -28007,7 +28007,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3aef4fd880e3dac047a2326ac990b9f0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1007.html",
@@ -28185,7 +28185,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1860aa3c05b69c20964c24dce3294f88",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1266.html",
@@ -28234,7 +28234,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5c0e2f9d6861c5ad89fc3db825455be9",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1267.html",
@@ -28444,7 +28444,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a9eae0e2cd5ad32c0f8b688a5b4579fd",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1272.html",
@@ -28624,7 +28624,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a22952fc158aad746b70ce3aa052e825",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1277.html",
@@ -28717,7 +28717,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=68513e985bfcc10e0a6729661c2fbdfc",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1279.html",
@@ -28853,7 +28853,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8f287e5548944671b02b9907b25fd71c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1579.html",
@@ -28896,7 +28896,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b3cddd8fce0090fbe2c1ac44a84ad11d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1580.html",
@@ -28940,7 +28940,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "40",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4a2d385fd287097eb6c830cb759820e8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1581.html",
@@ -29028,7 +29028,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b54c4a15db5697c30a944706327daab9",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1583.html",
@@ -29119,7 +29119,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e54c543e3a796a3d5117801c940ab3c0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1585.html",
@@ -29157,7 +29157,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3f83d7fda7aa895ff034cfab03871bd3",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1586.html",
@@ -29205,7 +29205,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21453fc9125ac936d47e4b0bf6305831",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1587.html",
@@ -29793,7 +29793,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b01e6aad132939c3677cb6b9d43fdd92",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1829.html",
@@ -29971,7 +29971,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f1dc60266a96791a2762d0f49b92dbd8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1872.html",
@@ -30020,7 +30020,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7833aa54d3e4e32205248934e8b621d6",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1873.html",
@@ -30057,7 +30057,7 @@
     "power": "3",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b1c7832946b8fbff4c44f5e3ee3a3fd8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2102.html",
@@ -30149,7 +30149,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d83fbf25a538c5483ad523e0230a5d00",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2104.html",
@@ -30192,7 +30192,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6c8b67fc45f684e054c4cc1a7f49791a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2105.html",
@@ -30683,7 +30683,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=347f6a2c9540d37c07b465b9a808bdd6",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/545.html",
@@ -30856,7 +30856,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=360cc6a43387abe3ca73404806470be8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/778.html",
@@ -30981,7 +30981,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c5aa00fbfd52a9a1f99674d98bb3cce1",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/906.html",
@@ -31061,7 +31061,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9bce5ae3964d215cff7506091ee53f67",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/908.html",
@@ -31152,7 +31152,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6ff23cf23356e846a807334ce8c1d2a8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1102.html",
@@ -31189,7 +31189,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b09e59b487c9df999f8946800e5a38c2",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1103.html",
@@ -31667,7 +31667,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=704685a1f5ea8a56f81988303848e9e0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1981.html",
@@ -31759,7 +31759,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0425e3215b9c16171e079e18bcc754f4",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/?page=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%88%2F%E7%8E%84%2F%E7%AC%AC4%E5%BC%BE%2FEX116_%E4%B8%8A%E6%9D%89%E6%99%AF%E5%8B%9D",
@@ -31802,7 +31802,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8723c9297ea35c3311004095b5a38e6d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/?page=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%88%2F%E7%8E%84%2F%E7%AC%AC4%E5%BC%BE%2FEX117_%E4%B8%8A%E6%9D%89%E6%99%AF%E8%99%8E",
@@ -31846,7 +31846,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "40",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8b783e29e112b4a82463cb7c1b424b4a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/?page=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%88%2F%E7%8E%84%2F%E7%AC%AC4%E5%BC%BE%2FEX118_%E8%A2%81%E8%A1%93",
@@ -31890,7 +31890,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1eb43a60a82367e0bfbee795bb0b689a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/340.html",
@@ -31933,7 +31933,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f59fdeadec6f567990e7eb367de13458",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/396.html",
@@ -32019,7 +32019,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=564dc48e79820a85ce6e365feab6de1b",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/398.html",
@@ -32105,7 +32105,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5e0222cbe4ba8732b4d39e5357a83d3e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/561.html",
@@ -32237,7 +32237,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3d3a8ac5cbbe0b6ced9751cbc6e444ee",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1047.html",
@@ -32281,7 +32281,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=98f8129403509c4ab6e2c0fd8f5e37a9",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1095.html",
@@ -32512,7 +32512,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2595e11e8ca4ed8a3e9b329aa75ef63c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2020.html",
@@ -32634,7 +32634,7 @@
     "power": "7",
     "intelligentzia": "9",
     "skill": [],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=79ef8aa4232b5bef54273d639c741dde",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/749.html",
@@ -32677,7 +32677,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=471b67217855933b4fb56fdf6b7d72ee",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/760.html",
@@ -32764,7 +32764,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5a575ca8d1a542660f19c8902d3d55e5",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/750.html",
@@ -32851,7 +32851,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21bf61bce033d59ca8193da99b524754",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/758.html",
@@ -32933,7 +32933,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ade78cb4471e701236c29d6b2bb686c2",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/759.html",
@@ -33117,7 +33117,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "14",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2c5526d4265e7e7ceceff98e7077b91d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/751.html",
@@ -33208,7 +33208,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=453227c8c3fec0a69e63f94560cac58e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/676.html",
@@ -33567,7 +33567,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ee89ef6a7c9d16bb041cbcf25f38be22",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/708.html",
@@ -33611,7 +33611,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80aecc9820f8960b5c3ffe8f1c8bf3fc",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/761.html",
@@ -33827,7 +33827,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3e412b767d1d80ff0f196c350ca9761",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/638.html",
@@ -33952,7 +33952,7 @@
     "power": "6",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3576503e97cba3695b6cc0f0062d387d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/640.html",
@@ -34212,7 +34212,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=049fc7a18beed621769e4cb3dca7d01c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/980.html",
@@ -35106,7 +35106,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1c6e076323bfa7666c52fd6583e812ce",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1215.html",
@@ -35149,7 +35149,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=36f8d42e9bd0c0cf8ebfce3be4d404e3",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1293.html",
@@ -35192,7 +35192,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "40",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d53c30255777eb88af2ac069484e63a4",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1291.html",
@@ -35235,7 +35235,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4916b15ebab60cac8e1199590a0e1b0d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1198.html",
@@ -35273,7 +35273,7 @@
     "power": "6",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "10",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5c4cc8bbe213c87d92d6c3b99d6541c1",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1292.html",
@@ -35422,7 +35422,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4f1e03314bcdd4f54c9416e7cea92972",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1556.html",
@@ -35466,7 +35466,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=24e99f4c981629da08aba67708b482a4",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1592.html",
@@ -35805,7 +35805,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80e70bafe3d38d79ed65be13057ed0ab",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1600.html",
@@ -36483,7 +36483,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b1735ea7cfbec5887964c900b3d55e50",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1904.html",
@@ -36538,7 +36538,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b9f826e95a7d810ea9e3c50c3c9ae1af",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1905.html",
@@ -36626,7 +36626,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a90694d12b3175999f0b444b8e2f8b81",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1907.html",
@@ -36803,7 +36803,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c96d2fb1910c3b0f57467ca153d0c52c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2098.html",
@@ -36952,7 +36952,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=86fea20cd083c5b3c8f0ee4ae98e9937",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2099.html",
@@ -36997,7 +36997,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6f0451f2e1196b891380267e56708d80",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2118.html",
@@ -37035,7 +37035,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80c4f690a79f8e5f17ae4c39ec20d4a8",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2124.html",
@@ -37080,7 +37080,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f44bf4de6c1dc9db83adf075910e4ac5",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2125.html",
@@ -37219,7 +37219,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3204cbe25ee8f1362e15ed18aea045c5",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2052.html",
@@ -37350,7 +37350,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6a5965539f2f0238534d1ffd28b6d95e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1081.html",
@@ -37611,7 +37611,7 @@
     "power": "5",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2e5e6ef4ad7c90cc7a03736c308888cf",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1502.html",
@@ -37699,7 +37699,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aeee23f070f1ca929ce2cd5729920b2d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1711.html",
@@ -37747,7 +37747,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=82a805551166ed350e09468365c738e6",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2002.html",
@@ -37975,7 +37975,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ff8beb9141a4a26ede421a33385bc834",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1096.html",
@@ -38024,7 +38024,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2c020936bd0a01fbac4c3048bcec23c3",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1421.html",
@@ -38112,7 +38112,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6d949b2b452e2ae620437d7e6c763f0a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1674.html",
@@ -38161,7 +38161,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6955932b1d7385bc5ac4deb94b533a16",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1954.html",
@@ -38198,7 +38198,7 @@
     "power": "4",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e2a84568e31abca72382ce8176e0c335",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1955.html",
@@ -38242,7 +38242,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8d7b6105669a6dfb88f7047b975e1dc3",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2019.html",
@@ -38364,7 +38364,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "30",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ea6c0f24da3b3d01e2da6ac6ac189e9e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1299.html",
@@ -38446,7 +38446,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9ecdc963cf46d64918f9d04b1df54144",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1295.html",
@@ -38490,7 +38490,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ebef9acf79ab59c04dc54a1b9df61dee",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1317.html",
@@ -38539,7 +38539,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3b074a6ffed3987c46ad3c2d7ccde31",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1305.html",
@@ -38584,7 +38584,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f9d3269f633f5a30d9f6eec64b89fa71",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1318.html",
@@ -38628,7 +38628,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f7f43a8496d8b7ebb8a053cedda71876",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1319.html",
@@ -38678,7 +38678,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=388f93d7a8373d7fa5129e51d810ef78",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1199.html",
@@ -38760,7 +38760,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=480a2c692729cd445b296d495ed8ffe2",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1325.html",
@@ -38810,7 +38810,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=99942bb9afacf922c02c36388b2163ae",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1326.html",
@@ -38848,7 +38848,7 @@
     "power": "10",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ae4ddcca3f0a22443f3dd11d2e29eec",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1327.html",
@@ -38929,7 +38929,7 @@
     "power": "9",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=548bce5560b7bd1f126d0fb02a649afb",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1296.html",
@@ -39146,7 +39146,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3a020cb6ca88ad3fbae697e4315741e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1320.html",
@@ -39228,7 +39228,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f71b8172f1d34586558a02690ba306a0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1300.html",
@@ -39508,7 +39508,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=37be681b71e820fed8c567711e23ae97",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1332.html",
@@ -39553,7 +39553,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f0faf5f8c492f4d6e7ba62869aab0b5a",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1333.html",
@@ -39591,7 +39591,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2d1e55ddb2e7db62bc064df4cd4a9ecc",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1323.html",
@@ -39679,7 +39679,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c1e855d8e451d6ba03a48be37a278856",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1335.html",
@@ -39772,7 +39772,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1c53bd501e8a2861b8538576bdb52d38",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1336.html",
@@ -39810,7 +39810,7 @@
     "power": "6",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "10",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=411d12dd44616caed323c32f8a29a92f",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1304.html",
@@ -40030,7 +40030,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fa33696000837e14f8e72d9e6c270dd3",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1526.html",
@@ -40073,7 +40073,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=10794c16a0afae32b2e7f1e773672212",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1527.html",
@@ -40356,7 +40356,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=75c8d00a001e3f39115eaaa445e4f5cb",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1536.html",
@@ -40487,7 +40487,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0ab1d53cfc654537545c6e71ca764625",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1539.html",
@@ -40531,7 +40531,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=27be80a96df902864c59957662ec43a1",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1888.html",
@@ -40630,7 +40630,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c6d48925d432f313b91116a5567d25c4",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1889.html",
@@ -40675,7 +40675,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=48160731e69d37c401cfae49f88d4ba0",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1887.html",
@@ -40848,7 +40848,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0c2cc247d311a134aaf78dd00042b969",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1893.html",
@@ -40946,7 +40946,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eb09bebd900ebb6ce8bb508d1224b165",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1894.html",
@@ -40989,7 +40989,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2d1440aefce52cee7dd3ff1b52dace6c",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1895.html",
@@ -41026,7 +41026,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c8e2128208526d1a6b85c99c21d6fbef",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1896.html",
@@ -41070,7 +41070,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7671867481b8d7465dde94bb1f6d9b36",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1897.html",
@@ -41157,7 +41157,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1671a691fd69a046bf68ccf2c953907f",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1886.html",
@@ -41245,7 +41245,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4d263fa6cd877271cfe15fd57149ebe9",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1899.html",
@@ -41332,7 +41332,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21becc066f1d9c6c5de34cc4d9ee5e55",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2128.html",
@@ -41381,7 +41381,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d85f0f571e3b717747602d07cc70d626",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2130.html",
@@ -41420,7 +41420,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aa81472f476482f90eb15d75a91fd7cc",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2053.html",
@@ -41640,7 +41640,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4f67688d5e083895fd666727adf70763",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2134.html",
@@ -41689,7 +41689,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8c0170ae289f58853ec66eda49f5400d",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2135.html",
@@ -41875,7 +41875,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=86289b72017c548355ca0100e83ca716",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2137.html",
@@ -41964,7 +41964,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b160066f9f2066339a67eed02977f1ed",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1503.html",
@@ -42100,7 +42100,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=79313d310a95a73a980ef05bef252b8f",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1688.html",
@@ -42282,7 +42282,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=69b32dffdfd253ff65008b6c46eb69fa",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2003.html",
@@ -42454,7 +42454,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "40",
+    "kabuki": "32",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=72ddedff077b3543a3fa84eedd4fd07e",
       "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1721.html",
