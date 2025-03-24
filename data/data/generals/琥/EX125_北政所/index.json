@@ -1,0 +1,49 @@
+{
+  "no": "EX125",
+  "appear": "第4弾-EX",
+  "id": "d2002a506e5b1a7a714d0f6d5ac70195",
+  "detailImageId": "8ca2df286cde77cb12b72dfd6a0dfa70",
+  "name": "北政所",
+  "kanaName": "きたのまんどころ",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "天下人の片翼",
+    "kanaName": "てんかびとのへんよく",
+    "cost": "6",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の知力が上がる<br>３消費：さらに武力が上がる",
+    "categories": [
+      "全体強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d2002a506e5b1a7a714d0f6d5ac70195",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2176.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4097"
+  }
+}
