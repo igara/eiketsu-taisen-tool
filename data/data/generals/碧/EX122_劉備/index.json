@@ -1,0 +1,48 @@
+{
+  "no": "EX122",
+  "appear": "第4弾-EX",
+  "id": "50b26ec677842b2edaa2defa959d05ba",
+  "detailImageId": "9a43b56c7e17b31254d8134b03be83a9",
+  "name": "劉備",
+  "kanaName": "りゅうび",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "劉備の大徳",
+    "kanaName": "りゅうびのだいとく",
+    "cost": "5",
+    "description": "碧の三国志の味方の武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "6",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=50b26ec677842b2edaa2defa959d05ba",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2169.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4100"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "no": "PL086",
+  "appear": "第4弾-PL",
+  "id": "7eee92012a333ebefea8454f728b0cde",
+  "detailImageId": "ff179d6f01bed253a16bb1a48d292681",
+  "name": "エミリア",
+  "kanaName": "エミリア",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "氷結の魔女",
+    "kanaName": "ひょうけつのまじょ",
+    "cost": "4",
+    "description": "武力が上がり、敵を貫通して射撃できるようになる。さらにカードの向いている方向に射撃するようになり、射程範囲が敵と味方の移動速度を下げ、兵種アクションを封印する氷地形になる。計略効果中の「エミリア」は氷地形の効果を受けない。ただし射撃時の攻撃回数が減る",
+    "categories": [
+      "強化",
+      "妨害",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7eee92012a333ebefea8454f728b0cde",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2179.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4091"
+  }
+}

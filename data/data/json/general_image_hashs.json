@@ -1485,6 +1485,15 @@
     }
   },
   {
+    "no": "EX120",
+    "deckImageHash": "f7823173d806e01f619f8117e18ee0c7c0c6fce8c5e4c3708722273b671ec30d",
+    "name": "帰蝶",
+    "kanaName": "きちょう",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "PL001",
     "deckImageHash": "3fe3863d203f0127f143ebe7c31f02013e1f351f0c4b80a760f301e319e4fdc1",
     "name": "信",
@@ -1660,6 +1669,15 @@
     "deckImageHash": "bfe339d9403c19210107001f3ffcfc747076f8e4ec00fe0c7034799963c7038f",
     "name": "白起",
     "kanaName": "はくき",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "PL084",
+    "deckImageHash": "808f00c703ff67f163e063f033f03fc00c044fcfe7eae1c0f1f0f8503f008fe1",
+    "name": "レム",
+    "kanaName": "レム",
     "color": {
       "name": "蒼"
     }
@@ -3213,6 +3231,15 @@
     }
   },
   {
+    "no": "EX121",
+    "deckImageHash": "fe62fe70ce30c082ee07ccc7740ee00df083f803c7e13de071c061123073adff",
+    "name": "曹操",
+    "kanaName": "そうそう",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "PL012",
     "deckImageHash": "01f7003d0f8e1bf31fbc1b820f801ff80f9f0d8f03c3049f041f011f379f078f",
     "name": "神楽",
@@ -3352,6 +3379,15 @@
     "deckImageHash": "02403e787e3e7c3afc3fe0df800703c10df147a1ef8e07c007e10ff01ff80cf0",
     "name": "曹操",
     "kanaName": "そうそう",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "PL085",
+    "deckImageHash": "f8027b007ffa1f80ff80e7900fc4078e201e743e3dfa101ff87cfd9e6f860000",
+    "name": "ラム",
+    "kanaName": "ラム",
     "color": {
       "name": "緋"
     }
@@ -4828,6 +4864,15 @@
     "deckImageHash": "7712e70cdf0e0a0edd9c9c389c3890f8fef8f5f061c06280ff87ef83c003e600",
     "name": "馬超",
     "kanaName": "ばちょう",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "EX122",
+    "deckImageHash": "4f02fb80fc00fe78fe78fce0e8c0800fc09fc89fc01fc01ffc4df85cf8188443",
+    "name": "劉備",
+    "kanaName": "りゅうび",
     "color": {
       "name": "碧"
     }
@@ -6579,6 +6624,15 @@
     }
   },
   {
+    "no": "EX123",
+    "deckImageHash": "0037fe1d7f300738f3787c003c0f681ff81ff83f013f00701c187f087f830e1f",
+    "name": "呂布",
+    "kanaName": "りょふ",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "PL005",
     "deckImageHash": "0007f801f03ffdbcfda3fc83f003e003f01cf1fcd1f800e4588ef00ef0c3e267",
     "name": "李牧",
@@ -7803,6 +7857,15 @@
     }
   },
   {
+    "no": "EX124",
+    "deckImageHash": "fd0fc029cb111be11ff2c666c740c3e0c063e8f2087e1c5f3c7f3817701be211",
+    "name": "皇甫嵩",
+    "kanaName": "こうほすう",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "PL032",
     "deckImageHash": "8e9f01e303e0f7e001c005833cff7c5f7c1f3c8f3c08dc06fc0f6c0ffc08c80d",
     "name": "風間千景",
@@ -7879,6 +7942,15 @@
     "deckImageHash": "fc90fcd07e027e027e2354c3f387e006e19f63de4206e1c1c0e0c1eff3c70037",
     "name": "袁紹",
     "kanaName": "えんしょう",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "PL086",
+    "deckImageHash": "0e970f070f8e0f8e006c67ec47fa3f4009c003f073f267f969d881c6fff81068",
+    "name": "エミリア",
+    "kanaName": "エミリア",
     "color": {
       "name": "紫"
     }
@@ -8707,6 +8779,15 @@
     "deckImageHash": "4fe2e18ca1eee04cf0fff0f3e1e300000f030f6187e81fe37fc21e203fb8a1e0",
     "name": "黒田清隆",
     "kanaName": "くろだきよたか",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "EX125",
+    "deckImageHash": "0820f07cf83ef18fe18001ee0fbe07bb749f781f300f120f9802c58cfb86f336",
+    "name": "北政所",
+    "kanaName": "きたのまんどころ",
     "color": {
       "name": "琥"
     }

@@ -1,0 +1,49 @@
+{
+  "no": "EX120",
+  "appear": "第4弾-EX",
+  "id": "f18be8b427d885fef11ba2bdd95790bf",
+  "detailImageId": "24ec1bcab8bc26a8c9273b49b4ec4ce0",
+  "name": "帰蝶",
+  "kanaName": "きちょう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "胡蝶の毒",
+    "kanaName": "こちょうのどく",
+    "cost": "4",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>範囲内の最も武将コストの高い敵の移動速度を下げ、兵力を徐々に減少させる",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "17292188368f5be2f97facc14cc393a0"
+  },
+  "power": "4",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f18be8b427d885fef11ba2bdd95790bf",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2175.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4098"
+  }
+}

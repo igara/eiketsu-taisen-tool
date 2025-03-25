@@ -1,0 +1,56 @@
+{
+  "no": "PL085",
+  "appear": "第4弾-PL",
+  "id": "f4ec93707417144146d4cbef76ea4e81",
+  "detailImageId": "27e8e48bca5087a6a529b45163aa7212",
+  "name": "ラム",
+  "kanaName": "ラム",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "千里眼",
+    "kanaName": "せんりがん",
+    "cost": "3",
+    "description": "武力が上がり、敵の伏兵状態と隠密状態を解除する。さらに以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・風魔法【２】：一定時間後に範囲内の敵に武力によるダメージを与え、跳躍させる。ダメージは互いの武力で上下する。ただし一定時間移動できなくなる",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "特殊",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f4ec93707417144146d4cbef76ea4e81",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2178.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4090"
+  }
+}
