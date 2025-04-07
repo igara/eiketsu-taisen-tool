@@ -6768,6 +6768,15 @@
     }
   },
   {
+    "no": "PL089",
+    "deckImageHash": "003ad8fe19cc03fe07ff0f3e1e06380670c77003fe07702fe07fc02fc07fc023",
+    "name": "エキドナ",
+    "kanaName": "エキドナ",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "紫001",
     "deckImageHash": "2ff36ff94278002801be603fe13afc6075050b0ff03fe00f430d333ae0fb80f9",
     "name": "浅井長政",
@@ -8833,6 +8842,24 @@
     "deckImageHash": "ffffe10383c003c001c01df81ff10ff105a21db8fb98738c7194198f790ef11a",
     "name": "石動雷十太",
     "kanaName": "いするぎらいじゅうた",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "PL087",
+    "deckImageHash": "7cc0fc1cd81ef80afa7fe01bf001ee006ec0ef9b65fc6000f07ee07d6078b00d",
+    "name": "スバル",
+    "kanaName": "スバル",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "PL088",
+    "deckImageHash": "000760017ff87ffcffcfc98043c007f007f073ce781c03dc5c3ef04e3fdc9008",
+    "name": "ベアトリス",
+    "kanaName": "ベアトリス",
     "color": {
       "name": "琥"
     }

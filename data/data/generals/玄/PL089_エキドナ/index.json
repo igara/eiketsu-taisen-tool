@@ -1,0 +1,48 @@
+{
+  "no": "PL089",
+  "appear": "第4弾-PL",
+  "id": "1647ff519310a569ba17672376397bb9",
+  "detailImageId": "6621c5422bd9dea998cac13402128dd4",
+  "name": "エキドナ",
+  "kanaName": "エキドナ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "特殊",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "強欲の魔女",
+    "kanaName": "ごうよくのまじょ",
+    "cost": "7",
+    "description": "味方の武力が上がる。さらに自身を除く味方の兵力が多いほど兵力を減少させ、自身の武力が上がり、兵力が回復する。この効果は減少させた兵力の合計値が多いほど大きい。一定以上武力が上がるとさらに自身の移動速度が上がり、突撃オーラが出るまでの距離が短縮される",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1647ff519310a569ba17672376397bb9",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4094"
+  }
+}
