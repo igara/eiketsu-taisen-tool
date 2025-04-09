@@ -1,0 +1,49 @@
+{
+  "no": "PL087",
+  "appear": "第4弾-PL",
+  "id": "1e57599a4a3b13c36a8c2bf1a20d650c",
+  "detailImageId": "5dccf48720d58795611f30dafdd8b4ca",
+  "name": "スバル",
+  "kanaName": "スバル",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "死に戻り",
+    "kanaName": "しにもどり",
+    "cost": "7",
+    "description": "味方の武力が上がる。さらに自身が効果中に撤退すると、この計略の全ての効果は終了し、味方の移動速度が上がる。さらに対象の味方が発動時の位置に発動時の武力と知力と兵力で一瞬で移動し、撤退していた場合発動時の位置に発動時の武力と知力と兵力で復活する",
+    "categories": [
+      "全体強化",
+      "復活",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "4",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1e57599a4a3b13c36a8c2bf1a20d650c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4092"
+  }
+}
