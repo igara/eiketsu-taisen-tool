@@ -1,0 +1,43 @@
+{
+  "no": "EX127",
+  "appear": "第4弾-EX",
+  "id": "dba1bd3578be50d49d1c879c502e7cda",
+  "detailImageId": "97bdcf4dd9ef4ca13a74362a4879ca93",
+  "name": "督姫",
+  "kanaName": "とくひめ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "操り人形の縛帯",
+    "kanaName": "あやつりにんぎょうのばくたい",
+    "cost": "3",
+    "description": "敵の武力が下がり、覇気が溜まらなくなる",
+    "categories": [
+      "妨害",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dba1bd3578be50d49d1c879c502e7cda",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4102"
+  }
+}
