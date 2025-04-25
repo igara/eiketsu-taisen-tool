@@ -1,0 +1,42 @@
+{
+  "no": "EX126",
+  "appear": "第4弾-EX",
+  "id": "51889e46e890cd4a60f1047f51daa5d1",
+  "detailImageId": "051d78fab25e5d5547877fc1459c5f02",
+  "name": "許褚",
+  "kanaName": "きょちょ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "虎痴の掩護",
+    "kanaName": "こちのえんご",
+    "cost": "4",
+    "description": "自身を除く最も兵力の少ない味方を自身の場所に一瞬で移動させ、自身の武力が上がる。この効果は対象の兵力が少ないほど大きい",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=51889e46e890cd4a60f1047f51daa5d1",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4101"
+  }
+}

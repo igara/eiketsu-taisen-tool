@@ -1494,6 +1494,15 @@
     }
   },
   {
+    "no": "EX128",
+    "deckImageHash": "7fc7ff017e101c0080da479e83fc00fe7eff867e70202023422f1ffe2613c00f",
+    "name": "織田信忠",
+    "kanaName": "おだのぶただ",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "PL001",
     "deckImageHash": "3fe3863d203f0127f143ebe7c31f02013e1f351f0c4b80a760f301e319e4fdc1",
     "name": "信",
@@ -3240,6 +3249,15 @@
     }
   },
   {
+    "no": "EX126",
+    "deckImageHash": "fc07fc3d79e0e000fc18e000e7e2e0f7605f400f1e477f497f647f003e00ff01",
+    "name": "許褚",
+    "kanaName": "きょちょ",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "PL012",
     "deckImageHash": "01f7003d0f8e1bf31fbc1b820f801ff80f9f0d8f03c3049f041f011f379f078f",
     "name": "神楽",
@@ -4873,6 +4891,15 @@
     "deckImageHash": "4f02fb80fc00fe78fe78fce0e8c0800fc09fc89fc01fc01ffc4df85cf8188443",
     "name": "劉備",
     "kanaName": "りゅうび",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "EX127",
+    "deckImageHash": "31a271d0f390f3c3f9cef003ee3c2032630ff10ee0bd00fc807dfc723f810770",
+    "name": "督姫",
+    "kanaName": "とくひめ",
     "color": {
       "name": "碧"
     }

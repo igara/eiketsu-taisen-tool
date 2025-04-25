@@ -1,0 +1,36 @@
+{
+  "no": "EX128",
+  "appear": "第4弾-EX",
+  "id": "ad3bb33e0d0d271682851e76fd77738d",
+  "detailImageId": "47bd61bb4f442a044373044ac63566ed",
+  "name": "織田信忠",
+  "kanaName": "おだのぶただ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "布武継承",
+    "kanaName": "ふぶけいしょう",
+    "cost": "5",
+    "description": "蒼の味方の武力が上がる。対象の味方の知力が一定以上の場合、さらに武力と移動速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "33",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ad3bb33e0d0d271682851e76fd77738d",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4103"
+  }
+}
