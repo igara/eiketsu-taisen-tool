@@ -1,0 +1,43 @@
+{
+  "no": "EX129",
+  "appear": "第4弾-EX",
+  "id": "38292da8dedc81af3b2bbcf9aafbf549",
+  "detailImageId": "035f0707a06bcf95edb3a1143ac355c7",
+  "name": "森長可",
+  "kanaName": "もりながよし",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "琥煌の槍舞",
+    "kanaName": "ここうのそうぶ",
+    "cost": "4",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がり、槍撃の発生間隔が短縮される<br>３消費：さらに槍撃ダメージが上がり、槍撃が複数部隊に当たるようになる",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=38292da8dedc81af3b2bbcf9aafbf549",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4104"
+  }
+}
