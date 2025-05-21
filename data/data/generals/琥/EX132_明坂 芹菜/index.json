@@ -1,0 +1,43 @@
+{
+  "no": "EX132",
+  "appear": "第4弾-EX",
+  "id": "e6bde297e1639b45acfc51c183b0da40",
+  "detailImageId": "2fd350f226ef65a9e4e3f608d02aa553",
+  "name": "明坂 芹菜",
+  "kanaName": "あけさかせりな",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "特殊",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "太琥は友達！",
+    "kanaName": "たいこはともだち",
+    "cost": "5",
+    "description": "【舞い】（発動すると移動と兵種アクションができなくなる。自身は自身の舞いの効果を受けない）<br>琥煌ゲージが増加する。さらに味方が計略【琥煌】を発動するたびに味方の武力が一定時間上がる",
+    "categories": [
+      "全体強化",
+      "舞い"
+    ],
+    "time": "撤退するまで",
+    "range": "4d3caffa4b65d477e2065a8e4524774e"
+  },
+  "power": "2",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e6bde297e1639b45acfc51c183b0da40",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4110"
+  }
+}
