@@ -1,0 +1,43 @@
+{
+  "no": "EX134",
+  "appear": "第4弾-EX",
+  "id": "c5a41e1ed62152395584b7d1e4c73639",
+  "detailImageId": "06b1094b382db3192b4df8e836f6bed7",
+  "name": "不来方 とあ",
+  "kanaName": "こずかたとあ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "僕たちの約束",
+    "kanaName": "ぼくたちのやくそく",
+    "cost": "7",
+    "description": "碧の味方の武力と移動速度が上がる。対象の味方の兵種数が一定以上の場合、さらに兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c5a41e1ed62152395584b7d1e4c73639",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4112"
+  }
+}
