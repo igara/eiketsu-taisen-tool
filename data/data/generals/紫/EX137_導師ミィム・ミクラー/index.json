@@ -1,0 +1,38 @@
+{
+  "no": "EX137",
+  "appear": "第4弾-EX",
+  "id": "6fd5c914bbae5ebc2c7610ac4e4360fc",
+  "detailImageId": "6886f61f639f35f9dea91fb285697988",
+  "name": "導師ミィム・ミクラー",
+  "kanaName": "どうしミィム・ミクラー",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "特殊",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "宿星審判",
+    "kanaName": "しゅくせいしんぱん",
+    "cost": "7",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>紫の味方の武力が上がる。この計略は城内にいる時のみ使用できる。一定以上武力が上がると、さらに敵の計略の対象にならなくなる",
+    "categories": [
+      "全体強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "2",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6fd5c914bbae5ebc2c7610ac4e4360fc",
+    "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2229.html",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4115"
+  }
+}
