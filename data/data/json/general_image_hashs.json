@@ -1503,6 +1503,15 @@
     }
   },
   {
+    "no": "EX135",
+    "deckImageHash": "0fe30fe11f7834303dbe1dba090c3836d803c80c6c9e7dbc36fc343e660f0703",
+    "name": "ナイ",
+    "kanaName": "ナイ",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "PL001",
     "deckImageHash": "3fe3863d203f0127f143ebe7c31f02013e1f351f0c4b80a760f301e319e4fdc1",
     "name": "信",
@@ -3253,6 +3262,15 @@
     "deckImageHash": "fc07fc3d79e0e000fc18e000e7e2e0f7605f400f1e477f497f647f003e00ff01",
     "name": "許褚",
     "kanaName": "きょちょ",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "EX136",
+    "deckImageHash": "b807f381f818f398e1c1605f25fd01a741817803f80fff0f560c6407779f078e",
+    "name": "鬼蝮 ユリア",
+    "kanaName": "おにまむしユリア",
     "color": {
       "name": "緋"
     }
@@ -7933,6 +7951,15 @@
     "deckImageHash": "06af05f907f809f8ffff9f67000710003f703f203f807f80fe02e003e000ffef",
     "name": "陳平",
     "kanaName": "ちんぺい",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "EX137",
+    "deckImageHash": "01021ff03f7863fa76f865790f84610ee303fe26623bc03a1efe1ffc7f081000",
+    "name": "導師ミィム・ミクラー",
+    "kanaName": "どうしミィム・ミクラー",
     "color": {
       "name": "紫"
     }
