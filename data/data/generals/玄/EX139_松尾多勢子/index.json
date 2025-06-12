@@ -1,0 +1,48 @@
+{
+  "no": "EX139",
+  "appear": "第4弾-EX",
+  "id": "c54fa90251d921ff6c634d76c2a1f411",
+  "detailImageId": "de5aad8332bfb45e927f5765f5925831",
+  "name": "松尾多勢子",
+  "kanaName": "まつおたせこ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "攘夷の支援者",
+    "kanaName": "じょういのしえんしゃ",
+    "cost": "4",
+    "description": "味方を一瞬で城に戻し、武力が上がる",
+    "categories": [
+      "全体強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c54fa90251d921ff6c634d76c2a1f411",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4117"
+  }
+}
