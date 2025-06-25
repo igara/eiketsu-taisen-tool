@@ -1,0 +1,48 @@
+{
+  "no": "EX145",
+  "appear": "第4弾-EX",
+  "id": "14c57806f2406816b9a5dc7448e79cd4",
+  "detailImageId": "ed42b269e60d288f7533a00929cf82f3",
+  "name": "辛憲英",
+  "kanaName": "しんけんえい",
+  "color": {
+    "name": "琥",
+    "r": "230",
+    "g": "135",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "琥煌の車輪号令",
+    "kanaName": "ここうのしゃりんごうれい",
+    "cost": "7",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の武力が上がり、槍兵であれば全方向に槍の無敵攻撃を行う<br>３消費：さらに槍の無敵攻撃のダメージが上がる",
+    "categories": [
+      "全体強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "6",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=14c57806f2406816b9a5dc7448e79cd4",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4123"
+  }
+}

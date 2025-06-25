@@ -1521,6 +1521,15 @@
     }
   },
   {
+    "no": "EX140",
+    "deckImageHash": "000f07ff0fc707f07f01fc23f043e20be61df67cf440e440e000e03fccfee037",
+    "name": "騰",
+    "kanaName": "とう",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "PL001",
     "deckImageHash": "3fe3863d203f0127f143ebe7c31f02013e1f351f0c4b80a760f301e319e4fdc1",
     "name": "信",
@@ -3285,6 +3294,15 @@
     }
   },
   {
+    "no": "EX141",
+    "deckImageHash": "380701f943f855fcc5a9437aa7f09614061d960fec8f70c310c800f6f878ef3d",
+    "name": "丁夫人",
+    "kanaName": "ていふじん",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "PL012",
     "deckImageHash": "01f7003d0f8e1bf31fbc1b820f801ff80f9f0d8f03c3049f041f011f379f078f",
     "name": "神楽",
@@ -4936,6 +4954,15 @@
     "deckImageHash": "00070fe13ba43ffc13fc0ff807f007e01fe827c837f043c2238fe38e739e9101",
     "name": "不来方 とあ",
     "kanaName": "こずかたとあ",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "EX142",
+    "deckImageHash": "17f200fc07fe00fa09fff87f803c002e8008079f2edb761ffe1edf0300e7208b",
+    "name": "伊庭八郎",
+    "kanaName": "いばはちろう",
     "color": {
       "name": "碧"
     }
@@ -6723,6 +6750,15 @@
     }
   },
   {
+    "no": "EX143",
+    "deckImageHash": "6807fb65fd007f0007ff27b3e21330033eb71e830fe107a007907907381ff81f",
+    "name": "龐煖",
+    "kanaName": "ほうけん",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "PL005",
     "deckImageHash": "0007f801f03ffdbcfda3fc83f003e003f01cf1fcd1f800e4588ef00ef0c3e267",
     "name": "李牧",
@@ -7983,6 +8019,15 @@
     }
   },
   {
+    "no": "EX144",
+    "deckImageHash": "efb7e01dc1e0c1c0c1c0cee009e31ddf3dde799ec087c0031a1c3e01d94f907f",
+    "name": "佐藤義清",
+    "kanaName": "さとうのりきよ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "PL032",
     "deckImageHash": "8e9f01e303e0f7e001c005833cff7c5f7c1f3c8f3c08dc06fc0f6c0ffc08c80d",
     "name": "風間千景",
@@ -8923,6 +8968,15 @@
     "deckImageHash": "04003ff87c3e781fd80bfc07e036c11f01fcc1e03ff80fc80f83e7cfcf078006",
     "name": "明坂 芹菜",
     "kanaName": "あけさかせりな",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "EX145",
+    "deckImageHash": "31f747fdc01ec003dbd7c195876003c601ce07ec07e89ff01ff88ffa8c08c40d",
+    "name": "辛憲英",
+    "kanaName": "しんけんえい",
     "color": {
       "name": "琥"
     }
