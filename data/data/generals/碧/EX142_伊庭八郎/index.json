@@ -1,0 +1,45 @@
+{
+  "no": "EX142",
+  "appear": "第4弾-EX",
+  "id": "5755bd90f7b0b5da807c3a1b22dcae48",
+  "detailImageId": "0d1c76709799d846574ac0049477e00b",
+  "name": "伊庭八郎",
+  "kanaName": "いばはちろう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "隻腕の麒麟児",
+    "kanaName": "せきわんのきりんじ",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力が上がり、敵の移動速度を下げる。さらに自身にカウンターが発生する。カウンターは斬撃を敵に当てるたびに減少し、カウンターが０になると対象の敵に武力によるダメージを与える。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "妨害",
+      "ダメージ",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "22",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5755bd90f7b0b5da807c3a1b22dcae48",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4120"
+  }
+}
