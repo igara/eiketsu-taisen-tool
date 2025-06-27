@@ -63,7 +63,7 @@ export const GeneralDetailButton: React.FC<Props> = ({
 				open={isOpen}
 				className={
 					isOpen
-						? "fixed z-[999] left-0 top-0 flex items-center justify-center w-full h-full bg-[rgba(0,0,0,0.5)]"
+						? "fixed z-[999] left-0 top-0 flex items-center justify-center w-[100dvw] h-[100dvh] bg-[rgba(0,0,0,0.5)]"
 						: "hidden"
 				}
 				onClick={onClickDialog}
@@ -125,7 +125,7 @@ export const GeneralDetailButton: React.FC<Props> = ({
 										</p>
 									</div>
 
-									<div className="w-[32px]">
+									<div>
 										<GeneralImageButton general={general} />
 									</div>
 								</div>
@@ -154,7 +154,7 @@ export const GeneralDetailButton: React.FC<Props> = ({
 									<p>【{general.strat.cost}】</p>
 								</div>
 
-								<div className="w-[32px]">
+								<div>
 									<Image
 										src={`/eiketsu-taisen-tool/images/stratRange/${general.strat.range}.png`}
 										alt={general.strat.name}

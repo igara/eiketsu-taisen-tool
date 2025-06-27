@@ -40,7 +40,7 @@ export default function RootLayout({
 			>
 				{children}
 			</body>
-			{/* <Script src="/eiketsu-taisen-tool/coi-serviceworker.js" />		 */}
+			<Script src="/eiketsu-taisen-tool/coi-serviceworker.js" />		
 			<GoogleAnalytics gaId="G-Q8EBFQDX3R" />
 		</html>
 	);
