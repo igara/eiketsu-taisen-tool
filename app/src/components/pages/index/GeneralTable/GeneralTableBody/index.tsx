@@ -3,7 +3,7 @@
 import { FavoriteButton } from "@/components/Buttons/FavoriteButton";
 import { GeneralImageButton } from "@/components/Buttons/GeneralImageButton";
 import { SkillButton } from "@/components/Buttons/SkillButton";
-import { YouTubeGeneralCardButton } from "@/components/Buttons/YouTubeGeneralCardButton";
+// import { YouTubeGeneralCardButton } from "@/components/Buttons/YouTubeGeneralCardButton";
 import type { GeneralUI } from "@/components/pages/index/GeneralTable/logic";
 import type { SearchFormData } from "@/schema/SearchForm";
 import Image from "next/image";
@@ -68,7 +68,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 									</p>
 								</div>
 
-								<div className="w-[32px]">
+								<div>
 									<GeneralImageButton general={general} />
 								</div>
 							</div>
@@ -157,7 +157,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 									</li>
 								)}
 
-								<li>
+								{/* <li>
 									<YouTubeGeneralCardButton
 										general={general}
 										favorite={{
@@ -165,7 +165,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 											defaultSearchFavoriteNos,
 										}}
 									/>
-								</li>
+								</li> */}
 							</ul>
 
 							<div className="w-[90px] flex items-center justify-end p-1">
