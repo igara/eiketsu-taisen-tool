@@ -25,6 +25,7 @@ Sentry.init({
 
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
   debug: false,
+  environment: window.location.host === "localhost" ? "development" : "production",
 });
 
 export const onRouterTransitionStart = Sentry.captureRouterTransitionStart;
