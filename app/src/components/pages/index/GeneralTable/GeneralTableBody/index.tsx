@@ -35,7 +35,7 @@ export const GeneralTableBody: React.FC<Props> = ({
 				style={{
 					height: `${virtualizer.getTotalSize()}px`,
 					width: '100%',
-					// position: 'relative',
+					position: 'relative',
 				}}
 			>
 				{virtualizer.getVirtualItems().map((virtualItem) => {
@@ -46,11 +46,11 @@ export const GeneralTableBody: React.FC<Props> = ({
 							key={general.id}
 							ref={(node) => measureElement(node, virtualItem.index)}
 							style={{
-								// position: 'absolute',
+								position: 'absolute',
 								top: 0,
 								left: 0,
 								width: '100%',
-								// transform: `translateY(${virtualItem.start}px)`,
+								transform: `translateY(${virtualItem.start}px)`,
 							}}
 						>
 							<div

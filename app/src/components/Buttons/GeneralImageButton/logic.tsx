@@ -25,6 +25,8 @@ export const useLogic = () => {
 	};
 
 	const onClickDialog = (e: React.MouseEvent<HTMLDialogElement>) => {
+		e.preventDefault();
+		e.stopPropagation();
 		if (!refContentDivElement.current) return;
 
 		if (!refContentDivElement.current.contains(e.target as Node)) {
