@@ -1,6 +1,10 @@
 {
   "no": "蒼056",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "f415782273760f2ce383bc8714c9c510",
   "detailImageId": "7692ecce0c13d01cf300f2c93ee533ed",
   "name": "乾退助",

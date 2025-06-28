@@ -1,6 +1,10 @@
 {
   "no": "碧010",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "67221d24d65d8d9a2a0f7383fd5b57a4",
   "detailImageId": "83e42bcac6cdadef26cb808677dc0ae1",
   "name": "清河八郎",

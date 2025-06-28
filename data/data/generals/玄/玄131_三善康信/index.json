@@ -1,6 +1,10 @@
 {
   "no": "玄131",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "8bacd04e09823aa62c78e6fe56b81a54",
   "detailImageId": "61039351ddc9bf503817c927418c70dc",
   "name": "三善康信",

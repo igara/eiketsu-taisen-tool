@@ -1,6 +1,10 @@
 {
   "no": "緋105",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "8b858cd2ead9cf7a2150ade42c147280",
   "detailImageId": "8ae90c38279826d6697c1da8644d996d",
   "name": "英布",

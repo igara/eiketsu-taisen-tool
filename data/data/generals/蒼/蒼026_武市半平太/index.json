@@ -1,6 +1,10 @@
 {
   "no": "蒼026",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "5c9abbcbb5d4b26cae057715ff898b40",
   "detailImageId": "355c932176b85c30430aea1d10e4c7cc",
   "name": "武市半平太",

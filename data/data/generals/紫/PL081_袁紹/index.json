@@ -1,6 +1,9 @@
 {
   "no": "PL081",
   "appear": "第4弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/01/01〜25/01/14"
+  ],
   "id": "8d7b6105669a6dfb88f7047b975e1dc3",
   "detailImageId": "e81f2c73410ab84f5acfb937943dd59a",
   "name": "袁紹",

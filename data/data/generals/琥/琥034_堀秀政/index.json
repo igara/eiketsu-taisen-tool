@@ -1,6 +1,10 @@
 {
   "no": "琥034",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "f6a6a2719755e3170d2a968bbcbdc43d",
   "detailImageId": "50e0ecbcca8b99cd35e51e49a8168177",
   "name": "堀秀政",

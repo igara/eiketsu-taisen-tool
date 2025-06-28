@@ -1,6 +1,10 @@
 {
   "no": "蒼119",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "d132ca4ff53372e3c39cd5fcd23a85b3",
   "detailImageId": "052ad78d55b194ed7d798c95fae79738",
   "name": "帰蝶",

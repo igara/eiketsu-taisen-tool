@@ -1,6 +1,10 @@
 {
   "no": "緋009",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "4b4eb125e8b79f4e1649d6095a641cbc",
   "detailImageId": "7e11a0bb5c06f51215d2c7b1acbcaf81",
   "name": "王異",

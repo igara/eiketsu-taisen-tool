@@ -1,6 +1,10 @@
 {
   "no": "EX025",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 23/05/24〜",
+    "大戦スタンプキャンペーン: 23/03/01〜23/03/28"
+  ],
   "id": "dbe3fcc65815de4188b79db839a86acc",
   "detailImageId": "a6867fbc2840908fee058e562383dd90",
   "name": "大嶽丸",

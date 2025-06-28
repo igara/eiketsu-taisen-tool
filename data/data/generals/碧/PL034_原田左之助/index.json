@@ -1,6 +1,10 @@
 {
   "no": "PL034",
   "appear": "第2弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 23/04/12〜23/04/25",
+    "大戦スタンプキャンペーン: 24/05/01〜24/05/14"
+  ],
   "id": "37e5f7f34b3cfae476c8f0913b7177a6",
   "detailImageId": "963dc6aecfb49d7eb2367dbd15bfc7f2",
   "name": "原田左之助",

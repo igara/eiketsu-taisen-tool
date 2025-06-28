@@ -1,6 +1,10 @@
 {
   "no": "碧055",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "fbd21bfc92b770e4895151ab57984afc",
   "detailImageId": "04ab939af3cd81fed30514b8421d6e94",
   "name": "大石鍬次郎",

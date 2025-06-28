@@ -1,6 +1,10 @@
 {
   "no": "緋104",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "a8bd4f29a336201bbf29a2082f5bc1aa",
   "detailImageId": "3dccabb31c7d437406fec2dd56c2553c",
   "name": "養由基",

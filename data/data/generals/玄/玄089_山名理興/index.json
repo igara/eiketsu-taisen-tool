@@ -1,6 +1,10 @@
 {
   "no": "玄089",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "2b38caf7b5659ccd8e0fa53e84505a25",
   "detailImageId": "2339d95321a48f4a1a1c742aad7dad5d",
   "name": "山名理興",

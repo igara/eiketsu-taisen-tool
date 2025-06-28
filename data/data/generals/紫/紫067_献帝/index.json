@@ -1,6 +1,10 @@
 {
   "no": "紫067",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "4f1e03314bcdd4f54c9416e7cea92972",
   "detailImageId": "827d905d61a3f2cd380240f58453b7e3",
   "name": "献帝",

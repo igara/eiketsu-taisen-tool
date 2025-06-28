@@ -1,6 +1,10 @@
 {
   "no": "緋115",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "797e9f26e193e70cbcf5d89d3473a519",
   "detailImageId": "7b731ed4c5171464dcf775fead3b250e",
   "name": "藤原景清",

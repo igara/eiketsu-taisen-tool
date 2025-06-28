@@ -1,6 +1,10 @@
 {
   "no": "碧021",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "f0595127a0b2f2c6900b440eb7d155b5",
   "detailImageId": "35bb1dd126c0d3a0731b74e1644c298f",
   "name": "張飛",

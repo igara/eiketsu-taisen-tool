@@ -1,6 +1,10 @@
 {
   "no": "琥048",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "75c8d00a001e3f39115eaaa445e4f5cb",
   "detailImageId": "1dc8fe4fb36bb2a2d4004862db399bfc",
   "name": "晋文公",

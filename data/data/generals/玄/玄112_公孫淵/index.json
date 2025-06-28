@@ -1,6 +1,10 @@
 {
   "no": "玄112",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "1e8beacb4999e5971f23cc4d49e80f2c",
   "detailImageId": "f389e0e0f8a3b4f038b9a48aac8e4089",
   "name": "公孫淵",

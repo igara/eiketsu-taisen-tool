@@ -1,6 +1,10 @@
 {
   "no": "蒼113",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "8b3bba915ce240baf94b353eb2c8fe07",
   "detailImageId": "43502f468d328f3429813f4412e43b7a",
   "name": "孫武",

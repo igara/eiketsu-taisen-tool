@@ -1,6 +1,9 @@
 {
   "no": "PL080",
   "appear": "第4弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 24/12/18〜24/12/31"
+  ],
   "id": "baa80911f3b916994bf11a86145ac999",
   "detailImageId": "fc84af717f6ade920efc8212ab9ecd11",
   "name": "白起",

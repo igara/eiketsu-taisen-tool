@@ -1,6 +1,10 @@
 {
   "no": "玄009",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "b15e20180bcd06571c900eb221e0defb",
   "detailImageId": "524c6407aa2a268321ea308ad106632d",
   "name": "河上彦斎",

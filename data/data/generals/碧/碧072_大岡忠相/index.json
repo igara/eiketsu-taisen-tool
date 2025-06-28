@@ -1,6 +1,10 @@
 {
   "no": "碧072",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "8f36ee4762ae91887a8d813d69305b1a",
   "detailImageId": "10df1b58ab1067a9c45905fdb395cdbc",
   "name": "大岡忠相",

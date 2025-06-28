@@ -1,6 +1,10 @@
 {
   "no": "蒼015",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "89e1fb2c05b087dd31f946d2ee656b66",
   "detailImageId": "37fdd11b4d659ad453a71356514ed706",
   "name": "佐々成政",

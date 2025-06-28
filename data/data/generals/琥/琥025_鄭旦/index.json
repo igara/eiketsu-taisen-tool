@@ -1,6 +1,10 @@
 {
   "no": "琥025",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "237c112c93a8bed69b39357d55a262de",
   "detailImageId": "87c7de84140b9ad3394a263f28d0edc2",
   "name": "鄭旦",

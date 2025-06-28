@@ -1,6 +1,10 @@
 {
   "no": "蒼076",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "de35ea2dd3949fc7f694d2f91d4fb061",
   "detailImageId": "df4bd78bfa5ecfafb9fc80d37b221403",
   "name": "土肥実平",

@@ -1,6 +1,10 @@
 {
   "no": "玄128",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "b01e6aad132939c3677cb6b9d43fdd92",
   "detailImageId": "963b3396d2f7b80e4c500fdc1107e013",
   "name": "鄭",

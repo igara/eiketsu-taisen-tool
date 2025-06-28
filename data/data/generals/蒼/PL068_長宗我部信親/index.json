@@ -1,6 +1,10 @@
 {
   "no": "PL068",
   "appear": "第3弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 24/07/17〜24/08/13",
+    "大戦スタンプキャンペーン: 25/06/25〜25/07/22"
+  ],
   "id": "eb71e3acf5dd0f259cd2680acdb3d9df",
   "detailImageId": "aa3818fbf04add6da47a851e8f0d48a3",
   "name": "長宗我部信親",

@@ -1,6 +1,10 @@
 {
   "no": "PL042",
   "appear": "第2弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 23/08/30〜23/09/12",
+    "大戦スタンプキャンペーン: 24/08/21〜24/09/03"
+  ],
   "id": "9f84e1b047a21d9a4ccea3dad5acd1c3",
   "detailImageId": "dd6e60b60110a5d305a05a23ae8b0345",
   "name": "バン",

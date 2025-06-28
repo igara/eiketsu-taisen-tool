@@ -1,6 +1,10 @@
 {
   "no": "緋020",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "2249624926089a509c3c98b3ca5f6853",
   "detailImageId": "f6bc6b53eba91d6559b87e3bbd7059ab",
   "name": "曹休",

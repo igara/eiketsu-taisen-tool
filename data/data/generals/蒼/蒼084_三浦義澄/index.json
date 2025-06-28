@@ -1,6 +1,10 @@
 {
   "no": "蒼084",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "33fceb11d94af0fd8eecdd4da16ab985",
   "detailImageId": "25abc4a152218a31990458fcedeae480",
   "name": "三浦義澄",

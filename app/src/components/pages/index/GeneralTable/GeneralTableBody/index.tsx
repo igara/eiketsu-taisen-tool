@@ -60,54 +60,74 @@ export const GeneralTableBody: React.FC<Props> = ({
 								}}
 							>
 								<div className="flex p-2">
-									<div className="flex-grow-0 flex-shrink-0 w-[80px] p-1 align-baseline">
-										<p
-											style={{
-												color: `rgb(${general.color.r},${general.color.g},${general.color.b})`,
-											}}
-										>
-											{general.color.name}
-										</p>
-										<p>{general.period}</p>
-										<p>{general.no}</p>
-										<p>{general.appear}</p>
-									</div>
-
-									<div className="flex-grow-0 flex-shrink-0 w-[120px] p-1 align-baseline">
-										<div className="flex flex-col gap-1">
-											<div>
-												<ruby>
-													<p>{general.name}</p>
-													<rp>(</rp>
-													<rt>{general.kanaName}</rt>
-													<rp>)</rp>
-												</ruby>
-											</div>
-
-											<div className="flex justify-between">
-												<div className="flex flex-col">
-													<p>【{general.cost}】</p>
-
-													<p>{general.unitType}</p>
-
-													<p>
-														{general.power} / {general.intelligentzia}
+									<div className="flex flex-col">
+										<div className="flex">
+											<div className="flex-grow-0 flex-shrink-0 w-[80px] p-1 align-baseline">
+													<p
+														style={{
+															color: `rgb(${general.color.r},${general.color.g},${general.color.b})`,
+														}}
+													>
+														{general.color.name}
 													</p>
-												</div>
-
-												<div>
-													<GeneralImageButton general={general} />
-												</div>
+													<p>{general.period}</p>
+													<p>{general.no}</p>
+													<p>{general.appear}</p>
 											</div>
 
-											<div className="flex gap-1 flex-wrap">
-												{general.skill.map((skill, index) => {
-													return (
-														// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-														<SkillButton key={index} skill={skill} />
-													);
-												})}
+											<div className="flex-grow-0 flex-shrink-0 w-[120px] p-1 align-baseline">
+												<div className="flex flex-col gap-1">
+													<div>
+														<ruby>
+															<p>{general.name}</p>
+															<rp>(</rp>
+															<rt>{general.kanaName}</rt>
+															<rp>)</rp>
+														</ruby>
+													</div>
+
+													<div className="flex justify-between">
+														<div className="flex flex-col">
+															<p>【{general.cost}】</p>
+
+															<p>{general.unitType}</p>
+
+															<p>
+																{general.power} / {general.intelligentzia}
+															</p>
+														</div>
+
+														<div>
+															<GeneralImageButton general={general} />
+														</div>
+													</div>
+
+													<div className="flex gap-1 flex-wrap">
+														{general.skill.map((skill, index) => {
+															return (
+																// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+																<SkillButton key={index} skill={skill} />
+															);
+														})}
+													</div>
+												</div>
 											</div>
+										</div>
+
+										<div
+											className={`p-1 ${isDisableOption ? "hidden" : ""}`}
+										>
+											<label>
+												入手手段
+											</label>
+
+											{general.appearPatterns.map((appearPattern, index) => {
+												return (
+													<div key={index}>
+														{appearPattern}
+													</div>
+												);
+											})}
 										</div>
 									</div>
 

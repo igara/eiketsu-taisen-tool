@@ -1,6 +1,10 @@
 {
   "no": "碧130",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "65143a949dab9c1327e28cdd16f8b4ac",
   "detailImageId": "bc98560ee3fd08889ece77d876555652",
   "name": "松平春嶽",

@@ -1,6 +1,10 @@
 {
   "no": "緋051",
   "appear": "第1弾-2",
+  "appearPatterns": [
+    "探索(武将): 22/08/09〜",
+    "武将獲得: 22/08/09〜"
+  ],
   "id": "3c6df4be9a2e5a0e16dfcc7981e5afc8",
   "detailImageId": "b9f6da44819d3f386dc2bd94e1e89f85",
   "name": "張遼",

@@ -1,6 +1,10 @@
 {
   "no": "EX108",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 25/05/21〜",
+    "ポイントショップイベント: 25/01/22〜25/02/18"
+  ],
   "id": "bd12b9b311fa04a607ef0f4b21127d32",
   "detailImageId": "a5272f5cd7956eca5cd0222fd91772cb",
   "name": "華姫",

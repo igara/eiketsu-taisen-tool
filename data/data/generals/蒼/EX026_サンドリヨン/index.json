@@ -1,6 +1,10 @@
 {
   "no": "EX026",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 23/08/02〜",
+    "大戦スタンプキャンペーン: 23/04/26〜23/05/23"
+  ],
   "id": "e15f5a6087bbebff0ac27d38c9dff854",
   "detailImageId": "70d1c985e2a1a3875893cd0553b6aad6",
   "name": "サンドリヨン",

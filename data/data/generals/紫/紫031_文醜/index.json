@@ -1,6 +1,10 @@
 {
   "no": "紫031",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "6548d83254cbd6fbb7c26aedf38853ba",
   "detailImageId": "8745d1dd32f16c8fe60f0e8895318554",
   "name": "文醜",

@@ -1,6 +1,10 @@
 {
   "no": "碧118",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "3ea71a12a549d9f3fcbee1b3e0a4f275",
   "detailImageId": "c33f708e4ed36bd09c93f6854a499ef2",
   "name": "天野八郎",

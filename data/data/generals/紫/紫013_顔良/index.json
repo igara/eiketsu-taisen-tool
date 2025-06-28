@@ -1,6 +1,10 @@
 {
   "no": "紫013",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "5f3c4d41eedc7ec71604aa699af001f2",
   "detailImageId": "b1bf4ab1189cd84c3eff4347e7eab543",
   "name": "顔良",

@@ -1,6 +1,10 @@
 {
   "no": "玄001",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "5216a701dff62f7d4c20de86fc8c329b",
   "detailImageId": "6f36b6e0e7385610f84c011b781c45f2",
   "name": "足利義輝",

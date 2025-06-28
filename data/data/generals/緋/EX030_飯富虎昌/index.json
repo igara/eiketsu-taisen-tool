@@ -1,6 +1,9 @@
 {
   "no": "EX030",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 23/04/26〜"
+  ],
   "id": "dd770b46de27cb794948378ba47ac725",
   "detailImageId": "6bea660a26cb0edc78e323462c56c07d",
   "name": "飯富虎昌",

@@ -1,6 +1,10 @@
 {
   "no": "碧088",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "0eb5eac9025ec75726d173ebb4840160",
   "detailImageId": "e53a40692a9bb204be55ddb04ce701ff",
   "name": "王平",

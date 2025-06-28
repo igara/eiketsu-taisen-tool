@@ -1,6 +1,10 @@
 {
   "no": "緋093",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "7bc16b786c1b68fe554b285eb8c5ab67",
   "detailImageId": "7c316a8e9b5f2e8998ae44bfdebcc8db",
   "name": "項燕",

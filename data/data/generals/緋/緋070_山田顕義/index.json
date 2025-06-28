@@ -1,6 +1,10 @@
 {
   "no": "緋070",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "40c467c05c99ffaee7714da535a1c327",
   "detailImageId": "dab378095dfb4b25da7b4a2a9e00dd7f",
   "name": "山田顕義",

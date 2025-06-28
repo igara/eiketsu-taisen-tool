@@ -1,6 +1,10 @@
 {
   "no": "碧083",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "8197535c769dcc36aeb345667637cbeb",
   "detailImageId": "e76c0f10fc72affe2780c0b653b9e9c4",
   "name": "根井行親",

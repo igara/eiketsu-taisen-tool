@@ -1,6 +1,10 @@
 {
   "no": "緋023",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "618a4575ed916c03c085ba729c7cb30d",
   "detailImageId": "6cc605ce81b808ed469d6c6d30d8b1ed",
   "name": "武田信玄",

@@ -1,6 +1,10 @@
 {
   "no": "緋131",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "831ec0a2bf532f7441c15ad51bd55079",
   "detailImageId": "f8faaa2c4415e92b38b523eabe9555ee",
   "name": "文欽",

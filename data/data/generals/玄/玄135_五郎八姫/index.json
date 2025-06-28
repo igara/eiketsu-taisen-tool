@@ -1,6 +1,10 @@
 {
   "no": "玄135",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "472c53d4705a4e83639bc3b94ad52a81",
   "detailImageId": "fddac8b17bd871f35a1c6a1869186cee",
   "name": "五郎八姫",

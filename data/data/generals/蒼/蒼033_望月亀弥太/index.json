@@ -1,6 +1,10 @@
 {
   "no": "蒼033",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "5a6be1ed2763cdef9bed728f05b4e856",
   "detailImageId": "78de287b55c9dc5c02b5dba79d5283ad",
   "name": "望月亀弥太",

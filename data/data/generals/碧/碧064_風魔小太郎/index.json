@@ -1,6 +1,10 @@
 {
   "no": "碧064",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "463f3a49eb1c0a99fceb12704a186d87",
   "detailImageId": "08a1e5c0c6ebbffee63fb3ebabdb5aaf",
   "name": "風魔小太郎",

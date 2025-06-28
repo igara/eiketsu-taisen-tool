@@ -1,6 +1,10 @@
 {
   "no": "玄002",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "063b9af58cfb5fbfd52c185558e41b5e",
   "detailImageId": "3253bfc9da8f0db993d19be72dbfc5e6",
   "name": "甘粕景持",

@@ -1,6 +1,10 @@
 {
   "no": "琥051",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "0ab1d53cfc654537545c6e71ca764625",
   "detailImageId": "69bde18bffb7bf14bf9d3f1eec39751d",
   "name": "文鴦",

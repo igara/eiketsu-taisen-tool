@@ -1,6 +1,10 @@
 {
   "no": "蒼105",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "5943be0cec2a01c5ed73b634cedf52ce",
   "detailImageId": "05ec37fc06c81860dd1cec368b23a511",
   "name": "尉繚",

@@ -1,6 +1,10 @@
 {
   "no": "紫099",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "913ffed3f013af65b5bd3625ed87018a",
   "detailImageId": "65a4d82cba6e5471f0819879ec0be98c",
   "name": "黄祖",

@@ -1,6 +1,10 @@
 {
   "no": "玄067",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "eb0ddae9a294882fd4d485d8e5af97fb",
   "detailImageId": "7bdddfc388b43d3bab490e8820108cff",
   "name": "源義賢",

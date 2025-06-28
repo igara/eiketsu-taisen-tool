@@ -1,6 +1,10 @@
 {
   "no": "碧129",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "4b3f5cdd9913969387000afe4d962f14",
   "detailImageId": "9ba7be7f4ad72e4f50717c174853810f",
   "name": "法正",

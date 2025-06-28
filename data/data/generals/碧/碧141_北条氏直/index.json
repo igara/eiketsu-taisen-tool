@@ -1,6 +1,10 @@
 {
   "no": "碧141",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "e25d241d51dba9bb135952bd20e02be2",
   "detailImageId": "4931fa8aaacd9cf7fbb379b6d40309bb",
   "name": "北条氏直",

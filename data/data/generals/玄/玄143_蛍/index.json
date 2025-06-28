@@ -1,6 +1,10 @@
 {
   "no": "玄143",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "8b654e9e6964eb33611ec07fc6b21fe8",
   "detailImageId": "ee7cfd243d74193cf4a323c8e0861451",
   "name": "蛍",

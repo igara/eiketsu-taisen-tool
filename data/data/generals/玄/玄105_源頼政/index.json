@@ -1,6 +1,10 @@
 {
   "no": "玄105",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "a81ecf334b8eadf8a4602d7bdcc323d9",
   "detailImageId": "deda5b8526c2e256781122459d21d469",
   "name": "源頼政",

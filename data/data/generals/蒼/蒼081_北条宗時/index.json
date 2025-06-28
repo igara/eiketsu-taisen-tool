@@ -1,6 +1,10 @@
 {
   "no": "蒼081",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "acf8f0616740731ede901462b0464f0c",
   "detailImageId": "fac1731ec3a97aaa590a612e2e4305fe",
   "name": "北条宗時",

@@ -1,6 +1,10 @@
 {
   "no": "碧139",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "ca7bb6b9ea767d5f49b4aaa31306aeb1",
   "detailImageId": "144275da1feee25b7a367eb9a323a9b1",
   "name": "北条氏邦",

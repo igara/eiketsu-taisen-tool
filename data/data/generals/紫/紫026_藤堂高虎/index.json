@@ -1,6 +1,10 @@
 {
   "no": "紫026",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "130f237e2a5acd1cedecdba0969ec8c3",
   "detailImageId": "21797be28d3f1b78ea101b798db1d43b",
   "name": "藤堂高虎",

@@ -1,6 +1,10 @@
 {
   "no": "PL053",
   "appear": "第3弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 23/12/27〜24/01/09",
+    "大戦スタンプキャンペーン: 25/02/05〜25/02/18"
+  ],
   "id": "6a127b0cc21d3fc3725ab6e0aa4c7577",
   "detailImageId": "9c14596dc9480cf3fdeddf4bc6cf2ab5",
   "name": "リヴァイ",

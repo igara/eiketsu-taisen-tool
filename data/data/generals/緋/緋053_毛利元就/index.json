@@ -1,6 +1,10 @@
 {
   "no": "緋053",
   "appear": "第1弾-2",
+  "appearPatterns": [
+    "探索(武将): 22/08/09〜",
+    "武将獲得: 22/08/09〜"
+  ],
   "id": "5b8f879c12bef01005df6b7374bedf78",
   "detailImageId": "60862471d0b4a6a86c84e3a9bfc7e05d",
   "name": "毛利元就",

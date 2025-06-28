@@ -1,6 +1,10 @@
 {
   "no": "碧094",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "ef452d93e5be96ad23fa860edd545954",
   "detailImageId": "0be5207986cc9363a56e6bb2c5fb800e",
   "name": "春日局",

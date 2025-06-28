@@ -1,6 +1,10 @@
 {
   "no": "玄026",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "4fee9171174fc6ed8c0bdcbb9cd58601",
   "detailImageId": "b061a5eff7ac0246c3e117effb6777c1",
   "name": "細川晴元",

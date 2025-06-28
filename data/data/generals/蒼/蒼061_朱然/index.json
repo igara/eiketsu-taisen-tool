@@ -1,6 +1,10 @@
 {
   "no": "蒼061",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "f08ffec610552a4992eaa4e26cf42e1b",
   "detailImageId": "d36f2ea466ee3b2b4cb04c70305febe4",
   "name": "朱然",

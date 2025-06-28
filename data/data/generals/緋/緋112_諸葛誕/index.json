@@ -1,6 +1,10 @@
 {
   "no": "緋112",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "97c192dacd9169585323c212c742ed1d",
   "detailImageId": "ad27b18d49a142a9f52c681c180a37ba",
   "name": "諸葛誕",

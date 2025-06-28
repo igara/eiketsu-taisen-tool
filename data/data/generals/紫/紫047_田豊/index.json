@@ -1,6 +1,10 @@
 {
   "no": "紫047",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "22fa644e882d3f22c094aebba4c593da",
   "detailImageId": "f038628089d0ff347bd1cd1bbe96150f",
   "name": "田豊",

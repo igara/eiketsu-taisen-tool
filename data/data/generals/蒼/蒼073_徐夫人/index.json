@@ -1,6 +1,10 @@
 {
   "no": "蒼073",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "81bbb031cccac9638421abad98f7fc4e",
   "detailImageId": "37a4f0ad658bbb8018d162f8823ec63c",
   "name": "徐夫人",

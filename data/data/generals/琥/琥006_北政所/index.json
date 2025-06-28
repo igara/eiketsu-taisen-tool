@@ -1,6 +1,10 @@
 {
   "no": "琥006",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "ebef9acf79ab59c04dc54a1b9df61dee",
   "detailImageId": "0212b0fc4c3821d051d0fc4ca905d1bd",
   "name": "北政所",

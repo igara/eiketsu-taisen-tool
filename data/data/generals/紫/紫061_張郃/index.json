@@ -1,6 +1,10 @@
 {
   "no": "紫061",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "36f8d42e9bd0c0cf8ebfce3be4d404e3",
   "detailImageId": "b513bcc58d3b465f31bffa5ca7293730",
   "name": "張郃",

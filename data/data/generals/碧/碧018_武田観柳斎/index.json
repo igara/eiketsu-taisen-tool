@@ -1,6 +1,10 @@
 {
   "no": "碧018",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "9b382d15c6f8aeebdf9a5e76d55c2a89",
   "detailImageId": "f8179c4cf4cb947bbb18c66af8b630d0",
   "name": "武田観柳斎",

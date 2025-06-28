@@ -1,6 +1,10 @@
 {
   "no": "蒼065",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "d612d44c1dc761ecf891ca04b26fbe0c",
   "detailImageId": "bf7f2222cb63b64d1ad71deb56bb8904",
   "name": "千代",

@@ -1,6 +1,10 @@
 {
   "no": "碧136",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "44bdd93b52d20c42c81ddb6a83301018",
   "detailImageId": "d4c141d2f5e44e002e7852fddbacda1b",
   "name": "立見尚文",

@@ -1,6 +1,10 @@
 {
   "no": "碧143",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "e5b42c932699a6c9c95f229b900be62f",
   "detailImageId": "2a11e3016d6cdf7b90edb558a661bfff",
   "name": "柳生宗矩",

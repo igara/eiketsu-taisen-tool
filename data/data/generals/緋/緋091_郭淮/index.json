@@ -1,6 +1,10 @@
 {
   "no": "緋091",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "cf6ea349f9cd32f1c26ae844a1d19b49",
   "detailImageId": "fdfe7f8a715eb5347a3553354a71ad58",
   "name": "郭淮",

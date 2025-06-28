@@ -1,6 +1,10 @@
 {
   "no": "EX028",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 23/08/02〜",
+    "大戦スタンプキャンペーン: 23/04/26〜23/05/23"
+  ],
   "id": "f3a26d86eb05b2d31f850a2f2692fb5c",
   "detailImageId": "012b62b2a1f5a697ada00a71ab4aa20c",
   "name": "フィー・ラプンツェル",

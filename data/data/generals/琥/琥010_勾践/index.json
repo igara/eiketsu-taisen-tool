@@ -1,6 +1,10 @@
 {
   "no": "琥010",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "388f93d7a8373d7fa5129e51d810ef78",
   "detailImageId": "a9dcad6666cb630e79ab0740a4ef1c07",
   "name": "勾践",

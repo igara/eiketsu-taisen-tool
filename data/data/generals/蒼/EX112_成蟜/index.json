@@ -1,6 +1,9 @@
 {
   "no": "EX112",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 25/02/19〜"
+  ],
   "id": "f264c71ecffcbdb312e9f2386a2a7cc3",
   "detailImageId": "a83de54780799b7e4c6a7fffa081db99",
   "name": "成蟜",

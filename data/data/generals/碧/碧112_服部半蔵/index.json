@@ -1,6 +1,10 @@
 {
   "no": "碧112",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "cbf0dc7925deea99d6803fa1bc3abdca",
   "detailImageId": "7a8d5a2d6f1c6ab4a748a1206c0f6ce0",
   "name": "服部半蔵",

@@ -1,6 +1,10 @@
 {
   "no": "EX038",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 23/11/01〜",
+    "大戦スタンプキャンペーン: 23/08/02〜23/08/29"
+  ],
   "id": "2af99aecbd753ed4d44dd928634c5c04",
   "detailImageId": "39a92dd022e553d9091dcbe4298516cd",
   "name": "鄒氏",

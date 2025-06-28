@@ -1,6 +1,9 @@
 {
   "no": "EX130",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/05/07〜25/05/20"
+  ],
   "id": "c79798972abae0a218c3d6569c28dcd2",
   "detailImageId": "abcea3b1962c325997124ef39b2061b4",
   "name": "陳平",

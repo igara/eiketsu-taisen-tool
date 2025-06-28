@@ -1,6 +1,10 @@
 {
   "no": "紫069",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "baed66c87310541f92182f9939c111d5",
   "detailImageId": "ecf0ca803eb995ac9ab17db91b49a3a1",
   "name": "朱儁",

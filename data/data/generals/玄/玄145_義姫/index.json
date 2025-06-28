@@ -1,6 +1,10 @@
 {
   "no": "玄145",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "92371fd5423e0175828fe1aa18cb220f",
   "detailImageId": "c70e84e7b9653daa8ec9fd55f8c5254d",
   "name": "義姫",

@@ -1,6 +1,10 @@
 {
   "no": "紫054",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "89f0ef8710d9b4aeb06cd10cacb34fbd",
   "detailImageId": "ad03d8d835fc8a6cb02b89e6c942d5ff",
   "name": "葛飾北斎",

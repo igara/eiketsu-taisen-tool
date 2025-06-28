@@ -1,6 +1,10 @@
 {
   "no": "玄032",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "8f89313d22b41b1be0bfed4c0ee5eb39",
   "detailImageId": "7fb5f8142bc06dcab21532cbc86340eb",
   "name": "三好長逸",

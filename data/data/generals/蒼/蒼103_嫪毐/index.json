@@ -1,6 +1,10 @@
 {
   "no": "蒼103",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "5ba0b4ee400bbcbb0ae83a3b170d2fdc",
   "detailImageId": "378c539b07fa781162e8da2d16b26b4e",
   "name": "嫪毐",

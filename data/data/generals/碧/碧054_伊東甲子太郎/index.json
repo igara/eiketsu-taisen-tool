@@ -1,6 +1,10 @@
 {
   "no": "碧054",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "f2f16df7b26fd68f0b7f04c27f8bcbb8",
   "detailImageId": "79a39ebe6e0604acc4cb50eb2753c015",
   "name": "伊東甲子太郎",

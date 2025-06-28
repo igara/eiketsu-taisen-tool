@@ -1,6 +1,10 @@
 {
   "no": "緋143",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "aa5e27dfcffdac36d85cd533c493dcb4",
   "detailImageId": "65de7a372cf0747ce640a53a2f90bdee",
   "name": "典韋",

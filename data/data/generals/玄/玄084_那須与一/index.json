@@ -1,6 +1,10 @@
 {
   "no": "玄084",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "f1210e84eeb1d732a8b7840007aeff57",
   "detailImageId": "cebc505ea8012457122a8c25172c4b4c",
   "name": "那須与一",

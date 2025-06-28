@@ -1,6 +1,10 @@
 {
   "no": "玄059",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "f1673c192ec3ec186259fe2ea32f914a",
   "detailImageId": "0cb5bc61914a0186dc7d0d66de75270a",
   "name": "鎌田政清",

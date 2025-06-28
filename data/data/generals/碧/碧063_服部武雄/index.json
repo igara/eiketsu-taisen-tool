@@ -1,6 +1,10 @@
 {
   "no": "碧063",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "ab7bf2f64951ea37cd03d6e2612c1a65",
   "detailImageId": "16a57e1f126510c003fed69a63d477d8",
   "name": "服部武雄",

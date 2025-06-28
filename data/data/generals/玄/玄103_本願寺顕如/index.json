@@ -1,6 +1,10 @@
 {
   "no": "玄103",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "d90fa2ad39f56572768ed7102222bea5",
   "detailImageId": "a7f5bcfd0e475fb44e0224166f9e9b24",
   "name": "本願寺顕如",

@@ -1,6 +1,10 @@
 {
   "no": "碧066",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "846766a0ba423aac25e1f0112b9c871a",
   "detailImageId": "9b78cd69f96c54c0bc086ebf4821429a",
   "name": "北条綱成",

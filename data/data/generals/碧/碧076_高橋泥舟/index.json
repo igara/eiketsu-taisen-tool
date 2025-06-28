@@ -1,6 +1,10 @@
 {
   "no": "碧076",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "082e23373287d2df704009a7ecd05af7",
   "detailImageId": "90fd538f275e4c3bbbaed445215b8514",
   "name": "高橋泥舟",

@@ -1,6 +1,10 @@
 {
   "no": "緋137",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "05dc0efd8ea43d804ef7aadc936f6847",
   "detailImageId": "523a898fc3fdce10d171abf887c36956",
   "name": "小早川秀包",

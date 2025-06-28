@@ -1,6 +1,10 @@
 {
   "no": "PL057",
   "appear": "第3弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 24/02/28〜24/03/12",
+    "大戦スタンプキャンペーン: 25/03/05〜25/03/18"
+  ],
   "id": "a4e0cbf30029a2ef1991edd034ca20fd",
   "detailImageId": "33fb276d179ab4717ecfaa8f42318b6a",
   "name": "呂布奉先",

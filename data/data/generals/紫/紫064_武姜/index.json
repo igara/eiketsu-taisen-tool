@@ -1,6 +1,10 @@
 {
   "no": "紫064",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "5c4cc8bbe213c87d92d6c3b99d6541c1",
   "detailImageId": "238abe01dc13a1ea00cc5fe76cf5b84c",
   "name": "武姜",

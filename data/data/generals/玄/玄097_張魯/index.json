@@ -1,6 +1,10 @@
 {
   "no": "玄097",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "af6dfb73804daa76d8dc09216703dd66",
   "detailImageId": "71b7e977d268464e40f3564a9f6dc3ea",
   "name": "張魯",

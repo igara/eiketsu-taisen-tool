@@ -1,6 +1,10 @@
 {
   "no": "碧132",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "2ccd525d09b774be02e9ba77a958c429",
   "detailImageId": "df679d4840051b85beb4fca5163883eb",
   "name": "大久保忠世",

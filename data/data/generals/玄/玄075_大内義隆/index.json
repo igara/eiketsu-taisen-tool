@@ -1,6 +1,10 @@
 {
   "no": "玄075",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "c3a20f278e63282936e51a318ac5976b",
   "detailImageId": "8fba508d47fe9146e70c505ebb119cb7",
   "name": "大内義隆",

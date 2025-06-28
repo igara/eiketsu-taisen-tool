@@ -7,6 +7,7 @@ export type Skill = {
 export type General = {
 	no: string;
 	appear: string;
+	appearPatterns: string[];
 	id: string;
 	detailImageId: string;
 	name: string;

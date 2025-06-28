@@ -1,6 +1,10 @@
 {
   "no": "碧036",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "0ff001d7b64c66e4c3d5cd9ac71f623e",
   "detailImageId": "b1b7885bec0555e3791bdd3644faaf41",
   "name": "山崎丞",

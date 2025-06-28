@@ -1,6 +1,10 @@
 {
   "no": "蒼134",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "44ed20b74fc7b45ed52c45fbc40fe91d",
   "detailImageId": "f23a5f2a6ece271fef328c0a202a784e",
   "name": "始皇帝",

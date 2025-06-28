@@ -1,6 +1,10 @@
 {
   "no": "蒼017",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "f6c1b92cbf99b612d0a40d2c3ae400c2",
   "detailImageId": "f6c77cebc7e7d6f0f2953325ea53d088",
   "name": "柴田勝家",

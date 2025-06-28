@@ -1,6 +1,10 @@
 {
   "no": "玄090",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "5a689360d404420a621d6f4fc59957f3",
   "detailImageId": "ce4cb853b5fb2a4bfdd35737ea6012f5",
   "name": "足利義昭",

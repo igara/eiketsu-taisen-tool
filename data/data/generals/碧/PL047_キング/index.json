@@ -1,6 +1,10 @@
 {
   "no": "PL047",
   "appear": "第2弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 23/09/13〜23/09/26",
+    "大戦スタンプキャンペーン: 24/09/04〜24/09/17"
+  ],
   "id": "1499160425ca188f3654428de6f4663b",
   "detailImageId": "bcdfedfa29825db4da29d5eac9ec4ae6",
   "name": "キング",

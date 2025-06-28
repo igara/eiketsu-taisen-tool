@@ -1,6 +1,10 @@
 {
   "no": "緋032",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "00ec0c33182304b2f59ff2ab51ecec70",
   "detailImageId": "97c38d8b9faaf483b9320f08abcbe054",
   "name": "望月千代女",

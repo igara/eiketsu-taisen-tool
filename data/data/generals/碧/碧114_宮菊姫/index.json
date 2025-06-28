@@ -1,6 +1,10 @@
 {
   "no": "碧114",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "f73db14922aff115f78b33f8393db3b4",
   "detailImageId": "a41c9149223ec523195497db1d70df4f",
   "name": "宮菊姫",

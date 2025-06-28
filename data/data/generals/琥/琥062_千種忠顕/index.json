@@ -1,6 +1,10 @@
 {
   "no": "琥062",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "2d1440aefce52cee7dd3ff1b52dace6c",
   "detailImageId": "f3363de549fa9db22fb4285006834260",
   "name": "千種忠顕",

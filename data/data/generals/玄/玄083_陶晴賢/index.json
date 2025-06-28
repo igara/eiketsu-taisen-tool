@@ -1,6 +1,10 @@
 {
   "no": "玄083",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "37f6e849eec1df92453f2dc0bc46991c",
   "detailImageId": "c0b30eda21c945a695b742fdf6de0798",
   "name": "陶晴賢",

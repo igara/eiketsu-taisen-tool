@@ -1,6 +1,10 @@
 {
   "no": "玄056",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "7816fbc6d59e46a9f0b0c9c0eabe11bb",
   "detailImageId": "4d891e954001a0457509048dcfaf9fda",
   "name": "足利義晴",

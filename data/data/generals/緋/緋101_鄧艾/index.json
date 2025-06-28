@@ -1,6 +1,10 @@
 {
   "no": "緋101",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "25f966b6566dc8ca9cab5f42b30e6c3e",
   "detailImageId": "733ee0fd42e52a9a7586f9182998d186",
   "name": "鄧艾",

@@ -1,6 +1,9 @@
 {
   "no": "EX141",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/06/25〜25/07/22"
+  ],
   "id": "60d03e7f7a4c3f97864033b212ff6d47",
   "detailImageId": "179e9004f94bb0e14de603cde934a7d9",
   "name": "丁夫人",

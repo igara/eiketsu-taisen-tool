@@ -1,6 +1,10 @@
 {
   "no": "緋145",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "737e7d037af4b48d923946c609a756cf",
   "detailImageId": "3ff5dbf46858ebb8b97a32da591987b2",
   "name": "龐涓",

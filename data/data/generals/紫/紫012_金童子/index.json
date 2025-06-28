@@ -1,6 +1,10 @@
 {
   "no": "紫012",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "a9b25d4f78b12e6bf4995859ac0bb370",
   "detailImageId": "4b97a1c5def3e7ba198a9df3b8a17fb7",
   "name": "金童子",

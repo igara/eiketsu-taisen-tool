@@ -1,6 +1,10 @@
 {
   "no": "EX001",
   "appear": "第1弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 22/05/11〜",
+    "英傑大戦稼働記念キャンペーン: 22/03/10〜22/05/10"
+  ],
   "id": "db7b4b11eacfae621ab1ce7445c615c5",
   "detailImageId": "d6c6e31e26a15b7e79f3a1ed8411c49a",
   "name": "羽柴秀吉",

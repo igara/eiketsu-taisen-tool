@@ -1,6 +1,10 @@
 {
   "no": "蒼128",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "7fdf90560d6fe3654795d92a3c804c9a",
   "detailImageId": "8e3fb863707af082ec1c78fb6a1460d6",
   "name": "歩夫人",

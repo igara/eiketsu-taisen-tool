@@ -1,6 +1,10 @@
 {
   "no": "玄098",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "a9eae0e2cd5ad32c0f8b688a5b4579fd",
   "detailImageId": "6e73d85a995a3876d50630f8c7c6a337",
   "name": "土橋守重",

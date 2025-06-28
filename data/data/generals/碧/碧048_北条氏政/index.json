@@ -1,6 +1,10 @@
 {
   "no": "碧048",
   "appear": "第1弾-2",
+  "appearPatterns": [
+    "探索(武将): 22/08/09〜",
+    "武将獲得: 22/08/09〜"
+  ],
   "id": "94e3fc17f780336fa1462ba7dd7bbf11",
   "detailImageId": "937d881d155a277d94807dcf97b7f8cf",
   "name": "北条氏政",

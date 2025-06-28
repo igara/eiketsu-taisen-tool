@@ -1,6 +1,9 @@
 {
   "no": "PL083",
   "appear": "第4弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/01/01〜25/01/14"
+  ],
   "id": "bf55fe23e2447d11c0339c73afa714b1",
   "detailImageId": "c83dc17456831310d7239da1c9051304",
   "name": "曹操",

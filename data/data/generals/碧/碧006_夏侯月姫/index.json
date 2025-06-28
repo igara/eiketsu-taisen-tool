@@ -1,6 +1,10 @@
 {
   "no": "碧006",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "5ce8bfe127df0eba11ebe049c1bef793",
   "detailImageId": "32a810ae04a6ce1ea00498b961c840cf",
   "name": "夏侯月姫",

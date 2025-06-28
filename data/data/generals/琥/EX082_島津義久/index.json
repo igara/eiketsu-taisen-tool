@@ -1,6 +1,9 @@
 {
   "no": "EX082",
   "appear": "第3弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 24/05/15〜"
+  ],
   "id": "39b713b2b069b15845a874300381f237",
   "detailImageId": "d108a9bd1c2ce8cd45dd2c9b2c21aa9f",
   "name": "島津義久",

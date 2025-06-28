@@ -1,6 +1,10 @@
 {
   "no": "碧057",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "fe29799d1ac03a4078603f845fe9dbfe",
   "detailImageId": "46dae4c6075c1db47e964ecaad1146d4",
   "name": "関銀屏",

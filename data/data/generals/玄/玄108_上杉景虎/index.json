@@ -1,6 +1,10 @@
 {
   "no": "玄108",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "b3cddd8fce0090fbe2c1ac44a84ad11d",
   "detailImageId": "afb0bcf94fa4cdffb3593d0d0e21ef80",
   "name": "上杉景虎",

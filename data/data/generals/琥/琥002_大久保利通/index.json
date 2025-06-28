@@ -1,6 +1,10 @@
 {
   "no": "琥002",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "7af79c0a4b037e7262eb3b65caeb2187",
   "detailImageId": "15e53056767a9ca36297ced7b7dea498",
   "name": "大久保利通",

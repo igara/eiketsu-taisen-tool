@@ -1,6 +1,10 @@
 {
   "no": "蒼131",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "610d0354dc893d24ed573f16d54afcd3",
   "detailImageId": "fce69146f4a3c57d4b8ed9cd9e5162f5",
   "name": "呂蒙",

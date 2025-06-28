@@ -1,6 +1,10 @@
 {
   "no": "玄094",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "4e1d6d609c823f5efb0c1eb3cc7b1459",
   "detailImageId": "a42cfdffcc393f25eeb55e3829d88c9a",
   "name": "高順",

@@ -1,6 +1,10 @@
 {
   "no": "碧060",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "742e2441fc7dfb1406f44c52407f231c",
   "detailImageId": "3fa70d13f89cf1af40d2b772ccc7b0c6",
   "name": "諸葛亮",

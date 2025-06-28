@@ -1,6 +1,10 @@
 {
   "no": "琥003",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "ea6c0f24da3b3d01e2da6ac6ac189e9e",
   "detailImageId": "60e4995c18aeedb089297f2d74c0faba",
   "name": "加藤清正",

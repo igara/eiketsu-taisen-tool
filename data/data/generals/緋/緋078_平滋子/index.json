@@ -1,6 +1,10 @@
 {
   "no": "緋078",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "d56522ff199fc86659e8c0dcc5b539c2",
   "detailImageId": "792d6f725f184837518a1b9bcc9d361b",
   "name": "平滋子",

@@ -1,6 +1,10 @@
 {
   "no": "紫030",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "f3e412b767d1d80ff0f196c350ca9761",
   "detailImageId": "fdced412b0f3e06868a629b2221e2e09",
   "name": "藤原頼長",

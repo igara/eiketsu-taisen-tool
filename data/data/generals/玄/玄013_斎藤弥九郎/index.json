@@ -1,6 +1,10 @@
 {
   "no": "玄013",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "f7eb2aa53ccfffd94697c0f1a6481b25",
   "detailImageId": "aa5b77cc7d01bc6b825027044c45a942",
   "name": "斎藤弥九郎",

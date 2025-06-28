@@ -1,6 +1,9 @@
 {
   "no": "EX031",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 23/04/26〜"
+  ],
   "id": "9edc663ce373e58f9ac0bfeeb52b5caf",
   "detailImageId": "e020ec383153c09925afcb2e5a7aaf58",
   "name": "小早川隆景",

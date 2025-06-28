@@ -1,6 +1,10 @@
 {
   "no": "緋138",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "2b286b98e0be612ed134ab18e5351763",
   "detailImageId": "4de1d4f96d91a445c401a68eeabc5703",
   "name": "曹安民",

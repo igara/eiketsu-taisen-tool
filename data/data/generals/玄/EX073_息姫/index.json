@@ -1,6 +1,10 @@
 {
   "no": "EX073",
   "appear": "第3弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 24/06/19〜",
+    "大戦スタンプキャンペーン: 24/04/03〜24/04/16"
+  ],
   "id": "37230bb72df60494b87cd347ee34696c",
   "detailImageId": "62de4ed2865c96ec1d6c06bc6eeb3d57",
   "name": "息姫",

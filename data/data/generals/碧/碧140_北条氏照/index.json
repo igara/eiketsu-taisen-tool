@@ -1,6 +1,10 @@
 {
   "no": "碧140",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "dfc12c28996301a0654e75ceb7f72df7",
   "detailImageId": "7f67b2d531db4347760ab3bdc6729acc",
   "name": "北条氏照",

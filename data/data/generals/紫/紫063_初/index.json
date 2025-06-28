@@ -1,6 +1,10 @@
 {
   "no": "紫063",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "4916b15ebab60cac8e1199590a0e1b0d",
   "detailImageId": "d5c077324c184880fa1394534fb7ade0",
   "name": "初",

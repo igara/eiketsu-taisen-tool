@@ -1,6 +1,10 @@
 {
   "no": "蒼058",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "a0155b0eb0ec83b376790357e73a6cb7",
   "detailImageId": "28223dbeedb35472dc5cd7b102e32d28",
   "name": "上総広常",

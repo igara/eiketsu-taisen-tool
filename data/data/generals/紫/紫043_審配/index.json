@@ -1,6 +1,10 @@
 {
   "no": "紫043",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "a9daa5fa900bea3e2293b34b3e2e9bbe",
   "detailImageId": "b7d06346229265436a12969bb97a006c",
   "name": "審配",

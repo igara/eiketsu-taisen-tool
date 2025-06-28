@@ -1,6 +1,10 @@
 {
   "no": "ST003",
   "appear": "第1弾-ST",
+  "appearPatterns": [
+    "スターター: 22/03/10〜",
+    "金剛石商店(金剛石交換所): 22/03/10〜"
+  ],
   "id": "5b1192b83fc197ef647cdc1ff7d27f68",
   "detailImageId": "6cbb99ada66790776319e59ffd1a8f2a",
   "name": "土方歳三",

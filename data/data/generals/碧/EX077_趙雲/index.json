@@ -1,6 +1,9 @@
 {
   "no": "EX077",
   "appear": "第3弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 24/05/15〜"
+  ],
   "id": "c99c54cf4bb10716a1d69b8599511411",
   "detailImageId": "5484e279736acba1b4d11af90c1b0aba",
   "name": "趙雲",

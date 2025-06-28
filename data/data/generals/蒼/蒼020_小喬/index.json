@@ -1,6 +1,10 @@
 {
   "no": "蒼020",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "943f2fd4f12c05b7c348a740ffc0db47",
   "detailImageId": "1fd3efdb87a5cd88ba9a98a3cc85ef55",
   "name": "小喬",

@@ -1,6 +1,10 @@
 {
   "no": "紫105",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "1fdd8b6f8cd4eb23f4037b8ba41e36df",
   "detailImageId": "737a183afaf7ca6bf87d19df26f5cee9",
   "name": "土岐頼遠",

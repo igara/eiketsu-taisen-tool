@@ -1,6 +1,9 @@
 {
   "no": "EX123",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/03/19〜25/04/15"
+  ],
   "id": "78b0e145dc429cb01be9ba0584570a4e",
   "detailImageId": "d0cfdf3d9b008007781219baf54e9523",
   "name": "呂布",

@@ -1,6 +1,10 @@
 {
   "no": "紫009",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "07a141dc82364d8878d9b5dab25ebaca",
   "detailImageId": "cde9ef1d18f2e80914fb91d6a3c4fc66",
   "name": "袁紹",

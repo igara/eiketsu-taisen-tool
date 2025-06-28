@@ -1,6 +1,10 @@
 {
   "no": "蒼132",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "ed98a90ea37ee3556aada9ff713a3bf6",
   "detailImageId": "8e9406bc5eb1d813e821a8fb49a3c560",
   "name": "王翦",

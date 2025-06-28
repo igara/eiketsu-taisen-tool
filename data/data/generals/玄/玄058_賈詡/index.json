@@ -1,6 +1,10 @@
 {
   "no": "玄058",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "2475b60ceb757875ef8a5c14aa6ccaa0",
   "detailImageId": "ee14aae05ff6b92d1919cc22beb4094c",
   "name": "賈詡",

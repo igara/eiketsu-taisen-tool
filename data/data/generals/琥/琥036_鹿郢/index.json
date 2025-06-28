@@ -1,6 +1,10 @@
 {
   "no": "琥036",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "411d12dd44616caed323c32f8a29a92f",
   "detailImageId": "dee29ee8be0fd50f408c5007fa69440a",
   "name": "鹿郢",

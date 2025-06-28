@@ -1,6 +1,10 @@
 {
   "no": "紫106",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "57bedf0e7eb4563b04279ac83a7ecb0e",
   "detailImageId": "2dee3bb2813d3c820435acba690cc013",
   "name": "桃井直常",

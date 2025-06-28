@@ -1,6 +1,10 @@
 {
   "no": "紫092",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "b9f826e95a7d810ea9e3c50c3c9ae1af",
   "detailImageId": "e3803940a8463bc51ffa9de3f44afb5e",
   "name": "唐姫",

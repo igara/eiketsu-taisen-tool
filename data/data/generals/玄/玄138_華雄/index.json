@@ -1,6 +1,10 @@
 {
   "no": "玄138",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "24e297c9a6cf4e107b156d5ab75bfccb",
   "detailImageId": "39653606d98b3243887d40b1c1b46486",
   "name": "華雄",

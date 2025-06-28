@@ -1,6 +1,10 @@
 {
   "no": "EX090",
   "appear": "第3弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 24/10/16〜",
+    "大戦スタンプキャンペーン: 24/07/03〜24/07/16"
+  ],
   "id": "aeee23f070f1ca929ce2cd5729920b2d",
   "detailImageId": "46cd73d287f27c805bbeb09a8b47e913",
   "name": "魔天ルシファー",

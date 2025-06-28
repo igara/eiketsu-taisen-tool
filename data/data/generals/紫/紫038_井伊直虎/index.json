@@ -1,6 +1,10 @@
 {
   "no": "紫038",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "6714eadc47077e7612e38a12373e9997",
   "detailImageId": "a9375ab2359cebfce509bbcebd3e6fb9",
   "name": "井伊直虎",

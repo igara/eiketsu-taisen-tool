@@ -1,6 +1,10 @@
 {
   "no": "琥060",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "80da81c3dbf576640480c2cb8ad115d3",
   "detailImageId": "918a5ab6cd655c671652e3d11eb807ef",
   "name": "楠木正成",

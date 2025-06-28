@@ -1,6 +1,10 @@
 {
   "no": "EX062",
   "appear": "第3弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 24/04/17〜",
+    "大戦スタンプキャンペーン: 24/01/17〜24/01/30"
+  ],
   "id": "5089fe78a57d546fc8ce7056a194a82e",
   "detailImageId": "4ff902c69a9327418d22ce6c0a5aefaa",
   "name": "華陽太后",

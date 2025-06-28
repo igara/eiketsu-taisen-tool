@@ -1,6 +1,10 @@
 {
   "no": "玄137",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "6c8b67fc45f684e054c4cc1a7f49791a",
   "detailImageId": "126b4edaed56fdb78a9edd506a6f2496",
   "name": "上杉憲房",

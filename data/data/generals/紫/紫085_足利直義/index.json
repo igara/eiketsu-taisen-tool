@@ -1,6 +1,10 @@
 {
   "no": "紫085",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "79a849aefa2de37125cbf190507bdfd7",
   "detailImageId": "f02de64baf2b1bc2ed511930301696ba",
   "name": "足利直義",

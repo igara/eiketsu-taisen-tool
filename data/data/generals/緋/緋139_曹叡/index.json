@@ -1,6 +1,10 @@
 {
   "no": "緋139",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "251f673e5d3bb67801bfd92ac5cde83f",
   "detailImageId": "7e2d9c4a077b7492d69b38059803d2cc",
   "name": "曹叡",

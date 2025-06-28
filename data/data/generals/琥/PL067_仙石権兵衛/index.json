@@ -1,6 +1,10 @@
 {
   "no": "PL067",
   "appear": "第3弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 24/07/17〜24/08/13",
+    "大戦スタンプキャンペーン: 25/06/25〜25/07/22"
+  ],
   "id": "72ddedff077b3543a3fa84eedd4fd07e",
   "detailImageId": "df131c1b582d11d821537017fbbd01bd",
   "name": "仙石権兵衛",

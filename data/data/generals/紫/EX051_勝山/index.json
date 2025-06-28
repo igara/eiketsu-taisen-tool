@@ -1,6 +1,10 @@
 {
   "no": "EX051",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 24/02/14〜",
+    "スペシャルグッズキャンペーン第2弾: 23/09/28〜23/10/31"
+  ],
   "id": "baf687e6ed0973c472a8b98fd5fa0a1b",
   "detailImageId": "e01132a4a97291135f4dcfa421fc4c01",
   "name": "勝山",

@@ -1,6 +1,9 @@
 {
   "no": "PL060",
   "appear": "第3弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 24/05/15〜24/05/28"
+  ],
   "id": "28be9f66113f4f1042d75d9c772caddf",
   "detailImageId": "74830524703d9ca7bd58891dc284d0c9",
   "name": "安倍晴明",

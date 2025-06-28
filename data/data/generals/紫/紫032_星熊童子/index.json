@@ -1,6 +1,10 @@
 {
   "no": "紫032",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "122c51216bdb6dea86ef2555bb842871",
   "detailImageId": "189b8dd4fc20fe0ae1b25ba53a2aa522",
   "name": "星熊童子",

@@ -1,6 +1,10 @@
 {
   "no": "琥016",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "548bce5560b7bd1f126d0fb02a649afb",
   "detailImageId": "b7a95ec8c9548e05e2462251ae1ca056",
   "name": "島津家久",

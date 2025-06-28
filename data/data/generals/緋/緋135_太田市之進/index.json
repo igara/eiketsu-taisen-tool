@@ -1,6 +1,10 @@
 {
   "no": "緋135",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "eca78bd148f8a623715e1c60698d37a1",
   "detailImageId": "b826521c77bb507db3cb85f7fcc449ae",
   "name": "太田市之進",

@@ -1,6 +1,10 @@
 {
   "no": "EX027",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 23/08/02〜",
+    "大戦スタンプキャンペーン: 23/04/26〜23/05/23"
+  ],
   "id": "74ed4bd73843dee280338604d86d7718",
   "detailImageId": "6fee53cca2522dfb4bf16ccc3a99c336",
   "name": "吉備津彦",

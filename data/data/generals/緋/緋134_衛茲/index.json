@@ -1,6 +1,10 @@
 {
   "no": "緋134",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "64808d9726bfc6eaa747f15ee8a00540",
   "detailImageId": "0cedfacee861acb7cc052f4a9e01e865",
   "name": "衛茲",

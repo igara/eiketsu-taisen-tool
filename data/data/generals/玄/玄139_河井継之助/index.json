@@ -1,6 +1,10 @@
 {
   "no": "玄139",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "e03bf2ffb5e5aa886d3af2257256a6f7",
   "detailImageId": "4cfd12f2d646d6f94e9b85b764e48c16",
   "name": "河井継之助",

@@ -1,6 +1,9 @@
 {
   "no": "EX111",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 25/02/19〜"
+  ],
   "id": "8d2e86cb69318c6bad7b459b235c4ffc",
   "detailImageId": "da99bd1d9e354043549c209311fa0c33",
   "name": "伍子胥",

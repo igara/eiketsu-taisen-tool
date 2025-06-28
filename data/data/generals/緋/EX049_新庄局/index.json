@@ -1,6 +1,9 @@
 {
   "no": "EX049",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 23/08/30〜"
+  ],
   "id": "045ae2c10ae254baa335d7628c8c15a2",
   "detailImageId": "8ebe2a216887a9d3e0d8584ffb37e914",
   "name": "新庄局",

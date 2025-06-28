@@ -1,6 +1,10 @@
 {
   "no": "琥018",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "8be257e52d2e43c1f18f7183ec0460f7",
   "detailImageId": "5ef95bf0d08da4895dc57e62c2a76047",
   "name": "島津歳久",

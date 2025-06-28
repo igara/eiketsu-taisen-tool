@@ -1,6 +1,10 @@
 {
   "no": "玄087",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "3cdc8d9a7a02456bfac41503d9370c85",
   "detailImageId": "0a81190e6fe7a973e85c5cdea70e06ff",
   "name": "源頼朝",

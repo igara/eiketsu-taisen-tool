@@ -1,6 +1,10 @@
 {
   "no": "玄140",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "9b404b2f12ed5eccec3c9f22b61c2fc3",
   "detailImageId": "f5a1273acb9b083df4d612f465cd3204",
   "name": "佐竹義重",

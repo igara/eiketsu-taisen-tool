@@ -1,6 +1,10 @@
 {
   "no": "玄036",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "eac90f11275ce9b09ef7ca2009114ea0",
   "detailImageId": "55cef0c277122504f2d86ea803a5b9df",
   "name": "安田長秀",

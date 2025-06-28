@@ -1,6 +1,10 @@
 {
   "no": "碧058",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "ee50a314dbc7e9d9874d3d56646c454e",
   "detailImageId": "51aad55b67cf933e5c470f94d4d47d44",
   "name": "関平",

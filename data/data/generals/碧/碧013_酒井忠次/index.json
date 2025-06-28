@@ -1,6 +1,10 @@
 {
   "no": "碧013",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "57ee5fa5f04bedaa00db83ec83d00c6f",
   "detailImageId": "ddab24bd1daa020dd6a6cfc192b12000",
   "name": "酒井忠次",

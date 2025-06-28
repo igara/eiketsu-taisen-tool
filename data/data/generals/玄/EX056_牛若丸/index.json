@@ -1,6 +1,10 @@
 {
   "no": "EX056",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 24/01/17〜",
+    "大戦スタンプキャンペーン: 23/10/04〜23/10/31"
+  ],
   "id": "09f712a65d83e5048b9e475adee3e2db",
   "detailImageId": "f85db4673ca6c9f27e01a6dd153c2885",
   "name": "牛若丸",

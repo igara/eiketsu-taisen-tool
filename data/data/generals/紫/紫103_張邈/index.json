@@ -1,6 +1,10 @@
 {
   "no": "紫103",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "80c4f690a79f8e5f17ae4c39ec20d4a8",
   "detailImageId": "b03d4d1e877ef495ab2d7a5ec38a5df7",
   "name": "張邈",

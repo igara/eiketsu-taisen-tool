@@ -1,6 +1,10 @@
 {
   "no": "碧079",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "d92c4a4106e120d8adf95d3fb12886fc",
   "detailImageId": "f733f5c5932d26e5ee886c1ff25cc461",
   "name": "徳川家茂",

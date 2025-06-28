@@ -1,6 +1,10 @@
 {
   "no": "碧012",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "e57b87e92384d1bf0bf1568ab9e7987b",
   "detailImageId": "613fecfb784cb12ba2c1294f2c89344c",
   "name": "斎藤一",

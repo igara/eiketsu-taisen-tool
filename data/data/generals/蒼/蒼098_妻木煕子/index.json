@@ -1,6 +1,10 @@
 {
   "no": "蒼098",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "da8d4dce9da149595a5fdf24c9368d89",
   "detailImageId": "4125decd6dda56ff7f5f9bf81f808177",
   "name": "妻木煕子",

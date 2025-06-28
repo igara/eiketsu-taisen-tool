@@ -1,6 +1,10 @@
 {
   "no": "紫041",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "faecfaff0cc32ed48109ced777fce699",
   "detailImageId": "b22b1ffb9949e3f784ab4ece9dabcfa8",
   "name": "江",

@@ -1,6 +1,10 @@
 {
   "no": "緋018",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "f93423043548de79e5ef36c710a7071b",
   "detailImageId": "fdde1125427af2242897fd28d3a9be52",
   "name": "荀彧",

@@ -1,6 +1,10 @@
 {
   "no": "緋110",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "5840b161252e9f97cc431382934223fd",
   "detailImageId": "0764afeeefc0b77f383188aac2160d8f",
   "name": "項梁",

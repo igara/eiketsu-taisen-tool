@@ -1,6 +1,10 @@
 {
   "no": "蒼035",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "4d8c05bf5b3ee984af310be476021a73",
   "detailImageId": "bbd4db003ebe785d5cf1b133dc7b9f45",
   "name": "山内一豊",

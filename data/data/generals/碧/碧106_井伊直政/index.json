@@ -1,6 +1,10 @@
 {
   "no": "碧106",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "64df79121196d574ba39f437cda57fed",
   "detailImageId": "52108bda28caf1649fcb72d567e076d4",
   "name": "井伊直政",

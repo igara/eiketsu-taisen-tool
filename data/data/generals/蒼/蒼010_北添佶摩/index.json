@@ -1,6 +1,11 @@
 {
   "no": "蒼010",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "スターター: 22/03/10〜",
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "c0483f0effbbeae3950fdfcaa41a857a",
   "detailImageId": "72cb3e0c627867a58dfca04623d13ef9",
   "name": "北添佶摩",

@@ -1,6 +1,10 @@
 {
   "no": "玄004",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "d27315e7c6752cee72179cada8da8f25",
   "detailImageId": "f836cc788138b7f1327df7c49e87e03b",
   "name": "上杉謙信",

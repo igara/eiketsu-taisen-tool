@@ -1,6 +1,10 @@
 {
   "no": "蒼120",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "44644993758e7a075312ee65950d227b",
   "detailImageId": "ac113be9ad1e7d6dedbadbfae1344c2c",
   "name": "斎藤道三",

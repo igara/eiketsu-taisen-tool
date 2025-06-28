@@ -1,6 +1,10 @@
 {
   "no": "玄079",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "a9c90139989c9dc4cb41bc579143ccb2",
   "detailImageId": "e07bdf456a2c9654936612cd53cb864a",
   "name": "佐藤継信",

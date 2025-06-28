@@ -1,6 +1,10 @@
 {
   "no": "紫079",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "089cf04678f8d99cf336a07750f8e537",
   "detailImageId": "aa5706e7a2bd423e336fedcc0b3f2e70",
   "name": "盧綰",

@@ -1,6 +1,10 @@
 {
   "no": "蒼101",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "9459f8727affd5eb95ba0ecab43cf9f4",
   "detailImageId": "c7afb1278fe353f33f723b63ab785c6c",
   "name": "比企能員",

@@ -1,6 +1,10 @@
 {
   "no": "玄015",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "f9da5444e8c57543c620b99a02e3137c",
   "detailImageId": "47c6f1a9c33e2f35ab7678e48e82bf32",
   "name": "千葉さな子",

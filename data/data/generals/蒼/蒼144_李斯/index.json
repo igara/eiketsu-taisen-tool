@@ -1,6 +1,10 @@
 {
   "no": "蒼144",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "95a5f05b84205da4a94bd511c32c5510",
   "detailImageId": "d9f81e4889a1c534ce4efd91f70cf27d",
   "name": "李斯",

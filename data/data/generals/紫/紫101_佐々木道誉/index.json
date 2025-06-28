@@ -1,6 +1,10 @@
 {
   "no": "紫101",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "86fea20cd083c5b3c8f0ee4ae98e9937",
   "detailImageId": "390464c7b326f68a0d7abe5ef5df2486",
   "name": "佐々木道誉",

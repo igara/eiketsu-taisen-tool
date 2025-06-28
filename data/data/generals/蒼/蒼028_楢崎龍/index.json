@@ -1,6 +1,10 @@
 {
   "no": "蒼028",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "eea095ab213c4d23b3d5be2e467020a3",
   "detailImageId": "29008bfeb574c681cce68bde69aca3c3",
   "name": "楢崎龍",

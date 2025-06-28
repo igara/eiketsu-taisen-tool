@@ -1,6 +1,9 @@
 {
   "no": "PL013",
   "appear": "第1弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 22/07/13〜22/07/26"
+  ],
   "id": "29a0fe5bcaa74f5bede332ca8ec20749",
   "detailImageId": "fe6c9938ef95597df89833bf0dc2bda5",
   "name": "志村新八",

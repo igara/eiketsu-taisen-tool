@@ -1,6 +1,10 @@
 {
   "no": "蒼019",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "1b49b62ac6ad5d05fc31e7941b69d57a",
   "detailImageId": "a3aa2f31bd78c1d67dc3aa23f20bb530",
   "name": "朱治",

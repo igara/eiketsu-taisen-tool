@@ -1,6 +1,10 @@
 {
   "no": "碧117",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "14ba3760934cba33a4e5f31b77cba322",
   "detailImageId": "36b998da76ca00adcba8e16a4aa4c279",
   "name": "山本八重",

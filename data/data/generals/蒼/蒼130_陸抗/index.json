@@ -1,6 +1,10 @@
 {
   "no": "蒼130",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "acac2423bf16b0efeb08612c7fd474c1",
   "detailImageId": "f24c6ea2611a9cfc5c45365dfd7facc3",
   "name": "陸抗",

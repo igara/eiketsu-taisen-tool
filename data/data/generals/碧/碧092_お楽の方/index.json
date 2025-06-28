@@ -1,6 +1,10 @@
 {
   "no": "碧092",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "4962a580af24b03202efab0f4ddfcbbe",
   "detailImageId": "1e184320174d28abbeb31996c5f2beec",
   "name": "お楽の方",

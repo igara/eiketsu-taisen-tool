@@ -1,6 +1,10 @@
 {
   "no": "紫011",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "a45dc68f563fa521c1da59ad7c1affe2",
   "detailImageId": "10e4d1cc1e4c55dfcbbda8902409a9ee",
   "name": "岡部元信",

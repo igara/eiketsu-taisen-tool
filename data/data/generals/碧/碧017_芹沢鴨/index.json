@@ -1,6 +1,10 @@
 {
   "no": "碧017",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "dc03286d4b5f602861dd9f08eef197fa",
   "detailImageId": "21bde11f7879b6aa196d1857b82a377b",
   "name": "芹沢鴨",

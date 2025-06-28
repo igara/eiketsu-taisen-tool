@@ -1,6 +1,10 @@
 {
   "no": "碧003",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "9906d428b3412421efc25fa6a725fe1a",
   "detailImageId": "8dd5bb7bee53d2af1c295252105ba8e7",
   "name": "井上源三郎",

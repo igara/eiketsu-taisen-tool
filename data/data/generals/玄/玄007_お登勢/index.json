@@ -1,6 +1,10 @@
 {
   "no": "玄007",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "e868ae8154d31eea85dd573aa191bd00",
   "detailImageId": "1e35f248695a4195b64073c5edf96df3",
   "name": "お登勢",

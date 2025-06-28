@@ -1,6 +1,10 @@
 {
   "no": "琥022",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "e3073dc9d6b6ebe4402b187a3534cc57",
   "detailImageId": "d91e3fdb70ea0214fb331b546da62f4a",
   "name": "西施",

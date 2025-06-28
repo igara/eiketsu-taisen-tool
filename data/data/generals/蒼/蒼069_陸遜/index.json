@@ -1,6 +1,10 @@
 {
   "no": "蒼069",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "6e9a63391f772c9167b7c6b920c7042f",
   "detailImageId": "af2bed8c284b8781ff448e6e1800eabe",
   "name": "陸遜",

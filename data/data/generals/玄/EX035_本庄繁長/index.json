@@ -1,6 +1,9 @@
 {
   "no": "EX035",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 23/04/26〜"
+  ],
   "id": "945b3bde014a79d71f6cb2fca3991135",
   "detailImageId": "7b0721e3f41d3b688cbd950b8bb5342d",
   "name": "本庄繁長",

@@ -1,6 +1,10 @@
 {
   "no": "碧081",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "5bbc7827007193798f10d1754f4ce645",
   "detailImageId": "c72d0d0eba9a0eb7a0d1be144f533ebe",
   "name": "巴御前",

@@ -1,6 +1,10 @@
 {
   "no": "PL030",
   "appear": "第2弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 23/03/29〜23/04/11",
+    "大戦スタンプキャンペーン: 24/04/17〜24/04/30"
+  ],
   "id": "e9c069d0a9a6ae98a0c3e612e26558a9",
   "detailImageId": "4ec7d04cbba18a5b2e8762abfde5bb00",
   "name": "土方歳三",

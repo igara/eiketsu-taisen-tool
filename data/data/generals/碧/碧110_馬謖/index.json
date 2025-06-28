@@ -1,6 +1,10 @@
 {
   "no": "碧110",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "2d8da547980e9bdcb10ed0b39ca758a3",
   "detailImageId": "445b578f6df2befc23376a77eef16fba",
   "name": "馬謖",

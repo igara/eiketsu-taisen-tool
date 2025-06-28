@@ -233,6 +233,28 @@ const main = async () => {
 			time,
 		};
 	});
+
+	const wayToGets = baseJSON.wayToGet.map((wayToGet) => {
+		const w = wayToGet.split(",");
+		return w[0];
+	});
+	fs.writeFileSync(
+		"data/json/wayToGets.json",
+		JSON.stringify(wayToGets, null, 2),
+	);
+
+	const appearPatterns = baseJSON.appearPattern.map((pattern) => {
+		const p = pattern.split(",");
+		const from = p[0];
+		const to = p[1];
+		const wayToGet = +p[2];
+
+		return `${wayToGets[wayToGet]}: ${from}〜${to}`;
+	});
+	fs.writeFileSync(
+		"data/json/appearPatterns.json",
+		JSON.stringify(appearPatterns, null, 2),
+	);
 	// const illusts = baseJSON.illust;
 	// const cv = baseJSON.cv;
 
@@ -292,6 +314,11 @@ const main = async () => {
 		const power = g[17];
 		const intelligentzia = g[18];
 		const appear = `第${g[7]}弾-${g[8]}`;
+		const appearPattern = g[25].split(":").map((n) => {
+			const ap = Number.parseInt(n);
+
+			return appearPatterns[ap];
+		});
 		const detailImageId = g[1];
 		const name = g[3];
 		const kanaName = g[4];
@@ -361,6 +388,7 @@ const main = async () => {
 		const ge = {
 			no,
 			appear,
+			appearPatterns: appearPattern,
 			id,
 			detailImageId,
 			name,

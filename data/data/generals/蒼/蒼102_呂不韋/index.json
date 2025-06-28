@@ -1,6 +1,10 @@
 {
   "no": "蒼102",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "d18e76e281e00626c354bd57ebce3387",
   "detailImageId": "a0608d975b70b3ddfa0f7bc6d0bd200a",
   "name": "呂不韋",

@@ -1,6 +1,10 @@
 {
   "no": "蒼002",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "11f8c08f5540e5d93173b6ca78204861",
   "detailImageId": "a13de7fb7704a9aa9e43a6a584aae3ce",
   "name": "池田恒興",

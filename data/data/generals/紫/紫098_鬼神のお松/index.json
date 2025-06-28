@@ -1,6 +1,10 @@
 {
   "no": "紫098",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "c96d2fb1910c3b0f57467ca153d0c52c",
   "detailImageId": "737edd493dc4bc9e059130e58f541ba7",
   "name": "鬼神のお松",

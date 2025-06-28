@@ -1,6 +1,10 @@
 {
   "no": "EX008",
   "appear": "第1弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 22/12/21〜",
+    "大戦スタンプキャンペーン: 22/09/14〜22/10/11"
+  ],
   "id": "8ad2901f19c1ee7698f9f18d67ebff9d",
   "detailImageId": "89273b9cf09df61fcec47b8275aa5f3f",
   "name": "平井加尾",

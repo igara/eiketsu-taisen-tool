@@ -1,6 +1,9 @@
 {
   "no": "EX140",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/06/25〜25/07/22"
+  ],
   "id": "e20a2f1eb01ccf1ed470b6257168b94e",
   "detailImageId": "456e5a7713fc2a3b02a6d0cd3b9a454c",
   "name": "騰",

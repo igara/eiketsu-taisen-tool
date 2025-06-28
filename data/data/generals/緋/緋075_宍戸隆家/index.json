@@ -1,6 +1,10 @@
 {
   "no": "緋075",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "511cc144a7d1559da0f496cb6d1dc140",
   "detailImageId": "9d1996b57ad2bc6a461ae6f2638c6510",
   "name": "宍戸隆家",

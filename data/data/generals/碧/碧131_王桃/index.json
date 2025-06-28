@@ -1,6 +1,10 @@
 {
   "no": "碧131",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "3c24a83bff8b31e781d2ba034e9e81ef",
   "detailImageId": "7133ce0f2b708b7292c71bf9f03dd2a6",
   "name": "王桃",

@@ -1,6 +1,10 @@
 {
   "no": "緋111",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "399e01c8436c2eee2ac9f0d412de5f0e",
   "detailImageId": "732cb4dbbad6e3629fbf1a2989a377aa",
   "name": "荀攸",

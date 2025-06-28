@@ -1,6 +1,10 @@
 {
   "no": "紫037",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "404bd31d483f203374ef5968bcfbd83b",
   "detailImageId": "9ae82ed9bde12902fd50ee491a726bc6",
   "name": "朝比奈泰朝",

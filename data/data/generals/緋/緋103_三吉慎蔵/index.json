@@ -1,6 +1,10 @@
 {
   "no": "緋103",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "e259ccf54432f2af6bfae6b860a2e595",
   "detailImageId": "d15688f4763bf6065acc9e280a70c5c0",
   "name": "三吉慎蔵",

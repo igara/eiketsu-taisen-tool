@@ -1,6 +1,10 @@
 {
   "no": "蒼032",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "84bc17c5bc31e779ed860376dc8cac01",
   "detailImageId": "d6adc85c681bef8a2b84e3d39e9e138f",
   "name": "陸奥陽之助",

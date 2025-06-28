@@ -1,6 +1,10 @@
 {
   "no": "緋058",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "038cd185b61a06cb4a36963292eef550",
   "detailImageId": "78e6488edac936bf00909c8a43e34cb6",
   "name": "品川弥二郎",

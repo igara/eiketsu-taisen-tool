@@ -1,6 +1,9 @@
 {
   "no": "EX083",
   "appear": "第3弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 24/05/15〜"
+  ],
   "id": "79313d310a95a73a980ef05bef252b8f",
   "detailImageId": "b1cddacf734b6cd40d7cafd2df504381",
   "name": "黒田官兵衛",

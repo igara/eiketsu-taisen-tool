@@ -1,6 +1,10 @@
 {
   "no": "緋122",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "4ae511d1cf9c81f6998687b3c068b949",
   "detailImageId": "2e62ee9ccc2357a5e284e9befefc38a2",
   "name": "真田信幸",

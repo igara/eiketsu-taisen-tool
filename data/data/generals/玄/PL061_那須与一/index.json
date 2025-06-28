@@ -1,6 +1,9 @@
 {
   "no": "PL061",
   "appear": "第3弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 24/05/15〜24/05/28"
+  ],
   "id": "da4b90bd1a6f1d4806054ac2862f3786",
   "detailImageId": "6d3fdeab5fd69bd39e0930e143b3043b",
   "name": "那須与一",

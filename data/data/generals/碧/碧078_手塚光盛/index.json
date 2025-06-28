@@ -1,6 +1,10 @@
 {
   "no": "碧078",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "a785b50f080817de29bd55bad45fc334",
   "detailImageId": "0d17c38b533e96b73973e7a12b7bc318",
   "name": "手塚光盛",

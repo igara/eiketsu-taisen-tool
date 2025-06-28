@@ -1,6 +1,10 @@
 {
   "no": "緋041",
   "appear": "第1弾-2",
+  "appearPatterns": [
+    "探索(武将): 22/08/09〜",
+    "武将獲得: 22/08/09〜"
+  ],
   "id": "2ef65c09ea5a755d8b20e5fc5c883025",
   "detailImageId": "9dd5fc32b338e19f975de15568d35aa7",
   "name": "飯富虎昌",

@@ -1,6 +1,10 @@
 {
   "no": "琥009",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "f7f43a8496d8b7ebb8a053cedda71876",
   "detailImageId": "9c3031c22f2ae6ff9006ab131dabdf23",
   "name": "黒田長政",

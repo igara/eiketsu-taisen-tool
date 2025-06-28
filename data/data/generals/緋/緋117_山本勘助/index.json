@@ -1,6 +1,10 @@
 {
   "no": "緋117",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "4cec24be8a20341bad4b4c262f111d5d",
   "detailImageId": "db188380cb4ad5563dce02b373b55c0e",
   "name": "山本勘助",

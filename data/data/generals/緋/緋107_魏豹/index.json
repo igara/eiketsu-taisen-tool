@@ -1,6 +1,10 @@
 {
   "no": "緋107",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "31846582bcb0c8562f521759426b055c",
   "detailImageId": "ce919952ad0ffb4fe70ec804a3ff1a68",
   "name": "魏豹",

@@ -1,6 +1,10 @@
 {
   "no": "玄146",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "85dadf55564093fface289ec50507493",
   "detailImageId": "ddd53bc0904e30109c56aaf8623d9193",
   "name": "李儒",

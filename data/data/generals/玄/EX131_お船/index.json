@@ -1,6 +1,9 @@
 {
   "no": "EX131",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/05/07〜25/05/20"
+  ],
   "id": "2b2613e53a966cc43996bf663218dc65",
   "detailImageId": "a0730227516777a5cc3a8a89daea4bd9",
   "name": "お船",

@@ -1,6 +1,10 @@
 {
   "no": "PL026",
   "appear": "第2弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 23/01/25〜23/02/07",
+    "大戦スタンプキャンペーン: 23/11/08〜23/11/21"
+  ],
   "id": "f14d5b717e3d31e515897cbeaf5f9cdc",
   "detailImageId": "fe412eb18bd79a44cbaa575d66c6f086",
   "name": "龍宮寺堅",

@@ -1,6 +1,10 @@
 {
   "no": "緋100",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "de4e6e1018edff38653b42a10a44db8b",
   "detailImageId": "ef472a3ac89fba3423fab6386ddb3102",
   "name": "陳泰",

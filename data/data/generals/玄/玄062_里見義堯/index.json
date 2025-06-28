@@ -1,6 +1,10 @@
 {
   "no": "玄062",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "e137e9da6c5c38ffb805456b6a26e8eb",
   "detailImageId": "a96e81a271d2cd89b8d557d0707c9680",
   "name": "里見義堯",

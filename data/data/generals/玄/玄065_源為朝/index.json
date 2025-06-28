@@ -1,6 +1,10 @@
 {
   "no": "玄065",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "8ff8ed0d68e36e24c8a702eaad158973",
   "detailImageId": "1733d4fa58943b0738ce3f0635d7790d",
   "name": "源為朝",

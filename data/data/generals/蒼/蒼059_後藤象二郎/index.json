@@ -1,6 +1,10 @@
 {
   "no": "蒼059",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "2f0188671786ed16050d672c9b647cb7",
   "detailImageId": "4db78cdfccf61ec830b5d8bd75bdcd30",
   "name": "後藤象二郎",

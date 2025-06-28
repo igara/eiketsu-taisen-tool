@@ -1,6 +1,10 @@
 {
   "no": "碧133",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "9889653aff2ea9b0d984628817faf4c0",
   "detailImageId": "fa70863b0e29b68db5c0b7545a66d50a",
   "name": "匡章",

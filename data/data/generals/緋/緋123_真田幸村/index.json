@@ -1,6 +1,10 @@
 {
   "no": "緋123",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "1c09ca45cee323f192dff2ac58cc8573",
   "detailImageId": "cf5a90ed7764603927c4de5c87a566a9",
   "name": "真田幸村",

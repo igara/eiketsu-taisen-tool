@@ -1,6 +1,10 @@
 {
   "no": "琥037",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "1565ceeb93868398c7f41a3f34314c5f",
   "detailImageId": "655eb3ad05f9fdacedd263ce4feb3680",
   "name": "衛瓘",

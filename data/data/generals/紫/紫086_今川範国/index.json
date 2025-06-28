@@ -1,6 +1,10 @@
 {
   "no": "紫086",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "2ada5bcef55f8fee5cfe400a3ef8a86c",
   "detailImageId": "e9083df5cf926bb03d232ebf5b51c76b",
   "name": "今川範国",

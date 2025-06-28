@@ -1,6 +1,9 @@
 {
   "no": "PL075",
   "appear": "第4弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 24/10/30〜24/11/12"
+  ],
   "id": "e2a84568e31abca72382ce8176e0c335",
   "detailImageId": "900f1e4e5345e2cae02b6a5aaf02bf84",
   "name": "武田観柳",

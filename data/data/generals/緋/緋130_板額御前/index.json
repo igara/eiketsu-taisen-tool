@@ -1,6 +1,10 @@
 {
   "no": "緋130",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "a15b4935ad145f20e01ff82b9b0855cd",
   "detailImageId": "7d8ea4e86f5d58b95b138a110402148c",
   "name": "板額御前",

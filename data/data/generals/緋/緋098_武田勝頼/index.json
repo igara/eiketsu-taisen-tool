@@ -1,6 +1,10 @@
 {
   "no": "緋098",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "584cc4b8d0f1f2f7743d00611dd7f88b",
   "detailImageId": "7badaef042bfe5156d535351ac6ddea7",
   "name": "武田勝頼",

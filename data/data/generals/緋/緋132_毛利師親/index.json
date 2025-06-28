@@ -1,6 +1,10 @@
 {
   "no": "緋132",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "c3c34525ee2e29719c59a3b7a31d887b",
   "detailImageId": "f12bcfc40844670f348edbbfc14b71cd",
   "name": "毛利師親",

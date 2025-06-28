@@ -1,6 +1,10 @@
 {
   "no": "玄029",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "4827aea5826224ed0de2114a1c1a27ef",
   "detailImageId": "5035f4f47e363ddad3312adec9928cb6",
   "name": "松永久秀",

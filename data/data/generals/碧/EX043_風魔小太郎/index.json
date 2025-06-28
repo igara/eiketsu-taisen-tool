@@ -1,6 +1,9 @@
 {
   "no": "EX043",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 23/08/30〜"
+  ],
   "id": "3c60c33f921189ddd54c46c185e3beae",
   "detailImageId": "bab521501bfeee1fab5a0031df97b792",
   "name": "風魔小太郎",

@@ -1,6 +1,10 @@
 {
   "no": "蒼063",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "5763eb0fa21a7c62730746b5f4253259",
   "detailImageId": "ed3bd7360a2dbf24df025bfd50acc85d",
   "name": "竹中半兵衛",

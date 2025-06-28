@@ -1,6 +1,10 @@
 {
   "no": "碧015",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "83ed3f19779fa811609b20e0ef3f064a",
   "detailImageId": "ce8be7d3f64b357862c4f597e90a13c6",
   "name": "佐々木愛次郎",

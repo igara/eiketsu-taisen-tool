@@ -1,6 +1,10 @@
 {
   "no": "緋040",
   "appear": "第1弾-2",
+  "appearPatterns": [
+    "探索(武将): 22/08/09〜",
+    "武将獲得: 22/08/09〜"
+  ],
   "id": "516c8f51cc1a8d8ef120728154f076a9",
   "detailImageId": "8bf5f0510fbd07a5ab1edcf760c6b10b",
   "name": "おうの",

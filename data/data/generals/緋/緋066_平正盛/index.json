@@ -1,6 +1,10 @@
 {
   "no": "緋066",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "42b875ba89a0f8cbeab7b394eff54cef",
   "detailImageId": "47075dcf7fccc30077956fddf3ee0502",
   "name": "平正盛",

@@ -1,6 +1,9 @@
 {
   "no": "EX120",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/03/19〜25/04/15"
+  ],
   "id": "f18be8b427d885fef11ba2bdd95790bf",
   "detailImageId": "24ec1bcab8bc26a8c9273b49b4ec4ce0",
   "name": "帰蝶",

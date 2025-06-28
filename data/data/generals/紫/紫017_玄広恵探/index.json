@@ -1,6 +1,10 @@
 {
   "no": "紫017",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "92109ad269525bd0e8f910cac06662d8",
   "detailImageId": "a4b4e41601e3055ac7fa5c627fe4119e",
   "name": "玄広恵探",

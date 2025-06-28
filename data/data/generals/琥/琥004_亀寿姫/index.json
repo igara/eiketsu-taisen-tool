@@ -1,6 +1,10 @@
 {
   "no": "琥004",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "0fe8df8707c733db64e0cc53349b6c0b",
   "detailImageId": "da85723813a33e3101685fef1aa51f48",
   "name": "亀寿姫",

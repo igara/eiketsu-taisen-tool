@@ -1,6 +1,10 @@
 {
   "no": "紫097",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "fdce056e847bccf2e4e92d9fbb24f6c9",
   "detailImageId": "887020b88720c7067198ad0f6a651f53",
   "name": "韓非",

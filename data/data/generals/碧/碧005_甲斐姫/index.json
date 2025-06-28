@@ -1,6 +1,10 @@
 {
   "no": "碧005",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "2d9ffb34a33bb935619a4af4ec683fea",
   "detailImageId": "67443225cccc640eee208d3320f542b8",
   "name": "甲斐姫",

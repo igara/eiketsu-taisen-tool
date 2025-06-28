@@ -1,6 +1,10 @@
 {
   "no": "玄126",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "323556e1fb6a25e8655c32f39f9ed234",
   "detailImageId": "6d1dd97db849b85a549f54ff7c8c039d",
   "name": "伊達成実",

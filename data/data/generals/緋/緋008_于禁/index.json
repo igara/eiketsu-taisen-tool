@@ -1,6 +1,10 @@
 {
   "no": "緋008",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "db3f6a463d8da33156f92443cd9be85b",
   "detailImageId": "a07ee77bfaf1f0d6c675a7504dbe7baf",
   "name": "于禁",

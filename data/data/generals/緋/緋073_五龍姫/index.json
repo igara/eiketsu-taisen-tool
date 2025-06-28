@@ -1,6 +1,10 @@
 {
   "no": "緋073",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "aef45c00d64423530f767ce628ab3c1c",
   "detailImageId": "0f96090d8e22705d7abf15ab3b58894b",
   "name": "五龍姫",

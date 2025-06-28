@@ -1,6 +1,10 @@
 {
   "no": "玄144",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "df9a7ae46e12e8162c388d8a403d510e",
   "detailImageId": "75e889051cfe10bf32ccb67c78879a81",
   "name": "最上義光",

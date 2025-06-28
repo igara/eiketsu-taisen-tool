@@ -1,6 +1,10 @@
 {
   "no": "蒼003",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "b5535e467a179ba1de7c02a2fe84cc37",
   "detailImageId": "8a6f3389a2acfe3fdb7009893c7ee629",
   "name": "岩崎弥太郎",

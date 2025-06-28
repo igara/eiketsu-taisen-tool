@@ -1,6 +1,10 @@
 {
   "no": "玄018",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "4a79050da126eb1314026cb0495034b3",
   "detailImageId": "e5dec9e4ab8f96c09d477558eefea512",
   "name": "塚原卜伝",

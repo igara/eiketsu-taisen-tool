@@ -1,6 +1,10 @@
 {
   "no": "玄081",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "81d56b581ddd14b80dd70b462bcfa7a5",
   "detailImageId": "20c7ced4ce7cc3689f3f2eb3c32b0212",
   "name": "下毛野公時",

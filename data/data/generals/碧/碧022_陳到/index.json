@@ -1,6 +1,10 @@
 {
   "no": "碧022",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "6f65bb0b9d1da113d721de75943633cf",
   "detailImageId": "1a0ce7a776e4903254f2c45dced5b6f5",
   "name": "陳到",

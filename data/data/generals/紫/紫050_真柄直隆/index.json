@@ -1,6 +1,10 @@
 {
   "no": "紫050",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "4d0f4ac3b944c7b8e7014f55dd572b81",
   "detailImageId": "d8722a866f0c671309fc5afb265155d6",
   "name": "真柄直隆",

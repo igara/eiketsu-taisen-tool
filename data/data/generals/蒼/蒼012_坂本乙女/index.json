@@ -1,6 +1,10 @@
 {
   "no": "蒼012",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "eac52664b75f5aad574181475926c3e1",
   "detailImageId": "8810ee22b07b6f8af3db68d0a71bfd53",
   "name": "坂本乙女",

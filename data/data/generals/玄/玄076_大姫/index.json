@@ -1,6 +1,10 @@
 {
   "no": "玄076",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "9b58a102217fcac397ac40a5b274c817",
   "detailImageId": "de29ba5e043338a8ee93312286c2c141",
   "name": "大姫",

@@ -1,6 +1,10 @@
 {
   "no": "碧080",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "87b9697469fb925a530e075e58bbedef",
   "detailImageId": "418de5b559d7b4fc5e1dd7b29f67724a",
   "name": "徳川吉宗",

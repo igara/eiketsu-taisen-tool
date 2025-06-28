@@ -1,6 +1,10 @@
 {
   "no": "蒼138",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "64ced5f7a3ecf8f00e42220fa4c2b541",
   "detailImageId": "59de2f8a384869c44c9870c1270ac3e5",
   "name": "趙高",

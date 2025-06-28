@@ -1,6 +1,10 @@
 {
   "no": "玄061",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "6966ecb044d080bbbfaa87ec73461b5d",
   "detailImageId": "b0e541d6b64d31e843fe57a7932b831a",
   "name": "斎藤実盛",

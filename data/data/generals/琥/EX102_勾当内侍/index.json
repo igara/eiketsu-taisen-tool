@@ -1,6 +1,10 @@
 {
   "no": "EX102",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 25/03/19〜",
+    "大戦スタンプキャンペーン: 24/12/04〜24/12/17"
+  ],
   "id": "69b32dffdfd253ff65008b6c46eb69fa",
   "detailImageId": "c22b61519efc94349ed67dfc41e0f0af",
   "name": "勾当内侍",

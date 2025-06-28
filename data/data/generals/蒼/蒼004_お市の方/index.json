@@ -1,6 +1,10 @@
 {
   "no": "蒼004",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "802c6981301bb74d17bfd94231eb0bb5",
   "detailImageId": "eeb756b9f215e4a4822c665adb6cb6dd",
   "name": "お市の方",

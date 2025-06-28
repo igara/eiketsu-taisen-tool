@@ -1,6 +1,9 @@
 {
   "no": "EX124",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/03/19〜25/04/15"
+  ],
   "id": "06c79d2629025c457b55e5c4696f1af1",
   "detailImageId": "54f3d9ea011859c5a1fc1a1664d416e7",
   "name": "皇甫嵩",

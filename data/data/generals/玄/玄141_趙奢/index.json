@@ -1,6 +1,10 @@
 {
   "no": "玄141",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "85397d97d305d119fd6cdc49973c79be",
   "detailImageId": "67afba5432f08ccb4735e7c5907fdc4d",
   "name": "趙奢",

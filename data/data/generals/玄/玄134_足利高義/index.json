@@ -1,6 +1,10 @@
 {
   "no": "玄134",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "b1c7832946b8fbff4c44f5e3ee3a3fd8",
   "detailImageId": "f1d7b3ad2b422c24025275246d11e929",
   "name": "足利高義",

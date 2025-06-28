@@ -1,6 +1,10 @@
 {
   "no": "緋002",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "de04b9f6fe9c6e8e6c3be77eeb885ab2",
   "detailImageId": "13247d49e3c51628a2def8d386db0b3f",
   "name": "甘利虎泰",

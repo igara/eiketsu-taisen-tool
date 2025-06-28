@@ -1,6 +1,10 @@
 {
   "no": "緋140",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "13d7f1fbb31c4922f87e9315bc98b8f1",
   "detailImageId": "cecd2de95140dec22fdce4cbae559796",
   "name": "曹昂",

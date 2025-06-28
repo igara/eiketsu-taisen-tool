@@ -1,6 +1,10 @@
 {
   "no": "紫015",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "8942b65fa1613c0d0cd55693c115dbc9",
   "detailImageId": "88e2e8181568f57ab19ddb2d2d327495",
   "name": "許攸",

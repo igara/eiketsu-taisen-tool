@@ -1,6 +1,10 @@
 {
   "no": "紫078",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "2a37b74d83a8fa25769231227b19fbb7",
   "detailImageId": "8169eacf9ffc754909b339dd02e76d6d",
   "name": "呂雉",

@@ -1,6 +1,10 @@
 {
   "no": "緋016",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "07f4b8ebf7def869b9334edf80857d7e",
   "detailImageId": "28d27410317f5b27ef54ae030b17fc21",
   "name": "高坂昌信",

@@ -1,6 +1,10 @@
 {
   "no": "蒼141",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "4be2ec05d4aaefcd95c99e5a138e1a50",
   "detailImageId": "7475e10cf6f0369698f3dce41bfd57d7",
   "name": "北条時行",

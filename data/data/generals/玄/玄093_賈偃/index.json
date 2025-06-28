@@ -1,6 +1,10 @@
 {
   "no": "玄093",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "5c0e2f9d6861c5ad89fc3db825455be9",
   "detailImageId": "f8cc127b0543efcd474f882df4798448",
   "name": "賈偃",

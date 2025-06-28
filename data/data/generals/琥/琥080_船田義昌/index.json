@@ -1,6 +1,10 @@
 {
   "no": "琥080",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "17130bb3805efa3b80e9ed0fa3eec323",
   "detailImageId": "ca1d686453014ede92ce15e741b04f28",
   "name": "船田義昌",

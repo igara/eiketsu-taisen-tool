@@ -1,6 +1,10 @@
 {
   "no": "碧002",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "1d9c406936d8a8bda9ccf477aad58d11",
   "detailImageId": "f0ee37f191d59dd18440648e58c74d1a",
   "name": "石川家成",

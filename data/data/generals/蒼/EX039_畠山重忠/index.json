@@ -1,6 +1,10 @@
 {
   "no": "EX039",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 23/11/01〜",
+    "大戦スタンプキャンペーン: 23/08/02〜23/08/29"
+  ],
   "id": "40b13ca3c68d7dc8f3fbc76ab044321b",
   "detailImageId": "cdea0c353e9a8b4dc948aba6794399f6",
   "name": "畠山重忠",

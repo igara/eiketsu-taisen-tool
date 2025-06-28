@@ -1,6 +1,10 @@
 {
   "no": "PL035",
   "appear": "第2弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 23/04/12〜23/04/25",
+    "大戦スタンプキャンペーン: 24/05/01〜24/05/14"
+  ],
   "id": "16e22d4086d4caf3d5733b87ff5fcd75",
   "detailImageId": "dfc43dd253761d0dc830a3e743c9fb6f",
   "name": "斎藤一",

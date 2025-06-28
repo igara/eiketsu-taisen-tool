@@ -1,6 +1,10 @@
 {
   "no": "PL059",
   "appear": "第3弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 24/02/28〜24/03/12",
+    "大戦スタンプキャンペーン: 25/03/05〜25/03/18"
+  ],
   "id": "6c8c8ab5b6edc906499e6e0dbafe5e5b",
   "detailImageId": "d605ae355738e42eab48e87d6f8e5ee2",
   "name": "関羽雲長",

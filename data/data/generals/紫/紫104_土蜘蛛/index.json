@@ -1,6 +1,10 @@
 {
   "no": "紫104",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "f44bf4de6c1dc9db83adf075910e4ac5",
   "detailImageId": "17bcdb6dc5808fcf4b4cdc3dfcc889ef",
   "name": "土蜘蛛",

@@ -1,6 +1,10 @@
 {
   "no": "緋136",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "c5c5c91ac7abb3afc4ca2711744ea93b",
   "detailImageId": "2d4a44328355ca14eb341134d4dead7e",
   "name": "吉川広家",

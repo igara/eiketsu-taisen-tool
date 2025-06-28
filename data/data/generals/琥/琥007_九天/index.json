@@ -1,6 +1,10 @@
 {
   "no": "琥007",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "f3b074a6ffed3987c46ad3c2d7ccde31",
   "detailImageId": "86fa423b9aa98feee3a1d671013b7926",
   "name": "九天",

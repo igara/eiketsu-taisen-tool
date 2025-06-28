@@ -1,6 +1,10 @@
 {
   "no": "蒼094",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "10af8ecdc2ecf402f3cc3a9732bf8bd8",
   "detailImageId": "01d5eb5b98e44e7a96a5ef5049ff6309",
   "name": "昭襄王",

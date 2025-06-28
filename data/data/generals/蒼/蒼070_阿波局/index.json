@@ -1,6 +1,10 @@
 {
   "no": "蒼070",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "aaa0f54780b1ff4215a2cfa57c077e2e",
   "detailImageId": "c609e0196a2d4fd3b39b260fd06b5da0",
   "name": "阿波局",

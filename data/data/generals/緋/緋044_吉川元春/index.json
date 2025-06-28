@@ -1,6 +1,10 @@
 {
   "no": "緋044",
   "appear": "第1弾-2",
+  "appearPatterns": [
+    "探索(武将): 22/08/09〜",
+    "武将獲得: 22/08/09〜"
+  ],
   "id": "a2a82c8d942008d009394cda00713d7e",
   "detailImageId": "3aaa31f2da0a335a469044184c65ce9c",
   "name": "吉川元春",

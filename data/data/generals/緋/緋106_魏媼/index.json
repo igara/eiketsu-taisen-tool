@@ -1,6 +1,10 @@
 {
   "no": "緋106",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "a2695cead3597374bb618f170db9302a",
   "detailImageId": "af9fb3f109ed91d20ed13bff76b5fd6f",
   "name": "魏媼",

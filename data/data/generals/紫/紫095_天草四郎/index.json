@@ -1,6 +1,10 @@
 {
   "no": "紫095",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "6e911dcc9466cfd2d5238ef91a316b8d",
   "detailImageId": "b5c30c91dc27b4f8850aab6b64e1e557",
   "name": "天草四郎",

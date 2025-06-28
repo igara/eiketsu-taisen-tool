@@ -1,6 +1,10 @@
 {
   "no": "PL009",
   "appear": "第1弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 22/06/22〜22/07/05",
+    "大戦スタンプキャンペーン: 22/12/28〜23/01/17"
+  ],
   "id": "f59fdeadec6f567990e7eb367de13458",
   "detailImageId": "815cc5f7d6f51e52ef02efdb48bcb443",
   "name": "加藤清正",

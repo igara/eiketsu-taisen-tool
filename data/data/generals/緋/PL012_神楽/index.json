@@ -1,6 +1,9 @@
 {
   "no": "PL012",
   "appear": "第1弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 22/07/13〜22/07/26"
+  ],
   "id": "6b6c0536c8560bac4201d773bbbe2af0",
   "detailImageId": "3225acf160c4fc5723c3415414a8ee70",
   "name": "神楽",

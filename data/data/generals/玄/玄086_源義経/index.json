@@ -1,6 +1,10 @@
 {
   "no": "玄086",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "b5c9f8d4ae35dd1e2dffc2f1d9e749f6",
   "detailImageId": "f5eb9ed2f116e4a4fd6da28dd25be2ca",
   "name": "源義経",

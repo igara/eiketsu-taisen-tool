@@ -1,6 +1,10 @@
 {
   "no": "蒼135",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "6849fa0c5e6ea2796a2010a86f3315d2",
   "detailImageId": "0fd91d993b28b341183f1cd0aa1ab76d",
   "name": "小虎",

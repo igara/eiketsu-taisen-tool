@@ -1,6 +1,10 @@
 {
   "no": "EX052",
   "appear": "第2弾-EX",
+  "appearPatterns": [
+    "金剛石商店(金剛石交換所): 24/01/17〜",
+    "大戦スタンプキャンペーン: 23/10/04〜23/10/31"
+  ],
   "id": "f635959fe7ecdbbbb5c91fba960e0e31",
   "detailImageId": "2ab71eefedf5f9292f811969272dba42",
   "name": "関索",

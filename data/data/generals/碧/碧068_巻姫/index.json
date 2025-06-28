@@ -1,6 +1,10 @@
 {
   "no": "碧068",
   "appear": "第2弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/12/21〜",
+    "武将獲得: 22/12/21〜"
+  ],
   "id": "b379053f19b6dbfd24475b2ba5b7b550",
   "detailImageId": "5c1950b26efa0ba4eaa5893e8c129cc5",
   "name": "巻姫",

@@ -1,6 +1,10 @@
 {
   "no": "玄111",
   "appear": "第3弾-2",
+  "appearPatterns": [
+    "探索(武将): 24/04/17〜",
+    "武将獲得: 24/04/17〜"
+  ],
   "id": "b54c4a15db5697c30a944706327daab9",
   "detailImageId": "00b8a4adce629319a2a118483924fd87",
   "name": "紀霊",

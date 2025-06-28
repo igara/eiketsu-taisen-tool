@@ -1,6 +1,10 @@
 {
   "no": "緋043",
   "appear": "第1弾-2",
+  "appearPatterns": [
+    "探索(武将): 22/08/09〜",
+    "武将獲得: 22/08/09〜"
+  ],
   "id": "34b27f3587921ac61f82fdd4df4efa92",
   "detailImageId": "676f6f3e2166d547e6886ac62f2fc4d9",
   "name": "河上弥市",

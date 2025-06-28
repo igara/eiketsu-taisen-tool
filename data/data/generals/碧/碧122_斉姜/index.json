@@ -1,6 +1,10 @@
 {
   "no": "碧122",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "628e44cdf04f30fd5cd93045d831502e",
   "detailImageId": "b5776dc4c9b2aaf4ad8699ddb64f440b",
   "name": "斉姜",

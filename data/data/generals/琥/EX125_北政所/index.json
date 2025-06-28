@@ -1,6 +1,9 @@
 {
   "no": "EX125",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/03/19〜25/04/15"
+  ],
   "id": "d2002a506e5b1a7a714d0f6d5ac70195",
   "detailImageId": "8ca2df286cde77cb12b72dfd6a0dfa70",
   "name": "北政所",

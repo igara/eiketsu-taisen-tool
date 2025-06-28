@@ -1,6 +1,9 @@
 {
   "no": "PL077",
   "appear": "第4弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 24/10/30〜24/11/12"
+  ],
   "id": "3040834e44d6b9c6a16557a62605b9ba",
   "detailImageId": "f4f6bbc65fb4303e23cce5ee1ce5a68a",
   "name": "斎藤一",

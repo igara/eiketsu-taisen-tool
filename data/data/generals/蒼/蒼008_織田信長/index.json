@@ -1,6 +1,10 @@
 {
   "no": "蒼008",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "a39d0a93f6b04a45cec27faf2413a850",
   "detailImageId": "ed4b946bbfe6bc14be21201b0e43c461",
   "name": "織田信長",

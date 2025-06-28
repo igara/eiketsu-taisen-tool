@@ -1,6 +1,10 @@
 {
   "no": "蒼142",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "891596652cb7d84aec0ab7d31f388acb",
   "detailImageId": "b71869754e891709fb8f6dd8fa93c899",
   "name": "蒙武",

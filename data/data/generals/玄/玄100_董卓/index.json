@@ -1,6 +1,10 @@
 {
   "no": "玄100",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "1e5088e26cfd29fc8180c1be05882223",
   "detailImageId": "799279293f04ae4bdb7626db15e741fc",
   "name": "董卓",

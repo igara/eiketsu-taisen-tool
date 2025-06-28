@@ -1,6 +1,10 @@
 {
   "no": "紫040",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "5ce6419c34a864a05c2d6806b0994f1f",
   "detailImageId": "ee4860b1ca66a19230d4e690fffe07fd",
   "name": "歌川広重",

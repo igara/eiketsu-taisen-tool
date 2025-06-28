@@ -1,6 +1,10 @@
 {
   "no": "琥019",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "6d447dd6f3fafaa2608837769d63fce9",
   "detailImageId": "9c49b9cf7476664c7336f18bd9ef03e3",
   "name": "島津斉彬",

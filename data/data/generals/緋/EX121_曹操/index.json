@@ -1,6 +1,9 @@
 {
   "no": "EX121",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/03/19〜25/04/15"
+  ],
   "id": "03001a913c7153cc36697450b0b1ea2c",
   "detailImageId": "52511ddbbd78162df81a38a54fc6b46d",
   "name": "曹操",

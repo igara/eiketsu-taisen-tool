@@ -1,6 +1,10 @@
 {
   "no": "玄024",
   "appear": "第1弾-1",
+  "appearPatterns": [
+    "探索(武将): 22/03/10〜",
+    "武将獲得: 22/03/10〜"
+  ],
   "id": "6f662b73496dd9e3d6e540959ce055fb",
   "detailImageId": "105b95facfbb7aebb18e6e7a45ce86c0",
   "name": "馬超",

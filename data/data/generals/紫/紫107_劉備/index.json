@@ -1,6 +1,10 @@
 {
   "no": "紫107",
   "appear": "第4弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/02/19〜",
+    "武将獲得: 25/02/19〜"
+  ],
   "id": "3204cbe25ee8f1362e15ed18aea045c5",
   "detailImageId": "633ab61aa2a2f73cf12e6aa979e19662",
   "name": "劉備",

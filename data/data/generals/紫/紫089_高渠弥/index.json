@@ -1,6 +1,10 @@
 {
   "no": "紫089",
   "appear": "第4弾-1",
+  "appearPatterns": [
+    "探索(武将): 24/09/18〜",
+    "武将獲得: 24/09/18〜"
+  ],
   "id": "7e0e39ecfd0b00414b457be5b160dd4f",
   "detailImageId": "1ca0016352dcd9a89393c60eca9f44bd",
   "name": "高渠弥",

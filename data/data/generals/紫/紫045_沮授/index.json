@@ -1,6 +1,10 @@
 {
   "no": "紫045",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "2af89e11f396257434ec5268b390104c",
   "detailImageId": "2634bb74af0c19a7da089c94820deef5",
   "name": "沮授",

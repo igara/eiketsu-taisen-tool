@@ -1,6 +1,10 @@
 {
   "no": "碧085",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "acca42dd48f14d5d1227466322229f70",
   "detailImageId": "1951cec8fb334b6d7dab405599366aa6",
   "name": "山岡鉄舟",

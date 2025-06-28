@@ -1,6 +1,10 @@
 {
   "no": "蒼091",
   "appear": "第3弾-1",
+  "appearPatterns": [
+    "探索(武将): 23/11/01〜",
+    "武将獲得: 23/11/01〜"
+  ],
   "id": "58ce0cc449778eefd39262522e0479b0",
   "detailImageId": "775bd1ba947c79b9d5051cec8ac469b8",
   "name": "魏冄",

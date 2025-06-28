@@ -1,6 +1,10 @@
 {
   "no": "碧069",
   "appear": "第2弾-2",
+  "appearPatterns": [
+    "探索(武将): 23/05/24〜",
+    "武将獲得: 23/05/24〜"
+  ],
   "id": "2138d4c147b256d0e2b473a6602a44f1",
   "detailImageId": "f8ce07db11ad9e24112bde7581deb1d9",
   "name": "葵御前",

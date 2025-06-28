@@ -1,6 +1,9 @@
 {
   "no": "EX142",
   "appear": "第4弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/06/25〜25/07/22"
+  ],
   "id": "5755bd90f7b0b5da807c3a1b22dcae48",
   "detailImageId": "0d1c76709799d846574ac0049477e00b",
   "name": "伊庭八郎",
