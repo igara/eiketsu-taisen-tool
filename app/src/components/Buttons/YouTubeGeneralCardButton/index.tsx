@@ -90,6 +90,9 @@ export const YouTubeGeneralCardButton: React.FC<Props> = ({
 											target="_blank"
 											rel="noopener noreferrer"
 											className="underline"
+											onClick={(e) => {
+												e.stopPropagation();
+											}}
 										>
 											{video.title}
 										</a>
