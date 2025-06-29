@@ -3,7 +3,6 @@ import {withSentryConfig} from "@sentry/nextjs";
 const nextConfig = {
 	output: "export",
 	// distDir: 'dist'
-	trailingSlash: true,
 	experimental: {
 		typedRoutes: true,
 	},
