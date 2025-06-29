@@ -1,5 +1,5 @@
 import { useVirtualizer } from "@tanstack/react-virtual";
-import { useCallback, useRef, useMemo } from "react";
+import { useCallback, useRef } from "react";
 import { GeneralUI } from "../logic";
 
 export const useLogic = (generals: GeneralUI[]) => {
@@ -28,7 +28,7 @@ export const useLogic = (generals: GeneralUI[]) => {
 			let estimatedHeight = 150;
 			return estimatedHeight;
 		},
-		overscan: 50, // 画面外にレンダリングする追加アイテム数
+		overscan: 5, // 画面外にレンダリングする追加アイテム数
 		// 実際の要素の高さを測定して動的に調整
 		measureElement: (element) => {
 			const height = element?.getBoundingClientRect().height ?? 150;
