@@ -90,17 +90,32 @@ export const GeneralDetailButton: React.FC<Props> = ({
 							background: `rgba(${general.color.r},${general.color.g},${general.color.b},0.2)`,
 						}}
 					>
-						<div className="flex-grow-0 flex-shrink-0 w-[80px] p-1 align-baseline">
-							<p
-								style={{
-									color: `rgb(${general.color.r},${general.color.g},${general.color.b})`,
-								}}
-							>
-								{general.color.name}
-							</p>
-							<p>{general.period}</p>
-							<p>{general.no}</p>
-							<p>{general.appear}</p>
+						<div className="flex flex-col">
+							<div className="flex-grow-0 flex-shrink-0 w-[80px] p-1 align-baseline">
+								<p
+									style={{
+										color: `rgb(${general.color.r},${general.color.g},${general.color.b})`,
+									}}
+								>
+									{general.color.name}
+								</p>
+								<p>{general.period}</p>
+								<p>{general.no}</p>
+								<p>{general.appear}</p>
+							</div>
+
+							<div className="p-1">
+								<label>
+									入手手段
+								</label>
+								{general.appearPatterns?.map((appearPattern, index) => {
+									return (
+										<div key={index}>
+											{appearPattern}
+										</div>
+									);
+								})}
+							</div>
 						</div>
 
 						<div className="flex-grow-0 flex-shrink-0 w-[120px] p-1 align-baseline">
@@ -182,6 +197,9 @@ export const GeneralDetailButton: React.FC<Props> = ({
 												target="_blank"
 												rel="noopener noreferrer"
 												className="underline"
+												onClick={(e) => {
+													e.stopPropagation();
+												}}
 											>
 												公式
 											</a>
@@ -194,6 +212,9 @@ export const GeneralDetailButton: React.FC<Props> = ({
 												target="_blank"
 												rel="noopener noreferrer"
 												className="underline"
+												onClick={(e) => {
+													e.stopPropagation();
+												}}
 											>
 												英傑大戦wiki
 											</a>
@@ -206,6 +227,9 @@ export const GeneralDetailButton: React.FC<Props> = ({
 												target="_blank"
 												rel="noopener noreferrer"
 												className="underline"
+												onClick={(e) => {
+													e.stopPropagation();
+												}}
 											>
 												ゲームウィキ.jp
 											</a>
