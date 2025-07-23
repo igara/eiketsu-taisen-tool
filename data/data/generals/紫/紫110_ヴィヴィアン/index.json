@@ -1,0 +1,60 @@
+{
+  "no": "紫110",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "e757af1d2df309adbcd0f0d26b0c7184",
+  "detailImageId": "3b2a87e3910fe48a05caab0b369f7a56",
+  "name": "ヴィヴィアン",
+  "kanaName": "ヴィヴィアン",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "湖の戦旗",
+    "kanaName": "みずうみのせんき",
+    "cost": "4",
+    "description": "【旗陣形】（旗陣形が出現する。旗陣形は同時に複数発動でき、旗陣形を発動するたびに効果時間が延長され、旗陣形を繋いだ範囲に全ての効果が発生する。陣形と同時に発動できない）<br>味方の武力が上がり、敵の武力を下げる旗陣形を設置する。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "4",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    },
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e757af1d2df309adbcd0f0d26b0c7184",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4226"
+  }
+}

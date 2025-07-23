@@ -1,0 +1,54 @@
+{
+  "no": "玄150",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "32a954efccb674cba85e3460e082959c",
+  "detailImageId": "15bda16672d0f435accff62a0f290934",
+  "name": "エイリーク",
+  "kanaName": "エイリーク",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "継戦の戦旗",
+    "kanaName": "けいせんのせんき",
+    "cost": "5",
+    "description": "【旗陣形】味方の武力が上がり、範囲内の味方が敵部隊を撃破するたびに旗陣形の効果時間が延長される旗陣形を設置する。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=32a954efccb674cba85e3460e082959c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4216"
+  }
+}

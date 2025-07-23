@@ -2,7 +2,8 @@
   "no": "PL060",
   "appear": "第3弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 24/05/15〜24/05/28"
+    "大戦スタンプキャンペーン: 24/05/15〜24/05/28",
+    "大戦スタンプキャンペーン: 25/07/23〜25/08/05"
   ],
   "id": "28be9f66113f4f1042d75d9c772caddf",
   "detailImageId": "74830524703d9ca7bd58891dc284d0c9",
@@ -38,7 +39,7 @@
       "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
     }
   ],
-  "kabuki": "15",
+  "kabuki": "6",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=28be9f66113f4f1042d75d9c772caddf",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1656.html",

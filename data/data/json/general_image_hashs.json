@@ -1305,6 +1305,132 @@
     }
   },
   {
+    "no": "蒼145",
+    "deckImageHash": "f007f00fd23ac03f67bfd803cc01de09c77dc705cf015702d703ffc17881d083",
+    "name": "アランソン公",
+    "kanaName": "アランソンこう",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼146",
+    "deckImageHash": "0e871de139c27cb8f83ed98e481be00be0cbe3ce028e229f40b8e4f0f788fc07",
+    "name": "司馬靳",
+    "kanaName": "しばきん",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼147",
+    "deckImageHash": "47375c793c70b02ce0b50dc23f8467f0c61fcc03e986e117f308fd48f4509ec1",
+    "name": "司馬錯",
+    "kanaName": "しばさく",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼148",
+    "deckImageHash": "85a7ac29adf988e08e7c18cc31dc8cdc6ffe81ce001ec11ed3cfe1cfa007a007",
+    "name": "シャルル７世",
+    "kanaName": "シャルル７せい",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼149",
+    "deckImageHash": "0bff03fd07f0a18029af1cfa031c780fe04ff08ff014bc0e7b4ee1e8c7c103e0",
+    "name": "ジャンヌ・アシェット",
+    "kanaName": "ジャンヌ・アシェット",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼150",
+    "deckImageHash": "07934ffd1e16380c00107c2c761dedbff93ffb1e7006448005f81efc2e3e8438",
+    "name": "ジャンヌ・ダルク",
+    "kanaName": "ジャンヌ・ダルク",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼151",
+    "deckImageHash": "00ff03af3e0e462e703ef1f703e20f08f07fa03c1e3c1b18b800b3983f32be65",
+    "name": "ジル・ド・レ",
+    "kanaName": "ジル・ド・レ",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼152",
+    "deckImageHash": "0ee70e691ea86caafc7ec8338013071f0f3fe267e403681cc0bed07ef080e0db",
+    "name": "宣太后",
+    "kanaName": "せんたいごう",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼153",
+    "deckImageHash": "f202fe80f81afc0ece87ce437aa0f092e27f033f01ff0007ebfe07c6201e802f",
+    "name": "長宗我部信親",
+    "kanaName": "ちょうそかべのぶちか",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼154",
+    "deckImageHash": "ff03fe29f800f802fe44cfe4487820671f07743b001f5c4f52c0428b433fc57f",
+    "name": "デュ・ゲクラン",
+    "kanaName": "デュ・ゲクラン",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼155",
+    "deckImageHash": "780061c8f3c6f1e721c2201947f947ff37e2c40f9c1503f647f0f101ffcf6001",
+    "name": "フィリップ６世",
+    "kanaName": "フィリップ６せい",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼156",
+    "deckImageHash": "30803f1c277f06ee1c4f5e323ffa0103440f248f23867ff87e00ff013f832794",
+    "name": "マリー・ダンジュー",
+    "kanaName": "マリー・ダンジュー",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼157",
+    "deckImageHash": "09270cfd4d1ec41fe0fff41f101f6003220f069d07de1d3e380f2f0736d69781",
+    "name": "森蘭丸",
+    "kanaName": "もりらんまる",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "蒼158",
+    "deckImageHash": "e1c2ff016f030f869fffb200c6037c1110f70e7704bf101f0c7f341fb00ff007",
+    "name": "ラ・イル",
+    "kanaName": "ラ・イル",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "EX001",
     "deckImageHash": "03c703e167cccdc6e1f3fc0ec305f009f00ff0073ce0ce33e001f865c7e1fbc0",
     "name": "羽柴秀吉",
@@ -1525,6 +1651,33 @@
     "deckImageHash": "000f07ff0fc707f07f01fc23f043e20be61df67cf440e440e000e03fccfee037",
     "name": "騰",
     "kanaName": "とう",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "EX146",
+    "deckImageHash": "78b7183f39f2001bc03a183f0c7f10df0007808f667ef7ce80e0b07c7a129dfe",
+    "name": "帰蝶",
+    "kanaName": "きちょう",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "EX147",
+    "deckImageHash": "fbf3cbf90520c110ed3bd1c900017e1ff81ff800fe07ae02fc44b960fba1f801",
+    "name": "斎藤道三",
+    "kanaName": "さいとうどうさん",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "EX148",
+    "deckImageHash": "fe33fe0ff80c1800fc83bc9e058e0d628fd307d017e007f801bc007f467f861f",
+    "name": "陸遜",
+    "kanaName": "りくそん",
     "color": {
       "name": "蒼"
     }
@@ -3033,6 +3186,123 @@
     }
   },
   {
+    "no": "緋146",
+    "deckImageHash": "fbf2e1658126043700770047f07f3ee30feb01ffc143801f7077e270c3e0c1b9",
+    "name": "秋山虎繁",
+    "kanaName": "あきやまとらしげ",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋147",
+    "deckImageHash": "1ff70ff901e80b801c533a01fe20ffe0fe1eee0ec007e803f83c18a678c6e073",
+    "name": "ウォリック伯トマス",
+    "kanaName": "ウォリックはくトマス",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋148",
+    "deckImageHash": "7f07fe217804fc02fc63fc41e014e0370c3a10763fbefe003201471f0f0f8bcf",
+    "name": "エドワード黒太子",
+    "kanaName": "エドワードこくたいし",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋149",
+    "deckImageHash": "e7c25a06e0ff008f39bf0b7f403e4814fd22f60cf602e382e780cf80ef80fe81",
+    "name": "エドワード３世",
+    "kanaName": "エドワード３せい",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋150",
+    "deckImageHash": "7280ff107ef0de20cfe0fe009e870f30fe00ff182f986f008fc483f003e487f9",
+    "name": "春申君",
+    "kanaName": "しゅんしんくん",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋151",
+    "deckImageHash": "01870ff11ff01bd803e817ee25e435e437e467e643e81186c627c6678763c063",
+    "name": "ジョーン",
+    "kanaName": "ジョーン",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋152",
+    "deckImageHash": "f782c7b18500ff30ff6079185e08fc03fc1ff807c781ca019f9a3f0c3e00fe01",
+    "name": "徐晃",
+    "kanaName": "じょこう",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋153",
+    "deckImageHash": "8ff70ff1c3d08030c278f4e0fac0fd01f813e03acc36e03ee836670eef00ef80",
+    "name": "ジョン・チャンドス",
+    "kanaName": "ジョン・チャンドス",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋154",
+    "deckImageHash": "3c007fc0b30ef23ef7bec1e600461ae2f7e67da0f182e002c78f81c38283fd91",
+    "name": "信陵君",
+    "kanaName": "しんりょうくん",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋155",
+    "deckImageHash": "07c2c3fcf88ef006fb8ff203f051f040f800b806f88e7e1ffd1779e01bf08380",
+    "name": "高橋菊",
+    "kanaName": "たかはしきく",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋156",
+    "deckImageHash": "c4107f9c2e5f081f1bff39ff01b8004201de02bd041b1ffdffeffbc3e0024000",
+    "name": "トマス・ホランド",
+    "kanaName": "トマス・ホランド",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋157",
+    "deckImageHash": "06e03cbc2ebe027e1dffd01fe00f6003f1dcf099f00df009f180f5b0e144e8e7",
+    "name": "ヘンリー５世",
+    "kanaName": "ヘンリー５せい",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "緋158",
+    "deckImageHash": "03c00ff80fc6e3e6c327dd27c067e0e0ffe3f0e07e3000e001f0c3ce439f18fc",
+    "name": "マン王ウィリアム",
+    "kanaName": "マンおうウィリアム",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "EX004",
     "deckImageHash": "7fe0fe7c383818081b801de00ffc07f30fe23ffe303e3010000cf01ff0dfe41f",
     "name": "大村益次郎",
@@ -3298,6 +3568,15 @@
     "deckImageHash": "380701f943f855fcc5a9437aa7f09614061d960fec8f70c310c800f6f878ef3d",
     "name": "丁夫人",
     "kanaName": "ていふじん",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "EX149",
+    "deckImageHash": "58f741f100fe07c31fd0fe847fc6c100f420ff9067e1c0e2007f00ff00ff80fb",
+    "name": "甄氏",
+    "kanaName": "しんし",
     "color": {
       "name": "緋"
     }
@@ -4752,6 +5031,132 @@
     }
   },
   {
+    "no": "碧144",
+    "deckImageHash": "100074f870f27cff3efe21f803e033e0361edc1efcc07c0138037d02ffa23fc0",
+    "name": "アラン・ア・デイル",
+    "kanaName": "アラン・ア・デイル",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧145",
+    "deckImageHash": "03e30781dfe4f982d9c07a63f01fc00fe60f4207380e3afe3fff2e060c3089f0",
+    "name": "ウィル・スカーレット",
+    "kanaName": "ウィル・スカーレット",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧146",
+    "deckImageHash": "0000e7f81fbe36bc363c7c3cf81e140efe06fcc6f880bc01e00bf81b7e16047b",
+    "name": "乙女マリアン",
+    "kanaName": "おとめマリアン",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧147",
+    "deckImageHash": "009307f907fa17f846b07e3c3056338fff07f7a0074007f0e3e073c470b8b0f1",
+    "name": "金刺盛澄",
+    "kanaName": "かなさしのもりずみ",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧148",
+    "deckImageHash": "37e00ffc1cde30067b0f72447fe048e0de70f60ee03dca08987dc07dc078f870",
+    "name": "敬哀皇后",
+    "kanaName": "けいあいこうごう",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧149",
+    "deckImageHash": "7ee0fc304c38fc18ff7be4020c6248f20872283109c3fff7fff7edd748400004",
+    "name": "張皇后",
+    "kanaName": "ちょうこうごう",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧150",
+    "deckImageHash": "7a727a7d047e0087c78f03bf089980dee07fcc3f9c06380647b30e0b3730e347",
+    "name": "徳川家康",
+    "kanaName": "とくがわいえやす",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧151",
+    "deckImageHash": "78c2e0fd887e103eda7fc05ec007a01f883fc09f86cb121f001f0e330fff8363",
+    "name": "徳川秀忠",
+    "kanaName": "とくがわひでただ",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧152",
+    "deckImageHash": "7ff766f12030c188f043f87ff0239806f041f087799f101f2820f86631f687fc",
+    "name": "松平忠吉",
+    "kanaName": "まつだいらただよし",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧153",
+    "deckImageHash": "07d03efc382c3fa07fe039f1219b3c026ea0a47874dc5dc8f8f87de30cd3040c",
+    "name": "マッチ",
+    "kanaName": "マッチ",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧154",
+    "deckImageHash": "7e737dbdc00268847fc6fc305818383c9f712b131f1c27182f3844300263beff",
+    "name": "孟嘗君",
+    "kanaName": "もうしょうくん",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧155",
+    "deckImageHash": "1ff01ff047f0618277667e6633820e8877221f7875f407805f803ff03fb03a10",
+    "name": "モルガン",
+    "kanaName": "モルガン",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧156",
+    "deckImageHash": "07c27fa0c07207dfdd9f207600e2738eff0ef82ff804f000f87e78687078f808",
+    "name": "リトル・ジョン",
+    "kanaName": "リトル・ジョン",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "碧157",
+    "deckImageHash": "70d2f4387838cd8dfdff6065f1e14000009f31073f733e83f90f408f009f8e79",
+    "name": "ロビン・フッド",
+    "kanaName": "ロビン・フッド",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
     "no": "EX003",
     "deckImageHash": "3f033f393f7c082007903e793c3c163e278e4b9cf01e908f8a3ee23fe250f484",
     "name": "魏延",
@@ -4963,6 +5368,15 @@
     "deckImageHash": "17f200fc07fe00fa09fff87f803c002e8008079f2edb761ffe1edf0300e7208b",
     "name": "伊庭八郎",
     "kanaName": "いばはちろう",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "EX150",
+    "deckImageHash": "038378dd709ee01f418f5dc7301f6383f3ffe37f004c088019cd1f96371281e3",
+    "name": "法正",
+    "kanaName": "ほうせい",
     "color": {
       "name": "碧"
     }
@@ -6453,6 +6867,132 @@
     }
   },
   {
+    "no": "玄147",
+    "deckImageHash": "03f01ffc30be003f837fe53ee096e040f060f023f817703ff00ff01ff003f00f",
+    "name": "安達盛長",
+    "kanaName": "あだちもりなが",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄148",
+    "deckImageHash": "47e0c7e8c7e2c780fcdf8c6388a13870f8bb70fe1fb300000c124f6c84cfef85",
+    "name": "イーヴァル",
+    "kanaName": "イーヴァル",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄149",
+    "deckImageHash": "00025fb07fb00ffeff304402cfc68ec3ffb7f007f300e200c109ec07fa0ff00f",
+    "name": "上杉鷹山",
+    "kanaName": "うえすぎようざん",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄150",
+    "deckImageHash": "f9f2e1fcf8070003fc00fe107fa07f042f8303c703e7c077e47ff83f0400f309",
+    "name": "エイリーク",
+    "kanaName": "エイリーク",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄151",
+    "deckImageHash": "1e0717310fc40ffaeefee6fc0032010e800f3a1fe03fc03f0020f1c67fdf301f",
+    "name": "武田耕雲斎",
+    "kanaName": "たけだこううんさい",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄152",
+    "deckImageHash": "e307e7f147f001e0eefe47f00bc081e0006436607ff07ff07ffc3c1f3c200e01",
+    "name": "虎御前",
+    "kanaName": "とらごぜん",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄153",
+    "deckImageHash": "1fffee21cf003402cd8340e07d5678cba1808fd0cfe8cfe07f00f930ffe02740",
+    "name": "長尾為景",
+    "kanaName": "ながおためかげ",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄154",
+    "deckImageHash": "00e7087d04fe1cfe04ff04fd207f007e03bf03ff03700b1b4e7ec8fe607ca030",
+    "name": "中原親能",
+    "kanaName": "なかはらのちかよし",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄155",
+    "deckImageHash": "03f73ff179c0066087f3e1d2e888f8607808fc46f9b834c61626380f21ff889f",
+    "name": "馬騰",
+    "kanaName": "ばとう",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄156",
+    "deckImageHash": "fec37fcd5100f040e1c783b7bd003f207c34f2fc22f8049603330ee07f85be61",
+    "name": "平原君",
+    "kanaName": "へいげんくん",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄157",
+    "deckImageHash": "7800f98cff0afa03ff83f007d003e03bf817f813e05780e310c30f03de07f7c3",
+    "name": "屋代景頼",
+    "kanaName": "やしろかげより",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄158",
+    "deckImageHash": "7e07fc01ff80f110fdc6f983f0036013c047f83bf833c213d847f07700fe80f1",
+    "name": "ラグナル",
+    "kanaName": "ラグナル",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄159",
+    "deckImageHash": "811703fd00fc0fde12f9398364f74037fcb7f022f000787c380418c71cef9c3f",
+    "name": "ラゲルタ",
+    "kanaName": "ラゲルタ",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "玄160",
+    "deckImageHash": "5e62fc70fc20fc01be87f80ff808f003fc03f60fe00fe00d680cf801fc1ff80f",
+    "name": "レイフ",
+    "kanaName": "レイフ",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "EX002",
     "deckImageHash": "1e7f3c052a407f70f63e23d8e0fc7004fbdfe3070c0700870077081fc83ffc2b",
     "name": "相楽総三",
@@ -6754,6 +7294,33 @@
     "deckImageHash": "6807fb65fd007f0007ff27b3e21330033eb71e830fe107a007907907381ff81f",
     "name": "龐煖",
     "kanaName": "ほうけん",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "EX151",
+    "deckImageHash": "8fff80fd07e003c01cff52cf020e08cf19c1fde0f1ac41e4cfa8ca31c015f517",
+    "name": "鬼庭綱元",
+    "kanaName": "おににわつなもと",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "EX152",
+    "deckImageHash": "7fc07f007a60fc81e7c1e741c3c4e1c1fcf106c3c395c01b9703807fc1d8ff80",
+    "name": "六角義賢",
+    "kanaName": "ろっかくよしかた",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "EX153",
+    "deckImageHash": "e007f819f318c37ce336e41f601e784c9eef3cfe09e4408003463ffed6780630",
+    "name": "鄭",
+    "kanaName": "てい",
     "color": {
       "name": "玄"
     }
@@ -7866,6 +8433,141 @@
     }
   },
   {
+    "no": "紫108",
+    "deckImageHash": "c787ea3de01c081f02ffc0cf706bfa00fc00fe073e07460f6e8f23a80fc4b1e1",
+    "name": "朝倉宗滴",
+    "kanaName": "あさくらそうてき",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫109",
+    "deckImageHash": "80ff03f13fe07e00ff92ffe4e680c000f800f818f838f3f803f001fc10ff80ff",
+    "name": "朝倉孝景",
+    "kanaName": "あさくらたかかげ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫110",
+    "deckImageHash": "03803ff87e707c38f8bf21dac216f0243000f396f1cf316e19a0f99d7f0f0605",
+    "name": "ヴィヴィアン",
+    "kanaName": "ヴィヴィアン",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫111",
+    "deckImageHash": "b7c737f941ee0040e783fd86cd82c043c47f476d4f05414301b0c41cc01ffebf",
+    "name": "夏侯嬰",
+    "kanaName": "かこうえい",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫112",
+    "deckImageHash": "f3fde01fe000c0e3c0c081f091ce1fffe796f3c270e63c003cfc1fff009ec004",
+    "name": "何進",
+    "kanaName": "かしん",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫113",
+    "deckImageHash": "1ff7080fd8033f0339b3cf4303e073e0000003b8e9ff5e7f53f9cffc6b810201",
+    "name": "何太后",
+    "kanaName": "かたいごう",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫114",
+    "deckImageHash": "ffe73f8108300738373860f810fe21cf03bf81ff001f023f1f0e031f403ff817",
+    "name": "曹参",
+    "kanaName": "そうしん",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫115",
+    "deckImageHash": "dc3ff80dd4005fc0dbc0ddcc11dc01da31e223f6f017b1858003d6b0f7c0faf1",
+    "name": "張任",
+    "kanaName": "ちょうじん",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫116",
+    "deckImageHash": "000771c7fbc6f09cd01f270bcdea02eccbe9c707c10fe007e00f8c0ffc1ffc00",
+    "name": "ニコラ・フラメル",
+    "kanaName": "ニコラ・フラメル",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫117",
+    "deckImageHash": "8400fc601f78f3fcf1fc78703a3426261f000ee6fcf0f84ce6070ec780e9cd99",
+    "name": "暴鳶",
+    "kanaName": "ぼうえん",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫118",
+    "deckImageHash": "1e777c153c3e1019a503060f92cff47c007e01ff127f103f303e3c1f0e1ecf88",
+    "name": "マーリン",
+    "kanaName": "マーリン",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫119",
+    "deckImageHash": "806f007307f83d9f7d86f7c122c0cee07de07807cf0e97020efb1879201ce61f",
+    "name": "丸橋忠弥",
+    "kanaName": "まるばしちゅうや",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫120",
+    "deckImageHash": "fff8c218e610f228413141407b67ff273eff303c341c303a7b3f107f0074c079",
+    "name": "山崎吉家",
+    "kanaName": "やまざきよしいえ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫121",
+    "deckImageHash": "e007fb19229e01bf11bf133d031f07c607e607e40fe0a3d9c00d6007781f8eff",
+    "name": "山崎龍女",
+    "kanaName": "やまざきりゅうじょ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "紫122",
+    "deckImageHash": "f007f1fdc0c187899b091307e30ff20fc11ff8d3f0f9c001f803f806f80ef80f",
+    "name": "由井正雪",
+    "kanaName": "ゆいしょうせつ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "EX025",
     "deckImageHash": "81cf038f00df01ff01fc07f80fb80d9d3c0f3007333e317e9fbf018c818cd5c3",
     "name": "大嶽丸",
@@ -8023,6 +8725,33 @@
     "deckImageHash": "efb7e01dc1e0c1c0c1c0cee009e31ddf3dde799ec087c0031a1c3e01d94f907f",
     "name": "佐藤義清",
     "kanaName": "さとうのりきよ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "EX154",
+    "deckImageHash": "fffffd81038003802380d410eff87778607d407c4c5d6c4fcc1fcc0f0c07b84f",
+    "name": "唐姫",
+    "kanaName": "とうき",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "EX155",
+    "deckImageHash": "070727077e3b4c3cf93f789f01878086ae0b7603e6078c4fc00f800ee8fe9fe1",
+    "name": "足利直義",
+    "kanaName": "あしかがただよし",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "EX156",
+    "deckImageHash": "afff2fc3019c400618870f4f0ff60c3a0ff34ec7118607c90ff003e087f0eb99",
+    "name": "高師直",
+    "kanaName": "こうのもろなお",
     "color": {
       "name": "紫"
     }
@@ -8856,6 +9585,123 @@
     }
   },
   {
+    "no": "琥083",
+    "deckImageHash": "1fff3c097d007e00ff607d841f807a06da1c38a646c2efa1f68ee673e221ec00",
+    "name": "石田三成",
+    "kanaName": "いしだみつなり",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥084",
+    "deckImageHash": "3800ffccde0e3c16fc90f813253f0707878f7f0ffc03902003e1c7c2cfc0cf89",
+    "name": "大谷吉継",
+    "kanaName": "おおたによしつぐ",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥085",
+    "deckImageHash": "1f8211b9e3f8c0bc20ef718ff100f81bf6713f837f035001bd0318c11cf1ecf1",
+    "name": "蒲生氏郷",
+    "kanaName": "がもううじさと",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥086",
+    "deckImageHash": "800f03717397e3d300c3600fe3ff419fd07f80674401c7df0be701f805fc807f",
+    "name": "楠木正行",
+    "kanaName": "くすのきまさつら",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥087",
+    "deckImageHash": "7ff3ec81c1c0e3803ffa1e7c161b02810fc30763f6603339c78fc08f81e189f1",
+    "name": "豪姫",
+    "kanaName": "ごうひめ",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥088",
+    "deckImageHash": "1fe03838703ec5f8cfffc355e1c8c0002c8cecf9e816f803f801ff0c8f88e0f1",
+    "name": "五代友厚",
+    "kanaName": "ごだいともあつ",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥089",
+    "deckImageHash": "0607a79107db0e6ffd49fbe0c01080bfd7f7e701f804f200e710f713e612e039",
+    "name": "四条隆資",
+    "kanaName": "しじょうたかすけ",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥090",
+    "deckImageHash": "ffc3f8c145c03382fc2fe30ef608f800fc023dbb01ff001de062bbe806fcc12d",
+    "name": "島左近",
+    "kanaName": "しまさこん",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥091",
+    "deckImageHash": "0e007ec0fedc8c9ecd9fc9e6f0660086401fc197c0c3bfe17ce031e06bc87fc0",
+    "name": "島津久光",
+    "kanaName": "しまづひさみつ",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥092",
+    "deckImageHash": "01e767f90f880ee818d8d7cd5f1e0e087e7e3e603c41f480e1c373e64fdb8001",
+    "name": "先軫",
+    "kanaName": "せんしん",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥093",
+    "deckImageHash": "f617b8d152f8818cc1c378c0fb18efc0aee0a37f82470317793af836437f8600",
+    "name": "小りん",
+    "kanaName": "しょうりん",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥094",
+    "deckImageHash": "300743dd41db839f51b503260ff279c6fa0bfc0d200fe01ff03d1c0d3e2c9e19",
+    "name": "細川忠興",
+    "kanaName": "ほそかわただおき",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "琥095",
+    "deckImageHash": "000703cf9f7ed1590c7f0c7b0e7d2c309dd69832381b35a50cb5d810d81bdd9b",
+    "name": "真木保臣",
+    "kanaName": "まきやすおみ",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
     "no": "EX057",
     "deckImageHash": "1b82fe211e764a5cc19cc1459247dd8fdf4291c4f004fb9cfdffc183d80f8001",
     "name": "京極竜子",
@@ -8982,6 +9828,15 @@
     }
   },
   {
+    "no": "EX157",
+    "deckImageHash": "eff761c160c8658879f67acb7c2060307a3c1f1e2787010f3fff4683c060fc01",
+    "name": "王基",
+    "kanaName": "おうき",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
     "no": "PL049",
     "deckImageHash": "3f677ff907981000bf0f9c0eb402ff00ff07fc2fe600e04040c74c037e18fff0",
     "name": "アルミン",
@@ -9042,6 +9897,312 @@
     "kanaName": "ベアトリス",
     "color": {
       "name": "琥"
+    }
+  },
+  {
+    "no": "黄001",
+    "deckImageHash": "5e132c0d6d0759c7dfa7ec08fc12e6006f000f800fec5fe677e383f907f88050",
+    "name": "アーサー王",
+    "kanaName": "アーサーおう",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄002",
+    "deckImageHash": "00f007f80ffc06fe18ef11e0128c7efa3bf0f9c0f8008faa801081f6ffe63fc0",
+    "name": "アーネスト・サトウ",
+    "kanaName": "アーネスト・サトウ",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄003",
+    "deckImageHash": "022305fde5fe81f01ce03c423fc65bc6180023ff31fe03f361f173e3eb808f20",
+    "name": "出雲阿国",
+    "kanaName": "いずものおくに",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄004",
+    "deckImageHash": "21004fc06fe0cffec41cc726e01fc33be007e00cf8ecf8f4f020f4331fb33f80",
+    "name": "燕太子丹",
+    "kanaName": "えんのたいしたん",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄005",
+    "deckImageHash": "064731e173f8287e7eb640bce088f239989ff99b737b00000306c307e39cf1fc",
+    "name": "大友宗麟",
+    "kanaName": "おおともそうりん",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄006",
+    "deckImageHash": "fc40ffc488f4007e007f003f683ff81ef81c081913fb3b5919d728c36470367e",
+    "name": "小野鎮幸",
+    "kanaName": "おのしげゆき",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄007",
+    "deckImageHash": "0f301cf841fe05be463fc22fe01ee01ee01e7c1efc18fc087204fecf1e8f2608",
+    "name": "ガウェイン",
+    "kanaName": "ガウェイン",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄008",
+    "deckImageHash": "c020ed9437c2fc7afc3c1a540e7807dc09fc33c8071f07e668e871e409f901fe",
+    "name": "郭隗",
+    "kanaName": "かくかい",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄009",
+    "deckImageHash": "1ff3031df00ef00ef98ef118f650f204fa087cce611e015f00ff030f0703cfdd",
+    "name": "楽毅",
+    "kanaName": "がくき",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄010",
+    "deckImageHash": "4007c081f9c7ffc678c03e1e9e8ff006f004f400ff0fce17f367fb0307009e70",
+    "name": "ガレス",
+    "kanaName": "ガレス",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄011",
+    "deckImageHash": "3e007c3c783e619e781ef01ed3de1224e436201227e387fb03d20ffb37ee0302",
+    "name": "グィネヴィア",
+    "kanaName": "グィネヴィア",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄012",
+    "deckImageHash": "0003171d8f1ef39f3b1e1e0e1c3e1e1c0fde313f003f0f82ffff78250181c301",
+    "name": "楠本イネ",
+    "kanaName": "くすもとイネ",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄013",
+    "deckImageHash": "3df07c2ef01c03d8e7fd4400f620f8359c01f403be077f19ff01f8e3708e098c",
+    "name": "楠本高子",
+    "kanaName": "くすもとたかこ",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄014",
+    "deckImageHash": "7fc790014748f1ecdfece1e03ee1c200d8201dc0c7fa07be079807bc07de8747",
+    "name": "グラバー",
+    "kanaName": "グラバー",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄015",
+    "deckImageHash": "07832e217cf8fc46e83cfe18bc06fc02fffefcc078027000f01091182b79e7ed",
+    "name": "ケイ",
+    "kanaName": "ケイ",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄016",
+    "deckImageHash": "1c037e143f987b387b387199f01dc01ecc02f80cf2077f0ffdbf79b27100b200",
+    "name": "荊軻",
+    "kanaName": "けいか",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄017",
+    "deckImageHash": "7c60fc3cfc007c43789f713f61e5204438763cde183701dc01ff71e1e1c261c3",
+    "name": "劇辛",
+    "kanaName": "げきしん",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄018",
+    "deckImageHash": "00a37f79cc3cdc18d0350784c384ffece01ee214ec1ef81ef80fff07e6878001",
+    "name": "高漸離",
+    "kanaName": "こうぜんり",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄019",
+    "deckImageHash": "3e226e78f024e3cc8fe36fe7406f0006c01f061f01ffc0fcc0f4c0fccc78c666",
+    "name": "佐々木小次郎",
+    "kanaName": "ささきこじろう",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄020",
+    "deckImageHash": "0ff017f07fe0e180fce0f000fc103beefffff80ce0808380175c1f003fc8ff80",
+    "name": "高橋紹運",
+    "kanaName": "たかはしじょううん",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄021",
+    "deckImageHash": "79d3fbf071c0e080e3e0fbe0fb000f0c07fc073e059f181779df000072f0fcf1",
+    "name": "立花誾千代",
+    "kanaName": "たちばなぎんちよ",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄022",
+    "deckImageHash": "07f04fbc613e608b787b60031887f787ff7fcc2f4003c600cc2283698eee9ce4",
+    "name": "立花道雪",
+    "kanaName": "たちばなどうせつ",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄023",
+    "deckImageHash": "3fe363e1e75007303d3a41c383cfbc42fe11f78c7e007c02fef07ef06b00a700",
+    "name": "立花宗茂",
+    "kanaName": "たちばなむねしげ",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄024",
+    "deckImageHash": "19c713c92bce17c867f613fa03e24660fcbcf07e001f103c0738d1f127f68193",
+    "name": "張角",
+    "kanaName": "ちょうかく",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄025",
+    "deckImageHash": "3073e01dec07ce27e31f83c3f003fc03e03198306e22bff9f9f8bc4453838073",
+    "name": "張宝",
+    "kanaName": "ちょうほう",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄026",
+    "deckImageHash": "7900fbd05a70dc3cfc3ff7e7418210081818700ff00ffe6720230e1b6e3f30bf",
+    "name": "張梁",
+    "kanaName": "ちょうりょう",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄027",
+    "deckImageHash": "43cfc7f9f404e180a5a02ff861e101bf01c8508cf18cff7efc3f181c0000eff7",
+    "name": "角隈石宗",
+    "kanaName": "つのくませきそう",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄028",
+    "deckImageHash": "03806ff82ff01fe00fa01ff83e387816fc0a9cd8fe547c00671f071f0e037c0d",
+    "name": "南華老仙",
+    "kanaName": "なんかろうせん",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄029",
+    "deckImageHash": "11101f181fde7db87bb97a387c10300fe01ff03c702d740fee0766037e070ef0",
+    "name": "馬元義",
+    "kanaName": "ばげんぎ",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄030",
+    "deckImageHash": "65f0dff00fa01f04ef40cfc0cdc0f740f0e3f063f839e018f80cf1c4f8e07ec0",
+    "name": "ベディヴィア",
+    "kanaName": "ベディヴィア",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄031",
+    "deckImageHash": "3c6f1819107e45af0bef601fe003e09fe1ff8087e01fc03cc38143c0a7e6bfe0",
+    "name": "マシュー・ペリー",
+    "kanaName": "マシュー・ペリー",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄032",
+    "deckImageHash": "1fb30ff90e3c01340e9e2f5c7f9c060438071e04fa2e7f92718c702e73fce580",
+    "name": "宮本武蔵",
+    "kanaName": "みやもとむさし",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄033",
+    "deckImageHash": "6fef0ff98310f000e7d01fa70fd6000727c720730cbf8c53ec13e087c0b7c0f3",
+    "name": "由布惟信",
+    "kanaName": "ゆふこれのぶ",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "黄034",
+    "deckImageHash": "1f801efc07fe001fec9fe03fcd1980058017043fc31ff179c1b8fff83f807800",
+    "name": "ロト",
+    "kanaName": "ロト",
+    "color": {
+      "name": "黄"
     }
   }
 ]

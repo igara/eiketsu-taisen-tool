@@ -1,0 +1,46 @@
+{
+  "no": "紫117",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "82f02ab291ef7053b0aff072bf0e8f5e",
+  "detailImageId": "5d3d1e61bedbc0d5101cd94c6c6c180c",
+  "name": "暴鳶",
+  "kanaName": "ぼうえん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "防炎の目覚め",
+    "kanaName": "ぼうえんのめざめ",
+    "cost": "4",
+    "description": "戦場にいる春秋戦国の味方の武力の最大値が大きいほど武力が上がる。一定以上武力が上がると、さらに移動速度が上がり、突撃オーラが出るまでの距離が短縮される",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=82f02ab291ef7053b0aff072bf0e8f5e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4232"
+  }
+}

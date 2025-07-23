@@ -1,0 +1,53 @@
+{
+  "no": "蒼148",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "c4ecb08e2d3120635f33a57ad381d3a6",
+  "detailImageId": "c9513afd622e533d94b02f2bb8f99cc5",
+  "name": "シャルル７世",
+  "kanaName": "シャルル７せい",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "転進の誘い",
+    "kanaName": "てんしんのいざない",
+    "cost": "5",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>最も武力の高い敵の武力を下げ、一瞬で城に戻す",
+    "categories": [
+      "妨害",
+      "特殊",
+      "ため計略"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "1",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c4ecb08e2d3120635f33a57ad381d3a6",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4181"
+  }
+}

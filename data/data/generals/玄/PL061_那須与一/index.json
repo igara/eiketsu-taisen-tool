@@ -2,7 +2,8 @@
   "no": "PL061",
   "appear": "第3弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 24/05/15〜24/05/28"
+    "大戦スタンプキャンペーン: 24/05/15〜24/05/28",
+    "大戦スタンプキャンペーン: 25/07/23〜25/08/05"
   ],
   "id": "da4b90bd1a6f1d4806054ac2862f3786",
   "detailImageId": "6d3fdeab5fd69bd39e0930e143b3043b",
@@ -39,7 +40,7 @@
       "description": "コストに応じて流派ゲージが増加した状態で開戦します"
     }
   ],
-  "kabuki": "20",
+  "kabuki": "0",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=da4b90bd1a6f1d4806054ac2862f3786",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1657.html",

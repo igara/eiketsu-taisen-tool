@@ -1,0 +1,47 @@
+{
+  "no": "紫108",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "8df1bda28702b3664a71a550098172ff",
+  "detailImageId": "b5a288ac6ad719b1cb05c3a237f090ba",
+  "name": "朝倉宗滴",
+  "kanaName": "あさくらそうてき",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "戦国",
+  "cost": "3.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "勝事が本にて候",
+    "kanaName": "かつことがもとにてそうろう",
+    "cost": "7",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力が上がり、全方向に槍の無敵攻撃を行う。一定以上武力が上がると、さらに移動速度と槍の無敵攻撃のダメージが上がり、効果終了時に自軍の士気が上がる",
+    "categories": [
+      "強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8df1bda28702b3664a71a550098172ff",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4224"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "no": "蒼149",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "eb14eb326f84cf9509bf280fc3487aba",
+  "detailImageId": "45174969f89b49802fc890a7ca7d4ac3",
+  "name": "ジャンヌ・アシェット",
+  "kanaName": "ジャンヌ・アシェット",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "守備隊の戦旗",
+    "kanaName": "しゅびたいのせんき",
+    "cost": "3",
+    "description": "【旗陣形】味方の武力が上がり、武力によるダメージを軽減する旗陣形を設置する。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eb14eb326f84cf9509bf280fc3487aba",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4182"
+  }
+}

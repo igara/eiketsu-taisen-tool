@@ -1,0 +1,47 @@
+{
+  "no": "琥089",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "80b94cf388c55b34efb1145e1b074262",
+  "detailImageId": "4fc4e5372ed91e73a83d8f78f403d7df",
+  "name": "四条隆資",
+  "kanaName": "しじょうたかすけ",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "蟷螂の斧",
+    "kanaName": "とうろうのおの",
+    "cost": "3",
+    "description": "敵の知力を下げ、対象の敵の武将コストの合計値が高いほど自身の武力が上がる。さらに効果終了時に琥煌ゲージが増加する",
+    "categories": [
+      "強化",
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80b94cf388c55b34efb1145e1b074262",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4243"
+  }
+}

@@ -11,8 +11,8 @@
   "kanaName": "きかい",
   "color": {
     "name": "琥",
-    "r": "230",
-    "g": "135",
+    "r": "255",
+    "g": "120",
     "b": "0"
   },
   "period": "春秋戦国",
@@ -38,7 +38,7 @@
       "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
     }
   ],
-  "kabuki": "0",
+  "kabuki": "4",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=10794c16a0afae32b2e7f1e773672212",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1527.html",

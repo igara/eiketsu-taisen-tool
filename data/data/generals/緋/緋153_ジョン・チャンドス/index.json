@@ -1,0 +1,47 @@
+{
+  "no": "緋153",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "d69e25404f477c884e8d2f189e8f5182",
+  "detailImageId": "27e0379cdc424fef8dde8e5b8feec46e",
+  "name": "ジョン・チャンドス",
+  "kanaName": "ジョン・チャンドス",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "勝利への布石",
+    "kanaName": "しょうりへのふせき",
+    "cost": "5",
+    "description": "緋の味方の武力が上がる。さらに自身の兵種が弓兵になり、同時に弓攻撃できる部隊数が増える",
+    "categories": [
+      "全体強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d69e25404f477c884e8d2f189e8f5182",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4195"
+  }
+}

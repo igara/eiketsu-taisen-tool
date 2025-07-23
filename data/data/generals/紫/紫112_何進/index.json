@@ -1,0 +1,51 @@
+{
+  "no": "紫112",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "24aa574681404ea9c40a534a2ea688c6",
+  "detailImageId": "a14f4f90f4e27fde90e9c6c5ff043cbc",
+  "name": "何進",
+  "kanaName": "かしん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "何進の大号令",
+    "kanaName": "かしんのだいごうれい",
+    "cost": "4",
+    "description": "味方の武力が上がる。ただし知力が下がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "3",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=24aa574681404ea9c40a534a2ea688c6",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4228"
+  }
+}

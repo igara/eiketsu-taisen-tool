@@ -11,8 +11,8 @@
   "kanaName": "きたばたけちかふさ",
   "color": {
     "name": "琥",
-    "r": "230",
-    "g": "135",
+    "r": "255",
+    "g": "120",
     "b": "0"
   },
   "period": "中世",
@@ -38,7 +38,7 @@
       "description": "兵種に応じて移動速度が上がります"
     }
   ],
-  "kabuki": "10",
+  "kabuki": "9",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0c2cc247d311a134aaf78dd00042b969",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1893.html",

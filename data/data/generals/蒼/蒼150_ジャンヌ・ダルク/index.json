@@ -1,0 +1,55 @@
+{
+  "no": "蒼150",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "95e8fbd0edea17ace4fb5a6d589d4472",
+  "detailImageId": "04c2dc21e0febec4b664a84528df51ed",
+  "name": "ジャンヌ・ダルク",
+  "kanaName": "ジャンヌ・ダルク",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "聖乙女の戦旗",
+    "kanaName": "せいおとめのせんき",
+    "cost": "5",
+    "description": "【旗陣形】味方の武力が上がり、兵力が徐々に回復する旗陣形を設置する。さらに自身が味方の旗陣形の効果を受けている時、自身の移動速度が上がる。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "回復",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=95e8fbd0edea17ace4fb5a6d589d4472",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4124"
+  }
+}

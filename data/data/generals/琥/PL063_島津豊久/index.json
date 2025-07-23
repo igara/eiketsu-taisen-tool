@@ -2,7 +2,8 @@
   "no": "PL063",
   "appear": "第3弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 24/05/15〜24/05/28"
+    "大戦スタンプキャンペーン: 24/05/15〜24/05/28",
+    "大戦スタンプキャンペーン: 25/07/23〜25/08/05"
   ],
   "id": "66d3061fd5776b17f9c02e8b8d9f9871",
   "detailImageId": "2085d3348d8e37d43909de7b23867447",
@@ -10,8 +11,8 @@
   "kanaName": "しまづとよひさ",
   "color": {
     "name": "琥",
-    "r": "230",
-    "g": "135",
+    "r": "255",
+    "g": "120",
     "b": "0"
   },
   "period": "戦国",
@@ -37,7 +38,7 @@
       "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
     }
   ],
-  "kabuki": "10",
+  "kabuki": "12",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=66d3061fd5776b17f9c02e8b8d9f9871",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1659.html",

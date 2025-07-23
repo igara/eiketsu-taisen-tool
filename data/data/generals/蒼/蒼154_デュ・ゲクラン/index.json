@@ -1,0 +1,46 @@
+{
+  "no": "蒼154",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "5dad363e93393dce82b10cc7bed14c00",
+  "detailImageId": "1abfcdfc2231bf8d0041d89e944a9a62",
+  "name": "デュ・ゲクラン",
+  "kanaName": "デュ・ゲクラン",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "黒犬の奇襲",
+    "kanaName": "ブラックドッグのきしゅう",
+    "cost": "4",
+    "description": "武力と移動速度が上がり、伏兵状態になる。さらに伏兵状態で斬撃を行えるようになり、伏兵状態による速度低下を受けなくなる。ただし一定時間伏兵によるダメージが下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5dad363e93393dce82b10cc7bed14c00",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4185"
+  }
+}

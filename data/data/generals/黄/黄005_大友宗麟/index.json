@@ -1,0 +1,52 @@
+{
+  "no": "黄005",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "029ec7de42961738ecfcb20b702c0087",
+  "detailImageId": "ea6e3d55ce5a99b36d364b9cce6a8111",
+  "name": "大友宗麟",
+  "kanaName": "おおともそうりん",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "国崩し",
+    "kanaName": "くにくずし",
+    "cost": "6",
+    "description": "武力が上がり、カードの向いている方向に射撃を行うと、代わりに武力によるダメージを与え、敵城門に当たると敵城にダメージを与える砲弾を発射し、砲弾が命中した位置を起点とした範囲に、敵に武力によるダメージを与える爆風を発生させる。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=029ec7de42961738ecfcb20b702c0087",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4153"
+  }
+}

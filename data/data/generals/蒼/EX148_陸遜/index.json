@@ -1,0 +1,45 @@
+{
+  "no": "EX148",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 25/07/23〜"
+  ],
+  "id": "b96503f1f159a1a95caad491aab74f2f",
+  "detailImageId": "a9d89ab2646b69d937c0b154620f94a9",
+  "name": "陸遜",
+  "kanaName": "りくそん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "火焔の大号令",
+    "kanaName": "かえんのだいごうれい",
+    "cost": "7",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>蒼の味方の武力と知力が上がり、知力による戦闘ダメージを与えるようになる",
+    "categories": [
+      "全体強化",
+      "ため計略"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b96503f1f159a1a95caad491aab74f2f"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "no": "紫116",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "ec25690fcb4979877904821e582d4d42",
+  "detailImageId": "52376262e8744bb43acafe34921c89d6",
+  "name": "ニコラ・フラメル",
+  "kanaName": "ニコラ・フラメル",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "賢者の石",
+    "kanaName": "けんじゃのいし",
+    "cost": "4",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力と射撃ダメージが上がる。ただし射撃を行うたびに兵力が減少する。一定以上武力が上がると、さらに敵を貫通して射撃できるようになり、敵を撃破するたびに兵力が回復する",
+    "categories": [
+      "強化",
+      "回復",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "1",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ec25690fcb4979877904821e582d4d42",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4132"
+  }
+}

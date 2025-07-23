@@ -1,0 +1,54 @@
+{
+  "no": "玄160",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "0bc221a0888d88a1f8ff928ff59d40e5",
+  "detailImageId": "9645da9a9bf1662792dff89cc5ba4c16",
+  "name": "レイフ",
+  "kanaName": "レイフ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "賢速の戦旗",
+    "kanaName": "けんそくのせんき",
+    "cost": "2",
+    "description": "【旗陣形】（旗陣形が出現する。旗陣形は同時に複数発動でき、旗陣形を発動するたびに効果時間が延長され、旗陣形を繋いだ範囲に全ての効果が発生する。陣形と同時に発動できない）<br>味方の知力と移動速度が上がる旗陣形を設置する。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0bc221a0888d88a1f8ff928ff59d40e5",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4223"
+  }
+}

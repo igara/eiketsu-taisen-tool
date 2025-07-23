@@ -1,0 +1,47 @@
+{
+  "no": "碧145",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "87ce0b29a66fb6559b77e6858f7b6c53",
+  "detailImageId": "21dbb63687f945d9f05f725d3bafad7f",
+  "name": "ウィル・スカーレット",
+  "kanaName": "ウィル・スカーレット",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "短計・抜刀",
+    "kanaName": "たんけい・ばっとう",
+    "cost": "1",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>斬撃ができるようになる。この短計は斬撃ができるまでの時間のみ使用できる",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=87ce0b29a66fb6559b77e6858f7b6c53",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4202"
+  }
+}

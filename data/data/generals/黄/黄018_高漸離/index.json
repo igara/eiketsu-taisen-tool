@@ -1,0 +1,51 @@
+{
+  "no": "黄018",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "671f1686d0b1a593bea970172a66b4e2",
+  "detailImageId": "ee3acf46e2994d589fc3c11df57145f7",
+  "name": "高漸離",
+  "kanaName": "こうぜんり",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "還らずの音色",
+    "kanaName": "かえらずのねいろ",
+    "cost": "4",
+    "description": "最も武力の低い敵の移動速度を下げる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "4",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=671f1686d0b1a593bea970172a66b4e2",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4165"
+  }
+}

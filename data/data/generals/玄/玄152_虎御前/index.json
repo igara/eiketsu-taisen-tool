@@ -1,0 +1,47 @@
+{
+  "no": "玄152",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "00ac53e84af621684a4b0e91c7794b67",
+  "detailImageId": "a02d62d66b5b01a31f70cd83897d3094",
+  "name": "虎御前",
+  "kanaName": "とらごぜん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "女虎の激励",
+    "kanaName": "じょこのげきれい",
+    "cost": "5",
+    "description": "玄の味方の武力が上がる。この効果は撤退中の味方の復活時間の合計値が高いほど大きい。一定以上武力が上がると、さらに兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=00ac53e84af621684a4b0e91c7794b67",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4217"
+  }
+}
