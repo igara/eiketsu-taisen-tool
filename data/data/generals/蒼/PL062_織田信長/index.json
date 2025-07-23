@@ -2,7 +2,8 @@
   "no": "PL062",
   "appear": "第3弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 24/05/15〜24/05/28"
+    "大戦スタンプキャンペーン: 24/05/15〜24/05/28",
+    "大戦スタンプキャンペーン: 25/07/23〜25/08/05"
   ],
   "id": "5e7013c3ee4077b3e6ccbd1582825317",
   "detailImageId": "e120e5f5e4c3dfd0f2f55c5b4e837834",
@@ -42,7 +43,7 @@
       "description": "コストに応じて士気が増加した状態で開戦します"
     }
   ],
-  "kabuki": "11",
+  "kabuki": "18",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5e7013c3ee4077b3e6ccbd1582825317",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1658.html",

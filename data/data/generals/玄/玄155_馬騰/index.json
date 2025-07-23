@@ -1,0 +1,46 @@
+{
+  "no": "玄155",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "a1aeb28975683896d4a5312296333a8c",
+  "detailImageId": "91fd08f64d5b6fdf3a7808ef2e264ddd",
+  "name": "馬騰",
+  "kanaName": "ばとう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "忠誠の烽火",
+    "kanaName": "ちゅうせいのほうか",
+    "cost": "5",
+    "description": "武力と移動速度と槍撃ダメージが上がる。さらに味方が撤退するたびに武力が上がり、一定以上武力が上がると、槍撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a1aeb28975683896d4a5312296333a8c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4219"
+  }
+}

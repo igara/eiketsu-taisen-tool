@@ -1,0 +1,46 @@
+{
+  "no": "緋155",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "afa34fdeb29a74cec67267c5906938ea",
+  "detailImageId": "937ba653195e27d6c58af5e54f98b08f",
+  "name": "高橋菊",
+  "kanaName": "たかはしきく",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "心酔の奇女",
+    "kanaName": "しんすいのきじょ",
+    "cost": "5",
+    "description": "緋の味方の武力が上がる。さらに自身を除く最も武将コストが高い味方の計略の必要士気が下がるが、範囲内の最も武力の高い敵の武力を上げる。この効果は必要士気２を下限とし、範囲内に敵がいない場合、発揮されない",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=afa34fdeb29a74cec67267c5906938ea",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4137"
+  }
+}

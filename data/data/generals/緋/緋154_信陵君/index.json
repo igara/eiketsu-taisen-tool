@@ -1,0 +1,52 @@
+{
+  "no": "緋154",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "631e8bce2adfdb58ca5b3cfdf1dc2c27",
+  "detailImageId": "9316c2d585cc2d71ddc1803a006dad8e",
+  "name": "信陵君",
+  "kanaName": "しんりょうくん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "春秋戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "魏国の炎火",
+    "kanaName": "ぎこくのえんか",
+    "cost": "6",
+    "description": "対象の緋の味方部隊数と敵部隊数に応じて効果が変わる<br>味方≧敵：緋の味方の武力が上がる。さらに自身は武力によるダメージを軽減し、知力による戦闘ダメージを与えるようになる<br>味方＜敵：敵に知力によるダメージを与える。ダメージは互いの知力で上下する",
+    "categories": [
+      "全体強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=631e8bce2adfdb58ca5b3cfdf1dc2c27",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4196"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "no": "黄019",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "a9696a68a5a058081533e510ca448199",
+  "detailImageId": "905f5a753025cb3520d2da7dc62dbcda",
+  "name": "佐々木小次郎",
+  "kanaName": "ささきこじろう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "燕返し",
+    "kanaName": "つばめがえし",
+    "cost": "6",
+    "description": "武力が上がり、斬撃を当てた敵を自身の方向に引き寄せる。さらに斬撃の範囲が変化し、向いている方向に斬撃を行うようになる。さらに斬撃ができるまでの間かつ敵と接触している時、以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・白刃【０．５】：斬撃を行う",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a9696a68a5a058081533e510ca448199",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4166"
+  }
+}

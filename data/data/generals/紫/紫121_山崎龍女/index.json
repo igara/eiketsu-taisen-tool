@@ -1,0 +1,47 @@
+{
+  "no": "紫121",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "91d22b6ee0c06704cb72ef7fe612cc8d",
+  "detailImageId": "44087ba925d770870b6c82e07f7437fc",
+  "name": "山崎龍女",
+  "kanaName": "やまざきりゅうじょ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "桜下美人図",
+    "kanaName": "おうかびじんず",
+    "cost": "7",
+    "description": "【陣形】武力と弾数の回復速度が上がり、射撃幅が広くなる。さらにカードの向いている方向に射撃するようになり、江戸･幕末の味方の武力が上がる陣形を設置する。さらに射程範囲が江戸･幕末の味方の武力が上がる陣形になる。ただし射撃時の攻撃回数が減る",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=91d22b6ee0c06704cb72ef7fe612cc8d",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4131"
+  }
+}

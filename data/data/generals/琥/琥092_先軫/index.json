@@ -1,0 +1,40 @@
+{
+  "no": "琥092",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "76cce0eac0a7b63d77f6dc9635303001",
+  "detailImageId": "5b7e7d3620bc158c2e9d81a43737b4cb",
+  "name": "先軫",
+  "kanaName": "せんしん",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "贖罪の突進",
+    "kanaName": "しょくざいのとっしん",
+    "cost": "5",
+    "description": "武力が上がり、武力によるダメージを軽減する。さらに敵城に接触すると一度だけ敵城にダメージを与える。ただし移動速度が下がり、味方の計略対象にならなくなる。この計略は城内にいる時のみ使用できる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=76cce0eac0a7b63d77f6dc9635303001",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4246"
+  }
+}

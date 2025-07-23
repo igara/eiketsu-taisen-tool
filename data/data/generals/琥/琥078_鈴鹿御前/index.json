@@ -11,8 +11,8 @@
   "kanaName": "すずかごぜん",
   "color": {
     "name": "琥",
-    "r": "230",
-    "g": "135",
+    "r": "255",
+    "g": "120",
     "b": "0"
   },
   "period": "平安",
@@ -44,7 +44,7 @@
       "description": "兵種に応じて移動速度が上がります"
     }
   ],
-  "kabuki": "4",
+  "kabuki": "24",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8c0170ae289f58853ec66eda49f5400d",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2135.html",

@@ -1,0 +1,46 @@
+{
+  "no": "碧156",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "ed4e9473861f36522d9782216d1e2321",
+  "detailImageId": "5f28b0bb4f85da253a9bd5c78ae7412e",
+  "name": "リトル・ジョン",
+  "kanaName": "リトル・ジョン",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "3.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "茄子スイング",
+    "kanaName": "なすすいんぐ",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、移動しながら斬撃ができるようになる。さらに斬撃ができる状態を維持している間、斬撃ダメージが徐々に上がる。ただし斬撃ができる状態が解除されるたびに斬撃ダメージが上がる効果が元に戻る",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ed4e9473861f36522d9782216d1e2321",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4211"
+  }
+}

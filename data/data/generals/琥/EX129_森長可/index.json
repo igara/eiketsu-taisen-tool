@@ -10,8 +10,8 @@
   "kanaName": "もりながよし",
   "color": {
     "name": "琥",
-    "r": "230",
-    "g": "135",
+    "r": "255",
+    "g": "120",
     "b": "0"
   },
   "period": "戦国",
@@ -38,7 +38,7 @@
       "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
     }
   ],
-  "kabuki": "30",
+  "kabuki": "40",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=38292da8dedc81af3b2bbcf9aafbf549",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/2212.html",

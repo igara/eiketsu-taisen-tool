@@ -1,0 +1,56 @@
+{
+  "no": "碧154",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "2db821a2bc5f605e67738be1773d3f5d",
+  "detailImageId": "1c57444dac8427596b4f2e2f88854dfe",
+  "name": "孟嘗君",
+  "kanaName": "もうしょうくん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "狡兎三窟",
+    "kanaName": "こうとさんくつ",
+    "cost": "8",
+    "description": "味方の武力が上がる。さらに対象の味方の特技数の合計値に応じて以下の効果を得る。ただし効果終了時に撤退する<br>伏兵・気合・疾駆：武力が上がる<br>復活・先陣・同盟：知力が上がる<br>防柵・昂揚・技巧：効果時間が延長される",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "6",
+  "intelligentzia": "11",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2db821a2bc5f605e67738be1773d3f5d",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4209"
+  }
+}

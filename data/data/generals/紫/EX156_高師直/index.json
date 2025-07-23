@@ -1,0 +1,50 @@
+{
+  "no": "EX156",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 25/07/23〜"
+  ],
+  "id": "5502e0ae4294d17376d8a384277a7c38",
+  "detailImageId": "aa70931459ff43820ebefb228e858bfc",
+  "name": "高師直",
+  "kanaName": "こうのもろなお",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "疾風怒濤",
+    "kanaName": "しっぷうどとう",
+    "cost": "6",
+    "description": "武力と移動速度と槍撃ダメージが上がり、兵力が回復する。さらに敵を撃破するたびに自軍の士気が上がる。ただし効果終了時に自軍の士気が下がる",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5502e0ae4294d17376d8a384277a7c38"
+  }
+}

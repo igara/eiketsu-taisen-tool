@@ -1,0 +1,41 @@
+{
+  "no": "玄154",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "e943f02405516345689456520e88b0e4",
+  "detailImageId": "74f3d0ec026681de058d35625064e586",
+  "name": "中原親能",
+  "kanaName": "なかはらのちかよし",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "交渉の秘訣",
+    "kanaName": "こうしょうのひけつ",
+    "cost": "6",
+    "description": "味方の武力が上がる。味方の陣形の効果を受けている時に計略を発動すると、さらに兵力が徐々に回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e943f02405516345689456520e88b0e4",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4218"
+  }
+}

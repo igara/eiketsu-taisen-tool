@@ -11,8 +11,8 @@
   "kanaName": "きたばたけあきいえ",
   "color": {
     "name": "琥",
-    "r": "230",
-    "g": "135",
+    "r": "255",
+    "g": "120",
     "b": "0"
   },
   "period": "中世",
@@ -38,7 +38,7 @@
       "description": "開戦から一定時間、武力と知力が上がります"
     }
   ],
-  "kabuki": "12",
+  "kabuki": "4",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=32a8a939d67f14d6e54e8ffe279261e8",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1892.html",

@@ -1,0 +1,46 @@
+{
+  "no": "黄032",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "de794330e963154a89fffe2002122310",
+  "detailImageId": "a9a885c9a980a8a2b9a521d0ccea43f8",
+  "name": "宮本武蔵",
+  "kanaName": "みやもとむさし",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "3.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "二天一流",
+    "kanaName": "にてんいちりゅう",
+    "cost": "7",
+    "description": "武力が上がり、斬撃時の攻撃回数が増える。さらに斬撃を行うとカードの位置に一瞬で移動する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=de794330e963154a89fffe2002122310",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4134"
+  }
+}

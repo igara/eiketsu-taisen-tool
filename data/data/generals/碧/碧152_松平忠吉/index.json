@@ -1,0 +1,46 @@
+{
+  "no": "碧152",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "3a8e358c289b3c7f973ec320fc2347a6",
+  "detailImageId": "4e2c59f0b38c477bd35622884a108d9e",
+  "name": "松平忠吉",
+  "kanaName": "まつだいらただよし",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "援護射撃の采配",
+    "kanaName": "えんごしゃげきのさいはい",
+    "cost": "6",
+    "description": "碧の味方の武力が上がる。さらに鉄砲隊は射撃中でなければ、自身が射撃を行った敵に援護射撃をするようになる。援護射撃は乱戦中も射撃できる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3a8e358c289b3c7f973ec320fc2347a6",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4207"
+  }
+}

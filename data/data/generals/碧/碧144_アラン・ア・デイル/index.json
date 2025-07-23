@@ -1,0 +1,46 @@
+{
+  "no": "碧144",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "a58c246ca0281ed933f5d30f1bd21e85",
+  "detailImageId": "b292cf5fc9c7a699ce230ee609a27c55",
+  "name": "アラン・ア・デイル",
+  "kanaName": "アラン・ア・デイル",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "吟遊の調べ",
+    "kanaName": "ぎんゆうのしらべ",
+    "cost": "4",
+    "description": "特技「忍」を持つ味方の武力が下がる。一定時間後に武力と攻城力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "6",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a58c246ca0281ed933f5d30f1bd21e85",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4201"
+  }
+}

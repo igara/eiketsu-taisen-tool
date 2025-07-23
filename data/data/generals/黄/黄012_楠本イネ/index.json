@@ -1,0 +1,41 @@
+{
+  "no": "黄012",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "a9203fd99c831e5a7f3d58003d9e9ce5",
+  "detailImageId": "6eadd20f058a642c37cd712f017fdf4f",
+  "name": "楠本イネ",
+  "kanaName": "くすもとイネ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "黄熾の援軍",
+    "kanaName": "おうしのえんぐん",
+    "cost": "4",
+    "description": "黄の味方の兵力が回復する。さらに黄熾ゲージが増加する",
+    "categories": [
+      "回復",
+      "黄熾"
+    ],
+    "time": "一瞬",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a9203fd99c831e5a7f3d58003d9e9ce5",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4159"
+  }
+}

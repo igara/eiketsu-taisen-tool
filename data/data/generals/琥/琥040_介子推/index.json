@@ -11,8 +11,8 @@
   "kanaName": "かいしすい",
   "color": {
     "name": "琥",
-    "r": "230",
-    "g": "135",
+    "r": "255",
+    "g": "120",
     "b": "0"
   },
   "period": "春秋戦国",
@@ -39,7 +39,7 @@
       "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
     }
   ],
-  "kabuki": "16",
+  "kabuki": "20",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=73d90506871b6d9a0947fad41c406a30",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1525.html",

@@ -1,0 +1,48 @@
+{
+  "no": "玄158",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "9c4473ac65f0824efad1c77e53adbe7a",
+  "detailImageId": "48d72f8b2998b13724dd5fe8beac5527",
+  "name": "ラグナル",
+  "kanaName": "ラグナル",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "狂神の末裔",
+    "kanaName": "きょうしんのまつえい",
+    "cost": "4",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>自身と、自身を除く最も武力の高い味方の武力と知力が上がり、敵を撃破するたびに、対象の味方全ての兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "ため計略"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9c4473ac65f0824efad1c77e53adbe7a",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4222"
+  }
+}

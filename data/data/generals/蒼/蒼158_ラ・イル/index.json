@@ -1,0 +1,53 @@
+{
+  "no": "蒼158",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "684f14d2f1858b99ac29100f8ef76cfb",
+  "detailImageId": "fc41e6db756f2c774cb57031d2cdee68",
+  "name": "ラ・イル",
+  "kanaName": "ラ・イル",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "憤怒の騎士",
+    "kanaName": "ふんぬのきし",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、兵力が回復する。さらに接触した味方の武力が一定時間上がる",
+    "categories": [
+      "強化",
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=684f14d2f1858b99ac29100f8ef76cfb",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4125"
+  }
+}

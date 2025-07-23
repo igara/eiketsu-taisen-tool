@@ -1,0 +1,53 @@
+{
+  "no": "琥085",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "620b65a843603c8d8b1e5b60ad7c9cb7",
+  "detailImageId": "7b8b9b2b70b8471351f47b1c39f5bb42",
+  "name": "蒲生氏郷",
+  "kanaName": "がもううじさと",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "獅子奮迅",
+    "kanaName": "ししふんじん",
+    "cost": "5",
+    "description": "【琥煌：最大消費３】武力と移動速度が上がる<br>３消費：さらに迎撃ダメージと迎撃・斬撃による速度低下を受けなくなり、突撃オーラ中のみ以下の短計を発動できる。ただし効果終了時一定時間計略を使用できなくなる<br>短計・穿突【０．５】：移動速度が上がり、向いている方向に敵を貫通する突撃を行う。突撃中は敵城に接触しても突撃オーラは消えない",
+    "categories": [
+      "強化",
+      "琥煌",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=620b65a843603c8d8b1e5b60ad7c9cb7",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4239"
+  }
+}

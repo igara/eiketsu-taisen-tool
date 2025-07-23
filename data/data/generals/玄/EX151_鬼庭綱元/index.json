@@ -1,0 +1,45 @@
+{
+  "no": "EX151",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 25/07/23〜"
+  ],
+  "id": "e61d30ee0034579017342bcfc5885694",
+  "detailImageId": "9c49038555f27c04d370b882fd1945ec",
+  "name": "鬼庭綱元",
+  "kanaName": "おににわつなもと",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "竜の共撃",
+    "kanaName": "りゅうのきょうげき",
+    "cost": "5",
+    "description": "【竜騎馬】（速度を保った状態で一定距離を移動することで竜突オーラを纏い、竜突可能状態になる。さらに移動しながら扇状の範囲に竜射を行うようになる）<br>自身と、自身を除く最も武力の高い玄の味方の武力と移動速度が上がる。さらに自身の兵種が竜騎馬になる",
+    "categories": [
+      "全体強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e61d30ee0034579017342bcfc5885694"
+  }
+}

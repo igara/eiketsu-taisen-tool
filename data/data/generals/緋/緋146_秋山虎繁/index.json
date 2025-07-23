@@ -1,0 +1,46 @@
+{
+  "no": "緋146",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "44213bae29b62f354a586d1aa90272c7",
+  "detailImageId": "8409512deab226d00c1f147e10b1e53b",
+  "name": "秋山虎繁",
+  "kanaName": "あきやまとらしげ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "武田の猛牛",
+    "kanaName": "たけだのもうぎゅう",
+    "cost": "4",
+    "description": "武力が上がる。さらに突撃オーラ中は突撃ダメージが徐々に上がる。ただし突撃オーラ状態が解除されるたびに突撃ダメージが上がる効果が元に戻る",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=44213bae29b62f354a586d1aa90272c7",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4190"
+  }
+}

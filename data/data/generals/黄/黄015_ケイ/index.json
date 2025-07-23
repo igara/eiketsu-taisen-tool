@@ -1,0 +1,40 @@
+{
+  "no": "黄015",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "333d94a09cb0aabdb77945e743f25aae",
+  "detailImageId": "7f9c5c7caa98bcb64380fc48aff3e555",
+  "name": "ケイ",
+  "kanaName": "ケイ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "九夜不屈",
+    "kanaName": "ナイン・ナイツ",
+    "cost": "3",
+    "description": "設置している自軍の旗陣形が多いほど、武力と移動速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=333d94a09cb0aabdb77945e743f25aae",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4162"
+  }
+}

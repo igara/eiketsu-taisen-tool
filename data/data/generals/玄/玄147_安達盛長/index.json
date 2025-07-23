@@ -1,0 +1,46 @@
+{
+  "no": "玄147",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "bbc780b8395a818ce661cac3c49a9eed",
+  "detailImageId": "c9ff1a8a229213227856ec4af51b25bf",
+  "name": "安達盛長",
+  "kanaName": "あだちもりなが",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "平安",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "腹心の機知",
+    "kanaName": "ふくしんのきち",
+    "cost": "5",
+    "description": "敵の武力と知力を下げる。味方の陣形の効果を受けている時に計略を発動すると、代わりに敵の武力と移動速度を下げる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=bbc780b8395a818ce661cac3c49a9eed",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4213"
+  }
+}

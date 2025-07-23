@@ -1,0 +1,47 @@
+{
+  "no": "蒼151",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "e2b922a2d97fb141e7d429aee25fd7fc",
+  "detailImageId": "26d4a5b4247979e96f7382351fad4c20",
+  "name": "ジル・ド・レ",
+  "kanaName": "ジル・ド・レ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "神聖なる怪物",
+    "kanaName": "しんせいなるかいぶつ",
+    "cost": "4",
+    "description": "武力と移動速度が上がる。さらに以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・神出【０．５】カードの方向に一瞬で移動する",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e2b922a2d97fb141e7d429aee25fd7fc",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4183"
+  }
+}

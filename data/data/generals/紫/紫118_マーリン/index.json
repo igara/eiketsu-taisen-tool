@@ -1,0 +1,50 @@
+{
+  "no": "紫118",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "fcdb4e739e991d9e52edaf19087116ea",
+  "detailImageId": "72f7780f74ef0b34a17a2254c056c72c",
+  "name": "マーリン",
+  "kanaName": "マーリン",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "予言者の戦旗",
+    "kanaName": "よげんしゃのせんき",
+    "cost": "4",
+    "description": "【旗陣形】味方の武力が上がり、敵の兵力が徐々に減少する旗陣形を設置する。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "8",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fcdb4e739e991d9e52edaf19087116ea",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4130"
+  }
+}

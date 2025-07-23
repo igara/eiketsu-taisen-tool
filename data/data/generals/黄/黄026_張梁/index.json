@@ -1,0 +1,48 @@
+{
+  "no": "黄026",
+  "appear": "第5弾-1",
+  "appearPatterns": [
+    "探索(武将): 25/07/23〜",
+    "武将獲得: 25/07/23〜"
+  ],
+  "id": "72bcbb645e18ceeacb6fca13c7249c81",
+  "detailImageId": "aea2bec56258933d546ed8cfaee585c8",
+  "name": "張梁",
+  "kanaName": "ちょうりょう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "筋肉戦法",
+    "kanaName": "きんにくせんぽう",
+    "cost": "3",
+    "description": "武力が上がり、以下の短計を発動できる。ただし兵種アクションが封印され、効果終了時に一定時間計略を使用できなくなる。この効果は撤退しても継続する<br>短計・黄巾の群【０．５】：兵力が回復する",
+    "categories": [
+      "強化",
+      "回復",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=72bcbb645e18ceeacb6fca13c7249c81",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4144"
+  }
+}
