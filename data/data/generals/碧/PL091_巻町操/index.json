@@ -1,0 +1,46 @@
+{
+  "no": "PL091",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/08/20〜25/09/02"
+  ],
+  "id": "606f2941c307d8c628964893122d5086",
+  "detailImageId": "922d1f8d5d3641b4a92d44e9d3a35ca5",
+  "name": "巻町操",
+  "kanaName": "まきまちみさお",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "特殊",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "貫殺飛苦無",
+    "kanaName": "かんさつとびくない",
+    "cost": "4",
+    "description": "武力が上がり、兵種が鉄砲隊になる。さらに射撃を当てた敵の移動速度を一定時間下げる。ただし射撃時の攻撃回数が減る",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=606f2941c307d8c628964893122d5086",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4265"
+  }
+}

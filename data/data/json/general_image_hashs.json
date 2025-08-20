@@ -3735,6 +3735,15 @@
     }
   },
   {
+    "no": "PL090",
+    "deckImageHash": "ff6f03e103e007e07f98f6f801c00dc3000e41fa63fe0ff80ff80f7c1f0c3e10",
+    "name": "緋村剣心",
+    "kanaName": "ひむらけんしん",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "ST003",
     "deckImageHash": "0670de1cfe8e0e07005710ff00ff02ff9d393f207961fd00f984f1c0f1cc29f0",
     "name": "土方歳三",
@@ -5539,6 +5548,15 @@
     "deckImageHash": "7fc0fe84fc02fc00703f7887ca01e7c1e7cf4147419ae18cf79de3bc800e80cc",
     "name": "盗跖",
     "kanaName": "とうせき",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "PL091",
+    "deckImageHash": "37f707fd01a219307380f980cf98bb38f068314f77f3032107a122e370fabf48",
+    "name": "巻町操",
+    "kanaName": "まきまちみさお",
     "color": {
       "name": "碧"
     }
@@ -8847,6 +8865,15 @@
     }
   },
   {
+    "no": "PL092",
+    "deckImageHash": "131b36f930baf032e43fe018ee10e707f378ff80fcc030c03fc0ef801f80ece1",
+    "name": "四乃森蒼紫",
+    "kanaName": "しのもりあおし",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "琥001",
     "deckImageHash": "7e00fef8fc38e001f9adfc41e081e170c1e1d0e10e652fcd67ede7ff04062006",
     "name": "池田輝政",
@@ -10201,6 +10228,15 @@
     "deckImageHash": "1f801efc07fe001fec9fe03fcd1980058017043fc31ff179c1b8fff83f807800",
     "name": "ロト",
     "kanaName": "ロト",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "PL093",
+    "deckImageHash": "07e709cf380fe04700ffc1ffc07e001eff07f903c08381e3c3f078e0f800fbc6",
+    "name": "比古清十郎",
+    "kanaName": "ひこせいじゅうろう",
     "color": {
       "name": "黄"
     }
