@@ -1,0 +1,45 @@
+{
+  "no": "PL090",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/08/20〜25/09/02"
+  ],
+  "id": "7e1f6c4faf2e98fde8ecd78a6ac09811",
+  "detailImageId": "0c50fe02c02e284a5e71bea3323a6abb",
+  "name": "緋村剣心",
+  "kanaName": "ひむらけんしん",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "天翔龍閃",
+    "kanaName": "あまかけるりゅうのひらめき",
+    "cost": "6",
+    "description": "武力と移動速度と斬撃ダメージが上がり、斬撃が発生するまでの時間を短縮し、斬撃を当てた敵の移動速度を一定時間下げる。さらに斬撃の範囲が変化し、向いている方向に斬撃を行うようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7e1f6c4faf2e98fde8ecd78a6ac09811",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4262"
+  }
+}
