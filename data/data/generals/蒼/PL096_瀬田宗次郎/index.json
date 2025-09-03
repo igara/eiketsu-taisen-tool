@@ -1,0 +1,46 @@
+{
+  "no": "PL096",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/09/03〜25/09/16"
+  ],
+  "id": "42df0242fde8a9e248b48cd9b50ede8c",
+  "detailImageId": "0319e796b267abe032b389cb7c5bfc78",
+  "name": "瀬田宗次郎",
+  "kanaName": "せたそうじろう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "天剣の縮地",
+    "kanaName": "てんけんのしゅくち",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、効果中に移動しながら斬撃を行えるようになる。この計略は城内にいる時も使用でき、城内にいる時に計略を使用すると、戦場に出現する",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=42df0242fde8a9e248b48cd9b50ede8c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4263"
+  }
+}
