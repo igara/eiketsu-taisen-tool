@@ -1872,6 +1872,15 @@
     }
   },
   {
+    "no": "PL096",
+    "deckImageHash": "c00f7a013f0ff8270014c328fd7dfe0efc0b1f8003ff300ff000f81ee03fe03f",
+    "name": "瀬田宗次郎",
+    "kanaName": "せたそうじろう",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "ST002",
     "deckImageHash": "f050e07ee01ef01f004bc3ef03dcf1d8e858fb20d7c22fc0ff807c8011e81ff4",
     "name": "曹操",
@@ -7488,6 +7497,15 @@
     }
   },
   {
+    "no": "PL095",
+    "deckImageHash": "7ff701811f9423b003c511c37ec63f0ef707f00df0b0f0430000400eff7e3f7f",
+    "name": "悠久山安慈",
+    "kanaName": "ゆうきゅうざんあんじ",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "紫001",
     "deckImageHash": "2ff36ff94278002801be603fe13afc6075050b0ff03fe00f430d333ae0fb80f9",
     "name": "浅井長政",
@@ -8874,6 +8892,15 @@
     }
   },
   {
+    "no": "PL097",
+    "deckImageHash": "800f03c363c3f7f80f805fc07fc03fc47fccf007e007e00fc00fe11fc01fc38f",
+    "name": "志々雄真実",
+    "kanaName": "ししおまこと",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "琥001",
     "deckImageHash": "7e00fef8fc38e001f9adfc41e081e170c1e1d0e10e652fcd67ede7ff04062006",
     "name": "池田輝政",
@@ -9922,6 +9949,15 @@
     "deckImageHash": "000760017ff87ffcffcfc98043c007f007f073ce781c03dc5c3ef04e3fdc9008",
     "name": "ベアトリス",
     "kanaName": "ベアトリス",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "PL094",
+    "deckImageHash": "00ff037d4630cfc947f047e0c7f54039003f041ff87bc1f183e087ff070f0c1e",
+    "name": "沢下条張",
+    "kanaName": "さわげじょうちょう",
     "color": {
       "name": "琥"
     }
