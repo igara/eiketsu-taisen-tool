@@ -1683,6 +1683,15 @@
     }
   },
   {
+    "no": "EX159",
+    "deckImageHash": "80071b8101f8fffd10fe07787179e0f0e2ffade789210b0073003a117d13ee1f",
+    "name": "趙姫",
+    "kanaName": "ちょうき",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "PL001",
     "deckImageHash": "3fe3863d203f0127f143ebe7c31f02013e1f351f0c4b80a760f301e319e4fdc1",
     "name": "信",
@@ -5395,6 +5404,15 @@
     "deckImageHash": "038378dd709ee01f418f5dc7301f6383f3ffe37f004c088019cd1f96371281e3",
     "name": "法正",
     "kanaName": "ほうせい",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "EX160",
+    "deckImageHash": "02072f851ff80fe91f383e1c441e8e3e073b1f3b0f4907458247c2e273f49d94",
+    "name": "田単",
+    "kanaName": "でんたん",
     "color": {
       "name": "碧"
     }
@@ -10264,6 +10282,15 @@
     "deckImageHash": "1f801efc07fe001fec9fe03fcd1980058017043fc31ff179c1b8fff83f807800",
     "name": "ロト",
     "kanaName": "ロト",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "EX158",
+    "deckImageHash": "00070315cffc4ff3fe73f987e007c200bf81bfe13ec00e10033ec26d107f9167",
+    "name": "奈多夫人",
+    "kanaName": "なだふじん",
     "color": {
       "name": "黄"
     }
