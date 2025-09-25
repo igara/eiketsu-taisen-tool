@@ -1,0 +1,39 @@
+{
+  "no": "EX159",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/09/24〜25/10/07"
+  ],
+  "id": "c72ba93c06f16218bd053513cc9f68d6",
+  "detailImageId": "c21447afcb7e5566e1ba58c1476c4b63",
+  "name": "趙姫",
+  "kanaName": "ちょうき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "舞姫の火遊び",
+    "kanaName": "まいひめのひあそび",
+    "cost": "4",
+    "description": "蒼の味方の武力と攻城力が上がる。ただし自城にダメージを受け、溜まる覇気が敵軍のものになる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c72ba93c06f16218bd053513cc9f68d6",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4271"
+  }
+}

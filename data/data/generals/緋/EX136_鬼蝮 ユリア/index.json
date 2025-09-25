@@ -2,6 +2,7 @@
   "no": "EX136",
   "appear": "第4弾-EX",
   "appearPatterns": [
+    "金剛石商店(金剛石交換所): 25/09/24〜",
     "大戦スタンプキャンペーン: 25/06/04〜25/06/17"
   ],
   "id": "7bd792cd96ee11d5d1d5e36999cecd84",
@@ -44,7 +45,7 @@
       "description": "コストに応じて士気が増加した状態で開戦します"
     }
   ],
-  "kabuki": "0",
+  "kabuki": "8",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bd792cd96ee11d5d1d5e36999cecd84",
     "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4114"
