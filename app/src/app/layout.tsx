@@ -42,6 +42,7 @@ export default function RootLayout({
 			</body>
 			<Script src="/eiketsu-taisen-tool/coi-serviceworker.js" />		
 			<GoogleAnalytics gaId="G-Q8EBFQDX3R" />
+			<meta name="google-site-verification" content="uGkfiiUY014HR--Xs5Q4XJQRDD-y5jUBuljmg4oziJg" />
 		</html>
 	);
 }
