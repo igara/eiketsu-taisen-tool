@@ -1,0 +1,45 @@
+{
+  "no": "EX163",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/10/08〜25/10/21"
+  ],
+  "id": "2ea3144007a326167305be53520e2717",
+  "detailImageId": "69c7faec87fd8f284c5eeb2b988f94de",
+  "name": "藤原秀郷",
+  "kanaName": "ふじわらのひでさと",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "平安",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "妖破の三弓",
+    "kanaName": "ようはのさんきゅう",
+    "cost": "5",
+    "description": "武力と走射中の弓攻撃のダメージが上がり、効果中に一度だけ斬撃を行えるようになる。さらに計略を使用した回数によって効果が追加されていく。この計略は戦闘中三度しか使用できない<br>２回目：射程距離が上がり、矢を当てている敵の武力を下げる<br>３回目：同時に弓攻撃できる部隊数が増える",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ea3144007a326167305be53520e2717",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4275"
+  }
+}

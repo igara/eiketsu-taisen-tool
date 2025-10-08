@@ -1,0 +1,48 @@
+{
+  "no": "EX161",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/10/08〜25/10/21"
+  ],
+  "id": "b2b8d511793c38af56b9c3f2713ebace",
+  "detailImageId": "a3580756083554a583819ad579131bf0",
+  "name": "ランカスター公ヘンリー",
+  "kanaName": "ランカスターこうヘンリー",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "交戦の戦旗",
+    "kanaName": "こうせんのせんき",
+    "cost": "5",
+    "description": "【旗陣形】味方の武力が上がる。さらに敵と接触している間武力が上がる旗陣形を設置する。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b2b8d511793c38af56b9c3f2713ebace",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4273"
+  }
+}
