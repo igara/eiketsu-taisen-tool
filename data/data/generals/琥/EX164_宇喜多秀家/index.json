@@ -1,0 +1,47 @@
+{
+  "no": "EX164",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/10/08〜25/10/21"
+  ],
+  "id": "7cc9646e1d6416a147bf50bb3ec31710",
+  "detailImageId": "959f6c71e1bced2c0dfbb7d6bca83ba2",
+  "name": "宇喜多秀家",
+  "kanaName": "うきたひでいえ",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "秀麗の大道",
+    "kanaName": "しゅうれいのたいどう",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>戦国の味方の武力が上がり、敵の武力を下げる。さらに敵の武力を徐々に下げる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7cc9646e1d6416a147bf50bb3ec31710",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4276"
+  }
+}
