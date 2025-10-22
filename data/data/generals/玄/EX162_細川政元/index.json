@@ -1,0 +1,49 @@
+{
+  "no": "EX162",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/10/08〜25/10/21"
+  ],
+  "id": "f01accb981aebe8acff53dc3985ec836",
+  "detailImageId": "6c13425dad83cfdceb10413df4f089e3",
+  "name": "細川政元",
+  "kanaName": "ほそかわまさもと",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "天魔外道",
+    "kanaName": "てんまげどう",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力が上がり、敵の武力を下げる。さらに旋回操作を行うと自身は一定時間計略の対象にならない飛行状態になる。自身が飛行状態の場合、代わりに味方の兵力が徐々に回復する",
+    "categories": [
+      "強化",
+      "回復",
+      "妨害",
+      "特殊",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f01accb981aebe8acff53dc3985ec836",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4274"
+  }
+}
