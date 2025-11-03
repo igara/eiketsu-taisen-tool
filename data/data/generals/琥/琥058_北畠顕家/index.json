@@ -22,7 +22,7 @@
     "name": "破軍の陵王",
     "kanaName": "はぐんのりょうおう",
     "cost": "5",
-    "description": "琥の味方の武力と移動速度が上がる。さらに効果終了時に自身が撤退していない場合、琥煌ゲージが増加する",
+    "description": "琥の味方の武力と移動速度が上がる。さらに琥煌ゲージが増加する",
     "categories": [
       "全体強化"
     ],
@@ -38,7 +38,7 @@
       "description": "開戦から一定時間、武力と知力が上がります"
     }
   ],
-  "kabuki": "40",
+  "kabuki": "12",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=32a8a939d67f14d6e54e8ffe279261e8",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1892.html",

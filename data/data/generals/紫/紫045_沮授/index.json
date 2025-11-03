@@ -19,10 +19,10 @@
   "cost": "1.5",
   "unitType": "槍兵",
   "strat": {
-    "name": "防護の号令",
-    "kanaName": "ぼうごのごうれい",
+    "name": "賢護の号令",
+    "kanaName": "けんごのごうれい",
     "cost": "4",
-    "description": "紫の味方の武力によるダメージを軽減する",
+    "description": "紫の味方の知力が上がり、武力によるダメージを軽減する",
     "categories": [
       "全体強化"
     ],
@@ -31,8 +31,14 @@
   },
   "power": "5",
   "intelligentzia": "7",
-  "skill": [],
-  "kabuki": "9",
+  "skill": [
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
+  "kabuki": "18",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2af89e11f396257434ec5268b390104c",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/986.html",

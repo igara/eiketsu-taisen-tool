@@ -1,0 +1,53 @@
+{
+  "no": "PL099",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/10/22〜25/11/18"
+  ],
+  "id": "354fb724fef8d93605bb7c8a3003cef1",
+  "detailImageId": "6c1d68e96e30d71cc038f453e338d369",
+  "name": "陸奥辰巳",
+  "kanaName": "むつたつみ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "陸奥圓明流",
+    "kanaName": "むつえんめいりゅう",
+    "cost": "5",
+    "description": "武力が上がり、敵を押せるようになる。さらに敵と接触している時、以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・鬼神【２】：接触している敵に武力によるダメージを与え、自身の兵力が上限を超えて回復する。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "回復",
+      "ダメージ",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=354fb724fef8d93605bb7c8a3003cef1",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4278"
+  }
+}

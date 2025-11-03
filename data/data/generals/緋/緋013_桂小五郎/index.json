@@ -22,7 +22,7 @@
     "name": "神道無念流",
     "kanaName": "しんとうむねんりゅう",
     "cost": "5",
-    "description": "武力と移動速度が上がり、斬撃を当てた敵の移動速度を一定時間下げる",
+    "description": "武力と移動速度が上がり、特技「忍」の効果が上がる。さらに斬撃を当てた敵の移動速度を一定時間下げる",
     "categories": [
       "強化"
     ],
@@ -43,7 +43,7 @@
       "description": "コストに応じて流派ゲージが増加した状態で開戦します"
     }
   ],
-  "kabuki": "0",
+  "kabuki": "4",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=00b8486250dbacae66a55475a187d115",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/239.html",

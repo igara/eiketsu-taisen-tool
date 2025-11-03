@@ -5598,6 +5598,15 @@
     }
   },
   {
+    "no": "PL098",
+    "deckImageHash": "1f800fbc043e707f00fc0dc01bcf27defe12cb82f042f878fe707fc03f9c0300",
+    "name": "劉備",
+    "kanaName": "りゅうび",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
     "no": "ST004",
     "deckImageHash": "3fc007f007fc8e078803ef7c27b80fe083f8c9e0c078e1cf09df493fc1cfc201",
     "name": "上杉謙信",
@@ -7542,6 +7551,15 @@
     }
   },
   {
+    "no": "PL099",
+    "deckImageHash": "01827ff97c1ec00f08200f72fc3a771fc7bf4117e106f806f30fea9fe00f0026",
+    "name": "陸奥辰巳",
+    "kanaName": "むつたつみ",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "紫001",
     "deckImageHash": "2ff36ff94278002801be603fe13afc6075050b0ff03fe00f430d333ae0fb80f9",
     "name": "浅井長政",
@@ -8941,6 +8959,15 @@
     "deckImageHash": "800f03c363c3f7f80f805fc07fc03fc47fccf007e007e00fc00fe11fc01fc38f",
     "name": "志々雄真実",
     "kanaName": "ししおまこと",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "PL100",
+    "deckImageHash": "00075efd7c0e784e40e0401e0f9e1fff7f103e073c0f380f380f7007701f07fe",
+    "name": "張良",
+    "kanaName": "ちょうりょう",
     "color": {
       "name": "紫"
     }

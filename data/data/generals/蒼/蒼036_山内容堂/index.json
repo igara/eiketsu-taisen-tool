@@ -36,9 +36,14 @@
       "name": "技巧",
       "shortName": "技",
       "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
     }
   ],
-  "kabuki": "16",
+  "kabuki": "8",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0a283ae750513565a8f80e0c3e40eec5",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/103.html",

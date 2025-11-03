@@ -22,7 +22,7 @@
     "name": "無慈悲なる妖剣",
     "kanaName": "むじひなるようけん",
     "cost": "5",
-    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力が上がり、斬撃の範囲が広くなる。一定以上武力が上がると、さらに移動しながら斬撃ができるようになる",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力が上がり、斬撃の範囲が広くなる。一定以上武力が上がると、さらに斬撃ダメージが上がり、移動しながら斬撃ができるようになる",
     "categories": [
       "強化",
       "渾身"
@@ -44,7 +44,7 @@
       "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
     }
   ],
-  "kabuki": "12",
+  "kabuki": "24",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5a575ca8d1a542660f19c8902d3d55e5",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/750.html",

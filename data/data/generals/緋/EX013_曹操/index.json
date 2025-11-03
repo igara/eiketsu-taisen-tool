@@ -20,8 +20,8 @@
   "strat": {
     "name": "魏武の大号令",
     "kanaName": "ぎぶのだいごうれい",
-    "cost": "7",
-    "description": "緋の味方の武力が上がる",
+    "cost": "6",
+    "description": "緋の味方の武力が上がり、自身は効果中に撤退すると復活時間が減少する",
     "categories": [
       "全体強化"
     ],
@@ -47,7 +47,7 @@
       "description": "コストに応じて流派ゲージが増加した状態で開戦します"
     }
   ],
-  "kabuki": "4",
+  "kabuki": "8",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a672581c6080dc49d30fab840fd22b41",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/771.html",

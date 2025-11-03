@@ -30,15 +30,9 @@
     "time": "一瞬",
     "range": "db0f1158a4038d7c1a1f908c8750498d"
   },
-  "power": "2",
-  "intelligentzia": "4",
-  "skill": [
-    {
-      "name": "先陣",
-      "shortName": "先",
-      "description": "開戦から一定時間、武力と知力が上がります"
-    }
-  ],
+  "power": "3",
+  "intelligentzia": "5",
+  "skill": [],
   "kabuki": "6",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=049c80ffa57082475bb64b66378f4245",

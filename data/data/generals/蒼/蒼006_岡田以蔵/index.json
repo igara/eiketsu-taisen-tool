@@ -22,7 +22,7 @@
     "name": "天誅",
     "kanaName": "てんちゅう",
     "cost": "7",
-    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力と移動速度と斬撃ダメージが上がり、敵の移動速度を下げる",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力と移動速度と斬撃ダメージが上がり、斬撃の範囲が広くなる。さらに敵の移動速度を下げる",
     "categories": [
       "強化",
       "妨害",
@@ -40,7 +40,7 @@
       "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
     }
   ],
-  "kabuki": "40",
+  "kabuki": "0",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7ebcff977fb0762a4dcdcd0edf8bcb90",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/151.html",

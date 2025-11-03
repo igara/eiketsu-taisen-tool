@@ -22,7 +22,7 @@
     "name": "龍が如く",
     "kanaName": "りゅうがごとく",
     "cost": "4",
-    "description": "武力が上がり、突撃を敵に当てるたびに兵力が回復する",
+    "description": "武力と移動速度が上がり、突撃を敵に当てるたびに兵力が回復する",
     "categories": [
       "強化",
       "回復"
@@ -33,7 +33,7 @@
   "power": "8",
   "intelligentzia": "4",
   "skill": [],
-  "kabuki": "12",
+  "kabuki": "10",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=063b9af58cfb5fbfd52c185558e41b5e",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/277.html",

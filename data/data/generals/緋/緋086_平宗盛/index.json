@@ -34,9 +34,9 @@
   "intelligentzia": "1",
   "skill": [
     {
-      "name": "復活",
-      "shortName": "活",
-      "description": "撤退した際、復活するために必要な時間が減少します"
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
     }
   ],
   "kabuki": "36",

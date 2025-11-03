@@ -15,7 +15,7 @@
     "b": "0"
   },
   "period": "戦国",
-  "cost": "2.5",
+  "cost": "2.0",
   "unitType": "弓兵",
   "strat": {
     "name": "琥煌の謀陣",
@@ -30,8 +30,8 @@
     "time": "知力時間",
     "range": "835d82c080c58bce393f1afc6d49f455"
   },
-  "power": "7",
-  "intelligentzia": "11",
+  "power": "6",
+  "intelligentzia": "10",
   "skill": [
     {
       "name": "伏兵",
@@ -39,7 +39,7 @@
       "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
     }
   ],
-  "kabuki": "24",
+  "kabuki": "12",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=79313d310a95a73a980ef05bef252b8f",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1688.html",

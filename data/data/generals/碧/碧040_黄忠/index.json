@@ -16,7 +16,7 @@
     "b": "50"
   },
   "period": "三国志",
-  "cost": "2.5",
+  "cost": "2.0",
   "unitType": "弓兵",
   "strat": {
     "name": "老当益壮",
@@ -29,8 +29,8 @@
     "time": "知力時間",
     "range": "db0f1158a4038d7c1a1f908c8750498d"
   },
-  "power": "9",
-  "intelligentzia": "2",
+  "power": "8",
+  "intelligentzia": "1",
   "skill": [
     {
       "name": "気合",
@@ -38,7 +38,7 @@
       "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
     }
   ],
-  "kabuki": "18",
+  "kabuki": "0",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=25050a73bd787d05ec3ab1411e35b350",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/449.html",
