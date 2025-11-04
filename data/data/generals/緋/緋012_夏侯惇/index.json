@@ -19,20 +19,25 @@
   "cost": "2.5",
   "unitType": "騎兵",
   "strat": {
-    "name": "隻眼の睨み",
-    "kanaName": "せきがんのにらみ",
+    "name": "隻眼将の大喝",
+    "kanaName": "せきがんしょうのだいかつ",
     "cost": "5",
-    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>敵の武力と知力を下げる",
+    "description": "武力が上がる。さらに敵の武力と知力を下げ、移動できなくする",
     "categories": [
-      "妨害",
-      "陣形"
+      "強化",
+      "妨害"
     ],
     "time": "知力時間",
-    "range": "047872422760a276ec76b4e944192c08"
+    "range": "e69fed059e9750ea4e334d2b855b052f"
   },
   "power": "8",
   "intelligentzia": "8",
   "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
     {
       "name": "気合",
       "shortName": "気",

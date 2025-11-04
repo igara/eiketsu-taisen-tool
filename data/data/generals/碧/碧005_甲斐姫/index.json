@@ -41,6 +41,11 @@
       "name": "技巧",
       "shortName": "技",
       "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
     }
   ],
   "kabuki": "2",

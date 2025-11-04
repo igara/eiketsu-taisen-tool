@@ -22,7 +22,7 @@
     "name": "風雲之志",
     "kanaName": "ふううんのこころざし",
     "cost": "7",
-    "description": "武力と知力と移動速度が上がり、弾数の回復速度が上がる",
+    "description": "武力と知力と移動速度が上がり、弾数の回復速度が上がる。さらに覇気の溜まる量が増える",
     "categories": [
       "強化"
     ],
@@ -38,7 +38,7 @@
       "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
     }
   ],
-  "kabuki": "24",
+  "kabuki": "8",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e20992d77cad6e0cde23972ab9434ce4",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/111.html",

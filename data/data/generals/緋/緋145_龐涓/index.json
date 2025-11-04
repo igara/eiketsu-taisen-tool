@@ -33,7 +33,13 @@
   },
   "power": "7",
   "intelligentzia": "9",
-  "skill": [],
+  "skill": [
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
   "kabuki": "0",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=737e7d037af4b48d923946c609a756cf",

@@ -19,17 +19,16 @@
   "cost": "1.5",
   "unitType": "槍兵",
   "strat": {
-    "name": "琥煌の速陣",
-    "kanaName": "ここうのそくじん",
+    "name": "琥煌の速令",
+    "kanaName": "ここうのそくれい",
     "cost": "4",
-    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>琥の味方の移動速度が上がる<br>３消費：さらに武力が上がる",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の移動速度が上がる<br>３消費：さらに武力が上がる",
     "categories": [
       "全体強化",
-      "陣形",
       "琥煌"
     ],
     "time": "知力時間",
-    "range": "047872422760a276ec76b4e944192c08"
+    "range": "e69fed059e9750ea4e334d2b855b052f"
   },
   "power": "5",
   "intelligentzia": "8",
@@ -40,7 +39,7 @@
       "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
     }
   ],
-  "kabuki": "18",
+  "kabuki": "0",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c6d48925d432f313b91116a5567d25c4",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1889.html",

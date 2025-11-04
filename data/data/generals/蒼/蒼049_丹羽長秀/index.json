@@ -21,7 +21,7 @@
   "strat": {
     "name": "米五郎左の戦",
     "kanaName": "こめごろうざのいくさ",
-    "cost": "6",
+    "cost": "5",
     "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の武力が上がる。さらに鉄砲隊であれば乱戦中も射撃できるようになる",
     "categories": [
       "全体強化",
@@ -44,7 +44,7 @@
       "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
     }
   ],
-  "kabuki": "30",
+  "kabuki": "18",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8d5947510e5c03581148a7fc999dcede",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/459.html",

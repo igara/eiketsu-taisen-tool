@@ -1,0 +1,57 @@
+{
+  "no": "PL098",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 25/10/22〜25/11/18"
+  ],
+  "id": "760c6af8b67f97d22baa8175874c9e6d",
+  "detailImageId": "8f401daf883230246b19df3e74cb011b",
+  "name": "劉備",
+  "kanaName": "りゅうび",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "侠者の大徳陣",
+    "kanaName": "きょうしゃのだいとくじん",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身より前にいる碧の味方の武力が上がり、後ろにいる碧の味方の兵力が徐々に回復する。自身は両方の効果を得る",
+    "categories": [
+      "全体強化",
+      "回復",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "6",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "33",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=760c6af8b67f97d22baa8175874c9e6d",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4277"
+  }
+}

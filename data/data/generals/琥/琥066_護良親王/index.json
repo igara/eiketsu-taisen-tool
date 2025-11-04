@@ -22,7 +22,7 @@
     "name": "大塔宮の令旨",
     "kanaName": "おおとうのみやのりょうじ",
     "cost": "6",
-    "description": "琥の味方の武力が上がる。さらに効果終了時に自身が撤退していない場合、琥煌ゲージが増加する",
+    "description": "琥の味方の武力が上がる。さらに琥煌ゲージが増加する",
     "categories": [
       "全体強化"
     ],
@@ -38,7 +38,7 @@
       "description": "コストに応じて士気が増加した状態で開戦します"
     }
   ],
-  "kabuki": "24",
+  "kabuki": "30",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1671a691fd69a046bf68ccf2c953907f",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1886.html",

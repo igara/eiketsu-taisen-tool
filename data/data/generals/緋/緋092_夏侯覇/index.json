@@ -16,7 +16,7 @@
     "b": "27"
   },
   "period": "三国志",
-  "cost": "1.0",
+  "cost": "1.5",
   "unitType": "槍兵",
   "strat": {
     "name": "短計・回槍",
@@ -30,16 +30,10 @@
     "time": "一瞬",
     "range": "db0f1158a4038d7c1a1f908c8750498d"
   },
-  "power": "3",
-  "intelligentzia": "3",
-  "skill": [
-    {
-      "name": "先陣",
-      "shortName": "先",
-      "description": "開戦から一定時間、武力と知力が上がります"
-    }
-  ],
-  "kabuki": "3",
+  "power": "6",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "6",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f30888ae857c655051526be481095e9b",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1251.html",

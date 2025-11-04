@@ -16,7 +16,7 @@
     "b": "97"
   },
   "period": "平安",
-  "cost": "2.5",
+  "cost": "2.0",
   "unitType": "弓兵",
   "strat": {
     "name": "平家打倒の檄",
@@ -29,18 +29,13 @@
     "time": "知力時間",
     "range": "e69fed059e9750ea4e334d2b855b052f"
   },
-  "power": "8",
-  "intelligentzia": "6",
+  "power": "7",
+  "intelligentzia": "7",
   "skill": [
     {
       "name": "昂揚",
       "shortName": "昂",
       "description": "コストに応じて士気が増加した状態で開戦します"
-    },
-    {
-      "name": "先陣",
-      "shortName": "先",
-      "description": "開戦から一定時間、武力と知力が上がります"
     }
   ],
   "kabuki": "12",

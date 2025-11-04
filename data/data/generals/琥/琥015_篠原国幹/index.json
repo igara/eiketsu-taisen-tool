@@ -22,9 +22,10 @@
     "name": "黒門口の勇戦",
     "kanaName": "くろもんぐちのゆうせん",
     "cost": "5",
-    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力と移動速度が上がる<br>３消費：さらに突撃ダメージが上がる",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力と移動速度が上がる<br>３消費：さらに突撃ダメージが上がり、兵力が回復する",
     "categories": [
       "強化",
+      "回復",
       "琥煌"
     ],
     "time": "知力時間",
@@ -39,7 +40,7 @@
       "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
     }
   ],
-  "kabuki": "6",
+  "kabuki": "0",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c6d30e7273fbded4120e49c54605bb3b",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1328.html",

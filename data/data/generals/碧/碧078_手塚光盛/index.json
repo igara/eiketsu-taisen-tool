@@ -17,7 +17,7 @@
   },
   "period": "平安",
   "cost": "1.5",
-  "unitType": "剣豪",
+  "unitType": "槍兵",
   "strat": {
     "name": "武士の指揮",
     "kanaName": "もののふのしき",
@@ -30,7 +30,7 @@
     "range": "8321f66cceffbaf26ad51225dc717746"
   },
   "power": "5",
-  "intelligentzia": "4",
+  "intelligentzia": "5",
   "skill": [
     {
       "name": "技巧",
