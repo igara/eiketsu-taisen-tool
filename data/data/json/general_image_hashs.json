@@ -1692,6 +1692,15 @@
     }
   },
   {
+    "no": "EX165",
+    "deckImageHash": "04173fc97c1cf807ff80ffc0fc801d80ff8ef3bce0386000ea03f204f380bfc3",
+    "name": "張悌",
+    "kanaName": "ちょうてい",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "PL001",
     "deckImageHash": "3fe3863d203f0127f143ebe7c31f02013e1f351f0c4b80a760f301e319e4fdc1",
     "name": "信",
@@ -3604,6 +3613,15 @@
     "deckImageHash": "7cc07f387c3e7002e07fea179201829f07a147c38f9f9f00df00fe03fa06fa01",
     "name": "ランカスター公ヘンリー",
     "kanaName": "ランカスターこうヘンリー",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "EX166",
+    "deckImageHash": "10c2e6e07be0fca5fd82ff00f818843b62ffe026038c17e626ff1e7c7040b00f",
+    "name": "フィリッパ",
+    "kanaName": "フィリッパ",
     "color": {
       "name": "緋"
     }
@@ -10354,6 +10372,15 @@
     "deckImageHash": "00070315cffc4ff3fe73f987e007c200bf81bfe13ec00e10033ec26d107f9167",
     "name": "奈多夫人",
     "kanaName": "なだふじん",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "EX167",
+    "deckImageHash": "00ff1871803fc0ff62837f00b81ff83cf81f000fe206ee1f08036047f1cff1be",
+    "name": "柳生十兵衛",
+    "kanaName": "やぎゅうじゅうべえ",
     "color": {
       "name": "黄"
     }

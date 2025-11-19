@@ -2,7 +2,8 @@
   "no": "PL070",
   "appear": "第4弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 24/10/16〜24/10/29"
+    "大戦スタンプキャンペーン: 24/10/16〜24/10/29",
+    "大戦スタンプキャンペーン: 25/11/19〜25/12/02"
   ],
   "id": "41080cc7da52dbe40ae8b40f3ff3f89d",
   "detailImageId": "24efadbaddcc8b8ebb548304aee137fb",
@@ -39,7 +40,7 @@
       "description": "兵種に応じて移動速度が上がります"
     }
   ],
-  "kabuki": "12",
+  "kabuki": "16",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=41080cc7da52dbe40ae8b40f3ff3f89d",
     "atWiki": "https://w.atwiki.jp/eiketsu-taisen/pages/1930.html",

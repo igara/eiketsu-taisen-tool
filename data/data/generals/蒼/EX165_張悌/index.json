@@ -1,0 +1,39 @@
+{
+  "no": "EX165",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/11/19〜25/12/16"
+  ],
+  "id": "5f2f4e1dcdf106a971dc7a08dee66166",
+  "detailImageId": "5ea5f73b0b8234c7c0203c708a024b14",
+  "name": "張悌",
+  "kanaName": "ちょうてい",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "河山帯礪",
+    "kanaName": "かざんたいれい",
+    "cost": "5",
+    "description": "蒼の味方の武力が上がる。さらに自身は全方向に槍の無敵攻撃を行う。ただし効果終了時に撤退する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "2",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5f2f4e1dcdf106a971dc7a08dee66166",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4280"
+  }
+}

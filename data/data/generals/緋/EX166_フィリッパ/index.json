@@ -1,0 +1,46 @@
+{
+  "no": "EX166",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/11/19〜25/12/16"
+  ],
+  "id": "af6e488835f600dc0af898cd9f597aa7",
+  "detailImageId": "74dfee15e2e7a8f373aeff05131d84e8",
+  "name": "フィリッパ",
+  "kanaName": "フィリッパ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "王妃の進軍",
+    "kanaName": "おうひのしんぐん",
+    "cost": "10",
+    "description": "武力と移動速度が上がり、突撃を敵に当てるたびに戦場にいる緋の味方の兵力が回復する。さらに戦闘中一定回数覇道が前進するたびにこの計略の必要士気が下がる。この効果は必要士気２を下限とする。この計略は戦闘中一度しか使用できない",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=af6e488835f600dc0af898cd9f597aa7",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4281"
+  }
+}
