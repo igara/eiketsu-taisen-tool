@@ -1,0 +1,52 @@
+{
+  "no": "黄053",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "6d4441dd0132d747eeb89e31511bfaf0",
+  "detailImageId": "66702e1da5027ba7bbfac8636e971d46",
+  "name": "モルドレッド",
+  "kanaName": "モルドレッド",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "光を砕きし者",
+    "kanaName": "ひかりをくだきしもの",
+    "cost": "6",
+    "description": "武力と乱戦中の攻撃速度が上がる。さらに最も武力の高い敵を自身に向かってくるようにする。ただし範囲内に敵がいない場合、効果が下がる",
+    "categories": [
+      "強化",
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    },
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6d4441dd0132d747eeb89e31511bfaf0",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4324"
+  }
+}

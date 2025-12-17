@@ -1,0 +1,42 @@
+{
+  "no": "緋168",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "0acbd0575816e5197efd28fc3999063b",
+  "detailImageId": "2ce7e12f2d4752db08dd1098c1c6f6dc",
+  "name": "マセンシア",
+  "kanaName": "マセンシア",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "聖なる焙烙",
+    "kanaName": "せいなるほうろく",
+    "cost": "4",
+    "description": "武力と知力が上がる。さらに以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・福音【１】：向いている方向に知力によるダメージを与え、敵城門に当たると敵城にダメージを与える焙烙を発射する。ダメージは互いの知力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0acbd0575816e5197efd28fc3999063b",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4308"
+  }
+}

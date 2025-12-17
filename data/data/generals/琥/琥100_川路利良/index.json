@@ -1,0 +1,47 @@
+{
+  "no": "琥100",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "4ba50ae3926aa6535fbe0ddf2e0082b7",
+  "detailImageId": "627f4f554b29963ca18326f47d1eec21",
+  "name": "川路利良",
+  "kanaName": "かわじとしよし",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "警察手眼",
+    "kanaName": "けいさつしゅげん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>敵の武力を下げ、琥煌ゲージが増加する。さらに対象の敵が計略を発動するたびに琥煌ゲージが増加する",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ba50ae3926aa6535fbe0ddf2e0082b7",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4365"
+  }
+}

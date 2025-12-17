@@ -1,0 +1,47 @@
+{
+  "no": "蒼163",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "7be1e0e0881aeddbec3892fbc7a1a57d",
+  "detailImageId": "bcaa3eb1e33f2606d7d57ec77f4f7b94",
+  "name": "長宗我部盛親",
+  "kanaName": "ちょうそかべもりちか",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "猪突爆進",
+    "kanaName": "ちょとつばくしん",
+    "cost": "6",
+    "description": "武力と移動速度が上がる。さらに突撃を敵に当てた位置を起点とした範囲に、敵に武力によるダメージを与える爆風を発生させる。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7be1e0e0881aeddbec3892fbc7a1a57d",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4328"
+  }
+}

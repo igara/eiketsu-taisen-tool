@@ -1,0 +1,47 @@
+{
+  "no": "玄169",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "390927495654bca0e0e88551d4a8257e",
+  "detailImageId": "c7d6564e6cc59bcf6ae11100378382b3",
+  "name": "松田秀彦",
+  "kanaName": "まつだひでひこ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "短計・瞬地斬撃",
+    "kanaName": "たんけい・しゅんちざんげき",
+    "cost": "2",
+    "description": "【短計】（発動すると瞬時に効果が発生する。一定時間後に再度発動できる）<br>カードの方向に一瞬で移動し、斬撃を行う。この短計は斬撃ができるまでの間のみ使用できる",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=390927495654bca0e0e88551d4a8257e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4354"
+  }
+}

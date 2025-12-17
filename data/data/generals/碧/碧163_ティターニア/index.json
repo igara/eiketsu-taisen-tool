@@ -1,0 +1,46 @@
+{
+  "no": "碧163",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "7e52c9c798c5d11d3389e5c698fe3e1b",
+  "detailImageId": "058ebffa5d367296c26034643a426bdf",
+  "name": "ティターニア",
+  "kanaName": "ティターニア",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "妖精女王の祈り",
+    "kanaName": "ようせいじょおうのいのり",
+    "cost": "3",
+    "description": "最も武力の高い碧の味方の武力が上がる。対象の味方の武力と知力が同じ場合、さらに武力と知力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "2",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "11",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7e52c9c798c5d11d3389e5c698fe3e1b",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4311"
+  }
+}

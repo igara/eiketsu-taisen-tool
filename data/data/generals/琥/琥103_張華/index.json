@@ -1,0 +1,40 @@
+{
+  "no": "琥103",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "09ac803eaf95ae9186c380e98f4bd808",
+  "detailImageId": "3e4049b16f1dc0d0538f7f79cdb734f2",
+  "name": "張華",
+  "kanaName": "ちょうか",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "宰相の秘計",
+    "kanaName": "さいしょうのひけい",
+    "cost": "5",
+    "description": "琥の味方の移動速度が上がり、武力によるダメージを軽減する。さらに琥煌ゲージが増加する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=09ac803eaf95ae9186c380e98f4bd808",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4368"
+  }
+}

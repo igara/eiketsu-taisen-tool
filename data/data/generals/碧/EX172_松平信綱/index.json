@@ -1,0 +1,38 @@
+{
+  "no": "EX172",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 25/12/17〜"
+  ],
+  "id": "af437fcc7bc4c0946aaaa5048f3b5c08",
+  "detailImageId": "20cda9751f8bd0abfe19612232d2c540",
+  "name": "松平信綱",
+  "kanaName": "まつだいらのぶつな",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "神策の号令",
+    "kanaName": "しんさくのごうれい",
+    "cost": "5",
+    "description": "碧の味方の武力と移動速度が上がる。さらに敵を撃破するたびに流派ゲージが上昇する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "10",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=af437fcc7bc4c0946aaaa5048f3b5c08"
+  }
+}

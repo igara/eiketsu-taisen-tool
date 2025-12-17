@@ -1,0 +1,46 @@
+{
+  "no": "緋164",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "0700a04953ba3814fa53582d6a86a982",
+  "detailImageId": "b2a8f8b06c60618c0ef67454b0ade12f",
+  "name": "張郃",
+  "kanaName": "ちょうこう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "死線の猛槍",
+    "kanaName": "しせんのもうそう",
+    "cost": "4",
+    "description": "武力と槍撃ダメージが上がる。さらに乱戦中も槍が消えなくなる。ただし移動速度が下がり、槍が短くなる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0700a04953ba3814fa53582d6a86a982",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4307"
+  }
+}

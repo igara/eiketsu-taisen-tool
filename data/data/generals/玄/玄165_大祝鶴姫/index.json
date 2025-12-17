@@ -1,0 +1,46 @@
+{
+  "no": "玄165",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "dea18e5ab21d62741292948e94ed6bcd",
+  "detailImageId": "21654c31ef89b1ad18380ecf9e4de0c8",
+  "name": "大祝鶴姫",
+  "kanaName": "おおほうりつるひめ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "三島明神顕現",
+    "kanaName": "みしまみょうじんけんげん",
+    "cost": "7",
+    "description": "自身を除く玄の味方の武力が上がる。さらに対象の味方部隊数が多いほど自身の武力が上がる。一定以上武力が上がると、さらに射程距離が上がり、同時に弓攻撃できる部隊数が増える。ただし自身が撤退すると、対象の味方全てが撤退する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dea18e5ab21d62741292948e94ed6bcd",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4351"
+  }
+}

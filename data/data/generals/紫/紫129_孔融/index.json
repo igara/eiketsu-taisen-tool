@@ -1,0 +1,48 @@
+{
+  "no": "紫129",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "b51c5fbc4b720b9cb0d1ed4b013a8925",
+  "detailImageId": "42d7b34516974a9fcb36d4e2e8b992b4",
+  "name": "孔融",
+  "kanaName": "こうゆう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "渾身の弱体陣",
+    "kanaName": "こんしんのじゃくたいじん",
+    "cost": "4",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>敵の武力を下げる。一定以上武力を下げると、さらに移動速度を下げる",
+    "categories": [
+      "妨害",
+      "陣形",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b51c5fbc4b720b9cb0d1ed4b013a8925",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4361"
+  }
+}

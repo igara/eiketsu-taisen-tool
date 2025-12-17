@@ -1,0 +1,48 @@
+{
+  "no": "蒼162",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "2c63687d2ef4785324b1eacd383ce096",
+  "detailImageId": "9a46e4daaf53b0636007763c553fe3f5",
+  "name": "ガルオー",
+  "kanaName": "ガルオー",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "深交の誓い",
+    "kanaName": "しんこうのちかい",
+    "cost": "4",
+    "description": "自身と、自身を除く最も武力の高い中世の味方の武力が上がる。さらに自身を除く対象の味方の兵種に応じて自身は以下の効果を得る<br>騎兵：弓兵になり、対象の味方が攻撃中の敵に自身が矢を当てている間、移動速度を下げる<br>槍兵：騎兵になり、対象の味方が攻撃中の敵に自身が突撃すると自身を除く対象の味方の兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2c63687d2ef4785324b1eacd383ce096",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4327"
+  }
+}

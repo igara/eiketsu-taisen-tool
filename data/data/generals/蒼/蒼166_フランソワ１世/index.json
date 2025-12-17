@@ -1,0 +1,42 @@
+{
+  "no": "蒼166",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "8c66426e71d64867df9c3311bd520959",
+  "detailImageId": "33cda6107a507b4ea769dcc5f0de801d",
+  "name": "フランソワ１世",
+  "kanaName": "フランソワ１せい",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "火竜の奮槍",
+    "kanaName": "かりゅうのふんそう",
+    "cost": "4",
+    "description": "武力が上がり、一定回数槍撃を敵に当てるたびに兵力が回復する。さらに敵と接触している時、以下の短計を発動できる。ただし武力によるダメージが増加し、効果終了時に一定時間計略を使用できなくなる<br>短計・金襴投げ【１】：接触している敵を弾く",
+    "categories": [
+      "強化",
+      "回復",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8c66426e71d64867df9c3311bd520959",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4331"
+  }
+}

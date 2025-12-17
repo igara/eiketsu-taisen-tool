@@ -1,0 +1,46 @@
+{
+  "no": "EX169",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 25/11/26〜25/12/16"
+  ],
+  "id": "b985bbd9275ee866b84b9d123c0cdc6e",
+  "detailImageId": "c74ca47a679ac776a4742f5fa4fc1bde",
+  "name": "ガラシャ",
+  "kanaName": "ガラシャ",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "琥煌の火計",
+    "kanaName": "ここうのかけい",
+    "cost": "6",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>敵に知力によるダメージを与える。ダメージは互いの知力で上下する。ただし自身は撤退する",
+    "categories": [
+      "ダメージ",
+      "琥煌"
+    ],
+    "time": "一瞬",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b985bbd9275ee866b84b9d123c0cdc6e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4284"
+  }
+}

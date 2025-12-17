@@ -1,0 +1,41 @@
+{
+  "no": "緋165",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "f1ee4003bbb0d33f9ebbd371a4a553f9",
+  "detailImageId": "0ff9e060dd37c48b6b6c492e5fd46d9f",
+  "name": "程昱",
+  "kanaName": "ていいく",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "十面埋伏の陣",
+    "kanaName": "じゅうめんまいふくのじん",
+    "cost": "3",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>範囲内の最も武将コストの高い敵の武力を下げ、計略の必要士気を上げる。この効果は必要士気１５を上限とする",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "84add373fd45131ded301f72967b093a"
+  },
+  "power": "2",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f1ee4003bbb0d33f9ebbd371a4a553f9",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4339"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "no": "玄164",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "a02f608a042107e2d6d63844c489aab9",
+  "detailImageId": "e07bff9f98e56280b79059bdfe995d9c",
+  "name": "太田道灌",
+  "kanaName": "おおたどうかん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "黄道無尽",
+    "kanaName": "こうどうむじん",
+    "cost": "7",
+    "description": "【陣形】玄の味方の武力と移動速度が上がる。さらに以下の短計を発動できる。短計を発動すると、代わりに玄の味方の武力と攻城力が上がり、移動速度が下がる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・王手【１】：陣形の効果が変わる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a02f608a042107e2d6d63844c489aab9",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4314"
+  }
+}

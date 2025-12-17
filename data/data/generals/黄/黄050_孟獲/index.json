@@ -1,0 +1,59 @@
+{
+  "no": "黄050",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "4ddbf642f6cdb6f44c0cddeeba00cfc8",
+  "detailImageId": "9588514f2599a0ff30997e77cd975dec",
+  "name": "孟獲",
+  "kanaName": "もうかく",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "南蛮王の大号令",
+    "kanaName": "なんばんおうのだいごうれい",
+    "cost": "7",
+    "description": "【象兵】（一定距離を移動することで突進オーラを纏い、突進可能状態になる）<br>黄の味方の武力が上がり、兵力が徐々に回復する。さらに自身の武力が上がり、兵種が象兵になる。さらに突進オーラ中に旋回操作を行うと、範囲内の敵に武力によるダメージを与え、跳躍させる震撃を行うようになる。ダメージは互いの武力で上下する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "ダメージ",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ddbf642f6cdb6f44c0cddeeba00cfc8",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4385"
+  }
+}

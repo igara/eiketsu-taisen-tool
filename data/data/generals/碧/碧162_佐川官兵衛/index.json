@@ -1,0 +1,46 @@
+{
+  "no": "碧162",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "7cce735bfe3540268776277942291217",
+  "detailImageId": "d28ae2e335663e8527177c682dfa32c1",
+  "name": "佐川官兵衛",
+  "kanaName": "さがわかんべえ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "鬼官兵衛の銃弾",
+    "kanaName": "おにかんべえのじゅうだん",
+    "cost": "4",
+    "description": "武力が上がる。この効果は兵力が少ないほど大きい。一定以上武力が上がるとさらに射程距離が上がり、射撃時の攻撃回数が増える",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7cce735bfe3540268776277942291217",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4345"
+  }
+}

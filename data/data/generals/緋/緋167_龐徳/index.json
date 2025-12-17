@@ -1,0 +1,46 @@
+{
+  "no": "緋167",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "2d4ea9b00b8bbfb5f0090cd4f596a46c",
+  "detailImageId": "9e1c237b977e3b9dd008c3db8777d093",
+  "name": "龐徳",
+  "kanaName": "ほうとく",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "果敢な砕突",
+    "kanaName": "かかんなさいとつ",
+    "cost": "4",
+    "description": "武力と移動速度と攻城力が上がり、突撃オーラが出るまでの距離が短縮される。さらに突撃で敵城にダメージを与えるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2d4ea9b00b8bbfb5f0090cd4f596a46c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4300"
+  }
+}

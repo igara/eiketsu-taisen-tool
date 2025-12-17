@@ -2,7 +2,8 @@
   "no": "EX142",
   "appear": "第4弾-EX",
   "appearPatterns": [
-    "ポイントショップイベント: 25/06/25〜25/07/22"
+    "ポイントショップイベント: 25/06/25〜25/07/22",
+    "ポイントショップイベント: 25/12/17〜"
   ],
   "id": "5755bd90f7b0b5da807c3a1b22dcae48",
   "detailImageId": "0d1c76709799d846574ac0049477e00b",
@@ -40,7 +41,7 @@
       "description": "兵種に応じて移動速度が上がります"
     }
   ],
-  "kabuki": "9",
+  "kabuki": "12",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5755bd90f7b0b5da807c3a1b22dcae48",
     "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4120"

@@ -1,0 +1,53 @@
+{
+  "no": "黄043",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "b33508f1267da8a7b0d12208bacafc49",
+  "detailImageId": "5f5843bb7426d21fbb156ddcc72c08b1",
+  "name": "祝融",
+  "kanaName": "しゅくゆう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "火神の戦輪",
+    "kanaName": "かしんのせんりん",
+    "cost": "5",
+    "description": "【象兵】（一定距離を移動することで突進オーラを纏い、突進可能状態になる）<br>武力が上がり、兵種が象兵になる。さらに接触すると武力によるダメージを与える戦輪が自身を周回するようになる。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b33508f1267da8a7b0d12208bacafc49",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4323"
+  }
+}

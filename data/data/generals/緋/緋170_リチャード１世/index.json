@@ -1,0 +1,51 @@
+{
+  "no": "緋170",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "84629ea0ad376f92a115e21ccbdde18c",
+  "detailImageId": "3eaead21f216bccc6b0523bacc468c1e",
+  "name": "リチャード１世",
+  "kanaName": "リチャード１せい",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "獅子の心臓",
+    "kanaName": "ししのしんぞう",
+    "cost": "7",
+    "description": "自身を除く緋の味方の武力と移動速度が上がり、乱戦中の移動速度減少が小さくなる。さらに自身を除く乱戦中の対象の味方部隊数が多いほど自身の武力と移動速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=84629ea0ad376f92a115e21ccbdde18c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4309"
+  }
+}

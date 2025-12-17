@@ -86,13 +86,28 @@ const main = async () => {
 	fs.mkdirSync("data/json", { recursive: true });
 	fs.mkdirSync("../app/public/images/stratRange", { recursive: true });
 
-	const gameWikiResult = await fetch("https://eiketsudb.gamewiki.jp/cardlist/");
+	const headers = {
+		"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+	};
+
+	const gameWikiResult = await fetch("https://eiketsudb.gamewiki.jp/cardlist/", { headers });
 	const gameWikiHTML = await gameWikiResult.text();
 	const gameWikiDOM = DOMParser.parse(gameWikiHTML);
 
-	const gameWikiData = gameWikiDOM
-		.getElementsByTagName("table")[0]
-		.getElementsByTagName("tbody")[0]
+	const gameWikiTables = gameWikiDOM.getElementsByTagName("table");
+	if (!gameWikiTables || gameWikiTables.length === 0) {
+		console.error("[gameWiki] No table found in the HTML");
+		console.log("[gameWiki] HTML preview:", gameWikiHTML.substring(0, 500));
+		throw new Error("[gameWiki] Expected table element not found");
+	}
+
+	const gameWikiTbody = gameWikiTables[0].getElementsByTagName("tbody");
+	if (!gameWikiTbody || gameWikiTbody.length === 0) {
+		console.error("[gameWiki] No tbody found in the table");
+		throw new Error("[gameWiki] Expected tbody element not found");
+	}
+
+	const gameWikiData = gameWikiTbody[0]
 		.getElementsByTagName("tr")
 		.map((tr) => {
 			const tds = tr.getElementsByTagName("td");
@@ -102,35 +117,50 @@ const main = async () => {
 			return { no, url };
 		});
 
-	const atWikiResult = await fetch(
-		"https://w.atwiki.jp/eiketsu-taisen/pages/216.html",
-	);
-	const atWikiHTML = await atWikiResult.text();
-	const atWikiDOM = DOMParser.parse(atWikiHTML);
-	const atWikiData = atWikiDOM
-		.getElementsByTagName("table")[0]
-		.getElementsByTagName("tr")
-		.reduce(
-			(previousValue, tr) => {
-				const tds = tr.getElementsByTagName("td");
-
-				if (tds[0]) {
-					const no = tds[0].innerText;
-					let url = tds[4].getElementsByTagName("a")[0].getAttribute("href");
-					if (url) {
-						url = url.replace("//", "https://");
-					}
-
-					previousValue.push({
-						no,
-						url,
-					});
-				}
-
-				return previousValue;
-			},
-			[] as { no: string; url: string | undefined }[],
+	let atWikiData: { no: string; url: string | undefined }[] = [];
+	try {
+		const atWikiResult = await fetch(
+			"https://w.atwiki.jp/eiketsu-taisen/pages/216.html",
+			{ headers },
 		);
+		const atWikiHTML = await atWikiResult.text();
+		const atWikiDOM = DOMParser.parse(atWikiHTML);
+
+		const atWikiTables = atWikiDOM.getElementsByTagName("table");
+		if (!atWikiTables || atWikiTables.length === 0) {
+			console.warn("[atWiki] No table found in the HTML (possibly blocked by Cloudflare)");
+			console.log("[atWiki] HTML preview:", atWikiHTML.substring(0, 500));
+			console.log("[atWiki] Skipping atWiki data...");
+		} else {
+			atWikiData = atWikiTables[0]
+				.getElementsByTagName("tr")
+				.reduce(
+					(previousValue, tr) => {
+						const tds = tr.getElementsByTagName("td");
+
+						if (tds[0]) {
+							const no = tds[0].innerText;
+							let url = tds[4].getElementsByTagName("a")[0].getAttribute("href");
+							if (url) {
+								url = url.replace("//", "https://");
+							}
+
+							previousValue.push({
+								no,
+								url,
+							});
+						}
+
+						return previousValue;
+					},
+					[] as { no: string; url: string | undefined }[],
+				);
+			console.log(`[atWiki] Successfully loaded ${atWikiData.length} entries`);
+		}
+	} catch (error) {
+		console.error("[atWiki] Failed to fetch data:", error);
+		console.log("[atWiki] Continuing without atWiki data...");
+	}
 
 	const baseJSONResult = await fetch(
 		"https://eiketsu-taisen.net/datalist/api/base",

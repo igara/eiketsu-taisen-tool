@@ -1,0 +1,48 @@
+{
+  "no": "緋161",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "6be4eb69035abd9c79fcebaaf5aa74be",
+  "detailImageId": "e6bb1d52bf7885a32e122bd2755ba242",
+  "name": "ジョン・オブ・ゴーント",
+  "kanaName": "ジョン・オブ・ゴーント",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "赤薔薇の陣",
+    "kanaName": "あかばらのじん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力が上がり、兵力が上限を超えて回復する。さらに敵の武力を下げ、対象の敵から自身が受けた基本兵種アクションのダメージに応じて、対象の敵の兵力が減少する",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6be4eb69035abd9c79fcebaaf5aa74be",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4336"
+  }
+}

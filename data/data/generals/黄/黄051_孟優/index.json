@@ -1,0 +1,41 @@
+{
+  "no": "黄051",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "a6a882f3cbb549c885719255c23d98e1",
+  "detailImageId": "91e46645ab5a92c74fe6ed3c3cd8fa17",
+  "name": "孟優",
+  "kanaName": "もうゆう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "象兵戦法",
+    "kanaName": "ぞうへいせんぽう",
+    "cost": "3",
+    "description": "【象兵】（一定距離を移動することで突進オーラを纏い、突進可能状態になる）<br>武力が上がり、兵種が象兵になる",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a6a882f3cbb549c885719255c23d98e1",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4386"
+  }
+}

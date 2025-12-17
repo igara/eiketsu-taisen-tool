@@ -1,0 +1,46 @@
+{
+  "no": "碧159",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "f6d38d7aa272916da6fdc7d712dffe97",
+  "detailImageId": "45f857c625ede62707f4b73e9ce3ddf1",
+  "name": "オーベロン",
+  "kanaName": "オーベロン",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "妖精王の悪戯",
+    "kanaName": "ようせいおうのいたずら",
+    "cost": "5",
+    "description": "味方の元の武力と知力の値を入れ替える",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f6d38d7aa272916da6fdc7d712dffe97",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4343"
+  }
+}

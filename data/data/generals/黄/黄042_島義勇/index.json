@@ -1,0 +1,48 @@
+{
+  "no": "黄042",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "aa145611624010cfa67d1a098ffe736a",
+  "detailImageId": "0c518a331a444ba796b578b77abdd55a",
+  "name": "島義勇",
+  "kanaName": "しまよしたけ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "黄熾の開拓",
+    "kanaName": "おうしのかいたく",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>黄の味方の武力が上がり、対象の味方の覇道が前進した時の黄熾ゲージの増加量が上がる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "黄熾"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aa145611624010cfa67d1a098ffe736a",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4379"
+  }
+}

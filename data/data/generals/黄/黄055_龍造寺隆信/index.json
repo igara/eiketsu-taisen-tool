@@ -1,0 +1,52 @@
+{
+  "no": "黄055",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "7bc363ec77fe5d2cbf41cf793d532ead",
+  "detailImageId": "2724540bdb8134a850e8c332c556028e",
+  "name": "龍造寺隆信",
+  "kanaName": "りゅうぞうじたかのぶ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "野獣の采配",
+    "kanaName": "やじゅうのさいはい",
+    "cost": "6",
+    "description": "黄の味方の武力が上がり、敵を撃破するたびに対象の味方全ての黄熾ゲージが増加する。ただし対象の味方が撤退するたびに自城にダメージを受ける",
+    "categories": [
+      "全体強化",
+      "黄熾"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bc363ec77fe5d2cbf41cf793d532ead",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4325"
+  }
+}

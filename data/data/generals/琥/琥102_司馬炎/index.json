@@ -1,0 +1,53 @@
+{
+  "no": "琥102",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "5e29bbb2afdb9b5146a2c2d7148014eb",
+  "detailImageId": "0c9d8b8856023163c3d703a6f9afe31e",
+  "name": "司馬炎",
+  "kanaName": "しばえん",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "天狼之星",
+    "kanaName": "てんろうのほし",
+    "cost": "7",
+    "description": "【拠点】【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>一定時間ごとに拠点から接触した琥の味方の武力が上がる波紋が発生する<br>３消費：さらに琥の味方の知力と移動速度が上がる波紋が発生する",
+    "categories": [
+      "全体強化",
+      "琥煌",
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5e29bbb2afdb9b5146a2c2d7148014eb",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4367"
+  }
+}

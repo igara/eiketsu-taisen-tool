@@ -1,0 +1,42 @@
+{
+  "no": "黄047",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "4d635677dccf2eb7bcba0db97c40cad3",
+  "detailImageId": "96e9a49fb8b4fde622f3c80f34506719",
+  "name": "彦鶴姫",
+  "kanaName": "ひこつるひめ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "満月の陣",
+    "kanaName": "まんげつのじん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の兵力が徐々に回復する。さらに対象の味方の黄熾ゲージの減少量が下がる",
+    "categories": [
+      "回復",
+      "陣形",
+      "黄熾"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4d635677dccf2eb7bcba0db97c40cad3",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4383"
+  }
+}

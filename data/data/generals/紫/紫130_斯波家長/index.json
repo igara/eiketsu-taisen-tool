@@ -1,0 +1,47 @@
+{
+  "no": "紫130",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "0a887f58d9f6f0d4892b991b82c6e4f4",
+  "detailImageId": "8a13e67400a992db3ed70aab8ec68695",
+  "name": "斯波家長",
+  "kanaName": "しばいえなが",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "烈風の賢陣",
+    "kanaName": "れっぷうのけんじん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>紫の味方の武力が上がる。さらに自身が斬撃ができるまでの間、味方の知力が上がる",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0a887f58d9f6f0d4892b991b82c6e4f4",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4362"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "no": "碧158",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "1a696e450b7a33d8cf723dbed75afee9",
+  "detailImageId": "45fdfe240960093502fa32d60826db54",
+  "name": "偉丈夫エスカノール",
+  "kanaName": "いじょうふエスカノール",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "進攻の戦旗",
+    "kanaName": "しんこうのせんき",
+    "cost": "2",
+    "description": "【旗陣形】味方の攻城力が上がり、乱戦中も攻城ゲージが増えるようになる旗陣形を設置する。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "9",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1a696e450b7a33d8cf723dbed75afee9",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4342"
+  }
+}

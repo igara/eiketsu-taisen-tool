@@ -1,0 +1,48 @@
+{
+  "no": "蒼164",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "ee9d8521e5d535066f48d7659155bc3e",
+  "detailImageId": "727c8f33884900d2c8b5805aa6003fda",
+  "name": "バヤール",
+  "kanaName": "バヤール",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "決着の交戦",
+    "kanaName": "けっちゃくのこうせん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力が上がり、自身に最も近い敵の移動速度を下げる。さらに対象の敵と接触している間、対象の敵への乱戦中の攻撃速度が上がる",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "84add373fd45131ded301f72967b093a"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ee9d8521e5d535066f48d7659155bc3e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4329"
+  }
+}

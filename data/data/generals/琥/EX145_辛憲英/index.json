@@ -2,7 +2,8 @@
   "no": "EX145",
   "appear": "第4弾-EX",
   "appearPatterns": [
-    "ポイントショップイベント: 25/06/25〜25/07/22"
+    "ポイントショップイベント: 25/06/25〜25/07/22",
+    "ポイントショップイベント: 25/12/17〜"
   ],
   "id": "14c57806f2406816b9a5dc7448e79cd4",
   "detailImageId": "ed42b269e60d288f7533a00929cf82f3",
@@ -43,7 +44,7 @@
       "description": "コストに応じて流派ゲージが増加した状態で開戦します"
     }
   ],
-  "kabuki": "18",
+  "kabuki": "48",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=14c57806f2406816b9a5dc7448e79cd4",
     "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4123"

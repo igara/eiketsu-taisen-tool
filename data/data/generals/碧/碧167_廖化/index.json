@@ -1,0 +1,47 @@
+{
+  "no": "碧167",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "d1e64e49d8012a747085454300e6f7b5",
+  "detailImageId": "0ecdf62e3e5fccb2de2910976c4b9a2d",
+  "name": "廖化",
+  "kanaName": "りょうか",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "凡将の奮激",
+    "kanaName": "ぼんしょうのふんげき",
+    "cost": "4",
+    "description": "武力が上がり、兵力が上限を超えて回復する。ただし効果終了時に兵力が減少する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d1e64e49d8012a747085454300e6f7b5",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4301"
+  }
+}

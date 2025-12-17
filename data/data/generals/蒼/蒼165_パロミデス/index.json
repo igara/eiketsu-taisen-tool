@@ -1,0 +1,46 @@
+{
+  "no": "蒼165",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "e47737f038ea61433d3d89124532f52e",
+  "detailImageId": "7fe0434ccf485f7516f50a5d08939848",
+  "name": "パロミデス",
+  "kanaName": "パロミデス",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "不敵な転戦",
+    "kanaName": "ふてきなてんせん",
+    "cost": "4",
+    "description": "武力が上がり、乱戦中の移動速度減少が小さくなる。さらに異なる敵と接触するたびに武力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e47737f038ea61433d3d89124532f52e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4330"
+  }
+}

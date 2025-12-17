@@ -1,0 +1,46 @@
+{
+  "no": "碧165",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "ef0efa06e86f460c6c033aa6daf29453",
+  "detailImageId": "ecd0674813701f84e0b3246a3eeab4be",
+  "name": "松平照",
+  "kanaName": "まつだいらてる",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "照姫の指揮",
+    "kanaName": "てるひめのしき",
+    "cost": "4",
+    "description": "碧の味方の武力が上がる。さらに自身の槍が長くなり、槍撃が複数部隊に当たるようになる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ef0efa06e86f460c6c033aa6daf29453",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4347"
+  }
+}

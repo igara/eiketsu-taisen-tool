@@ -1,0 +1,53 @@
+{
+  "no": "紫131",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "a374f7b5960dae1ddc15505d8805ae4c",
+  "detailImageId": "97caa43ee092580e18e8b6ce437de959",
+  "name": "俵屋宗達",
+  "kanaName": "たわらやそうたつ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "風神雷神図",
+    "kanaName": "ふうじんらいじんず",
+    "cost": "7",
+    "description": "カードの向いている方向に接触した部隊を弾き飛ばす竜巻を発生させる。さらに竜巻に接触した敵にカウンターが発生する。カウンターは時間経過で減少し、カウンターが０になると範囲内の敵にダメージを与える。ただしカウンターが発生した部隊が城に戻るとカウンターはリセットされ、竜巻は同時に複数発動できない",
+    "categories": [
+      "妨害",
+      "ダメージ",
+      "特殊"
+    ],
+    "time": "一瞬",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "7",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a374f7b5960dae1ddc15505d8805ae4c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4302"
+  }
+}

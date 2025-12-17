@@ -1,0 +1,49 @@
+{
+  "no": "碧164",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "fb57ce5f0ec0af803f4fd3558237020e",
+  "detailImageId": "798b82cdd22d030ce121fae21734fe94",
+  "name": "ベルシラック",
+  "kanaName": "ベルシラック",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "突破の戦旗",
+    "kanaName": "とっぱのせんき",
+    "cost": "3",
+    "description": "【旗陣形】味方の武力が上がり、乱戦中の移動速度減少が小さくなる旗陣形を設置する。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fb57ce5f0ec0af803f4fd3558237020e",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4346"
+  }
+}

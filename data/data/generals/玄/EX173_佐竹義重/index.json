@@ -1,0 +1,44 @@
+{
+  "no": "EX173",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 25/12/17〜"
+  ],
+  "id": "f9d46c41f9a8a346fd47663dce7b602d",
+  "detailImageId": "1e10f6ac3bd0e35be746235290fea622",
+  "name": "佐竹義重",
+  "kanaName": "さたけよししげ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "4.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "鬼義重の咆哮",
+    "kanaName": "おによししげのほうこう",
+    "cost": "7",
+    "description": "武力と移動速度が上がる。さらに自軍が戦器を解放していなければ効果終了時に自軍の士気が上がり、戦器を解放していれば武力と移動速度と斬撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "12",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f9d46c41f9a8a346fd47663dce7b602d"
+  }
+}

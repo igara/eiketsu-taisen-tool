@@ -1,0 +1,46 @@
+{
+  "no": "琥097",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "6bde3b96eaae7dbf0bf0b7ddf06c59c7",
+  "detailImageId": "432ba89d288974ae64fde38b0ad1007e",
+  "name": "有馬新七",
+  "kanaName": "ありましんしち",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "俊傑の構え",
+    "kanaName": "しゅんけつのかまえ",
+    "cost": "2",
+    "description": "知力が上がる。さらに琥煌ゲージが増加する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6bde3b96eaae7dbf0bf0b7ddf06c59c7",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4364"
+  }
+}

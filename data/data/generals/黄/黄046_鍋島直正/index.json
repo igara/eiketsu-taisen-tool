@@ -1,0 +1,46 @@
+{
+  "no": "黄046",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "67c93899fae4770d68a833e58afb030b",
+  "detailImageId": "c0d897a45cf6e497e82ec95f9f032bd2",
+  "name": "鍋島直正",
+  "kanaName": "なべしまなおまさ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "革命の狼煙",
+    "kanaName": "かくめいののろし",
+    "cost": "7",
+    "description": "敵に知力によるダメージを与える。ダメージは互いの知力で上下する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "4",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=67c93899fae4770d68a833e58afb030b",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4382"
+  }
+}

@@ -24,7 +24,7 @@
   "dependencies": {
     "@techstark/opencv-js": "^4.10.0-release.1",
     "@tensorflow/tfjs-node": "^4.22.0",
-    "canvas": "^2.11.2",
+    "canvas": "3.2.0",
     "dayjs": "^1.11.13",
     "googleapis": "^144.0.0",
     "image-hash": "^5.3.2",

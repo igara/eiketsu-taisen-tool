@@ -1,0 +1,46 @@
+{
+  "no": "碧160",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "fa7756514248b500bb0aac45ef32bb3d",
+  "detailImageId": "ae789d43be24f9453436e2dcd9aaad91",
+  "name": "岳飛",
+  "kanaName": "がくひ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "尽忠報国",
+    "kanaName": "じんちゅうほうこく",
+    "cost": "7",
+    "description": "碧の味方の武力と知力が上がる。さらに自身は全方向に槍の無敵攻撃を行い、旋回操作を行うと、向いている方向に槍を投げるようになる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fa7756514248b500bb0aac45ef32bb3d",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4310"
+  }
+}

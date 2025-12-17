@@ -1,0 +1,40 @@
+{
+  "no": "蒼167",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "fa5736c40926ddd3a6fc0ed25e6245f7",
+  "detailImageId": "0d0ae896a5f77496aa45b6ec7a948c8f",
+  "name": "蒙恬",
+  "kanaName": "もうてん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "智将の機略",
+    "kanaName": "ちしょうのきりゃく",
+    "cost": "4",
+    "description": "春秋戦国の味方の武力と知力が上がる。さらに対象の味方の武力が知力より高ければ知力が上がり、知力が武力より高ければ武力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fa5736c40926ddd3a6fc0ed25e6245f7",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4332"
+  }
+}

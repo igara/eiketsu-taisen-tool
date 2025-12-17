@@ -1,0 +1,52 @@
+{
+  "no": "緋163",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "81c1ebf601d557d8f4ea88eed68df3fc",
+  "detailImageId": "05edb37293c1dc6249eab76200404138",
+  "name": "武田信虎",
+  "kanaName": "たけだのぶとら",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "暴君の虎威",
+    "kanaName": "ぼうくんのこい",
+    "cost": "7",
+    "description": "戦国の味方の武力が上がり、兵力が上限を超えて回復する。さらに対象の味方が撤退するたびに対象の味方全ての兵力が上限を超えて回復する。ただし兵力が徐々に減少する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=81c1ebf601d557d8f4ea88eed68df3fc",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4338"
+  }
+}

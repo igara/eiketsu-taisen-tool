@@ -1,0 +1,46 @@
+{
+  "no": "蒼160",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "46221114a65a5dfabf704b518d9783ff",
+  "detailImageId": "b9536efe6f484c66fd28f76c8ffea13f",
+  "name": "袁姫",
+  "kanaName": "えんき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "貞姫の激励",
+    "kanaName": "ていきのげきれい",
+    "cost": "5",
+    "description": "蒼の味方の武力が上がる。この効果は城内にいる撤退していない蒼の味方の武将コストの合計値が高いほど大きい。この計略は城内にいる時のみ使用できる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=46221114a65a5dfabf704b518d9783ff",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4304"
+  }
+}

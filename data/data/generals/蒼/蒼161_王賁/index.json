@@ -1,0 +1,40 @@
+{
+  "no": "蒼161",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "9db098c45098fd4a9404532919f4ad10",
+  "detailImageId": "325cba311cd949734cdfba43237bf0bf",
+  "name": "王賁",
+  "kanaName": "おうほん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "捕縛の謀略",
+    "kanaName": "ほばくのぼうりゃく",
+    "cost": "5",
+    "description": "敵の武力を下げる。さらに自部隊と接触している間、移動速度を下げる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9db098c45098fd4a9404532919f4ad10",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4305"
+  }
+}

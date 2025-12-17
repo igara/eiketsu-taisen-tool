@@ -1,0 +1,41 @@
+{
+  "no": "玄171",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "84059001fb5275ab089bac929ec6def3",
+  "detailImageId": "8f3d342ff2efc7846f9042956cb860d9",
+  "name": "三好義継",
+  "kanaName": "みよしよしつぐ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "名誉の散り様",
+    "kanaName": "めいよのちりざま",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>玄の味方の武力が上がる。ただし効果終了時に自身は撤退する",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=84059001fb5275ab089bac929ec6def3",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4356"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "no": "碧168",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "2e363baf03118210b0db53e5ad3fe7b6",
+  "detailImageId": "1e04746f7e6bf3b469f815d110ae3ba8",
+  "name": "梁紅玉",
+  "kanaName": "りょうこうぎょく",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "将妻の祈り",
+    "kanaName": "しょうさいのいのり",
+    "cost": "3",
+    "description": "最も武力の高い味方の武力が上がる。対象の味方が陣形を発動している場合、さらに兵力が徐々に回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "3",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2e363baf03118210b0db53e5ad3fe7b6",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4348"
+  }
+}

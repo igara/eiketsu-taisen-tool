@@ -1,0 +1,52 @@
+{
+  "no": "琥099",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "5fdbb41b9b67fd269ca4023c03716d13",
+  "detailImageId": "01d39a0f7d6a6430959a4f955d267a35",
+  "name": "賈南風",
+  "kanaName": "かなんぷう",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "悪女の淫蕩",
+    "kanaName": "あくじょのいんとう",
+    "cost": "8",
+    "description": "【琥煌：最大消費６】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の武力が上がる<br>３消費：さらに移動速度が上がる<br>６消費：さらに攻城力が上がり、自身の弓攻撃できる部隊数が増え、弓攻撃でダメージを与えた敵の兵力を一定時間徐々に減少させる",
+    "categories": [
+      "全体強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "4",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5fdbb41b9b67fd269ca4023c03716d13",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4322"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "no": "紫124",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "6e79f9762050633969395b69f340ff75",
+  "detailImageId": "28f94d5a52eecfc7c802ab7801061548",
+  "name": "足利直冬",
+  "kanaName": "あしかがただふゆ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "渾身の神速号令",
+    "kanaName": "こんしんのしんそくごうれい",
+    "cost": "7",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>紫の味方の武力が上がり、騎兵であれば移動速度が上がる。一定以上武力が上がると、さらに騎兵の味方の突撃ダメージが上がる",
+    "categories": [
+      "全体強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6e79f9762050633969395b69f340ff75",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4317"
+  }
+}

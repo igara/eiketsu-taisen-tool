@@ -1,0 +1,47 @@
+{
+  "no": "蒼159",
+  "appear": "第5弾-2",
+  "appearPatterns": [
+    "探索(武将): 25/12/17〜",
+    "武将獲得: 25/12/17〜"
+  ],
+  "id": "258e823e44207f85964e8a29dc744cf5",
+  "detailImageId": "0a6e54df0dbfafca8845cd05675ac000",
+  "name": "エクター・ド・マリス",
+  "kanaName": "エクター・ド・マリス",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "聖なる願い",
+    "kanaName": "せいなるねがい",
+    "cost": "6",
+    "description": "蒼の味方の武力が上がる。さらに最も武力の高い味方の兵力が上限を超えて回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=258e823e44207f85964e8a29dc744cf5",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4326"
+  }
+}
