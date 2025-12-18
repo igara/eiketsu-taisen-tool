@@ -799,6 +799,45 @@ const hashImage = (imagePath: string, bits = 16): Promise<string> => {
 	});
 };
 
+// 画像の類似度を計算（SSIM的なアプローチ）
+const calculateImageSimilarity = async (
+	imagePath1: string,
+	imagePath2: string,
+): Promise<number> => {
+	try {
+		// 両方の画像を同じサイズにリサイズして比較
+		const size = { width: 64, height: 96 };
+		const [img1, img2] = await Promise.all([
+			sharp(imagePath1)
+				.resize(size.width, size.height, { fit: "fill" })
+				.raw()
+				.toBuffer(),
+			sharp(imagePath2)
+				.resize(size.width, size.height, { fit: "fill" })
+				.raw()
+				.toBuffer(),
+		]);
+
+		// MSE（平均二乗誤差）を計算
+		let sumSquaredDiff = 0;
+		for (let i = 0; i < img1.length; i++) {
+			const diff = img1[i] - img2[i];
+			sumSquaredDiff += diff * diff;
+		}
+		const mse = sumSquaredDiff / img1.length;
+		
+		// MSEを0-100のスコアに変換（0が完全一致、100が完全不一致）
+		// 最大MSEを255^2として正規化
+		const maxMSE = 255 * 255;
+		const similarity = (mse / maxMSE) * 100;
+		
+		return similarity;
+	} catch (error) {
+		console.error(`Error calculating similarity: ${error}`);
+		return 100; // エラー時は不一致として扱う
+	}
+};
+
 const youtubeDeckImport = async () => {
 	const YoutubeJSON: Youtube[] = JSON.parse(
 		fs.readFileSync("data/json/youtube.json", "utf8"),
@@ -957,7 +996,8 @@ const youtubeDeckImport = async () => {
 			return acc;
 		}, {});
 
-		const diffThreshold = 50;
+		const hashThreshold = 60; // ハッシュ差分の閾値（16bit）
+		const pixelThreshold = 25; // ピクセル差分の閾値（0-100）
 
 		const diffCheck = async (
 			generalImg: {
@@ -970,25 +1010,40 @@ const youtubeDeckImport = async () => {
 			color: "red" | "blue",
 			num: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8,
 		) => {
-			const colorGeneralImage = await hashImage(
-				`${cacheImagePath}/${color}_${num}.jpg`,
-			);
-			const colorDiff = colorGeneralImage
+			const targetImagePath = `${cacheImagePath}/${color}_${num}.jpg`;
+			const colorGeneralImage = await hashImage(targetImagePath);
+			
+			// ハッシュベースの比較（ハミング距離）
+			const hashDiff = colorGeneralImage
 				.split("")
 				.reduce((acc, char, index) => {
 					return acc + (char !== generalImg.hashImage[index] ? 1 : 0);
 				}, 0);
-			if (colorDiff <= diffThreshold) {
-				if (colorDiff < minDiff[`${color}${num}`]) {
-					minDiff[`${color}${num}`] = colorDiff;
-					detectionGenerals[`${color}${num}`] = {
-						no: generalImg.no,
-						name: generalImg.name,
-						kanaName: generalImg.kanaName,
-						imagePath: generalImg.path,
-						originalImagePath: `${cacheImagePath}/${color}_${num}.jpg`,
-						allImagePath,
-					};
+			
+			// ハッシュで候補に入った場合のみピクセル比較を実行
+			if (hashDiff <= hashThreshold) {
+				// ピクセルベースの類似度を計算
+				const pixelDiff = await calculateImageSimilarity(
+					generalImg.path,
+					targetImagePath,
+				);
+				
+				// ピクセル差分も閾値内なら採用
+				if (pixelDiff <= pixelThreshold) {
+					// 総合スコアを計算（ピクセル差分を重視）
+					const combinedScore = hashDiff * 0.3 + pixelDiff * 0.7;
+					
+					if (combinedScore < minDiff[`${color}${num}`]) {
+						minDiff[`${color}${num}`] = combinedScore;
+						detectionGenerals[`${color}${num}`] = {
+							no: generalImg.no,
+							name: generalImg.name,
+							kanaName: generalImg.kanaName,
+							imagePath: generalImg.path,
+							originalImagePath: targetImagePath,
+							allImagePath,
+						};
+					}
 				}
 			}
 		};
