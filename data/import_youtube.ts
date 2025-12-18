@@ -98,8 +98,14 @@ const youtubeImport = async () => {
 		let version = 0;
 
 		if (
-			titleDateDay.isSame("2023/11/02") ||
-			titleDateDay.isAfter("2023/11/02")
+			titleDateDay.isSame("2025/07/24") ||
+			titleDateDay.isAfter("2025/07/24")
+		) {
+			version = 4;
+		}
+		if (
+			titleDateDay.isSame("2025/07/22") ||
+			titleDateDay.isBefore("2025/07/22")
 		) {
 			version = 3;
 		}
@@ -617,6 +623,160 @@ const youtubeImport = async () => {
 					.toFile(`${cacheImagePath}/blue_8.jpg`),
 			]);
 		}
+
+		if (version === 4) {
+			const cardSize = {
+				width: 92,
+				height: 142,
+			};
+
+			await Promise.all([
+				img
+					.clone()
+					.extract({
+						left: 150,
+						top: 298,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_1.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 276,
+						top: 298,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_2.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 400,
+						top: 298,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_3.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 524,
+						top: 298,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_4.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 524,
+						top: 510,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_5.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 400,
+						top: 510,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_6.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 276,
+						top: 510,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_7.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 150,
+						top: 510,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/red_8.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 662,
+						top: 298,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_1.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 788,
+						top: 298,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_2.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 912,
+						top: 298,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_3.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 1038,
+						top: 298,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_4.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 662,
+						top: 510,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_5.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 788,
+						top: 510,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_6.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 912,
+						top: 510,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_7.jpg`),
+				img
+					.clone()
+					.extract({
+						left: 1038,
+						top: 510,
+						width: cardSize.width,
+						height: cardSize.height,
+					})
+					.toFile(`${cacheImagePath}/blue_8.jpg`),
+			]);
+		}
 	}
 };
 youtubeImportExec && youtubeImport();
@@ -714,7 +874,7 @@ const youtubeDeckImport = async () => {
 		name: string;
 		kanaName: string;
 	}[] = await Promise.all([
-		...[...Array(126)].map(async (_, index) => {
+		...[...Array(135)].map(async (_, index) => {
 			const i = index + 1;
 			const imagePath = `data/dummy/dummy/${i}.jpg`;
 			return {
@@ -890,18 +1050,34 @@ const youtubeDeckImport = async () => {
 		insertDeck(detectionGenerals.red2, 1);
 		insertDeck(detectionGenerals.red3, 1);
 		insertDeck(detectionGenerals.red4, 1);
-		insertDeck(detectionGenerals.red5, 1);
-		insertDeck(detectionGenerals.red6, 1);
-		insertDeck(detectionGenerals.red7, 1);
-		insertDeck(detectionGenerals.red8, 1);
+		if (detectionGenerals.red5.no) {
+			insertDeck(detectionGenerals.red5, 1);
+			if (detectionGenerals.red6.no) {
+				insertDeck(detectionGenerals.red6, 1);
+				if (detectionGenerals.red7.no) {
+					insertDeck(detectionGenerals.red7, 1);
+					if (detectionGenerals.red8.no) {
+						insertDeck(detectionGenerals.red8, 1);
+					}
+				}
+			}
+		}
 		insertDeck(detectionGenerals.blue1, 2);
 		insertDeck(detectionGenerals.blue2, 2);
 		insertDeck(detectionGenerals.blue3, 2);
 		insertDeck(detectionGenerals.blue4, 2);
-		insertDeck(detectionGenerals.blue5, 2);
-		insertDeck(detectionGenerals.blue6, 2);
-		insertDeck(detectionGenerals.blue7, 2);
-		insertDeck(detectionGenerals.blue8, 2);
+		if (detectionGenerals.blue5.no) {
+			insertDeck(detectionGenerals.blue5, 2);
+			if (detectionGenerals.blue6.no) {
+				insertDeck(detectionGenerals.blue6, 2);
+				if (detectionGenerals.blue7.no) {
+					insertDeck(detectionGenerals.blue7, 2);
+					if (detectionGenerals.blue8.no) {
+						insertDeck(detectionGenerals.blue8, 2);
+					}
+				}
+			}
+		}
 	};
 
 	// const v1Videos = YoutubeJSON.filter((video) => video.version === 1);
