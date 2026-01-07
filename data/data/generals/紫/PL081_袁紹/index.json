@@ -2,7 +2,8 @@
   "no": "PL081",
   "appear": "第4弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 25/01/01〜25/01/14"
+    "大戦スタンプキャンペーン: 25/01/01〜25/01/14",
+    "大戦スタンプキャンペーン: 25/12/31〜26/01/13"
   ],
   "id": "8d7b6105669a6dfb88f7047b975e1dc3",
   "detailImageId": "e81f2c73410ab84f5acfb937943dd59a",
@@ -38,7 +39,7 @@
       "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
     }
   ],
-  "kabuki": "16",
+  "kabuki": "20",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8d7b6105669a6dfb88f7047b975e1dc3",
     "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_3115"
