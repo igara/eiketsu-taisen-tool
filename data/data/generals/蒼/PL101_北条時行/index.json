@@ -1,0 +1,56 @@
+{
+  "no": "PL101",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/01/14〜26/01/27"
+  ],
+  "id": "36a7c0225431cefab720b6f60582395c",
+  "detailImageId": "2fbe68548f6086732163d3899e1cbcc2",
+  "name": "北条時行",
+  "kanaName": "ほうじょうときゆき",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "逃げ上手の若君",
+    "kanaName": "にげじょうずのわかぎみ",
+    "cost": "4",
+    "description": "自身を除く味方の武力が上がる。さらに自身の移動速度が上がり、突撃を敵に当てるたびに自身を除く戦場にいる対象の武力の低い順に「逃」が出現する。自身の効果が終了した時、この計略の効果は終了する。さらに計略中に士気を消費し再度計略を発動できる。再度計略を発動した場合、自身と戦場にいる「逃」が出現した味方を一瞬で城に戻し、移動速度が上がる",
+    "categories": [
+      "全体強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "4",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=36a7c0225431cefab720b6f60582395c",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4394"
+  }
+}

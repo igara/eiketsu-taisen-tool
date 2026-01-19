@@ -1,0 +1,46 @@
+{
+  "no": "PL102",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/01/14〜26/01/27"
+  ],
+  "id": "d78b2bf44c41942a33adf3c4effd49d9",
+  "detailImageId": "46289cf0d369dd77e0ff638fe83686f9",
+  "name": "弧次郎",
+  "kanaName": "こじろう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "副将の真剣勝負",
+    "kanaName": "ふくしょうのしんけんしょうぶ",
+    "cost": "4",
+    "description": "武力が上がり、最も武力の高い敵を自身に向かってくるようにするが、自身が対象の敵の方向に強制的に移動する。ただし範囲内に敵がいない場合、効果が下がる",
+    "categories": [
+      "強化",
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d78b2bf44c41942a33adf3c4effd49d9",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4395"
+  }
+}

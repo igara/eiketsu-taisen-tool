@@ -1,0 +1,47 @@
+{
+  "no": "PL104",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/01/14〜26/01/27"
+  ],
+  "id": "04bdc2541a2fa0a46a75a5e300bbf19f",
+  "detailImageId": "4040c72e2fbbd29b881482b7efec9f61",
+  "name": "諏訪頼重",
+  "kanaName": "すわよりしげ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "神力",
+    "kanaName": "しんりき",
+    "cost": "3",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>カードの位置に神力を設置する。神力の効果は徐々に上がるが、一定時間後に徐々に下がる。神力設置中に自軍の士気を消費することで再度計略を発動できる。再度計略を発動した場合、味方の武力が上がり、敵の武力を下げる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "ため計略"
+    ],
+    "time": "固定時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=04bdc2541a2fa0a46a75a5e300bbf19f",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4397"
+  }
+}

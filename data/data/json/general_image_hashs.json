@@ -1998,6 +1998,15 @@
     }
   },
   {
+    "no": "PL101",
+    "deckImageHash": "01f704ff40fe003f626706af388f07c377017f00ff80f807f80cf80e7b1e03e4",
+    "name": "北条時行",
+    "kanaName": "ほうじょうときゆき",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "ST002",
     "deckImageHash": "f050e07ee01ef01f004bc3ef03dcf1d8e858fb20d7c22fc0ff807c8011e81ff4",
     "name": "曹操",
@@ -3991,6 +4000,15 @@
     "deckImageHash": "ff6f03e103e007e07f98f6f801c00dc3000e41fa63fe0ff80ff80f7c1f0c3e10",
     "name": "緋村剣心",
     "kanaName": "ひむらけんしん",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "PL103",
+    "deckImageHash": "73f061fc407e0c1ec6041987fc27f907e3f3c771c720821a873f831f813f800f",
+    "name": "亜也子",
+    "kanaName": "あやこ",
     "color": {
       "name": "緋"
     }
@@ -8037,6 +8055,15 @@
     }
   },
   {
+    "no": "PL102",
+    "deckImageHash": "00f700ff413e09fe01000876afdeaf3fe7bf80738003f827ff077fc61f8c0040",
+    "name": "弧次郎",
+    "kanaName": "こじろう",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "紫001",
     "deckImageHash": "2ff36ff94278002801be603fe13afc6075050b0ff03fe00f430d333ae0fb80f9",
     "name": "浅井長政",
@@ -11272,6 +11299,15 @@
     "deckImageHash": "07e709cf380fe04700ffc1ffc07e001eff07f903c08381e3c3f078e0f800fbc6",
     "name": "比古清十郎",
     "kanaName": "ひこせいじゅうろう",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "PL104",
+    "deckImageHash": "00031c1f7c1e7dde60806150fb7eba4f795e7b087f027046e23fe04fc14741a6",
+    "name": "諏訪頼重",
+    "kanaName": "すわよりしげ",
     "color": {
       "name": "黄"
     }
