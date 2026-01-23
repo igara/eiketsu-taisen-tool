@@ -1,0 +1,50 @@
+{
+  "no": "PL103",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/01/14〜26/01/27"
+  ],
+  "id": "88d52d62a244fb88ef55fc656a995e28",
+  "detailImageId": "87189096de07a980b81d2d81edbb1ff4",
+  "name": "亜也子",
+  "kanaName": "あやこ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "怪力娘の薙刀",
+    "kanaName": "かいりきむすめのなぎなた",
+    "cost": "3",
+    "description": "武力と移動速度と槍撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=88d52d62a244fb88ef55fc656a995e28",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4396"
+  }
+}
