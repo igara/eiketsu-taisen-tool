@@ -5967,6 +5967,15 @@
     }
   },
   {
+    "no": "PL106",
+    "deckImageHash": "01d210fc477e233fe19fc03fc05fd003c803e807f807ff07ff877f1e3e0c0040",
+    "name": "風間玄蕃",
+    "kanaName": "かざまげんば",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
     "no": "ST004",
     "deckImageHash": "3fc007f007fc8e078803ef7c27b80fe083f8c9e0c078e1cf09df493fc1cfc201",
     "name": "上杉謙信",
@@ -9585,6 +9594,24 @@
     }
   },
   {
+    "no": "PL107",
+    "deckImageHash": "00d217fc41fe3d98260010e7fe37fc13fc09f718e783c424843fc03fe01e307e",
+    "name": "吹雪",
+    "kanaName": "ふぶき",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "PL108",
+    "deckImageHash": "fffffc0171804180fb9fc387e463c000c1b0c1b08ff0aff0c03bc13ed11ef4c1",
+    "name": "足利尊氏",
+    "kanaName": "あしかがたかうじ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "琥001",
     "deckImageHash": "7e00fef8fc38e001f9adfc41e081e170c1e1d0e10e652fcd67ede7ff04062006",
     "name": "池田輝政",
@@ -11308,6 +11335,15 @@
     "deckImageHash": "00031c1f7c1e7dde60806150fb7eba4f795e7b087f027046e23fe04fc14741a6",
     "name": "諏訪頼重",
     "kanaName": "すわよりしげ",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "PL105",
+    "deckImageHash": "01f7147d403e39bc41380dff9887fc03fe80f8c0f843e037f01fd81f4bcc01f0",
+    "name": "雫",
+    "kanaName": "しずく",
     "color": {
       "name": "黄"
     }

@@ -1,0 +1,51 @@
+{
+  "no": "PL106",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/01/28〜26/02/10"
+  ],
+  "id": "5bd8991bd8fee36fe37574ab30fda017",
+  "detailImageId": "a15e1d1d10d594ce13dadd232f0bcabd",
+  "name": "風間玄蕃",
+  "kanaName": "かざまげんば",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "原始の忍",
+    "kanaName": "げんしのしのび",
+    "cost": "4",
+    "description": "武力と移動速度が上がる。さらに旋回操作を行うと、自身の位置に知力によるダメージを与える焙烙による攻撃を行うようになり、自城方向に一瞬で移動する。ダメージは互いの知力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5bd8991bd8fee36fe37574ab30fda017",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4399"
+  }
+}
