@@ -1,0 +1,41 @@
+{
+  "no": "PL105",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/01/28〜26/02/10"
+  ],
+  "id": "f3790ddfbd42f8550bbb3d39aa7ed852",
+  "detailImageId": "5ddeebe504f655abb10909c1db9b06a2",
+  "name": "雫",
+  "kanaName": "しずく",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "神楽舞",
+    "kanaName": "かぐらまい",
+    "cost": "4",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の兵力が徐々に回復する。さらに旋回操作を行うと、対象の味方の武力が一定時間上がる。この操作は効果中に一度だけ使用できる",
+    "categories": [
+      "全体強化",
+      "回復",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3790ddfbd42f8550bbb3d39aa7ed852",
+    "gameWiki": "https://eiketsudb.gamewiki.jp/%e6%ad%a6%e5%b0%86%e3%82%ab%e3%83%bc%e3%83%89_4398"
+  }
+}
