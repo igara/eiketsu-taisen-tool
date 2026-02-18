@@ -1,0 +1,49 @@
+{
+  "no": "EX179",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 26/02/18〜26/03/17"
+  ],
+  "id": "52473505b7e6e156728a40eb5fc87fcf",
+  "detailImageId": "987450a01dbca60f13c1cc554f3fb29d",
+  "name": "荀灌",
+  "kanaName": "じゅんかん",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "荀血の目覚め",
+    "kanaName": "じゅんけつのめざめ",
+    "cost": "3",
+    "description": "戦場にいる琥の味方の武力の最大値が大きいほど武力が上がる。一定以上武力が上がると、さらに移動速度が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=52473505b7e6e156728a40eb5fc87fcf"
+  }
+}

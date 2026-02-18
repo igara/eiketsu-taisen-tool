@@ -1,0 +1,44 @@
+{
+  "no": "EX177",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 26/02/18〜26/03/17"
+  ],
+  "id": "6fe6bfce66d5eec8acc49e5daddcbb81",
+  "detailImageId": "9683ee2931442e18c441f125d6011f3e",
+  "name": "アニエス・ソレル",
+  "kanaName": "アニエス・ソレル",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "箱庭嬢の宝石",
+    "kanaName": "はこにわじょうのほうせき",
+    "cost": "6",
+    "description": "蒼の味方の武力が上がる。自身が戦噐「宝石」を装備している場合、さらに対象の味方の武力が上がり、英魂効果が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "4",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6fe6bfce66d5eec8acc49e5daddcbb81"
+  }
+}
