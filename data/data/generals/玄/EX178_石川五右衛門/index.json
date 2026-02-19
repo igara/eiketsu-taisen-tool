@@ -1,0 +1,44 @@
+{
+  "no": "EX178",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 26/02/18〜26/03/17"
+  ],
+  "id": "2adfe07cec5f6d75c060d58c1f457fad",
+  "detailImageId": "971426238c36cee9ddc0c7a473d21103",
+  "name": "石川五右衛門",
+  "kanaName": "いしかわごえもん",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "天下の大泥棒",
+    "kanaName": "てんかのおおどろぼう",
+    "cost": "4",
+    "description": "敵軍が消費した士気に応じて自身の武力が上がり、自軍の士気が上がる。この計略は先行入力かつ範囲内に計略を使用した敵がいる時、発動できる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2adfe07cec5f6d75c060d58c1f457fad"
+  }
+}
