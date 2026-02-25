@@ -1,0 +1,45 @@
+{
+  "no": "EX180",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 26/02/25〜26/03/17"
+  ],
+  "id": "99ed7f9cdc4423568f05fe102c4f7b22",
+  "detailImageId": "365d622aef470d633c0c811522d72ffd",
+  "name": "霧隠才蔵",
+  "kanaName": "きりがくれさいぞう",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "忍法霧隠れ",
+    "kanaName": "にんぽうきりがくれ",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、範囲内に敵から味方部隊が見えなくなる霧が出現する。さらに霧の中にいる間、自身の武力と乱戦中の攻撃速度が上がる",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=99ed7f9cdc4423568f05fe102c4f7b22"
+  }
+}
