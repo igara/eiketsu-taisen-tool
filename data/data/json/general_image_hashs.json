@@ -3852,6 +3852,15 @@
     }
   },
   {
+    "no": "EX180",
+    "deckImageHash": "611761e18fe185f19fb21c28f80ef838fc21f80fe02fc017803f8013f178f979",
+    "name": "霧隠才蔵",
+    "kanaName": "きりがくれさいぞう",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "PL012",
     "deckImageHash": "01f7003d0f8e1bf31fbc1b820f801ff80f9f0d8f03c3049f041f011f379f078f",
     "name": "神楽",
@@ -5791,6 +5800,15 @@
     "deckImageHash": "77c27e843cce3c807e8099a00f99fe64ffc0ff00fc00fc80fc83f007780eb817",
     "name": "松平信綱",
     "kanaName": "まつだいらのぶつな",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "EX181",
+    "deckImageHash": "7e02ee80e07cc92f99381828431ef3eff7e7f170d99001a0398c82060f6787bf",
+    "name": "お振の方",
+    "kanaName": "おふりのかた",
     "color": {
       "name": "碧"
     }
