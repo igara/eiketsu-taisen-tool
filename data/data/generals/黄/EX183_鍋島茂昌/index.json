@@ -1,0 +1,45 @@
+{
+  "no": "EX183",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 26/03/04〜26/03/17"
+  ],
+  "id": "21b05b085a6c9b60bbcf1b1b0fb4eaf7",
+  "detailImageId": "af3592a88a950ae84d8aa3d22b9c494e",
+  "name": "鍋島茂昌",
+  "kanaName": "なべしましげはる",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "鍋島流砲術",
+    "kanaName": "なべしまりゅうほうじゅつ",
+    "cost": "7",
+    "description": "黄の味方の武力が上がり、敵を撃破するたびに対象の味方全ての黄熾ゲージが増加する。さらに自身が同時に射撃できる部隊数が増える",
+    "categories": [
+      "全体強化",
+      "黄熾"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21b05b085a6c9b60bbcf1b1b0fb4eaf7"
+  }
+}

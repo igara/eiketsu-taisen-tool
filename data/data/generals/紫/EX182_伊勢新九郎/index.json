@@ -1,0 +1,50 @@
+{
+  "no": "EX182",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 26/03/04〜26/03/17"
+  ],
+  "id": "fca716ef9519e0007d21bb97d8b8dfc3",
+  "detailImageId": "5b4b0a91818adfa94cc20fb64afff20c",
+  "name": "伊勢新九郎",
+  "kanaName": "いせしんくろう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "興国の流星",
+    "kanaName": "こうこくのりゅうせい",
+    "cost": "5",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力と移動速度が上がる。一定以上武力が上がると、さらに突撃ダメージが上がり、突撃で敵を弾くようになる",
+    "categories": [
+      "強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fca716ef9519e0007d21bb97d8b8dfc3"
+  }
+}
