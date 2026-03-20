@@ -1,0 +1,45 @@
+{
+  "no": "PL112",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/03/18〜26/03/31"
+  ],
+  "id": "afb3f5245130b67f168d79a6b96da92e",
+  "detailImageId": "c08b74edc0ed961b0e49e15d93fc6bac",
+  "name": "モルガン",
+  "kanaName": "モルガン",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "最果てより",
+    "kanaName": "さいはてより",
+    "cost": "6",
+    "description": "碧の味方の武力が上がる。さらに計略を使用した回数によって効果が追加されていく<br>２回目：さらに武力が上がる<br>３回目：さらに兵力が回復する<br>４回目以降：さらに移動速度が上がり、自身の射撃時の攻撃間隔が短くなる",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=afb3f5245130b67f168d79a6b96da92e"
+  }
+}

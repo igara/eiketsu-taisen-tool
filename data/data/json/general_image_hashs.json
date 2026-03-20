@@ -2016,6 +2016,15 @@
     }
   },
   {
+    "no": "PL110",
+    "deckImageHash": "d003f7d92fc8478801804380e1fff1ff78f600fc013ec31f03070f811f80bfdf",
+    "name": "アルトリア・ペンドラゴン",
+    "kanaName": "アルトリア・ペンドラゴン",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "ST002",
     "deckImageHash": "f050e07ee01ef01f004bc3ef03dcf1d8e858fb20d7c22fc0ff807c8011e81ff4",
     "name": "曹操",
@@ -6003,6 +6012,15 @@
     }
   },
   {
+    "no": "PL112",
+    "deckImageHash": "03e707f10fd00fd80f7c1d7e197400f875fdec670ce600428bcb038011cfffc1",
+    "name": "モルガン",
+    "kanaName": "モルガン",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
     "no": "ST004",
     "deckImageHash": "3fc007f007fc8e078803ef7c27b80fe083f8c9e0c078e1cf09df493fc1cfc201",
     "name": "上杉謙信",
@@ -9657,6 +9675,15 @@
     }
   },
   {
+    "no": "PL109",
+    "deckImageHash": "0e3f0c3d319e318e778e640e6c0f083f000f030e1ff83dfe200073fc63ff03e6",
+    "name": "レオナルド・ダ・ヴィンチ",
+    "kanaName": "レオナルド・ダ・ヴィンチ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "琥001",
     "deckImageHash": "7e00fef8fc38e001f9adfc41e081e170c1e1d0e10e652fcd67ede7ff04062006",
     "name": "池田輝政",
@@ -10858,6 +10885,15 @@
     "deckImageHash": "00ff037d4630cfc947f047e0c7f54039003f041ff87bc1f183e087ff070f0c1e",
     "name": "沢下条張",
     "kanaName": "さわげじょうちょう",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "PL111",
+    "deckImageHash": "0007fff1ffc07c003e10a0c0cfc0ffe6ffc7fc06f900f000f300fe00fe00fe78",
+    "name": "ギルガメッシュ",
+    "kanaName": "ギルガメッシュ",
     "color": {
       "name": "琥"
     }
