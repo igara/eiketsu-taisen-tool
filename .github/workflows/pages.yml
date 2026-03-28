@@ -30,8 +30,8 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+        uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 25.2.1
       - name: Install dependencies
@@ -39,7 +39,7 @@ jobs:
       - name: export
         run: (cd app && npm run build)
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
         with:
           # Automatically inject basePath in your Next.js configuration file and disable
           # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
