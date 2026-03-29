@@ -42,8 +42,9 @@
       "description": "兵種に応じて移動速度が上がります"
     }
   ],
-  "kabuki": "4",
+  "kabuki": "8",
   "url": {
-    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=52473505b7e6e156728a40eb5fc87fcf"
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=52473505b7e6e156728a40eb5fc87fcf",
+    "gameWiki": "https://eiketsudb.com/card/xun-guan-ex/"
   }
 }

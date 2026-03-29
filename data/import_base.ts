@@ -90,7 +90,7 @@ const main = async () => {
 		"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
 	};
 
-	const gameWikiResult = await fetch("https://eiketsudb.gamewiki.jp/cardlist/", { headers });
+	const gameWikiResult = await fetch("https://eiketsudb.com/card-list/all-busho/", { headers });
 	const gameWikiHTML = await gameWikiResult.text();
 	const gameWikiDOM = DOMParser.parse(gameWikiHTML);
 
