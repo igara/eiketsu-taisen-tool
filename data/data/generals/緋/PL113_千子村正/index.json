@@ -1,0 +1,47 @@
+{
+  "no": "PL113",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/04/01〜26/04/14"
+  ],
+  "id": "9799b9ea8feddff6d54c0253b06ead14",
+  "detailImageId": "54e94f4a37260f5a7177c8fc3a469045",
+  "name": "千子村正",
+  "kanaName": "せんじむらまさ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "無元の剣製",
+    "kanaName": "つむかりむらまさ",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力と移動速度が上がり、敵の武力と乱戦中の攻撃速度を下げる",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9799b9ea8feddff6d54c0253b06ead14",
+    "gameWiki": "https://eiketsudb.com/card/senji-muramasa-fate-go/"
+  }
+}
