@@ -1,0 +1,50 @@
+{
+  "no": "PL114",
+  "appear": "第5弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/04/01〜26/04/14"
+  ],
+  "id": "0c9c7578e05fd3261a480d577f9d52a6",
+  "detailImageId": "eceba4367f9139e55f05a88dff200e56",
+  "name": "宮本武蔵",
+  "kanaName": "みやもとむさし",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "六道五輪",
+    "kanaName": "りくどうごりん",
+    "cost": "7",
+    "description": "武力と斬撃ダメージが上がる。さらに移動しながら斬撃が出来るようになり、カウンターが発生する。カウンターは斬撃を行うたびに減少し、５回目の斬撃を当てた敵の武力と知力と移動速度を一定時間下げる。カウンターが０の状態で斬撃が終了すると効果が終了する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0c9c7578e05fd3261a480d577f9d52a6",
+    "gameWiki": "https://eiketsudb.com/card/miyamoto-musashi-fate-go/"
+  }
+}
