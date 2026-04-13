@@ -1,0 +1,51 @@
+{
+  "no": "EX185",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "スペシャルグッズキャンペーン第5弾: 26/04/09〜26/05/19"
+  ],
+  "id": "808dc8e1b6608a1eab49a707afd5aafe",
+  "detailImageId": "1582a969e957d87d1d9b537d5180fdce",
+  "name": "顔世御前",
+  "kanaName": "かおよごぜん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "いい湯の祈り",
+    "kanaName": "いいゆのいのり",
+    "cost": "3",
+    "description": "最も武力の高い紫の味方にかかっている全ての計略効果を消し、武力が上がる。さらに対象の味方が計略【渾身】を持つ場合、計略の必要士気が下がる。この効果は必要士気２を下限とする",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=808dc8e1b6608a1eab49a707afd5aafe",
+    "gameWiki": "https://eiketsudb.com/card/kaoyo-gozen-ex/"
+  }
+}

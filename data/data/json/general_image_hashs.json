@@ -7965,6 +7965,15 @@
     }
   },
   {
+    "no": "EX184",
+    "deckImageHash": "07e702751c7c659c7bfe17fd05e04010025079817d996cbf784f1a07819e8c3f",
+    "name": "香の前",
+    "kanaName": "こうのまえ",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "PL005",
     "deckImageHash": "0007f801f03ffdbcfda3fc83f003e003f01cf1fcd1f800e4588ef00ef0c3e267",
     "name": "李牧",
@@ -9553,6 +9562,15 @@
     "deckImageHash": "7c32fc7cf007f002f19ff0d7c1a3000bd1fdc006410f63cf00674067f06fd86f",
     "name": "伊勢新九郎",
     "kanaName": "いせしんくろう",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
+    "no": "EX185",
+    "deckImageHash": "00076ee1fee07ba8339c6304e7c0ff907c0cf80cc2de87e2f7ef03e403f88380",
+    "name": "顔世御前",
+    "kanaName": "かおよごぜん",
     "color": {
       "name": "紫"
     }
