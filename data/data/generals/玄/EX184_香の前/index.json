@@ -1,0 +1,51 @@
+{
+  "no": "EX184",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "スペシャルグッズキャンペーン第5弾: 26/04/09〜26/05/19"
+  ],
+  "id": "a04f1b76705815cb679c5c63a9fb08c0",
+  "detailImageId": "c7b0ba1825dcea61a8ff4c91847d73a5",
+  "name": "香の前",
+  "kanaName": "こうのまえ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "賭け師の速射術",
+    "kanaName": "かけしのそくしゃじゅつ",
+    "cost": "4",
+    "description": "【竜騎馬】（速度を保った状態で一定距離を移動することで竜突オーラを纏い、竜突可能状態になる。さらに移動しながら扇状の範囲に竜射を行うようになる）<br>武力と移動速度が上がる。さらに竜射時の攻撃間隔が短くなり、竜射を敵に当てるたびに竜射ができるまでの時間が短くなる",
+    "categories": [
+      "強化",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    },
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "42",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a04f1b76705815cb679c5c63a9fb08c0",
+    "gameWiki": "https://eiketsudb.com/card/kou-no-mae-ex/"
+  }
+}
