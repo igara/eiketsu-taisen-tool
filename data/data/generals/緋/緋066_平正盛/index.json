@@ -29,16 +29,10 @@
     "time": "知力時間",
     "range": "db0f1158a4038d7c1a1f908c8750498d"
   },
-  "power": "7",
-  "intelligentzia": "6",
-  "skill": [
-    {
-      "name": "先陣",
-      "shortName": "先",
-      "description": "開戦から一定時間、武力と知力が上がります"
-    }
-  ],
-  "kabuki": "12",
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "16",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=42b875ba89a0f8cbeab7b394eff54cef",
     "gameWiki": "https://eiketsudb.com/card/taira-no-masamori/"

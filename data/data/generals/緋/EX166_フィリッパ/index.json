@@ -2,6 +2,7 @@
   "no": "EX166",
   "appear": "第5弾-EX",
   "appearPatterns": [
+    "金剛石商店(金剛石交換所): 26/04/22〜",
     "ポイントショップイベント: 25/11/19〜25/12/16"
   ],
   "id": "af6e488835f600dc0af898cd9f597aa7",
@@ -38,7 +39,7 @@
       "description": "兵種に応じて移動速度が上がります"
     }
   ],
-  "kabuki": "6",
+  "kabuki": "8",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=af6e488835f600dc0af898cd9f597aa7",
     "gameWiki": "https://eiketsudb.com/card/philippa-of-hainault-ex/"

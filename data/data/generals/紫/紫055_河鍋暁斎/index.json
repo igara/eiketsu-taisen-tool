@@ -30,16 +30,16 @@
     "time": "知力時間",
     "range": "db0f1158a4038d7c1a1f908c8750498d"
   },
-  "power": "5",
-  "intelligentzia": "7",
+  "power": "6",
+  "intelligentzia": "3",
   "skill": [
     {
-      "name": "先陣",
-      "shortName": "先",
-      "description": "開戦から一定時間、武力と知力が上がります"
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
     }
   ],
-  "kabuki": "9",
+  "kabuki": "6",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9866655fafbabdd6f5e5fd3329bcfa82",
     "gameWiki": "https://eiketsudb.com/card/kawanabe-kyousai/"

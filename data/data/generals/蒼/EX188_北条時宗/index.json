@@ -1,0 +1,46 @@
+{
+  "no": "EX188",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/04/22〜26/05/05"
+  ],
+  "id": "0969e87f32f4cd8cdc6d3150334d2f08",
+  "detailImageId": "edc6cde1070f689de930dc33f5539c8a",
+  "name": "北条時宗",
+  "kanaName": "ほうじょうときむね",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "石築地",
+    "kanaName": "いしついじ",
+    "cost": "4",
+    "description": "【拠点】（発動すると弓攻撃を行う拠点が出現する。拠点は同時に複数設置できず、耐久力が０になると破壊される）<br>一定時間ごとに拠点から召喚兵「警固番役」が出現する。ただし召喚兵は同時に複数出現せず、自軍の武将登録数が一定以上の場合、召喚兵は出現しない",
+    "categories": [
+      "特殊",
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0969e87f32f4cd8cdc6d3150334d2f08",
+    "gameWiki": "https://eiketsudb.com/card/houjou-tokimune-ex/"
+  }
+}

@@ -22,7 +22,7 @@
     "name": "蛇智奸佞",
     "kanaName": "じゃちかんねい",
     "cost": "6",
-    "description": "味方の武力が上がる。ただし兵力が徐々に減少する。味方の陣形の効果を受けている時に計略を発動すると、代わりに味方の武力が上がり、武力によるダメージを軽減する。ただし効果終了時に自身は撤退する",
+    "description": "味方の武力が上がる。ただし兵力が徐々に減少する。味方の陣形の効果を受けている時に計略を発動すると、代わりに味方の武力が上がり、武力によるダメージを軽減する。ただし効果終了時に自身の兵力が減少する",
     "categories": [
       "全体強化"
     ],
@@ -38,7 +38,7 @@
       "description": "コストに応じて流派ゲージが増加した状態で開戦します"
     }
   ],
-  "kabuki": "30",
+  "kabuki": "36",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=96f332304c55d04d656ca33ab5374e55",
     "gameWiki": "https://eiketsudb.com/card/kajiwara-kagetoki/"
