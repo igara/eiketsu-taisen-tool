@@ -1809,6 +1809,15 @@
     }
   },
   {
+    "no": "EX188",
+    "deckImageHash": "818f703fe03ee04effc7bff3c000c002e022fe48e848ff07cfe201fc3460bde0",
+    "name": "北条時宗",
+    "kanaName": "ほうじょうときむね",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "PL001",
     "deckImageHash": "3fe3863d203f0127f143ebe7c31f02013e1f351f0c4b80a760f301e319e4fdc1",
     "name": "信",
@@ -3865,6 +3874,15 @@
     "deckImageHash": "611761e18fe185f19fb21c28f80ef838fc21f80fe02fc017803f8013f178f979",
     "name": "霧隠才蔵",
     "kanaName": "きりがくれさいぞう",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
+    "no": "EX186",
+    "deckImageHash": "f007f181fa40ffc0ffd8fe88690003c3459ff09f10d0bce0fdc3e7834f008e30",
+    "name": "松姫",
+    "kanaName": "まつひめ",
     "color": {
       "name": "緋"
     }
@@ -11461,6 +11479,15 @@
     "deckImageHash": "01fa07ff037f4007730f031e2e9fd8036007870ffc1f640f659599dfd006f421",
     "name": "鍋島茂昌",
     "kanaName": "なべしましげはる",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "EX187",
+    "deckImageHash": "716387cf0ce71846c0eea0efc07e6027e3e0dcdc3f0403cc03e007c37f4bbf01",
+    "name": "花鬘",
+    "kanaName": "かまん",
     "color": {
       "name": "黄"
     }

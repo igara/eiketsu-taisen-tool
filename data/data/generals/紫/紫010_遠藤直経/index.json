@@ -19,10 +19,10 @@
   "cost": "1.5",
   "unitType": "弓兵",
   "strat": {
-    "name": "双弓戦法",
-    "kanaName": "そうきゅうせんぽう",
+    "name": "勲功の双弓",
+    "kanaName": "くんこうのそうきゅう",
     "cost": "3",
-    "description": "武力が上がり、同時に弓攻撃できる部隊数が増える",
+    "description": "武力が上がり、同時に弓攻撃できる部隊数が増える。さらに効果終了時に自軍の士気が上がる",
     "categories": [
       "強化"
     ],
@@ -32,7 +32,7 @@
   "power": "6",
   "intelligentzia": "4",
   "skill": [],
-  "kabuki": "12",
+  "kabuki": "15",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ade78cb4471e701236c29d6b2bb686c2",
     "gameWiki": "https://eiketsudb.com/card/endou-naotsune/"

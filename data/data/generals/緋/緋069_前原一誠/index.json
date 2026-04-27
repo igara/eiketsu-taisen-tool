@@ -16,7 +16,7 @@
     "b": "27"
   },
   "period": "江戸･幕末",
-  "cost": "2.5",
+  "cost": "2.0",
   "unitType": "騎兵",
   "strat": {
     "name": "萩の乱",
@@ -29,8 +29,8 @@
     "time": "知力時間",
     "range": "e69fed059e9750ea4e334d2b855b052f"
   },
-  "power": "8",
-  "intelligentzia": "8",
+  "power": "7",
+  "intelligentzia": "7",
   "skill": [
     {
       "name": "昂揚",
