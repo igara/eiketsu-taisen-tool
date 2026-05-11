@@ -1,0 +1,45 @@
+{
+  "no": "EX191",
+  "appear": "第5弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/05/06〜26/05/19"
+  ],
+  "id": "85b5263884c73c17c01ef63d7905b3ca",
+  "detailImageId": "a31352acaf571b031c44abcb6cb5dbce",
+  "name": "村山たか",
+  "kanaName": "むらやまたか",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "安政の逆計",
+    "kanaName": "あんせいのぎゃっけい",
+    "cost": "2",
+    "description": "敵の武力と知力を下げる。この計略は先行入力かつ範囲内に計略を使用した敵がいる時、発動できる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=85b5263884c73c17c01ef63d7905b3ca",
+    "gameWiki": "https://eiketsudb.com/card/murayama-taka-ex/"
+  }
+}
