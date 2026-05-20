@@ -1,0 +1,46 @@
+{
+  "no": "緋178",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "351c3c9481ee9374b46affa6aa482e3a",
+  "detailImageId": "d1ff2aa47fb9a09c0d7ef291fdb23161",
+  "name": "マルケルス",
+  "kanaName": "マルケルス",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "古代",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "ローマの剣",
+    "kanaName": "ろーまのけん",
+    "cost": "4",
+    "description": "武力が上がり、全方向に槍の無敵攻撃を行う",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "1",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=351c3c9481ee9374b46affa6aa482e3a",
+    "gameWiki": "https://eiketsudb.com/card/marcellus/"
+  }
+}

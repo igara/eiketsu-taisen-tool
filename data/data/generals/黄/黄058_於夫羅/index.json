@@ -1,0 +1,51 @@
+{
+  "no": "黄058",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "dcaf21cba157ec18745005b43d7676bb",
+  "detailImageId": "f519ffe6a02583d5fb7447e1ca3ac27f",
+  "name": "於夫羅",
+  "kanaName": "おふら",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "獅子身中の虫",
+    "kanaName": "しししんちゅうのむし",
+    "cost": "4",
+    "description": "武力が上がり、敵を撃破すると復活時間が増加する。さらに伏兵状態になり、伏兵状態の間、武力が徐々に上がり、伏兵状態による速度低下を受けなくなる。さらにこの計略の効果による伏兵状態のダメージは、効果中武力差によるダメージになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    },
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dcaf21cba157ec18745005b43d7676bb",
+    "gameWiki": "https://eiketsudb.com/card/yu-fu-luo/"
+  }
+}

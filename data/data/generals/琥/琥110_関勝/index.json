@@ -1,0 +1,40 @@
+{
+  "no": "琥110",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "ef448a6c878f1d81ead1d0a4a321fa24",
+  "detailImageId": "4fa5f2b37a2fd60ea6fd9caf74ae660b",
+  "name": "関勝",
+  "kanaName": "かんしょう",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "武神の星",
+    "kanaName": "ぶしんのほし",
+    "cost": "5",
+    "description": "自身と、自身を除く最も武力の高い琥の味方の武力と移動速度が上がり、自身の与えたダメージに応じて対象の味方の宿星ゲージが増加する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ef448a6c878f1d81ead1d0a4a321fa24",
+    "gameWiki": "https://eiketsudb.com/card/kanshou/"
+  }
+}

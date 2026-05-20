@@ -1,0 +1,49 @@
+{
+  "no": "琥120",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "0ca2ca04046bd8a12c81cb545167e87c",
+  "detailImageId": "e06742ff3a9e887bb75851bb02cf4685",
+  "name": "マクシミリアン１世",
+  "kanaName": "マクシミリアン１せい",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "騎士王の戦旗",
+    "kanaName": "きしおうのせんき",
+    "cost": "5",
+    "description": "【旗陣形】味方の武力が上がり、琥煌ゲージが増加する。さらに鉄砲隊であれば弾数の回復速度が上がる旗陣形を設置する。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0ca2ca04046bd8a12c81cb545167e87c",
+    "gameWiki": "https://eiketsudb.com/card/maximilian-i/"
+  }
+}

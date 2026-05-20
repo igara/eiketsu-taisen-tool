@@ -1,0 +1,41 @@
+{
+  "no": "蒼177",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "a0138699b63b8cc15311940f71624f81",
+  "detailImageId": "a01dd6b7187a27bc7f75a005acb0703b",
+  "name": "司空馬",
+  "kanaName": "しくうば",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "予言者の慧眼",
+    "kanaName": "よげんしゃのけいがん",
+    "cost": "7",
+    "description": "味方の武力が上がる。対象が特技を持っていない場合、さらに兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "9",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a0138699b63b8cc15311940f71624f81",
+    "gameWiki": "https://eiketsudb.com/card/shikuuba/"
+  }
+}

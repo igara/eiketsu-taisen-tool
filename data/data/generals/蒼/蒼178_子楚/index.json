@@ -1,0 +1,46 @@
+{
+  "no": "蒼178",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "fe45abc34b81248736a7e82238ec1d4c",
+  "detailImageId": "196d313fa41b34caf6f8b6888386fb48",
+  "name": "子楚",
+  "kanaName": "しそ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "奇貨の号令",
+    "kanaName": "きかのごうれい",
+    "cost": "5",
+    "description": "味方の武力が上がる。さらに対象の味方のレアリティ「ＥＲ」の武将コストの合計値が高いほど対象のレアリティ「ＥＲ」以外の味方が知力による戦闘ダメージを与えるようになり対象のレアリティ「ＥＲ」以外の味方の武将コストの合計値が高いほど対象のレアリティ「ＥＲ」の味方の移動速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "1",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fe45abc34b81248736a7e82238ec1d4c",
+    "gameWiki": "https://eiketsudb.com/card/shiso/"
+  }
+}

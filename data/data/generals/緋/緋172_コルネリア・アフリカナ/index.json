@@ -1,0 +1,41 @@
+{
+  "no": "緋172",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "cb04084bdfd4a027f40b9295e87dac67",
+  "detailImageId": "699aa099f076db17c61e13971856f359",
+  "name": "コルネリア・アフリカナ",
+  "kanaName": "コルネリア・アフリカナ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "古代",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "花園の姫君",
+    "kanaName": "はなぞののひめぎみ",
+    "cost": "4",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の移動速度が上がる。さらに自身より前にいる緋の味方の武力が上がり、後ろにいる緋の味方の知力が上がる。自身は両方の効果を得る",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cb04084bdfd4a027f40b9295e87dac67",
+    "gameWiki": "https://eiketsudb.com/card/cornelia-africana/"
+  }
+}

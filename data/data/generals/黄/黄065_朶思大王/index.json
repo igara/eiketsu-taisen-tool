@@ -1,0 +1,49 @@
+{
+  "no": "黄065",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "41ef34d121be4f80219e9b9d92c899d1",
+  "detailImageId": "2fed364059ca029ac06a2078d8eca551",
+  "name": "朶思大王",
+  "kanaName": "だしだいおう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "蛇蝎の密計",
+    "kanaName": "だかつのみっけい",
+    "cost": "4",
+    "description": "【象兵】（一定距離を移動することで突進オーラを纏い、突進可能状態になる）<br>【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>武力が上がる。さらに兵種が象兵になり、自身が移動する範囲が敵の兵力を徐々に減少させる陣形になる",
+    "categories": [
+      "強化",
+      "妨害",
+      "特殊",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=41ef34d121be4f80219e9b9d92c899d1",
+    "gameWiki": "https://eiketsudb.com/card/duo-si-da-wang/"
+  }
+}

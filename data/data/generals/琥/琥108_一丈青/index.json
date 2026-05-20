@@ -1,0 +1,46 @@
+{
+  "no": "琥108",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "861d8c0af9b3d44efdbc45b934c0ef7f",
+  "detailImageId": "6c61ce8c76ef75d423771be1ce46826c",
+  "name": "一丈青",
+  "kanaName": "いちじょうせい",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "指針の星",
+    "kanaName": "ししんのほし",
+    "cost": "3",
+    "description": "武力と突撃ダメージと宿星ゲージの増加量が上がる。宿星状態であれば、代わりに武力と移動速度と突撃ダメージが上がり、突撃を敵に当てるたびに移動速度が上がる。ただしこの計略の必要士気が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "宿星",
+      "shortName": "星",
+      "description": "宿星ゲージが一定以上になると、武力と知力が上がります。宿星ゲージは与えたダメージに応じて増加します"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=861d8c0af9b3d44efdbc45b934c0ef7f",
+    "gameWiki": "https://eiketsudb.com/card/ichijousei/"
+  }
+}

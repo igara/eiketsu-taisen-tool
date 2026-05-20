@@ -1,0 +1,46 @@
+{
+  "no": "緋174",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "7bd589ee312857843bf9806384bf0302",
+  "detailImageId": "d5be466f1a3d25fed95b60af501e45b2",
+  "name": "スキピオ",
+  "kanaName": "スキピオ",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "古代",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "運命の決戦",
+    "kanaName": "うんめいのけっせん",
+    "cost": "7",
+    "description": "緋の味方の武力が上がる。さらに兵種アクションによる弾き効果を受けなくなり、対象の味方は兵種に応じて追加で以下の効果を得る<br>騎兵：移動速度が上がる<br>槍兵：武力が上がる<br>弓兵：矢を当てている敵の武力を下げる<br>剣豪：斬撃ダメージが上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "6",
+  "intelligentzia": "12",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bd589ee312857843bf9806384bf0302",
+    "gameWiki": "https://eiketsudb.com/card/scipio/"
+  }
+}

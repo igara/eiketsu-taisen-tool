@@ -1,0 +1,53 @@
+{
+  "no": "玄183",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "70c7bec40b88f26e84da6b18111df470",
+  "detailImageId": "50ffe6d6dbc345332cec791ee2664bb1",
+  "name": "伏姫",
+  "kanaName": "ふせひめ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "伏姫神の霊験",
+    "kanaName": "ふせひめがみのれいげん",
+    "cost": "5",
+    "description": "玄の味方の武力が上がり、武力によるダメージを軽減する。ただし自身は撤退する。自身が撤退中に計略を発動すると、代わりに自身が復活し、武力と移動速度が上がり、撤退した場所に出現する。さらに突撃を敵に当てるたびに、戦場の玄の味方の武力が一定時間上がる。ただし自身の効果が終了した時、この計略の全ての効果は終了する",
+    "categories": [
+      "強化",
+      "全体強化",
+      "復活"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "6",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=70c7bec40b88f26e84da6b18111df470",
+    "gameWiki": "https://eiketsudb.com/card/fusehime/"
+  }
+}

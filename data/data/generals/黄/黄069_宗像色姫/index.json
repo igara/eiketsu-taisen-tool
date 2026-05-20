@@ -1,0 +1,48 @@
+{
+  "no": "黄069",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "8814b1c531d08c3c36f32777ad707644",
+  "detailImageId": "6c52eafe02be27a5906d180a61d2eb54",
+  "name": "宗像色姫",
+  "kanaName": "むなかたいろひめ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "山田館の祟り",
+    "kanaName": "やまだやかたのたたり",
+    "cost": "5",
+    "description": "【式神】（使用すると移動と兵種アクションができなくなり、一定時間後に式神を召喚する。式神は同時に複数召喚できず、反計されない。召喚中は自身の代わりに式神を操作でき、自身が撤退すると式神は消滅する）<br>式神が接触した味方の武力と乱戦中の攻撃速度が一定時間上がる。ただし効果終了時に自身は撤退する",
+    "categories": [
+      "特殊",
+      "ため計略",
+      "式神"
+    ],
+    "time": "固定時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "2",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8814b1c531d08c3c36f32777ad707644",
+    "gameWiki": "https://eiketsudb.com/card/munakata-irohime/"
+  }
+}

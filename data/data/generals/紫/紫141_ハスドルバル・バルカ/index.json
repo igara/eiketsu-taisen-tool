@@ -1,0 +1,40 @@
+{
+  "no": "紫141",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "c3f27c3746b5446bcf68c814eb4a9dbb",
+  "detailImageId": "4ebd59f44d52da06bf304cb44bd63539",
+  "name": "ハスドルバル・バルカ",
+  "kanaName": "ハスドルバル・バルカ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "古代",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "霹靂の武",
+    "kanaName": "へきれきのぶ",
+    "cost": "5",
+    "description": "武力と知力と移動速度が上がり、槍撃が複数部隊に当たるようになる。さらに基本兵種アクションで知力による戦闘ダメージを与えるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c3f27c3746b5446bcf68c814eb4a9dbb",
+    "gameWiki": "https://eiketsudb.com/card/hasdrubal-barca/"
+  }
+}

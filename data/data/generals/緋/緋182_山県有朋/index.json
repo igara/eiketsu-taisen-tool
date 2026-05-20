@@ -1,0 +1,47 @@
+{
+  "no": "緋182",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "66b9abf1398e2ff2b002e0002edd4799",
+  "detailImageId": "1d1cc91444dffbdcd7c88fe6b6ae9070",
+  "name": "山県有朋",
+  "kanaName": "やまがたありとも",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "武弁の号令",
+    "kanaName": "ぶべんのごうれい",
+    "cost": "6",
+    "description": "緋の味方の武力が上がる。対象の味方の知力が一定以上の場合、さらに武力が上がり、兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=66b9abf1398e2ff2b002e0002edd4799",
+    "gameWiki": "https://eiketsudb.com/card/yamagata-aritomo/"
+  }
+}

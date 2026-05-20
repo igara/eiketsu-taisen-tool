@@ -1,0 +1,40 @@
+{
+  "no": "ST010",
+  "appear": "第6弾-ST",
+  "appearPatterns": [
+    "スターター: 26/05/20〜",
+    "金剛石商店(金剛石交換所): 26/05/20〜"
+  ],
+  "id": "b2ab6534e7e65383ced536a1e66bace4",
+  "detailImageId": "6312570b87303a47f74d5bbfc351ca21",
+  "name": "田豫",
+  "kanaName": "でんよ",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "強化戦法",
+    "kanaName": "きょうかせんぽう",
+    "cost": "4",
+    "description": "武力が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b2ab6534e7e65383ced536a1e66bace4",
+    "gameWiki": "https://eiketsudb.com/card/tian-yu-st/"
+  }
+}

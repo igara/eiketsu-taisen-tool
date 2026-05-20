@@ -1,0 +1,47 @@
+{
+  "no": "紫136",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "17d5fe4ac7059509f8feb4c8a54bd99e",
+  "detailImageId": "654f659bcb748c782c0567ba5270b824",
+  "name": "ソフォニスバ",
+  "kanaName": "ソフォニスバ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "古代",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "祈雷の挺身",
+    "kanaName": "きらいのていしん",
+    "cost": "4",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>紫の味方の武力と知力が上がる陣形を設置する。ただし自身は撤退する",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "2",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=17d5fe4ac7059509f8feb4c8a54bd99e",
+    "gameWiki": "https://eiketsudb.com/card/sophonisba/"
+  }
+}

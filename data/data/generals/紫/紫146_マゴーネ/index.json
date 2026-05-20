@@ -1,0 +1,51 @@
+{
+  "no": "紫146",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "7bd65fc7d80d37ebb8a4f2dc7092d270",
+  "detailImageId": "1ef0b41ba8295d33218db7575c4ffbc6",
+  "name": "マゴーネ",
+  "kanaName": "マゴーネ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "古代",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "稲光の号令",
+    "kanaName": "いなびかりのごうれい",
+    "cost": "5",
+    "description": "古代の味方の武力と知力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bd65fc7d80d37ebb8a4f2dc7092d270",
+    "gameWiki": "https://eiketsudb.com/card/mago/"
+  }
+}

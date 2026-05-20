@@ -1,0 +1,47 @@
+{
+  "no": "碧174",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "9ab409a371b4b67072d1e898a7ed61e5",
+  "detailImageId": "34841348224090dd33d52d839645400f",
+  "name": "徳川家治",
+  "kanaName": "とくがわいえはる",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "王手飛車取り",
+    "kanaName": "おうてひしゃとり",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、最も武力の高い敵と次に武力の高い敵の移動速度を下げる",
+    "categories": [
+      "強化",
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9ab409a371b4b67072d1e898a7ed61e5",
+    "gameWiki": "https://eiketsudb.com/card/tokugawa-ieharu/"
+  }
+}

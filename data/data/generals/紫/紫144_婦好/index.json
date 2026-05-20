@@ -1,0 +1,51 @@
+{
+  "no": "紫144",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "791bcd400d2fb3525c3591558750e915",
+  "detailImageId": "b1f88b323b5f33bb863a8ffae2468713",
+  "name": "婦好",
+  "kanaName": "ふこう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "古代",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "強襲の灯",
+    "kanaName": "きょうしゅうのひ",
+    "cost": "5",
+    "description": "武力が上がり、伏兵状態になる。さらに伏兵状態で移動している間武力が徐々に上がり、伏兵状態による速度低下を受けなくなる。一定以上武力が上がると、さらに移動速度が上がり、全方向に槍の無敵攻撃を行う。ただし一定時間伏兵によるダメージが下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=791bcd400d2fb3525c3591558750e915",
+    "gameWiki": "https://eiketsudb.com/card/fukou/"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "no": "黄064",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "e03344cac5bf7eb9ba1b4bfba11bc27f",
+  "detailImageId": "3c2cc2f255f1cc8227101db1992c8202",
+  "name": "太姒",
+  "kanaName": "たいじ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "古代",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "一番星の花道",
+    "kanaName": "いちばんぼしのはなみち",
+    "cost": "4",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>最も武将コストの高い黄の味方の武力と移動速度が上がり、兵力が徐々に回復する陣形を設置する。この計略は城内にいる時のみ使用できる",
+    "categories": [
+      "強化",
+      "回復",
+      "陣形"
+    ],
+    "time": "固定時間",
+    "range": "84add373fd45131ded301f72967b093a"
+  },
+  "power": "2",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "15",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e03344cac5bf7eb9ba1b4bfba11bc27f",
+    "gameWiki": "https://eiketsudb.com/card/taiji/"
+  }
+}

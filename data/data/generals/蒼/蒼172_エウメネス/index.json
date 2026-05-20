@@ -1,0 +1,41 @@
+{
+  "no": "蒼172",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "8010cd00fb63172b9dd07c1c5a000878",
+  "detailImageId": "2d3df4130a4c2bdb18e21e4c5711947b",
+  "name": "エウメネス",
+  "kanaName": "エウメネス",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "古代",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "明敏なる処世",
+    "kanaName": "めいびんなるしょせい",
+    "cost": "3",
+    "description": "武力と移動速度が上がる。さらに以下の短計を発動でき、短計による突撃を敵に当てるたびにこの計略の効果時間が延長される。ただし、計略効果がなくなると敵軍の士気が上がり、効果終了時に一定時間計略を使用できなくなる<br>短計・駆引【０．５】：移動速度が上がり、向いている方向に敵を弾く突撃を行う。突撃中は敵城に接触しても突撃オーラは消えない",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8010cd00fb63172b9dd07c1c5a000878",
+    "gameWiki": "https://eiketsudb.com/card/eumenes/"
+  }
+}

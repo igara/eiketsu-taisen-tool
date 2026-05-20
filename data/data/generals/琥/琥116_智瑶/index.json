@@ -1,0 +1,51 @@
+{
+  "no": "琥116",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "43799b54a7473e2ff51498447ec7e973",
+  "detailImageId": "8decdaaf0161c9f45b813df584973e25",
+  "name": "智瑶",
+  "kanaName": "ちよう",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "春秋戦国",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "滅煌の智算",
+    "kanaName": "めっこうのちさん",
+    "cost": "3",
+    "description": "最も武力の高い琥の味方の武力が上がる。ただし琥煌ゲージが減少する。琥煌ゲージがない場合、効果が下がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "3",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=43799b54a7473e2ff51498447ec7e973",
+    "gameWiki": "https://eiketsudb.com/card/chiyou/"
+  }
+}

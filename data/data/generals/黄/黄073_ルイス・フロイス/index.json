@@ -1,0 +1,46 @@
+{
+  "no": "黄073",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "2d125ce52bdf6a86e5e3d64cbea1daf5",
+  "detailImageId": "cbfb7cf718f9d5a025b88d995ba24cd5",
+  "name": "ルイス・フロイス",
+  "kanaName": "ルイス・フロイス",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "福音の剣",
+    "kanaName": "ふくいんのけん",
+    "cost": "5",
+    "description": "武力が上がり、射撃時に斬撃を行うようになる。さらに一定回数斬撃を敵に当てるたびに覇道が前進する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2d125ce52bdf6a86e5e3d64cbea1daf5",
+    "gameWiki": "https://eiketsudb.com/card/luis-frois/"
+  }
+}

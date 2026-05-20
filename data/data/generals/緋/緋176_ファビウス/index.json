@@ -1,0 +1,47 @@
+{
+  "no": "緋176",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "e4a072f6f629c7423140fc731bc30ba7",
+  "detailImageId": "50a654137be71cdf7c6eee134cfee2be",
+  "name": "ファビウス",
+  "kanaName": "ファビウス",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "古代",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "ローマの盾",
+    "kanaName": "ろーまのたて",
+    "cost": "4",
+    "description": "武力が上がる。さらに自身の武力が知力より高ければ武力が上がり、兵力が徐々に回復し、自身の知力が武力より高ければ武力によるダメージを軽減し、敵を押せるようになる",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e4a072f6f629c7423140fc731bc30ba7",
+    "gameWiki": "https://eiketsudb.com/card/fabius/"
+  }
+}

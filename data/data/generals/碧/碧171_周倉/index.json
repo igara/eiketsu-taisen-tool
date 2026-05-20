@@ -1,0 +1,51 @@
+{
+  "no": "碧171",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "2ee009ec8dc5e7f12529057b44bf46a5",
+  "detailImageId": "9e8d443705d6a74cc3eaa95d265a3fbd",
+  "name": "周倉",
+  "kanaName": "しゅうそう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "気勢の号令",
+    "kanaName": "きせいのごうれい",
+    "cost": "6",
+    "description": "味方の武力が上がる。特技「気合」を持つ味方であれば、さらに特技「気合」の効果が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "22",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ee009ec8dc5e7f12529057b44bf46a5",
+    "gameWiki": "https://eiketsudb.com/card/zhou-cang/"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "no": "玄176",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "c69fbfc77a2f2d1ffd5ea58a1c4062a9",
+  "detailImageId": "bb5e099134776db3bb2bc03374bf7975",
+  "name": "上杉憲顕",
+  "kanaName": "うえすぎのりあき",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "鎌倉将軍府",
+    "kanaName": "かまくらしょうぐんふ",
+    "cost": "5",
+    "description": "【拠点】（発動すると弓攻撃を行う拠点が出現する。拠点は同時に複数設置できず、耐久力が０になると破壊される）<br>一定時間ごとに拠点から接触した味方の武力と知力が上がる波紋が発生する。さらに一定時間ごとに拠点から召喚兵「鎌倉武士」が出現。ただし召喚兵は同時に複数出現せず、自軍の武将登録数が一定以上の場合、召喚兵は出現しない",
+    "categories": [
+      "全体強化",
+      "特殊",
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c69fbfc77a2f2d1ffd5ea58a1c4062a9",
+    "gameWiki": "https://eiketsudb.com/card/uesugi-noriaki/"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "no": "EX202",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 26/05/20〜"
+  ],
+  "id": "9b989baef62c32080163ee2d7cab9b8a",
+  "detailImageId": "936c3d5e11090788c40b7bd8aba9e12f",
+  "name": "高橋紹運",
+  "kanaName": "たかはしじょううん",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "戦神の采配",
+    "kanaName": "いくさがみのさいはい",
+    "cost": "6",
+    "description": "黄の味方の武力が上がり、黄熾ゲージが増加する。この効果は対象の味方部隊数が少ないほど大きい",
+    "categories": [
+      "全体強化",
+      "黄熾"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b989baef62c32080163ee2d7cab9b8a",
+    "gameWiki": "https://eiketsudb.com/card/takahashi-jouun-basara/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "no": "紫147",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "2b8bae0f4e037f7e6e67773a56fd057a",
+  "detailImageId": "3a09c38d6cbc9883553c795795a2d14b",
+  "name": "マゴ・バルカ",
+  "kanaName": "マゴ・バルカ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "古代",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "雷雨の知",
+    "kanaName": "らいうのち",
+    "cost": "4",
+    "description": "武力と知力が上がる。さらに基本兵種アクションで知力による戦闘ダメージを与えるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2b8bae0f4e037f7e6e67773a56fd057a",
+    "gameWiki": "https://eiketsudb.com/card/mago-barca/"
+  }
+}

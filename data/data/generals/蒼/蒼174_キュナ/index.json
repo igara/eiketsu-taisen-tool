@@ -1,0 +1,49 @@
+{
+  "no": "蒼174",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "5f84ee5838036f7ebcd07b38f9c0cc77",
+  "detailImageId": "e26bd4c4b4084e27649176a6adab261a",
+  "name": "キュナ",
+  "kanaName": "キュナ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "古代",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "破暁の陣頭",
+    "kanaName": "はぎょうのじんとう",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身を除く味方の武力によるダメージを軽減する。さらに自身の移動速度が上がり、兵力が徐々に回復し、自身より後ろにいる味方部隊数が多いほど自身の武力が上がる",
+    "categories": [
+      "強化",
+      "全体強化",
+      "回復",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "9",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5f84ee5838036f7ebcd07b38f9c0cc77",
+    "gameWiki": "https://eiketsudb.com/card/cyna/"
+  }
+}

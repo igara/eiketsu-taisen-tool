@@ -1,0 +1,51 @@
+{
+  "no": "黄066",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "183146c1da9990c02b25cc5aab2e7e79",
+  "detailImageId": "2b984c09715b27e0b04f1d5669ac206d",
+  "name": "鄭成功",
+  "kanaName": "ていせいこう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "国性爺合戦",
+    "kanaName": "こくせんやかっせん",
+    "cost": "5",
+    "description": "武力と斬撃ダメージが上がる。さらに斬撃の範囲が広くなり、騎兵への斬撃ダメージが上がる。ただし斬撃が発生するまでの時間を延長する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=183146c1da9990c02b25cc5aab2e7e79",
+    "gameWiki": "https://eiketsudb.com/card/teiseikou/"
+  }
+}

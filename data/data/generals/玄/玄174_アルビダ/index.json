@@ -1,0 +1,48 @@
+{
+  "no": "玄174",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "6c80a499edb20430f27734958915a0f9",
+  "detailImageId": "00dcc0807c837fb8d1e4f91186d74562",
+  "name": "アルビダ",
+  "kanaName": "アルビダ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "古代",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "女海賊の略奪",
+    "kanaName": "おんなかいぞくのりゃくだつ",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身の武力が上がる。さらに敵部隊数が多いほど敵の武力を下げる陣形を範囲内の最も武力の高い敵に付与する",
+    "categories": [
+      "強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6c80a499edb20430f27734958915a0f9",
+    "gameWiki": "https://eiketsudb.com/card/alwida/"
+  }
+}

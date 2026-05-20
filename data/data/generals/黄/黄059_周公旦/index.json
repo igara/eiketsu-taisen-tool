@@ -1,0 +1,46 @@
+{
+  "no": "黄059",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "5f1093fb61a79cae847d28512f0e4303",
+  "detailImageId": "da7a99151a17598585a482e1467f746b",
+  "name": "周公旦",
+  "kanaName": "しゅうこうたん",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "古代",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "周公之夢",
+    "kanaName": "しゅうこうのゆめ",
+    "cost": "3",
+    "description": "最も武力の高い敵の武力を下げ、溜まる覇気が自軍のものになる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "4",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5f1093fb61a79cae847d28512f0e4303",
+    "gameWiki": "https://eiketsudb.com/card/shuukoutan/"
+  }
+}

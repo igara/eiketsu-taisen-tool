@@ -1,0 +1,52 @@
+{
+  "no": "琥107",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "f03979aa755df6259f6bf6a2d1b94226",
+  "detailImageId": "1bb1d275dabc1dbbfa07e0429d95cd34",
+  "name": "郁姫",
+  "kanaName": "いくひめ",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "琥煌の貫通采配",
+    "kanaName": "ここうのかんつうさいはい",
+    "cost": "5",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>琥の味方の武力が上がる。さらに鉄砲隊であれば敵を貫通して射撃できるようになる",
+    "categories": [
+      "全体強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "4",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f03979aa755df6259f6bf6a2d1b94226",
+    "gameWiki": "https://eiketsudb.com/card/ikuhime/"
+  }
+}

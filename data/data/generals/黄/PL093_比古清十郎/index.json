@@ -2,7 +2,8 @@
   "no": "PL093",
   "appear": "第5弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 25/08/20〜25/09/02"
+    "大戦スタンプキャンペーン: 25/08/20〜25/09/02",
+    "大戦スタンプキャンペーン: 26/05/20〜26/06/02"
   ],
   "id": "61d539182b192def8e9a67d5874d729a",
   "detailImageId": "b6e9c6b6e89bebbb436c10626b0612ff",
@@ -39,7 +40,7 @@
       "description": "コストに応じて流派ゲージが増加した状態で開戦します"
     }
   ],
-  "kabuki": "18",
+  "kabuki": "4",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=61d539182b192def8e9a67d5874d729a",
     "gameWiki": "https://eiketsudb.com/card/hiko-seijuurou-rurouni-kenshin/"

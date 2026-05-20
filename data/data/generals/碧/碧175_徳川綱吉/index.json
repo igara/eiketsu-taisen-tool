@@ -1,0 +1,53 @@
+{
+  "no": "碧175",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "b599b771cf14e1213d8a46d2df53beb8",
+  "detailImageId": "50d5146a70af994a6ac3defa079ab84a",
+  "name": "徳川綱吉",
+  "kanaName": "とくがわつなよし",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "犬将軍の綰腕",
+    "kanaName": "いぬしょうぐんのわんわん",
+    "cost": "4",
+    "description": "移動速度が上がる。さらに旋回操作で一定時間敵からダメージを受けない加護状態になる。この操作は効果中一度だけ使用できる。さらに敵と接触時、以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できない<br>短計・生類憐みの令【２】：接触している敵に武力によるダメージを与える。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    },
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b599b771cf14e1213d8a46d2df53beb8",
+    "gameWiki": "https://eiketsudb.com/card/tokugawa-tsunayoshi/"
+  }
+}

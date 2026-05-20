@@ -1,0 +1,40 @@
+{
+  "no": "黄072",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "10f127a49f92f5071d6e2af86382c538",
+  "detailImageId": "677d29174da4ac85f3e5b7c9269f68ce",
+  "name": "邑姜",
+  "kanaName": "ゆうきょう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "古代",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "国母の養育",
+    "kanaName": "こくぼのよういく",
+    "cost": "4",
+    "description": "自身の武力が上がる。さらに自身を除く最も武力の高い古代の味方の武力によるダメージを軽減する",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "3",
+  "intelligentzia": "5",
+  "skill": [],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=10f127a49f92f5071d6e2af86382c538",
+    "gameWiki": "https://eiketsudb.com/card/yuukyou/"
+  }
+}

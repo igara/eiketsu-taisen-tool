@@ -1,0 +1,47 @@
+{
+  "no": "蒼173",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "40017884202d67cba3cb570e53de6fc6",
+  "detailImageId": "4e065c7a92c762f4de61426742ef7641",
+  "name": "織田信長",
+  "kanaName": "おだのぶなが",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "下天生滅",
+    "kanaName": "げてんしょうめつ",
+    "cost": "6",
+    "description": "蒼の味方の武力が上がる。自身が攻城中も兵種アクション可能になり、自身を除く対象の味方が少ないほど以下の効果が自身に追加される<br>３部隊以上：射撃時に斬撃を行うようになる<br>２部隊：武力が上がる<br>１部隊：知力による戦闘ダメージを与えるようになる<br>０部隊：槍が出現する",
+    "categories": [
+      "強化",
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=40017884202d67cba3cb570e53de6fc6",
+    "gameWiki": "https://eiketsudb.com/card/oda-nobunaga-2/"
+  }
+}

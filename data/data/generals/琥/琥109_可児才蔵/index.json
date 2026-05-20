@@ -1,0 +1,47 @@
+{
+  "no": "琥109",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "883a7da002cf29015f3771bda7f27729",
+  "detailImageId": "a43fd866d6237aa2f928384498c576b8",
+  "name": "可児才蔵",
+  "kanaName": "かにさいぞう",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "笹の首級",
+    "kanaName": "ささのしるし",
+    "cost": "5",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がる。さらに旋回操作を行うと、向いている方向に槍を投げるようになる<br>３消費：さらに味方にダメージを受けない投げた槍が当たるようになり、投げた槍を当てた部隊の位置に一瞬で移動する",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=883a7da002cf29015f3771bda7f27729",
+    "gameWiki": "https://eiketsudb.com/card/kani-saizou/"
+  }
+}

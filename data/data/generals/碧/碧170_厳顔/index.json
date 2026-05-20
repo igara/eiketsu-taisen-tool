@@ -1,0 +1,41 @@
+{
+  "no": "碧170",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "ebe752b05efc8703aad7540b88ec3efd",
+  "detailImageId": "4bc511f6015a77222cd5e68499ab253b",
+  "name": "厳顔",
+  "kanaName": "げんがん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "不撓不屈",
+    "kanaName": "ふとうふくつ",
+    "cost": "6",
+    "description": "武力が上がり、兵力が上限を超えて回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "6",
+  "skill": [],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ebe752b05efc8703aad7540b88ec3efd",
+    "gameWiki": "https://eiketsudb.com/card/yan-yan/"
+  }
+}

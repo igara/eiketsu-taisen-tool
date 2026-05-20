@@ -1,0 +1,61 @@
+{
+  "no": "紫137",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "617fcae062d9e8fa0b5c6390553a8bc0",
+  "detailImageId": "a81539b3e9294a0f6191bec8a894adb0",
+  "name": "妲己",
+  "kanaName": "だっき",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "古代",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "九尾の灯",
+    "kanaName": "きゅうびのひ",
+    "cost": "7",
+    "description": "【陣形】古代の味方の武力が上がり、兵力が徐々に回復する。さらに敵の武力を下げる。さらに陣形の効果を受けている敵がいる時、以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・炮烙【１】：敵に知力によるダメージを与え、移動速度を下げる。ダメージは互いの知力で上下する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "妨害",
+      "ダメージ",
+      "陣形",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "6",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    },
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "2",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=617fcae062d9e8fa0b5c6390553a8bc0",
+    "gameWiki": "https://eiketsudb.com/card/datki/"
+  }
+}

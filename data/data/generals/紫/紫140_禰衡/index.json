@@ -1,0 +1,53 @@
+{
+  "no": "紫140",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "2c9c354a4ed086eab7c9c7b937698fc6",
+  "detailImageId": "1031fa23d94adfd6e456dd58609ef916",
+  "name": "禰衡",
+  "kanaName": "でいこう",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "罵詈雑言",
+    "kanaName": "ばりぞうごん",
+    "cost": "4",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>敵と紫の味方の知力を下げる。一定以上知力を下げると、さらに紫の味方の武力が上がる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "1",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2c9c354a4ed086eab7c9c7b937698fc6",
+    "gameWiki": "https://eiketsudb.com/card/mi-heng/"
+  }
+}

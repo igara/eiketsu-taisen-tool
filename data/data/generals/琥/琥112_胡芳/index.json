@@ -1,0 +1,52 @@
+{
+  "no": "琥112",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "ac0ae9453652134c3e35b5dc5cdb6594",
+  "detailImageId": "49435b729b9f3f962655cdb59debd302",
+  "name": "胡芳",
+  "kanaName": "こほう",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "剛血の琥弓",
+    "kanaName": "ごうけつのこきゅう",
+    "cost": "4",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力が上がり、走射時間が延びる<br>３消費：さらに走射中の弓攻撃のダメージが上がる",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ac0ae9453652134c3e35b5dc5cdb6594",
+    "gameWiki": "https://eiketsudb.com/card/hu-fang/"
+  }
+}

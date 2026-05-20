@@ -1,0 +1,48 @@
+{
+  "no": "紫145",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "a45236797ae35a0d85998f056c5cbcf9",
+  "detailImageId": "303ba7e87e34fb6846667025002eecce",
+  "name": "武丁",
+  "kanaName": "ぶてい",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "古代",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "刻字の灯",
+    "kanaName": "こくじのひ",
+    "cost": "5",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力が上がる。一定以上武力が上がると、さらに旋回操作を行うと、向いている方向に槍を投げるようになり、当てた敵に知力によるダメージを与える。ダメージは互いの知力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a45236797ae35a0d85998f056c5cbcf9",
+    "gameWiki": "https://eiketsudb.com/card/butei/"
+  }
+}

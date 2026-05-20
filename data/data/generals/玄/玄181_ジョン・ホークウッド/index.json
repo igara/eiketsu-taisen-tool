@@ -1,0 +1,48 @@
+{
+  "no": "玄181",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "9036360d273beaaae563e741be7ef7bc",
+  "detailImageId": "a3ba05ce4303406ecb43f791d22ebff2",
+  "name": "ジョン・ホークウッド",
+  "kanaName": "ジョン・ホークウッド",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "傭兵の処世術",
+    "kanaName": "ようへいのしょせいじゅつ",
+    "cost": "3",
+    "description": "武力が上がる。さらに以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・転進【１】：一瞬で城に戻る",
+    "categories": [
+      "強化",
+      "特殊",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9036360d273beaaae563e741be7ef7bc",
+    "gameWiki": "https://eiketsudb.com/card/john-hawkwood/"
+  }
+}

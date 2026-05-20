@@ -1,0 +1,47 @@
+{
+  "no": "蒼171",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "528e2681f5bb1ec6150c6fb1e37936ca",
+  "detailImageId": "d45147d2825402a501d7dd406d817a3a",
+  "name": "アレクサンドロス大王",
+  "kanaName": "アレクサンドロスだいおう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "古代",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "見果てぬ征服",
+    "kanaName": "みはてぬせいふく",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、突撃を敵に当てた時の接触による乱戦ダメージを受けなくなる。さらに突撃を敵に当てるたびに撤退中の蒼の味方の復活時間が減少し、戦場にいる蒼の味方が効果中に撤退すると復活時間が減少する。ただし自身の突撃ダメージが下がる",
+    "categories": [
+      "強化",
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "10",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=528e2681f5bb1ec6150c6fb1e37936ca",
+    "gameWiki": "https://eiketsudb.com/card/alexander-the-great/"
+  }
+}
