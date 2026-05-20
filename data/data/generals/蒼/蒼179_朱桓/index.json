@@ -1,0 +1,49 @@
+{
+  "no": "蒼179",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "b8983cad3354727fd1151ab9b3973e42",
+  "detailImageId": "216434127b793d1b52bf535a723d034a",
+  "name": "朱桓",
+  "kanaName": "しゅかん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "矢印の速陣",
+    "kanaName": "やじるしのそくじん",
+    "cost": "4",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>味方の移動速度が上がる。さらに以下の短計を発動できる。短計を発動すると、代わりに敵の移動速度が下がる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・反転【０．５】：陣形の効果が変わる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "陣形",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "475b8a19c13b45623171651c8ced5f13"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b8983cad3354727fd1151ab9b3973e42",
+    "gameWiki": "https://eiketsudb.com/card/zhu-huan/"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "no": "蒼183",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "dee7735ad90b807e83fd3020eb8977d6",
+  "detailImageId": "5b2a8012885b6a754c81eca2a15fe0f0",
+  "name": "ロクサネ",
+  "kanaName": "ロクサネ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "古代",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "輝く闇の劇毒",
+    "kanaName": "かがやくやみのげきどく",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身を除く最も武力の低い味方一人が撤退し、その場所に敵の移動速度を下げ、兵力を徐々に減少させる陣形を設置する。ただし対象の味方がいない場合、陣形は出現しない",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "固定時間",
+    "range": "624fa4796fc2f337fd9f51c9a11535d7"
+  },
+  "power": "2",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dee7735ad90b807e83fd3020eb8977d6",
+    "gameWiki": "https://eiketsudb.com/card/roxana/"
+  }
+}

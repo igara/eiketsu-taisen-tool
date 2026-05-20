@@ -1,0 +1,46 @@
+{
+  "no": "緋179",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "a43ae2fb6c3b40c7b9e4d5a14dcdf3ec",
+  "detailImageId": "9aa61fb0265671acaa002ccfc3a1aa40",
+  "name": "南の大方",
+  "kanaName": "みなみのおおかた",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "薄暮の銃弾",
+    "kanaName": "はくぼのじゅうだん",
+    "cost": "3",
+    "description": "武力が上がる。自軍の最大士気が１５の場合、さらに武力が上がり、射撃時の攻撃回数が増える",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "3",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a43ae2fb6c3b40c7b9e4d5a14dcdf3ec",
+    "gameWiki": "https://eiketsudb.com/card/minami-no-ookata/"
+  }
+}

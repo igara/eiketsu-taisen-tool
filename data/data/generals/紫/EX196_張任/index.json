@@ -1,0 +1,40 @@
+{
+  "no": "EX196",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 26/05/20〜"
+  ],
+  "id": "690d6f514d86c6024e1d5a4ad625b460",
+  "detailImageId": "cecf5783e5444deb2f21b8934edb0343",
+  "name": "張任",
+  "kanaName": "ちょうじん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "渾身の剛弓",
+    "kanaName": "こんしんのごうきゅう",
+    "cost": "4",
+    "description": "【渾身】（発動時の士気が必要士気に近いほど効果が大きい）<br>武力と走射中の弓攻撃のダメージが上がる。一定以上武力が上がると、さらに同時に弓攻撃できる部隊数が増える",
+    "categories": [
+      "強化",
+      "渾身"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "4",
+  "skill": [],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=690d6f514d86c6024e1d5a4ad625b460",
+    "gameWiki": "https://eiketsudb.com/card/zhang-ren-basara/"
+  }
+}

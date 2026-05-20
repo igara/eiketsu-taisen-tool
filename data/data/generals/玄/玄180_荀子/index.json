@@ -1,0 +1,46 @@
+{
+  "no": "玄180",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "62468065460dbed0f8c0b6c1a3a1c641",
+  "detailImageId": "be2401177ee89a2d732e7e726f0bcad2",
+  "name": "荀子",
+  "kanaName": "じゅんし",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "性悪説",
+    "kanaName": "せいあくせつ",
+    "cost": "5",
+    "description": "玄の味方の武力と知力が上がる。この効果は対象の味方の武力が元の武力より低いほど武力が上がり、知力が元の知力より低いほど知力が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "固定時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=62468065460dbed0f8c0b6c1a3a1c641",
+    "gameWiki": "https://eiketsudb.com/card/junshi/"
+  }
+}

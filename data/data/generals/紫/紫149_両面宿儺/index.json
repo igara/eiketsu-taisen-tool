@@ -1,0 +1,46 @@
+{
+  "no": "紫149",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "1b64c1986bed41844b54b0a37f64616a",
+  "detailImageId": "c32f428113bea39432529d74d922417c",
+  "name": "両面宿儺",
+  "kanaName": "りょうめんすくな",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "古代",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "譎鬼変幻",
+    "kanaName": "けっきへんげん",
+    "cost": "6",
+    "description": "武力と走射中の弓攻撃のダメージが上がる。さらに敵を撃破するたびに効果が追加されていく<br>１部隊：走射開始時に移動しながら斬撃を行うようになる<br>２部隊：斬撃の範囲が広くなる<br>３部隊以上：斬撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "鬼",
+      "shortName": "鬼",
+      "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1b64c1986bed41844b54b0a37f64616a",
+    "gameWiki": "https://eiketsudb.com/card/ryoumen-sukuna/"
+  }
+}

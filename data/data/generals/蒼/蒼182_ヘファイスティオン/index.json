@@ -1,0 +1,52 @@
+{
+  "no": "蒼182",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "2150a398c97b3ab9675e1b240ecba7ce",
+  "detailImageId": "b251bd21791ba681d25b02df58614594",
+  "name": "ヘファイスティオン",
+  "kanaName": "ヘファイスティオン",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "古代",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "幻日の夢追い",
+    "kanaName": "げんじつのゆめおい",
+    "cost": "3",
+    "description": "武力が上がる。さらに味方が復活するたびに武力が上がり、兵力が回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    },
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2150a398c97b3ab9675e1b240ecba7ce",
+    "gameWiki": "https://eiketsudb.com/card/hephaestion/"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "no": "琥114",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "9f2e94cbdc1dc811a74c614632d833e0",
+  "detailImageId": "b5c0921d749c0aeea4a58b1a09071bbe",
+  "name": "実窓夫人",
+  "kanaName": "じっそうふじん",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "銃後の采配",
+    "kanaName": "じゅうごのさいはい",
+    "cost": "4",
+    "description": "味方の武力が上がる。さらに対象が鉄砲隊であれば移動しながら射撃できるようになる。さらに自身が槍撃を当てた敵の移動速度を一定時間下げる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9f2e94cbdc1dc811a74c614632d833e0",
+    "gameWiki": "https://eiketsudb.com/card/jitsou-fujin/"
+  }
+}

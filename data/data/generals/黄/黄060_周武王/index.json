@@ -1,0 +1,49 @@
+{
+  "no": "黄060",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "3641d9dcefeb382cf5694caabebc981c",
+  "detailImageId": "0ea89dfc70654b805b5ea32ad5be551d",
+  "name": "周武王",
+  "kanaName": "しゅうのぶおう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "古代",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "人王革命",
+    "kanaName": "じんおうかくめい",
+    "cost": "6",
+    "description": "黄の味方の武力が上がる。さらに以下の短計を発動できるようになる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・火徳【２】：自身を除く接触した味方の兵力が回復する波紋を発生させる。さらに味方が自身の波紋に接触するたびに、自身の武力が一定時間上がる",
+    "categories": [
+      "強化",
+      "全体強化",
+      "回復",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3641d9dcefeb382cf5694caabebc981c",
+    "gameWiki": "https://eiketsudb.com/card/shuu-no-buou/"
+  }
+}

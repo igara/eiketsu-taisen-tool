@@ -1,0 +1,40 @@
+{
+  "no": "紫134",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "d4dc9993be0ab07f394ed1681808cfdb",
+  "detailImageId": "be0ef55d1a8eecc1e3f6b1e372b7b886",
+  "name": "曲亭馬琴",
+  "kanaName": "きょくていばきん",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "南総里見八犬伝",
+    "kanaName": "なんそうさとみはっけんでん",
+    "cost": "4",
+    "description": "敵の知力を下げる。敵軍の士気が一定以上の場合、さらに武力を下げる",
+    "categories": [
+      "妨害"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "5",
+  "intelligentzia": "9",
+  "skill": [],
+  "kabuki": "9",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d4dc9993be0ab07f394ed1681808cfdb",
+    "gameWiki": "https://eiketsudb.com/card/kyokutei-bakin/"
+  }
+}

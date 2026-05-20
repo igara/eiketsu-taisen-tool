@@ -2,7 +2,8 @@
   "no": "PL092",
   "appear": "第5弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 25/08/20〜25/09/02"
+    "大戦スタンプキャンペーン: 25/08/20〜25/09/02",
+    "大戦スタンプキャンペーン: 26/05/20〜26/06/02"
   ],
   "id": "ee5f757b29b3ac66cf4a1423bb7a5628",
   "detailImageId": "14ec51e2887863935e19d680652bb2b9",
@@ -38,7 +39,7 @@
       "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
     }
   ],
-  "kabuki": "0",
+  "kabuki": "8",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ee5f757b29b3ac66cf4a1423bb7a5628",
     "gameWiki": "https://eiketsudb.com/card/shinomori-aoshi-2-rurouni-kenshin/"

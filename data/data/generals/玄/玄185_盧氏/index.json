@@ -1,0 +1,46 @@
+{
+  "no": "玄185",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "36166222baeb33aa5a4064348e279a04",
+  "detailImageId": "7f1e8a32b0f3fc539e688a2a4d5dc3ac",
+  "name": "盧氏",
+  "kanaName": "ろし",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "妖狐の援軍",
+    "kanaName": "ようこのえんぐん",
+    "cost": "4",
+    "description": "味方の兵力が回復する。ただし兵種アクションが封印される",
+    "categories": [
+      "回復"
+    ],
+    "time": "固定時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "3",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=36166222baeb33aa5a4064348e279a04",
+    "gameWiki": "https://eiketsudb.com/card/lu-shi/"
+  }
+}

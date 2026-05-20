@@ -1,0 +1,48 @@
+{
+  "no": "黄056",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "946a80ef85e45161b314f026a38ab226",
+  "detailImageId": "92b9f11ed399c6a69b27ae31c606e35e",
+  "name": "枝吉神陽",
+  "kanaName": "えだよししんよう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "義祭同盟",
+    "kanaName": "ぎさいどうめい",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>黄の味方の武力によるダメージを軽減する。さらに自身の射撃を敵に当てるたびに範囲内の味方の兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=946a80ef85e45161b314f026a38ab226",
+    "gameWiki": "https://eiketsudb.com/card/edayoshi-shinyou/"
+  }
+}

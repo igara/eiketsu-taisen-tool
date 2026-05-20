@@ -1,0 +1,51 @@
+{
+  "no": "琥115",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "cf9c2067e2f48dc4e5d6344323f8ed42",
+  "detailImageId": "01e851c8343a4e55e6a2a4b237895892",
+  "name": "宋江",
+  "kanaName": "そうこう",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "星主の星",
+    "kanaName": "せいしゅのほし",
+    "cost": "7",
+    "description": "琥の味方の武力と攻城力が上がる。宿星状態であれば、さらにこの計略の必要士気が下がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    },
+    {
+      "name": "宿星",
+      "shortName": "星",
+      "description": "宿星ゲージが一定以上になると、武力と知力が上がります。宿星ゲージは与えたダメージに応じて増加します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cf9c2067e2f48dc4e5d6344323f8ed42",
+    "gameWiki": "https://eiketsudb.com/card/soukou/"
+  }
+}

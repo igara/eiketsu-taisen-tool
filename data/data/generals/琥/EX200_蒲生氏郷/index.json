@@ -1,0 +1,52 @@
+{
+  "no": "EX200",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 26/05/20〜"
+  ],
+  "id": "02eb9c95d4595787fe5faebb8c85ead1",
+  "detailImageId": "de6f9fe29e7b0f9dafa660d3f36b517b",
+  "name": "蒲生氏郷",
+  "kanaName": "がもううじさと",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "獅子奮迅",
+    "kanaName": "ししふんじん",
+    "cost": "5",
+    "description": "【琥煌：最大消費３】武力と移動速度が上がる<br>３消費：さらに迎撃ダメージと迎撃・斬撃による速度低下を受けなくなり、突撃オーラ中のみ以下の短計を発動できる。ただし効果終了時一定時間計略を使用できなくなる<br>短計・穿突【０．５】：移動速度が上がり、向いている方向に敵を貫通する突撃を行う。突撃中は敵城に接触しても突撃オーラは消えない",
+    "categories": [
+      "強化",
+      "琥煌",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=02eb9c95d4595787fe5faebb8c85ead1",
+    "gameWiki": "https://eiketsudb.com/card/gamou-ujisato-basara/"
+  }
+}

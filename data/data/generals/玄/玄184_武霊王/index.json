@@ -1,0 +1,47 @@
+{
+  "no": "玄184",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "a7deff5912cb444666b461e75a6f2bdc",
+  "detailImageId": "4777b69f2ca4d5ab4f68eba526c385fe",
+  "name": "武霊王",
+  "kanaName": "ぶれいおう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "春秋戦国",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "胡服騎射",
+    "kanaName": "こふくきしゃ",
+    "cost": "7",
+    "description": "玄の味方の武力が上がる。さらに自身の移動速度が上がり、突撃を当てた敵がいる場所に一定時間後に武力によるダメージを与える。ダメージは互いの武力で上下する",
+    "categories": [
+      "全体強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a7deff5912cb444666b461e75a6f2bdc",
+    "gameWiki": "https://eiketsudb.com/card/bureiou/"
+  }
+}

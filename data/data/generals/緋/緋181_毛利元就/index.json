@@ -1,0 +1,53 @@
+{
+  "no": "緋181",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "c932fbe3be7f5e5debd09ff22be3ef44",
+  "detailImageId": "f3ee72f048069d290f1e1dad0e6abf04",
+  "name": "毛利元就",
+  "kanaName": "もうりもとなり",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "謀神の掌上",
+    "kanaName": "ぼうしんのしょうじょう",
+    "cost": "8",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>緋の味方の武力が上がり、敵の知力を下げる。さらに自身は敵を押せるようになる",
+    "categories": [
+      "全体強化",
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "8",
+  "intelligentzia": "11",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "大兵",
+      "shortName": "兵",
+      "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c932fbe3be7f5e5debd09ff22be3ef44",
+    "gameWiki": "https://eiketsudb.com/card/mouri-motonari-2/"
+  }
+}

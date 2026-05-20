@@ -1,0 +1,48 @@
+{
+  "no": "蒼181",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "c60fa9b99a64a149d44fd97f86d26db9",
+  "detailImageId": "e301d3b4e29fde7f759d7df823138267",
+  "name": "高山右近",
+  "kanaName": "たかやまうこん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "殉教の聖堂",
+    "kanaName": "じゅんきょうのせいどう",
+    "cost": "5",
+    "description": "【陣形】【拠点】蒼の味方の武力が上がる陣形を設置する。範囲内の味方部隊数が多いほど拠点が弓攻撃を行う部隊数が増加する。ただし、範囲内の味方が撤退するたびに拠点の耐久力が減少する。拠点と陣形はどちらかの効果が終了すると拠点は破壊され陣形は終了する",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "拠点"
+    ],
+    "time": "一瞬",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c60fa9b99a64a149d44fd97f86d26db9",
+    "gameWiki": "https://eiketsudb.com/card/takayama-ukon/"
+  }
+}

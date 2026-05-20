@@ -1,0 +1,52 @@
+{
+  "no": "碧179",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "e054796d7b5a9a2672b5135fc4b4009b",
+  "detailImageId": "9833534d528f0fa27fa68b54e20457ec",
+  "name": "北条早雲",
+  "kanaName": "ほうじょうそううん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "千頭の劫火",
+    "kanaName": "せんずのごうか",
+    "cost": "7",
+    "description": "碧の味方の武力と知力が上がり、基本兵種アクションで知力による戦闘ダメージを与える。さらに突撃オーラ中のみ以下の短計を発動でき、短計で突撃を当てた敵の知力を一定時間下げる。効果終了時に一定時間計略が使用できない<br>短計・征突【０．５】：移動速度が上がり、向いている方向に敵を弾く突撃を行う。突撃中は敵城に接触しても突撃オーラは消えない",
+    "categories": [
+      "全体強化",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "11",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e054796d7b5a9a2672b5135fc4b4009b",
+    "gameWiki": "https://eiketsudb.com/card/houjou-souun/"
+  }
+}

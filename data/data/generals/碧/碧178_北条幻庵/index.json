@@ -1,0 +1,51 @@
+{
+  "no": "碧178",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "2f291f820dd7f4e85082f7bb04d52856",
+  "detailImageId": "8781d92df217ff5d47e3aa4ad6f69b25",
+  "name": "北条幻庵",
+  "kanaName": "ほうじょうげんあん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "金剛火牛の計",
+    "kanaName": "こんごうかぎゅうのけい",
+    "cost": "8",
+    "description": "敵に知力によるダメージを与え吹き飛ばす。ダメージは互いの知力で上下する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "6",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2f291f820dd7f4e85082f7bb04d52856",
+    "gameWiki": "https://eiketsudb.com/card/houjou-genan/"
+  }
+}

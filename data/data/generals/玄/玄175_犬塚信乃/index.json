@@ -1,0 +1,49 @@
+{
+  "no": "玄175",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "f51705213781c31755298fc040ee6034",
+  "detailImageId": "cd356614fb87b1dd20d32ed91301bc17",
+  "name": "犬塚信乃",
+  "kanaName": "いぬづかしの",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "村雨丸",
+    "kanaName": "むらさめまる",
+    "cost": "7",
+    "description": "敵に武力によるダメージを与える。ダメージは互いの武力で上下する。さらに自身の武力が上がり、斬撃の範囲が広くなる。さらに斬撃を行った範囲が敵と味方の移動速度を下げ、兵種アクションを封印する氷地形になる。計略効果中の「犬塚信乃」は氷地形の効果を受けない",
+    "categories": [
+      "強化",
+      "妨害",
+      "ダメージ",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f51705213781c31755298fc040ee6034",
+    "gameWiki": "https://eiketsudb.com/card/inuzuka-shino/"
+  }
+}

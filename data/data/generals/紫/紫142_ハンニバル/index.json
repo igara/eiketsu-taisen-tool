@@ -1,0 +1,49 @@
+{
+  "no": "紫142",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "95920a7ee1861f8f15ad6a4439ad4ece",
+  "detailImageId": "53b0eb89ec88d55ae8fe5fa5e153d362",
+  "name": "ハンニバル",
+  "kanaName": "ハンニバル",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "古代",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "バアルの雷震",
+    "kanaName": "ばあるのらいしん",
+    "cost": "7",
+    "description": "【象兵】（一定距離を移動することで突進オーラを纏い、突進可能状態になる）<br>武力と知力と移動速度が上がり、兵種が象兵になる。さらに接触した味方の武力が一定時間上がり、突進オーラ中に旋回操作を行うと、範囲内の敵に知力によるダメージを与える震撃を行うようになる。ダメージは互いの知力で上下する",
+    "categories": [
+      "強化",
+      "全体強化",
+      "ダメージ",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "10",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=95920a7ee1861f8f15ad6a4439ad4ece",
+    "gameWiki": "https://eiketsudb.com/card/hannibal/"
+  }
+}

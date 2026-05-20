@@ -1,0 +1,51 @@
+{
+  "no": "玄178",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "2d1519946958f172ac7a72ed534d001e",
+  "detailImageId": "6153d7b4a81de4183d57b56f84fc948f",
+  "name": "小雀",
+  "kanaName": "こすずめ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "1.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "小雀落とし",
+    "kanaName": "こすずめおとし",
+    "cost": "3",
+    "description": "武力が上がり、狙撃状態になるまでの時間が短くなる。さらに射撃を当てた敵の兵種アクションを一定時間封印する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "2",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    },
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2d1519946958f172ac7a72ed534d001e",
+    "gameWiki": "https://eiketsudb.com/card/kosuzume/"
+  }
+}

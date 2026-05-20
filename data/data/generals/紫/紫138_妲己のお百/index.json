@@ -1,0 +1,57 @@
+{
+  "no": "紫138",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "209c9fe2e1eae1b635afdb9559843962",
+  "detailImageId": "6f6a7ff4062892ddb421b4d2c81b0112",
+  "name": "妲己のお百",
+  "kanaName": "だっきのおひゃく",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "2.0",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "狐狸妖怪",
+    "kanaName": "こりようかい",
+    "cost": "6",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>敵の武力を下げる。この効果は範囲内の敵部隊数が多いほど大きい",
+    "categories": [
+      "妨害",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "6",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    },
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=209c9fe2e1eae1b635afdb9559843962",
+    "gameWiki": "https://eiketsudb.com/card/datki-no-ohyaku/"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "no": "EX201",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 26/05/20〜"
+  ],
+  "id": "53cae9a90f88515da261af718a812e3b",
+  "detailImageId": "5f39d989fdf49257802002b1f1bd6cbe",
+  "name": "立花宗茂",
+  "kanaName": "たちばなむねしげ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "西国無双の陣",
+    "kanaName": "さいごくむそうのじん",
+    "cost": "7",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>黄の味方の武力が上がり、兵力が徐々に回復する。さらに自身の槍撃ダメージが上がり、対象の味方の黄熾ゲージの減少量が下がる",
+    "categories": [
+      "全体強化",
+      "回復",
+      "陣形",
+      "黄熾"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=53cae9a90f88515da261af718a812e3b",
+    "gameWiki": "https://eiketsudb.com/card/tachibana-muneshige-basara/"
+  }
+}

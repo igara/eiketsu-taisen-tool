@@ -1,0 +1,54 @@
+{
+  "no": "琥121",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "2a7d046eaac4dd464afc096e2be7e660",
+  "detailImageId": "afbcefb9f5b43eb241322b23cadf8fdc",
+  "name": "マリー・ド・ブルゴーニュ",
+  "kanaName": "マリー・ド・ブルゴーニュ",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "魅惑の戦旗",
+    "kanaName": "みわくのせんき",
+    "cost": "3",
+    "description": "【旗陣形】味方の武力が上がり、琥煌ゲージが増加する旗陣形を設置する。さらに自身が味方の旗陣形の効果を受けている時、自身の射撃を当てた敵を自身の方向に引き寄せるようになる。さらに以下の短計を発動できる<br>短計・再設置【０．５】：一定時間後に自身の発動した旗陣形を自身の位置に移動させる",
+    "categories": [
+      "全体強化",
+      "陣形",
+      "短計",
+      "旗陣形"
+    ],
+    "time": "固定時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "10",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2a7d046eaac4dd464afc096e2be7e660",
+    "gameWiki": "https://eiketsudb.com/card/mary-of-burgundy/"
+  }
+}

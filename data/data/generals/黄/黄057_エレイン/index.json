@@ -1,0 +1,51 @@
+{
+  "no": "黄057",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "c7d898f90f0c9e9634f6874f92e330bc",
+  "detailImageId": "f2a9cdc475d0e9d87caa126ddd955a86",
+  "name": "エレイン",
+  "kanaName": "エレイン",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "1.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "溺愛の挺身",
+    "kanaName": "できあいのていしん",
+    "cost": "3",
+    "description": "最も武力の高い中世の味方の武力が上がり、武力によるダメージを軽減する。ただし自身は撤退する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "2",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "防柵",
+      "shortName": "柵",
+      "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
+    },
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c7d898f90f0c9e9634f6874f92e330bc",
+    "gameWiki": "https://eiketsudb.com/card/elaine/"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "no": "琥119",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "dac2bf5d4bac46527fe556445b6c4332",
+  "detailImageId": "ae5980fd212aaeea89ebf45ef89dd2e8",
+  "name": "前田利家",
+  "kanaName": "まえだとしいえ",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "天下取りの金槍",
+    "kanaName": "てんかとりのきんそう",
+    "cost": "6",
+    "description": "【琥煌：最大消費３】（計略発動時に消費した琥煌ゲージに応じて効果が変わる。発動後に琥煌ゲージが増加する）<br>武力と移動速度が上がる<br>３消費：さらに槍撃が変化し、旋回操作を行うと一定時間槍撃を設置できるようになる。ただし同時に設置できる槍撃には上限があり、設置した槍撃で敵城に攻撃できない",
+    "categories": [
+      "強化",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dac2bf5d4bac46527fe556445b6c4332",
+    "gameWiki": "https://eiketsudb.com/card/maeda-toshiie-2/"
+  }
+}

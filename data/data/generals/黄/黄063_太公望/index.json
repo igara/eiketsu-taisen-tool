@@ -1,0 +1,48 @@
+{
+  "no": "黄063",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "c7b63c2ae0ff3b0ef3324c1a8db1c622",
+  "detailImageId": "8690b0301a90a1ed4531adce6993132c",
+  "name": "太公望",
+  "kanaName": "たいこうぼう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "古代",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "封神破天",
+    "kanaName": "ほうしんはてん",
+    "cost": "7",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>黄の味方の武力が上がる。この効果はため時間が長いほど大きい。この計略はため中に計略を発動できる。一定以上武力が上がると、さらに兵力が回復し、時間経過で発動すると移動速度が上がる",
+    "categories": [
+      "全体強化",
+      "回復",
+      "ため計略"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "6",
+  "intelligentzia": "12",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c7b63c2ae0ff3b0ef3324c1a8db1c622",
+    "gameWiki": "https://eiketsudb.com/card/taikoubou/"
+  }
+}

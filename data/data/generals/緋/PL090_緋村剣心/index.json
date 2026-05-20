@@ -2,7 +2,8 @@
   "no": "PL090",
   "appear": "第5弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 25/08/20〜25/09/02"
+    "大戦スタンプキャンペーン: 25/08/20〜25/09/02",
+    "大戦スタンプキャンペーン: 26/05/20〜26/06/02"
   ],
   "id": "7e1f6c4faf2e98fde8ecd78a6ac09811",
   "detailImageId": "0c50fe02c02e284a5e71bea3323a6abb",
@@ -37,7 +38,7 @@
       "description": "兵種に応じて移動速度が上がります"
     }
   ],
-  "kabuki": "16",
+  "kabuki": "30",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7e1f6c4faf2e98fde8ecd78a6ac09811",
     "gameWiki": "https://eiketsudb.com/card/himura-kenshin-2-rurouni-kenshin/"

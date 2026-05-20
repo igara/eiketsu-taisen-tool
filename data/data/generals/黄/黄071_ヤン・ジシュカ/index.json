@@ -1,0 +1,48 @@
+{
+  "no": "黄071",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "cd91e9324d4ac1f402ff274eef1bc955",
+  "detailImageId": "1338e2e5a3d38616aa5238b4a1a5aa72",
+  "name": "ヤン・ジシュカ",
+  "kanaName": "ヤン・ジシュカ",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "荷車城塞",
+    "kanaName": "ワゴンブルク",
+    "cost": "5",
+    "description": "【拠点】（発動すると弓攻撃を行う拠点が設置される。拠点は同時に複数設置できず、耐久力が０になると破壊される）<br>一定時間ごとに弓攻撃の代わりに最も近い敵に射撃を行う拠点を設置する。さらに自身の武力と移動速度が上がり、兵種が騎兵になる",
+    "categories": [
+      "強化",
+      "特殊",
+      "拠点"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "6",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cd91e9324d4ac1f402ff274eef1bc955",
+    "gameWiki": "https://eiketsudb.com/card/jan-zizka/"
+  }
+}

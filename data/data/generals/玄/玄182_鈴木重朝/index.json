@@ -1,0 +1,51 @@
+{
+  "no": "玄182",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "42d90969524a5a52ec836f1df963ae9d",
+  "detailImageId": "0b570ed7c7b680ecfdeedb219cc6498c",
+  "name": "鈴木重朝",
+  "kanaName": "すずきしげとも",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "雑賀の采配",
+    "kanaName": "さいかのさいはい",
+    "cost": "7",
+    "description": "味方の武力が上がる。さらに鉄砲隊であれば、敵を貫通して射撃できるようになり、特技「狙撃」を得る。既に特技「狙撃」を持っている場合はさらに狙撃状態になるまでの時間が短くなる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=42d90969524a5a52ec836f1df963ae9d",
+    "gameWiki": "https://eiketsudb.com/card/suzuki-shigetomo/"
+  }
+}

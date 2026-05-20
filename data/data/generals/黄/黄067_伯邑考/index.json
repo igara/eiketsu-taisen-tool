@@ -1,0 +1,52 @@
+{
+  "no": "黄067",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "d2bf0b085aadea54dfa6fcb81d256560",
+  "detailImageId": "7a456cf6b12114741d2e2574c7f72e28",
+  "name": "伯邑考",
+  "kanaName": "はくゆうこう",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "古代",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "美食三昧",
+    "kanaName": "びしょくざんまい",
+    "cost": "5",
+    "description": "黄の味方の武力が上がり、効果終了時に兵力が回復する。ただし自身は撤退する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "4",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d2bf0b085aadea54dfa6fcb81d256560",
+    "gameWiki": "https://eiketsudb.com/card/hakuyuukou/"
+  }
+}

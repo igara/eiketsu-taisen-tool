@@ -1,0 +1,47 @@
+{
+  "no": "琥113",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "d60a6f39779d9c6a43df82fd4120735e",
+  "detailImageId": "b4d21d2a3f9a5994207d45553930ae1a",
+  "name": "呉用",
+  "kanaName": "ごよう",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "智多の星",
+    "kanaName": "ちたのほし",
+    "cost": "5",
+    "description": "最も武力の高い敵に知力によるダメージを与える。ダメージは互いの知力で上下する。さらに琥の味方の武力が上がり、この計略で与えたダメージに応じて対象の味方の宿星ゲージが増加する",
+    "categories": [
+      "全体強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d60a6f39779d9c6a43df82fd4120735e",
+    "gameWiki": "https://eiketsudb.com/card/goyou/"
+  }
+}

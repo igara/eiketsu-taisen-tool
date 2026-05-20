@@ -1,0 +1,46 @@
+{
+  "no": "碧176",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "5348ec6df65a13a44b952adc20af8cf7",
+  "detailImageId": "289cfdb9b35cbbf58fdc71ecbd57dd39",
+  "name": "南陽院",
+  "kanaName": "なんよういん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "戦国",
+  "cost": "1.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "攻防の盾槍",
+    "kanaName": "こうぼうのたてやり",
+    "cost": "3",
+    "description": "武力と移動速度が上がる。さらに向いている方向に射撃と竜射を無効化する盾が出現する",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5348ec6df65a13a44b952adc20af8cf7",
+    "gameWiki": "https://eiketsudb.com/card/nanyouin/"
+  }
+}

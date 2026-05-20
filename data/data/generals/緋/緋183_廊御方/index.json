@@ -1,0 +1,52 @@
+{
+  "no": "緋183",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "1fc3d760d8f7ac409679e34b159b8b4b",
+  "detailImageId": "37edf9f92e6ce1f96e5ea742d7124936",
+  "name": "廊御方",
+  "kanaName": "ろうのおんかた",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "平安",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "落陽の海路",
+    "kanaName": "らくようのうみじ",
+    "cost": "4",
+    "description": "移動速度が上がり、覇気の溜まる量が増える。さらに味方と接触するたびに接触した味方と自身の兵力が一定時間徐々に回復する",
+    "categories": [
+      "強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    },
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1fc3d760d8f7ac409679e34b159b8b4b",
+    "gameWiki": "https://eiketsudb.com/card/rou-no-onkata/"
+  }
+}

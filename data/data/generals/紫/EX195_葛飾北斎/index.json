@@ -1,0 +1,45 @@
+{
+  "no": "EX195",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 26/05/20〜"
+  ],
+  "id": "7bd6a78ead8d29470d101479d97d0f41",
+  "detailImageId": "69aeb107a5ee1007c7c90c1c44e588fc",
+  "name": "葛飾北斎",
+  "kanaName": "かつしかほくさい",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "江戸･幕末",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "怒濤八方睨み",
+    "kanaName": "どとうはっぽうにらみ",
+    "cost": "5",
+    "description": "敵に知力によるダメージを与える。ダメージは互いの知力で上下する",
+    "categories": [
+      "ダメージ"
+    ],
+    "time": "一瞬",
+    "range": "08ddb89408245f5b48f45563e7519d38"
+  },
+  "power": "5",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bd6a78ead8d29470d101479d97d0f41",
+    "gameWiki": "https://eiketsudb.com/card/katsushika-hokusai-basara/"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "no": "玄177",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "805954301ecddfea3ae81d94b1084615",
+  "detailImageId": "d90d53c22e4ebd6a0e086d314a74fefc",
+  "name": "侯氏",
+  "kanaName": "こうし",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "白馬連星陣",
+    "kanaName": "はくばれんせいじん",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>自身と、自身を除く最も武将コストの高い玄の味方の武力と移動速度が上がる。さらに自身が一定回数突撃を敵に当てるたびに範囲が大きくなる。ただし範囲が徐々に小さくなり、一定の大きさを下回ると効果が終了する",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=805954301ecddfea3ae81d94b1084615",
+    "gameWiki": "https://eiketsudb.com/card/hou-shi/"
+  }
+}

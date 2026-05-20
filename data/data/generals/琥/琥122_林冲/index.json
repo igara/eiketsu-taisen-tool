@@ -1,0 +1,46 @@
+{
+  "no": "琥122",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "1a1b57f3831e45b48901f246419af055",
+  "detailImageId": "796380ddf1ce85fcde0e80348d1c15c1",
+  "name": "林冲",
+  "kanaName": "りんちゅう",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "虎臣の星",
+    "kanaName": "こしんのほし",
+    "cost": "3",
+    "description": "武力と槍撃ダメージが上がる。宿星状態であれば、代わりに武力と移動速度が上がり、全方向に槍の無敵攻撃を行う。さらに槍の無敵攻撃のダメージが上がる。ただしこの計略の必要士気が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "宿星",
+      "shortName": "星",
+      "description": "宿星ゲージが一定以上になると、武力と知力が上がります。宿星ゲージは与えたダメージに応じて増加します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1a1b57f3831e45b48901f246419af055",
+    "gameWiki": "https://eiketsudb.com/card/rinchuu/"
+  }
+}

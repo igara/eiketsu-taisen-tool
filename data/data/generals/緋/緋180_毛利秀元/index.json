@@ -1,0 +1,52 @@
+{
+  "no": "緋180",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "6edafd031acdd4bc100a1e7386f2112d",
+  "detailImageId": "b32ffb71adf9b1cf513f64cccbfb7629",
+  "name": "毛利秀元",
+  "kanaName": "もうりひでもと",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "宰相の空弁当",
+    "kanaName": "さいしょうのからべんとう",
+    "cost": "6",
+    "description": "緋の味方の武力が上がる。さらに対象の味方が移動している間知力が徐々に上がり、移動していない間兵力が徐々に回復する",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "20",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6edafd031acdd4bc100a1e7386f2112d",
+    "gameWiki": "https://eiketsudb.com/card/mouri-hidemoto/"
+  }
+}

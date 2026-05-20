@@ -1,0 +1,46 @@
+{
+  "no": "蒼175",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "5b07dcfa627cb632c45eb22d64a54691",
+  "detailImageId": "a3118fb46331904bfce30a0c7c2c4157",
+  "name": "佐々成政",
+  "kanaName": "さっさなりまさ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "必中の銃火",
+    "kanaName": "ひっちゅうのじゅうか",
+    "cost": "4",
+    "description": "武力が上がり、狙撃状態になるまでの時間が短くなる。さらに射撃時にロックオンしている敵が戦場にいる場合、射撃が必ず当たるようになる。ただし射撃時の攻撃回数が減り、敵からロックオンが見えるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5b07dcfa627cb632c45eb22d64a54691",
+    "gameWiki": "https://eiketsudb.com/card/satsa-narimasa-2/"
+  }
+}

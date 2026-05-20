@@ -1,0 +1,58 @@
+{
+  "no": "黄068",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "e9606bed1ca3328fe6d45a12d485340f",
+  "detailImageId": "65ea1691df9f3cff006994765ebc8e4a",
+  "name": "フランシスコ・ザビエル",
+  "kanaName": "フランシスコ・ザビエル",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "愛の伝道",
+    "kanaName": "あいのでんどう",
+    "cost": "8",
+    "description": "黄の味方の武力が上がる。さらに対象の黄熾ゲージが多いほど兵力が回復する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "黄熾"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "6",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "復活",
+      "shortName": "活",
+      "description": "撤退した際、復活するために必要な時間が減少します"
+    },
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "黄熾",
+      "shortName": "黄",
+      "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
+    }
+  ],
+  "kabuki": "3",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e9606bed1ca3328fe6d45a12d485340f",
+    "gameWiki": "https://eiketsudb.com/card/francis-xavier/"
+  }
+}

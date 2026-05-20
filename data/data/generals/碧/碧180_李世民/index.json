@@ -1,0 +1,46 @@
+{
+  "no": "碧180",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "0b494ffd4e2b9bfaef91dc649e4cc488",
+  "detailImageId": "16371c429e4f75b046da71d2dba761d3",
+  "name": "李世民",
+  "kanaName": "りせいみん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "3.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "天策上将の号令",
+    "kanaName": "てんさくじょうしょうのごうれい",
+    "cost": "6",
+    "description": "碧の騎兵の味方の武力と移動速度と突撃ダメージが上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "9",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0b494ffd4e2b9bfaef91dc649e4cc488",
+    "gameWiki": "https://eiketsudb.com/card/riseimin/"
+  }
+}

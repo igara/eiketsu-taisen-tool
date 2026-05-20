@@ -1,0 +1,46 @@
+{
+  "no": "紫135",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "67189993e0bd4e6ab9bd60ae71d7f7cf",
+  "detailImageId": "7da3b3c311a40e3ddbdc6429c5a533e6",
+  "name": "周勃",
+  "kanaName": "しゅうぼつ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "春秋戦国",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "左袒の尋問",
+    "kanaName": "さたんのじんもん",
+    "cost": "4",
+    "description": "戦場にいる春秋戦国の味方部隊数が多いほど武力が上がる。一定以上武力が上がると、さらに走射中の弓攻撃のダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "覇気",
+      "shortName": "覇",
+      "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=67189993e0bd4e6ab9bd60ae71d7f7cf",
+    "gameWiki": "https://eiketsudb.com/card/shuubotsu/"
+  }
+}

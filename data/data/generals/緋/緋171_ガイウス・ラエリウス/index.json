@@ -1,0 +1,46 @@
+{
+  "no": "緋171",
+  "appear": "第6弾-1",
+  "appearPatterns": [
+    "探索(武将): 26/05/20〜",
+    "武将獲得: 26/05/20〜"
+  ],
+  "id": "10c2de69d7bfb6a291056ed176930e6f",
+  "detailImageId": "e3544406c179606d923153b4e71c39f5",
+  "name": "ガイウス・ラエリウス",
+  "kanaName": "ガイウス・ラエリウス",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "古代",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "知友の目覚め",
+    "kanaName": "ちゆうのめざめ",
+    "cost": "5",
+    "description": "戦場にいる古代の味方の知力の最大値が大きいほど武力が上がる。一定以上武力が上がると、さらに移動速度と槍撃ダメージが上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=10c2de69d7bfb6a291056ed176930e6f",
+    "gameWiki": "https://eiketsudb.com/card/gaius-laelius/"
+  }
+}

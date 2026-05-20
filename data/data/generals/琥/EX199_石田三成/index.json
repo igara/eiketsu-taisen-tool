@@ -1,0 +1,47 @@
+{
+  "no": "EX199",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "金剛石商店(バサラ石交換所): 26/05/20〜"
+  ],
+  "id": "02a33bb57bb76b69d594b2ced0c52ff5",
+  "detailImageId": "ec88d3ee6c1990d84ea2a989e7b58839",
+  "name": "石田三成",
+  "kanaName": "いしだみつなり",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "戦国",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "大一大万大吉",
+    "kanaName": "だいいちだいまんだいきち",
+    "cost": "8",
+    "description": "発動時の琥煌ゲージに応じて効果が変わる<br>琥煌ゲージ５以下：琥の味方の武力が上がり、琥煌ゲージが増加する<br>琥煌ゲージ６：琥煌ゲージを全て消費し、琥の味方の武力と知力と移動速度が上がり、兵力が回復する。さらに発動後に琥煌ゲージが増加する",
+    "categories": [
+      "全体強化",
+      "回復",
+      "琥煌"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=02a33bb57bb76b69d594b2ced0c52ff5",
+    "gameWiki": "https://eiketsudb.com/card/ishida-mitsunari-basara/"
+  }
+}
