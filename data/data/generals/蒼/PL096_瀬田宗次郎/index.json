@@ -2,7 +2,8 @@
   "no": "PL096",
   "appear": "第5弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 25/09/03〜25/09/16"
+    "大戦スタンプキャンペーン: 25/09/03〜25/09/16",
+    "大戦スタンプキャンペーン: 26/06/03〜26/06/16"
   ],
   "id": "42df0242fde8a9e248b48cd9b50ede8c",
   "detailImageId": "0319e796b267abe032b389cb7c5bfc78",
@@ -38,7 +39,7 @@
       "description": "兵種に応じて移動速度が上がります"
     }
   ],
-  "kabuki": "18",
+  "kabuki": "24",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=42df0242fde8a9e248b48cd9b50ede8c",
     "gameWiki": "https://eiketsudb.com/card/seta-soujirou-rurouni-kenshin/"
