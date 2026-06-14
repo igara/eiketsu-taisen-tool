@@ -2,7 +2,8 @@
   "no": "PL097",
   "appear": "第5弾-PL",
   "appearPatterns": [
-    "大戦スタンプキャンペーン: 25/09/03〜25/09/16"
+    "大戦スタンプキャンペーン: 25/09/03〜25/09/16",
+    "大戦スタンプキャンペーン: 26/06/03〜26/06/16"
   ],
   "id": "92a85265ede89c6a04b0b831e9870fa3",
   "detailImageId": "56db7394ac2274b07a5aa5d3adaa6a7d",
@@ -38,7 +39,7 @@
       "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
     }
   ],
-  "kabuki": "15",
+  "kabuki": "18",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=92a85265ede89c6a04b0b831e9870fa3",
     "gameWiki": "https://eiketsudb.com/card/shishio-makoto-rurouni-kenshin/"
