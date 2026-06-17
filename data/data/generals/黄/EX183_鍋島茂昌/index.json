@@ -2,6 +2,7 @@
   "no": "EX183",
   "appear": "第5弾-EX",
   "appearPatterns": [
+    "金剛石商店(金剛石交換所): 26/06/17〜",
     "ポイントショップイベント: 26/03/04〜26/03/17"
   ],
   "id": "21b05b085a6c9b60bbcf1b1b0fb4eaf7",
@@ -38,7 +39,7 @@
       "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
     }
   ],
-  "kabuki": "6",
+  "kabuki": "8",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21b05b085a6c9b60bbcf1b1b0fb4eaf7",
     "gameWiki": "https://eiketsudb.com/card/nabeshima-shigeharu-ex/"

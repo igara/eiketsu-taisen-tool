@@ -1,0 +1,47 @@
+{
+  "no": "PL120",
+  "appear": "第6弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/06/17〜26/06/30"
+  ],
+  "id": "32008cc6932ba90bba69709bd8a3fb73",
+  "detailImageId": "c68816cd74c8fa2a2775e79459a5dfb0",
+  "name": "関羽",
+  "kanaName": "かんう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "戦塵颶風",
+    "kanaName": "せんじんぐふう",
+    "cost": "6",
+    "description": "武力と移動速度が上がり、効果中に斬撃を行えるようになる。さらに斬撃を敵に当てると自身と斬撃を当てた敵が跳躍するようになる。跳躍中は計略の対象にならなくなり、跳躍させた敵に跳躍中と着地時に武力によるダメージを与える。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "9",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=32008cc6932ba90bba69709bd8a3fb73",
+    "gameWiki": "https://eiketsudb.com/card/guan-yu-koihime/"
+  }
+}

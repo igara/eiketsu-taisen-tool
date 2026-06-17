@@ -1,0 +1,46 @@
+{
+  "no": "PL118",
+  "appear": "第6弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/06/17〜26/06/30"
+  ],
+  "id": "da2ee086e9a0f6810ad65262a7358ccb",
+  "detailImageId": "b38c988160f6b6282aa166a75078467d",
+  "name": "諸葛亮",
+  "kanaName": "しょかつりょう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "1.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "伏龍のひらめき",
+    "kanaName": "ふくりゅうのひらめき",
+    "cost": "6",
+    "description": "対象の碧の味方部隊数に応じて効果が変わる<br>１部隊：武力と知力が上がり、知力による戦闘ダメージを与えるようになる<br>２部隊：武力が上がり、敵に与えた戦闘ダメージに応じて兵力が回復する<br>３部隊以上：武力と攻城力が上がる",
+    "categories": [
+      "全体強化",
+      "回復"
+    ],
+    "time": "知力時間",
+    "range": "d33f30c325956b1f6363fb6ab0e8f973"
+  },
+  "power": "4",
+  "intelligentzia": "11",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=da2ee086e9a0f6810ad65262a7358ccb",
+    "gameWiki": "https://eiketsudb.com/card/zhuge-liang-koihime/"
+  }
+}

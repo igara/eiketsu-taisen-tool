@@ -2196,6 +2196,15 @@
     }
   },
   {
+    "no": "PL117",
+    "deckImageHash": "800f07811fe03ffe0fb401f8023b6e3f7d7e70fec0f0007000f801b01ff89ff3",
+    "name": "孫権",
+    "kanaName": "そんけん",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "ST002",
     "deckImageHash": "f050e07ee01ef01f004bc3ef03dcf1d8e858fb20d7c22fc0ff807c8011e81ff4",
     "name": "曹操",
@@ -6475,6 +6484,33 @@
     "deckImageHash": "03e707f10fd00fd80f7c1d7e197400f875fdec670ce600428bcb038011cfffc1",
     "name": "モルガン",
     "kanaName": "モルガン",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "PL118",
+    "deckImageHash": "0040071c4deefdbff4eff403f02348329af21ffe3db01800dfe07f800e000dfe",
+    "name": "諸葛亮",
+    "kanaName": "しょかつりょう",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "PL119",
+    "deckImageHash": "0002fff07ff07e806c907ff078f0f060fe20071e3fcc1f800fdc0f9e0f0f8c0c",
+    "name": "趙雲",
+    "kanaName": "ちょううん",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "PL120",
+    "deckImageHash": "7e327f10fe0204e90ff907f007f040fac0b801e44bff71b80710003827ff17ff",
+    "name": "関羽",
+    "kanaName": "かんう",
     "color": {
       "name": "碧"
     }

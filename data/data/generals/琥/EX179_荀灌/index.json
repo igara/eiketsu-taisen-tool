@@ -2,6 +2,7 @@
   "no": "EX179",
   "appear": "第5弾-EX",
   "appearPatterns": [
+    "金剛石商店(金剛石交換所): 26/06/17〜",
     "ポイントショップイベント: 26/02/18〜26/03/17"
   ],
   "id": "52473505b7e6e156728a40eb5fc87fcf",
@@ -42,7 +43,7 @@
       "description": "兵種に応じて移動速度が上がります"
     }
   ],
-  "kabuki": "12",
+  "kabuki": "8",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=52473505b7e6e156728a40eb5fc87fcf",
     "gameWiki": "https://eiketsudb.com/card/xun-guan-ex/"

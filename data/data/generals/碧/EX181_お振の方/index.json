@@ -2,6 +2,7 @@
   "no": "EX181",
   "appear": "第5弾-EX",
   "appearPatterns": [
+    "金剛石商店(金剛石交換所): 26/06/17〜",
     "ポイントショップイベント: 26/02/25〜26/03/17"
   ],
   "id": "4e0d6569786a865b01a5b714f7490258",
@@ -42,7 +43,7 @@
       "description": "開戦から一定時間、武力と知力が上がります"
     }
   ],
-  "kabuki": "24",
+  "kabuki": "20",
   "url": {
     "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4e0d6569786a865b01a5b714f7490258",
     "gameWiki": "https://eiketsudb.com/card/ofuri-no-kata-ex/"

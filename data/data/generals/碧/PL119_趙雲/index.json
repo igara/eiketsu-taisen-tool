@@ -1,0 +1,50 @@
+{
+  "no": "PL119",
+  "appear": "第6弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/06/17〜26/06/30"
+  ],
+  "id": "37f2008f8fbe2c386ee47fc3672a6371",
+  "detailImageId": "4d1bccc1b1b8ba090745ae8b28220f2f",
+  "name": "趙雲",
+  "kanaName": "ちょううん",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "星雲神妙撃",
+    "kanaName": "せいうんしんみょうげき",
+    "cost": "7",
+    "description": "武力と移動速度と槍撃ダメージが上がる。さらに槍が長くなり、槍撃が複数部隊に当たるようになる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "槍術",
+      "shortName": "槍",
+      "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=37f2008f8fbe2c386ee47fc3672a6371",
+    "gameWiki": "https://eiketsudb.com/card/zhao-yun-koihime/"
+  }
+}
