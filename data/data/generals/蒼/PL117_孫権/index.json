@@ -1,0 +1,50 @@
+{
+  "no": "PL117",
+  "appear": "第6弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/06/17〜26/06/30"
+  ],
+  "id": "7f1e0f76a6dc7f5e16ab8066d898f6fb",
+  "detailImageId": "e898687cc76e841fabfa79914cd242f0",
+  "name": "孫権",
+  "kanaName": "そんけん",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "三国志",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "英霊への誓い",
+    "kanaName": "えいれいへのちかい",
+    "cost": "6",
+    "description": "蒼の三国志の味方の武力が上がる。撤退中の蒼の三国志の味方の最大武将コストが一定以上の場合、さらに武力と移動速度が上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "7",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7f1e0f76a6dc7f5e16ab8066d898f6fb",
+    "gameWiki": "https://eiketsudb.com/card/sun-quan-koihime/"
+  }
+}
