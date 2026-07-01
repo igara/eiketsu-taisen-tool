@@ -1,0 +1,46 @@
+{
+  "no": "PL123",
+  "appear": "第6弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/07/01〜26/07/14"
+  ],
+  "id": "1ab45bddc1b5bcf51c5a7835aaa75cdb",
+  "detailImageId": "2ed9b48fd264fce651707a6d61952a56",
+  "name": "陳宮",
+  "kanaName": "ちんきゅう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "1.0",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "恋殿一筋！",
+    "kanaName": "れんどのひとすじ",
+    "cost": "3",
+    "description": "武力が上がり、隠密状態になる。さらに突撃オーラ中のみ以下の短計を発動でき、短計で突撃を当てた敵の移動速度を一定時間下げる。ただし効果終了時に一定時間計略を使用できない<br>短計・ちんきゅーきっく【１】：移動速度が上がり、向いている方向に敵を弾く突撃を行う。突撃中は敵城に接触しても突撃オーラは消えない",
+    "categories": [
+      "強化",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "2",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1ab45bddc1b5bcf51c5a7835aaa75cdb",
+    "gameWiki": "https://eiketsudb.com/card/chen-gong-koihime/"
+  }
+}

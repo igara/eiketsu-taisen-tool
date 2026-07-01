@@ -1,0 +1,45 @@
+{
+  "no": "PL122",
+  "appear": "第6弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/07/01〜26/07/14"
+  ],
+  "id": "db7a859975ee5b8cff5f67c17e6a5a29",
+  "detailImageId": "5e8537243f48d18126fda9859b47d1bc",
+  "name": "張遼",
+  "kanaName": "ちょうりょう",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "三国志",
+  "cost": "2.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "雲蒸竜変",
+    "kanaName": "うんじょうりゅうへん",
+    "cost": "6",
+    "description": "三国志の味方の武力が上がる。さらに最も武力の高い味方の武力と知力が上がり、攻城ゲージが敵の攻撃で下がらなくなる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "0",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=db7a859975ee5b8cff5f67c17e6a5a29",
+    "gameWiki": "https://eiketsudb.com/card/zhang-liao-koihime/"
+  }
+}

@@ -4374,6 +4374,15 @@
     }
   },
   {
+    "no": "PL121",
+    "deckImageHash": "001700fd07f81ffe739e43c271c3f070e000e3e78f860dfc3ffc3ff006708038",
+    "name": "曹操",
+    "kanaName": "そうそう",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "ST003",
     "deckImageHash": "0670de1cfe8e0e07005710ff00ff02ff9d393f207961fd00f984f1c0f1cc29f0",
     "name": "土方歳三",
@@ -8779,6 +8788,33 @@
     "deckImageHash": "008f1de1f1e8c19fd09fd01fc1479307c007ec27c43fc03f003f401fc16bf679",
     "name": "ジャンヌ・オルタ",
     "kanaName": "ジャンヌ・オルタ",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "PL122",
+    "deckImageHash": "800f67c16fc267e407c017e4fbf040f6b07fe1e1c1812f3859f82708cc989d9b",
+    "name": "張遼",
+    "kanaName": "ちょうりょう",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "PL123",
+    "deckImageHash": "7c037e01380e7fc3ffe0f9f8c0e400e006c607e407fc07fc0fff08ff007cc031",
+    "name": "陳宮",
+    "kanaName": "ちんきゅう",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "PL124",
+    "deckImageHash": "00071c51fcfefc0eff8763f423c3030133057c033f860fce67dc33f867e08181",
+    "name": "呂布",
+    "kanaName": "りょふ",
     "color": {
       "name": "玄"
     }
