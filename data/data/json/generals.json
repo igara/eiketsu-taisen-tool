@@ -205,7 +205,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=11f8c08f5540e5d93173b6ca78204861",
       "gameWiki": "https://eiketsudb.com/card/ikeda-tsuneoki/"
@@ -246,7 +246,7 @@
     "power": "4",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b5535e467a179ba1de7c02a2fe84cc37",
       "gameWiki": "https://eiketsudb.com/card/iwasaki-yatarou/"
@@ -332,7 +332,7 @@
     "power": "3",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1e4cf5de953b36c699c6a9482d926120",
       "gameWiki": "https://eiketsudb.com/card/oota-gyuuichi/"
@@ -380,7 +380,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7ebcff977fb0762a4dcdcd0edf8bcb90",
       "gameWiki": "https://eiketsudb.com/card/okada-izou/"
@@ -553,7 +553,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c0483f0effbbeae3950fdfcaa41a857a",
       "gameWiki": "https://eiketsudb.com/card/kitazoe-kitsuma/"
@@ -686,7 +686,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e20992d77cad6e0cde23972ab9434ce4",
       "gameWiki": "https://eiketsudb.com/card/sakamoto-ryouma/"
@@ -732,7 +732,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0e55b84e3697ee653b88ed4563ceebbd",
       "gameWiki": "https://eiketsudb.com/card/sakuma-nobumori/"
@@ -1002,7 +1002,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=943f2fd4f12c05b7c348a740ffc0db47",
       "gameWiki": "https://eiketsudb.com/card/xiao-qiao/"
@@ -1049,7 +1049,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6252f0339fd5fb882bfba6e297fb92db",
       "gameWiki": "https://eiketsudb.com/card/zu-mao/"
@@ -1096,7 +1096,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eefaab89484f164b32ffe8d1787aa0cb",
       "gameWiki": "https://eiketsudb.com/card/sun-jian/"
@@ -1489,7 +1489,7 @@
     "power": "2",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=01a156e990c67a161836823407dde12f",
       "gameWiki": "https://eiketsudb.com/card/matsu/"
@@ -1535,7 +1535,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=84bc17c5bc31e779ed860376dc8cac01",
       "gameWiki": "https://eiketsudb.com/card/mutsu-younosuke/"
@@ -1626,7 +1626,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fed912f384efbaf213afbc1c495bdfce",
       "gameWiki": "https://eiketsudb.com/card/mori-yoshinari/"
@@ -2036,7 +2036,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1a3d595c90fd876c5e7272704964d46d",
       "gameWiki": "https://eiketsudb.com/card/wu-furen/"
@@ -2087,7 +2087,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=610112a7d66cf4e88d6ac463377f1741",
       "gameWiki": "https://eiketsudb.com/card/kondou-choujirou/"
@@ -2276,7 +2276,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=de8fde70aeba893fd22621678c792f47",
       "gameWiki": "https://eiketsudb.com/card/nasu-shingo/"
@@ -2379,7 +2379,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9f332cd69f6862dce087a17baa120ba6",
       "gameWiki": "https://eiketsudb.com/card/hashiba-hidenaga/"
@@ -2477,7 +2477,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5605786564d9c06e76ba14547c014a6b",
       "gameWiki": "https://eiketsudb.com/card/yoshida-touyou/"
@@ -2753,7 +2753,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a0155b0eb0ec83b376790357e73a6cb7",
       "gameWiki": "https://eiketsudb.com/card/kazusa-hirotsune/"
@@ -2896,7 +2896,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f08ffec610552a4992eaa4e26cf42e1b",
       "gameWiki": "https://eiketsudb.com/card/zhu-ran/"
@@ -3235,7 +3235,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b64bb7dc2f7e4ed1fa37af5c5a1a063f",
       "gameWiki": "https://eiketsudb.com/card/mouri-yoshikatsu/"
@@ -3282,7 +3282,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6e9a63391f772c9167b7c6b920c7042f",
       "gameWiki": "https://eiketsudb.com/card/lu-xun/"
@@ -3374,7 +3374,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=96f332304c55d04d656ca33ab5374e55",
       "gameWiki": "https://eiketsudb.com/card/kajiwara-kagetoki/"
@@ -3469,7 +3469,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=81bbb031cccac9638421abad98f7fc4e",
       "gameWiki": "https://eiketsudb.com/card/xu-furen/"
@@ -3515,7 +3515,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b1ad047067ac2cfc5c99302f407b8900",
       "gameWiki": "https://eiketsudb.com/card/john-mung/"
@@ -3601,7 +3601,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=de35ea2dd3949fc7f694d2f91d4fb061",
       "gameWiki": "https://eiketsudb.com/card/doi-sanehira/"
@@ -3652,7 +3652,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7303dbc827b28fa5a1af2aff56b5aa48",
       "gameWiki": "https://eiketsudb.com/card/tosanobou-shoushun/"
@@ -3889,7 +3889,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9a1252c079bf4438c43a460084998c47",
       "gameWiki": "https://eiketsudb.com/card/houjou-yoshitoki/"
@@ -3940,7 +3940,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=71f19f7806f76920385b3e8c64e54e4b",
       "gameWiki": "https://eiketsudb.com/card/maeda-keiji/"
@@ -3991,7 +3991,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "11",
+    "kabuki": "22",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=33fceb11d94af0fd8eecdd4da16ab985",
       "gameWiki": "https://eiketsudb.com/card/miura-yoshizumi/"
@@ -4271,7 +4271,7 @@
     "power": "8",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "30",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5b014218c60c9d86a1456550a7901950",
       "gameWiki": "https://eiketsudb.com/card/gan-ning/"
@@ -4362,7 +4362,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e3e09716d7209575738640191853819f",
       "gameWiki": "https://eiketsudb.com/card/koshou/"
@@ -4459,7 +4459,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=10af8ecdc2ecf402f3cc3a9732bf8bd8",
       "gameWiki": "https://eiketsudb.com/card/shoujouou/"
@@ -4608,7 +4608,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=480b5bca3572471f34864330291d0707",
       "gameWiki": "https://eiketsudb.com/card/chousokabe-motochika/"
@@ -4801,7 +4801,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9459f8727affd5eb95ba0ecab43cf9f4",
       "gameWiki": "https://eiketsudb.com/card/hiki-yoshikazu/"
@@ -4894,7 +4894,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5ba0b4ee400bbcbb0ae83a3b170d2fdc",
       "gameWiki": "https://eiketsudb.com/card/rouai/"
@@ -5021,7 +5021,7 @@
     "power": "10",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d38d8d6f82f8950cd0c0ae79a4a4ca64",
       "gameWiki": "https://eiketsudb.com/card/ouki/"
@@ -5108,7 +5108,7 @@
     "power": "10",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=20ab988bc00a3e5009f4e0ada614bf76",
       "gameWiki": "https://eiketsudb.com/card/goshisho/"
@@ -5235,7 +5235,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=150b5848c0800d6a95df687b30296a05",
       "gameWiki": "https://eiketsudb.com/card/senju-no-mae/"
@@ -5333,7 +5333,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8b3bba915ce240baf94b353eb2c8fe07",
       "gameWiki": "https://eiketsudb.com/card/sonbu/"
@@ -5425,7 +5425,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d8c8f01adc3295782664bc304dd83bc5",
       "gameWiki": "https://eiketsudb.com/card/hyoukou/"
@@ -5565,7 +5565,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=621356eb4d682c75bc93c006b1912b1b",
       "gameWiki": "https://eiketsudb.com/card/akahashi-moritoki/"
@@ -5618,7 +5618,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d132ca4ff53372e3c39cd5fcd23a85b3",
       "gameWiki": "https://eiketsudb.com/card/kichou/"
@@ -5670,7 +5670,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=44644993758e7a075312ee65950d227b",
       "gameWiki": "https://eiketsudb.com/card/saitou-dousan/"
@@ -5768,7 +5768,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9e7bbce70fc52a5252288cbfc34b275a",
       "gameWiki": "https://eiketsudb.com/card/sun-quan/"
@@ -5865,7 +5865,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80a2f49e9ee9f977b4f1955171355e31",
       "gameWiki": "https://eiketsudb.com/card/chinggis-khan/"
@@ -5906,7 +5906,7 @@
     "power": "2",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2c589d164c4853069d92afd409c80228",
       "gameWiki": "https://eiketsudb.com/card/houjou-takatoki/"
@@ -6374,7 +6374,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6849fa0c5e6ea2796a2010a86f3315d2",
       "gameWiki": "https://eiketsudb.com/card/sun-luyu/"
@@ -6421,7 +6421,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=79e279c56a52cd743e4c3e3aefea44bc",
       "gameWiki": "https://eiketsudb.com/card/suwa-yorishige/"
@@ -6763,7 +6763,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ad2fba3919f48a69977613b9d01f583",
       "gameWiki": "https://eiketsudb.com/card/youtanwa/"
@@ -6803,7 +6803,7 @@
     "power": "5",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=95a5f05b84205da4a94bd511c32c5510",
       "gameWiki": "https://eiketsudb.com/card/rishi/"
@@ -6942,7 +6942,7 @@
         "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b8e8bb0a195bcc36d6adf326b1aca15f",
       "gameWiki": "https://eiketsudb.com/card/shibasaku/"
@@ -7426,7 +7426,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=bc41b7f8c215c91984c445ff2c8a240a",
       "gameWiki": "https://eiketsudb.com/card/mori-ranmaru/"
@@ -7612,7 +7612,7 @@
     "power": "8",
     "intelligentzia": "9",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9db098c45098fd4a9404532919f4ad10",
       "gameWiki": "https://eiketsudb.com/card/ouhon/"
@@ -7660,7 +7660,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2c63687d2ef4785324b1eacd383ce096",
       "gameWiki": "https://eiketsudb.com/card/galehaut/"
@@ -7707,7 +7707,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7be1e0e0881aeddbec3892fbc7a1a57d",
       "gameWiki": "https://eiketsudb.com/card/chousokabe-morichika/"
@@ -7843,7 +7843,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8c66426e71d64867df9c3311bd520959",
       "gameWiki": "https://eiketsudb.com/card/francois-i/"
@@ -7883,7 +7883,7 @@
     "power": "5",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fa5736c40926ddd3a6fc0ed25e6245f7",
       "gameWiki": "https://eiketsudb.com/card/mouten/"
@@ -8115,7 +8115,7 @@
     "power": "5",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "10",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8010cd00fb63172b9dd07c1c5a000878",
       "gameWiki": "https://eiketsudb.com/card/eumenes/"
@@ -8344,7 +8344,7 @@
     "power": "7",
     "intelligentzia": "9",
     "skill": [],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a0138699b63b8cc15311940f71624f81",
       "gameWiki": "https://eiketsudb.com/card/shikuuba/"
@@ -8390,7 +8390,7 @@
         "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fe45abc34b81248736a7e82238ec1d4c",
       "gameWiki": "https://eiketsudb.com/card/shiso/"
@@ -8439,7 +8439,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b8983cad3354727fd1151ab9b3973e42",
       "gameWiki": "https://eiketsudb.com/card/zhu-huan/"
@@ -8487,7 +8487,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=26f7701bba53c41f67446a84dd2ae3b5",
       "gameWiki": "https://eiketsudb.com/card/soga-kyoudai/"
@@ -8639,7 +8639,7 @@
         "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dee7735ad90b807e83fd3020eb8977d6",
       "gameWiki": "https://eiketsudb.com/card/roxana/"
@@ -8690,7 +8690,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=db7b4b11eacfae621ab1ce7445c615c5",
       "gameWiki": "https://eiketsudb.com/card/hashiba-hideyoshi-ex/"
@@ -8820,7 +8820,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e40748e460a670cdffe3541fcd576686",
       "gameWiki": "https://eiketsudb.com/card/sun-jian-basara/"
@@ -9193,7 +9193,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1923a3dd1f9aaafc32824a6f3e7f9c2c",
       "gameWiki": "https://eiketsudb.com/card/maeda-keiji-basara/"
@@ -9479,7 +9479,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=57d1ab0520c2f0e1cdf21accd9c7d3c2",
       "gameWiki": "https://eiketsudb.com/card/araki-murashige-ex/"
@@ -9519,7 +9519,7 @@
     "power": "10",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8d2e86cb69318c6bad7b459b235c4ffc",
       "gameWiki": "https://eiketsudb.com/card/goshisho-basara/"
@@ -9651,7 +9651,7 @@
     "power": "5",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "16",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ad3bb33e0d0d271682851e76fd77738d",
       "gameWiki": "https://eiketsudb.com/card/oda-nobutada-ex/"
@@ -9702,7 +9702,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "11",
+    "kabuki": "22",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8a65a918c571ee4b2d61ee8a59f7bacc",
       "gameWiki": "https://eiketsudb.com/card/nai-chunithm/"
@@ -9795,7 +9795,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e20a2f1eb01ccf1ed470b6257168b94e",
       "gameWiki": "https://eiketsudb.com/card/tou-ex/"
@@ -9847,7 +9847,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6a927d342939199755739b92025cd1c7",
       "gameWiki": "https://eiketsudb.com/card/kichou-basara/"
@@ -9898,7 +9898,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3e9d0aabeccbf18134a397fbec21196b",
       "gameWiki": "https://eiketsudb.com/card/saitou-dousan-basara/"
@@ -9944,7 +9944,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b96503f1f159a1a95caad491aab74f2f",
       "gameWiki": "https://eiketsudb.com/card/lu-xun-basara/"
@@ -10024,7 +10024,7 @@
     "power": "2",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5f2f4e1dcdf106a971dc7a08dee66166",
       "gameWiki": "https://eiketsudb.com/card/zhang-ti-ex/"
@@ -10166,7 +10166,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=278c336469e1c8e22c6d131cf73e2a64",
       "gameWiki": "https://eiketsudb.com/card/chousokabe-motochika-basara/"
@@ -10205,7 +10205,7 @@
     "power": "5",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c42332a38e73008a6dbcc6fd9dd96581",
       "gameWiki": "https://eiketsudb.com/card/rishi-basara/"
@@ -10359,7 +10359,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e9545186e5ac2dc2f24b674e8b32d169",
       "gameWiki": "https://eiketsudb.com/card/karyouten-kingdom/"
@@ -10405,7 +10405,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b78a0627cdd4dbda08c9004f8749753",
       "gameWiki": "https://eiketsudb.com/card/kyoukai-kingdom/"
@@ -10616,7 +10616,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c111db8973d1ddd74de1b7915aa21610",
       "gameWiki": "https://eiketsudb.com/card/asirpa-kamuy/"
@@ -10709,7 +10709,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4af347f540c95894621babe3870e56cc",
       "gameWiki": "https://eiketsudb.com/card/baji-keisuke-tokyo-revengers/"
@@ -11312,7 +11312,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "33",
+    "kabuki": "44",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=36a7c0225431cefab720b6f60582395c",
       "gameWiki": "https://eiketsudb.com/card/houjou-tokiyuki-nigewaka/"
@@ -11791,7 +11791,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a3a185060da696e279f90431ccc95033",
       "gameWiki": "https://eiketsudb.com/card/inoue-monta/"
@@ -12061,7 +12061,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9bf4de1d0ce883dcdf3ed64fca932cbb",
       "gameWiki": "https://eiketsudb.com/card/xiahou-dun/"
@@ -12417,7 +12417,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "10",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2249624926089a509c3c98b3ca5f6853",
       "gameWiki": "https://eiketsudb.com/card/cao-xiu/"
@@ -12711,7 +12711,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0ff09d0679f0399a91cd05d979f232ad",
       "gameWiki": "https://eiketsudb.com/card/naitou-masahide/"
@@ -12762,7 +12762,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6cff3097465f07727ad40d7a0fd88299",
       "gameWiki": "https://eiketsudb.com/card/nagai-uta/"
@@ -12803,7 +12803,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8f1549cadc177a5de458bcca03657124",
       "gameWiki": "https://eiketsudb.com/card/baba-nobuharu/"
@@ -12849,7 +12849,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6dafa6043013583a4378eea6fd904822",
       "gameWiki": "https://eiketsudb.com/card/bian-shi/"
@@ -12895,7 +12895,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=53d9a1049d2e988c4603fc25a773946d",
       "gameWiki": "https://eiketsudb.com/card/mukunashi-touta/"
@@ -12942,7 +12942,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eace486594de17a8d4aa4c7aadf4df27",
       "gameWiki": "https://eiketsudb.com/card/mouri-takachika/"
@@ -12989,7 +12989,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=00ec0c33182304b2f59ff2ab51ecec70",
       "gameWiki": "https://eiketsudb.com/card/mochizuki-chiyojo/"
@@ -13121,7 +13121,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e1362ea8862037a21fa8eac8c9967615",
       "gameWiki": "https://eiketsudb.com/card/yamagata-masakage/"
@@ -13223,7 +13223,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ae58bdac66982f5c92868afaaaaa9606",
       "gameWiki": "https://eiketsudb.com/card/yoshida-toshimaro/"
@@ -13316,7 +13316,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aee6b6748dcd1e5ed7e2a18b49960c12",
       "gameWiki": "https://eiketsudb.com/card/ankokuji-ekei/"
@@ -13409,7 +13409,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ef65c09ea5a755d8b20e5fc5c883025",
       "gameWiki": "https://eiketsudb.com/card/obu-toramasa/"
@@ -13489,7 +13489,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=34b27f3587921ac61f82fdd4df4efa92",
       "gameWiki": "https://eiketsudb.com/card/kawakami-yaichi/"
@@ -13668,7 +13668,7 @@
     "power": "2",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=de81432b2cc41bb3bee2d353bd99642b",
       "gameWiki": "https://eiketsudb.com/card/sugi-fumi/"
@@ -14025,7 +14025,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aaafd6d0d58d27599fa2e9c3ec830878",
       "gameWiki": "https://eiketsudb.com/card/ike-no-zenni/"
@@ -14065,7 +14065,7 @@
     "power": "6",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "16",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=12a0d1bc5ebece29a4e32a4f8643af06",
       "gameWiki": "https://eiketsudb.com/card/itou-tadakiyo/"
@@ -14157,7 +14157,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=038cd185b61a06cb4a36963292eef550",
       "gameWiki": "https://eiketsudb.com/card/shinagawa-yajirou/"
@@ -14484,7 +14484,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2fd10bbe1c7c33399a14b614774d75eb",
       "gameWiki": "https://eiketsudb.com/card/taira-no-tokiko/"
@@ -14713,7 +14713,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=40c467c05c99ffaee7714da535a1c327",
       "gameWiki": "https://eiketsudb.com/card/yamada-akiyoshi/"
@@ -15038,7 +15038,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5bf525e4bc26952225ba836124bb5b49",
       "gameWiki": "https://eiketsudb.com/card/taira-no-koremori/"
@@ -15124,7 +15124,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=48001ef60c4acaa649e19ec4067a1818",
       "gameWiki": "https://eiketsudb.com/card/taira-no-shigehira/"
@@ -15171,7 +15171,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b514c5f85ae1f9b05ba223700ed8c87d",
       "gameWiki": "https://eiketsudb.com/card/taira-no-shigemori/"
@@ -15402,7 +15402,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2bfd3577db9c6a5325e988bb0ebbe266",
       "gameWiki": "https://eiketsudb.com/card/taira-no-noritsune/"
@@ -15449,7 +15449,7 @@
         "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=afb1e5178e645f832f5916f037c773d0",
       "gameWiki": "https://eiketsudb.com/card/taira-no-munemori/"
@@ -15505,7 +15505,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c17398819711de4ccb993ea0ebe56dfb",
       "gameWiki": "https://eiketsudb.com/card/myoukyuu/"
@@ -15552,7 +15552,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2edf8f2d10ebfeb4373eeb9ea0dd9da8",
       "gameWiki": "https://eiketsudb.com/card/watanabe-kayou/"
@@ -15684,7 +15684,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cf6ea349f9cd32f1c26ae844a1d19b49",
       "gameWiki": "https://eiketsudb.com/card/guo-huai/"
@@ -15871,7 +15871,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dbe5d864161464245a3b399b4bb7c1a9",
       "gameWiki": "https://eiketsudb.com/card/cao-shuang/"
@@ -15958,7 +15958,7 @@
     "power": "8",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=371b67ef4df9e72aa9f980794cea30ae",
       "gameWiki": "https://eiketsudb.com/card/taira-no-tadatsune/"
@@ -16145,7 +16145,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=25f966b6566dc8ca9cab5f42b30e6c3e",
       "gameWiki": "https://eiketsudb.com/card/deng-ai/"
@@ -16280,7 +16280,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a8bd4f29a336201bbf29a2082f5bc1aa",
       "gameWiki": "https://eiketsudb.com/card/youyuuki/"
@@ -16328,7 +16328,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8b858cd2ead9cf7a2150ade42c147280",
       "gameWiki": "https://eiketsudb.com/card/eifu/"
@@ -16473,7 +16473,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=289845be6253de54954d7478c15e2c48",
       "gameWiki": "https://eiketsudb.com/card/guki/"
@@ -16565,7 +16565,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5840b161252e9f97cc431382934223fd",
       "gameWiki": "https://eiketsudb.com/card/kouryou/"
@@ -16886,7 +16886,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4cec24be8a20341bad4b4c262f111d5d",
       "gameWiki": "https://eiketsudb.com/card/yamamoto-kansuke/"
@@ -16926,7 +16926,7 @@
     "power": "7",
     "intelligentzia": "10",
     "skill": [],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=58ceb98e7baf60a1f4187bf43d6d6c3a",
       "gameWiki": "https://eiketsudb.com/card/ooeno-hiromoto/"
@@ -17117,7 +17117,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ae511d1cf9c81f6998687b3c068b949",
       "gameWiki": "https://eiketsudb.com/card/sanada-nobuyuki/"
@@ -17264,7 +17264,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3b614f56870defa7d57c858a7a46ef1e",
       "gameWiki": "https://eiketsudb.com/card/zhen-shi/"
@@ -17310,7 +17310,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a22f4057350457a49f77ca0ef5e17ab2",
       "gameWiki": "https://eiketsudb.com/card/cao-mao/"
@@ -17457,7 +17457,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fcd4541e43e0b5dc8d3d778c3c6537bc",
       "gameWiki": "https://eiketsudb.com/card/chikurin-in/"
@@ -17508,7 +17508,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a15b4935ad145f20e01ff82b9b0855cd",
       "gameWiki": "https://eiketsudb.com/card/hangaku-gozen/"
@@ -17603,7 +17603,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "14",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c3c34525ee2e29719c59a3b7a31d887b",
       "gameWiki": "https://eiketsudb.com/card/mouri-morochika/"
@@ -17684,7 +17684,7 @@
     "power": "5",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=64808d9726bfc6eaa747f15ee8a00540",
       "gameWiki": "https://eiketsudb.com/card/wei-zi/"
@@ -17820,7 +17820,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=05dc0efd8ea43d804ef7aadc936f6847",
       "gameWiki": "https://eiketsudb.com/card/kobayakawa-hidekane/"
@@ -17867,7 +17867,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2b286b98e0be612ed134ab18e5351763",
       "gameWiki": "https://eiketsudb.com/card/cao-anmin/"
@@ -17923,7 +17923,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=251f673e5d3bb67801bfd92ac5cde83f",
       "gameWiki": "https://eiketsudb.com/card/cao-rui/"
@@ -17970,7 +17970,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=13d7f1fbb31c4922f87e9315bc98b8f1",
       "gameWiki": "https://eiketsudb.com/card/cao-ang/"
@@ -18023,7 +18023,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ea21fe9afdc61f80f7485f29b4a40075",
       "gameWiki": "https://eiketsudb.com/card/taira-no-kiyomori-2/"
@@ -18454,7 +18454,7 @@
         "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ecb026ed60b609e7e19b8c85f8d34b44",
       "gameWiki": "https://eiketsudb.com/card/shunshin-kun/"
@@ -18655,7 +18655,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=631e8bce2adfdb58ca5b3cfdf1dc2c27",
       "gameWiki": "https://eiketsudb.com/card/shinryou-kun/"
@@ -18949,7 +18949,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e3dd309b32558c5b4241a290f96e8891",
       "gameWiki": "https://eiketsudb.com/card/ooi-no-kata/"
@@ -18997,7 +18997,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6be4eb69035abd9c79fcebaaf5aa74be",
       "gameWiki": "https://eiketsudb.com/card/john-of-gaunt/"
@@ -19284,7 +19284,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2d4ea9b00b8bbfb5f0090cd4f596a46c",
       "gameWiki": "https://eiketsudb.com/card/pang-de-2/"
@@ -19326,7 +19326,7 @@
     "power": "3",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "20",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0acbd0575816e5197efd28fc3999063b",
       "gameWiki": "https://eiketsudb.com/card/masencia/"
@@ -19696,7 +19696,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e4a072f6f629c7423140fc731bc30ba7",
       "gameWiki": "https://eiketsudb.com/card/fabius/"
@@ -20038,7 +20038,7 @@
         "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1fc3d760d8f7ac409679e34b159b8b4b",
       "gameWiki": "https://eiketsudb.com/card/rou-no-onkata/"
@@ -20130,7 +20130,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=36223b37745284b2209418fae0a9b70b",
       "gameWiki": "https://eiketsudb.com/card/shinjou-no-tsubone-ex/"
@@ -20176,7 +20176,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "40",
+    "kabuki": "48",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cc89a7ae70f8821c33261663687ee679",
       "gameWiki": "https://eiketsudb.com/card/muramatsu-dono-ex/"
@@ -20373,7 +20373,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4e4b09255241bd971ca10bf465fae2a5",
       "gameWiki": "https://eiketsudb.com/card/taira-no-atsumori-ex/"
@@ -20465,7 +20465,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dd770b46de27cb794948378ba47ac725",
       "gameWiki": "https://eiketsudb.com/card/obu-toramasa-basara/"
@@ -20652,7 +20652,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=045ae2c10ae254baa335d7628c8c15a2",
       "gameWiki": "https://eiketsudb.com/card/shinjou-no-tsubone-ex-basara/"
@@ -20893,7 +20893,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=460c11f50439222e7572f5cadea5e38b",
       "gameWiki": "https://eiketsudb.com/card/otsuya-no-kata-ex/"
@@ -20987,7 +20987,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=123c3ae3817d4925ea5ced7d245ad3ef",
       "gameWiki": "https://eiketsudb.com/card/sabaki-no-maya-coj/"
@@ -21034,7 +21034,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=119957feec09349f7676f73140831306",
       "gameWiki": "https://eiketsudb.com/card/hanki-ex/"
@@ -21266,7 +21266,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d7afb0910923411878dae66b48cce57a",
       "gameWiki": "https://eiketsudb.com/card/yamamoto-kansuke-basara/"
@@ -21368,7 +21368,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=51889e46e890cd4a60f1047f51daa5d1",
       "gameWiki": "https://eiketsudb.com/card/xu-chu-ex/"
@@ -21421,7 +21421,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bd792cd96ee11d5d1d5e36999cecd84",
       "gameWiki": "https://eiketsudb.com/card/onimamushi-yuria-chunithm/"
@@ -21468,7 +21468,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=60d03e7f7a4c3f97864033b212ff6d47",
       "gameWiki": "https://eiketsudb.com/card/ding-furen-ex/"
@@ -21513,7 +21513,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1f747ad57614fcc4f2299cf95960800c",
       "gameWiki": "https://eiketsudb.com/card/zhen-shi-basara/"
@@ -21609,7 +21609,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=af6e488835f600dc0af898cd9f597aa7",
       "gameWiki": "https://eiketsudb.com/card/philippa-of-hainault-ex/"
@@ -21747,7 +21747,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b6c0536c8560bac4201d773bbbe2af0",
       "gameWiki": "https://eiketsudb.com/card/kagura-gintama/"
@@ -21844,7 +21844,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=45f2e5d5d940eb3b9b480dbee7d3e13b",
       "gameWiki": "https://eiketsudb.com/card/sugimoto-saichi-kamuy/"
@@ -21895,7 +21895,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ce9cfdb2770fa5243b5cebc55c440ad2",
       "gameWiki": "https://eiketsudb.com/card/ogata-hyakunosuke-kamuy/"
@@ -22386,7 +22386,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=41080cc7da52dbe40ae8b40f3ff3f89d",
       "gameWiki": "https://eiketsudb.com/card/himura-kenshin-rurouni-kenshin/"
@@ -22695,6 +22695,52 @@
     }
   },
   {
+    "no": "PL121",
+    "appear": "第6弾-PL",
+    "appearPatterns": [
+      "大戦スタンプキャンペーン: 26/07/01〜26/07/14"
+    ],
+    "id": "f3cc39c2d9351456b1f13d288deb4b39",
+    "detailImageId": "2d744b3311329ac94862a49a73e33ae0",
+    "name": "曹操",
+    "kanaName": "そうそう",
+    "color": {
+      "name": "緋",
+      "r": "180",
+      "g": "25",
+      "b": "27"
+    },
+    "period": "三国志",
+    "cost": "2.0",
+    "unitType": "騎兵",
+    "strat": {
+      "name": "覇王の裁き",
+      "kanaName": "はおうのさばき",
+      "cost": "7",
+      "description": "緋の味方の武力と乱戦中の攻撃速度が上がる。さらに敵を撃破するたびに自身の武力が上がり、兵力が回復する",
+      "categories": [
+        "全体強化",
+        "回復"
+      ],
+      "time": "知力時間",
+      "range": "e69fed059e9750ea4e334d2b855b052f"
+    },
+    "power": "7",
+    "intelligentzia": "8",
+    "skill": [
+      {
+        "name": "昂揚",
+        "shortName": "昂",
+        "description": "コストに応じて士気が増加した状態で開戦します"
+      }
+    ],
+    "kabuki": "6",
+    "url": {
+      "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3cc39c2d9351456b1f13d288deb4b39",
+      "gameWiki": "https://eiketsudb.com/card/cao-cao-koihime/"
+    }
+  },
+  {
     "no": "ST003",
     "appear": "第1弾-ST",
     "appearPatterns": [
@@ -22854,7 +22900,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ca10433e00ac4bf0f87fe342a3896d01",
       "gameWiki": "https://eiketsudb.com/card/acha-no-tsubone/"
@@ -22940,7 +22986,7 @@
     "power": "4",
     "intelligentzia": "1",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9906d428b3412421efc25fa6a725fe1a",
       "gameWiki": "https://eiketsudb.com/card/inoue-genzaburou/"
@@ -22986,7 +23032,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=81f3b4669a7fc4537713bbeba4ddd31b",
       "gameWiki": "https://eiketsudb.com/card/okita-souji/"
@@ -23042,7 +23088,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2d9ffb34a33bb935619a4af4ec683fea",
       "gameWiki": "https://eiketsudb.com/card/kai-hime/"
@@ -23088,7 +23134,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "14",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5ce8bfe127df0eba11ebe049c1bef793",
       "gameWiki": "https://eiketsudb.com/card/xiahou-yueji/"
@@ -23129,7 +23175,7 @@
     "power": "10",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c4e6b06f15936b07fc61c35e9e616dd5",
       "gameWiki": "https://eiketsudb.com/card/guan-yu/"
@@ -23176,7 +23222,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7e0cf43df13490bf780024cfa95ab574",
       "gameWiki": "https://eiketsudb.com/card/gan-furen/"
@@ -23222,7 +23268,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=12b1698f072f74a85c7c6a10521c6131",
       "gameWiki": "https://eiketsudb.com/card/jian-yong/"
@@ -23262,7 +23308,7 @@
     "power": "5",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=67221d24d65d8d9a2a0f7383fd5b57a4",
       "gameWiki": "https://eiketsudb.com/card/kiyokawa-hachirou/"
@@ -23302,7 +23348,7 @@
     "power": "10",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=672806edc36fc2e77ab2cefc2e4d1f8a",
       "gameWiki": "https://eiketsudb.com/card/kondou-isami/"
@@ -23342,7 +23388,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e57b87e92384d1bf0bf1568ab9e7987b",
       "gameWiki": "https://eiketsudb.com/card/saitou-hajime/"
@@ -23390,7 +23436,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=57ee5fa5f04bedaa00db83ec83d00c6f",
       "gameWiki": "https://eiketsudb.com/card/sakai-tadatsugu/"
@@ -23436,7 +23482,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=084297efd963772a7aa004b715815c84",
       "gameWiki": "https://eiketsudb.com/card/sakakibara-yasumasa/"
@@ -23487,7 +23533,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=83ed3f19779fa811609b20e0ef3f064a",
       "gameWiki": "https://eiketsudb.com/card/sasaki-aijirou/"
@@ -23527,7 +23573,7 @@
     "power": "6",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2249aafd9d696e1af5b3382c0fa36401",
       "gameWiki": "https://eiketsudb.com/card/shimada-kai/"
@@ -23573,7 +23619,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dc03286d4b5f602861dd9f08eef197fa",
       "gameWiki": "https://eiketsudb.com/card/serizawa-kamo/"
@@ -23619,7 +23665,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b382d15c6f8aeebdf9a5e76d55c2a89",
       "gameWiki": "https://eiketsudb.com/card/takeda-kanryuusai/"
@@ -23763,7 +23809,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f0595127a0b2f2c6900b440eb7d155b5",
       "gameWiki": "https://eiketsudb.com/card/zhang-fei/"
@@ -23809,7 +23855,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6f65bb0b9d1da113d721de75943633cf",
       "gameWiki": "https://eiketsudb.com/card/chen-dao/"
@@ -23850,7 +23896,7 @@
     "power": "3",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "15",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0139ee5755930c4b03105f9e125620c8",
       "gameWiki": "https://eiketsudb.com/card/tian-yu/"
@@ -23891,7 +23937,7 @@
     "power": "6",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "36",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=22c3fd9e61d4efe351b7774ea4ae5d93",
       "gameWiki": "https://eiketsudb.com/card/toudou-heisuke/"
@@ -23938,7 +23984,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=96905e7df352c02a544b0c697445f0f5",
       "gameWiki": "https://eiketsudb.com/card/tokugawa-ieyasu/"
@@ -23980,7 +24026,7 @@
     "power": "8",
     "intelligentzia": "2",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6cc93de5a3802fb9b63c78293e943ee7",
       "gameWiki": "https://eiketsudb.com/card/torii-mototada/"
@@ -24027,7 +24073,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f0141b2b11b22fb323cb1bfd92b5646e",
       "gameWiki": "https://eiketsudb.com/card/nagakura-shinpachi/"
@@ -24075,7 +24121,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=74c4b15ba109de75b739896f739be63a",
       "gameWiki": "https://eiketsudb.com/card/narita-nagachika/"
@@ -24121,7 +24167,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "48",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a449c5947fec411124e2674b8a45c3dc",
       "gameWiki": "https://eiketsudb.com/card/niimi-nishiki/"
@@ -24168,7 +24214,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "48",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8165b7d735fa79531a33962f462f2250",
       "gameWiki": "https://eiketsudb.com/card/harada-sanosuke/"
@@ -24214,7 +24260,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f1df488e278b5aeab3fa60c759e43c14",
       "gameWiki": "https://eiketsudb.com/card/hijikata-toshizou/"
@@ -24261,7 +24307,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5bc6bf0bbba5df5b33743babf8414dbc",
       "gameWiki": "https://eiketsudb.com/card/mi-furen/"
@@ -24307,7 +24353,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b7f36cd3f10fcaad5a574b61664b990",
       "gameWiki": "https://eiketsudb.com/card/hiraiwa-chikayoshi/"
@@ -24353,7 +24399,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9a9624863c506ec0c497f8b608aedd37",
       "gameWiki": "https://eiketsudb.com/card/honda-tadakatsu/"
@@ -24399,7 +24445,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d3d587eb383a59a0dae7fab0369c2695",
       "gameWiki": "https://eiketsudb.com/card/matsubara-chuuji/"
@@ -24451,7 +24497,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0ff001d7b64c66e4c3d5cd9ac71f623e",
       "gameWiki": "https://eiketsudb.com/card/yamazaki-susumu/"
@@ -24502,7 +24548,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ca580c841f7d6437fde3befb32178cf1",
       "gameWiki": "https://eiketsudb.com/card/yamanami-keisuke/"
@@ -24554,7 +24600,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=64845409223cd3e2fd0ff086b434b1f9",
       "gameWiki": "https://eiketsudb.com/card/liu-bei/"
@@ -24594,7 +24640,7 @@
     "power": "5",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c917a3734f9e27b2d12684306e62a445",
       "gameWiki": "https://eiketsudb.com/card/ishikawa-kazumasa/"
@@ -24640,7 +24686,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=25050a73bd787d05ec3ab1411e35b350",
       "gameWiki": "https://eiketsudb.com/card/huang-zhong/"
@@ -24687,7 +24733,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=27fa8b17791ce2ce04c6273636ccbc6d",
       "gameWiki": "https://eiketsudb.com/card/gotoku-hime/"
@@ -24871,7 +24917,7 @@
     "power": "2",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1be0465d6efe7e65644d8bc574cb4eb3",
       "gameWiki": "https://eiketsudb.com/card/sun-qian/"
@@ -24918,7 +24964,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=29f1d357bc4340ec5067acd312a10cc6",
       "gameWiki": "https://eiketsudb.com/card/tsukiyama-dono/"
@@ -25113,7 +25159,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1c8fd561e95035c1190fef322ff213f2",
       "gameWiki": "https://eiketsudb.com/card/mu-huanghou/"
@@ -25337,7 +25383,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "40",
+    "kabuki": "32",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fbd21bfc92b770e4895151ab57984afc",
       "gameWiki": "https://eiketsudb.com/card/ooishi-kuwajirou/"
@@ -25475,7 +25521,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ee50a314dbc7e9d9874d3d56646c454e",
       "gameWiki": "https://eiketsudb.com/card/guan-ping/"
@@ -25733,7 +25779,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=463f3a49eb1c0a99fceb12704a186d87",
       "gameWiki": "https://eiketsudb.com/card/fuuma-kotarou/"
@@ -25866,7 +25912,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e635565560ca2a94125b07785a8c96f2",
       "gameWiki": "https://eiketsudb.com/card/pang-tong/"
@@ -26009,7 +26055,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c6b4515a3a1ee001213c955097e4544d",
       "gameWiki": "https://eiketsudb.com/card/atsu-hime/"
@@ -26196,7 +26242,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a95045782ffe7eb14f6eac2d417f6ce1",
       "gameWiki": "https://eiketsudb.com/card/kiso-yoshitaka/"
@@ -26283,7 +26329,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "2",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=082e23373287d2df704009a7ecd05af7",
       "gameWiki": "https://eiketsudb.com/card/takahashi-deishuu/"
@@ -26524,7 +26570,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5bbc7827007193798f10d1754f4ce645",
       "gameWiki": "https://eiketsudb.com/card/tomoe-gozen/"
@@ -26570,7 +26616,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d22ae74960999c26270d63943b3b05ea",
       "gameWiki": "https://eiketsudb.com/card/nakahara-no-kanetoo/"
@@ -26707,7 +26753,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=acca42dd48f14d5d1227466322229f70",
       "gameWiki": "https://eiketsudb.com/card/yamaoka-tetshuu/"
@@ -26753,7 +26799,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=58b4e9494d2b24ecf3c70cbffdc3b626",
       "gameWiki": "https://eiketsudb.com/card/yamabuki-gozen/"
@@ -26913,7 +26959,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=38e82bc8ff5b5908bfc77e6384218780",
       "gameWiki": "https://eiketsudb.com/card/otama-no-kata/"
@@ -27156,7 +27202,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ef452d93e5be96ad23fa860edd545954",
       "gameWiki": "https://eiketsudb.com/card/kasuga-no-tsubone/"
@@ -27203,7 +27249,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d032731692ebfa1f6c3558e6f61a6d62",
       "gameWiki": "https://eiketsudb.com/card/kanchuu/"
@@ -27389,7 +27435,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3d25dc2bd20cb185e779a52b52f49fc7",
       "gameWiki": "https://eiketsudb.com/card/sun-shangxiang/"
@@ -27442,7 +27488,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=09e636eb6f7c80387bf32b483053f552",
       "gameWiki": "https://eiketsudb.com/card/zhao-yun/"
@@ -27580,7 +27626,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=38afe0c242b8f7c2219ce70d73bb3db7",
       "gameWiki": "https://eiketsudb.com/card/houshuku/"
@@ -27718,7 +27764,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=64df79121196d574ba39f437cda57fed",
       "gameWiki": "https://eiketsudb.com/card/ii-naomasa/"
@@ -27799,7 +27845,7 @@
     "power": "7",
     "intelligentzia": "10",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2a64883ba8cadbc42060d28845b441be",
       "gameWiki": "https://eiketsudb.com/card/koushi/"
@@ -27846,7 +27892,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6d192619944a07ef201e8084897f15df",
       "gameWiki": "https://eiketsudb.com/card/suuki/"
@@ -27990,7 +28036,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cbf0dc7925deea99d6803fa1bc3abdca",
       "gameWiki": "https://eiketsudb.com/card/hattori-hanzou/"
@@ -28235,7 +28281,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=14ba3760934cba33a4e5f31b77cba322",
       "gameWiki": "https://eiketsudb.com/card/yamamoto-yae/"
@@ -28332,7 +28378,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=082a606ec2f2d9ed775d7872e13d9b22",
       "gameWiki": "https://eiketsudb.com/card/ichimura-tetsunosuke/"
@@ -28381,7 +28427,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=51912d0bd7cf2e0851b3d17c7650da29",
       "gameWiki": "https://eiketsudb.com/card/enomoto-takeaki/"
@@ -28630,7 +28676,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c7ed0d491d3b77a6075e4d3d6ec91587",
       "gameWiki": "https://eiketsudb.com/card/ma-ji/"
@@ -28727,7 +28773,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a3c9d1f3468d4eb47a3b3460a5b12143",
       "gameWiki": "https://eiketsudb.com/card/mi-zhu/"
@@ -28829,7 +28875,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4b3f5cdd9913969387000afe4d962f14",
       "gameWiki": "https://eiketsudb.com/card/fa-zheng/"
@@ -28875,7 +28921,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=65143a949dab9c1327e28cdd16f8b4ac",
       "gameWiki": "https://eiketsudb.com/card/matsudaira-shungaku/"
@@ -28968,7 +29014,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ccd525d09b774be02e9ba77a958c429",
       "gameWiki": "https://eiketsudb.com/card/ookubo-tadayo/"
@@ -29059,7 +29105,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2fc38a3bd8d3b801cb16e930ba090b39",
       "gameWiki": "https://eiketsudb.com/card/sasaki-tadasaburou/"
@@ -29107,7 +29153,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e0ad4422071e5149d65a940ec4a48934",
       "gameWiki": "https://eiketsudb.com/card/sonpin/"
@@ -29261,7 +29307,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7af28edec7b99e9654edb2b0a53c78a8",
       "gameWiki": "https://eiketsudb.com/card/bao-sanniang/"
@@ -29302,7 +29348,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ca7bb6b9ea767d5f49b4aaa31306aeb1",
       "gameWiki": "https://eiketsudb.com/card/houjou-ujikuni/"
@@ -29348,7 +29394,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dfc12c28996301a0654e75ceb7f72df7",
       "gameWiki": "https://eiketsudb.com/card/houjou-ujiteru/"
@@ -29434,7 +29480,7 @@
     "power": "7",
     "intelligentzia": "10",
     "skill": [],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a76018c37a7057cfce0b43b7e1aa57a0",
       "gameWiki": "https://eiketsudb.com/card/matsudaira-nobutsuna/"
@@ -29579,7 +29625,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=87ce0b29a66fb6559b77e6858f7b6c53",
       "gameWiki": "https://eiketsudb.com/card/will-scarlet/"
@@ -29630,7 +29676,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=234a53d70d4c394a807758b0eb737436",
       "gameWiki": "https://eiketsudb.com/card/maiden-marian/"
@@ -29952,7 +29998,7 @@
     "power": "6",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f724c676a926ebc4761a7c55392736e5",
       "gameWiki": "https://eiketsudb.com/card/much/"
@@ -30062,7 +30108,7 @@
         "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=03bcc51ce43cf868dce6cb795d2fac18",
       "gameWiki": "https://eiketsudb.com/card/morgan/"
@@ -30294,7 +30340,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fa7756514248b500bb0aac45ef32bb3d",
       "gameWiki": "https://eiketsudb.com/card/gakuhi/"
@@ -30342,7 +30388,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7e1e7bcc0dcc8c8602aea44e96f10e85",
       "gameWiki": "https://eiketsudb.com/card/kanseichuu/"
@@ -30388,7 +30434,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7cce735bfe3540268776277942291217",
       "gameWiki": "https://eiketsudb.com/card/sagawa-kanbee/"
@@ -30674,7 +30720,7 @@
         "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2e363baf03118210b0db53e5ad3fe7b6",
       "gameWiki": "https://eiketsudb.com/card/ryoukougyoku/"
@@ -30813,7 +30859,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "44",
+    "kabuki": "33",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ee009ec8dc5e7f12529057b44bf46a5",
       "gameWiki": "https://eiketsudb.com/card/zhou-cang/"
@@ -30864,7 +30910,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c0160e65bd79f650cf45020f32890d30",
       "gameWiki": "https://eiketsudb.com/card/zhuge-guo/"
@@ -30905,7 +30951,7 @@
     "power": "10",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "32",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6edb9348baeb2dd4e91ed56bad595b93",
       "gameWiki": "https://eiketsudb.com/card/setsujinki/"
@@ -31337,7 +31383,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dbeb9b0cd7cc5d74c25947342172dc3f",
       "gameWiki": "https://eiketsudb.com/card/nakazawa-koto-ex/"
@@ -31430,7 +31476,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=12f654004e4c6fc7eb643de802f546ad",
       "gameWiki": "https://eiketsudb.com/card/sakakibara-yasumasa-basara/"
@@ -31612,7 +31658,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3c60c33f921189ddd54c46c185e3beae",
       "gameWiki": "https://eiketsudb.com/card/fuuma-kotarou-basara/"
@@ -31703,7 +31749,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aaf07683589c9f77a9c6138a06d004f0",
       "gameWiki": "https://eiketsudb.com/card/tokugawa-nobuyasu-ex/"
@@ -31749,7 +31795,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2bce40fdb8583639b78d5aa0278402c1",
       "gameWiki": "https://eiketsudb.com/card/gan-furen-basara/"
@@ -31799,7 +31845,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "30",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1d128fd0086364223f45facb219f65ce",
       "gameWiki": "https://eiketsudb.com/card/liu-bei-basara/"
@@ -31891,7 +31937,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c99c54cf4bb10716a1d69b8599511411",
       "gameWiki": "https://eiketsudb.com/card/zhao-yun-basara/"
@@ -31988,7 +32034,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b6d9e10c3daaf8a29b6e9e1ff2b40b1b",
       "gameWiki": "https://eiketsudb.com/card/huang-yueying-ex/"
@@ -32081,7 +32127,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=080d3326a34a7daefa6f1edd17a90018",
       "gameWiki": "https://eiketsudb.com/card/nakano-takeko-ex/"
@@ -32132,7 +32178,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dd8788d28e0f8a96c88311968a44c90f",
       "gameWiki": "https://eiketsudb.com/card/zhao-shi-ex/"
@@ -32371,7 +32417,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5755bd90f7b0b5da807c3a1b22dcae48",
       "gameWiki": "https://eiketsudb.com/card/iba-hachirou-ex/"
@@ -32421,7 +32467,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=bb0a3930a6cb94d60611d37f0552b8f1",
       "gameWiki": "https://eiketsudb.com/card/fa-zheng-basara/"
@@ -32553,7 +32599,7 @@
     "power": "7",
     "intelligentzia": "10",
     "skill": [],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=af437fcc7bc4c0946aaaa5048f3b5c08",
       "gameWiki": "https://eiketsudb.com/card/matsudaira-nobutsuna-basara/"
@@ -32834,7 +32880,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1574669c3037f4446e39c4f4144419f4",
       "gameWiki": "https://eiketsudb.com/card/hanagaki-takemichi-tokyo-revengers/"
@@ -32874,7 +32920,7 @@
     "power": "7",
     "intelligentzia": "9",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e9c069d0a9a6ae98a0c3e612e26558a9",
       "gameWiki": "https://eiketsudb.com/card/hijikata-toshizou-hakuoki/"
@@ -32920,7 +32966,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ecad46979048b5e6e45a0d92faec5b1b",
       "gameWiki": "https://eiketsudb.com/card/okita-souji-hakuoki/"
@@ -32966,7 +33012,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d2016de5b9b4355f27e760dead0547f1",
       "gameWiki": "https://eiketsudb.com/card/toudou-heisuke-hakuoki/"
@@ -33012,7 +33058,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=37e5f7f34b3cfae476c8f0913b7177a6",
       "gameWiki": "https://eiketsudb.com/card/harada-sanosuke-hakuoki/"
@@ -33058,7 +33104,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=16e22d4086d4caf3d5733b87ff5fcd75",
       "gameWiki": "https://eiketsudb.com/card/saitou-hajime-hakuoki/"
@@ -33104,7 +33150,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=613498f7f2b46f4861de88ac3e6c0ab2",
       "gameWiki": "https://eiketsudb.com/card/diane-7-taizai/"
@@ -33334,7 +33380,7 @@
     "power": "9",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=44320dde83321294f8fd52597ca5d67c",
       "gameWiki": "https://eiketsudb.com/card/hijikata-toshizou-drifters/"
@@ -33380,7 +33426,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=48a3c5cc7a673024a1e26c060a99fb25",
       "gameWiki": "https://eiketsudb.com/card/myoujin-yahiko-rurouni-kenshin/"
@@ -33472,7 +33518,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a3ac33f9171b6fd03c7681a27ee46551",
       "gameWiki": "https://eiketsudb.com/card/touseki-king-gonta/"
@@ -33673,7 +33719,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=afb3f5245130b67f168d79a6b96da92e",
       "gameWiki": "https://eiketsudb.com/card/morgan-fate-go/"
@@ -33816,7 +33862,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=32008cc6932ba90bba69709bd8a3fb73",
       "gameWiki": "https://eiketsudb.com/card/guan-yu-koihime/"
@@ -33987,7 +34033,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5216a701dff62f7d4c20de86fc8c329b",
       "gameWiki": "https://eiketsudb.com/card/ashikaga-yoshiteru/"
@@ -34068,7 +34114,7 @@
     "power": "6",
     "intelligentzia": "3",
     "skill": [],
-    "kabuki": "30",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f6c578c806065bdb080f6acc64dfe9d0",
       "gameWiki": "https://eiketsudb.com/card/iwanari-tomomichi/"
@@ -34115,7 +34161,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d27315e7c6752cee72179cada8da8f25",
       "gameWiki": "https://eiketsudb.com/card/uesugi-kenshin/"
@@ -34305,7 +34351,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=42e38114684c1cf929f612ae7a38ae51",
       "gameWiki": "https://eiketsudb.com/card/kakizaki-kageie/"
@@ -34483,7 +34529,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=84b5776fcba3f2ee8b12c7723e1c505c",
       "gameWiki": "https://eiketsudb.com/card/saika-magoichi/"
@@ -34523,7 +34569,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f7eb2aa53ccfffd94697c0f1a6481b25",
       "gameWiki": "https://eiketsudb.com/card/saitou-yakurou/"
@@ -34574,7 +34620,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=251ee3bc475488cdc37565867bf11c3a",
       "gameWiki": "https://eiketsudb.com/card/shinji-katamitsu/"
@@ -34615,7 +34661,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f9da5444e8c57543c620b99a02e3137c",
       "gameWiki": "https://eiketsudb.com/card/chiba-sanako/"
@@ -34800,7 +34846,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cc2eafdd4a959ad1338838ebe1a24c2d",
       "gameWiki": "https://eiketsudb.com/card/naoe-kagetsuna/"
@@ -34944,7 +34990,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=58c384988788ad2c20d36cc9b7843b1c",
       "gameWiki": "https://eiketsudb.com/card/nomura-boutouni/"
@@ -35030,7 +35076,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6f662b73496dd9e3d6e540959ce055fb",
       "gameWiki": "https://eiketsudb.com/card/ma-chao/"
@@ -35256,7 +35302,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4827aea5826224ed0de2114a1c1a27ef",
       "gameWiki": "https://eiketsudb.com/card/matsunaga-hisahide/"
@@ -35364,7 +35410,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ed8023b00ae5354de5e565243ae031c6",
       "gameWiki": "https://eiketsudb.com/card/miyabe-teizou/"
@@ -35646,7 +35692,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=820b3e8ac8e2e023065116385eb99470",
       "gameWiki": "https://eiketsudb.com/card/yang-shi/"
@@ -35923,7 +35969,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b03cc3a39718fb9bc073d3ad9a2e37eb",
       "gameWiki": "https://eiketsudb.com/card/han-sui/"
@@ -36011,7 +36057,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f92c8db0c6b74d167040c2a31ca1f853",
       "gameWiki": "https://eiketsudb.com/card/cai-yan/"
@@ -36826,7 +36872,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b090f33195b458135c51f0714978187",
       "gameWiki": "https://eiketsudb.com/card/tada-yorinori/"
@@ -36966,7 +37012,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b3dd4ba9db0dcf6761eeb3636f661df",
       "gameWiki": "https://eiketsudb.com/card/minamoto-no-tameyoshi/"
@@ -37114,7 +37160,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bfc47e8cccfd1f2682fda4416092f5c",
       "gameWiki": "https://eiketsudb.com/card/minamoto-no-yoshihira/"
@@ -37265,7 +37311,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a65617168cf3f286ba72d39097d16526",
       "gameWiki": "https://eiketsudb.com/card/amago-tsunehisa/"
@@ -37357,7 +37403,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=519f93c795b52968792c72622c4633d0",
       "gameWiki": "https://eiketsudb.com/card/ise-yoshimori/"
@@ -37449,7 +37495,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b58a102217fcac397ac40a5b274c817",
       "gameWiki": "https://eiketsudb.com/card/oo-hime/"
@@ -37685,7 +37731,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=81d56b581ddd14b80dd70b462bcfa7a5",
       "gameWiki": "https://eiketsudb.com/card/shimotsuke-no-kintoki/"
@@ -37731,7 +37777,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f4bd60090534241441a4d1622bf044a2",
       "gameWiki": "https://eiketsudb.com/card/shinguu-yukiie/"
@@ -37787,7 +37833,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=37f6e849eec1df92453f2dc0bc46991c",
       "gameWiki": "https://eiketsudb.com/card/sue-harukata/"
@@ -37880,7 +37926,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=07f3bb6bbd129e0902518013f79e908d",
       "gameWiki": "https://eiketsudb.com/card/minamoto-no-noriyori/"
@@ -38030,7 +38076,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3aef4fd880e3dac047a2326ac990b9f0",
       "gameWiki": "https://eiketsudb.com/card/musashibou-benkei/"
@@ -38225,7 +38271,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1860aa3c05b69c20964c24dce3294f88",
       "gameWiki": "https://eiketsudb.com/card/ukita-naoie/"
@@ -38277,7 +38323,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5c0e2f9d6861c5ad89fc3db825455be9",
       "gameWiki": "https://eiketsudb.com/card/kaen/"
@@ -38410,7 +38456,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=02b2ae11e7c6b367a0522845db3089f8",
       "gameWiki": "https://eiketsudb.com/card/shimotsuma-rairen/"
@@ -38456,7 +38502,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=af6dfb73804daa76d8dc09216703dd66",
       "gameWiki": "https://eiketsudb.com/card/zhang-lu/"
@@ -38548,7 +38594,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8597c355085ddfb3628a7a4557ae4d74",
       "gameWiki": "https://eiketsudb.com/card/toushoukou/"
@@ -38601,7 +38647,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1e5088e26cfd29fc8180c1be05882223",
       "gameWiki": "https://eiketsudb.com/card/dong-zhuo/"
@@ -38839,7 +38885,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a81ecf334b8eadf8a4602d7bdcc323d9",
       "gameWiki": "https://eiketsudb.com/card/minamoto-no-yorimasa/"
@@ -39073,7 +39119,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80a42f4af59a0c8f9a67d3befdba778a",
       "gameWiki": "https://eiketsudb.com/card/kawada-nagachika/"
@@ -39120,7 +39166,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b54c4a15db5697c30a944706327daab9",
       "gameWiki": "https://eiketsudb.com/card/ji-ling/"
@@ -39166,7 +39212,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1e8beacb4999e5971f23cc4d49e80f2c",
       "gameWiki": "https://eiketsudb.com/card/gongsun-yuan/"
@@ -39217,7 +39263,7 @@
         "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e54c543e3a796a3d5117801c940ab3c0",
       "gameWiki": "https://eiketsudb.com/card/seki-tetsunosuke/"
@@ -39355,7 +39401,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b32627582cc53608f03d0287238b12ce",
       "gameWiki": "https://eiketsudb.com/card/naoe-kanetsugu/"
@@ -39448,7 +39494,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1e84ce6bfd14bff8cd1648d0bf7bf569",
       "gameWiki": "https://eiketsudb.com/card/lv-ji/"
@@ -39635,7 +39681,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=27283ca6695240416e179393911a9c1b",
       "gameWiki": "https://eiketsudb.com/card/katakura-kita/"
@@ -39689,7 +39735,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eeff1bd35f3017bb54f9e0e4467be4ea",
       "gameWiki": "https://eiketsudb.com/card/katakura-kojuurou/"
@@ -39885,7 +39931,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fb10d23eeddfea274e868f28bd2e2c93",
       "gameWiki": "https://eiketsudb.com/card/date-masamune/"
@@ -39936,7 +39982,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b01e6aad132939c3677cb6b9d43fdd92",
       "gameWiki": "https://eiketsudb.com/card/zheng/"
@@ -40034,7 +40080,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fc2bcdd20efc9ada388bd01086819d86",
       "gameWiki": "https://eiketsudb.com/card/minamoto-no-sanetomo/"
@@ -40074,7 +40120,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8bacd04e09823aa62c78e6fe56b81a54",
       "gameWiki": "https://eiketsudb.com/card/miyoshino-yasunobu/"
@@ -40126,7 +40172,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f1dc60266a96791a2762d0f49b92dbd8",
       "gameWiki": "https://eiketsudb.com/card/mego-hime/"
@@ -40218,7 +40264,7 @@
     "power": "3",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "36",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b1c7832946b8fbff4c44f5e3ee3a3fd8",
       "gameWiki": "https://eiketsudb.com/card/ashikaga-takayoshi/"
@@ -40316,7 +40362,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d83fbf25a538c5483ad523e0230a5d00",
       "gameWiki": "https://eiketsudb.com/card/uesugi-kiyoko/"
@@ -40453,7 +40499,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e03bf2ffb5e5aa886d3af2257256a6f7",
       "gameWiki": "https://eiketsudb.com/card/kawai-tsuginosuke/"
@@ -40500,7 +40546,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b404b2f12ed5eccec3c9f22b61c2fc3",
       "gameWiki": "https://eiketsudb.com/card/satake-yoshishige/"
@@ -40743,7 +40789,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=92371fd5423e0175828fe1aa18cb220f",
       "gameWiki": "https://eiketsudb.com/card/yoshi-hime/"
@@ -40794,7 +40840,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=85dadf55564093fface289ec50507493",
       "gameWiki": "https://eiketsudb.com/card/li-ru/"
@@ -41119,7 +41165,7 @@
     "power": "9",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0b42e451be03cb845e54b4168233d2ce",
       "gameWiki": "https://eiketsudb.com/card/nagao-tamekage/"
@@ -41552,7 +41598,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=53333ab8a14c8606083a8c22190458fb",
       "gameWiki": "https://eiketsudb.com/card/akechi-mitsuhide-2/"
@@ -41697,7 +41743,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dea18e5ab21d62741292948e94ed6bcd",
       "gameWiki": "https://eiketsudb.com/card/oohouri-tsuruhime/"
@@ -41748,7 +41794,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1a9ecefde7e1c47d643320a88f9147c8",
       "gameWiki": "https://eiketsudb.com/card/yan-shi/"
@@ -41794,7 +41840,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5a9e51d9ca342496acdd4db700109047",
       "gameWiki": "https://eiketsudb.com/card/saitou-toshimitsu/"
@@ -42223,7 +42269,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c69fbfc77a2f2d1ffd5ea58a1c4062a9",
       "gameWiki": "https://eiketsudb.com/card/uesugi-noriaki/"
@@ -42275,7 +42321,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=805954301ecddfea3ae81d94b1084615",
       "gameWiki": "https://eiketsudb.com/card/hou-shi/"
@@ -42523,7 +42569,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=42d90969524a5a52ec836f1df963ae9d",
       "gameWiki": "https://eiketsudb.com/card/suzuki-shigetomo/"
@@ -42576,7 +42622,7 @@
         "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=70c7bec40b88f26e84da6b18111df470",
       "gameWiki": "https://eiketsudb.com/card/fusehime/"
@@ -42762,7 +42808,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=347f6a2c9540d37c07b465b9a808bdd6",
       "gameWiki": "https://eiketsudb.com/card/dong-bai-ex/"
@@ -42812,7 +42858,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ab26089f255cc114cbb9fcc5750fa0d",
       "gameWiki": "https://eiketsudb.com/card/ashikaga-yoshiteru-basara/"
@@ -42857,7 +42903,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=94b4ba6d39a93032cd2f6c4cedfe682b",
       "gameWiki": "https://eiketsudb.com/card/matsunaga-hisahide-basara/"
@@ -43034,7 +43080,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a3fd8e6ca210cdb614f5f43e5f9c57e0",
       "gameWiki": "https://eiketsudb.com/card/uesugi-kenshin-basara/"
@@ -43164,7 +43210,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9bce5ae3964d215cff7506091ee53f67",
       "gameWiki": "https://eiketsudb.com/card/dong-bai-ex-basara/"
@@ -43436,7 +43482,7 @@
     "power": "6",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f9e61e10399407f25d39c16cc73195a3",
       "gameWiki": "https://eiketsudb.com/card/kitabatake-tomonori-ex/"
@@ -43722,7 +43768,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=dc73a4757096e79338135fadfd98e280",
       "gameWiki": "https://eiketsudb.com/card/dong-zhuo-basara/"
@@ -43768,7 +43814,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80337e507020c2c5b5b9e36f127c0136",
       "gameWiki": "https://eiketsudb.com/card/lv-ji-basara/"
@@ -44054,7 +44100,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=78b0e145dc429cb01be9ba0584570a4e",
       "gameWiki": "https://eiketsudb.com/card/lv-bu-ex/"
@@ -44404,7 +44450,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=294c0899f1b560a32dfebd5a9d976cd8",
       "gameWiki": "https://eiketsudb.com/card/zheng-basara/"
@@ -44546,7 +44592,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f9d46c41f9a8a346fd47663dce7b602d",
       "gameWiki": "https://eiketsudb.com/card/satake-yoshishige-basara/"
@@ -44596,7 +44642,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1f1d2495547c845aade0fb911be05dda",
       "gameWiki": "https://eiketsudb.com/card/li-ru-basara/"
@@ -44831,7 +44877,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f59fdeadec6f567990e7eb367de13458",
       "gameWiki": "https://eiketsudb.com/card/katou-kiyomasa-hara-tetsuo/"
@@ -44968,7 +45014,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7c69f1f029e18b47425ebce97e9c330c",
       "gameWiki": "https://eiketsudb.com/card/sakata-gintoki-gintama/"
@@ -45109,7 +45155,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4427ae0a07cfca6d86b4bd64ce4aa915",
       "gameWiki": "https://eiketsudb.com/card/kyouyama-anna-shamanking/"
@@ -45155,7 +45201,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3d3a8ac5cbbe0b6ced9751cbc6e444ee",
       "gameWiki": "https://eiketsudb.com/card/asakura-you-shamanking/"
@@ -45202,7 +45248,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=98f8129403509c4ab6e2c0fd8f5e37a9",
       "gameWiki": "https://eiketsudb.com/card/elizabeth-7-taizai/"
@@ -45355,7 +45401,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=da4b90bd1a6f1d4806054ac2862f3786",
       "gameWiki": "https://eiketsudb.com/card/nasu-no-yoichi-drifters/"
@@ -45449,7 +45495,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2595e11e8ca4ed8a3e9b329aa75ef63c",
       "gameWiki": "https://eiketsudb.com/card/dong-zhuo-king-gonta/"
@@ -45693,6 +45739,149 @@
     }
   },
   {
+    "no": "PL122",
+    "appear": "第6弾-PL",
+    "appearPatterns": [
+      "大戦スタンプキャンペーン: 26/07/01〜26/07/14"
+    ],
+    "id": "db7a859975ee5b8cff5f67c17e6a5a29",
+    "detailImageId": "5e8537243f48d18126fda9859b47d1bc",
+    "name": "張遼",
+    "kanaName": "ちょうりょう",
+    "color": {
+      "name": "玄",
+      "r": "99",
+      "g": "98",
+      "b": "97"
+    },
+    "period": "三国志",
+    "cost": "2.5",
+    "unitType": "剣豪",
+    "strat": {
+      "name": "雲蒸竜変",
+      "kanaName": "うんじょうりゅうへん",
+      "cost": "6",
+      "description": "三国志の味方の武力が上がる。さらに最も武力の高い味方の武力と知力が上がり、攻城ゲージが敵の攻撃で下がらなくなる",
+      "categories": [
+        "全体強化"
+      ],
+      "time": "知力時間",
+      "range": "e69fed059e9750ea4e334d2b855b052f"
+    },
+    "power": "8",
+    "intelligentzia": "8",
+    "skill": [
+      {
+        "name": "先陣",
+        "shortName": "先",
+        "description": "開戦から一定時間、武力と知力が上がります"
+      }
+    ],
+    "kabuki": "0",
+    "url": {
+      "official": "https://eiketsu-taisen.net/datalist/?s=general&c=db7a859975ee5b8cff5f67c17e6a5a29",
+      "gameWiki": "https://eiketsudb.com/card/zhang-liao-koihime/"
+    }
+  },
+  {
+    "no": "PL123",
+    "appear": "第6弾-PL",
+    "appearPatterns": [
+      "大戦スタンプキャンペーン: 26/07/01〜26/07/14"
+    ],
+    "id": "1ab45bddc1b5bcf51c5a7835aaa75cdb",
+    "detailImageId": "2ed9b48fd264fce651707a6d61952a56",
+    "name": "陳宮",
+    "kanaName": "ちんきゅう",
+    "color": {
+      "name": "玄",
+      "r": "99",
+      "g": "98",
+      "b": "97"
+    },
+    "period": "三国志",
+    "cost": "1.0",
+    "unitType": "騎兵",
+    "strat": {
+      "name": "恋殿一筋！",
+      "kanaName": "れんどのひとすじ",
+      "cost": "3",
+      "description": "武力が上がり、隠密状態になる。さらに突撃オーラ中のみ以下の短計を発動でき、短計で突撃を当てた敵の移動速度を一定時間下げる。ただし効果終了時に一定時間計略を使用できない<br>短計・ちんきゅーきっく【１】：移動速度が上がり、向いている方向に敵を弾く突撃を行う。突撃中は敵城に接触しても突撃オーラは消えない",
+      "categories": [
+        "強化",
+        "短計"
+      ],
+      "time": "知力時間",
+      "range": "db0f1158a4038d7c1a1f908c8750498d"
+    },
+    "power": "2",
+    "intelligentzia": "6",
+    "skill": [
+      {
+        "name": "伏兵",
+        "shortName": "伏",
+        "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+      }
+    ],
+    "kabuki": "6",
+    "url": {
+      "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1ab45bddc1b5bcf51c5a7835aaa75cdb",
+      "gameWiki": "https://eiketsudb.com/card/chen-gong-koihime/"
+    }
+  },
+  {
+    "no": "PL124",
+    "appear": "第6弾-PL",
+    "appearPatterns": [
+      "大戦スタンプキャンペーン: 26/07/01〜26/07/14"
+    ],
+    "id": "e1da9057028f7652a2e9a9b9aa2a945a",
+    "detailImageId": "3c432184084fdb66447eb5158372b8fd",
+    "name": "呂布",
+    "kanaName": "りょふ",
+    "color": {
+      "name": "玄",
+      "r": "99",
+      "g": "98",
+      "b": "97"
+    },
+    "period": "三国志",
+    "cost": "3.5",
+    "unitType": "槍兵",
+    "strat": {
+      "name": "天下無敵",
+      "kanaName": "てんかむてき",
+      "cost": "7",
+      "description": "武力と移動速度が上がり、兵力が回復する。さらに乱戦中も槍が消えなくなり、槍撃を当てた敵がいる場所に武力によるダメージを与える。ダメージは互いの武力で上下する。ただし槍撃の発生間隔が延長され、自身以外の槍撃の発生間隔が短縮される効果を受けなくなる",
+      "categories": [
+        "強化",
+        "回復",
+        "ダメージ"
+      ],
+      "time": "知力時間",
+      "range": "db0f1158a4038d7c1a1f908c8750498d"
+    },
+    "power": "11",
+    "intelligentzia": "2",
+    "skill": [
+      {
+        "name": "気合",
+        "shortName": "気",
+        "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+      },
+      {
+        "name": "疾駆",
+        "shortName": "疾",
+        "description": "兵種に応じて移動速度が上がります"
+      }
+    ],
+    "kabuki": "12",
+    "url": {
+      "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e1da9057028f7652a2e9a9b9aa2a945a",
+      "gameWiki": "https://eiketsudb.com/card/lv-bu-koihime/"
+    }
+  },
+  {
     "no": "紫001",
     "appear": "第2弾-1",
     "appearPatterns": [
@@ -45733,7 +45922,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=400f9fda44b1f28a71bef44c2fc4aedc",
       "gameWiki": "https://eiketsudb.com/card/azai-nagamasa/"
@@ -45775,7 +45964,7 @@
     "power": "5",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "3",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eb5a1c6371506ec1defbc82076897a07",
       "gameWiki": "https://eiketsudb.com/card/ashiya-douman/"
@@ -45817,7 +46006,7 @@
     "power": "7",
     "intelligentzia": "9",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=79ef8aa4232b5bef54273d639c741dde",
       "gameWiki": "https://eiketsudb.com/card/abe-no-seimei/"
@@ -45863,7 +46052,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=471b67217855933b4fb56fdf6b7d72ee",
       "gameWiki": "https://eiketsudb.com/card/ii-naomori/"
@@ -45904,7 +46093,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a8da09617748834d331f72455315ec95",
       "gameWiki": "https://eiketsudb.com/card/isono-kazumasa/"
@@ -45956,7 +46145,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5a575ca8d1a542660f19c8902d3d55e5",
       "gameWiki": "https://eiketsudb.com/card/ibaraki-douji/"
@@ -46003,7 +46192,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b3316f2e15500339d89d851304372bbb",
       "gameWiki": "https://eiketsudb.com/card/imagawa-yoshimoto/"
@@ -46097,7 +46286,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=07a141dc82364d8878d9b5dab25ebaca",
       "gameWiki": "https://eiketsudb.com/card/yuan-shao/"
@@ -46137,7 +46326,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ade78cb4471e701236c29d6b2bb686c2",
       "gameWiki": "https://eiketsudb.com/card/endou-naotsune/"
@@ -46234,7 +46423,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a9b25d4f78b12e6bf4995859ac0bb370",
       "gameWiki": "https://eiketsudb.com/card/kane-douji/"
@@ -46280,7 +46469,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5f3c4d41eedc7ec71604aa699af001f2",
       "gameWiki": "https://eiketsudb.com/card/yan-liang/"
@@ -46333,7 +46522,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2c5526d4265e7e7ceceff98e7077b91d",
       "gameWiki": "https://eiketsudb.com/card/gion-no-nyougo/"
@@ -46384,7 +46573,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8942b65fa1613c0d0cd55693c115dbc9",
       "gameWiki": "https://eiketsudb.com/card/xu-you/"
@@ -46430,7 +46619,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=453227c8c3fec0a69e63f94560cac58e",
       "gameWiki": "https://eiketsudb.com/card/kuma-douji/"
@@ -46476,7 +46665,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=92109ad269525bd0e8f910cac06662d8",
       "gameWiki": "https://eiketsudb.com/card/genkoue-tan/"
@@ -46523,7 +46712,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e6588c5d60e7293f1ef36fe1fa3ea610",
       "gameWiki": "https://eiketsudb.com/card/jukei-ni/"
@@ -46569,7 +46758,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=244d1a745067d45965ea7c2fe1f96bfe",
       "gameWiki": "https://eiketsudb.com/card/shuten-douji/"
@@ -46615,7 +46804,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6b9c27072e7812ffbe4129d3f70b6812",
       "gameWiki": "https://eiketsudb.com/card/joukei-in/"
@@ -46661,7 +46850,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3a756406edf6322e1a2c6228d0e53f07",
       "gameWiki": "https://eiketsudb.com/card/xin-ping/"
@@ -46719,7 +46908,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=791bae946eca74f41b0574bb2b5f2c54",
       "gameWiki": "https://eiketsudb.com/card/taigen-setsai/"
@@ -46765,7 +46954,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=83f47d206970c796711a3e477853757f",
       "gameWiki": "https://eiketsudb.com/card/taiken-monin/"
@@ -46818,7 +47007,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ee89ef6a7c9d16bb041cbcf25f38be22",
       "gameWiki": "https://eiketsudb.com/card/tamamo-no-mae/"
@@ -46905,7 +47094,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=130f237e2a5acd1cedecdba0969ec8c3",
       "gameWiki": "https://eiketsudb.com/card/toudou-takatora/"
@@ -46951,7 +47140,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c3628b33479bc71778145ea6acac1b85",
       "gameWiki": "https://eiketsudb.com/card/torakuma-douji/"
@@ -46998,7 +47187,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=09d6b5396717f2f2596f51d529698626",
       "gameWiki": "https://eiketsudb.com/card/fujiwara-no-michinaga/"
@@ -47050,7 +47239,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=12f6fb8dd3ee0a4ec1e7aca90b811dda",
       "gameWiki": "https://eiketsudb.com/card/fujiwara-no-yasumasa/"
@@ -47096,7 +47285,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3e412b767d1d80ff0f196c350ca9761",
       "gameWiki": "https://eiketsudb.com/card/fujiwara-no-yorinaga/"
@@ -47143,7 +47332,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6548d83254cbd6fbb7c26aedf38853ba",
       "gameWiki": "https://eiketsudb.com/card/wen-chou/"
@@ -47189,7 +47378,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=122c51216bdb6dea86ef2555bb842871",
       "gameWiki": "https://eiketsudb.com/card/hoshikuma-douji/"
@@ -47230,7 +47419,7 @@
     "power": "6",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3576503e97cba3695b6cc0f0062d387d",
       "gameWiki": "https://eiketsudb.com/card/matsui-munenobu/"
@@ -47276,7 +47465,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e4c20cb21b81ef21a5c7cffc576c019c",
       "gameWiki": "https://eiketsudb.com/card/matsudaira-motoyasu/"
@@ -47322,7 +47511,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6fd0920c7e313f3bccd2c38bc897e8b9",
       "gameWiki": "https://eiketsudb.com/card/liu-shi/"
@@ -47374,7 +47563,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e26624b602da8bdd96e5b0dfd4eda157",
       "gameWiki": "https://eiketsudb.com/card/asakura-yoshikage/"
@@ -47414,7 +47603,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=404bd31d483f203374ef5968bcfbd83b",
       "gameWiki": "https://eiketsudb.com/card/asahina-yasutomo/"
@@ -47508,7 +47697,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=049fc7a18beed621769e4cb3dca7d01c",
       "gameWiki": "https://eiketsudb.com/card/imagawa-ujizane/"
@@ -47548,7 +47737,7 @@
     "power": "3",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5ce6419c34a864a05c2d6806b0994f1f",
       "gameWiki": "https://eiketsudb.com/card/utagawa-hiroshige/"
@@ -47594,7 +47783,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=faecfaff0cc32ed48109ced777fce699",
       "gameWiki": "https://eiketsudb.com/card/gou/"
@@ -47635,7 +47824,7 @@
     "power": "6",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "10",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1bc7ae73108b3ae8b8a6261fbb9c90ae",
       "gameWiki": "https://eiketsudb.com/card/saitou-tatsuoki/"
@@ -47681,7 +47870,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a9daa5fa900bea3e2293b34b3e2e9bbe",
       "gameWiki": "https://eiketsudb.com/card/shen-pei/"
@@ -47733,7 +47922,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e00448a0e59846532e839074ff5410a5",
       "gameWiki": "https://eiketsudb.com/card/sugita-genpaku/"
@@ -47779,7 +47968,7 @@
         "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2af89e11f396257434ec5268b390104c",
       "gameWiki": "https://eiketsudb.com/card/ju-shou/"
@@ -47820,7 +48009,7 @@
     "power": "1",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fac8d655a250955e681653d7e2dba6b0",
       "gameWiki": "https://eiketsudb.com/card/takao-dayuu/"
@@ -47866,7 +48055,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=22fa644e882d3f22c094aebba4c593da",
       "gameWiki": "https://eiketsudb.com/card/tian-feng/"
@@ -47907,7 +48096,7 @@
     "power": "2",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=504106878a944fe885f6f3a2002b69d4",
       "gameWiki": "https://eiketsudb.com/card/hiraga-gennai/"
@@ -47953,7 +48142,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b8a71ba683174c9fd331e876a6a9aa41",
       "gameWiki": "https://eiketsudb.com/card/feng-ji/"
@@ -48000,7 +48189,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4d0f4ac3b944c7b8e7014f55dd572b81",
       "gameWiki": "https://eiketsudb.com/card/magara-naotaka/"
@@ -48046,7 +48235,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3eb9f715a34f6c45fc8e49b1b9090fd9",
       "gameWiki": "https://eiketsudb.com/card/ishikuma-douji/"
@@ -48099,7 +48288,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "11",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cac77a5d0e34d42b6c5d3b85c9786a9e",
       "gameWiki": "https://eiketsudb.com/card/izumi-shikibu/"
@@ -48145,7 +48334,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c6dd3b3c7629ea6bb2652ef7d695d88b",
       "gameWiki": "https://eiketsudb.com/card/guo-tu/"
@@ -48191,7 +48380,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=89f0ef8710d9b4aeb06cd10cacb34fbd",
       "gameWiki": "https://eiketsudb.com/card/katsushika-hokusai/"
@@ -48238,7 +48427,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "11",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9866655fafbabdd6f5e5fd3329bcfa82",
       "gameWiki": "https://eiketsudb.com/card/kawanabe-kyousai/"
@@ -48289,7 +48478,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=75e34f99f5515ad117ec515dac5aa456",
       "gameWiki": "https://eiketsudb.com/card/kidoumaru/"
@@ -48378,7 +48567,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=45dd3fd9dbd65f102f82024598d412ba",
       "gameWiki": "https://eiketsudb.com/card/kirin-mugoku/"
@@ -48424,7 +48613,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c220992fae5b49de01603190914b620f",
       "gameWiki": "https://eiketsudb.com/card/jaken-gokudai/"
@@ -48471,7 +48660,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "28",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1c6e076323bfa7666c52fd6583e812ce",
       "gameWiki": "https://eiketsudb.com/card/seishou-nagon/"
@@ -48517,7 +48706,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=36f8d42e9bd0c0cf8ebfce3be4d404e3",
       "gameWiki": "https://eiketsudb.com/card/zhang-he/"
@@ -48563,7 +48752,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d53c30255777eb88af2ac069484e63a4",
       "gameWiki": "https://eiketsudb.com/card/tei-no-soukou/"
@@ -48609,7 +48798,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "28",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4916b15ebab60cac8e1199590a0e1b0d",
       "gameWiki": "https://eiketsudb.com/card/hatsu/"
@@ -48698,7 +48887,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "48",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=59e92685c6261b121a5d52e8f960e389",
       "gameWiki": "https://eiketsudb.com/card/murasaki-shikibu/"
@@ -48756,7 +48945,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b390d0ea4b387c8b9b70f7fc8148b8d3",
       "gameWiki": "https://eiketsudb.com/card/kanshin/"
@@ -48808,7 +48997,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "48",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4f1e03314bcdd4f54c9416e7cea92972",
       "gameWiki": "https://eiketsudb.com/card/liu-xie/"
@@ -48902,7 +49091,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "14",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=baed66c87310541f92182f9939c111d5",
       "gameWiki": "https://eiketsudb.com/card/zhu-jun/"
@@ -48955,7 +49144,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "48",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d3ef1dee657b78a4d184d421af579081",
       "gameWiki": "https://eiketsudb.com/card/shouka/"
@@ -49002,7 +49191,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "48",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=44b15e25961c692183d9d5fa23ce7632",
       "gameWiki": "https://eiketsudb.com/card/cao-cao-2/"
@@ -49043,7 +49232,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9fdaa6124e46b028ce1deb543a486afb",
       "gameWiki": "https://eiketsudb.com/card/sun-jian-2/"
@@ -49084,7 +49273,7 @@
     "power": "7",
     "intelligentzia": "11",
     "skill": [],
-    "kabuki": "36",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2aaf10568de101b2f22599b3a37415dc",
       "gameWiki": "https://eiketsudb.com/card/chouryou/"
@@ -49172,7 +49361,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "32",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=09a4f482efb9c153631e04c963068e65",
       "gameWiki": "https://eiketsudb.com/card/hankai/"
@@ -49218,7 +49407,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80e70bafe3d38d79ed65be13057ed0ab",
       "gameWiki": "https://eiketsudb.com/card/ryuuhou/"
@@ -49267,7 +49456,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "32",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d3dac0c5c470043745d53f7b50b02787",
       "gameWiki": "https://eiketsudb.com/card/ryoshu/"
@@ -49314,7 +49503,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "40",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2a37b74d83a8fa25769231227b19fbb7",
       "gameWiki": "https://eiketsudb.com/card/ryochi/"
@@ -49362,7 +49551,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=089cf04678f8d99cf336a07750f8e537",
       "gameWiki": "https://eiketsudb.com/card/rowan/"
@@ -49409,7 +49598,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b84e4401d3ac81095ec4efda2a657438",
       "gameWiki": "https://eiketsudb.com/card/akahashi-toushi/"
@@ -49458,7 +49647,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3a41646fa51f43f7bc65fd48f8808565",
       "gameWiki": "https://eiketsudb.com/card/akamatsu-enshin/"
@@ -49509,7 +49698,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "32",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f91bfaad78af83b54f78787146226c74",
       "gameWiki": "https://eiketsudb.com/card/asakura-kageakira/"
@@ -49556,7 +49745,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=192fbdd35c29ea123e7dc62bc57b4afd",
       "gameWiki": "https://eiketsudb.com/card/asakura-kagetake/"
@@ -49608,7 +49797,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1a77c61bcc768b64be1acad848186a64",
       "gameWiki": "https://eiketsudb.com/card/ashikaga-takauji/"
@@ -49654,7 +49843,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=79a849aefa2de37125cbf190507bdfd7",
       "gameWiki": "https://eiketsudb.com/card/ashikaga-tadayoshi/"
@@ -49701,7 +49890,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ada5bcef55f8fee5cfe400a3ef8a86c",
       "gameWiki": "https://eiketsudb.com/card/imagawa-norikuni/"
@@ -49749,7 +49938,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=045b15160556aa12d69e5c685bfca19e",
       "gameWiki": "https://eiketsudb.com/card/ooshio-heihachirou/"
@@ -49796,7 +49985,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1be43882f1bc10a094197f090d04168e",
       "gameWiki": "https://eiketsudb.com/card/kishin/"
@@ -49842,7 +50031,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "11",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7e0e39ecfd0b00414b457be5b160dd4f",
       "gameWiki": "https://eiketsudb.com/card/koukyobi/"
@@ -49894,7 +50083,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ecac852a20a2b48e56de86b96b512ca6",
       "gameWiki": "https://eiketsudb.com/card/kouno-moronao/"
@@ -49941,7 +50130,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b1735ea7cfbec5887964c900b3d55e50",
       "gameWiki": "https://eiketsudb.com/card/shiba-takatsune/"
@@ -50282,7 +50471,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c96d2fb1910c3b0f57467ca153d0c52c",
       "gameWiki": "https://eiketsudb.com/card/kishinno-omatsu/"
@@ -50440,7 +50629,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=86fea20cd083c5b3c8f0ee4ae98e9937",
       "gameWiki": "https://eiketsudb.com/card/sasaki-douyo/"
@@ -50488,7 +50677,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6f0451f2e1196b891380267e56708d80",
       "gameWiki": "https://eiketsudb.com/card/shouni-yorihisa/"
@@ -50529,7 +50718,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80c4f690a79f8e5f17ae4c39ec20d4a8",
       "gameWiki": "https://eiketsudb.com/card/zhang-miao/"
@@ -50725,7 +50914,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3204cbe25ee8f1362e15ed18aea045c5",
       "gameWiki": "https://eiketsudb.com/card/liu-bei-2/"
@@ -50819,7 +51008,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b0222b6274a213a957d7650a36ac6f84",
       "gameWiki": "https://eiketsudb.com/card/asakura-takakage/"
@@ -51027,7 +51216,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6efaa14a130a3542f9573062848d7989",
       "gameWiki": "https://eiketsudb.com/card/he-taihou/"
@@ -51169,7 +51358,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ec25690fcb4979877904821e582d4d42",
       "gameWiki": "https://eiketsudb.com/card/nicolas-flamel/"
@@ -51265,7 +51454,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fcdb4e739e991d9e52edaf19087116ea",
       "gameWiki": "https://eiketsudb.com/card/merlin/"
@@ -51312,7 +51501,7 @@
         "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8a9105640ae8eeb08b69b12c33cb5864",
       "gameWiki": "https://eiketsudb.com/card/marubashi-chuuya/"
@@ -51410,7 +51599,7 @@
         "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=91d22b6ee0c06704cb72ef7fe612cc8d",
       "gameWiki": "https://eiketsudb.com/card/yamazaki-ryuujo/"
@@ -51550,7 +51739,7 @@
     "power": "9",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6e79f9762050633969395b69f340ff75",
       "gameWiki": "https://eiketsudb.com/card/ashikaga-tadafuyu/"
@@ -51603,7 +51792,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=93187a946409bc7b4b6db3c3f85246fd",
       "gameWiki": "https://eiketsudb.com/card/ashikaga-yoshimitsu/"
@@ -51652,7 +51841,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f2c7bb89cf1c75a658fd200ec7a36109",
       "gameWiki": "https://eiketsudb.com/card/imagawa-ujichika/"
@@ -51693,7 +51882,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7615cc13d4dad66281127c0da421c194",
       "gameWiki": "https://eiketsudb.com/card/kashin-koji/"
@@ -51740,7 +51929,7 @@
         "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2b3dd772fdc7820496b65f32a9e283d2",
       "gameWiki": "https://eiketsudb.com/card/kitagawa-dono/"
@@ -52184,7 +52373,7 @@
         "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=617fcae062d9e8fa0b5c6390553a8bc0",
       "gameWiki": "https://eiketsudb.com/card/datki/"
@@ -52294,7 +52483,7 @@
         "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d3a2a5a2139aa7203c6104274ad3c471",
       "gameWiki": "https://eiketsudb.com/card/chuuou/"
@@ -52347,7 +52536,7 @@
         "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2c9c354a4ed086eab7c9c7b937698fc6",
       "gameWiki": "https://eiketsudb.com/card/mi-heng/"
@@ -52387,7 +52576,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c3f27c3746b5446bcf68c814eb4a9dbb",
       "gameWiki": "https://eiketsudb.com/card/hasdrubal-barca/"
@@ -52483,7 +52672,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fab5a1f9f89918635abc4f23bf5a8a39",
       "gameWiki": "https://eiketsudb.com/card/fuetsu/"
@@ -52534,7 +52723,7 @@
         "description": "武将コストに応じて覇気が溜まる量が増え、特技「覇気」を持つ武将の武将コスト合計に応じて英傑呼応のダメージが上がります"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=791bcd400d2fb3525c3591558750e915",
       "gameWiki": "https://eiketsudb.com/card/fukou/"
@@ -52725,7 +52914,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=e9dc42a0989779fed8b37613416cceaa",
       "gameWiki": "https://eiketsudb.com/card/yohira/"
@@ -53013,7 +53202,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a79daecd65a547d450bcb2216aadb491",
       "gameWiki": "https://eiketsudb.com/card/taigen-setsai-basara/"
@@ -53194,7 +53383,7 @@
     "power": "5",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2e5e6ef4ad7c90cc7a03736c308888cf",
       "gameWiki": "https://eiketsudb.com/card/kaki-ex/"
@@ -53239,7 +53428,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=69c1ea4ee1f7cd53b77f097a0bb0a5a9",
       "gameWiki": "https://eiketsudb.com/card/guo-tu-basara/"
@@ -53338,7 +53527,7 @@
         "description": "兵力が一定以下になると、兵種アクションによるダメージと弾き効果を軽減します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=82a805551166ed350e09468365c738e6",
       "gameWiki": "https://eiketsudb.com/card/momiji-ex/"
@@ -53429,7 +53618,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "0",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a000ee087ea7a82c80b7ca8278bd4f1c",
       "gameWiki": "https://eiketsudb.com/card/sun-jian-2-basara/"
@@ -53477,7 +53666,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=06c79d2629025c457b55e5c4696f1af1",
       "gameWiki": "https://eiketsudb.com/card/huangfu-song-ex/"
@@ -53528,7 +53717,7 @@
         "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c79798972abae0a218c3d6569c28dcd2",
       "gameWiki": "https://eiketsudb.com/card/chinpei-ex/"
@@ -53569,7 +53758,7 @@
     "power": "2",
     "intelligentzia": "8",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6fd5c914bbae5ebc2c7610ac4e4360fc",
       "gameWiki": "https://eiketsudb.com/card/doushi-mim-mikura-chunithm/"
@@ -53719,7 +53908,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "32",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d230de47db349d203c5989500711436c",
       "gameWiki": "https://eiketsudb.com/card/ashikaga-tadayoshi-basara/"
@@ -53770,7 +53959,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5502e0ae4294d17376d8a384277a7c38",
       "gameWiki": "https://eiketsudb.com/card/kouno-moronao-basara/"
@@ -53816,7 +54005,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2ea3144007a326167305be53520e2717",
       "gameWiki": "https://eiketsudb.com/card/fujiwara-no-hidesato-ex/"
@@ -53916,7 +54105,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fca716ef9519e0007d21bb97d8b8dfc3",
       "gameWiki": "https://eiketsudb.com/card/ise-shinkurou-ex/"
@@ -53967,7 +54156,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=808dc8e1b6608a1eab49a707afd5aafe",
       "gameWiki": "https://eiketsudb.com/card/kaoyo-gozen-ex/"
@@ -54063,7 +54252,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7bd6a78ead8d29470d101479d97d0f41",
       "gameWiki": "https://eiketsudb.com/card/katsushika-hokusai-basara/"
@@ -54154,7 +54343,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8672f243febe9423fdfd9faf7c58ae1d",
       "gameWiki": "https://eiketsudb.com/card/ashikaga-takauji-basara/"
@@ -54451,7 +54640,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6d949b2b452e2ae620437d7e6c763f0a",
       "gameWiki": "https://eiketsudb.com/card/hannibal-drifters/"
@@ -54833,7 +55022,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=fd0cc2437ead6b905ce8b6db522df073",
       "gameWiki": "https://eiketsudb.com/card/fubuki-nigewaka/"
@@ -55072,7 +55261,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7af79c0a4b037e7262eb3b65caeb2187",
       "gameWiki": "https://eiketsudb.com/card/ookubo-toshimichi/"
@@ -55113,7 +55302,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ea6c0f24da3b3d01e2da6ac6ac189e9e",
       "gameWiki": "https://eiketsudb.com/card/katou-kiyomasa/"
@@ -55201,7 +55390,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "24",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9ecdc963cf46d64918f9d04b1df54144",
       "gameWiki": "https://eiketsudb.com/card/kawakami-hisaaki/"
@@ -55348,7 +55537,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f9d3269f633f5a30d9f6eec64b89fa71",
       "gameWiki": "https://eiketsudb.com/card/kuroda-kanbee/"
@@ -55764,7 +55953,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=892300e9ccc92fe8f10588e05b778b18",
       "gameWiki": "https://eiketsudb.com/card/shimazu-tadatsune/"
@@ -55856,7 +56045,7 @@
     "power": "6",
     "intelligentzia": "5",
     "skill": [],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6d447dd6f3fafaa2608837769d63fce9",
       "gameWiki": "https://eiketsudb.com/card/shimazu-nariakira/"
@@ -55902,7 +56091,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=efde971fd2a46bfcc640b933218e0616",
       "gameWiki": "https://eiketsudb.com/card/shimazu-yoshihisa/"
@@ -56038,7 +56227,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f71b8172f1d34586558a02690ba306a0",
       "gameWiki": "https://eiketsudb.com/card/sekibai/"
@@ -56289,7 +56478,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=893766a5b4ea1fef8cc60b44edf6abf8",
       "gameWiki": "https://eiketsudb.com/card/toyotomi-hideyoshi/"
@@ -56384,7 +56573,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "40",
+    "kabuki": "32",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f0faf5f8c492f4d6e7ba62869aab0b5a",
       "gameWiki": "https://eiketsudb.com/card/hachisuka-masakatsu/"
@@ -56425,7 +56614,7 @@
     "power": "8",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "30",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2d1e55ddb2e7db62bc064df4cd4a9ecc",
       "gameWiki": "https://eiketsudb.com/card/fukushima-masanori/"
@@ -56519,7 +56708,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c1e855d8e451d6ba03a48be37a278856",
       "gameWiki": "https://eiketsudb.com/card/betpu-shinsuke/"
@@ -56848,7 +57037,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=73d90506871b6d9a0947fad41c406a30",
       "gameWiki": "https://eiketsudb.com/card/kaishisui/"
@@ -57138,7 +57327,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d817bdb389fe37c028a83f7576383f53",
       "gameWiki": "https://eiketsudb.com/card/sima-zhao/"
@@ -57281,7 +57470,7 @@
     "power": "6",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=feaf6f27ea872b65f46641163dd27481",
       "gameWiki": "https://eiketsudb.com/card/choushi/"
@@ -57485,7 +57674,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=65967365d91246abddfbddd2a384d9db",
       "gameWiki": "https://eiketsudb.com/card/ijichi-masaharu/"
@@ -57673,7 +57862,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=828704ef7cf4d22239d3ae7f6b768123",
       "gameWiki": "https://eiketsudb.com/card/kasannoin-morokata/"
@@ -57719,7 +57908,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=32a8a939d67f14d6e54e8ffe279261e8",
       "gameWiki": "https://eiketsudb.com/card/kitabatake-akiie/"
@@ -57817,7 +58006,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=80da81c3dbf576640480c2cb8ad115d3",
       "gameWiki": "https://eiketsudb.com/card/kusunoki-masashige/"
@@ -58002,7 +58191,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=7671867481b8d7465dde94bb1f6d9b36",
       "gameWiki": "https://eiketsudb.com/card/nanbu-moroyuki/"
@@ -58049,7 +58238,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "10",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=78c0903be8c8cb989d9ac8d3390b759c",
       "gameWiki": "https://eiketsudb.com/card/nitta-yoshisada/"
@@ -58334,7 +58523,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d85f0f571e3b717747602d07cc70d626",
       "gameWiki": "https://eiketsudb.com/card/iga-no-tsubone/"
@@ -58376,7 +58565,7 @@
     "power": "9",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=aa81472f476482f90eb15d75a91fd7cc",
       "gameWiki": "https://eiketsudb.com/card/kaneyoshi-shinnou/"
@@ -58416,7 +58605,7 @@
     "power": "10",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a49f4542158a54e240c19733f70a0c12",
       "gameWiki": "https://eiketsudb.com/card/kikuchi-takemitsu/"
@@ -58511,7 +58700,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=71e44440d7f6d078b3a7a354d178c562",
       "gameWiki": "https://eiketsudb.com/card/sakanoue-no-tamuramaro/"
@@ -58663,7 +58852,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8c0170ae289f58853ec66eda49f5400d",
       "gameWiki": "https://eiketsudb.com/card/suzuka-gozen/"
@@ -58761,7 +58950,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=17130bb3805efa3b80e9ed0fa3eec323",
       "gameWiki": "https://eiketsudb.com/card/funada-yoshimasa/"
@@ -58909,7 +59098,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=c534ba7ddbd444c3a9e7dcd601b55866",
       "gameWiki": "https://eiketsudb.com/card/ishida-mitsunari/"
@@ -59011,7 +59200,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=620b65a843603c8d8b1e5b60ad7c9cb7",
       "gameWiki": "https://eiketsudb.com/card/gamou-ujisato/"
@@ -59058,7 +59247,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=580cfbf0369e095e49eafc364dc78327",
       "gameWiki": "https://eiketsudb.com/card/kusunoki-masatsura/"
@@ -59295,7 +59484,7 @@
         "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=bc1b4f343197a353eccf350cf072cdad",
       "gameWiki": "https://eiketsudb.com/card/shimazu-hisamitsu/"
@@ -59387,7 +59576,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=df9cf161d04314a7f593d98a06a3ebe9",
       "gameWiki": "https://eiketsudb.com/card/shourin/"
@@ -59436,7 +59625,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9e3e0e62f56cc308955c33f766f74fa6",
       "gameWiki": "https://eiketsudb.com/card/hosokawa-tadaoki/"
@@ -59931,7 +60120,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2da11d0645309fdecee2947aea03549c",
       "gameWiki": "https://eiketsudb.com/card/nitta-yoshioki/"
@@ -59977,7 +60166,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6e01cf173a4fbc126d0c8b98a09785d7",
       "gameWiki": "https://eiketsudb.com/card/nitta-yoshimune/"
@@ -60077,7 +60266,7 @@
         "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "24",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f03979aa755df6259f6bf6a2d1b94226",
       "gameWiki": "https://eiketsudb.com/card/ikuhime/"
@@ -60170,7 +60359,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=883a7da002cf29015f3771bda7f27729",
       "gameWiki": "https://eiketsudb.com/card/kani-saizou/"
@@ -60452,7 +60641,7 @@
         "description": "宿星ゲージが一定以上になると、武力と知力が上がります。宿星ゲージは与えたダメージに応じて増加します"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cf9c2067e2f48dc4e5d6344323f8ed42",
       "gameWiki": "https://eiketsudb.com/card/soukou/"
@@ -60702,7 +60891,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "18",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0ca2ca04046bd8a12c81cb545167e87c",
       "gameWiki": "https://eiketsudb.com/card/maximilian-i/"
@@ -60802,7 +60991,7 @@
         "description": "宿星ゲージが一定以上になると、武力と知力が上がります。宿星ゲージは与えたダメージに応じて増加します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1a1b57f3831e45b48901f246419af055",
       "gameWiki": "https://eiketsudb.com/card/rinchuu/"
@@ -60992,7 +61181,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=39b713b2b069b15845a874300381f237",
       "gameWiki": "https://eiketsudb.com/card/shimazu-yoshihisa-basara/"
@@ -61039,7 +61228,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=79313d310a95a73a980ef05bef252b8f",
       "gameWiki": "https://eiketsudb.com/card/kuroda-kanbee-basara/"
@@ -61179,7 +61368,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=02d4d0b7e030a88c895a4f1f288600a8",
       "gameWiki": "https://eiketsudb.com/card/sima-zhao-basara/"
@@ -61278,7 +61467,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "20",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=2add6525af3a85a1645f1f1fef202b4a",
       "gameWiki": "https://eiketsudb.com/card/kuroda-kiyotaka-ex/"
@@ -61330,7 +61519,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "48",
+    "kabuki": "40",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d2002a506e5b1a7a714d0f6d5ac70195",
       "gameWiki": "https://eiketsudb.com/card/kitano-mandokoro-ex/"
@@ -61476,7 +61665,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=14c57806f2406816b9a5dc7448e79cd4",
       "gameWiki": "https://eiketsudb.com/card/xin-xianying-ex/"
@@ -61665,7 +61854,7 @@
     "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=94a978fc20a0d18020b242a6670aeb73",
-      "gameWiki": "https://eiketsudb.com/card/shimazu-toyohisa-basara/"
+      "gameWiki": "https://eiketsudb.com/card/setsou-fujin-basara/"
     }
   },
   {
@@ -61716,7 +61905,7 @@
     "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4c7d35ccc6ebab4a2a71f8da624f838e",
-      "gameWiki": "https://eiketsudb.com/card/setsou-fujin-basara/"
+      "gameWiki": "https://eiketsudb.com/card/shimazu-toyohisa-basara/"
     }
   },
   {
@@ -61858,7 +62047,7 @@
         "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
       }
     ],
-    "kabuki": "20",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=50888ae69d2a5fb877a9860815c0655a",
       "gameWiki": "https://eiketsudb.com/card/hosokawa-tadaoki-basara/"
@@ -61905,7 +62094,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=02a33bb57bb76b69d594b2ced0c52ff5",
       "gameWiki": "https://eiketsudb.com/card/ishida-mitsunari-basara/"
@@ -61957,7 +62146,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "9",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=02eb9c95d4595787fe5faebb8c85ead1",
       "gameWiki": "https://eiketsudb.com/card/gamou-ujisato-basara/"
@@ -62094,7 +62283,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=72ddedff077b3543a3fa84eedd4fd07e",
       "gameWiki": "https://eiketsudb.com/card/sengoku-gonbee-sengoku-gonbee/"
@@ -62195,7 +62384,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "9",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b94468514d8977481fd1674c7d62b057",
       "gameWiki": "https://eiketsudb.com/card/isurugi-raijuuta-rurouni-kenshin/"
@@ -62341,7 +62530,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f9a02161795e860d83a31534d1d6f03a",
       "gameWiki": "https://eiketsudb.com/card/sawagejou-chou-rurouni-kenshin/"
@@ -62393,7 +62582,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "11",
+    "kabuki": "22",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=649a99aaad959672c5ce0968552681c0",
       "gameWiki": "https://eiketsudb.com/card/gilgamesh-fate-go/"
@@ -62448,7 +62637,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=b33b7bc37ff141a80fa0855d4d66a9c0",
       "gameWiki": "https://eiketsudb.com/card/king-arthur/"
@@ -62495,7 +62684,7 @@
         "description": "特技「大兵」を持つ武将と同じ時代の武将コスト合計に応じて最大兵力が上がります"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=36d9ef4c1fde39a73d35be49f7f544d1",
       "gameWiki": "https://eiketsudb.com/card/ernest-satow/"
@@ -62800,7 +62989,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=041db8ccc8463dc88b816bca00a0d779",
       "gameWiki": "https://eiketsudb.com/card/kakukai/"
@@ -62847,7 +63036,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21e64e2f48ee0d6ff101c6b2f7661a5a",
       "gameWiki": "https://eiketsudb.com/card/gakuki/"
@@ -62948,7 +63137,7 @@
         "description": "コストに応じて士気が増加した状態で開戦します"
       }
     ],
-    "kabuki": "24",
+    "kabuki": "32",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=cfafd659e380b22c98b9f97ce30e85aa",
       "gameWiki": "https://eiketsudb.com/card/guinevere/"
@@ -62989,7 +63178,7 @@
     "power": "5",
     "intelligentzia": "7",
     "skill": [],
-    "kabuki": "6",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a9203fd99c831e5a7f3d58003d9e9ce5",
       "gameWiki": "https://eiketsudb.com/card/kusumoto-ine/"
@@ -63036,7 +63225,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=eb7e5a8eedc2cb80379283e73e48683b",
       "gameWiki": "https://eiketsudb.com/card/kusumoto-takako/"
@@ -63088,7 +63277,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "15",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d44e98569f04053ed36c78b824f09475",
       "gameWiki": "https://eiketsudb.com/card/glover/"
@@ -63226,7 +63415,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "10",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ef669f7c043bb89e82500098006d5eeb",
       "gameWiki": "https://eiketsudb.com/card/gekishin/"
@@ -63371,7 +63560,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "22",
+    "kabuki": "33",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ef7ed8642a3a5c30441d38f8f06aab3a",
       "gameWiki": "https://eiketsudb.com/card/takahashi-jouun/"
@@ -63469,7 +63658,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8f60b9b8c1393b54bd0d47460c372b6e",
       "gameWiki": "https://eiketsudb.com/card/tachibana-dousetsu/"
@@ -63621,7 +63810,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=be612a3e8f088e3900bdb199b315cbac",
       "gameWiki": "https://eiketsudb.com/card/zhang-bao/"
@@ -63819,7 +64008,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d10fa69373d25df4b2510b9e166ea5a0",
       "gameWiki": "https://eiketsudb.com/card/ma-yuanyi/"
@@ -63912,7 +64101,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=823270f180124beb9d948d34e3a8871a",
       "gameWiki": "https://eiketsudb.com/card/matthew-perry/"
@@ -64060,7 +64249,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "15",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=8f3118387259b8fafc11b5393cfd7b72",
       "gameWiki": "https://eiketsudb.com/card/loth/"
@@ -64211,7 +64400,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "12",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=93283e3d681237b909b87e59721488be",
       "gameWiki": "https://eiketsudb.com/card/uwataki-nobushige/"
@@ -64649,7 +64838,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "36",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=67c93899fae4770d68a833e58afb030b",
       "gameWiki": "https://eiketsudb.com/card/nabeshima-naomasa/"
@@ -64795,7 +64984,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "4",
+    "kabuki": "2",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=3a4c8543b257fc00374538faf4b1f9a6",
       "gameWiki": "https://eiketsudb.com/card/mitsu-hime/"
@@ -64854,7 +65043,7 @@
         "description": "撤退した際、復活するために必要な時間が減少します"
       }
     ],
-    "kabuki": "18",
+    "kabuki": "30",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4ddbf642f6cdb6f44c0cddeeba00cfc8",
       "gameWiki": "https://eiketsudb.com/card/meng-huo/"
@@ -64895,7 +65084,7 @@
     "power": "6",
     "intelligentzia": "4",
     "skill": [],
-    "kabuki": "4",
+    "kabuki": "0",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a6a882f3cbb549c885719255c23d98e1",
       "gameWiki": "https://eiketsudb.com/card/meng-you/"
@@ -64999,7 +65188,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "16",
+    "kabuki": "8",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6d4441dd0132d747eeb89e31511bfaf0",
       "gameWiki": "https://eiketsudb.com/card/mordred/"
@@ -65290,7 +65479,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "6",
+    "kabuki": "3",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5f1093fb61a79cae847d28512f0e4303",
       "gameWiki": "https://eiketsudb.com/card/shuukoutan/"
@@ -65686,7 +65875,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d2bf0b085aadea54dfa6fcb81d256560",
       "gameWiki": "https://eiketsudb.com/card/hakuyuukou/"
@@ -65839,7 +66028,7 @@
         "description": "コストに応じて槍が長くなり、槍撃ダメージが上がります"
       }
     ],
-    "kabuki": "0",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=5b170f9a592cf498c5218ca919b69d38",
       "gameWiki": "https://eiketsudb.com/card/melora/"
@@ -66025,7 +66214,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "2",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=4613d00fc6729f036caf1faaaaf643dd",
       "gameWiki": "https://eiketsudb.com/card/nada-fujin-ex/"
@@ -66120,7 +66309,7 @@
         "description": "黄熾ゲージが一定以上になると、武力と知力が上がります。黄熾ゲージは覇道の前進により増加し、時間経過で減少します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "4",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=21b05b085a6c9b60bbcf1b1b0fb4eaf7",
       "gameWiki": "https://eiketsudb.com/card/nabeshima-shigeharu-ex/"
@@ -66172,7 +66361,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "40",
+    "kabuki": "48",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=89c8f819a9c2cea26909ac6a5f1b73b7",
       "gameWiki": "https://eiketsudb.com/card/hua-man-ex/"
@@ -66266,7 +66455,7 @@
         "description": "兵種に応じて移動速度が上がります"
       }
     ],
-    "kabuki": "22",
+    "kabuki": "33",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9b989baef62c32080163ee2d7cab9b8a",
       "gameWiki": "https://eiketsudb.com/card/takahashi-jouun-basara/"
@@ -66314,7 +66503,7 @@
         "description": "コストに応じて流派ゲージが増加した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "12",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=61d539182b192def8e9a67d5874d729a",
       "gameWiki": "https://eiketsudb.com/card/hiko-seijuurou-rurouni-kenshin/"
@@ -66361,7 +66550,7 @@
         "description": "敵部隊の動きを阻害する障害物「柵」を部隊前方に配置した状態で開戦します"
       }
     ],
-    "kabuki": "8",
+    "kabuki": "16",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=04bdc2541a2fa0a46a75a5e300bbf19f",
       "gameWiki": "https://eiketsudb.com/card/suwa-yorishige-nigewaka/"
@@ -66402,7 +66591,7 @@
     "power": "2",
     "intelligentzia": "6",
     "skill": [],
-    "kabuki": "24",
+    "kabuki": "36",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f3790ddfbd42f8550bbb3d39aa7ed852",
       "gameWiki": "https://eiketsudb.com/card/shizuku-nigewaka/"
@@ -66452,7 +66641,7 @@
         "description": "開戦から一定時間、武力と知力が上がります"
       }
     ],
-    "kabuki": "3",
+    "kabuki": "6",
     "url": {
       "official": "https://eiketsu-taisen.net/datalist/?s=general&c=0c9c7578e05fd3261a480d577f9d52a6",
       "gameWiki": "https://eiketsudb.com/card/miyamoto-musashi-fate-go/"
