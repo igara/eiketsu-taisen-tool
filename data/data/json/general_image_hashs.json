@@ -1980,6 +1980,15 @@
     }
   },
   {
+    "no": "EX203",
+    "deckImageHash": "f863f7f8cfb0002083af1eef3c283c089e001ff27ff801e073fc7f70022301a7",
+    "name": "孫尚香",
+    "kanaName": "そんしょうこう",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "PL001",
     "deckImageHash": "3fe3863d203f0127f143ebe7c31f02013e1f351f0c4b80a760f301e319e4fdc1",
     "name": "信",
@@ -6295,6 +6304,15 @@
     "deckImageHash": "1c0339e936fc11f801fc337623fe00e300fc321a6fc4f30f01f8c1f93e3c083f",
     "name": "村山たか",
     "kanaName": "むらやまたか",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "EX204",
+    "deckImageHash": "78207c7c3cbe0d86fc9f7807f0072807f803f210fd28f187e587e9876f4304c1",
+    "name": "玄奘三蔵",
+    "kanaName": "げんじょうさんぞう",
     "color": {
       "name": "碧"
     }
@@ -11884,6 +11902,15 @@
     "deckImageHash": "007720792df81ff805fb8073d8737c303f307280f43cf895fffb598108c08e1c",
     "name": "蒲生氏郷",
     "kanaName": "がもううじさと",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
+    "no": "EX205",
+    "deckImageHash": "800761fd90e603ff2ff9012e296627f01e3f0e7c01ee030f9a21b9aff790f001",
+    "name": "燕青",
+    "kanaName": "えんせい",
     "color": {
       "name": "琥"
     }

@@ -1,0 +1,41 @@
+{
+  "no": "EX204",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 26/07/22〜26/08/18"
+  ],
+  "id": "1251489b4ad22c6e56ba8926ad7dc6fc",
+  "detailImageId": "a071181659c34fa579408d37083178c3",
+  "name": "玄奘三蔵",
+  "kanaName": "げんじょうさんぞう",
+  "color": {
+    "name": "碧",
+    "r": "0",
+    "g": "115",
+    "b": "50"
+  },
+  "period": "中世",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "西遊記",
+    "kanaName": "さいゆうき",
+    "cost": "5",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>移動速度が上がり、自身が移動する範囲が碧の味方の武力と知力が上がる陣形になる。この効果は陣形の範囲が広いほど大きい",
+    "categories": [
+      "強化",
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "9",
+  "skill": [],
+  "kabuki": "32",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=1251489b4ad22c6e56ba8926ad7dc6fc",
+    "gameWiki": "https://eiketsudb.com/card/genjousanzou-ex/"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "no": "EX205",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 26/07/22〜26/08/18"
+  ],
+  "id": "9d7cd21a544065cb5e0799ecce0c8841",
+  "detailImageId": "5ea0a8ecf3c80a1e470f5d726e81cd98",
+  "name": "燕青",
+  "kanaName": "えんせい",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "秘宗の星",
+    "kanaName": "ひそうのほし",
+    "cost": "3",
+    "description": "武力が上がり、移動しながら斬撃ができるようになり、宿星ゲージの増加量が上がる。宿星状態であれば、代わりに武力と移動速度が上がり、移動しながら斬撃ができるようになり斬撃を当てた敵の武力を一定時間下げる。ただしこの計略の必要士気が上がる",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "2",
+  "skill": [
+    {
+      "name": "忍",
+      "shortName": "忍",
+      "description": "敵軍視点から視認されない隠密状態になります。ただし敵部隊または敵城に近づくと隠密状態は解除されます"
+    },
+    {
+      "name": "宿星",
+      "shortName": "星",
+      "description": "宿星ゲージが一定以上になると、武力と知力が上がります。宿星ゲージは与えたダメージに応じて増加します"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=9d7cd21a544065cb5e0799ecce0c8841",
+    "gameWiki": "https://eiketsudb.com/card/ensei-ex/"
+  }
+}
