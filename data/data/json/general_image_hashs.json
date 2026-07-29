@@ -4203,6 +4203,15 @@
     }
   },
   {
+    "no": "EX206",
+    "deckImageHash": "0fc20ff03cd81ed87e787c3af11b9800001a3c3c3f3c7e787de0fc63fc6200e0",
+    "name": "ネロ帝",
+    "kanaName": "ネロてい",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "PL012",
     "deckImageHash": "01f7003d0f8e1bf31fbc1b820f801ff80f9f0d8f03c3049f041f011f379f078f",
     "name": "神楽",
@@ -8626,6 +8635,15 @@
     "deckImageHash": "01e707e9378c3f88de02f20fec07fc20fc03fe19450ed506318083c673f287f3",
     "name": "長尾景春",
     "kanaName": "ながおかげはる",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
+    "no": "EX207",
+    "deckImageHash": "947fe90f7842f840f000f003f807fe3ff59ff30ff000c0078c109e01be86bfc7",
+    "name": "フレイディス",
+    "kanaName": "フレイディス",
     "color": {
       "name": "玄"
     }
