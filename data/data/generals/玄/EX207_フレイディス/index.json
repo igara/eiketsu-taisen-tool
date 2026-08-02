@@ -1,0 +1,52 @@
+{
+  "no": "EX207",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 26/07/29〜26/08/18"
+  ],
+  "id": "d47c69c058e540c171dab2bc4ef9181b",
+  "detailImageId": "9d5c0a0e9e9b9be1b2a859143ec007b1",
+  "name": "フレイディス",
+  "kanaName": "フレイディス",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "中世",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "撃攘の戦乙女",
+    "kanaName": "げきじょうのいくさおとめ",
+    "cost": "5",
+    "description": "武力と移動速度が上がり、敵を撃破するたびにこの計略の効果時間が延長される。さらに敵と接触している時、以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・猛撃【２】：接触している敵に武力によるダメージを与える。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "12",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d47c69c058e540c171dab2bc4ef9181b",
+    "gameWiki": "https://eiketsudb.com/card/freydis-ex/"
+  }
+}
