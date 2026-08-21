@@ -1,0 +1,52 @@
+{
+  "no": "PL126",
+  "appear": "第6弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/08/19〜26/09/01"
+  ],
+  "id": "a81fd7b86d155bbc83fcd8f29800a454",
+  "detailImageId": "70188e96cd8918625d5ea8247eb1301e",
+  "name": "不二周助",
+  "kanaName": "ふじしゅうすけ",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "三種の返し球",
+    "kanaName": "トリプルカウンター",
+    "cost": "5",
+    "description": "武力が上がり、兵力が徐々に回復する。さらに自身が受けた基本兵種アクションに応じて基本兵種アクションを行った敵に効果を与える<br>突撃：敵を跳躍させる<br>槍撃・斬撃：敵を弾き飛ばす<br>弓攻撃・射撃：敵を自身の方向に引き寄せる",
+    "categories": [
+      "強化",
+      "回復",
+      "特殊"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "7",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a81fd7b86d155bbc83fcd8f29800a454",
+    "gameWiki": "https://eiketsudb.com/card/fuji-shuusuke-tenipuri/"
+  }
+}

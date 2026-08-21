@@ -1,0 +1,49 @@
+{
+  "no": "PL127",
+  "appear": "第6弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/08/19〜26/09/01"
+  ],
+  "id": "f688f46479611e57ed779adb466d011b",
+  "detailImageId": "8022a8cea62dac3a13f696f0080bb62b",
+  "name": "手塚国光",
+  "kanaName": "てづかくにみつ",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "至宝のテニス",
+    "kanaName": "カリスマのてにす",
+    "cost": "6",
+    "description": "【テニス選手】（前にカードを押し出す操作で押し出した方向にボールを打つことができる）<br>武力が上がりテニス選手になる。ボールを打つたび戦場の味方の武力が上がり短計を発動できる。ただし自身効果が終了でこの計略効果が終了し効果終了時に一定時間計略を使用できない<br>短計・好機球【０．５】：打つと接触した敵と敵城にダメージを与えるボールが出現する",
+    "categories": [
+      "強化",
+      "全体強化",
+      "ダメージ",
+      "特殊",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "8",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    }
+  ],
+  "kabuki": "30",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=f688f46479611e57ed779adb466d011b",
+    "gameWiki": "https://eiketsudb.com/card/tezuka-kunimitsu-tenipuri/"
+  }
+}

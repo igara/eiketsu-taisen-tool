@@ -1,0 +1,51 @@
+{
+  "no": "EX209",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "ポイントショップイベント: 26/08/05〜26/08/18"
+  ],
+  "id": "932c79f1b1c1ed47ec20516581de540b",
+  "detailImageId": "15589d5ecb606c314fe2e306f15f9067",
+  "name": "ガラハッド",
+  "kanaName": "ガラハッド",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "中世",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "深紅の十字盾",
+    "kanaName": "しんくのじゅうじたて",
+    "cost": "7",
+    "description": "【陣形】（発動すると陣形が出現し、その中にいる間のみ効果が発生する。陣形は同時に複数発動できない）<br>黄の味方の武力が上がり、対象の味方の覇道が前進した時の黄熾ゲージの増加量が上がる。さらに自身の移動速度が上がり、武力によるダメージを軽減し、敵を押せるようになる",
+    "categories": [
+      "全体強化",
+      "陣形"
+    ],
+    "time": "知力時間",
+    "range": "835d82c080c58bce393f1afc6d49f455"
+  },
+  "power": "9",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "気合",
+      "shortName": "気",
+      "description": "通常の戦闘で受けたダメージの一部を一定時間ごとに回復します"
+    },
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    }
+  ],
+  "kabuki": "36",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=932c79f1b1c1ed47ec20516581de540b",
+    "gameWiki": "https://eiketsudb.com/card/galahad-ex/"
+  }
+}

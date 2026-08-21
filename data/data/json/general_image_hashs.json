@@ -2214,6 +2214,24 @@
     }
   },
   {
+    "no": "PL125",
+    "deckImageHash": "ffc76ff111c009806ff24fe203c207c207c00fc6099ff81fb019080e7a7837f7",
+    "name": "越前リョーマ",
+    "kanaName": "えちぜんリョーマ",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "PL127",
+    "deckImageHash": "fff771f10640074003f007f806fc06fe01fe00f700f770fcebf183fc20f800c7",
+    "name": "手塚国光",
+    "kanaName": "てづかくにみつ",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "ST002",
     "deckImageHash": "f050e07ee01ef01f004bc3ef03dcf1d8e858fb20d7c22fc0ff807c8011e81ff4",
     "name": "曹操",
@@ -8856,6 +8874,15 @@
     }
   },
   {
+    "no": "PL128",
+    "deckImageHash": "7e377c1d7c8c06807f8e03ce038e078e078003e107ff07f717f007fe366802e6",
+    "name": "跡部景吾",
+    "kanaName": "あとべけいご",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "紫001",
     "deckImageHash": "2ff36ff94278002801be603fe13afc6075050b0ff03fe00f430d333ae0fb80f9",
     "name": "浅井長政",
@@ -10458,6 +10485,15 @@
     }
   },
   {
+    "no": "EX208",
+    "deckImageHash": "001f06fb00ff21ef0cd01fd89fcc3f086e00ff00ff84fe04f81cfc003d83c1db",
+    "name": "呂太后",
+    "kanaName": "りょたいこう",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "PL032",
     "deckImageHash": "8e9f01e303e0f7e001c005833cff7c5f7c1f3c8f3c08dc06fc0f6c0ffc08c80d",
     "name": "風間千景",
@@ -12015,6 +12051,15 @@
     }
   },
   {
+    "no": "PL126",
+    "deckImageHash": "7ff77e117c8005807bf20fe04fc00fc003e003e207fe07fe07e00ee63cd88cde",
+    "name": "不二周助",
+    "kanaName": "ふじしゅうすけ",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
     "no": "黄001",
     "deckImageHash": "5e132c0d6d0759c7dfa7ec08fc12e6006f000f800fec5fe677e383f907f88050",
     "name": "アーサー王",
@@ -12721,6 +12766,15 @@
     "deckImageHash": "07e03ff81ff8005c227e1ec13f8711873844780ff07f00f70f8e1fe07788e701",
     "name": "高橋紹運",
     "kanaName": "たかはしじょううん",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "EX209",
+    "deckImageHash": "07f037fc377804702eda6f9dc91d4804f338f83a0c3a043f061f121f2a3fbc07",
+    "name": "ガラハッド",
+    "kanaName": "ガラハッド",
     "color": {
       "name": "黄"
     }
