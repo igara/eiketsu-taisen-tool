@@ -1,0 +1,53 @@
+{
+  "no": "PL132",
+  "appear": "第6弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/09/02〜26/09/15"
+  ],
+  "id": "a89ff7cd87a53930ea451b008ff1c977",
+  "detailImageId": "52be9ca6c1251b38e2627a0b24deced7",
+  "name": "幸村精市",
+  "kanaName": "ゆきむらせいいち",
+  "color": {
+    "name": "黄",
+    "r": "255",
+    "g": "255",
+    "b": "0"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "弓兵",
+  "strat": {
+    "name": "五感剥奪",
+    "kanaName": "イップス",
+    "cost": "5",
+    "description": "【テニス選手】（前にカードを押し出す操作で押し出した方向にボールを打つことができる）<br>武力が上がり、テニス選手になる。さらにボールを打つたびに一定時間戦場にいる敵の知力と移動速度を下げ、以下の短計を発動できる。効果終了時に一定時間計略を使用できない<br>短計・好機球【０．５】：打つと接触した敵と敵城にダメージを与えるボールが出現する",
+    "categories": [
+      "強化",
+      "妨害",
+      "特殊",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "8",
+  "intelligentzia": "9",
+  "skill": [
+    {
+      "name": "伏兵",
+      "shortName": "伏",
+      "description": "敵軍視点から視認されない伏兵状態で開戦します。敵部隊と接触すると知力差によるダメージを与え、伏兵状態は解除されます"
+    },
+    {
+      "name": "技巧",
+      "shortName": "技",
+      "description": "コストに応じて流派ゲージが増加した状態で開戦します"
+    }
+  ],
+  "kabuki": "16",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=a89ff7cd87a53930ea451b008ff1c977",
+    "gameWiki": "https://eiketsudb.com/card/yukimura-seiichi-tenipuri/"
+  }
+}
