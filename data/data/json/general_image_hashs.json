@@ -4419,6 +4419,15 @@
     }
   },
   {
+    "no": "PL131",
+    "deckImageHash": "000300017edeffffaf1f282eb80efc08fb00f9807e60fe061fc422001b0e3fff",
+    "name": "真田弦一郎",
+    "kanaName": "さなだげんいちろう",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "ST003",
     "deckImageHash": "0670de1cfe8e0e07005710ff00ff02ff9d393f207961fd00f984f1c0f1cc29f0",
     "name": "土方歳三",
@@ -6565,6 +6574,15 @@
     "deckImageHash": "7e327f10fe0204e90ff907f007f040fac0b801e44bff71b80710003827ff17ff",
     "name": "関羽",
     "kanaName": "かんう",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "PL130",
+    "deckImageHash": "00007c107dbefd7e761ee20ee0fe80b200005fc05fe0effe3c5e73923afe008c",
+    "name": "白石蔵ノ介",
+    "kanaName": "しらいしくらのすけ",
     "color": {
       "name": "碧"
     }
@@ -10647,6 +10665,15 @@
     }
   },
   {
+    "no": "PL129",
+    "deckImageHash": "ff6f7c1d780808c0007e183e6f9e47c20e033f007f00fff873807eee3ebf0100",
+    "name": "徳川カズヤ",
+    "kanaName": "とくがわカズヤ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "琥001",
     "deckImageHash": "7e00fef8fc38e001f9adfc41e081e170c1e1d0e10e652fcd67ede7ff04062006",
     "name": "池田輝政",
@@ -12811,6 +12838,15 @@
     "deckImageHash": "201363d15ff606f21ffff32ff0082100c78301370fe7046f28c633e4b2e8b7e0",
     "name": "宮本武蔵",
     "kanaName": "みやもとむさし",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "PL132",
+    "deckImageHash": "000700017dbeffbffc1ff80cf04ec45000100df21ff2f3ee6bf019e03f06259e",
+    "name": "幸村精市",
+    "kanaName": "ゆきむらせいいち",
     "color": {
       "name": "黄"
     }

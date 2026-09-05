@@ -1,0 +1,39 @@
+{
+  "no": "PL129",
+  "appear": "第6弾-PL",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/09/02〜26/09/15"
+  ],
+  "id": "940090afc41c34c67358c2e16ed0a519",
+  "detailImageId": "a64342ff3b1ade6e10d80906ee10728e",
+  "name": "徳川カズヤ",
+  "kanaName": "とくがわカズヤ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "特殊",
+  "cost": "3.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "ブラックホール",
+    "kanaName": "ぶらっくほーる",
+    "cost": "3",
+    "description": "最も武力の低い敵を移動できなくする。ただし自身の元の武力が下がる。自身への効果は戦闘中終了せず、消すことができない",
+    "categories": [
+      "妨害"
+    ],
+    "time": "固定時間",
+    "range": "e69fed059e9750ea4e334d2b855b052f"
+  },
+  "power": "10",
+  "intelligentzia": "7",
+  "skill": [],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=940090afc41c34c67358c2e16ed0a519",
+    "gameWiki": "https://eiketsudb.com/card/tokugawa-kazuya-tenipuri/"
+  }
+}
