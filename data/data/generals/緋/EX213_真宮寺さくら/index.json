@@ -1,0 +1,53 @@
+{
+  "no": "EX213",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/09/16〜26/09/29"
+  ],
+  "id": "6ecfe1aa8be276d803269673b6a9ea7c",
+  "detailImageId": "c12b16b71f825c1339392a7ad0e7a0d6",
+  "name": "真宮寺さくら",
+  "kanaName": "しんぐうじさくら",
+  "color": {
+    "name": "緋",
+    "r": "180",
+    "g": "25",
+    "b": "27"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "桜花放神",
+    "kanaName": "おうかほうしん",
+    "cost": "6",
+    "description": "【ため計略】（使用すると移動と兵種アクションができなくなり、一定時間後に計略が発動する。この計略は反計されない）<br>敵に武力によるダメージを与える。ダメージは互いの武力で上下する。さらに自身の武力と移動速度が上がり、兵力が回復する",
+    "categories": [
+      "強化",
+      "回復",
+      "ダメージ",
+      "ため計略"
+    ],
+    "time": "知力時間",
+    "range": "3d7d5fccededdad7f86b9d91b87703de"
+  },
+  "power": "7",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "昂揚",
+      "shortName": "昂",
+      "description": "コストに応じて士気が増加した状態で開戦します"
+    },
+    {
+      "name": "霊力",
+      "shortName": "霊",
+      "description": "特技「霊力」を持つ武将の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "4",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=6ecfe1aa8be276d803269673b6a9ea7c",
+    "gameWiki": "https://eiketsudb.com/card/shinguuji-sakura-sakura-taisen/"
+  }
+}

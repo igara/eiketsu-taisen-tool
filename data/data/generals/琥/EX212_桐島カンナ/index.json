@@ -1,0 +1,52 @@
+{
+  "no": "EX212",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/09/16〜26/09/29"
+  ],
+  "id": "d5173a7e51bd9ad143da91eb2595aff8",
+  "detailImageId": "5a4f30ac7d2cac3bd58f08c5663d0ab5",
+  "name": "桐島カンナ",
+  "kanaName": "きりしまカンナ",
+  "color": {
+    "name": "琥",
+    "r": "255",
+    "g": "120",
+    "b": "0"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "騎兵",
+  "strat": {
+    "name": "琉球空手桐島流",
+    "kanaName": "りゅうきゅうからてきりしまりゅう",
+    "cost": "4",
+    "description": "武力と移動速度が上がる。さらに敵１部隊と接触している時、以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・一百林牌【１】：接触している敵に武力によるダメージを与え吹き飛ばす。ダメージは互いの武力で上下する",
+    "categories": [
+      "強化",
+      "ダメージ",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "3",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "霊力",
+      "shortName": "霊",
+      "description": "特技「霊力」を持つ武将の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "8",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=d5173a7e51bd9ad143da91eb2595aff8",
+    "gameWiki": "https://eiketsudb.com/card/kirishima-kanna-sakura-taisen/"
+  }
+}

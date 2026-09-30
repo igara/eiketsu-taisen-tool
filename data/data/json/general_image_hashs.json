@@ -1989,6 +1989,24 @@
     }
   },
   {
+    "no": "EX210",
+    "deckImageHash": "001f281d7c947ff43e703e074c0e3c2f3c6738671837780e780ef80f380fb80f",
+    "name": "大神一郎",
+    "kanaName": "おおがみいちろう",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
+    "no": "EX214",
+    "deckImageHash": "10373b9d6070f03ff2660df21d723e207ffe10640c5c1d583fb00fc01fe03cf0",
+    "name": "大河新次郎",
+    "kanaName": "たいがしんじろう",
+    "color": {
+      "name": "蒼"
+    }
+  },
+  {
     "no": "PL001",
     "deckImageHash": "3fe3863d203f0127f143ebe7c31f02013e1f351f0c4b80a760f301e319e4fdc1",
     "name": "信",
@@ -4230,6 +4248,15 @@
     }
   },
   {
+    "no": "EX213",
+    "deckImageHash": "2ef2107c701e721f730666011eec1ff4407ef07ff01e400ff807e21bd20cd60f",
+    "name": "真宮寺さくら",
+    "kanaName": "しんぐうじさくら",
+    "color": {
+      "name": "緋"
+    }
+  },
+  {
     "no": "PL012",
     "deckImageHash": "01f7003d0f8e1bf31fbc1b820f801ff80f9f0d8f03c3049f041f011f379f078f",
     "name": "神楽",
@@ -6349,6 +6376,15 @@
     "deckImageHash": "78207c7c3cbe0d86fc9f7807f0072807f803f210fd28f187e587e9876f4304c1",
     "name": "玄奘三蔵",
     "kanaName": "げんじょうさんぞう",
+    "color": {
+      "name": "碧"
+    }
+  },
+  {
+    "no": "EX211",
+    "deckImageHash": "00070de93c1e1fdfdfc33e0c3c0c3e0c7e1e3e0e3c063c073c2f1c3f1e78a058",
+    "name": "李 紅蘭",
+    "kanaName": "りこうらん",
     "color": {
       "name": "碧"
     }
@@ -8685,6 +8721,15 @@
     }
   },
   {
+    "no": "EX217",
+    "deckImageHash": "006f0bf10ff01ff0bfe7dc2db0068007f807fc02fe03fa01fe01fc02f80af893",
+    "name": "マリア・タチバナ",
+    "kanaName": "マリア・タチバナ",
+    "color": {
+      "name": "玄"
+    }
+  },
+  {
     "no": "PL005",
     "deckImageHash": "0007f801f03ffdbcfda3fc83f003e003f01cf1fcd1f800e4588ef00ef0c3e267",
     "name": "李牧",
@@ -10512,6 +10557,15 @@
     }
   },
   {
+    "no": "EX216",
+    "deckImageHash": "00ff107f00fe227ba6ff7b1bcf008003078347cb20b917fcd07ce0fef380f081",
+    "name": "神崎すみれ",
+    "kanaName": "かんざきすみれ",
+    "color": {
+      "name": "紫"
+    }
+  },
+  {
     "no": "PL032",
     "deckImageHash": "8e9f01e303e0f7e001c005833cff7c5f7c1f3c8f3c08dc06fc0f6c0ffc08c80d",
     "name": "風間千景",
@@ -11997,6 +12051,15 @@
     }
   },
   {
+    "no": "EX212",
+    "deckImageHash": "00070ce1f772777a00403970ff787e7c7e4e7f86e824e600f00ff00ff00ff00b",
+    "name": "桐島カンナ",
+    "kanaName": "きりしまカンナ",
+    "color": {
+      "name": "琥"
+    }
+  },
+  {
     "no": "PL049",
     "deckImageHash": "3f677ff907981000bf0f9c0eb402ff00ff07fc2fe600e04040c74c037e18fff0",
     "name": "アルミン",
@@ -12802,6 +12865,15 @@
     "deckImageHash": "07f037fc377804702eda6f9dc91d4804f338f83a0c3a043f061f121f2a3fbc07",
     "name": "ガラハッド",
     "kanaName": "ガラハッド",
+    "color": {
+      "name": "黄"
+    }
+  },
+  {
+    "no": "EX215",
+    "deckImageHash": "00020fe01ff8fff8beff307830ec02a4001e43c057f27ff27fd2eff87b800200",
+    "name": "アイリス",
+    "kanaName": "アイリス",
     "color": {
       "name": "黄"
     }
