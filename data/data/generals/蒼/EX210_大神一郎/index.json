@@ -1,0 +1,50 @@
+{
+  "no": "EX210",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/09/16〜26/09/29"
+  ],
+  "id": "43b2c089aa0dbf210add5642c3d9edf7",
+  "detailImageId": "aa88d830115bb1768aca0f114f0c8f36",
+  "name": "大神一郎",
+  "kanaName": "おおがみいちろう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "特殊",
+  "cost": "2.5",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "快刀乱麻",
+    "kanaName": "かいとうらんま",
+    "cost": "6",
+    "description": "味方の武力と自軍の最大士気が上がる。さらに対象の味方の勢力数に応じて兵力が回復する。勢力数が一定以上の場合、さらに自身の槍撃ダメージが上がる",
+    "categories": [
+      "全体強化"
+    ],
+    "time": "知力時間",
+    "range": "8321f66cceffbaf26ad51225dc717746"
+  },
+  "power": "8",
+  "intelligentzia": "7",
+  "skill": [
+    {
+      "name": "同盟",
+      "shortName": "盟",
+      "description": "最大士気が増加した状態で開戦します。ただし１５より多くならない"
+    },
+    {
+      "name": "霊力",
+      "shortName": "霊",
+      "description": "特技「霊力」を持つ武将の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "18",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=43b2c089aa0dbf210add5642c3d9edf7",
+    "gameWiki": "https://eiketsudb.com/card/oogami-ichirou-sakura-taisen/"
+  }
+}

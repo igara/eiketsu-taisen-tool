@@ -1,0 +1,54 @@
+{
+  "no": "EX216",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/09/30〜26/10/13"
+  ],
+  "id": "84b8b519a3df476d9df97211f0edc338",
+  "detailImageId": "0c590b47a4f9489db80c42d2fc8c42a9",
+  "name": "神崎すみれ",
+  "kanaName": "かんざきすみれ",
+  "color": {
+    "name": "紫",
+    "r": "140",
+    "g": "0",
+    "b": "120"
+  },
+  "period": "特殊",
+  "cost": "2.0",
+  "unitType": "槍兵",
+  "strat": {
+    "name": "神崎風塵流",
+    "kanaName": "かんざきふうじんりゅう",
+    "cost": "5",
+    "description": "【陣形】自身の武力が上がり、全方向に槍の無敵攻撃を行う。さらに敵の知力を徐々に下げ、陣形の効果を受けている敵がいる時、以下の短計を発動できる。ただし効果終了時に一定時間計略を使用できなくなる<br>短計・胡蝶の舞【２】：敵に知力によるダメージを与える。ダメージは互いの知力で上下する",
+    "categories": [
+      "強化",
+      "妨害",
+      "ダメージ",
+      "陣形",
+      "短計"
+    ],
+    "time": "知力時間",
+    "range": "047872422760a276ec76b4e944192c08"
+  },
+  "power": "7",
+  "intelligentzia": "4",
+  "skill": [
+    {
+      "name": "先陣",
+      "shortName": "先",
+      "description": "開戦から一定時間、武力と知力が上がります"
+    },
+    {
+      "name": "霊力",
+      "shortName": "霊",
+      "description": "特技「霊力」を持つ武将の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "24",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=84b8b519a3df476d9df97211f0edc338",
+    "gameWiki": "https://eiketsudb.com/card/kanzaki-sumire-sakura-taisen/"
+  }
+}

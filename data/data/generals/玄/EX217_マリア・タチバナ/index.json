@@ -1,0 +1,51 @@
+{
+  "no": "EX217",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/09/30〜26/10/13"
+  ],
+  "id": "ee685fb015cd001ed60e72d6cabdd0f4",
+  "detailImageId": "1280c4874b1e98cd25a98a20ab5d6b2e",
+  "name": "マリア・タチバナ",
+  "kanaName": "マリア・タチバナ",
+  "color": {
+    "name": "玄",
+    "r": "99",
+    "g": "98",
+    "b": "97"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "鉄砲隊",
+  "strat": {
+    "name": "スネグーラチカ",
+    "kanaName": "すねぐーらちか",
+    "cost": "5",
+    "description": "武力が上がる。さらに射撃を当てた敵がいる場所に武力によるダメージを与える。ダメージは互いの武力で上下する。ただし射撃時の攻撃回数が減る",
+    "categories": [
+      "強化",
+      "ダメージ"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "6",
+  "skill": [
+    {
+      "name": "狙撃",
+      "shortName": "狙",
+      "description": "同じ射撃対象を一定時間ロックオンし続けることで、コストに応じてより強力な射撃を行える狙撃状態になります"
+    },
+    {
+      "name": "霊力",
+      "shortName": "霊",
+      "description": "特技「霊力」を持つ武将の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=ee685fb015cd001ed60e72d6cabdd0f4",
+    "gameWiki": "https://eiketsudb.com/card/maria-tachibana-sakura-taisen/"
+  }
+}

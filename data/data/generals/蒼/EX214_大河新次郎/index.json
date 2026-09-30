@@ -1,0 +1,50 @@
+{
+  "no": "EX214",
+  "appear": "第6弾-EX",
+  "appearPatterns": [
+    "大戦スタンプキャンペーン: 26/09/30〜26/10/13"
+  ],
+  "id": "765dfaf21d490b0079ef22b978e65ac9",
+  "detailImageId": "822cfc91cbf43891098ae8ed6317fd15",
+  "name": "大河新次郎",
+  "kanaName": "たいがしんじろう",
+  "color": {
+    "name": "蒼",
+    "r": "30",
+    "g": "60",
+    "b": "160"
+  },
+  "period": "特殊",
+  "cost": "1.5",
+  "unitType": "剣豪",
+  "strat": {
+    "name": "暴虎氷牙",
+    "kanaName": "ぼうこひょうが",
+    "cost": "5",
+    "description": "武力が上がり、斬撃の範囲が広くなる。さらに斬撃を当てた敵の移動速度を一定時間下げる。さらに計略を発動するたびに、武力が上がり、斬撃の範囲が広くなる。この効果は２回を上限とする",
+    "categories": [
+      "強化"
+    ],
+    "time": "知力時間",
+    "range": "db0f1158a4038d7c1a1f908c8750498d"
+  },
+  "power": "5",
+  "intelligentzia": "5",
+  "skill": [
+    {
+      "name": "疾駆",
+      "shortName": "疾",
+      "description": "兵種に応じて移動速度が上がります"
+    },
+    {
+      "name": "霊力",
+      "shortName": "霊",
+      "description": "特技「霊力」を持つ武将の武将コスト合計に応じて最大兵力が上がります"
+    }
+  ],
+  "kabuki": "6",
+  "url": {
+    "official": "https://eiketsu-taisen.net/datalist/?s=general&c=765dfaf21d490b0079ef22b978e65ac9",
+    "gameWiki": "https://eiketsudb.com/card/taiga-shinjirou-sakura-taisen/"
+  }
+}
